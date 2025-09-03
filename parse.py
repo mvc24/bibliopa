@@ -67,6 +67,8 @@ response = client.messages.create(
 )
 #"""
 
+response_dict = response.model_dump()
+
 # create information for file path
 timestamp = datetime.now().strftime("%Y%m%d-%H%M")
 label = input("Enter label:")
@@ -74,8 +76,8 @@ filepath =f"data/parsed/{label}-{timestamp}.json"
 
 # create new file with entire parsing result including metadata
 
-"""with open(filepath, "x") as parsedfile:
-    json.dump(response, parsedfile, ensure_ascii= False, indent=2)"""
-
 with open(filepath, "x") as parsedfile:
-    parsedfile.write(response)
+    json.dump(response_dict, parsedfile, ensure_ascii= False, indent=2)
+
+"""with open(filepath, "x") as parsedfile:
+    parsedfile.write(response)"""

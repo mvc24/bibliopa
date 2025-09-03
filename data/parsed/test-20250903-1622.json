@@ -1,0 +1,27 @@
+{
+  "id": "msg_01G1JNcRwcFH7DEgwe2JR5yo",
+  "content": [
+    {
+      "citations": null,
+      "text": "```json\n[\n  {\n    \"authors\": [],\n    \"title\": \"EIN GOTT DER KEINER WAR\",\n    \"publisher\": \"Europa Verlag\",\n    \"location\": \"Zürich\",\n    \"year\": 1950,\n    \"price\": \"€ 30.-\",\n    \"pages\": 263,\n    \"condition\": \"Sehr gut erhalten\",\n    \"notes\": \"Zweite Auflage. OBrosch.\",\n    \"is_multivolume\": false,\n    \"is_edited\": true,\n    \"editors\": [\n      {\n        \"first_name\": \"Richard\",\n        \"last_name\": \"Crossman\"\n      },\n      {\n        \"first_name\": \"Franz\",\n        \"last_name\": \"Borkenau\"\n      }\n    ],\n    \"contributors\": [\n      {\n        \"first_name\": \"Arthur\",\n        \"last_name\": \"Koestler\"\n      },\n      {\n        \"first_name\": \"Andre\",\n        \"last_name\": \"Gide\"\n      },\n      {\n        \"first_name\": \"Ignazio\",\n        \"last_name\": \"Silone\"\n      },\n      {\n        \"first_name\": \"Louis\",\n        \"last_name\": \"Fischer\"\n      },\n      {\n        \"first_name\": \"Richard\",\n        \"last_name\": \"Wright\"\n      },\n      {\n        \"first_name\": \"Stephen\",\n        \"last_name\": \"Spender\"\n      }\n    ],\n    \"volumes\": []\n  },\n  {\n    \"authors\": [\n      {\n        \"first_name\": \"Carl\",\n        \"last_name\": \"AMERY\"\n      }\n    ],\n    \"title\": \"Das Ende der Vorsehung. Die gnadenlosen Folgen des Christentums.\",\n    \"publisher\": \"Rowohlt\",\n    \"location\": \"Reinbek\",\n    \"year\": 1972,\n    \"price\": null,\n    \"pages\": 252,\n    \"condition\": \"Neuwertig\",\n    \"notes\": \"Erstausgabe. OLn.m.OU.\",\n    \"is_multivolume\": false,\n    \"is_edited\": false,\n    \"volumes\": []\n  },\n  {\n    \"authors\": [\n      {\n        \"first_name\": \"Winston C.\",\n        \"last_name\": \"CHURCHILL\"\n      }\n    ],\n    \"title\": \"Der Zweite Weltkrieg. Memoiren.\",\n    \"publisher\": \"Ullstein\",\n    \"location\": \"Frankfurt\",\n    \"year\": 1985,\n    \"price\": \"€ 40.-\",\n    \"pages\": null,\n    \"condition\": \"nur 1.Band etwas benutzt, sonst alle neuwertig\",\n    \"notes\": \"OBrosch. In Original-Kassette.\",\n    \"is_multivolume\": true,\n    \"is_edited\": false,\n    \"volumes\": [\n      {\n        \"volume_number\": 1,\n        \"title\": \"Der Sturm zieht auf\",\n        \"pages\": 337,\n        \"notes\": \"Mit einem einleitenden Essay von Rolf Hochhuth. Mit 27 Abb. und 19 Karten. XLV\"\n      },\n      {\n        \"volume_number\": 2,\n        \"title\": \"Englands größte Stunde\",\n        \"pages\": 370,\n        \"notes\": \"Mit 29 Abb. und 13. Karten\"\n      },\n      {\n        \"volume_number\": 3,\n        \"title\": \"Die große Allianz\",\n        \"pages\": 385,\n        \"notes\": \"Mit 26 Abb. und 15 Karten\"\n      },\n      {\n        \"volume_number\": 4,\n        \"title\": \"Schicksalswende\",\n        \"pages\": 475,\n        \"notes\": \"Mit 31 Abb. und 12 Karten\"\n      },\n      {\n        \"volume_number\": 5,\n        \"title\": \"Der Ring schließt sich\",\n        \"pages\": 363,\n        \"notes\": \"Mit 29 Abb. und 7 Karten\"\n      },\n      {\n        \"volume_number\": 6,\n        \"title\": \"Triumph und Tragödie\",\n        \"pages\": 376,\n        \"notes\": \"Mit 27 Abb. und 16 Karten\"\n      }\n    ]\n  }\n]\n```",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-4-20250514",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 710,
+    "output_tokens": 1128,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}
