@@ -1,0 +1,77 @@
+[
+  {
+    "authors": [
+      {
+        "first_name": "Carl",
+        "last_name": "AMERY"
+      }
+    ],
+    "title": "Das Ende der Vorsehung. Die gnadenlosen Folgen des Christentums.",
+    "publisher": "Rowohlt",
+    "location": "Reinbek",
+    "year": 1972,
+    "price": null,
+    "pages": 252,
+    "condition": "Neuwertig",
+    "notes": "Erstausgabe. OLn.m.OU.",
+    "is_multivolume": false,
+    "is_edited": false,
+    "volumes": []
+  },
+  {
+    "authors": [
+      {
+        "first_name": "Winston C.",
+        "last_name": "CHURCHILL"
+      }
+    ],
+    "title": "Der Zweite Weltkrieg. Memoiren.",
+    "publisher": "Ullstein",
+    "location": "Frankfurt",
+    "year": 1985,
+    "price": "€ 40.-",
+    "pages": null,
+    "condition": "nur 1.Band etwas benutzt, sonst alle neuwertig",
+    "notes": "OBrosch. In Original-Kassette.",
+    "is_multivolume": true,
+    "is_edited": false,
+    "volumes": [
+      {
+        "volume_number": 1,
+        "title": "Der Sturm zieht auf",
+        "pages": 337,
+        "notes": "Mit einem einleitenden Essay von Rolf Hochhuth. Mit 27 Abb. und 19 Karten. XLV"
+      },
+      {
+        "volume_number": 2,
+        "title": "Englands größte Stunde",
+        "pages": 370,
+        "notes": "Mit 29 Abb. und 13. Karten"
+      },
+      {
+        "volume_number": 3,
+        "title": "Die große Allianz",
+        "pages": 385,
+        "notes": "Mit 26 Abb. und 15 Karten"
+      },
+      {
+        "volume_number": 4,
+        "title": "Schicksalswende",
+        "pages": 475,
+        "notes": "Mit 31 Abb. und 12 Karten"
+      },
+      {
+        "volume_number": 5,
+        "title": "Der Ring schließt sich",
+        "pages": 363,
+        "notes": "Mit 29 Abb. und 7 Karten"
+      },
+      {
+        "volume_number": 6,
+        "title": "Triumph und Tragödie",
+        "pages": 376,
+        "notes": "Mit 27 Abb. und 16 Karten"
+      }
+    ]
+  }
+]
