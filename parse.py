@@ -79,5 +79,5 @@ filepath =f"data/parsed/{label}-{timestamp}.json"
 with open(filepath, "x") as parsedfile:
     json.dump(response_dict, parsedfile, ensure_ascii= False, indent=2)
 
-"""with open(filepath, "x") as parsedfile:
-    parsedfile.write(response)"""
+with open("data/last_output.txt", "w") as f:
+    f.write(filepath)
