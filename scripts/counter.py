@@ -35,6 +35,7 @@ def count_entries(filename, folder_path):
         for row in table.rows:
             if len(row.cells[0].text) >= 2:
                 entries += 1
+
     return entries
 
 
