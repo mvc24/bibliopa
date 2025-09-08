@@ -46,7 +46,7 @@ def consolidate_entries(filename):
                         find_price = None
                     price_removed = re.sub(r"\(\s*€\s*\d+[.-]*\s*\)|\s*€\s*\d+[.-]*\s*", "", row.cells[0].text)
 
-                    text_normalised = price_removed.replace('\n', ' ')
+                    text_normalised = price_removed.replace('\n', '. ')
                     text_normalised = ' '.join(text_normalised.split())
 
 
@@ -59,8 +59,8 @@ def consolidate_entries(filename):
                         })
 
     # pp(entries["p"][5], width=150)
-    # pp(entries["p"][12], width=150)
-    # pp(entries["kp"][12], width=150)
+    pp(entries["p"][12], width=150)
+    pp(entries["kp"][12], width=150)
     # pp(entries["kp"][17], width=150)
     # pp(entries["p"])
 
