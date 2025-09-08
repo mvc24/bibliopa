@@ -9,22 +9,6 @@ folder_preise = "data/original/preise/"
 folder_keinepreise = "data/original/keine preise/"
 files_info = "data/files_info_header.csv"
 
-def get_entries(filename, folder_path):
-    full_path = folder_path + filename
-    entries = []
-    if not os.path.exists(full_path):
-        print(f"! File {filename} is missing in {folder_path}")
-        return -1
-    doc = Document(full_path)
-    count = 0
-    for table in doc.tables:
-        for row in table.rows:
-            if len(row.cells[0].text) >= 2:
-                count += 1
-                price_removed = re.sub(r"\(\s*€\s*\d+[.-]*\s*\)|\s*€\s*\d+[.-]*\s*", "", row.cells[0].text)
-                entries.append({"text": price_removed, "source": full_path})
-    print(entries)
-
 def consolidate_entries(filename):
     paths = {
         'p': folder_preise + filename,
@@ -42,16 +26,45 @@ def consolidate_entries(filename):
             print(f"! File {path} does not exist")
             return -1
         doc = Document(path)
+
+        topic = filename.replace(".docx", "")
+        topic_normalized = topic.lower().split()[0]
+        topic_normalized = topic_normalized.replace('ä', 'ae').replace('ö', 'oe').replace('ü', 'ue').replace('ß', 'ss')
         count = 0
+
         for table in doc.tables:
             for row in table.rows:
                 if len(row.cells[0].text) >= 2:
                     count += 1
+
+                    find_price = re.search(r"\(\s*€\s*\d+[.-]*\s*\)|\s*€\s*\d+[.-]*\s*", row.cells[0].text)
+                    if find_price:
+                        find_price = find_price.group()
+                        price_number = re.search(r'\d+', find_price)
+                        find_price = int(price_number.group()) if price_number else None
+                    else:
+                        find_price = None
                     price_removed = re.sub(r"\(\s*€\s*\d+[.-]*\s*\)|\s*€\s*\d+[.-]*\s*", "", row.cells[0].text)
-                    entries[version].append({"text": price_removed, "source": version + "-" + filename})
-    pp(entries["p"][17])
+
+                    text_normalised = price_removed.replace('\n', ' ')
+                    text_normalised = ' '.join(text_normalised.split())
 
 
-consolidate_entries("ZEITSCHRIFTEN.docx")
+                    entries[version].append({
+                        "text": text_normalised,
+                        "source": version + "-" + filename,
+                        "price": find_price,
+                        "topic": topic,
+                        "topic_normalized": topic_normalized
+                        })
+
+    # pp(entries["p"][5], width=150)
+    # pp(entries["p"][12], width=150)
+    # pp(entries["kp"][12], width=150)
+    # pp(entries["kp"][17], width=150)
+    # pp(entries["p"])
+
+
+consolidate_entries("ÄGYPTEN VORDERER ORIENT.docx")
 
 # get_entries("ZEITSCHRIFTEN.docx", folder_preise)
