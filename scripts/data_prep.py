@@ -58,9 +58,27 @@ def consolidate_entries(filename):
                         "topic_normalized": topic_normalized
                         })
 
+        if version == "p":
+            count_p = count
+        elif version == "kp":
+            count_kp = count
+
+    if count_p > count_kp:
+        base_entries = entries["p"]
+        match_entries = entries["kp"]
+    elif count_kp > count_p:
+        base_entries = entries["kp"]
+        match_entries = entries["p"]
+    else:  # they're equal
+        base_entries = entries["kp"]
+        match_entries = entries["p"]
+
+    pp(f"For {topic}: base has {len(base_entries)} entries, match has {len(match_entries)} entries")
+    pp(f"For {topic}: using {'p' if base_entries == entries['p'] else 'kp'} as base ({len(base_entries)} entries), matching against {len(match_entries)} entries")
+
     # pp(entries["p"][5], width=150)
-    pp(entries["p"][12], width=150)
-    pp(entries["kp"][12], width=150)
+    # pp(entries["p"][12])
+    # pp(entries["kp"][12])
     # pp(entries["kp"][17], width=150)
     # pp(entries["p"])
 

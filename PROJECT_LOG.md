@@ -103,6 +103,49 @@ Output: Correctly identified:
 - Multiple contributors (Koestler, Gide, Silone, etc.)
 ```
 
+### Phase 4: Data Preparation & File Consolidation
+
+#### Challenge: Matching Entries Across File Versions
+**Problem**: Each topic exists in two versions - one with prices removed ("keine preise") and one with prices ("preise"). Need to consolidate these while preserving price information and handling discrepancies.
+
+**Analysis Findings**:
+- Entry counts differ between versions (e.g., ÄGYPTEN: 76 vs 83 entries)
+- Entries should be nearly identical after text normalization
+- Some records may have been moved between topics or removed entirely
+
+**Technical Implementation Started**:
+- Built consolidation function to process both file versions
+- Implemented text normalization (remove prices, clean whitespace)
+- Added entry counting logic to determine which version has more entries
+- Created base file selection logic (use version with more entries)
+
+**Data Processing Logic**:
+```python
+# Determine base file (more entries) vs match file
+if count_p > count_kp:
+    base_entries = entries["p"]
+    match_entries = entries["kp"]
+else:
+    base_entries = entries["kp"]
+    match_entries = entries["p"]
+```
+
+**Planned Workflow**:
+1. Use file with more entries as base
+2. Match entries via exact text comparison
+3. Merge price information where available
+4. Collect discrepancies for later cross-topic analysis
+5. Batch final entries (25 per batch) for API parsing
+6. Handle moved records after parsing (structured data search)
+
+**Next Implementation Steps**:
+- Text matching algorithm for entry consolidation
+- Discrepancy collection and handling
+- Batch creation for API processing
+- Cross-topic moved record detection
+
+**Key Learning**: Strategic decision to handle moved records after parsing using structured data rather than raw text comparison - much more efficient approach.
+
 ### Current Technical Stack
 - **Language**: Python 3.x
 - **API**: Claude (Anthropic) for text parsing
