@@ -1,14 +1,16 @@
 from docx import Document
 import csv
 import os
+from pathlib import Path
 import re
+import json
 from pprint import pp
 
 
 folder_preise = "data/original/preise/"
 folder_keinepreise = "data/original/keine preise/"
 files_info = "data/files_info_header.csv"
-discrepancies_file = "data/discrepancies.json"
+discrepancies_file = Path("data/discrepancies.json")
 
 def consolidate_entries(filename):
     paths = {
@@ -94,6 +96,7 @@ def consolidate_entries(filename):
 
 # 2. Loop through base_entries using enumerate to get both index and entry
 # 3. For each base_entry, first try to match at the same index in match_entries
+# 4. If same-index match fails, search through all of match_entries
 
     for index, base_entry in enumerate(base_entries):
         # pp({"index": index, "entry": base_entry})
@@ -110,33 +113,47 @@ def consolidate_entries(filename):
                         # pp(f"found a match for {index} at {match_found_at_index}.")
                         break
 
+# 5. Add unmatched entries to discrepancies
+
     p_indices = set(range(len(match_entries)))
     unmatched_indices = p_indices - p_entries_matched
-    pp(unmatched_indices)
+
+    entries_for_discrepancies = []
+
+    for unmatched_index in unmatched_indices:
+        entry = match_entries[unmatched_index]
+        entries_for_discrepancies.append(entry)
+    # pp(entries_for_discrepancies)
 
 
-#
-#    - Check if index exists in match_entries (index < len(match_entries))
-#    - If it exists, compare base_entry["text"] with match_entries[index]["text"]
-#    - Use string comparison that ignores extra whitespace (.strip() and normalize spaces)
-#   if base_entry["text"].strip() == match_entry["text"].strip():
-#   -> add current index to matched_p_indices
+    if not discrepancies_file.exists():
+        raise FileNotFoundError("discrepancies file missing!")
+    else:
+        with open(discrepancies_file, "r") as f:
+            discrepancy_list = json.load(f)
+            discrepancy_list.extend(entries_for_discrepancies)
 
-# 4. If same-index match fails, search through all of match_entries
-#    - Loop through entire match_entries list
-#    - Compare base_entry["text"] with each match_entry["text"]
-#    - If match found, remember which index it was found at
-#
-#       match_found_at_index = None  # Initialize as None (meaning no match found yet)
-#
-#       for search_index, match_entry in enumerate(match_entries):
-#           if base_entry["text"].strip() == match_entry["text"].strip():
-#               match_found_at_index = search_index  # Remember where we found it
-#               add index to matched_p_indices
-#               break  # Stop searching once we find it
+        with open(discrepancies_file, "w") as f:
+            json.dump(discrepancy_list, f, ensure_ascii=False, indent=4)
+            print("discrepancies saved")
 
 
-# 5. Handle matches
+
+    # pp(unmatched_indices)
+
+#    - Include the full 'p' entry for review
+
+# 6. Write discrepancies into file
+#    1. check if file exists
+#       - NO: throw error, stop
+#       - YES: continue
+#    2. use json.load() to read current file
+#    3. append entries from discrepancies list
+#    4. save the new list to file
+#    5. close file
+
+
+# 7. Handle matches
 
 #       if match_found_at_same_index:
 #           # Handle match - use kp text + p price
@@ -145,7 +162,7 @@ def consolidate_entries(filename):
 #       else:
 #           # No match found - use kp text + no price
 
-# 6. Create matched record when match is found
+# 8. Create matched record when match is found
 #    - Use "text" from the 'kp' version (always authoritative)
 #    - Use price from 'p' version if it exists, otherwise None
 #    - Use "topic" and "topic_normalized" from 'kp' version (always authoritative)
@@ -158,23 +175,6 @@ def consolidate_entries(filename):
         #     "topic_normalized": kp_topic_normalized
         # })
 
-# 7. Add unmatched entries to discrepancies
-#    - Use the indices that are NOT in matched_p_indices
-#    - Only unmatched 'p' entries (entries that exist in p but not in kp)
-#    - Include the full 'p' entry for review
-#    - These represent entries that were removed from the authoritative kp version
-
-#   After all kp entries are processed, find unmatched p entries
-#   indices = set()
-
-# 8. Write discrepancies into file
-#    1. check if file exists
-#       - NO: throw error, stop
-#       - YES: continue
-#    2. use json.load() to read current file
-#    3. append entries from discrepancies list
-#    4. save the new list to file
-#    5. close file
 
 
 # BATCHING SECTION
