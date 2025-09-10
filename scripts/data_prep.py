@@ -1,5 +1,5 @@
 from docx import Document
-import csv
+from datetime import datetime
 import os
 from pathlib import Path
 import re
@@ -11,6 +11,7 @@ folder_preise = "data/original/preise/"
 folder_keinepreise = "data/original/keine preise/"
 files_info = "data/files_info_header.csv"
 discrepancies_file = Path("data/discrepancies.json")
+processing_log = Path("data/processing_log.json")
 
 def consolidate_entries(filename):
     paths = {
@@ -93,7 +94,6 @@ def consolidate_entries(filename):
     records = []
     discrepancies = {}
     p_entries_matched = set()
-    kp2p_matches = {}
 
 # 2. Loop through base_entries using enumerate to get both index and entry
 # 3. For each base_entry, first try to match at the same index in match_entries
@@ -102,19 +102,15 @@ def consolidate_entries(filename):
 # 8. Create matched record when match is found
 
     for index, base_entry in enumerate(base_entries):
-        # pp({"index": index, "entry": base_entry})
         if index < len(match_entries):
             if base_entry["text"].strip() == match_entries[index]["text"].strip():
                 p_entries_matched.add(index)
-                # pp(match_entries)
                 records.append({
                     "text": base_entry["text"],
                     "price": match_entries[index]["price"],
                     "topic": base_entry["topic"],
                     "topic_normalised": base_entry["topic_normalised"]
                 })
-                # kp2p_matches[index] = index
-                # pp(f"found a match at {index}")
             else:
                 for search_index, match_entry in enumerate(match_entries):
                     if base_entry["text"].strip() == match_entry["text"].strip():
@@ -125,9 +121,24 @@ def consolidate_entries(filename):
                             "topic": base_entry["topic"],
                             "topic_normalised": base_entry["topic_normalised"]
                         })
-                        # kp2p_matches[index] = search_index
                         break
-    pp(records)
+                else:
+                    records.append({
+                            "text": base_entry["text"],
+                            "price": None,
+                            "topic": base_entry["topic"],
+                            "topic_normalised": base_entry["topic_normalised"]
+                        })
+        else:
+            records.append({
+                            "text": base_entry["text"],
+                            "price": None,
+                            "topic": base_entry["topic"],
+                            "topic_normalised": base_entry["topic_normalised"]
+                        })
+
+
+    # pp(records)
     # pp(base_entries)
 
 
@@ -142,6 +153,7 @@ def consolidate_entries(filename):
     for unmatched_index in unmatched_indices:
         entry = match_entries[unmatched_index]
         entries_for_discrepancies.append(entry)
+
     # pp(entries_for_discrepancies)
 
 # 6. Write discrepancies into file
@@ -154,32 +166,35 @@ def consolidate_entries(filename):
 
         with open(discrepancies_file, "w") as f:
             json.dump(discrepancy_list, f, ensure_ascii=False, indent=4)
-            print("discrepancies saved")
+        print(f"{len(entries_for_discrepancies)} discrepancies saved to file")
+
+# create a logging file to check data processing numbers
+    timestamp = datetime.now().strftime("%Y%m%d-%H%M")
+    log_entry = {
+        "timestamp": timestamp,
+        "topic": topic,
+        "kp_entries": len(base_entries),
+        "p_entries": len(match_entries),
+        "records_created": len(records),
+        "matches_found": len(p_entries_matched),
+        "discrepancies": len(entries_for_discrepancies)
+        }
+
+    if not processing_log.exists():
+        raise FileNotFoundError("process_log file missing!")
+    else:
+        with open(processing_log, "r") as f:
+            process_report = json.load(f)
+            process_report.append(log_entry)
+
+        with open(processing_log, "w") as f:
+            json.dump(process_report, f, ensure_ascii=False, indent=4)
 
 
-# 7. Handle matches
 
-#       if match_found_at_same_index:
-#           # Handle match - use kp text + p price
-#       elif match_found_at_different_index:
-#           # Handle match - use kp text + p price
-#       else:
-#           # No match found - use kp text + no price
-
-# 8. Create matched record when match is found
-#    - Use "text" from the 'kp' version (always authoritative)
-#    - Use price from 'p' version if it exists, otherwise None
-#    - Use "topic" and "topic_normalized" from 'kp' version (always authoritative)
-#    - Remove "source" field as it's no longer needed
-#       # Create and append the new record in one step
-        # records.append({
-        #     "text": kp_text,
-        #     "price": p_price,
-        #     "topic": kp_topic,
-        #     "topic_normalized": kp_topic_normalized
-        # })
-
-
+    # TODO create a "log" file that saves number of records, discrepancies, timestamp of processing
+    # TODO add another normalisation step at the beginning to catch accents used as apostrophes
+    # TODO and maybe for "-"" but that's not as important
 
 # BATCHING SECTION
 
@@ -247,6 +262,6 @@ def consolidate_entries(filename):
     # pp(entries["p"])
 
 
-consolidate_entries("ÄGYPTEN VORDERER ORIENT.docx")
+consolidate_entries("ISLAM.docx")
 
 # get_entries("ZEITSCHRIFTEN.docx", folder_preise)

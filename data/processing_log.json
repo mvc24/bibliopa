@@ -1,0 +1,20 @@
+[
+    {
+        "timestamp": "20250910-2144",
+        "topic": "Kinder- und Jugendliteratur",
+        "kp_entries": 94,
+        "p_entries": 93,
+        "records_created": 94,
+        "matches_found": 81,
+        "discrepancies": 12
+    },
+    {
+        "timestamp": "20250910-2144",
+        "topic": "ISLAM",
+        "kp_entries": 66,
+        "p_entries": 66,
+        "records_created": 66,
+        "matches_found": 61,
+        "discrepancies": 5
+    }
+]
