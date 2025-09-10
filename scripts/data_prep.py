@@ -8,6 +8,7 @@ from pprint import pp
 folder_preise = "data/original/preise/"
 folder_keinepreise = "data/original/keine preise/"
 files_info = "data/files_info_header.csv"
+discrepancies_file = "data/discrepancies.json"
 
 def consolidate_entries(filename):
     paths = {
@@ -65,32 +66,61 @@ def consolidate_entries(filename):
             count_kp = count
 
     # Files have been processed, content of rows normalised and stored in dictionaries.
-    # The counts are checked and the one with more entries is chosen as base.
+    base_entries = entries["kp"]  # Always use kp as authoritative
+    match_entries = entries["p"]   # Always try to get prices from p
 
-    if count_p > count_kp:
-        base_entries = entries["p"]
-        match_entries = entries["kp"]
-    elif count_kp > count_p:
-        base_entries = entries["kp"]
-        match_entries = entries["p"]
-    else:  # they're equal
-        base_entries = entries["kp"]
-        match_entries = entries["p"]
+# TEXT MATCHING STEP:
 
-# TEXT MATCHING SECTION
+# TEXT MATCHING LOGIC - DATA SOVEREIGNTY RULES:
+#
+# PRIMARY SOURCE (kp): Contains the authoritative, most recent data
+# - Use for: text content, topic, topic_normalized
+# - This is the "master" version with grandfather's latest edits
+#
+# SECONDARY SOURCE (p): Contains pricing data only
+# - Use for: price field only
+# - This is the older version that still has prices before they were removed
+#
+# MATCHING GOAL: Find same entries in both files to combine kp content + p prices
+# UNMATCHED kp entries: Keep them (they're still valid, just no price available)
+# UNMATCHED p entries: Add to discrepancies (they were removed from kp for a reason)
 
-# 1. Initialize new dictionaries
-#    - Create empty 'records' dictionary to store final matched entries
-#    - Create empty 'discrepancies' dictionary to store unmatched entries
+
+# 1. Initialize new data collections
+
+    records = {}
+    discrepancies = {}
+    p_entries_matched = set()
 
 # 2. Loop through base_entries using enumerate to get both index and entry
-#    - for index, base_entry in enumerate(base_entries):
-
 # 3. For each base_entry, first try to match at the same index in match_entries
+
+    for index, base_entry in enumerate(base_entries):
+        # pp({"index": index, "entry": base_entry})
+        if index < len(match_entries):
+            if base_entry["text"].strip() == match_entries[index]["text"].strip():
+                p_entries_matched.add(index)
+                # pp(f"found a match at {index}")
+            else:
+                for search_index, match_entry in enumerate(match_entries):
+                    if base_entry["text"].strip() == match_entry["text"].strip():
+                        match_found_at_index = None
+                        match_found_at_index = search_index
+                        p_entries_matched.add(search_index)
+                        # pp(f"found a match for {index} at {match_found_at_index}.")
+                        break
+
+    p_indices = set(range(len(match_entries)))
+    unmatched_indices = p_indices - p_entries_matched
+    pp(unmatched_indices)
+
+
+#
 #    - Check if index exists in match_entries (index < len(match_entries))
 #    - If it exists, compare base_entry["text"] with match_entries[index]["text"]
 #    - Use string comparison that ignores extra whitespace (.strip() and normalize spaces)
 #   if base_entry["text"].strip() == match_entry["text"].strip():
+#   -> add current index to matched_p_indices
 
 # 4. If same-index match fails, search through all of match_entries
 #    - Loop through entire match_entries list
@@ -102,39 +132,49 @@ def consolidate_entries(filename):
 #       for search_index, match_entry in enumerate(match_entries):
 #           if base_entry["text"].strip() == match_entry["text"].strip():
 #               match_found_at_index = search_index  # Remember where we found it
+#               add index to matched_p_indices
 #               break  # Stop searching once we find it
 
 
-# 5. Handle the special case for 'kp' base files
-#    - If base_entries came from 'kp' and no match found in 'p', treat as matched
-#    - This means: don't add to discrepancies, do add to records
+# 5. Handle matches
 
-#       # Pseudocode flow:
 #       if match_found_at_same_index:
-#               # Handle match
+#           # Handle match - use kp text + p price
 #       elif match_found_at_different_index:
-#               # Handle match
-#       elif base_is_kp_and_no_match_in_p:  # <-- Special case here
-#               # Treat as match (don't add to discrepancies)
+#           # Handle match - use kp text + p price
 #       else:
-#               # Add to discrepancies
+#           # No match found - use kp text + no price
 
-# 6. Create matched record when match is found (or special case applies)
-#    - Use "text" from the 'kp' version (either base_entry or match_entry)
+# 6. Create matched record when match is found
+#    - Use "text" from the 'kp' version (always authoritative)
 #    - Use price from 'p' version if it exists, otherwise None
-#    - Use "topic" and "topic_normalized" from base_entry TODO it should be 'kp'!!!
+#    - Use "topic" and "topic_normalized" from 'kp' version (always authoritative)
 #    - Remove "source" field as it's no longer needed
 #       # Create and append the new record in one step
         # records.append({
-        #     "text": text_from_kp,
-        #     "price": price_from_p,
-        #     "topic": topic_from_base, TODO sure?
-        #     "topic_normalized": topic_normalized_from_base TODO from KP!!!
+        #     "text": kp_text,
+        #     "price": p_price,
+        #     "topic": kp_topic,
+        #     "topic_normalized": kp_topic_normalized
         # })
 
 # 7. Add unmatched entries to discrepancies
-#    - Only when no match found AND not the special 'kp' case
-#    - Include original entry plus TODO what base entry is used???
+#    - Use the indices that are NOT in matched_p_indices
+#    - Only unmatched 'p' entries (entries that exist in p but not in kp)
+#    - Include the full 'p' entry for review
+#    - These represent entries that were removed from the authoritative kp version
+
+#   After all kp entries are processed, find unmatched p entries
+#   indices = set()
+
+# 8. Write discrepancies into file
+#    1. check if file exists
+#       - NO: throw error, stop
+#       - YES: continue
+#    2. use json.load() to read current file
+#    3. append entries from discrepancies list
+#    4. save the new list to file
+#    5. close file
 
 
 # BATCHING SECTION
@@ -149,7 +189,7 @@ def consolidate_entries(filename):
     # records_B = consolidate_entries("ERSTAUSGABEN H - M")
     # records_C = consolidate_entries("ERSTAUSGABEN N - Z")
 
-    # # 2. COMBINATION STEP (much simpler now)
+    # # 2. COMBINATION STEP
     # if topic_normalized == "erstausgaben":
     #     combined_records = records_A + records_B + records_C
     # else:
