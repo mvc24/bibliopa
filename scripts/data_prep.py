@@ -90,28 +90,47 @@ def consolidate_entries(filename):
 
 # 1. Initialize new data collections
 
-    records = {}
+    records = []
     discrepancies = {}
     p_entries_matched = set()
+    kp2p_matches = {}
 
 # 2. Loop through base_entries using enumerate to get both index and entry
 # 3. For each base_entry, first try to match at the same index in match_entries
 # 4. If same-index match fails, search through all of match_entries
+# 7. Handle matches
+# 8. Create matched record when match is found
 
     for index, base_entry in enumerate(base_entries):
         # pp({"index": index, "entry": base_entry})
         if index < len(match_entries):
             if base_entry["text"].strip() == match_entries[index]["text"].strip():
                 p_entries_matched.add(index)
+                # pp(match_entries)
+                records.append({
+                    "text": base_entry["text"],
+                    "price": match_entries[index]["price"],
+                    "topic": base_entry["topic"],
+                    "topic_normalised": base_entry["topic_normalised"]
+                })
+                # kp2p_matches[index] = index
                 # pp(f"found a match at {index}")
             else:
                 for search_index, match_entry in enumerate(match_entries):
                     if base_entry["text"].strip() == match_entry["text"].strip():
-                        match_found_at_index = None
-                        match_found_at_index = search_index
                         p_entries_matched.add(search_index)
-                        # pp(f"found a match for {index} at {match_found_at_index}.")
+                        records.append({
+                            "text": base_entry["text"],
+                            "price": match_entry["price"],
+                            "topic": base_entry["topic"],
+                            "topic_normalised": base_entry["topic_normalised"]
+                        })
+                        # kp2p_matches[index] = search_index
                         break
+    pp(records)
+    # pp(base_entries)
+
+
 
 # 5. Add unmatched entries to discrepancies
 
@@ -125,7 +144,7 @@ def consolidate_entries(filename):
         entries_for_discrepancies.append(entry)
     # pp(entries_for_discrepancies)
 
-
+# 6. Write discrepancies into file
     if not discrepancies_file.exists():
         raise FileNotFoundError("discrepancies file missing!")
     else:
@@ -136,21 +155,6 @@ def consolidate_entries(filename):
         with open(discrepancies_file, "w") as f:
             json.dump(discrepancy_list, f, ensure_ascii=False, indent=4)
             print("discrepancies saved")
-
-
-
-    # pp(unmatched_indices)
-
-#    - Include the full 'p' entry for review
-
-# 6. Write discrepancies into file
-#    1. check if file exists
-#       - NO: throw error, stop
-#       - YES: continue
-#    2. use json.load() to read current file
-#    3. append entries from discrepancies list
-#    4. save the new list to file
-#    5. close file
 
 
 # 7. Handle matches
