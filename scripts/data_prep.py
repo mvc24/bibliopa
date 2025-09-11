@@ -239,6 +239,7 @@ def consolidate_entries(filename):
 
     # pp(records)
 
+# 5. Group records into batches and save as JSON files
     batches = {}
     for record in records:
         batch_id = record["batch_id"]
@@ -255,27 +256,12 @@ def consolidate_entries(filename):
             json.dump(batch_records, f, ensure_ascii=False, indent=4)
             pp(f"{filename} successfully saved")
 
+    pass
     # pp(len(batches[4]))
 
-# 5. Group records into batches and save as JSON files
-#    - Loop through batch numbers (1 to batch_total)
-#    - For each batch, collect all records where batch_id matches current batch number
-#    - Create filename: f"{topic_normalized}_batch_{batch_id}_of_{batch_total}.json"
-#    - Create full filepath: data/batched/{topic_normalized}/{filename}
-#    - Write batch records to JSON file using json.dump()
-#    - Check if file was created successfully, if not, raise error
 
 # 6. Print success message
 #    - Print total number of records processed
 #    - Print number of batches created
 #    - Print number of discrepancies found
 #    - Confirm all files created successfully
-
-# 7. Return values
-#    - Return records dictionary and discrepancies dictionary for further processing
-
-
-
-consolidate_entries("ISLAM.docx")
-
-# get_entries("ZEITSCHRIFTEN.docx", folder_preise)

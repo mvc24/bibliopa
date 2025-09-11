@@ -1,15 +1,16 @@
-# import packages
+from pathlib import Path
 import json
+from scripts.data_prep import consolidate_entries
+from pprint import pp
 
-# read parsed file
-with open("data/last_output.txt", "r") as f:
-    filepath = f.read().strip()
+path = Path("data/file_groups.json")
 
-# print(filepath)
+with open(path, "r") as f:
+    file_groups = json.load(f)
 
-with open(filepath, "r", encoding="utf-8") as f:
-    data = json.load(f)
+s = file_groups["s"]
 
-result_raw = data["content"][0]
 
-print(result_raw)
+for file in s:
+    filename = file["filename"]
+    consolidate_entries(filename)

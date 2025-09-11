@@ -1,3 +1,5 @@
-x = range(1, 10)
-for n in x:
-    print(n)
+import json
+from pathlib import Path
+from pprint import pp
+
+log = Path("data/processing_log.json")
