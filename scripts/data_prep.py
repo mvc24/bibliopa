@@ -185,12 +185,14 @@ def consolidate_entries(filename):
 
 # create a logging file to check data processing numbers
     timestamp = datetime.now().strftime("%Y%m%d-%H%M")
+    total_records = len(records)
+
     log_entry = {
         "timestamp": timestamp,
         "topic": topic,
         "kp_entries": len(base_entries),
         "p_entries": len(match_entries),
-        "records_created": len(records),
+        "records_created": total_records,
         "matches_found": len(p_entries_matched),
         "discrepancies": len(entries_for_discrepancies)
         }
@@ -208,30 +210,52 @@ def consolidate_entries(filename):
 
 # BATCHING SECTION
 
+
+
 # 1. handle combination step for "erstausgaben"
 
-    # # 2. COMBINATION STEP
-    # if topic_normalized == "erstausgaben":
-    #     combined_records = records_A + records_B + records_C
+    # if topic_normalised == "erstausgaben":
+    #     pp(f"skipping erstausgaben for now")
+    #     return
     # else:
-    #     combined_records = records
 
 # 2. Create folder structure
+    folder = Path("data/batched")
+    batch_folder = folder / topic_normalised
+    batch_folder.mkdir(exist_ok=True)
 
 
 # 3. Calculate batch information
-#    - Get total number of records: len(records)
-#    - Calculate number of batches: math.ceil(total_records / 25)
-#    - Store batch_size = 25 as variable
+    batch_size = 25
+    total_batches = (total_records + batch_size - 1) // batch_size
 
 # 4. Add batch information to each record
-#    - Loop through records with enumerate to get index
-#    - Calculate batch_id: (index // batch_size) + 1
-#    - Add batch_id to each record
-#    - Add batch_total to each record
-#    - Add entry_index to each record (this is the enumerate index)
-#    - Create composite_id: f"{topic_normalized}_{entry_index}_{batch_id}_{batch_total}"
-#    - Add composite_id to each record
+    for index, record in enumerate(records):
+        batch_id = (index // batch_size) + 1
+        record["record_index"] = index
+        record["batch_id"] = batch_id
+        record["total_batches"] = total_batches
+        record["composite_id"] = f"{topic_normalised}_{index}_{batch_id}_{total_batches}"
+
+    # pp(records)
+
+    batches = {}
+    for record in records:
+        batch_id = record["batch_id"]
+        if batch_id not in batches:
+            batches[batch_id] = []
+        batches[batch_id].append(record)
+
+    for batch_id, batch_records in batches.items():
+        filename = f"{topic_normalised}_{batch_id}-{total_batches}.json"
+
+        path = batch_folder / filename
+
+        with open(path, "w") as f:
+            json.dump(batch_records, f, ensure_ascii=False, indent=4)
+            pp(f"{filename} successfully saved")
+
+    # pp(len(batches[4]))
 
 # 5. Group records into batches and save as JSON files
 #    - Loop through batch numbers (1 to batch_total)
@@ -252,6 +276,6 @@ def consolidate_entries(filename):
 
 
 
-consolidate_entries("Kinder- und Jugendliteratur.docx")
+consolidate_entries("ISLAM.docx")
 
 # get_entries("ZEITSCHRIFTEN.docx", folder_preise)
