@@ -196,20 +196,9 @@ def consolidate_entries(filename):
             json.dump(process_report, f, ensure_ascii=False, indent=4)
 
 
-    # TODO add another normalisation step at the beginning to catch accents used as apostrophes
-    # TODO and maybe for "-"" but that's not as important
-
 # BATCHING SECTION
 
-# 1. Topic normalization fixes
-#    - Check if topic contains "ERSTAUSGABEN" - if yes, set both topic and topic_normalized to "erstausgaben"
-#    - Check if topic is "DEUTSCHE LITERATUR MONOGRAPHIEN" - if yes, set topic_normalized to "deutsche-literatur-monographien"
-#    - Check if topic is "DEUTSCHE LITERATUR TEXTE" - if yes, set topic_normalized to "deutsche-literatur-texte"
-
-# Process each file individually (discrepancies handled internally)
-    # records_A = consolidate_entries("ERSTAUSGABEN A - G")
-    # records_B = consolidate_entries("ERSTAUSGABEN H - M")
-    # records_C = consolidate_entries("ERSTAUSGABEN N - Z")
+# 1. handle combination step for "erstausgaben"
 
     # # 2. COMBINATION STEP
     # if topic_normalized == "erstausgaben":
@@ -218,9 +207,7 @@ def consolidate_entries(filename):
     #     combined_records = records
 
 # 2. Create folder structure
-#    - Create path: data/batched/{topic_normalized}/
-#    - Use os.makedirs() with exist_ok=True
-#    - Check if folder exists after creation, if not, raise error and stop
+
 
 # 3. Calculate batch information
 #    - Get total number of records: len(records)
