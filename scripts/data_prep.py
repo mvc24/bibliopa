@@ -32,7 +32,7 @@ def consolidate_entries(filename):
             return -1
         doc = Document(path)
 
-        topic = filename.upper().replace(".docx", "")
+        topic = filename.upper().replace(".DOCX", "")
         if topic == "DEUTSCHE LITERATUR MONOGRAPHIEN":
             topic_normalised = "de-lit-monographien"
         elif topic == "DEUTSCHE LITERATUR TEXTE":
@@ -55,10 +55,10 @@ def consolidate_entries(filename):
                     else:
                         find_price = None
                     price_removed = re.sub(r"\(\s*€\s*\d+[.-]*\s*\)|\s*€\s*\d+[.-]*\s*", "", row.cells[0].text)
+                    price_cleaned = re.sub(r"\ba`\s*", "", price_removed)
 
-                    text_normalised = price_removed.replace('\n', '. ')
+                    text_normalised = price_cleaned.replace('\n', '. ')
                     text_normalised = ' '.join(text_normalised.split())
-
 
                     entries[version].append({
                         "text": text_normalised,
@@ -255,6 +255,6 @@ def consolidate_entries(filename):
 
 
 
-consolidate_entries("ISLAM.docx")
+consolidate_entries("Kinder- und Jugendliteratur.docx")
 
 # get_entries("ZEITSCHRIFTEN.docx", folder_preise)

@@ -16,5 +16,23 @@
         "records_created": 66,
         "matches_found": 61,
         "discrepancies": 5
+    },
+    {
+        "timestamp": "20250911-1315",
+        "topic": "KINDER- UND JUGENDLITERATUR.DOCX",
+        "kp_entries": 94,
+        "p_entries": 93,
+        "records_created": 94,
+        "matches_found": 81,
+        "discrepancies": 12
+    },
+    {
+        "timestamp": "20250911-1318",
+        "topic": "KINDER- UND JUGENDLITERATUR",
+        "kp_entries": 94,
+        "p_entries": 93,
+        "records_created": 94,
+        "matches_found": 81,
+        "discrepancies": 12
     }
 ]
