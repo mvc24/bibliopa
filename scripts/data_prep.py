@@ -32,9 +32,14 @@ def consolidate_entries(filename):
             return -1
         doc = Document(path)
 
-        topic = filename.replace(".docx", "")
-        topic_normalised = topic.lower().split()[0]
-        topic_normalised = topic_normalised.replace('ä', 'ae').replace('ö', 'oe').replace('ü', 'ue').replace('ß', 'ss')
+        topic = filename.upper().replace(".docx", "")
+        if topic == "DEUTSCHE LITERATUR MONOGRAPHIEN":
+            topic_normalised = "de-lit-monographien"
+        elif topic == "DEUTSCHE LITERATUR TEXTE":
+            topic_normalised = "de-lit-texte"
+        else:
+            topic_normalised = topic.lower().split("-")[0]
+            topic_normalised = topic_normalised.replace('ä', 'ae').replace('ö', 'oe').replace('ü', 'ue').replace('ß', 'ss')
         count = 0
 
         for table in doc.tables:
@@ -191,8 +196,6 @@ def consolidate_entries(filename):
             json.dump(process_report, f, ensure_ascii=False, indent=4)
 
 
-
-    # TODO create a "log" file that saves number of records, discrepancies, timestamp of processing
     # TODO add another normalisation step at the beginning to catch accents used as apostrophes
     # TODO and maybe for "-"" but that's not as important
 
@@ -250,16 +253,6 @@ def consolidate_entries(filename):
 # 7. Return values
 #    - Return records dictionary and discrepancies dictionary for further processing
 
-
-
-    # pp(f"For {topic}: base has {len(base_entries)} entries, match has {len(match_entries)} entries")
-    # pp(f"For {topic}: using {'p' if base_entries == entries['p'] else 'kp'} as base ({len(base_entries)} entries), matching against {len(match_entries)} entries")
-
-    # pp(entries["p"][5], width=150)
-    # pp(entries["p"][12])
-    # pp(entries["kp"][12])
-    # pp(entries["kp"][17], width=150)
-    # pp(entries["p"])
 
 
 consolidate_entries("ISLAM.docx")
