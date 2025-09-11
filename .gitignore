@@ -6,3 +6,4 @@ data/original
 data/consolidated
 data/batched
 scripts/scratch.py
+api/batch_sample.py

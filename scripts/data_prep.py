@@ -256,7 +256,8 @@ def consolidate_entries(filename):
             json.dump(batch_records, f, ensure_ascii=False, indent=4)
             pp(f"{filename} successfully saved")
 
-    pass
+consolidate_entries("ISLAM.docx")
+   # pass
     # pp(len(batches[4]))
 
 
