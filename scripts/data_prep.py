@@ -97,7 +97,6 @@ def consolidate_entries(filename):
 # 1. Initialize new data collections
 
     records = []
-    discrepancies = {}
     p_entries_matched = set()
 
 # 2. Loop through base_entries using enumerate to get both index and entry
@@ -142,10 +141,21 @@ def consolidate_entries(filename):
                             "topic_normalised": base_entry["topic_normalised"]
                         })
 
+# save records to file
+#   create filename
 
-    # pp(records)
-    # pp(base_entries)
+    if topic_normalised == "erstausgaben":
+        records_file = topic.lower().replace(" ", "-").replace("---", "-") + ".json"
+    else:
+        records_file = topic_normalised + ".json"
 
+    path = Path("data/consolidated")
+    records_path = path / records_file
+
+    with open(records_path, "w") as f:
+        json.dump(records, f, ensure_ascii=False, indent=4)
+
+    pp(f"Records successfully saved to {records_path}")
 
 
 # 5. Add unmatched entries to discrepancies
@@ -171,7 +181,7 @@ def consolidate_entries(filename):
 
         with open(discrepancies_file, "w") as f:
             json.dump(discrepancy_list, f, ensure_ascii=False, indent=4)
-        print(f"{len(entries_for_discrepancies)} discrepancies saved to file")
+        # print(f"{len(entries_for_discrepancies)} discrepancies saved to file")
 
 # create a logging file to check data processing numbers
     timestamp = datetime.now().strftime("%Y%m%d-%H%M")

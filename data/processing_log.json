@@ -34,5 +34,14 @@
         "records_created": 94,
         "matches_found": 81,
         "discrepancies": 12
+    },
+    {
+        "timestamp": "20250911-1627",
+        "topic": "KINDER- UND JUGENDLITERATUR",
+        "kp_entries": 94,
+        "p_entries": 93,
+        "records_created": 94,
+        "matches_found": 81,
+        "discrepancies": 12
     }
 ]

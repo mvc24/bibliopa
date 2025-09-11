@@ -148,28 +148,31 @@ match_entries = entries["p"]
 # Unmatched p entries: collect as discrepancies
 ```
 
-**Current Status**: Core consolidation logic working well with good match rates. Ready for final normalization improvements.
+**Current Status**: Core consolidation logic working well with good match rates. File grouping system implemented for controlled processing.
 
-**Next Step**: Refine text normalization for more robust matching before implementing batching system.
+**Next Step**: Implement batching system and begin incremental processing starting with smallest file groups.
 
 ## Current Project Roadmap
 
-### 🔄 PHASE 4B: Data Preparation Refinement (CURRENT)
+### 📄 PHASE 4B: Data Preparation Refinement (CURRENT)
 **Immediate Next Steps**:
-1. **Text Normalization Enhancement** (Current Focus)
-   - Improve accent/apostrophe handling in normalization
-   - Add character encoding fixes for better matching
-   - Test refined normalization on existing discrepancies
-
-2. **Batching System Implementation**
+1. **Batching System Implementation** (Current Focus)
+   - ✅ File grouping system completed (xs/s/m/l/xl categories)
+   - ✅ Strategic decision for incremental processing
    - Topic normalization for special cases (ERSTAUSGABEN, DEUTSCHE LITERATUR)
    - Create folder structure: `data/batched/{topic_normalized}/`
    - Implement 25-entry batching with metadata
    - Add batch IDs and composite IDs to records
    - Save batched JSON files for API processing
 
+2. **Incremental Processing Pipeline**
+   - Start with xs group (6 files, <60 entries each)
+   - Test full workflow: consolidation → batching → parsing → database
+   - Validate approach before scaling to larger file groups
+   - Iterate and refine based on early results
+
 3. **Processing Pipeline Completion**
-   - Run consolidation across all 50 topic files
+   - Gradually process s, m, l, xl groups
    - Generate comprehensive discrepancy report
    - Validate batch file creation and structure
 
@@ -231,14 +234,17 @@ match_entries = entries["p"]
 3. **Discrepancy Management**: Systematic collection and tracking of unmatched entries
 4. **Processing Metrics**: Comprehensive logging system for monitoring data quality
 5. **Text Normalization**: Working normalization pipeline with room for refinement
+6. **File Grouping System**: Categorized all 50 files by size (xs/s/m/l/xl) for controlled batch processing
+7. **Incremental Processing Strategy**: Decided to test full pipeline end-to-end with small datasets before scaling
 
 ### 🔧 Current Technical Focus
-- **Text Matching Robustness**: Improving normalization to capture more matches
-- **Batch Processing Design**: Creating efficient 25-entry batches for API processing
-- **Error Handling**: Building resilient processing pipeline
+- **Batching System Implementation**: Creating 25-entry batches with metadata and folder structure
+- **Incremental Pipeline Testing**: Starting with smallest file groups to validate full workflow
+- **End-to-End Validation**: Testing parsing and database design before full-scale processing
 
 ### 📊 Project Metrics (As of Current Phase)
-- **Files Analyzed**: 50 Word documents
+- **Files Analyzed**: 50 Word documents (categorized into 5 size groups)
+- **File Groups Created**: xs(6), s(10), m(15), l(9), xl(8)
 - **Test Files Processed**: 2 (Kinder/Jugend, ISLAM)
 - **Average Match Rate**: 89.5%
 - **Discrepancies Collected**: 17 entries
