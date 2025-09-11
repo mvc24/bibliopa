@@ -10,20 +10,16 @@ load_dotenv()
 
 # create connection to connect to API
 client = anthropic.Anthropic()
-files = Path("data/batched")
-
-sample = Path("../data/batched/symbolkunde/symbolkunde_2-2.json")
-
 
 def submit_batch(batch_path):
 
     # Read the sample entries file
-    with open(sample, 'r', encoding='utf-8') as f:
-        test_file = json.load(f)
+    with open(batch_path, 'r', encoding='utf-8') as f:
+        batch_data = json.load(f)
 
-    print(f"Loaded {len(test_file)} entries")
-    print("First entry text:", test_file[0]['text'])
-    print("First entry composite_id:", test_file[0]['composite_id'])
+    print(f"Loaded {len(batch_data)} entries")
+    print("First entry text:", batch_data[0]['text'])
+    print("First entry composite_id:", batch_data[0]['composite_id'])
 
     # Create prompt message
     prompt = """
@@ -110,7 +106,7 @@ def submit_batch(batch_path):
 
     # Build requests array for batch API
     requests = []
-    for entry in test_file:
+    for entry in batch_data:
         request = {
             "custom_id": entry['composite_id'],
             "params": {
@@ -138,36 +134,33 @@ def submit_batch(batch_path):
     print("First request custom_id:", requests[0]['custom_id'])
     # print("First request content preview:", requests[0]['params']['messages'][0]['content'][:200])
 
-    # Submit batch to API
-    # message_batch = client.messages.batches.create(requests=requests)
-    # print("Batch submitted!")
-    # print("Batch ID:", message_batch.id)
-    # print("Batch status:", message_batch.processing_status)
+# Submit batch to API
+    message_batch = client.messages.batches.create(requests=requests)
+    print("Batch submitted!")
+    print("Batch ID:", message_batch.id)
 
-# return batch_id, metadata
+    return {
+        "batch_id": message_batch.id,
+        "status": "submitted",
+        "file_path": str(batch_path),
+        "entry_count": len(batch_data)
+    }
 
-batch_id = "msgbatch_012zLTg5QEkhgppuGDz3uEM5"
 
 
-def retrieve_batch_results(batch_id, file_path):
-    # Check batch status
+def retrieve_batch_results(batch_id, topic):
+    # Check status first
     batch_status = client.messages.batches.retrieve(batch_id)
     print("Current status:", batch_status.processing_status)
 
-    # Get results (when status is "ended")
-    batch_results = client.messages.batches.results(batch_id)
-    print("Results ready!")
+    # If not ready, return without processing
+    if batch_status.processing_status != "ended":
+        return {"status": "processing", "batch_id": batch_id}
 
-    # Get batch results
+    # Only get results ONCE when ready
     batch_results = client.messages.batches.results(batch_id)
-    print("Retrieved results!")
+    results_list = list(batch_results)  # Convert to list immediately
 
-    # Reset the iterator if needed (since we just consumed it with len())
-    batch_results = client.messages.batches.results(batch_id)
-
-    # DEBUG: Look at the first result structure
-    results_list = list(batch_results)
-    print(f"Number of results in list: {len(results_list)}")
     # Convert results to JSON-serializable format
     results_data = []
     for result in results_list:  # Use the list we already created
@@ -197,10 +190,17 @@ def retrieve_batch_results(batch_id, file_path):
 
     # Save results to file (single file creation)
     timestamp = datetime.now().strftime("%Y%m%d-%H%M")
-    filepath = f"data/parsed/batch_symbolkunde_test_{timestamp}.json"
+    filepath = f"data/parsed/batch_{topic}_{timestamp}.json"
 
     with open(filepath, "w", encoding='utf-8') as f:
         json.dump(results_data, f, ensure_ascii=False, indent=2)
 
     print(f"Results saved to: {filepath}")
     print(f"Number of results: {len(results_data)}")
+
+    return {
+        "status": "completed",
+        "batch_id": batch_id,
+        "output_file": filepath,
+        "results_count": len(results_data)
+    }
