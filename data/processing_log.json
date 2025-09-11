@@ -1,60 +1,6 @@
 [
     {
-        "timestamp": "20250911-1937",
-        "topic": "AUTOGRAPHEN",
-        "kp_entries": 35,
-        "p_entries": 35,
-        "records_created": 35,
-        "matches_found": 35,
-        "discrepancies": 0
-    },
-    {
-        "timestamp": "20250911-1937",
-        "topic": "GESCHICHTE ALLGEMEIN LÄNDER",
-        "kp_entries": 58,
-        "p_entries": 58,
-        "records_created": 58,
-        "matches_found": 52,
-        "discrepancies": 6
-    },
-    {
-        "timestamp": "20250911-1937",
-        "topic": "MÄRCHEN",
-        "kp_entries": 53,
-        "p_entries": 53,
-        "records_created": 53,
-        "matches_found": 52,
-        "discrepancies": 1
-    },
-    {
-        "timestamp": "20250911-1937",
-        "topic": "SUCHLISTE",
-        "kp_entries": 59,
-        "p_entries": 59,
-        "records_created": 59,
-        "matches_found": 58,
-        "discrepancies": 1
-    },
-    {
-        "timestamp": "20250911-1937",
-        "topic": "SYMBOLKUNDE",
-        "kp_entries": 31,
-        "p_entries": 31,
-        "records_created": 31,
-        "matches_found": 29,
-        "discrepancies": 2
-    },
-    {
-        "timestamp": "20250911-1937",
-        "topic": "ZEITSCHRIFTEN",
-        "kp_entries": 21,
-        "p_entries": 21,
-        "records_created": 21,
-        "matches_found": 21,
-        "discrepancies": 0
-    },
-    {
-        "timestamp": "20250911-1938",
+        "timestamp": "20250911-2215",
         "topic": "ÄGYPTEN VORDERER ORIENT",
         "kp_entries": 76,
         "p_entries": 83,
@@ -63,7 +9,7 @@
         "discrepancies": 9
     },
     {
-        "timestamp": "20250911-1938",
+        "timestamp": "20250911-2215",
         "topic": "BUDDHISMUS, HINDUISMUS",
         "kp_entries": 77,
         "p_entries": 77,
@@ -72,7 +18,7 @@
         "discrepancies": 7
     },
     {
-        "timestamp": "20250911-1938",
+        "timestamp": "20250911-2215",
         "topic": "ESOTERIK",
         "kp_entries": 64,
         "p_entries": 65,
@@ -81,7 +27,7 @@
         "discrepancies": 7
     },
     {
-        "timestamp": "20250911-1938",
+        "timestamp": "20250911-2215",
         "topic": "ISLAM",
         "kp_entries": 66,
         "p_entries": 66,
@@ -90,7 +36,7 @@
         "discrepancies": 5
     },
     {
-        "timestamp": "20250911-1938",
+        "timestamp": "20250911-2215",
         "topic": "KINDER- UND JUGENDLITERATUR",
         "kp_entries": 94,
         "p_entries": 93,
@@ -99,7 +45,7 @@
         "discrepancies": 12
     },
     {
-        "timestamp": "20250911-1938",
+        "timestamp": "20250911-2215",
         "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
         "kp_entries": 69,
         "p_entries": 69,
@@ -108,7 +54,7 @@
         "discrepancies": 0
     },
     {
-        "timestamp": "20250911-1938",
+        "timestamp": "20250911-2215",
         "topic": "MYTHOLOGIE",
         "kp_entries": 66,
         "p_entries": 66,
@@ -117,7 +63,7 @@
         "discrepancies": 4
     },
     {
-        "timestamp": "20250911-1938",
+        "timestamp": "20250911-2215",
         "topic": "RENAISSANCE",
         "kp_entries": 92,
         "p_entries": 93,
@@ -126,7 +72,7 @@
         "discrepancies": 5
     },
     {
-        "timestamp": "20250911-1938",
+        "timestamp": "20250911-2215",
         "topic": "SONSTIGES, BILDBÄNDE, KATALOGE ATLANTEN",
         "kp_entries": 80,
         "p_entries": 81,
@@ -135,7 +81,7 @@
         "discrepancies": 10
     },
     {
-        "timestamp": "20250911-1938",
+        "timestamp": "20250911-2215",
         "topic": "ZEITGESCHICHTE, REPORTAGEN",
         "kp_entries": 75,
         "p_entries": 85,
@@ -144,21 +90,57 @@
         "discrepancies": 10
     },
     {
-        "timestamp": "20250911-1956",
-        "topic": "KINDER- UND JUGENDLITERATUR",
-        "kp_entries": 94,
-        "p_entries": 93,
-        "records_created": 94,
-        "matches_found": 81,
-        "discrepancies": 12
+        "timestamp": "20250911-2215",
+        "topic": "AUTOGRAPHEN",
+        "kp_entries": 35,
+        "p_entries": 35,
+        "records_created": 35,
+        "matches_found": 35,
+        "discrepancies": 0
     },
     {
-        "timestamp": "20250911-1957",
-        "topic": "ISLAM",
-        "kp_entries": 66,
-        "p_entries": 66,
-        "records_created": 66,
-        "matches_found": 61,
-        "discrepancies": 5
+        "timestamp": "20250911-2215",
+        "topic": "GESCHICHTE ALLGEMEIN LÄNDER",
+        "kp_entries": 58,
+        "p_entries": 58,
+        "records_created": 58,
+        "matches_found": 52,
+        "discrepancies": 6
+    },
+    {
+        "timestamp": "20250911-2215",
+        "topic": "MÄRCHEN",
+        "kp_entries": 53,
+        "p_entries": 53,
+        "records_created": 53,
+        "matches_found": 52,
+        "discrepancies": 1
+    },
+    {
+        "timestamp": "20250911-2215",
+        "topic": "SUCHLISTE",
+        "kp_entries": 59,
+        "p_entries": 59,
+        "records_created": 59,
+        "matches_found": 58,
+        "discrepancies": 1
+    },
+    {
+        "timestamp": "20250911-2215",
+        "topic": "SYMBOLKUNDE",
+        "kp_entries": 31,
+        "p_entries": 31,
+        "records_created": 31,
+        "matches_found": 29,
+        "discrepancies": 2
+    },
+    {
+        "timestamp": "20250911-2215",
+        "topic": "ZEITSCHRIFTEN",
+        "kp_entries": 21,
+        "p_entries": 21,
+        "records_created": 21,
+        "matches_found": 21,
+        "discrepancies": 0
     }
 ]

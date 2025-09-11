@@ -8,9 +8,11 @@ path = Path("data/file_groups.json")
 with open(path, "r") as f:
     file_groups = json.load(f)
 
-s = file_groups["s"]
+xs = file_groups["xs"]
+# s = file_groups["s"]
 
-
-for file in s:
+for file in xs:
     filename = file["filename"]
     consolidate_entries(filename)
+
+# consolidate_entries("ÄGYPTEN VORDERER ORIENT.docx")

@@ -5,6 +5,7 @@ from pathlib import Path
 import re
 import json
 from pprint import pp
+import unicodedata
 
 
 folder_preise = "data/original/preise/"
@@ -38,8 +39,18 @@ def consolidate_entries(filename):
         elif topic == "DEUTSCHE LITERATUR TEXTE":
             topic_normalised = "de-lit-texte"
         else:
-            topic_normalised = topic.lower().split("-")[0]
+            topic_lower = topic.lower()
+            if "-" in topic_lower:
+                topic_normalised = topic_lower.split("-")[0]
+            elif "," in topic_lower:
+                topic_normalised = topic_lower.split(",")[0]
+            else:
+                topic_normalised = topic_lower.split()[0]  # Split on spaces, take first word
+
+            topic_normalised = unicodedata.normalize("NFC", topic_normalised)
+
             topic_normalised = topic_normalised.replace('ä', 'ae').replace('ö', 'oe').replace('ü', 'ue').replace('ß', 'ss')
+
         count = 0
 
         for table in doc.tables:
