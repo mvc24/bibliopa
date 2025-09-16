@@ -1,0 +1,737 @@
+[
+  {
+    "custom_id": "islam_50_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Hundertundeine Geschichte aus dem Rosengarten",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Scheich Saadi",
+          "family_name": "Saadi",
+          "given_names": null,
+          "name_particles": "Scheich",
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Manesse",
+      "place_of_publication": "Zürich",
+      "publication_year": 1989,
+      "edition": "4. Aufl.",
+      "pages": 367,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit Buchschmuck",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ISLAM",
+      "is_translation": true,
+      "original_language": "Persisch",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SCHEICH SAADI. Hundertundeine Geschichte aus dem Rosengarten. A.d.Pers. Zürich Manesse 1989. Mit Buchschmuck. 4. Aufl. 367 S. Lesebändchen. OLn.m.OU",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "islam_51_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Der blühende Garten",
+      "subtitle": "Die arabische Liebeskunst",
+      "authors": [
+        {
+          "display_name": "Scheik Nefzaui",
+          "family_name": "Nefzaui",
+          "given_names": "Scheik",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Lichtenberg",
+      "place_of_publication": "München",
+      "publication_year": 1966,
+      "edition": null,
+      "pages": 286,
+      "format_original": "Originalkunstlederband",
+      "format_expanded": "Original-Kunstlederband",
+      "condition": "Verlagsfrisch",
+      "copies": null,
+      "illustrations": "Die Illustrationen sind nach Gemälden von J. D. Ingres ausgewählt worden",
+      "packaging": "mit Schuber",
+      "isbn": null,
+      "price": 20,
+      "topic": "ISLAM",
+      "is_translation": true,
+      "original_language": "Arabisch",
+      "translator": {
+        "display_name": "Jochen Wilkat",
+        "family_name": "Wilkat",
+        "given_names": "Jochen",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SCHEIK NEFZAUI. Der blühende Garten. Die arabische Liebeskunst. München Lichtenberg 1966. 286 S. Ins Deutsche übertragen und mit einem Nachwort von Jochen Wilkat. Die Illustrationenb sind nach Gemälden von J. D. Ingres ausgewählt worden. Originalkunstlederband mit Lesebändchen und Schuber. Verlagsfrisch",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "islam_52_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Muhammad Iqbal. Prophetischer Poet und Philosoph",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Schimmel, Annemarie",
+          "family_name": "Schimmel",
+          "given_names": "Annemarie",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "München",
+      "publication_year": 1989,
+      "edition": null,
+      "pages": 239,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit 9 Abbildungen",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ISLAM",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Diederichs Gelbe Reihe",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SCHIMMEL, Annemarie. Muhammad Iqbal. Prophetischer Poet und Philosoph. Mit 9 Abbildungen. München Diederichs 1989. 239 S. Diederichs Gelbe Reihe 82",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "islam_53_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Rumi. Ich bin Wind und du bist Feuer. Leben und Werk des großen Mystikers",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "SCHIMMEL, Annemarie",
+          "family_name": "SCHIMMEL",
+          "given_names": "Annemarie",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Köln",
+      "publication_year": 1982,
+      "edition": "3. Aufl.",
+      "pages": 231,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ISLAM",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Diederichs Gelbe Reihe",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SCHIMMEL, Annemarie. Rumi. Ich bin Wind und du bist Feuer. Leben und Werk des großen Mystikers. Köln Diederichs 1982. 231 S. 3. Aufl. Mit Abb. Diederichs Gelbe Reihe.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "islam_54_3_3",
+    "parsed_entry": {
+      "identifier": "DG 037",
+      "title": "Gärten der Erkenntnis",
+      "subtitle": "Das Buch der vierzig Sufi-Meister",
+      "authors": [
+        {
+          "display_name": "SCHIMMEL, Annemarie",
+          "family_name": "SCHIMMEL",
+          "given_names": "Annemarie",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Düsseldorf",
+      "publication_year": 1985,
+      "edition": null,
+      "pages": 271,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ISLAM",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Diedrichs Gelbe Reihe",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SCHIMMEL, Annemarie. Gärten der Erkenntnis. Das Buch der vierzig Sufi-Meister. Düsseldorf Diederichs 1985. 271 S. Diedrichs Gelbe Reihe. DG 037",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "islam_55_3_3",
+    "error": "JSON parsing failed: Expecting ',' delimiter: line 39 column 143 (char 1190)",
+    "raw_response": "{\n    \"identifier\": null,\n    \"title\": \"Die Derwische. Heilige und Ketzer des Islam\",\n    \"subtitle\": null,\n    \"authors\": [\n        {\n            \"display_name\": \"Schweizer, Gerhard\",\n            \"family_name\": \"Schweizer\",\n            \"given_names\": \"Gerhard\",\n            \"name_particles\": null,\n            \"single_name\": null\n        }\n    ],\n    \"editors\": [],\n    \"contributors\": [],\n    \"publisher\": \"Das Bergland-Buch\",\n    \"place_of_publication\": \"Salzburg\",\n    \"publication_year\": 1980,\n    \"edition\": null,\n    \"pages\": 334,\n    \"format_original\": \"OLn.m.OU\",\n    \"format_expanded\": \"Original-Leinen mit Original-Umschlag\",\n    \"condition\": null,\n    \"copies\": null,\n    \"illustrations\": \"Mit Abb. auf Tafeln\",\n    \"packaging\": null,\n    \"isbn\": null,\n    \"price\": null,\n    \"topic\": \"ISLAM\",\n    \"is_translation\": false,\n    \"original_language\": null,\n    \"translator\": null,\n    \"is_multivolume\": false,\n    \"series_title\": null,\n    \"total_volumes\": null,\n    \"volumes\": [],\n    \"administrative\": {\n        \"source_filename\": null,\n        \"original_entry\": \"SCHWEIZER, Gerhard. Die Derwische. Heilige und Ketzer des Islam. Mit Abb. auf Tafeln. Salzburg „Das Bergland-Buch\" 1980. 334 S. OLn.m.OU.\",\n        \"parsing_confidence\": \"high\",\n        \"needs_review\": false\n    }\n}"
+  },
+  {
+    "custom_id": "islam_56_3_3",
+    "parsed_entry": {
+      "identifier": "bw 2827",
+      "title": "Islamismus",
+      "subtitle": "Geschichte, Vordenker, Organisationen",
+      "authors": [
+        {
+          "display_name": "Seidensticker, Tilman",
+          "family_name": "Seidensticker",
+          "given_names": "Tilman",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Beck",
+      "place_of_publication": "München",
+      "publication_year": 2015,
+      "edition": "3. Auflage",
+      "pages": 127,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ISLAM",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SEIDENSTICKER, Tilman. Islamismus. Geschichte, Vordenker, Organisationen. Originalausgabe. 3.Aufl. München Beck 2015. 127 S. bw 2827",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "islam_57_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Die Sufis. Botschaft der Derwische. Weisheit der Magier",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Shah, Idries",
+          "family_name": "Shah",
+          "given_names": "Idries",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "München",
+      "publication_year": 1990,
+      "edition": "7. Auflage",
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": 2,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ISLAM",
+      "is_translation": true,
+      "original_language": "English",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Diederichs Gelbe Reihe",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SHAH, Idries. Die Sufis. Botschaft der Derwische. Weisheit der Magier. München Diederichs 1990. A.d.Engl. 7. Auflage. Diederichs Gelbe Reihe DG 027. 2 Ex.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "islam_58_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Geschichte der Mongolen",
+      "subtitle": "Nach östlichen und europäischen Zeugnissen des 13. und 14. Jahrhunderts",
+      "authors": [
+        {
+          "display_name": "SPULER, Bertold",
+          "family_name": "SPULER",
+          "given_names": "Bertold",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Artemis",
+      "place_of_publication": "Zürich",
+      "publication_year": 1968,
+      "edition": null,
+      "pages": 278,
+      "format_original": "OPbd.m.OU",
+      "format_expanded": "Original-Pappband mit Original-Umschlag",
+      "condition": "sehr gut erhaltene",
+      "copies": 3,
+      "illustrations": "Mit 2 bunten Landkarten als Vorsatz und Schlussblatt",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ISLAM",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Bibliothek des Morgenlandes",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SPULER, Bertold. Geschichte der Mongolen. Nach östlichen und europäischen Zeugnissen des 13. und 14. Jahrhunderts. Zürich Artemis 1968. 278 S. Mit 2 bunten Landkarten als Vorsatz und Schlussblatt Klein-8°. (Bibliothek des Morgenlandes). OPbd.m.OU. 3 sehr gut erhaltene Exemplare.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "islam_59_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "SUFISMUS",
+      "subtitle": null,
+      "authors": [],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": null,
+      "publication_year": null,
+      "edition": null,
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ISLAM",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SUFISMUS . Siehe IBN ARABI:",
+        "parsing_confidence": "low",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "islam_60_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Lexikon der islamischen Kultur",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "THORAVAL, Yves",
+          "family_name": "THORAVAL",
+          "given_names": "Yves",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Primus Verl.",
+      "place_of_publication": "Darmstadt",
+      "publication_year": 1999,
+      "edition": null,
+      "pages": null,
+      "format_original": "OPbd.",
+      "format_expanded": "Original-Pappband",
+      "condition": "Neuwertig",
+      "copies": null,
+      "illustrations": "Mit Karten",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ISLAM",
+      "is_translation": true,
+      "original_language": "Französisch",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "THORAVAL, Yves. Lexikon der islamischen Kultur. A.d.Französ. Darmstadt Primus Verl. 1999. Mit Karten. OPbd. Neuwertig.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "islam_61_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Sufis und Heilige im Maghreb",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Topper, Uwe",
+          "family_name": "Topper",
+          "given_names": "Uwe",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "München",
+      "publication_year": 1991,
+      "edition": null,
+      "pages": 272,
+      "format_original": "Diederichs gelbe Reihe OPbd.",
+      "format_expanded": "Diederichs gelbe Reihe Original-Pappband",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ISLAM",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Diederichs gelbe Reihe",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "TOPPER, Uwe. Sufis und Heilige im Maghreb. München Diederichs 1991. 272 S. Diederichs gelbe Reihe OPbd.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "islam_62_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Ein Leben im Kampf gegen Kreuzritterheere",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Usama ibn Munqidh",
+          "family_name": "Usama ibn Munqidh",
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Usama ibn Munqidh"
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Rotter, Gernot",
+          "family_name": "Rotter",
+          "given_names": "Gernot",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Erdmann",
+      "place_of_publication": "Tübingen",
+      "publication_year": 1978,
+      "edition": null,
+      "pages": 260,
+      "format_original": "OPbd.m.OU",
+      "format_expanded": "Original-Pappband mit Original-Umschlag",
+      "condition": "Neuwertig",
+      "copies": 2,
+      "illustrations": "Mit Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ISLAM",
+      "is_translation": true,
+      "original_language": "Arabisch",
+      "translator": {
+        "display_name": "Rotter, Gernot",
+        "family_name": "Rotter",
+        "given_names": "Gernot",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Bibliothek arabischer Klassiker herausgegeben von Gernot Rotter",
+      "total_volumes": null,
+      "volumes": [
+        {
+          "volume_number": 4,
+          "volume_title": "Vierter Band",
+          "pages": null,
+          "notes": null
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "USAMA IBN MUNQIDH. Ein Leben im Kampf gegen Kreuzritterheere. A.d.Arab. übertragen und bearbeitet von Gernot Rotter. Tübingen Erdmann 1978. 260 S. Bibliothek arabischer Klassiker herausgegeben von Gernot Rotter. Vierter Band. Mit Abb. OPbd.m.OU. Neuwertig. 2. Ex.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "islam_63_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "VON MOHAMMED BIS GHAZALI",
+      "subtitle": "Die Religion des Islam I",
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Otto, Walter",
+          "family_name": "Otto",
+          "given_names": "Walter",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Jena",
+      "publication_year": 1915,
+      "edition": null,
+      "pages": 153,
+      "format_original": "OLn. m. goldgeprägtem Rücken und Lesebändchen",
+      "format_expanded": "Original-Leinen mit goldgeprägtem Rücken und Lesebändchen",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 20,
+      "topic": "ISLAM",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": true,
+      "series_title": "Religiöser Stimmen der Völker",
+      "total_volumes": null,
+      "volumes": [
+        {
+          "volume_number": 1,
+          "volume_title": "Die Religion des Islam I",
+          "pages": 153,
+          "notes": "XIX, 153 S."
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "VON MOHAMMED BIS GHAZALI. Die Religion des Islam I. Jena Diederichs 1915. XIX, 153 S. Religiöser Stimmen der Völker. Herausgegeben von Walter Otto. OLn. m. goldgeprägtem Rücken und Lesebändchen.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "islam_64_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Der Einfluss des Islam auf das europäische Mittelalter",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "WATT, W. Montgomery",
+          "family_name": "WATT",
+          "given_names": "W. Montgomery",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [
+        {
+          "display_name": "Haarmann, Ulrich",
+          "family_name": "Haarmann",
+          "given_names": "Ulrich",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Wagenbach",
+      "place_of_publication": "Berlin",
+      "publication_year": 1988,
+      "edition": null,
+      "pages": 93,
+      "format_original": "OPbd.",
+      "format_expanded": "Original-Pappband",
+      "condition": null,
+      "copies": null,
+      "illustrations": "M. Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": 20,
+      "topic": "ISLAM",
+      "is_translation": true,
+      "original_language": "Englisch",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "WATT, W. Montgomery. Der Einfluss des Islam auf das europäische Mittelalter. A.d.Engl. Mit einem Vorwort von Ulrich Haarmann. Berlin Wagenbach 1988. 93 S. M. Abb. . OPbd.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "islam_65_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "WEISHEIT DES ISLAM",
+      "subtitle": null,
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Schimmel, Annemarie",
+          "family_name": "Schimmel",
+          "given_names": "Annemarie",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Reclam",
+      "place_of_publication": "Stuttgart",
+      "publication_year": 2009,
+      "edition": null,
+      "pages": 301,
+      "format_original": "OPbd.m.OU",
+      "format_expanded": "Original-Pappband mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit 19 Abbildungen",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ISLAM",
+      "is_translation": true,
+      "original_language": null,
+      "translator": {
+        "display_name": "Schimmel, Annemarie",
+        "family_name": "Schimmel",
+        "given_names": "Annemarie",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "WEISHEIT DES ISLAM. Ausgewählt, übersetzt und herausgegeben von Annemarie Schimmel. Mit 19 Abbildungen. Stuttgart Reclam 2009. 301 S. OPbd.m.OU.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  }
+]

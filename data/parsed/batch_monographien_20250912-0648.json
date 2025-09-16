@@ -1,0 +1,989 @@
+[
+  {
+    "custom_id": "monographien_50_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Von George D. Painter. Eine Biographie",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "PROUST, Marcel",
+          "family_name": "PROUST",
+          "given_names": "Marcel",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [
+        {
+          "display_name": "Painter, George D.",
+          "family_name": "Painter",
+          "given_names": "George D.",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Suhrkamp",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1980,
+      "edition": null,
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": null,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": true,
+      "series_title": null,
+      "total_volumes": 2,
+      "volumes": [
+        {
+          "volume_number": 1,
+          "volume_title": null,
+          "pages": 537,
+          "notes": null
+        },
+        {
+          "volume_number": 2,
+          "volume_title": null,
+          "pages": 668,
+          "notes": null
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "PROUST, Marcel. Von George D. Painter. Eine Biographie. In zwei Bänden. Mit Abb. Frankfurt Suhrkamp 1980. 537, 668 S. st 561.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_51_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": null,
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "PROUST, Marcel",
+          "family_name": "PROUST",
+          "given_names": "Marcel",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": null,
+      "publication_year": null,
+      "edition": null,
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": null,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": null,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "PROUST, Marcel. Siehe CURTIUS, E.R.",
+        "parsing_confidence": "low",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_52_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Eugen Atget: Marcel Proust. Ein Bild von Paris. Texte und Photographien",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "PROUST, Marcel",
+          "family_name": "PROUST",
+          "given_names": "Marcel",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Trottenberg, Arthur D.",
+          "family_name": "Trottenberg",
+          "given_names": "Arthur D.",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Insel",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1987,
+      "edition": null,
+      "pages": 206,
+      "format_original": "Itb.",
+      "format_expanded": "Insel-Taschenbuch",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit zahlr. Photographien",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "PROUST, Marcel . Eugen Atget: Marcel Proust. Ein Bild von Paris. Texte und Photographien. Herausgegeben von Arthur D. Trottenberg. Frankfurt Insel 1987. 206 S. Mit zahlr. Photographien. Itb.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_53_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Orte und Räume",
+      "subtitle": "Beiträge des Symposions der Marcel-Proust Gesellschaft in Leipzig 2001",
+      "authors": [
+        {
+          "display_name": "PROUST, Marcel",
+          "family_name": "PROUST",
+          "given_names": "Marcel",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Corbineau-Hoffmann, Angelika",
+          "family_name": "Corbineau-Hoffmann",
+          "given_names": "Angelika",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Insel",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 2003,
+      "edition": null,
+      "pages": 224,
+      "format_original": "OBrosch.",
+      "format_expanded": "Original-Broschur",
+      "condition": "Verlagsfrisch",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 30,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "PROUST, Marcel. Orte und Räume. Beiträge des Symposions der Marcel-Proust Gesellschaft in Leipzig 2001. Herausgegeben von Angelika Corbineau-Hoffmann. Frankfurt Insel 2003. 224 S. OBrosch. Verlagsfrisch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_54_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Marcel Proust. Geschichte seines Lebens",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Hayman, Ronald",
+          "family_name": "Hayman",
+          "given_names": "Ronald",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [
+        {
+          "display_name": "Proust, Marcel",
+          "family_name": "Proust",
+          "given_names": "Marcel",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Suhrkamp",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 2002,
+      "edition": null,
+      "pages": 840,
+      "format_original": "st 3311",
+      "format_expanded": "suhrkamp taschenbuch 3311",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": true,
+      "original_language": "Englisch",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "suhrkamp taschenbuch",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "PROUST, Marcel. Ronald Hayman: Marcel Proust. Geschichte seines Lebens. A.d.Engl. Frankfurt Suhrkamp 2002. 840 S. Mit Abb. st 3311",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_55_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Leseerfahrungen deutschsprachiger Schriftsteller von Theodor W. Adorno bis Stefan Zweig",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Proust, Marcel",
+          "family_name": "Proust",
+          "given_names": "Marcel",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Hölter, Achim",
+          "family_name": "Hölter",
+          "given_names": "Achim",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Suhrkamp",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1998,
+      "edition": "Erstausgabe",
+      "pages": 365,
+      "format_original": "st 2791",
+      "format_expanded": "suhrkamp taschenbuch 2791",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "suhrkamp taschenbuch",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "EXTRACTED PRICE: None\nTOPIC: MONOGRAPHIEN FREMDSPRACHIGER AUTOREN\n\nENTRY TEXT: PROUST, Marcel. Leseerfahrungen deutschsprachiger Schriftsteller von Theodor W. Adorno bis Stefan Zweig. Herausgegeben und mit einem Nachwort versehen von Achim Hölter Frankfurt Suhrkamp 1998. Erstausgabe. 365 S. st 2791",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_56_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": null,
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "PROUST, Marcelle",
+          "family_name": "PROUST",
+          "given_names": "Marcelle",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": null,
+      "publication_year": null,
+      "edition": null,
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": null,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": null,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "PROUST, Marcelle. Siehe TADIE",
+        "parsing_confidence": "low",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_57_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Baudelaire",
+      "subtitle": "Ein Essay mit einem Vorwort von Michel Leiris",
+      "authors": [
+        {
+          "display_name": "Sartre, Jean Paul",
+          "family_name": "Sartre",
+          "given_names": "Jean Paul",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Oehler, Dolf",
+          "family_name": "Oehler",
+          "given_names": "Dolf",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [
+        {
+          "display_name": "Leiris, Michel",
+          "family_name": "Leiris",
+          "given_names": "Michel",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Rowohlt",
+      "place_of_publication": "Reinbek",
+      "publication_year": 1978,
+      "edition": "Neu herausgegeben",
+      "pages": 125,
+      "format_original": "TB",
+      "format_expanded": "Taschenbuch",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": true,
+      "original_language": "französisch",
+      "translator": {
+        "display_name": "Möhring, Beate",
+        "family_name": "Möhring",
+        "given_names": "Beate",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SARTRE, Jean Paul. Baudelaire. Ein Essay mit einem Vorwort von Michel Leiris. Deutsch von Beate Möhring. Neu herausgegeben und mit einem Nachwort von Dolf Oehler. Reinbek Rowohlt 1978. 125 S. TB.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_58_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Kurze Geschichte der englischen und amerikanischen Literatur",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Schirmer, Walter F.",
+          "family_name": "Schirmer",
+          "given_names": "Walter F.",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": null,
+      "contributors": [
+        {
+          "display_name": "Esch, Arno",
+          "family_name": "Esch",
+          "given_names": "Arno",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "DTV",
+      "place_of_publication": "München",
+      "publication_year": 1973,
+      "edition": null,
+      "pages": 399,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Wissenschaftliche Reihe",
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SCHIRMER, Walter F.. Kurze Geschichte der englischen und amerikanischen Literatur. und Arno Esch. München DTV 1973. 399 S. Wissenschaftliche Reihe 4291.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_59_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Miguel de Unamuno",
+      "subtitle": "Der Dichterphilosoph des tragischen Lebensgefühls",
+      "authors": [
+        {
+          "display_name": "Schürr, Friedrich",
+          "family_name": "Schürr",
+          "given_names": "Friedrich",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Francke Verlag",
+      "place_of_publication": "Bern",
+      "publication_year": 1962,
+      "edition": null,
+      "pages": 177,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Dalp-Taschenbücher",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SCHÜRR, Friedrich. Miguel de Unamuno. Der Dichterphilosoph des tragischen Lebensgefühls. Bern Francke Verlag 1962. 177 S. Dalp-Taschenbücher.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_60_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": null,
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Shakespeare",
+          "family_name": "Shakespeare",
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Shakespeare"
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": null,
+      "publication_year": null,
+      "edition": null,
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": null,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SHAKESPEARE. Siehe GÜNTHER, Alfred",
+        "parsing_confidence": "low",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_61_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": null,
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Shakespeare, W.",
+          "family_name": "Shakespeare",
+          "given_names": "W.",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": null,
+      "publication_year": null,
+      "edition": null,
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": null,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": null,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SHAKESPEARE, W.. Siehe LAMPEDUSA",
+        "parsing_confidence": "low",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_62_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Lesebuch zum allmählichen Kennenlernen von Gertrude Stein",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Stein, Gertrude",
+          "family_name": "Stein",
+          "given_names": "Gertrude",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Haas, Robert Bartlett",
+          "family_name": "Haas",
+          "given_names": "Robert Bartlett",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [
+        {
+          "display_name": "Kellner, Bruce",
+          "family_name": "Kellner",
+          "given_names": "Bruce",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Suhrkamp",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1994,
+      "edition": null,
+      "pages": null,
+      "format_original": "stb",
+      "format_expanded": "Suhrkamp-Taschenbuch",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit 20 Abb. a. Taf.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": true,
+      "original_language": "English",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Suhrkamp-Taschenbuch",
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "STEIN, Gertrude. Lesebuch zum allmählichen Kennenlernen von Gertrude Stein. Herausgegeben und kommentiert von Robert Bartlett Haas. Mit einem Vorwort von Bruce Kellner. Frankfurt Suhrkamp 1994. Mit 20 Abb. a. Taf. stb 2314",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_63_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Von der Lust auf dieser Erde zu leben. Wanderungen durch Montaignes Welten",
+      "subtitle": "Ein Kommentarband Anderer Art",
+      "authors": [
+        {
+          "display_name": "Stilett, Hans",
+          "family_name": "Stilett",
+          "given_names": "Hans",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Eichborn",
+      "place_of_publication": "Berlin",
+      "publication_year": 2002,
+      "edition": null,
+      "pages": 271,
+      "format_original": "OLn.m. Lesebändchen",
+      "format_expanded": "Original-Leinen mit Lesebändchen",
+      "condition": "Sehr gut erhalten",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "STILETT, Hans. Von der Lust auf dieser Erde zu leben. Wanderungen durch Montaignes Welten. Ein Kommentarband Anderer Art. Berlin Eichborn 2002. 271 S. OLn.m. Lesebändchen. Sehr gut erhalten.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_64_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Marcel Proust",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "TADIE, Jean-Yves",
+          "family_name": "TADIE",
+          "given_names": "Jean-Yves",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Suhrkamp",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1987,
+      "edition": null,
+      "pages": 479,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": true,
+      "original_language": "Französisch",
+      "translator": {
+        "display_name": "Beese, Henriette",
+        "family_name": "Beese",
+        "given_names": "Henriette",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "TADIE, Jean-Yves. Marcel Proust. A.d.Französ. von Henriette Beese. Frankfurt Suhrkamp 1987. 479 S. OLn.m.OU.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_65_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": null,
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "UNAMUNO, Miguel de",
+          "family_name": "UNAMUNO",
+          "given_names": "Miguel",
+          "name_particles": "de",
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": null,
+      "publication_year": null,
+      "edition": null,
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": null,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "UNAMUNO, Miguel de. Siehe SCHÜRR, Friedrich",
+        "parsing_confidence": "low",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_66_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": null,
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Voltaire",
+          "family_name": "Voltaire",
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Voltaire"
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": null,
+      "publication_year": null,
+      "edition": null,
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": null,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": null,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "VOLTAIRE. Siehe ORIEUX",
+        "parsing_confidence": "low",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_67_3_3",
+    "parsed_entry": {
+      "identifier": "IT 1652",
+      "title": "Leben und Werk in Texten und Bildern",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "VOLTAIRE",
+          "family_name": null,
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "VOLTAIRE"
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Günther, Horst",
+          "family_name": "Günther",
+          "given_names": "Horst",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Insel",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1994,
+      "edition": null,
+      "pages": 129,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit vielen Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "VOLTAIRE. Leben und Werk in Texten und Bildern. Von Horst Günther. Frankfurt Insel 1994. 129 S. Mit vielen Abb. IT 1652",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "monographien_68_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": null,
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "WILDE, Oscar",
+          "family_name": "WILDE",
+          "given_names": "Oscar",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": null,
+      "publication_year": null,
+      "edition": null,
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MONOGRAPHIEN FREMDSPRACHIGER AUTOREN",
+      "is_translation": null,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": null,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "WILDE, Oscar. Siehe ELLMANN, Richard",
+        "parsing_confidence": "low",
+        "needs_review": true
+      }
+    }
+  }
+]

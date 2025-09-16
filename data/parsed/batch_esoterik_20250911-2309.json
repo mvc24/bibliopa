@@ -1,0 +1,877 @@
+[
+  {
+    "custom_id": "esoterik_50_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": null,
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "PUECH, Henri-Charles",
+          "family_name": "PUECH",
+          "given_names": "Henri-Charles",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": null,
+      "publication_year": null,
+      "edition": null,
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ESOTERIK",
+      "is_translation": null,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": null,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "PUECH, Henri-Charles. Siehe Schulz Wolfgang",
+        "parsing_confidence": "low",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "esoterik_51_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Die Spirale",
+      "subtitle": "Symbol der Seelenreise",
+      "authors": [
+        {
+          "display_name": "PURCE, Jill",
+          "family_name": "Purce",
+          "given_names": "Jill",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Kösel",
+      "place_of_publication": "München",
+      "publication_year": 1988,
+      "edition": null,
+      "pages": 128,
+      "format_original": "OBrosch.",
+      "format_expanded": "Original-Broschur",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit 174 (davon 32 farbigen) Abbildungen",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ESOTERIK",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "PURCE, Jill. Die Spirale. Symbol der Seelenreise. Mit 174 (davon 32 farbigen) Abbildungen. München Kösel 1988. 128 S. OBrosch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "esoterik_52_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Heilkräuter der Antike in Ägypten, Griechenland und Rom",
+      "subtitle": "Mythologie und Anwendung einst und heute",
+      "authors": [
+        {
+          "display_name": "RÄTSCH, Christian",
+          "family_name": "Rätsch",
+          "given_names": "Christian",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "München",
+      "publication_year": 1995,
+      "edition": null,
+      "pages": 419,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit 58 Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ESOTERIK",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Diederichs Gelbe Reihe",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "RÄTSCH, Christian. Heilkräuter der Antike in Ägypten, Griechenland und Rom. Mythologie und Anwendung einst und heute. München Diederichs 1995. Mit 58 Abb. 419 S. Diederichs Gelbe Reihe 115.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "esoterik_53_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Das Mysterium der Seligpreisungen",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "RIJCKENBORGH, J. van",
+          "family_name": "Rijckenborgh",
+          "given_names": "J.",
+          "name_particles": "van",
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Rozekruis-Pers",
+      "place_of_publication": "Haarlem",
+      "publication_year": 1960,
+      "edition": "Zweite verbesserte und erweiterte Auflage",
+      "pages": 167,
+      "format_original": "OLn. m. Transparentfolie",
+      "format_expanded": "Original-Leinen mit Transparentfolie",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 20,
+      "topic": "ESOTERIK",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "RIJCKENBORGH, J. van. Das Mysterium der Seligpreisungen. Zweite verbesserte und erweiterte Auflage. Haarlem Rozekruis-Pers 1960. 167 S. OLn. m. Transparentfolie.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "esoterik_54_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Der Ruf der Rosenkreuzer Bruderschaft",
+      "subtitle": "Esoterische Analyse der Fama Fraternitatis A.d.1614",
+      "authors": [
+        {
+          "display_name": "Rijkenborgh, J. van",
+          "family_name": "Rijkenborgh",
+          "given_names": "J.",
+          "name_particles": "van",
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Rozekruis-Pers",
+      "place_of_publication": "Haarlem",
+      "publication_year": 1967,
+      "edition": "Zweite überarbeitete Auflage",
+      "pages": 462,
+      "format_original": "OLn.",
+      "format_expanded": "Original-Leinen",
+      "condition": "Etwas berieben und schiefgelesen",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 40,
+      "topic": "ESOTERIK",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "RIJKENBORGH, J. van. Der Ruf der Rosenkreuzer Bruderschaft (Esoterische Analyse der Fama Fraternitatis A.d.1614). Sub umbra alarum tuarum Jehova. Zweite überarbeitete Auflage. Haarlem Rozekruis-Pers 1967. 462 S. Etwas berieben und schiefgelesen. OLn.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "esoterik_55_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Das Christentum, vom Standpunkte der occulten Philosophie aus betrachtet",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "RUDOLPH, Hermann",
+          "family_name": "RUDOLPH",
+          "given_names": "Hermann",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Theosophische Central-Buchhandlung Hugo Vollrath",
+      "place_of_publication": "Leipzig",
+      "publication_year": null,
+      "edition": null,
+      "pages": 34,
+      "format_original": "Bunte OBrosch.",
+      "format_expanded": "Bunte Original-Broschur",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 30,
+      "topic": "ESOTERIK",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": true,
+      "series_title": "Geheimwissenschaftliche Vorträge",
+      "total_volumes": null,
+      "volumes": [
+        {
+          "volume_number": 3,
+          "volume_title": null,
+          "pages": 34,
+          "notes": "Heft III"
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "RUDOLPH, Hermann. Das Christentum, vom Standpunkte der occulten Philosophie aus betrachtet. Leipzig Theosophische Central-Buchhandlung Hugo Vollrath 34 S. Geheimwissenschaftliche Vorträge Heft III. Bunte OBrosch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "esoterik_56_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Jehovas gesammelte Werke",
+      "subtitle": "Eine kritische Untersuchung des jüdisch-christlichen Religionsgebäudes auf Grund der Bibelforschung",
+      "authors": [
+        {
+          "display_name": "SALADIN (d.i.William Stuart Ross)",
+          "family_name": "Ross",
+          "given_names": "William Stuart",
+          "name_particles": null,
+          "single_name": "SALADIN"
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Vlg. Schaumburg-Fleischer",
+      "place_of_publication": "Leipzig",
+      "publication_year": 1897,
+      "edition": null,
+      "pages": 348,
+      "format_original": "OHldr.",
+      "format_expanded": "Original-Halbleder",
+      "condition": "Sehr gut erhalten",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 40,
+      "topic": "ESOTERIK",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SALADIN (d.i.William Stuart Ross). Jehovas gesammelte Werke. Eine kritische Untersuchung des jüdisch-christlichen Religionsgebäudes auf Grund der Bibelforschung. Leipzig Vlg. Schaumburg-Fleischer (1897) XIII, 348 S. OHldr. Sehr gut erhalten.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "esoterik_57_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "So möge mich das Böse in Scharen verlassen",
+      "subtitle": "Eine psychologische Studie über Navajo-Heilrituale",
+      "authors": [
+        {
+          "display_name": "Sandner, Donald",
+          "family_name": "Sandner",
+          "given_names": "Donald",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Walter-Verlag",
+      "place_of_publication": "Solothurn",
+      "publication_year": 1994,
+      "edition": null,
+      "pages": 335,
+      "format_original": "OBrosch.",
+      "format_expanded": "Original-Broschur",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ESOTERIK",
+      "is_translation": true,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "SANDNER, Donald. So möge mich das Böse in Scharen verlassen. Eine psychologische Studie über Navajo-Heilrituale. Solothurn Walter-Verlag 1994. 335 S. Mit Abb. OBrosch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "esoterik_58_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Der Tarot-Weg zur Selbstgestaltung",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Stuart, Micheline",
+          "family_name": "Stuart",
+          "given_names": "Micheline",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Verlag Bruno Martin",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1977,
+      "edition": null,
+      "pages": 57,
+      "format_original": "OBrosch.",
+      "format_expanded": "Original-Broschur",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ESOTERIK",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "STUART, Micheline. Der Tarot-Weg zur Selbstgestaltung. Mit Abb. Frankfurt Verlag Bruno Martin 1977. 57 S. OBrosch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "esoterik_59_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "TANTRA IN TIBET",
+      "subtitle": "Das geheime Mantra des Tsong-ka-pa, eingeleitet von 14. Dalai Lama",
+      "authors": [],
+      "editors": [],
+      "contributors": [
+        {
+          "display_name": "14. Dalai Lama",
+          "family_name": "Dalai Lama",
+          "given_names": "14.",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Diederichs",
+      "place_of_publication": "Köln",
+      "publication_year": 1987,
+      "edition": null,
+      "pages": 238,
+      "format_original": "OKart.",
+      "format_expanded": "Original-Kartoniert",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ESOTERIK",
+      "is_translation": null,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "TANTRA IN TIBET. Das geheime Mantra des Tsong-ka-pa, eingeleitet von 14. Dalai Lama. Köln Diederichs 1987. 238 S. OKart. DG 29",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "esoterik_60_3_3",
+    "parsed_entry": [
+      {
+        "identifier": null,
+        "title": "Ursprung und Praxis des Tarot",
+        "subtitle": null,
+        "authors": [
+          {
+            "display_name": "Douglas, Alfred",
+            "family_name": "Douglas",
+            "given_names": "Alfred",
+            "name_particles": null,
+            "single_name": null
+          }
+        ],
+        "editors": [],
+        "contributors": [],
+        "publisher": "Diederichs",
+        "place_of_publication": "Köln",
+        "publication_year": 1986,
+        "edition": null,
+        "pages": 253,
+        "format_original": "OBrosch.",
+        "format_expanded": "Original-Broschur",
+        "condition": null,
+        "copies": null,
+        "illustrations": null,
+        "packaging": null,
+        "isbn": null,
+        "price": null,
+        "topic": "ESOTERIK",
+        "is_translation": true,
+        "original_language": "Englisch",
+        "translator": null,
+        "is_multivolume": false,
+        "series_title": "Diederichs Gelbe Reihe",
+        "total_volumes": null,
+        "volumes": [],
+        "administrative": {
+          "source_filename": null,
+          "original_entry": "DOUGLAS, Alfred . Ursprung und Praxis des Tarot. A. d. Engl. Köln Diederichs 1986. 253 S. OBrosch. Diederichs Gelbe Reihe. DG 062.",
+          "parsing_confidence": "high",
+          "needs_review": false
+        }
+      },
+      {
+        "identifier": null,
+        "title": "Tarot als Selbsterfahrung",
+        "subtitle": null,
+        "authors": [
+          {
+            "display_name": "Steiner-Geringer, Mary",
+            "family_name": "Steiner-Geringer",
+            "given_names": "Mary",
+            "name_particles": null,
+            "single_name": null
+          }
+        ],
+        "editors": [],
+        "contributors": [],
+        "publisher": "Diederichs",
+        "place_of_publication": "Köln",
+        "publication_year": 1985,
+        "edition": null,
+        "pages": 236,
+        "format_original": "OBrosch.",
+        "format_expanded": "Original-Broschur",
+        "condition": null,
+        "copies": null,
+        "illustrations": null,
+        "packaging": null,
+        "isbn": null,
+        "price": null,
+        "topic": "ESOTERIK",
+        "is_translation": false,
+        "original_language": null,
+        "translator": null,
+        "is_multivolume": false,
+        "series_title": "Diederichs Gelbe Reihe",
+        "total_volumes": null,
+        "volumes": [],
+        "administrative": {
+          "source_filename": null,
+          "original_entry": "STEINER-GERINGER, Mary. Tarot als Selbsterfahrung. Köln Diederichs 1985. 236 S. OBrosch. Diederichs Gelbe Reihe. DG 055.",
+          "parsing_confidence": "high",
+          "needs_review": false
+        }
+      },
+      {
+        "identifier": null,
+        "title": "Tarot",
+        "subtitle": "Geschichte eines Schicksalsspiels",
+        "authors": [
+          {
+            "display_name": "Tegtmeier, Ralph",
+            "family_name": "Tegtmeier",
+            "given_names": "Ralph",
+            "name_particles": null,
+            "single_name": null
+          }
+        ],
+        "editors": [],
+        "contributors": [],
+        "publisher": "DuMont",
+        "place_of_publication": "Köln",
+        "publication_year": 1986,
+        "edition": null,
+        "pages": 181,
+        "format_original": null,
+        "format_expanded": null,
+        "condition": null,
+        "copies": null,
+        "illustrations": "Mit zahlr. Abb.",
+        "packaging": null,
+        "isbn": null,
+        "price": null,
+        "topic": "ESOTERIK",
+        "is_translation": false,
+        "original_language": null,
+        "translator": null,
+        "is_multivolume": false,
+        "series_title": "Du Mont Taschenbücher",
+        "total_volumes": null,
+        "volumes": [],
+        "administrative": {
+          "source_filename": null,
+          "original_entry": "TEGTMEIER, Ralph. Tarot. Geschichte eines Schicksalsspiels. Köln DuMont 1986. 181 S. Mit zahlr. Abb. Du Mont Taschenbücher.",
+          "parsing_confidence": "high",
+          "needs_review": false
+        }
+      },
+      {
+        "identifier": null,
+        "title": "Tarot der Zigeuner",
+        "subtitle": null,
+        "authors": [
+          {
+            "display_name": "Papus",
+            "family_name": null,
+            "given_names": null,
+            "name_particles": null,
+            "single_name": "Papus"
+          }
+        ],
+        "editors": [],
+        "contributors": [],
+        "publisher": "Ansata-Verlag",
+        "place_of_publication": "Interlaken",
+        "publication_year": 1985,
+        "edition": "3.Auflage",
+        "pages": 313,
+        "format_original": "OBrosch.",
+        "format_expanded": "Original-Broschur",
+        "condition": null,
+        "copies": null,
+        "illustrations": "Mit zahlr. Abb.",
+        "packaging": null,
+        "isbn": null,
+        "price": null,
+        "topic": "ESOTERIK",
+        "is_translation": true,
+        "original_language": "Französisch",
+        "translator": null,
+        "is_multivolume": false,
+        "series_title": null,
+        "total_volumes": null,
+        "volumes": [],
+        "administrative": {
+          "source_filename": null,
+          "original_entry": "PAPUS. Tarot der Zigeuner. Interlaken Ansata-Verlag 1985. A.d.Französ. 3.Auflage. Mit zahlr. Abb. 313 S. OBrosch.",
+          "parsing_confidence": "high",
+          "needs_review": false
+        }
+      },
+      {
+        "identifier": null,
+        "title": "Der Tarot",
+        "subtitle": "Geschichte Deutung Legesysteme",
+        "authors": [
+          {
+            "display_name": "Kaplan, Stuart R.",
+            "family_name": "Kaplan",
+            "given_names": "Stuart R.",
+            "name_particles": null,
+            "single_name": null
+          }
+        ],
+        "editors": [],
+        "contributors": [],
+        "publisher": "Hugendubel",
+        "place_of_publication": "München",
+        "publication_year": 1985,
+        "edition": "3.Auflage",
+        "pages": 255,
+        "format_original": "OBrosch.",
+        "format_expanded": "Original-Broschur",
+        "condition": null,
+        "copies": null,
+        "illustrations": "Mit zahlr. Abb.",
+        "packaging": null,
+        "isbn": null,
+        "price": null,
+        "topic": "ESOTERIK",
+        "is_translation": false,
+        "original_language": null,
+        "translator": null,
+        "is_multivolume": false,
+        "series_title": null,
+        "total_volumes": null,
+        "volumes": [],
+        "administrative": {
+          "source_filename": null,
+          "original_entry": "KAPLAN, Stuart R. . Der Tarot. Geschichte Deutung Legesysteme. München Hugendubel 1985. 3.Auflage. 255 S. Mit zahlr. Abb. OBrosch.",
+          "parsing_confidence": "high",
+          "needs_review": false
+        }
+      },
+      {
+        "identifier": null,
+        "title": "Tarot",
+        "subtitle": "78 Stufen der Weisheit",
+        "authors": [
+          {
+            "display_name": "Pollack, Rachel",
+            "family_name": "Pollack",
+            "given_names": "Rachel",
+            "name_particles": null,
+            "single_name": null
+          }
+        ],
+        "editors": [],
+        "contributors": [],
+        "publisher": "Knaur",
+        "place_of_publication": "München",
+        "publication_year": 1985,
+        "edition": null,
+        "pages": 396,
+        "format_original": "TB",
+        "format_expanded": "Taschenbuch",
+        "condition": null,
+        "copies": null,
+        "illustrations": "Mit 100 Abbildungen",
+        "packaging": null,
+        "isbn": null,
+        "price": null,
+        "topic": "ESOTERIK",
+        "is_translation": true,
+        "original_language": "Englisch",
+        "translator": null,
+        "is_multivolume": false,
+        "series_title": null,
+        "total_volumes": null,
+        "volumes": [],
+        "administrative": {
+          "source_filename": null,
+          "original_entry": "POLLACK, Rachel. Tarot. 78 Stufen der Weisheit. A. d. Engl. Mit 100 Abbildungen. München Knaur 1985. 396 S. TB.",
+          "parsing_confidence": "high",
+          "needs_review": false
+        }
+      }
+    ]
+  },
+  {
+    "custom_id": "esoterik_61_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "ÜBER DEN RAND DES TIEFEN CANYON",
+      "subtitle": "Lehren indianischer Schamanen",
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Tedlock, Dennis",
+          "family_name": "Tedlock",
+          "given_names": "Dennis",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Tedlock, Barbara",
+          "family_name": "Tedlock",
+          "given_names": "Barbara",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Lizenz Diederichs Bücher der Weisheit DG 17",
+      "place_of_publication": "Gütersloh",
+      "publication_year": null,
+      "edition": null,
+      "pages": 239,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ESOTERIK",
+      "is_translation": null,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ÜBER DEN RAND DES TIEFEN CANYON. Lehren indianischer Schamanen. Gütersloh 239 S. Herausgegeben von Dennis und Barbara Tedlock. OLn.m.OU. Lizenz Diederichs Bücher der Weisheit DG 17",
+        "parsing_confidence": "medium",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "esoterik_62_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "WISSENDE, VERSCHWIEGENE, EINGEWEIHTE",
+      "subtitle": "Hinführung zur Esoterik",
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Kaltenbrunner, Gerd-Klaus",
+          "family_name": "Kaltenbrunner",
+          "given_names": "Gerd-Klaus",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Herder",
+      "place_of_publication": "München",
+      "publication_year": 1981,
+      "edition": null,
+      "pages": null,
+      "format_original": "TB",
+      "format_expanded": "Taschenbuch",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "ESOTERIK",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Herder Bücherei",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "WISSENDE, VERSCHWIEGENE, EINGEWEIHTE: . Hinführung zur Esoterik. Herausgegeben von Gerd-Klau Kaltenbrunner. München Herder 1981. Herder Bücherei TB.",
+        "parsing_confidence": "medium",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "esoterik_63_3_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Geschichte der Seelenwanderung in Europa",
+      "subtitle": "Alternative religiöse Traditionen von der Antike bis heute",
+      "authors": [
+        {
+          "display_name": "Zander, Helmut",
+          "family_name": "Zander",
+          "given_names": "Helmut",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Primus Verl.",
+      "place_of_publication": "Darmstadt",
+      "publication_year": 1999,
+      "edition": null,
+      "pages": 869,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": "Sehr gut erhalten",
+      "copies": null,
+      "illustrations": "Mit zahlr. Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": 60,
+      "topic": "ESOTERIK",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ZANDER, Helmut. Geschichte der Seelenwanderung in Europa. Alternative religiöse Traditionen von der Antike bis heute. Darmstadt Primus Verl. 1999. 869 S. Mit zahlr. Abb. OLn.m.OU Sehr gut erhalten.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  }
+]

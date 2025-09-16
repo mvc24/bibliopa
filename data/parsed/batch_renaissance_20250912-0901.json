@@ -1,0 +1,1286 @@
+[
+  {
+    "custom_id": "renaissance_25_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": null,
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Dürer",
+          "family_name": "Dürer",
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Dürer"
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": null,
+      "publication_year": null,
+      "edition": null,
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "DÜRER. Siehe auch SAVONAROLA",
+        "parsing_confidence": "low",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_26_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Schriften und Briefe",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Dürer, Albrecht",
+          "family_name": "Dürer",
+          "given_names": "Albrecht",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Reclam",
+      "place_of_publication": "Leipzig",
+      "publication_year": 1982,
+      "edition": null,
+      "pages": 396,
+      "format_original": "TB",
+      "format_expanded": "Taschenbuch",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit zahlr. Abb. a. Taf.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "DÜRER, Albrecht. Schriften und Briefe. Leipzig Reclam 1982 396 S. Mit zahlr. Abb. a. Taf. TB",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_27_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Elisabeth I. und ihre Zeit",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Klein, Jürgen",
+          "family_name": "Klein",
+          "given_names": "Jürgen",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Beck",
+      "place_of_publication": "München",
+      "publication_year": 2004,
+      "edition": "Originalausgabe",
+      "pages": 199,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ELISABETH I.. Jürgen Klein: Elisabeth I. und ihre Zeit. Originalausgabe. München Beck 2004. 199 S. bsr. 1586.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_28_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Briefe",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Erasmus von Rotterdam",
+          "family_name": "Erasmus",
+          "given_names": null,
+          "name_particles": "von Rotterdam",
+          "single_name": null
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Köhler, Walther",
+          "family_name": "Köhler",
+          "given_names": "Walther",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Dieterich",
+      "place_of_publication": "Wiesbaden",
+      "publication_year": 1947,
+      "edition": "1.- 3. Auflage",
+      "pages": 577,
+      "format_original": "OHLn.",
+      "format_expanded": "Original-Halbleinen",
+      "condition": "Sehr gut",
+      "copies": 2,
+      "illustrations": "Mit 8 Abbildungen",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [
+        {
+          "volume_number": 1,
+          "volume_title": null,
+          "pages": 577,
+          "notes": "XLIV, 577 S. Mit 8 Abbildungen. Wiesbaden Dieterich 1947"
+        },
+        {
+          "volume_number": 2,
+          "volume_title": null,
+          "pages": 592,
+          "notes": "Dritte, erweiterte Auflage. Mit 8 Abb. WBG Darmstadt 1956"
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ERASMUS VON ROTTERDAM . Briefe. Herausgegeben von Walther Köhler. Mit 8 Abbildungen. Wiesbaden Dieterich 1947. 1.- 3. Auflage. XLIV, 577 S. OHLn. Sehr gut. . 2.Ex. Dritte, erweiterte Auflage. Mit 8 Abb. WBG Darmstadt 1956. 592 S. OLn.",
+        "parsing_confidence": "medium",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_29_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Ein Klag des Frydens. Leo Juds Übersetzung der Querela Pacis von 1521 zusammen mit dem lateinischen Original",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Erasmus von Rotterdam",
+          "family_name": "Erasmus",
+          "given_names": null,
+          "name_particles": "von Rotterdam",
+          "single_name": null
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Haas, Alois M.",
+          "family_name": "Haas",
+          "given_names": "Alois M.",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Herzog, Urs",
+          "family_name": "Herzog",
+          "given_names": "Urs",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Orell Füssli",
+      "place_of_publication": "Zürich",
+      "publication_year": 1969,
+      "edition": null,
+      "pages": 98,
+      "format_original": "OPbd.",
+      "format_expanded": "Original-Pappband",
+      "condition": "Verlagsfrisch",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 30,
+      "topic": "RENAISSANCE",
+      "is_translation": true,
+      "original_language": "lateinisch",
+      "translator": {
+        "display_name": "Jud, Leo",
+        "family_name": "Jud",
+        "given_names": "Leo",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ERASMUS VON ROTTERDAM. Ein Klag des Frydens. Leo Juds Übersetzung der Querela Pacis von 1521 zusammen mit dem lateinischen Original herausgegeben von Alois M. Haas und Urs Herzog. Zürich Orell Füssli 1969. XXIX, 98 S. OPbd. Verlagsfrisch",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_30_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Adagia. Vom Sinn und vom Leben der Sprichwörter",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Erasmus von Rotterdam",
+          "family_name": "Erasmus von Rotterdam",
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Erasmus von Rotterdam"
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Theodor Knecht",
+          "family_name": "Knecht",
+          "given_names": "Theodor",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Manesse",
+      "place_of_publication": "Zürich",
+      "publication_year": 1985,
+      "edition": null,
+      "pages": 328,
+      "format_original": "OLn.m.OU und Lesebändchen",
+      "format_expanded": "Original-Leinen mit Original-Umschlag und Lesebändchen",
+      "condition": "Verlagsfrisch",
+      "copies": null,
+      "illustrations": "Mit 50 Illustrationen",
+      "packaging": null,
+      "isbn": null,
+      "price": 20,
+      "topic": "RENAISSANCE",
+      "is_translation": true,
+      "original_language": "Latin",
+      "translator": {
+        "display_name": "Theodor Knecht",
+        "family_name": "Knecht",
+        "given_names": "Theodor",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ERASMUS VON ROTTERDAM. Adagia. Vom Sinn und vom Leben der Sprichwörter. Ausgewählt, übersetzt und erläutert von Theodor Knecht Mit 50 Illustrationen. Zürich Manesse 1985. 328 S. OLn.m.OU und Lesebändchen. Verlagsfrisch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_31_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Das Lob der Torheit",
+      "subtitle": "Mit den Randzeichnungen von Hans Holbein dem Jüngeren",
+      "authors": [
+        {
+          "display_name": "Erasmus von Rotterdam",
+          "family_name": "Erasmus von Rotterdam",
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Erasmus von Rotterdam"
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Schultz, Uwe",
+          "family_name": "Schultz",
+          "given_names": "Uwe",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Insel",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1979,
+      "edition": null,
+      "pages": 196,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit den Randzeichnungen von Hans Holbein dem Jüngeren",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": true,
+      "original_language": "Latin",
+      "translator": {
+        "display_name": "Schultz, Uwe",
+        "family_name": "Schultz",
+        "given_names": "Uwe",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ERASMUS VON ROTTERDAM. Das Lob der Torheit. Mit den Randzeichnungen von Hans Holbein dem Jüngeren. Übersetzt und herausgegeben von Uwe Schultz Frankfurt Insel 1979. 196 S. it 369",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_32_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Enconomium artis medicae per …",
+      "subtitle": "Reprint der ersten Ausgabe von 1518. Lateinisch-Deutsch",
+      "authors": [
+        {
+          "display_name": "Erasmus von Rotterdam",
+          "family_name": "Erasmus",
+          "given_names": null,
+          "name_particles": "von Rotterdam",
+          "single_name": "Erasmus von Rotterdam"
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": "Darmstadt",
+      "publication_year": 1960,
+      "edition": "Reprint der ersten Ausgabe von 1518",
+      "pages": 52,
+      "format_original": "OPbd.",
+      "format_expanded": "Original-Pappband",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 15,
+      "topic": "RENAISSANCE",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ERASMUS VON ROTTERDAM. Enconomium artis medicae per …Reprint der ersten Ausgabe von 1518. Lateinisch-Deutsch. Darmstadt 1960. (52 S.) OPbd.",
+        "parsing_confidence": "medium",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_33_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Lob der Narrheit",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Erasmus von Rotterdam",
+          "family_name": "Erasmus von Rotterdam",
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Erasmus von Rotterdam"
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Richard Hoffmann",
+          "family_name": "Hoffmann",
+          "given_names": "Richard",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Erasmus Verlag",
+      "place_of_publication": "Wien",
+      "publication_year": 1946,
+      "edition": "Neubearbeitung",
+      "pages": 149,
+      "format_original": "OLn.",
+      "format_expanded": "Original-Leinen",
+      "condition": "Sehr gut erhalten",
+      "copies": null,
+      "illustrations": "Mit Vignetten und Zeichnungen",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ERASMUS VON ROTTERDAM. Lob der Narrheit. Neubearbeitung von Richard Hoffmann. Wien Erasmus Verlag 1946. 149 S. Mit Vignetten und Zeichnungen OLn. Sehr gut erhalten.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_34_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Vertraute Gespräche (Colloquia Familiaria)",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Erasmus von Rotterdam",
+          "family_name": "Erasmus",
+          "given_names": null,
+          "name_particles": "von Rotterdam",
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [
+        {
+          "display_name": "Hubert Schiel",
+          "family_name": "Schiel",
+          "given_names": "Hubert",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Phaidon",
+      "place_of_publication": "Essen",
+      "publication_year": null,
+      "edition": null,
+      "pages": 643,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": "Neuwertig",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 20,
+      "topic": "RENAISSANCE",
+      "is_translation": true,
+      "original_language": "Latin",
+      "translator": {
+        "display_name": "Hubert Schiel",
+        "family_name": "Schiel",
+        "given_names": "Hubert",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ERASMUS VON ROTTERDAM. Vertraute Gespräche (Colloquia Familiaria) Übertragen und eingeleitet von Hubert Schiel. Essen Phaidon o.J. XIII, 643 S. OLn.m.OU. Neuwertig.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_35_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Briefe",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Erasmus von Rotterdam",
+          "family_name": "Erasmus",
+          "given_names": null,
+          "name_particles": "von Rotterdam",
+          "single_name": null
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Köhler, Walther",
+          "family_name": "Köhler",
+          "given_names": "Walther",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Dieterich",
+      "place_of_publication": "Wiesbaden",
+      "publication_year": 1947,
+      "edition": null,
+      "pages": 577,
+      "format_original": "OHln.",
+      "format_expanded": "Original-Halbleinen",
+      "condition": "Sehr gut erhalten",
+      "copies": null,
+      "illustrations": "Mit 8 Abbildungen",
+      "packaging": null,
+      "isbn": null,
+      "price": 20,
+      "topic": "RENAISSANCE",
+      "is_translation": true,
+      "original_language": "Latein",
+      "translator": {
+        "display_name": "Köhler, Walther",
+        "family_name": "Köhler",
+        "given_names": "Walther",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ERASMUS VON ROTTERDAM. Briefe. Verdeutscht und herausgegeben von Walther Köhler. Mit 8 Abbildungen. Wiesbaden Dieterich 1947. XLIV, 577 SS. OHln. Sehr gut erhalten.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_36_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Denkwürdigkeiten des florentinischen Bildhauers Lorenzo Ghiberti",
+      "subtitle": "Zum erstenmal ins Deutsche übertragen von Julius Schlosser",
+      "authors": [
+        {
+          "display_name": "Ghiberti, Lorenzo",
+          "family_name": "Ghiberti",
+          "given_names": "Lorenzo",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Julius Bard Verlag",
+      "place_of_publication": "Berlin",
+      "publication_year": 1920,
+      "edition": null,
+      "pages": 144,
+      "format_original": "OLn.",
+      "format_expanded": "Original-Leinen",
+      "condition": "Sehr gut erhalten",
+      "copies": null,
+      "illustrations": "Mit 16 ganzs. Bildern",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": true,
+      "original_language": "italienisch",
+      "translator": {
+        "display_name": "Schlosser, Julius",
+        "family_name": "Schlosser",
+        "given_names": "Julius",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "GHIBERTI, Lorenzo. Denkwürdigkeiten des florentinischen Bildhauers Lorenzo Ghiberti. Zum erstenmal ins Deutsche übertragen von Julius Schlosser. Berlin Julius Bard Verlag 1920. 144 S. Mit 16 ganzs. Bildern. OLn. Sehr gut erhalten",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_37_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Astrologie in der Renaissance",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "GARIN, Eugenio",
+          "family_name": "GARIN",
+          "given_names": "Eugenio",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Campus",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1997,
+      "edition": null,
+      "pages": 190,
+      "format_original": "OPbd.m.OU",
+      "format_expanded": "Original-Pappband mit Original-Umschlag",
+      "condition": "Sehr gut",
+      "copies": null,
+      "illustrations": "Mit Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": true,
+      "original_language": "Italien",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "GARIN, Eugenio. Astrologie in der Renaissance. A.d.Italien. Frankfurt Campus 1997. 190 S. Mit Abb. OPbd.m.OU Sehr gut.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_38_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Guicciardini, Machiavelli und die Geschichtsschreibung der italienischen Renaissance",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Gilbert, Felix",
+          "family_name": "Gilbert",
+          "given_names": "Felix",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [
+        {
+          "display_name": "Guggisberg, Hans R.",
+          "family_name": "Guggisberg",
+          "given_names": "Hans R.",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Wagenbach",
+      "place_of_publication": "Berlin",
+      "publication_year": 1991,
+      "edition": null,
+      "pages": 84,
+      "format_original": "OBrosch.",
+      "format_expanded": "Original-Broschur",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Kleine kulturwissenschaftliche Bibliothek",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "GILBERT, Felix. Guicciardini, Machiavelli und die Geschichtsschreibung der italienischen Renaissance. Mit einer Einleitung von Hans R. Guggisberg. Berlin Wagenbach 1991. 84 S. Kleine kulturwissenschaftliche Bibliothek. OBrosch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_39_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Mostra bibliografica da Colecao Biblioteca de Estudos Humanisticos",
+      "subtitle": null,
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Pina Martins",
+          "family_name": "Martins",
+          "given_names": "Pina",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": "Lissabon",
+      "publication_year": 2013,
+      "edition": null,
+      "pages": 126,
+      "format_original": "OBrosch.",
+      "format_expanded": "Original-Broschur",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "GIOVANNI PICO DELLA MIRANDOLA. (1463-1494). Mostra bibliografica da Colecao Biblioteca de Estudos Humanisticos / Pina Martins. Katalog einer Ausstellung in Lissabon 2013. Portugiesisch und Englisch. 126 S. OBrosch.",
+        "parsing_confidence": "medium",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_40_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Die Wende",
+      "subtitle": "Wie die Renaissance begann",
+      "authors": [
+        {
+          "display_name": "Greenblatt, Stephen",
+          "family_name": "Greenblatt",
+          "given_names": "Stephen",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Siedler",
+      "place_of_publication": "München",
+      "publication_year": 2012,
+      "edition": "Achte Auflage",
+      "pages": 342,
+      "format_original": "OPbd. m. OU",
+      "format_expanded": "Original-Pappband mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit 12 ganzs. Abb. a. Taf.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": true,
+      "original_language": "Amerikanisch",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "GREENBLATT, Stephen. Die Wende. Wie die Renaissance begann. A. d. Amerikan. München Siedler 2012. Achte Aufl. 342 S. Mit 12 ganzs. Abb. a. Taf. OPbd. m. OU .",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_41_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Die Kultur der Renaissance in Europa",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Hale, John",
+          "family_name": "Hale",
+          "given_names": "John",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Kindler",
+      "place_of_publication": "München",
+      "publication_year": 1994,
+      "edition": null,
+      "pages": 751,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": "Neuwertig",
+      "copies": null,
+      "illustrations": "Mit vielen Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": 30,
+      "topic": "RENAISSANCE",
+      "is_translation": true,
+      "original_language": "English",
+      "translator": {
+        "display_name": "Schmidt, Michael",
+        "family_name": "Schmidt",
+        "given_names": "Michael",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "HALE, John. Die Kultur der Renaissance in Europa. A.d.Engl. von Michael Schmidt. München Kindler 1994. 751 S. Mit vielen Abb. OLn.m.OU. Neuwertig.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_42_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Die Macht aus dem Schatten. Alessandra Strozzi und Lucrezia Medici: Zwei Frauen in Florenz der Renaissance",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Hausmann, Friederike",
+          "family_name": "Hausmann",
+          "given_names": "Friederike",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Wagenbach",
+      "place_of_publication": "Berlin",
+      "publication_year": 1993,
+      "edition": null,
+      "pages": 156,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "WAT",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "HAUSMANN, Friederike. Die Macht aus dem Schatten. Alessandra Strozzi und Lucrezia Medici: Zwei Frauen in Florenz der Renaissance. Berlin Wagenbach 1993. 156 S. Mit Abb. WAT 221",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_43_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Der Mensch der Renaissance",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Heller, Agnes",
+          "family_name": "Heller",
+          "given_names": "Agnes",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Suhrkamp",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1988,
+      "edition": null,
+      "pages": 522,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 30,
+      "topic": "RENAISSANCE",
+      "is_translation": true,
+      "original_language": "Hungarian",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "HELLER, Agnes. Der Mensch der Renaissance. A.d.Ungar. Frankfurt Suhrkamp 1988. 522 S. OLn.m.OU.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_44_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Der schwarze Tod und die Verwandlung Europas",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "HERLIHY, David",
+          "family_name": "HERLIHY",
+          "given_names": "David",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Wagenbach",
+      "place_of_publication": "Berlin",
+      "publication_year": 2000,
+      "edition": null,
+      "pages": 142,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit vielen Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": true,
+      "original_language": "Englisch",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "WAT 391",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "HERLIHY, David. Der schwarze Tod und die Verwandlung Europas. Berlin Wagenbach 2000. A.d.Engl. 142 S. Mit vielen Abb. WAT 391.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_45_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Aldo Manuzio. Vom Drucken und Verbreiten schöner Bücher",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Heyden-Rynsch, Verena von der",
+          "family_name": "Heyden-Rynsch",
+          "given_names": "Verena",
+          "name_particles": "von der",
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Wagenbach",
+      "place_of_publication": "Berlin",
+      "publication_year": null,
+      "edition": null,
+      "pages": 140,
+      "format_original": "OLn.",
+      "format_expanded": "Original-Leinen",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit zahlr. Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "HEYDEN-RYNSCH, Verena von der. Aldo Manuzio. Vom Drucken und Verbreiten schöner Bücher. Berlin Wagenbach o.J. 140 S. Mit zahlr. Abb. OLn.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_46_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Römisches Tagebuch",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "INFESSURA, Stefano",
+          "family_name": "INFESSURA",
+          "given_names": "Stefano",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Herzfeld, Marie",
+          "family_name": "Herzfeld",
+          "given_names": "Marie",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Düsseldorf",
+      "publication_year": 1979,
+      "edition": null,
+      "pages": 274,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit 11 Abbildungen",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": true,
+      "original_language": "Italien",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Das Zeitalter der Renaissance. Ausgewählte Quellen zur Geschichte der italienischen Kultur",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "INFESSURA, Stefano. Römisches Tagebuch. A.d.Italien. Düsseldorf Diederichs 1979. LXXVII, 274 SS. Mit 11 Abbildungen. OLn.m.OU. (Das Zeitalter der Renaissance. Ausgewählte Quellen zur Geschichte der italienischen Kultur. Herausgegeben von Marie Herzfeld.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_47_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "ISABELLA D'ESTE",
+      "subtitle": "Fürstin und Mäzenatin der Renaissance",
+      "authors": [
+        {
+          "display_name": "Ferino-Pagden, Sylvia",
+          "family_name": "Ferino-Pagden",
+          "given_names": "Sylvia",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": "Wien",
+      "publication_year": 1994,
+      "edition": null,
+      "pages": 446,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": "Neuwertig",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 20,
+      "topic": "RENAISSANCE",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ISABELLA D´ESTE. Fürstin und Mäzenatin der Renaissance. Sylvia Ferino-Pagden. Unter Mitarbeit von…Ausstellungskatalog Kunsthistorisches Museum Wien 1994. 446 S. Neuwertig.",
+        "parsing_confidence": "medium",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_48_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Nikolaus Cusanus",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "JASPERS, Karl",
+          "family_name": "JASPERS",
+          "given_names": "Karl",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "DTV",
+      "place_of_publication": "München",
+      "publication_year": 1968,
+      "edition": null,
+      "pages": 256,
+      "format_original": "TB",
+      "format_expanded": "Taschenbuch",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "JASPERS, Karl. Nikolaus Cusanus. München DTV 1968. 256 S. TB.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "renaissance_49_2_4",
+    "parsed_entry": {
+      "identifier": "bsr 2130",
+      "title": "Karl V. Kaiser zwischen Mittelalter und Neuzeit",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Schorn-Schütte, Luise",
+          "family_name": "Schorn-Schütte",
+          "given_names": "Luise",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Beck",
+      "place_of_publication": "München",
+      "publication_year": 2000,
+      "edition": "Originalausgabe",
+      "pages": 109,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit 4 Abb. u. 2 Ktn.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "RENAISSANCE",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "KARL V:. Luise Schorn-Schütte: Karl V. Kaiser zwischen Mittelalter und Neuzeit. Originalausgabe. Mit 4 Abb. u. 2 Ktn. München Beck 2000. 109 S. bsr 2130",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  }
+]

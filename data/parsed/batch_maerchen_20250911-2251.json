@@ -1,0 +1,1390 @@
+[
+  {
+    "custom_id": "maerchen_25_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "GESTA ROMANORUM. Das älteste Märchen- und Legendenbuch des christlichen Mittelalters",
+      "subtitle": null,
+      "authors": [],
+      "editors": [],
+      "contributors": [
+        {
+          "display_name": "Hermann Hesse",
+          "family_name": "Hesse",
+          "given_names": "Hermann",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Insel",
+      "place_of_publication": "Leipzig",
+      "publication_year": 1924,
+      "edition": "8. – 10.- Tausend",
+      "pages": 288,
+      "format_original": "OLn.",
+      "format_expanded": "Original-Leinen",
+      "condition": "Rücken verblasst. Sehr gut erhalten",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 20,
+      "topic": "MÄRCHEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "GESTA ROMANORUM. Das älteste Märchen- und Legendenbuch des christlichen Mittelalters. Mit einer Einführung von Hermann Hesse. Leipzig Insel 1924. 8. – 10.- Tausend. 288 S. OLn. Rücken verblasst. Sehr gut erhalten.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_26_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "INDISCHE MÄRCHEN",
+      "subtitle": null,
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Hertel, Johannes",
+          "family_name": "Hertel",
+          "given_names": "Johannes",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [
+        {
+          "display_name": "von der Leyen, Friedrich",
+          "family_name": "von der Leyen",
+          "given_names": "Friedrich",
+          "name_particles": "von der",
+          "single_name": null
+        },
+        {
+          "display_name": "Zaunert, Paul",
+          "family_name": "Zaunert",
+          "given_names": "Paul",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Ehmcke, F. H.",
+          "family_name": "Ehmcke",
+          "given_names": "F. H.",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Diederichs",
+      "place_of_publication": "Jena",
+      "publication_year": 1919,
+      "edition": null,
+      "pages": 390,
+      "format_original": "OLdr.",
+      "format_expanded": "Original-Leder",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": 30,
+      "topic": "MÄRCHEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Märchen der Weltliteratur",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "INDISCHE MÄRCHEN.. Herausgegeben von Johannes Hertel. Jena Diederichs 1919. 390 S. Märchen der Weltliteratur. Herausgegeben von Friedrich von der Leyen und Paul Zaunert. Buchausstattung von F. H. Ehmcke. Mit Abb. OLdr. Kopfgoldschnitt u. goldgeprägtem Rücken und bunten Vorsätzen.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_27_2_3",
+    "parsed_entry": {
+      "identifier": "it 988",
+      "title": "IRISCHE ELFENMÄRCHEN",
+      "subtitle": null,
+      "authors": [],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": "Frankfurt, Leipzig",
+      "publication_year": 1987,
+      "edition": null,
+      "pages": 275,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": true,
+      "original_language": "Englisch",
+      "translator": {
+        "display_name": "Brüder Grimm",
+        "family_name": "Grimm",
+        "given_names": null,
+        "name_particles": null,
+        "single_name": "Brüder Grimm"
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "IRISCHE ELFENMÄRCHEN. . In der Übertragung der Brüder Grimm. Frankfurt, Leipzig 1987. 275 S. it 988",
+        "parsing_confidence": "medium",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_28_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Die Welt von Tausendundeiner Nacht",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Irwin, Robert",
+          "family_name": "Irwin",
+          "given_names": "Robert",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Insel",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 2004,
+      "edition": null,
+      "pages": 464,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": true,
+      "original_language": "Englisch",
+      "translator": {
+        "display_name": "Walther, Wiebke",
+        "family_name": "Walther",
+        "given_names": "Wiebke",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "insel taschenbuch",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "IRWIN, Robert. Die Welt von Tausendundeiner Nacht. Aus dem Englischen übersetzt und für den deutschen Leser ergänzt von Wiebke Walther. Frankfurt Insel 2004. 464 S. insel taschenbuch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_29_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "ISLÄNDISCHE VOLKSMÄRCHEN",
+      "subtitle": null,
+      "authors": [],
+      "editors": [],
+      "contributors": [
+        {
+          "display_name": "von der Leyen, Friedrich",
+          "family_name": "von der Leyen",
+          "given_names": "Friedrich",
+          "name_particles": "von der",
+          "single_name": null
+        },
+        {
+          "display_name": "Zaunert, Paul",
+          "family_name": "Zaunert",
+          "given_names": "Paul",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Diederichs",
+      "place_of_publication": "Jena",
+      "publication_year": 1923,
+      "edition": null,
+      "pages": 313,
+      "format_original": "OHLn.",
+      "format_expanded": "Original-Halbleinen",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": true,
+      "original_language": "Isländisch",
+      "translator": {
+        "display_name": "Naumann, Hans und Ida",
+        "family_name": "Naumann",
+        "given_names": "Hans und Ida",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Die Märchen der Weltliteratur",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ISLÄNDISCHE VOLKSMÄRCHEN. Übersetzt von Hans und Ida Naumann. Jena Diederichs 1923. XVI, 313 S. Buchausstattung F. H. Ehmcke. Die Märchen der Weltliteratur. Herausgegeben von Friedrich von der Leyen und Paul Zaunert. OHLn.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_30_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "ISLÄNDISCHE VOLKSMÄRCHEN",
+      "subtitle": null,
+      "authors": [],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Doederichs",
+      "place_of_publication": "Jena",
+      "publication_year": 1923,
+      "edition": null,
+      "pages": 313,
+      "format_original": "OHLn",
+      "format_expanded": "Original-Halbleinen",
+      "condition": "Berieben",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": true,
+      "original_language": "Isländisch",
+      "translator": {
+        "display_name": "Hans und Ida Naumann",
+        "family_name": "Naumann",
+        "given_names": "Hans und Ida",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Die Märchen der Weltliteratur Herausgegeben von Friedrich von der Leyen und Paul Zaunert",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ISLÄNDISCHE VOLKSMÄRCHEN. Übersetzt von Hans und Ida Naumann. Jena Doederichs 1923. Buchausstattung F. H. Ehmcke. 313 S. Die Märchen der Weltliteratur Herausgegeben von Friedrich von der Leyen und Paul Zaunert. Bibliotheksstempel. Berieben. OHLn.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_31_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "An den Nachtfeuern der Karawan-Serail",
+      "subtitle": "Märchen und Geschichten alttürkischer Nomaden",
+      "authors": [
+        {
+          "display_name": "Kamphoevener, Elsa Sophia",
+          "family_name": "Kamphoevener",
+          "given_names": "Elsa Sophia",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Wegner",
+      "place_of_publication": "Hamburg",
+      "publication_year": 1956,
+      "edition": null,
+      "pages": 351,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": "Ungelesen",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 20,
+      "topic": "MÄRCHEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "KAMPHOEVENER, Elsa Sophia. An den Nachtfeuern der Karawan-Serail. Mäerchen und Geschichten alttürkischer Nomaden. Hamburg Wegner 1956. 351 S. OLn.m.OU. Ungelesen.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_32_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "An Nachtfeuern der Karawan-Serail",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Kamphoevener, Elsa Sophia von",
+          "family_name": "Kamphoevener",
+          "given_names": "Elsa Sophia",
+          "name_particles": "von",
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Rowohlt",
+      "place_of_publication": "Reinbek",
+      "publication_year": 1997,
+      "edition": null,
+      "pages": 713,
+      "format_original": "OBrosch. TB",
+      "format_expanded": "Original-Broschur Taschenbuch",
+      "condition": "Verlagsfrisch",
+      "copies": null,
+      "illustrations": null,
+      "packaging": "in bunter Kassette",
+      "isbn": null,
+      "price": 30,
+      "topic": "MÄRCHEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": true,
+      "series_title": null,
+      "total_volumes": 3,
+      "volumes": [
+        {
+          "volume_number": 1,
+          "volume_title": null,
+          "pages": 234,
+          "notes": null
+        },
+        {
+          "volume_number": 2,
+          "volume_title": null,
+          "pages": 233,
+          "notes": null
+        },
+        {
+          "volume_number": 3,
+          "volume_title": null,
+          "pages": 246,
+          "notes": null
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "KAMPHOEVENER, Elsa Sophia von. An Nachtfeuern der Karawan-Serail. In drei Bänden. Reinbek Rowohlt 1997. 234, 233, 246 S. OBrosch. TB in bunter Kassette. Verlagsfrisch",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_33_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": null,
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Kamphoevener, Elsa Sophia von",
+          "family_name": "Kamphoevener",
+          "given_names": "Elsa Sophia",
+          "name_particles": "von",
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": null,
+      "publication_year": null,
+      "edition": null,
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": null,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": null,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "KAMPHOEVENER, Elsa Sophia von. Siehe AN NACHTFEUERN",
+        "parsing_confidence": "low",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_34_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "KINDER- UND HAUSMÄRCHEN",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Grimm, Brüder",
+          "family_name": "Grimm",
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Brüder Grimm"
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "von der Leyen, Friedrich",
+          "family_name": "von der Leyen",
+          "given_names": "Friedrich",
+          "name_particles": "von der",
+          "single_name": null
+        },
+        {
+          "display_name": "Zaunert, Paul",
+          "family_name": "Zaunert",
+          "given_names": "Paul",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [
+        {
+          "display_name": "Ehmcke, F. H.",
+          "family_name": "Ehmcke",
+          "given_names": "F. H.",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Diederichs",
+      "place_of_publication": "Jena",
+      "publication_year": 1922,
+      "edition": "Jubiläumsausgabe",
+      "pages": 370,
+      "format_original": "OPbd.m.OU",
+      "format_expanded": "Original-Pappband mit Original-Umschlag",
+      "condition": "Berieben",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": true,
+      "series_title": "Die Märchen der Weltliteratur",
+      "total_volumes": null,
+      "volumes": [
+        {
+          "volume_number": 2,
+          "volume_title": null,
+          "pages": 370,
+          "notes": null
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "KINDER- UND HAUSMÄRCHEN. Gesammelt durch die Brüder Grimm. Zweiter Band. Jubiläumsausgabe Jena Diederichs 1922. 370 S. Die Märchen der Weltliteratur. Herausgegeben von Friedrich von der Leyen und Paul Zaunert. Ausstattung F. H. Ehmcke. OPbd.m.OU. Berieben.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_35_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": null,
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Brüder Grimm",
+          "family_name": "Grimm",
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Brüder Grimm"
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Rölleke, Heinz",
+          "family_name": "Rölleke",
+          "given_names": "Heinz",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Deutscher Klassiker Verlag",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1999,
+      "edition": "Sonderausgabe",
+      "pages": null,
+      "format_original": "OPbd",
+      "format_expanded": "Original-Pappband",
+      "condition": "Verlagsfrisch",
+      "copies": 1,
+      "illustrations": null,
+      "packaging": "Kassette",
+      "isbn": null,
+      "price": 50,
+      "topic": "MÄRCHEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": true,
+      "series_title": null,
+      "total_volumes": 2,
+      "volumes": [
+        {
+          "volume_number": 1,
+          "volume_title": "KINDER- UND HAUSMÄRCHEN. Gesammelt durch die Brüder Grimm. Vollständige Ausgabe auf der Grundlage der dritten Auflage (1837)",
+          "pages": 1302,
+          "notes": "Verlagsfrisch"
+        },
+        {
+          "volume_number": 2,
+          "volume_title": "DEUTSCHE SAGEN. Herausgegeben von den Brüdern Grimm. Ausgabe auf der Grundlage der ersten Auflage",
+          "pages": 1073,
+          "notes": "Kassette. Verlagsfrisch"
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "KINDER- UND HAUSMÄRCHEN. Gesammelt durch die Brüder Grimm. Vollständige Ausgabe auf der Grundlage der dritten Auflage (1837). Herausgegeben von Heinz Rölleke. Frankfurt Deutscher Klassiker Verlag 1999. Sonderausgabe. 1302 S. OPbd. Verlagsfrisch. . DEUTSCHE SAGEN. Herausgegeben von den Brüdern Grimm. Ausgabe auf der Grundlage der ersten Auflage. Ediert und kommentiert von Heinz Rölleke. Sonderausgabe. Frankfurt Deutscher Klassiker Verlag 1999. 1073 S. OPbd. Kassette. Verlagsfrisch. Beide Bände",
+        "parsing_confidence": "medium",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_36_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "MÄRCHEN DER AZTEKEN UND INKAPERUANER MAYA UND MUISCA",
+      "subtitle": null,
+      "authors": [],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Jena",
+      "publication_year": 1928,
+      "edition": null,
+      "pages": 404,
+      "format_original": "OPbd.",
+      "format_expanded": "Original-Pappband",
+      "condition": "Berieben",
+      "copies": null,
+      "illustrations": "Mit 8 Tafeln, 49 Abbildungen im Text und einer Karte",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": true,
+      "original_language": null,
+      "translator": {
+        "display_name": "Krickenberg, W.",
+        "family_name": "Krickenberg",
+        "given_names": "W.",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Die Märchen der Weltliteratur",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "MÄRCHEN DER AZTEKEN UND INKAPERUANER MAYA UND MUISCA. Übersetzt, eingeleitet und erläutert von W. Krickenberg. Jena Diederichs 1928. XV, 404 S. Mit 8 Tafeln, 49 Abbildungen im Text und einer Karte. Einbandzeichnung von Elisabeth Weber. Die Märchen der Weltliteratur. Herausgegeben von Friedrich von der Leyen. Mit Bibliotheksstempel. Berieben. OPbd.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_37_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "MÄRCHEN DER KHMER",
+      "subtitle": null,
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Sacher, Ruth",
+          "family_name": "Sacher",
+          "given_names": "Ruth",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Drei Lilien Verlag",
+      "place_of_publication": "Wiesbaden",
+      "publication_year": 1982,
+      "edition": null,
+      "pages": 438,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "MÄRCHEN DER KHMER. Herausgegeben von Ruth Sacher. Wiesbaden Drei Lilien Verlag 1982. 438 S. OLn.m.OU",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_38_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "MÄRCHEN DER VÖLKER BURMAS",
+      "subtitle": null,
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Esche, Annemarie",
+          "family_name": "Esche",
+          "given_names": "Annemarie",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [
+        {
+          "display_name": "Mode, Heinz",
+          "family_name": "Mode",
+          "given_names": "Heinz",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Tröger, Ralph",
+          "family_name": "Tröger",
+          "given_names": "Ralph",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Insel",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1993,
+      "edition": null,
+      "pages": 539,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": true,
+      "original_language": "Burmesisch",
+      "translator": {
+        "display_name": "Esche, Annemarie",
+        "family_name": "Esche",
+        "given_names": "Annemarie",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "MÄRCHEN DER VÖLKER BURMAS. Übersetzt und herausgegeben von Annemarie Esche. Kommentiert unter Mitarbeit von Heinz Mode und Ralph Tröger. Frankfurt Insel 1993. 539 S. OLn.m.OU.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_39_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "NEUE ERZÄHLUNGEN AUS DEN TAUSENDUNDEIN NÄCHTEN",
+      "subtitle": "Die in anderen Versionen von >1001 Nacht< nicht enthaltenen Geschichten der Wortley-Montague-Handschrift der Oxforder Bodleian Library",
+      "authors": [],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Insel",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1989,
+      "edition": null,
+      "pages": null,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": true,
+      "original_language": "arabisch",
+      "translator": {
+        "display_name": "Tauer, Felix",
+        "family_name": "Tauer",
+        "given_names": "Felix",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": true,
+      "series_title": "NEUE ERZÄHLUNGEN AUS DEN TAUSENDUNDEIN NÄCHTEN",
+      "total_volumes": 2,
+      "volumes": [
+        {
+          "volume_number": 1,
+          "volume_title": null,
+          "pages": 421,
+          "notes": null
+        },
+        {
+          "volume_number": 2,
+          "volume_title": null,
+          "pages": 479,
+          "notes": null
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "NEUE ERZÄHLUNGEN AUS DEN TAUSENDUNDEIN NÄCHTEN. Die in anderen Versionen von >1001 Nacht< nicht enthaltenen Geschichten der Wortley-Montague-Handschrift der Oxforder Bodleian Library. Aus dem arabischen Urtext vollständig übertragen und erläutert von Felix Tauer. . Band 1 und 2. Frankfurt Insel 1989. 421, 479 S. it",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_40_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "NORDAMERIKANISCHE INDIANERMÄRCHEN",
+      "subtitle": null,
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Konitzky, Gustav A.",
+          "family_name": "Konitzky",
+          "given_names": "Gustav A.",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Düsseldorf",
+      "publication_year": 1978,
+      "edition": null,
+      "pages": 300,
+      "format_original": "OHLn.",
+      "format_expanded": "Original-Halbleinen",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Die Märchen der Weltliteratur",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "NORDAMERIKANISCHE INDIANERMÄRCHEN: . Herausgegeben von Gustav A. Konitzky. Düsseldorf Diederichs 1978. 300 S. Die Märchen der Weltliteratur. OHLn.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_41_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "NORWEGISCHE VOLKSMÄRCHEN",
+      "subtitle": null,
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Stroebe, Klara",
+          "family_name": "Stroebe",
+          "given_names": "Klara",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Christiansen, Reidar Th.",
+          "family_name": "Christiansen",
+          "given_names": "Reidar Th.",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Düsseldorf",
+      "publication_year": 1967,
+      "edition": null,
+      "pages": 331,
+      "format_original": "OHln. m Lesebändchen",
+      "format_expanded": "Original-Halbleinen mit Lesebändchen",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": true,
+      "original_language": "Norwegian",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Die Märchen der Weltliteratur",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "NORWEGISCHE VOLKSMÄRCHEN. Herausgegeben und übertragen von Klara Stroebe und Reidar Th. Christiansen. Düsseldorf Diederichs 1967. 331 S. Die Märchen der Weltliteratur. OHln. m Lesebändchen.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_42_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "POLNISCHE VOLKSMÄRCHEN",
+      "subtitle": null,
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Bukowska-Grosse, Ewa",
+          "family_name": "Bukowska-Grosse",
+          "given_names": "Ewa",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Kochmieder, Erwin",
+          "family_name": "Kochmieder",
+          "given_names": "Erwin",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Düsseldorf",
+      "publication_year": 1967,
+      "edition": null,
+      "pages": 310,
+      "format_original": "OHln.",
+      "format_expanded": "Original-Halbleinen",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": true,
+      "original_language": "Polnisch",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Die Märchen der Weltliteratur",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "POLNISCHE VOLKSMÄRCHEN. Herausgegeben von Ewa Bukowska-Grosse und Erwin Kochmieder. Düsseldorf Diederichs 1967. 310 S. Die Märchen der Weltliteratur. OHln.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_43_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "PORTUGIESISCHE MÄRCHEN",
+      "subtitle": null,
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Meier, Harri",
+          "family_name": "Meier",
+          "given_names": "Harri",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Woll, Dieter",
+          "family_name": "Woll",
+          "given_names": "Dieter",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "München",
+      "publication_year": 1993,
+      "edition": null,
+      "pages": 280,
+      "format_original": "OHln. m. Lesebändchen",
+      "format_expanded": "Original-Halbleinen mit Lesebändchen",
+      "condition": null,
+      "copies": 2,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Die Märchen der Weltliteratur",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "EXTRACTED PRICE: None\nTOPIC: MÄRCHEN\n\nENTRY TEXT: PORTUGIESISCHE MÄRCHEN. Herausgegeben von Harri Meier und Dieter Woll. München Diederichs 1993. 280 S. Die Märchen der Weltliteratur. OHln. m. Lesebändchen. 2. Ex.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_44_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "RÄTOROMANISCHE MÄRCHEN",
+      "subtitle": null,
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Uffer, Leza",
+          "family_name": "Uffer",
+          "given_names": "Leza",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Düsseldorf",
+      "publication_year": 1973,
+      "edition": null,
+      "pages": 286,
+      "format_original": "OHln. m. Lesebändchen",
+      "format_expanded": "Original-Halbleinen mit Lesebändchen",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": true,
+      "original_language": "Rätoromanisch",
+      "translator": {
+        "display_name": "Uffer, Leza",
+        "family_name": "Uffer",
+        "given_names": "Leza",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Die Märchen der Weltliteratur",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "RÄTOROMANISCHE MÄRCHEN. Herausgegeben und übersetzt von Leza Uffer. Düsseldorf Diederichs 1973. 286 S. Die Märchen der Weltliteratur OHln. m. Lesebändchen",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_45_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Russische Volksmärchen",
+      "subtitle": null,
+      "authors": [],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Düsseldorf",
+      "publication_year": 1959,
+      "edition": null,
+      "pages": 336,
+      "format_original": "OHLn.m. Lesebändchen",
+      "format_expanded": "Original-Halbleinen mit Lesebändchen",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": true,
+      "original_language": "Russisch",
+      "translator": {
+        "display_name": "Löwis of Menar, August von",
+        "family_name": "Löwis of Menar",
+        "given_names": "August",
+        "name_particles": "von",
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Die Märchen der Weltliteratur",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "RUSSISCHE VOLKSMÄRCHEN. Übertragen von August von Löwis of Menar. Düsseldorf Diederichs 1959. 336 S. Die Märchen der Weltliteratur OHLn.m. Lesebändchen.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_46_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "SÜDAMERIKANISCHE INDIANERMÄRCHEN",
+      "subtitle": null,
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Karlinger, Felix",
+          "family_name": "Karlinger",
+          "given_names": "Felix",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Zacherl, Elisabeth",
+          "family_name": "Zacherl",
+          "given_names": "Elisabeth",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "München",
+      "publication_year": 1976,
+      "edition": null,
+      "pages": 315,
+      "format_original": "OHLn.",
+      "format_expanded": "Original-Halbleinen",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "MÄRCHEN",
+      "is_translation": true,
+      "original_language": null,
+      "translator": {
+        "display_name": "Karlinger, Felix und Zacherl, Elisabeth",
+        "family_name": null,
+        "given_names": null,
+        "name_particles": null,
+        "single_name": "Karlinger, Felix und Zacherl, Elisabeth"
+      },
+      "is_multivolume": false,
+      "series_title": "Die Märchen der Weltliteratur",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "EXTRACTED PRICE: None\nTOPIC: MÄRCHEN\n\nENTRY TEXT: SÜDAMERIKANISCHE INDIANERMÄRCHEN. Herausgegeben und übersetzt von Felix Karlinger und Elisabeth Zacherl. München Diederichs 1976. 315 S. Die Märchen der Weltliteratur. OHLn.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_47_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "TAUSENDUNDEIN TAG",
+      "subtitle": "Orientalische Erzählungen",
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Ernst, Paul",
+          "family_name": "Ernst",
+          "given_names": "Paul",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [
+        {
+          "display_name": "Greve, Felix Paul",
+          "family_name": "Greve",
+          "given_names": "Felix Paul",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Hansmann, Paul",
+          "family_name": "Hansmann",
+          "given_names": "Paul",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": null,
+      "place_of_publication": "Leipzig",
+      "publication_year": 1967,
+      "edition": "Dritte Auflage",
+      "pages": null,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": "Sehr gut erhalten",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 50,
+      "topic": "MÄRCHEN",
+      "is_translation": true,
+      "original_language": "Orientalisch",
+      "translator": null,
+      "is_multivolume": true,
+      "series_title": null,
+      "total_volumes": 2,
+      "volumes": [
+        {
+          "volume_number": 1,
+          "volume_title": null,
+          "pages": 679,
+          "notes": "Erster Band übertragen von Felix Paul Greve. Unveränderter Neudruck der Erstauflage von 1909"
+        },
+        {
+          "volume_number": 2,
+          "volume_title": null,
+          "pages": 743,
+          "notes": "Zweiter Band übertragen von Paul Hansmann"
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "TAUSENDUNDEIN TAG . Orientalische Erzählungen. Auswahl und Nachwort von Paul Ernst. Erster Band übertragen von Felix Paul Greve. Unveränderter Neudruck der Erstauflage von 1909. Zweiter Band übertragen von Paul Hansmann. Dritte Auflage Leipzig 1967. 679, 743 S. OLn.m.OU. In zwei Bänden. Sehr gut erhalten.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_48_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Alpensagen",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Vernaleken, Theodor",
+          "family_name": "Vernaleken",
+          "given_names": "Theodor",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Burg, Hermann",
+          "family_name": "Burg",
+          "given_names": "Hermann",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Pustet",
+      "place_of_publication": "Salzburg",
+      "publication_year": 1938,
+      "edition": null,
+      "pages": 435,
+      "format_original": "OHPgt",
+      "format_expanded": "Original-Halbleder-Pergament",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 30,
+      "topic": "MÄRCHEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "VERNALEKEN, Theodor. Alpensagen. Herausgegeben von Hermann Burg. Salzburg Pustet 1938. 435 S. OHPgt. Mit 2 Prospekten vom Verlag Pustet.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "maerchen_49_2_3",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "VOLKSMÄRCHEN DER KABYLEN",
+      "subtitle": null,
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Frobenius, Leo",
+          "family_name": "Frobenius",
+          "given_names": "Leo",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [
+        {
+          "display_name": "Ehmcke, F. H.",
+          "family_name": "Ehmcke",
+          "given_names": "F. H.",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Diederichs",
+      "place_of_publication": "Jena",
+      "publication_year": 1921,
+      "edition": null,
+      "pages": 939,
+      "format_original": "HLnbde",
+      "format_expanded": "Halbleinen-Bände",
+      "condition": "Sehr gut erhalten",
+      "copies": null,
+      "illustrations": "Mit 3 Bildertafeln und 4 Abb.",
+      "packaging": "Mit Verlagsschleife und Bauchbinde",
+      "isbn": null,
+      "price": 70,
+      "topic": "MÄRCHEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": true,
+      "series_title": "Atlantis. Volksmärchen und Volksdichtungen Afrikas",
+      "total_volumes": 3,
+      "volumes": [
+        {
+          "volume_number": 1,
+          "volume_title": "Weisheit",
+          "pages": 295,
+          "notes": "IV, 291 SS. Mit Verlagsschleife"
+        },
+        {
+          "volume_number": 2,
+          "volume_title": "Das Ungeheuerliche",
+          "pages": 293,
+          "notes": "Mit 3 Bildertafeln"
+        },
+        {
+          "volume_number": 3,
+          "volume_title": "Das Fabelhafte",
+          "pages": 355,
+          "notes": "Mit 4 Abb."
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "VOLKSMÄRCHEN DER KABYLEN. Herausgegeben von Leo Frobenius. Jena Diederichs 1921. (Atlantis. Volksmärchen und Volksdichtungen Afrikas). In drei Bänden. Einbandzeichnung von F. H. Ehmcke.. 1.Band. Weisheit. IV, 291 SS. Mit Verlagsschleife.. 2.Band. Das Ungeheuerliche. Mit 3 Bildertafeln. 293 S.. 3.Band. Das Fabelhafte. Mit 4 Abb. 355 S. . Sehr gut erhaltene HLnbde mit goldgeprägten Rücken und Bauchbinde. Band 1 und zwei in einer anderen Bindung doppelt. Dazu noch Band „Erzählungen aus dem Westsudan. Zusammen",
+        "parsing_confidence": "medium",
+        "needs_review": true
+      }
+    }
+  }
+]

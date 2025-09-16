@@ -1,0 +1,1284 @@
+[
+  {
+    "custom_id": "buddhismus_25_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "HINDUISMUS. Geschichte und Gegenwart",
+      "subtitle": null,
+      "authors": [],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Honos Verlag",
+      "place_of_publication": "Köln",
+      "publication_year": 2002,
+      "edition": null,
+      "pages": 128,
+      "format_original": "OPbd.",
+      "format_expanded": "Original-Pappband",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit vielen Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "HINDUISMUS. Geschichte und Gegenwart. Köln Honos Verlag ca. 2002. 128 S. Mit vielen Abb. OPbd.",
+        "parsing_confidence": "medium",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_26_2_4",
+    "parsed_entry": {
+      "identifier": "DG 043",
+      "title": "I Ging für Fortgeschrittene",
+      "subtitle": "Strukturen, Kräfte, Kombinationen",
+      "authors": [
+        {
+          "display_name": "HOOK, Diana Farington",
+          "family_name": "HOOK",
+          "given_names": "Diana Farington",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Düsseldorf",
+      "publication_year": 1986,
+      "edition": "2.Aufl.",
+      "pages": 175,
+      "format_original": "OBrosch.",
+      "format_expanded": "Original-Broschur",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Englisch",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Gelbe Reihe",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "HOOK, Diana Farington. I Ging für Fortgeschrittene. Strukturen, Kräfte, Kombinationen. A.d.Engl. Düsseldorf Diederichs 1986. 2.Aufl. 175 S. OBrosch. Gelbe Reihe. DG 043",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_27_2_4",
+    "parsed_entry": {
+      "identifier": "DG 044",
+      "title": "Die Kultur des Zen",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Hoover, Thomas",
+          "family_name": "Hoover",
+          "given_names": "Thomas",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Köln",
+      "publication_year": 1986,
+      "edition": null,
+      "pages": 269,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": null,
+      "translator": {
+        "display_name": "Meyer, Frank",
+        "family_name": "Meyer",
+        "given_names": "Frank",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Diederichs Gelbe Reihe",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "HOOVER, Thomas. Die Kultur des Zen. Übersetzt von Frank Meyer. Köln Diederichs 1986. 269 S. Mit Abb. Diederichs Gelbe Reihe. DG 044",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_28_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "I GING. Das Buch der Wandlungen",
+      "subtitle": null,
+      "authors": [],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Büchergemeinsschaft",
+      "place_of_publication": "Gütersloh",
+      "publication_year": null,
+      "edition": null,
+      "pages": 643,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Chinesisch",
+      "translator": {
+        "display_name": "Wilhelm, Richard",
+        "family_name": "Wilhelm",
+        "given_names": "Richard",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Bücher der Weisheit",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "I GING. Das Buch der Wandlungen. A.d.Chines.v. Richard Wilhelm. Gütersloh Bchgemeinschaft 643 S. OLn.m.OU. Lizenz Diederichs. Bücher der Weisheit",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_29_2_4",
+    "parsed_entry": {
+      "identifier": "DG 001",
+      "title": "I GING. Text und Materialien",
+      "subtitle": null,
+      "authors": [],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Köln",
+      "publication_year": 1985,
+      "edition": "12. Auflage",
+      "pages": 347,
+      "format_original": "OLn.",
+      "format_expanded": "Original-Leinen",
+      "condition": null,
+      "copies": 2,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": null,
+      "translator": {
+        "display_name": "Wilhelm, Richard",
+        "family_name": "Wilhelm",
+        "given_names": "Richard",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Diederichs Gelbe Reihe",
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "I GING. Text und Materialien. Übersetzt von Richard Wilhelm. Köln Diederichs 1985. 347 S. 12. Auflage. Diederichs Gelbe Reihe. 2 Ex. DG 001. OLn. 1974. 643 S.",
+        "parsing_confidence": "medium",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_30_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Das I – Ging der Farben",
+      "subtitle": "Handbuch der Chromomantik",
+      "authors": [
+        {
+          "display_name": "JOSSE, Roland Dionys",
+          "family_name": "JOSSE",
+          "given_names": "Roland Dionys",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Bauer",
+      "place_of_publication": "Freiburg",
+      "publication_year": 1956,
+      "edition": null,
+      "pages": 140,
+      "format_original": "OLn. m. OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 20,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "JOSSE, Roland Dionys. Das I – Ging der Farben. Handbuch der Chromomantik… Freiburg Bauer 1956. 140 S. OLn. m. OU.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_31_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "SAKUNTALA",
+      "subtitle": "Ein indisches Schauspiel",
+      "authors": [
+        {
+          "display_name": "Kalidasa",
+          "family_name": null,
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Kalidasa"
+        }
+      ],
+      "editors": null,
+      "contributors": [
+        {
+          "display_name": "Herder, J. G.",
+          "family_name": "Herder",
+          "given_names": "J. G.",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Manesse",
+      "place_of_publication": "Zürich",
+      "publication_year": 1988,
+      "edition": null,
+      "pages": 143,
+      "format_original": "OPbd.m.OU",
+      "format_expanded": "Original-Pappband mit Original-Umschlag",
+      "condition": "Verlagsfrisch",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Sanskrit",
+      "translator": {
+        "display_name": "Mehlig, Johannes",
+        "family_name": "Mehlig",
+        "given_names": "Johannes",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "KALIDASA SAKUNTALA. Ein indisches Schauspiel. A.d.Sanskrit von Johannes Mehlig. Mit der Vorrede von J. G. Herder. Zürich Manesse 1988. 143 S. OPbd.m.OU. Verlagsfrisch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_32_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "KAMASUTRAM DES VATSYAYANA",
+      "subtitle": "Ungekürzte, vollständige deutsche Ausgabe",
+      "authors": [
+        {
+          "display_name": "Vatsyayana",
+          "family_name": null,
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Vatsyayana"
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Ziehlke, Friedrich",
+          "family_name": "Ziehlke",
+          "given_names": "Friedrich",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [
+        {
+          "display_name": "Burton, Richard",
+          "family_name": "Burton",
+          "given_names": "Richard",
+          "name_particles": "Sir",
+          "single_name": null
+        },
+        {
+          "display_name": "Arbuthnot, F.F.",
+          "family_name": "Arbuthnot",
+          "given_names": "F.F.",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Kolb, Eduard",
+          "family_name": "Kolb",
+          "given_names": "Eduard",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Weltmann, Julius",
+          "family_name": "Weltmann",
+          "given_names": "Julius",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Verlag Schustek",
+      "place_of_publication": "Hanau/Main",
+      "publication_year": 1966,
+      "edition": null,
+      "pages": 302,
+      "format_original": "OLn.m.OU und Schuber",
+      "format_expanded": "Original-Leinen mit Original-Umschlag und Schuber",
+      "condition": "Neuwertig",
+      "copies": null,
+      "illustrations": "Mit zahlr. Abb.",
+      "packaging": "Schuber",
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Sanskrit",
+      "translator": {
+        "display_name": "Burton, Richard und F.F.Arbuthnot (Sanskrit-Englisch), Eduard Kolb und Julius Weltmann (Deutsch)",
+        "family_name": null,
+        "given_names": null,
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "EXTRACTED PRICE: None\nTOPIC: BUDDHISMUS, HINDUISMUS\n\nENTRY TEXT: KAMASUTRAM DES VATSYAYANA. Ungekürzte, vollständige deutsche Ausgabe. Aus dem Sanskrit übertragen von Sir Richard Burton und F.F.Arbuthnot. Deutsch von Eduard Kolb und Julius Weltmann. Anhand des Urtextes rvidiert und mit einem Geleitwort versehen von Friedrich Ziehlke. Verlag Schustek Hanau/Main 1966. Mit zahlr. Abb. 302 S. OLn.m.OU und Schuber. Neuwertig. Mit einer Widmung des Herausgebers an das Ehepaar Ehrenfels.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_33_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Die Bildsprache des Hinduismus",
+      "subtitle": "Die indische Götterwelt und ihre Symbolik",
+      "authors": [
+        {
+          "display_name": "Keilhauer, Anneliese",
+          "family_name": "Keilhauer",
+          "given_names": "Anneliese",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Keilhauer, Peter",
+          "family_name": "Keilhauer",
+          "given_names": "Peter",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "DuMont",
+      "place_of_publication": "Köln",
+      "publication_year": 1983,
+      "edition": null,
+      "pages": 267,
+      "format_original": "TB",
+      "format_expanded": "Taschenbuch",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit zahlr. Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "KEILHAUER, Anneliese und Peter. Die Bildsprache des Hinduismus. Die indische Götterwelt und ihre Symbolik. Köln DuMont 1983. 267 S. Mit zahlr. Abb. TB",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_34_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Schulgespräche. Gia Yü",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Kungfutse",
+          "family_name": null,
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Kungfutse"
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "München",
+      "publication_year": 1997,
+      "edition": null,
+      "pages": 238,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Chinesisch",
+      "translator": {
+        "display_name": "Wilhelm, Richard",
+        "family_name": "Wilhelm",
+        "given_names": "Richard",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Gelbe Reihe DG 036",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "KUNGFUTSE. Schulgespräche. Gia Yü. Übersetzt von Richard Wilhelm. München Diederichs 1997. 238 S. Gelbe Reihe DG 036",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_35_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Gespräche (Lun Yü)",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Kung-futse",
+          "family_name": null,
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Kung-futse"
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diderichs",
+      "place_of_publication": "Jena",
+      "publication_year": 1910,
+      "edition": "Erstausgabe",
+      "pages": 245,
+      "format_original": "Buntes OLn. mit Lesebändchen",
+      "format_expanded": "Buntes Original-Leinen mit Lesebändchen",
+      "condition": "Einband etwas berieben, sonst schönes Ex.",
+      "copies": 3,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Chinesisch",
+      "translator": {
+        "display_name": "Wilhelm, Richard",
+        "family_name": "Wilhelm",
+        "given_names": "Richard",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "KUNG-FUTSE. Gespräche (Lun Yü) Aus dem Chinesischen verdeutscht und erläutert von Richard Wilhelm. Jena Diderichs 1910. XXXII, 245 S. Buntes OLn. mit Lesebändchen. Einband etwas berieben, sonst schönes Ex. EA 2 weitere Ex. aus 1921",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_36_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Die Bahn und der rechte Weg des …",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Lao-Tse",
+          "family_name": null,
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Lao-Tse"
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Insel",
+      "place_of_publication": "Leipzig",
+      "publication_year": 1917,
+      "edition": "Dritte Auflage",
+      "pages": 107,
+      "format_original": "OPbd.",
+      "format_expanded": "Original-Pappband",
+      "condition": "Sehr gut erhalten",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 50,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Chinesisch",
+      "translator": {
+        "display_name": "Ular, Alexander",
+        "family_name": "Ular",
+        "given_names": "Alexander",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "LAO – TSE. Die Bahn und der rechte Weg des … Der chinesischen Urschrift nachgedacht von Alexander Ular. Dritte Auflage. Leipzig Insel 1917. 107 S. OPbd. Sehr gut erhalten. Mit einem handschriftlichen Zitat des Übersetzers von 25 Zeilen als Widmung.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_37_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Tao Te King",
+      "subtitle": "Das Buch des Alten vom Sinn und Leben",
+      "authors": [
+        {
+          "display_name": "Laotse",
+          "family_name": null,
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Laotse"
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Jena",
+      "publication_year": 1915,
+      "edition": null,
+      "pages": 118,
+      "format_original": "Buntes OLn. mit Lesebändchen",
+      "format_expanded": "Buntes Original-Leinen mit Lesebändchen",
+      "condition": "Einband etwas berieben",
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 25,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Chinesisch",
+      "translator": {
+        "display_name": "Wilhelm, Richard",
+        "family_name": "Wilhelm",
+        "given_names": "Richard",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "LAOTSE. Tao Te King. Das Buch des Alten vom Sinn und Leben. Aus dem Chinesischen verdeutscht und erläutert von Richard Wilhelm. Jena Diederichs 1915. XXXII, 118 S. Buntes OLn. mit Lesebändchen. Einband etwas berieben.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_38_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Tao te king",
+      "subtitle": "Das Buch vom Sinn und Leben",
+      "authors": [
+        {
+          "display_name": "Laotse",
+          "family_name": null,
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Laotse"
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Buchgemeinschaft",
+      "place_of_publication": "Gütersloh",
+      "publication_year": 1980,
+      "edition": null,
+      "pages": 230,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Chinesisch",
+      "translator": {
+        "display_name": "Richard Wilhelm",
+        "family_name": "Wilhelm",
+        "given_names": "Richard",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Bücher der Weisheit",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "LAOTSE. Tao te king. Das Buch vom Sinn und Leben. A. d. Chines. v. Richard Wilhelm Gütersloh Buchgemeinschaft 1980. 230 S. Lizenz Diederichs. Bücher der Weisheit",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_39_2_4",
+    "parsed_entry": {
+      "identifier": "DG 031",
+      "title": "LI GI. Das Buch der Riten, Sitten und Gebräuche",
+      "subtitle": null,
+      "authors": null,
+      "editors": [
+        {
+          "display_name": "Wilhelm, Richard",
+          "family_name": "Wilhelm",
+          "given_names": "Richard",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Düsseldorf",
+      "publication_year": 1981,
+      "edition": "Neuausgabe",
+      "pages": 352,
+      "format_original": "OBrosch.",
+      "format_expanded": "Original-Broschur",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Chinesisch",
+      "translator": {
+        "display_name": "Wilhelm, Richard",
+        "family_name": "Wilhelm",
+        "given_names": "Richard",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Gelbe Reihe",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "LI GI. Das Buch der Riten, Sitten und Gebräuche. Herausgegeben und übersetzt von Richard Wilhelm. Düsseldorf Diederichs 1981. Neuausgabe. 352 S. OBrosch. Gelbe Reihe. DG 031",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_40_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Das wahre Buch vom quellenden Urgrund",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Liä Dsi",
+          "family_name": "Liä Dsi",
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Liä Dsi"
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Buchgemeinschaft",
+      "place_of_publication": "Gütersloh",
+      "publication_year": null,
+      "edition": null,
+      "pages": 254,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Chinesisch",
+      "translator": {
+        "display_name": "Wilhelm, Richard",
+        "family_name": "Wilhelm",
+        "given_names": "Richard",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Bücher der Weisheit",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "LIÄ DSI. Das wahre Buch vom quellenden Urgrund. A.d.Chines. v. Richard Wilhelm Gütersloh Buchgemeinschaft 254 S. OLn.m.OU Lizenz Diederichs. Bücher der Weisheit",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_41_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "MAX WEBERS STUDIE ÜBER HINDUISMUS UND BUDDHISMUS",
+      "subtitle": "Interpretation und Kritik",
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Schluchter, Wolfgang",
+          "family_name": "Schluchter",
+          "given_names": "Wolfgang",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Suhrkamp",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1984,
+      "edition": null,
+      "pages": 381,
+      "format_original": "Suhrkamp Taschenbuch Wissenschaft",
+      "format_expanded": "Suhrkamp Taschenbuch Wissenschaft",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Suhrkamp Taschenbuch Wissenschaft",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "EXTRACTED PRICE: None\nTOPIC: BUDDHISMUS, HINDUISMUS\n\nENTRY TEXT: MAX WEBERS STUDIE ÜBER HINDUISMUS UND BUDDHISMUS. Interpretation und Kritik. Herausgegeben von Wolfgang Schluchter. Frankfurt Suhrkamp 1984. 381 S. Suhrkamp Taschenbuch Wissenschaft",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_42_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Gesetzbuch und Purana",
+      "subtitle": "Ein Beitrag zur Frage von der Entstehungsart der altindischen Rechtsschriften",
+      "authors": [
+        {
+          "display_name": "Meyer, J. J.",
+          "family_name": "Meyer",
+          "given_names": "J. J.",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Marcus",
+      "place_of_publication": "Breslau",
+      "publication_year": 1929,
+      "edition": null,
+      "pages": 112,
+      "format_original": "O. Brosch.",
+      "format_expanded": "Original-Broschur",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": 20,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Indische Forschungen",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "MEYER, J. J.. Gesetzbuch und Purana. Ein Beitrag zur Frage von der Entstehungsart der altindischen Rechtsschriften. Breslau Marcus 1929. XIII, 112 S. Indische Forschungen. O. Brosch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_43_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Die Lehrgespräche des Meisters Meng K'o",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Mong Dsi",
+          "family_name": "Mong",
+          "given_names": "Dsi",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Köln",
+      "publication_year": 1982,
+      "edition": "Neuausgabe",
+      "pages": 247,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Chinesisch",
+      "translator": {
+        "display_name": "Wilhelm, Richard",
+        "family_name": "Wilhelm",
+        "given_names": "Richard",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "MONG DSI. Die Lehrgespräche des Meisters Meng K`o. A.d.Chines. übertragen und erläutert von Richard Wilhelm Köln Diederichs 1982. Neuausgabe. 247 S. DG 42",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_44_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "MYTHEN DES ALTEN JAPAN",
+      "subtitle": null,
+      "authors": [],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Beck",
+      "place_of_publication": "München",
+      "publication_year": 1996,
+      "edition": null,
+      "pages": 231,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": "Verlagsfrisch",
+      "copies": null,
+      "illustrations": "Mit zahlr. Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": 20,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Japanisch",
+      "translator": {
+        "display_name": "Naumann, Nelly",
+        "family_name": "Naumann",
+        "given_names": "Nelly",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "MYTHEN DES ALTEN JAPAN. Übersetzt und erläutert von Nelly Naumann. München Beck 1996. VII, 231 SS. Mit zahlr. Abb. OLn.m.OU. Verlagsfrisch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_45_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Buddha",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "NAUDOU, Jean",
+          "family_name": "NAUDOU",
+          "given_names": "Jean",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Somogy",
+      "place_of_publication": "Paris",
+      "publication_year": null,
+      "edition": null,
+      "pages": 287,
+      "format_original": "OLn,m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit vielen Abb.",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "NAUDOU, Jean. Buddha. Paris Somogy 287 S. Mit vielen Abb. OLn,m.OU",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_46_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "PANCATANTRA",
+      "subtitle": "Die fünf Bücher indischer Lebensweisheit",
+      "authors": [],
+      "editors": [
+        {
+          "display_name": "Greither, Aloys",
+          "family_name": "Greither",
+          "given_names": "Aloys",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [
+        {
+          "display_name": "Scharl, Josef",
+          "family_name": "Scharl",
+          "given_names": "Josef",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Beck",
+      "place_of_publication": "München",
+      "publication_year": 1986,
+      "edition": null,
+      "pages": 267,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": "Verlagsfrisch",
+      "copies": null,
+      "illustrations": "Mit 107 Zeichnungen von Josef Scharl",
+      "packaging": null,
+      "isbn": null,
+      "price": 25,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Sanskrit",
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "PANCATANTRA. Die fünf Bücher indischer Lebensweisheit. Mit 107 Zeichnungen von Josef Scharl. Herausg. Von Aloys Greither. München Beck 1986. 267 S. OLn.m.OU. Verlagsfrisch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_47_2_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Die Wurzeln des Yoga",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Patanjali",
+          "family_name": null,
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "Patanjali"
+        }
+      ],
+      "editors": [
+        {
+          "display_name": "Bäumer, Bettina",
+          "family_name": "Bäumer",
+          "given_names": "Bettina",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "contributors": [],
+      "publisher": "Scherz Verlag Buchgemeinschaft",
+      "place_of_publication": "Bern",
+      "publication_year": 1976,
+      "edition": null,
+      "pages": 199,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": "Bücher der Weisheit",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "PATANJALI. Die Wurzeln des Yoga. Herausgegeben von Bettina Bäumer. Bern Scherz Verlag Buchgemeinschaft 1976. 199 S. OLn.m.OU Bücher der Weisheit",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_48_2_4",
+    "parsed_entry": {
+      "identifier": "DG 008",
+      "title": "PFAD ZUR ERLEUCHTUNG",
+      "subtitle": "Buddhistische Grundtexte",
+      "authors": null,
+      "editors": [
+        {
+          "display_name": "Glasenapp, Helmuth von",
+          "family_name": "Glasenapp",
+          "given_names": "Helmuth",
+          "name_particles": "von",
+          "single_name": null
+        }
+      ],
+      "contributors": null,
+      "publisher": "Diederichs",
+      "place_of_publication": "Düsseldorf",
+      "publication_year": 1980,
+      "edition": null,
+      "pages": 215,
+      "format_original": null,
+      "format_expanded": null,
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": null,
+      "translator": {
+        "display_name": "Glasenapp, Helmuth von",
+        "family_name": "Glasenapp",
+        "given_names": "Helmuth",
+        "name_particles": "von",
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Diederichs Gelbe Reihe",
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "PFAD ZUR ERLEUCHTUNG. Buddhistische Grundtexte. Übersetzt und herausgegeben von Helmuth von Glasenapp. Düsseldorf Diederichs 1980. 215 S. Diederichs Gelbe Reihe. DG 008",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "buddhismus_49_2_4",
+    "parsed_entry": {
+      "identifier": "DG 045",
+      "title": "RAMAYANA",
+      "subtitle": "Die Geschichte vom Prinzen Rama, der schönen Sita und dem Großen Affen Hanuman",
+      "authors": [
+        {
+          "display_name": null,
+          "family_name": null,
+          "given_names": null,
+          "name_particles": null,
+          "single_name": "RAMAYANA"
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Diederichs",
+      "place_of_publication": "Köln",
+      "publication_year": 1986,
+      "edition": "2. Aufl.",
+      "pages": 317,
+      "format_original": "OBrosch.",
+      "format_expanded": "Original-Broschur",
+      "condition": "Verlagsfrisch",
+      "copies": null,
+      "illustrations": "Mit 12 Abbildungen",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "BUDDHISMUS, HINDUISMUS",
+      "is_translation": true,
+      "original_language": "Sanskrit",
+      "translator": {
+        "display_name": "Claudia Schmölders",
+        "family_name": "Schmölders",
+        "given_names": "Claudia",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": false,
+      "series_title": "Gelbe Reihe",
+      "total_volumes": null,
+      "volumes": [],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "RAMAYANA. Die Geschichte vom Prinzen Rama, der schönen Sita und dem Großen Affen Hanuman. Ins Deutsche übertragen von Claudia Schmölders. Mit 12 Abbildungen.2. Aufl. Köln Diederichs 1986. 317 S. OBrosch. Gelbe Reihe. Verlagsfrisch. DG 045",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  }
+]

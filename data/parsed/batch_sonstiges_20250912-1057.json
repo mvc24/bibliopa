@@ -1,0 +1,345 @@
+[
+  {
+    "custom_id": "sonstiges_75_4_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Anweisung zum Schachspielen",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Walker, Georg",
+          "family_name": "Walker",
+          "given_names": "Georg",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Sauerländer",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1833,
+      "edition": null,
+      "pages": 331,
+      "format_original": "OHLn.",
+      "format_expanded": "Original-Halbleinen",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit einer lithographierten Zeichnung",
+      "packaging": null,
+      "isbn": null,
+      "price": 50,
+      "topic": "SONSTIGES, BILDBÄNDE, KATALOGE ATLANTEN",
+      "is_translation": true,
+      "original_language": "Englisch",
+      "translator": {
+        "display_name": "Schiereck, J.F.",
+        "family_name": "Schiereck",
+        "given_names": "J.F.",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": true,
+      "series_title": null,
+      "total_volumes": 2,
+      "volumes": [
+        {
+          "volume_number": 1,
+          "volume_title": null,
+          "pages": 195,
+          "notes": "VI, 189, III S."
+        },
+        {
+          "volume_number": 2,
+          "volume_title": null,
+          "pages": 143,
+          "notes": "IV, 139 S."
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "WALKER, Georg. Anweisung zum Schachspielen. Aus dem Englischen übersetzt und mit Anmerkungen begleitet von J.F.Schiereck. Mit einer lithographierten Zeichnung. In zwei Bänden. Frankfurt Sauerländer 1833. VI, 189, III; IV, 139 S. OHLn. mit Widmung, Exlibris. und Lesebändchen.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "sonstiges_76_4_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "Anweisung zum Schachspielen",
+      "subtitle": null,
+      "authors": [
+        {
+          "display_name": "Walker, Georg",
+          "family_name": "Walker",
+          "given_names": "Georg",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "editors": [],
+      "contributors": [],
+      "publisher": null,
+      "place_of_publication": "Frankfurt/Main",
+      "publication_year": 1833,
+      "edition": "Deutsche Erstausgabe",
+      "pages": 328,
+      "format_original": "Oln.",
+      "format_expanded": "Original-Leinen",
+      "condition": "berieben, sonst schönes Exemplar",
+      "copies": null,
+      "illustrations": "Mit einer lithographierten Zeichnung",
+      "packaging": null,
+      "isbn": null,
+      "price": 120,
+      "topic": "SONSTIGES, BILDBÄNDE, KATALOGE ATLANTEN",
+      "is_translation": true,
+      "original_language": "Englisch",
+      "translator": {
+        "display_name": "Schiereck, J. F.",
+        "family_name": "Schiereck",
+        "given_names": "J. F.",
+        "name_particles": null,
+        "single_name": null
+      },
+      "is_multivolume": true,
+      "series_title": null,
+      "total_volumes": 2,
+      "volumes": [
+        {
+          "volume_number": 1,
+          "volume_title": null,
+          "pages": 189,
+          "notes": "VI Vorspann"
+        },
+        {
+          "volume_number": 2,
+          "volume_title": null,
+          "pages": 139,
+          "notes": "III Vorspann"
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "WALKER, Georg. Anweisung zum Schachspielen. Aus dem Englischen von J. F. Schiereck. Frankfurt/Main 1833. Mit einer lithographierten Zeichnung. Zwei Teile in einem Band. VI, 189, III, 139 SS. Oln. berieben, sonst schönes Exemplar. Deutsche Erstausgabe.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "sonstiges_77_4_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "WEINBAU - Collection of 9 viticulture works",
+      "subtitle": null,
+      "authors": [],
+      "editors": [],
+      "contributors": [],
+      "publisher": "Various publishers",
+      "place_of_publication": "Various locations",
+      "publication_year": null,
+      "edition": null,
+      "pages": null,
+      "format_original": "OBrosch.",
+      "format_expanded": "Original-Broschur",
+      "condition": null,
+      "copies": null,
+      "illustrations": "Mit 4 colorierten Tafeln",
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "SONSTIGES, BILDBÄNDE, KATALOGE ATLANTEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": true,
+      "series_title": "WEINBAU",
+      "total_volumes": 9,
+      "volumes": [
+        {
+          "volume_number": 1,
+          "volume_title": "Aus der biologischen Weinbau-Versuchs-Station",
+          "pages": 39,
+          "notes": "GOETHE, Hermann. Mit 4 colorierten Tafeln. Wien Verlag des Vereines zum Schutze des österreichischen Weinbaues 1891."
+        },
+        {
+          "volume_number": 2,
+          "volume_title": "Mitteilung II (Artikel über Bekämpfung der Reblaus)",
+          "pages": 70,
+          "notes": "VEREIN ZUM SCHUTZE DES ÖSTERREICHISCHEN WEINBAUES. 1888."
+        },
+        {
+          "volume_number": 3,
+          "volume_title": "Der Kampf um die Weinverbesserung im deutschen Reiche",
+          "pages": 202,
+          "notes": "WICHMANN, Fritz. Wirtschaftsgeschichte und Produktionsstatistik des deutschen Weinbaues. Jena Gustav Fischer 1902. IX, 202."
+        },
+        {
+          "volume_number": 4,
+          "volume_title": "Über das Vortreiben veredelter Schnittreben (Stratifikationsverfahren)",
+          "pages": 32,
+          "notes": "KOBER, Franz. Wien Hitschmann 1910. Mit Abb."
+        },
+        {
+          "volume_number": 5,
+          "volume_title": "BERICHT ÜBER DIE VERBREITUNG DER REBLAUS. (Phylloxera vastatrix) in Österreich in den Jahren 1902 und 1903",
+          "pages": 345,
+          "notes": "Nebst den Gesetzen, Verordnungen und Erlässen, betreffend die Reblaus. Wien Verlag des k. k. Ackerbauministeriums."
+        },
+        {
+          "volume_number": 6,
+          "volume_title": "PROTOKOLL. Über 1897 im k. k. Ackerbauministerium wegen Revision und Ergänzung der Vorschriften betreffend Kunst- und Halbweine abgehaltene Enquete",
+          "pages": 39,
+          "notes": "K. K. Hof- und Staatsdruckerei 1897."
+        },
+        {
+          "volume_number": 7,
+          "volume_title": "ERGEBNISSE. Der von ... eingeleiteten Unfrage betreffend…Kunst- und Halbweine.(Nachtrag)",
+          "pages": 58,
+          "notes": "K. K. Hof- und Staatsdruckerei 1898."
+        },
+        {
+          "volume_number": 8,
+          "volume_title": "BERICHT ÜBER DIE VERBREITUNG DER REBLAUS. … 1910, 1911, 1912",
+          "pages": 172,
+          "notes": "Wien k. k. Ackerbauministerium 1913. (der Teil danach fehlt.)"
+        },
+        {
+          "volume_number": 9,
+          "volume_title": "STATUTEN. Der Obst-und Weinbaugenossenschaft Wädensweil in Wädensweil",
+          "pages": 7,
+          "notes": "1895."
+        }
+      ],
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "WEINBAU. . GOETHE, Hermann. Aus der biologischen Weinbau-Versuchs-Station. Mit 4 colorierten Tafeln. Wien Verlag des Vereines zum Schutze des österreichischen Weinbaues 1891. 39 S. OBrosch. . VEREIN ZUM SCHUTZE DES ÖSTERREICHISCHEN WEINBAUES. Mitteilung II (Artikel über Bekämpfung der Reblaus). 1888. 70 S. OBrosch. . WICHMANN, Fritz. Der Kampf um die Weinverbesserung im deutschen Reiche. Wirtschaftsgeschichte und Produktionsstatistik des deutschen Weinbaues. Jena Gustav Fischer 1902. IX, 202. OBrosch. . KOBER, Franz. Über das Vortreiben veredelter Schnittreben (Stratifikationsverfahren) Wien Hitschmann 1910. Mit Abb. 32 S. OBrosch. BERICHT ÜBER DIE VERBREITUNG DER REBLAUS. (Phylloxera vastatrix) in Österreich in den Jahren 1902 und 1903….Nebst den Gesetzen, Verordnungen und Erlässen, betreffend die Reblaus. … Wien Verlag des k. k. Ackerbauministeriums. 345 S. OBrosch. . PROTOKOLL. Über 1897 im k. k. Ackerbauministerium wegen Revision und Ergänzung der Vorschriften betreffend Kunst- und Halbweine abgehaltene Enquete. . ERGEBNISSE. Der von ... eingeleiteten Unfrage betreffend…Kunst- und Halbweine.(Nachtrag). . K. K. Hof- und Staatsdruckerei 1897, 1898. 39, 58 S. OBrosch. . BERICHT ÜBER DIE VERBREITUNG DER REBLAUS. … 1910, 1911, 1912. Wien k. k. Ackerbauministerium 1913. 172 S. (der Teil danach fehlt.) OBrosch. . STATUTEN . Der Obst-und Weinbaugenossenschaft Wädensweil in Wädensweil 1895. 7 S. OBrosch. . Siehe auch HANDBUCH DES WEINBAUES.",
+        "parsing_confidence": "medium",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "custom_id": "sonstiges_78_4_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "WENZEL VON BÖHMEN. Heiliger und Herrscher",
+      "subtitle": null,
+      "authors": [],
+      "editors": [],
+      "contributors": [
+        {
+          "display_name": "Theisen, Maria",
+          "family_name": "Theisen",
+          "given_names": "Maria",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Fingernagel, Andreas",
+          "family_name": "Fingernagel",
+          "given_names": "Andreas",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Kiegler-Griensteidl, Monika",
+          "family_name": "Kiegler-Griensteidl",
+          "given_names": "Monika",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "Österr. Nationalbibliothek",
+      "place_of_publication": "Wien",
+      "publication_year": 2009,
+      "edition": null,
+      "pages": 172,
+      "format_original": "OBrosch.",
+      "format_expanded": "Original-Broschur",
+      "condition": null,
+      "copies": null,
+      "illustrations": null,
+      "packaging": null,
+      "isbn": null,
+      "price": null,
+      "topic": "SONSTIGES, BILDBÄNDE, KATALOGE ATLANTEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "WENZEL VON BÖHMEN. Heiliger und Herrscher. Mit Beiträgen von Maria Theisen, Andreas Fingernagel und Monika Kiegler-Griensteidl. Deutsch-Tschechisch-Englisch. Wien Österr. Nationalbibliothek 2009-2010. Ausstellung. 172 S. OBrosch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "custom_id": "sonstiges_79_4_4",
+    "parsed_entry": {
+      "identifier": null,
+      "title": "ZIERDE FÜR EWIGE ZEIT",
+      "subtitle": "Das Perikopenbuch Heinrich II.",
+      "authors": [],
+      "editors": [],
+      "contributors": [
+        {
+          "display_name": "Fillitz, Hermann",
+          "family_name": "Fillitz",
+          "given_names": "Hermann",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Kahsnitz, Raine",
+          "family_name": "Kahsnitz",
+          "given_names": "Raine",
+          "name_particles": null,
+          "single_name": null
+        },
+        {
+          "display_name": "Kuder, Ulrich",
+          "family_name": "Kuder",
+          "given_names": "Ulrich",
+          "name_particles": null,
+          "single_name": null
+        }
+      ],
+      "publisher": "S. Fischer",
+      "place_of_publication": "Frankfurt",
+      "publication_year": 1994,
+      "edition": null,
+      "pages": 132,
+      "format_original": "OLn.m.OU",
+      "format_expanded": "Original-Leinen mit Original-Umschlag",
+      "condition": "Verlagsfrisch",
+      "copies": null,
+      "illustrations": "22 Abb. auf 9 ungez.S. Mit 56 ganzs. farbigen Tafeln",
+      "packaging": null,
+      "isbn": null,
+      "price": 30,
+      "topic": "SONSTIGES, BILDBÄNDE, KATALOGE ATLANTEN",
+      "is_translation": false,
+      "original_language": null,
+      "translator": null,
+      "is_multivolume": false,
+      "series_title": null,
+      "total_volumes": null,
+      "volumes": null,
+      "administrative": {
+        "source_filename": null,
+        "original_entry": "ZIERDE FÜR EWIGE ZEIT. Das Perikopenbuch Heinrich II. Von Hermann Fillitz, Raine Kahsnitz und Ulrich Kuder. Frankfurt S. Fischer 1994. 132 S. und 22 Abb. auf 9 ungez.S. Mit 56 ganzs. farbigen Tafeln. Ausstellungskatalog in München, Bayerisches Nationalmuseum 1995. OLn.m.OU. Verlagsfrisch.",
+        "parsing_confidence": "high",
+        "needs_review": false
+      }
+    }
+  }
+]
