@@ -38,6 +38,15 @@ def consolidate_entries(filename):
             topic_normalised = "de-lit-monographien"
         elif topic == "DEUTSCHE LITERATUR TEXTE":
             topic_normalised = "de-lit-texte"
+        elif topic == "ERSTAUSGABEN A - G":
+            topic = "erstausgaben"
+            topic_normalised = "erstausgaben1"
+        elif topic == "ERSTAUSGABEN H - M":
+            topic = "erstausgaben"
+            topic_normalised = "erstausgaben2"
+        elif topic == "ERSTAUSGABEN N - Z":
+            topic = "erstausgaben"
+            topic_normalised = "erstausgaben3"
         else:
             topic_lower = topic.lower()
             if "-" in topic_lower:
@@ -155,10 +164,7 @@ def consolidate_entries(filename):
 # save records to file
 #   create filename
 
-    if topic_normalised == "erstausgaben":
-        records_file = topic.lower().replace(" ", "-").replace("---", "-") + ".json"
-    else:
-        records_file = topic_normalised + ".json"
+    records_file = topic_normalised + ".json"
 
     path = Path("data/consolidated")
     records_path = path / records_file
@@ -218,30 +224,43 @@ def consolidate_entries(filename):
         with open(processing_log, "w") as f:
             json.dump(process_report, f, ensure_ascii=False, indent=4)
 
+    # handle erstausgaben
+
+    if topic_normalised in ["erstausgaben1", "erstausgaben2"]:
+        return
+    elif topic_normalised == "erstausgaben3":
+        # load json files, combine them into unified records, move on to batching
+        path1 = path / "erstausgaben1.json"
+        path2 = path / "erstausgaben2.json"
+        with open(path1, "r") as f1:
+            erstausgaben1 = json.load(f1)
+        with open(path2, "r") as f2:
+            erstausgaben2 = json.load(f2)
+        ea_combined = erstausgaben1 + erstausgaben2 + records
+        records = ea_combined
+        total_records = len(records)
+        pass
+
 
 # BATCHING SECTION
 
+# records: a LIST of DICTIONARIES, each record is a dictionary, and all of them are stored in a list
 
-
-# 1. handle combination step for "erstausgaben"
-
-    # if topic_normalised == "erstausgaben":
-    #     pp(f"skipping erstausgaben for now")
-    #     return
-    # else:
-
-# 2. Create folder structure
+# 1. Create folder structure
     folder = Path("data/batched")
     batch_folder = folder / topic_normalised
     batch_folder.mkdir(exist_ok=True)
 
 
-# 3. Calculate batch information
+# 2. Calculate batch information
     batch_size = 25
     total_batches = (total_records + batch_size - 1) // batch_size
 
-# 4. Add batch information to each record
+# 3. Add batch information to each record
     for index, record in enumerate(records):
+        if record["topic_normalised"] in ["erstausgaben1", "erstausgaben2", "erstausgaben3"]:
+            record["topic_normalised"] = "erstausgaben"
+
         batch_id = (index // batch_size) + 1
         record["record_index"] = index
         record["batch_id"] = batch_id
@@ -250,7 +269,7 @@ def consolidate_entries(filename):
 
     # pp(records)
 
-# 5. Group records into batches and save as JSON files
+# 4. Group records into batches and save as JSON files
     batches = {}
     for record in records:
         batch_id = record["batch_id"]
@@ -270,10 +289,3 @@ def consolidate_entries(filename):
 # consolidate_entries("ISLAM.docx")
     pass
     # pp(len(batches[4]))
-
-
-# 6. Print success message
-#    - Print total number of records processed
-#    - Print number of batches created
-#    - Print number of discrepancies found
-#    - Confirm all files created successfully
