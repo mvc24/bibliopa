@@ -14,93 +14,95 @@ client = anthropic.Anthropic()
 def submit_batch(batch_path):
 
     # Read the sample entries file
-    with open(batch_path, 'r', encoding='utf-8') as f:
+    with open(batch_path, "r", encoding="utf-8") as f:
         batch_data = json.load(f)
 
     print(f"Loaded {len(batch_data)} entries")
-    print("First entry text:", batch_data[0]['text'])
-    print("First entry composite_id:", batch_data[0]['composite_id'])
+    print("First entry text:", batch_data[0]["text"])
+    print("First entry composite_id:", batch_data[0]["composite_id"])
 
     # Create prompt message
-    prompt = """
-    CONTEXT:
-    These entries were catalogued by an octogenarian librarian using RAK (Regeln für die alphabetische Katalogisierung) format as base standard. Watch for: punctuation inconsistencies, accents used as apostrophes, varying abbreviation styles, typos.
+    system_prompt = """
+    You are a specialized bibliography parsing assistant. Your task is to convert German bibliographic entries into structured JSON data.
 
-    SCHEMA:
+    CRITICAL OUTPUT REQUIREMENTS:
+    - Return ONLY valid JSON matching the exact schema provided
+    - Never include markdown code blocks, explanations, or any text outside the JSON
+    - If you cannot parse an entry completely, still return valid JSON with null values for unknown fields
+    - Always populate the "administrative.original_entry" field with the complete, unmodified input text
 
+    BIBLIOGRAPHIC CONTEXT:
+    These entries were catalogued by an octogenarian librarian using RAK (Regeln für die alphabetische Katalogisierung) format as base standard. Expect: punctuation inconsistencies, accents used as apostrophes, varying abbreviation styles, typos, and other age-related cataloging inconsistencies.
+
+    CHARACTER ENCODING ISSUES:
+    Fix common encoding problems: Ã¼→ü, Ãž→ß, Ã„→Ä, ÃƒÂ¼→ü, Ãƒâ€ž→Ä, etc.
+
+    SCHEMA (return exactly this structure):
     {
         "identifier": null,
         "title": "string",
         "subtitle": "string",
-        "authors": [
-            {
-                "display_name": "Churchill, Winston C.",
-                "family_name": "Churchill",
-                "given_names": "Winston C.",
-                "name_particles": null,
-                "single_name": null
-            }
-        ],
-        "editors": [ /* same person structure */],
-        "contributors": [ /* same person structure */],
+        "authors": [{"display_name": "string", "family_name": "string", "given_names": "string", "name_particles": null, "single_name": null}],
+        "editors": [/* same person structure */],
+        "contributors": [/* same person structure */],
         "publisher": "string",
         "place_of_publication": "string",
         "publication_year": "integer",
-        "edition": "string", // "Zweite Auflage", "Erstausgabe"
+        "edition": "string",
         "pages": "integer",
-        "format_original": "string", // "OBrosch.", "OLn.m.OU"
-        "format_expanded": "string", // "Original-Broschur", "Original-Leinen mit Original-Umschlag"
-        "condition": "string", // "Sehr gut erhalten", "Neuwertig"
-        "copies": "integer", // "2 Ex."
-        "illustrations": "string", // "Mit 27 Abb. und 19 Karten"
-        "packaging": "string", // "In Original-Kassette"
+        "format_original": "string",
+        "format_expanded": "string",
+        "condition": "string",
+        "copies": "integer",
+        "illustrations": "string",
+        "packaging": "string",
         "isbn": "string",
-        "price": "integer", // 30, 40, null
-        "topic": "string", // One of your theme categories
+        "price": "integer",
+        "topic": "string",
         "is_translation": "boolean",
-        "original_language": "string", // null if not translation
-        "translator": "person object", // null if not translation
+        "original_language": "string",
+        "translator": "person object or null",
         "is_multivolume": "boolean",
-        "series_title": "string", // null if single volume
-        "total_volumes": "integer", // null if single volume
-        "volumes": [
-            {
-                "volume_number": "integer",
-                "volume_title": "string",
-                "pages": "integer",
-                "notes": "string" // "Mit 27 Abb. und 19 Karten"
-            }
-        ],
+        "series_title": "string",
+        "total_volumes": "integer",
+        "volumes": [{"volume_number": "integer", "volume_title": "string", "pages": "integer", "notes": "string"}],
         "administrative": {
-            "source_filename": "string", // "PHILOSOPHIE.docx"
-            "original_entry": "string", // Complete original text
+            "source_filename": "string",
+            "original_entry": "string",
             "parsing_confidence": "high|medium|low",
-            "needs_review": "boolean"
+            "needs_review": "boolean",
+            "verification_notes": "string or null"
         }
     }
 
+    PARSING RULES:
+    1. USE PROVIDED VALUES: Always use the exact PRICE and TOPIC values provided in the user message
+    2. GERMAN BIBLIOGRAPHIC ABBREVIATIONS: Extract and expand format abbreviations:
+    - format_original: Copy the abbreviation exactly as written in the entry
+    - format_expanded: Expand using standard German bibliographic terms
+    - O + material patterns: OLn→Originalleinen, OBrosch→Originalbroschur, OPbd→Originalpappband
+    - With additions: OLn.m.OU→"Originalleinen mit Originalumschlag"
+    3. COPIES: "2 Ex." means copies=2, "3 Exemplare" means copies=3
+    4. MULTIVOLUME DETECTION: "Band", "Bd.", "In X Bänden", numbered volumes, "Teil I/II"
+    5. AUTHOR NAMES: Typically "SURNAME, Given Names" format in German cataloging
+    6. PLACE BEFORE PUBLISHER: German cataloging puts place of publication before publisher
+    7. CROSS-REFERENCES: Entries containing "Siehe..." should have parsing_confidence="low", needs_review=true
+    8. TRANSLATION INDICATORS: "A.d." (Aus dem), "Übersetzt von", "Deutsch von", "Übertragen von", etc.
 
-    PARSING INSTRUCTIONS:
-    - Use provided EXTRACTED PRICE value for price field
-    - Use provided TOPIC value for topic field
-    - Handle character encoding issues (Ã„=Ä, Ã¼=ü, etc.) - decode properly in output
-    - Recognize German bibliographic abbreviations: EA=Erstausgabe, OLn=Original-Leinen, OU=Original-Umschlag, TB=Taschenbuch, etc.
+    CONFIDENCE LEVELS:
+    - "high": Clean, complete entries with all major fields identifiable
+    - "medium": Minor formatting issues, some unclear abbreviations, or missing non-critical data
+    - "low": Cross-references, significant structural problems, or major missing data
 
-    - Identify copies: "2 Ex." means copies=2
-    - Handle cross-references: entries like "Siehe..." should have parsing_confidence="low", needs_review=true
-    - Author names: Last name typically appears first, followed by given names
-    - Missing information: use null for absent fields, don't guess
-    - Multivolume works: look for numbered volumes (1. Band, 2. Band, etc.)
-    - Format expansion: OBrosch.=Original-Broschur, OLn.m.OU=Original-Leinen mit Original-Umschlag
-    - Always populate administrative.original_entry with complete input text
-    - Set parsing_confidence: "high" for clear entries, "medium" for minor issues, "low" for unclear/cross-reference entries
-    - Place of publication comes before publisher in German cataloging
+    VERIFICATION USING BOOK KNOWLEDGE:
+    Compare parsed author names, titles, and publishers against your knowledge of books and flag potential issues in verification_notes:
+    - Misspelled author names (e.g., "Shakespear" vs "Shakespeare")
+    - Unusual publisher names that don't match known German publishers
+    - Title variations that might indicate typos
+    - Publication years that seem inconsistent with known works
+    - Use null for verification_notes when no issues are detected
 
-    OUTPUT: Return valid JSON matching the schema. Preserve all German text exactly as written.
-
-    Here are the entries to parse:
-
-
+    CRITICAL: Return only the JSON object. No explanations, no markdown blocks, no additional text.
     """
 
 
@@ -108,21 +110,22 @@ def submit_batch(batch_path):
     requests = []
     for entry in batch_data:
         request = {
-            "custom_id": entry['composite_id'],
+            "custom_id": entry["composite_id"],
             "params": {
                 "model": "claude-sonnet-4-20250514",
                 "max_tokens": 8000,
+                "temperature": 0,
+                "system": system_prompt,
                 "messages": [
                     {
                         "role": "user",
-                        "content": f"""Parse this bibliography entry into structured JSON.
+                        "content": f"""
+                        CRITICAL: PARSE TO JSON ONLY. No explanations, no markdown blocks.
 
-                        EXTRACTED PRICE: {entry['price']}
-                        TOPIC: {entry['topic']}
-
-                        ENTRY TEXT: {entry['text']}
-
-                        {prompt}"""
+                        PRICE: {entry["price"]}
+                        TOPIC: {entry["topic"]}
+                        ENTRY: {entry["text"]}
+                        """
 
                     }
                 ]
@@ -131,8 +134,8 @@ def submit_batch(batch_path):
         requests.append(request)
 
     print(f"Built {len(requests)} requests")
-    print("First request custom_id:", requests[0]['custom_id'])
-    # print("First request content preview:", requests[0]['params']['messages'][0]['content'][:200])
+    print("First request custom_id:", requests[0]["custom_id"])
+    # print("First request content preview:", requests[0]["params"]["messages"][0]["content"][:200])
 
 # Submit batch to API
     message_batch = client.messages.batches.create(requests=requests)
@@ -192,7 +195,7 @@ def retrieve_batch_results(batch_id, topic):
     timestamp = datetime.now().strftime("%Y%m%d-%H%M")
     filepath = f"data/parsed/batch_{topic}_{timestamp}.json"
 
-    with open(filepath, "w", encoding='utf-8') as f:
+    with open(filepath, "w", encoding="utf-8") as f:
         json.dump(results_data, f, ensure_ascii=False, indent=2)
 
     print(f"Results saved to: {filepath}")
