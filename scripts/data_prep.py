@@ -12,7 +12,7 @@ folder_preise = "data/original/preise/"
 folder_keinepreise = "data/original/keine preise/"
 files_info = "data/files_info_header.csv"
 discrepancies_file = Path("data/discrepancies.json")
-processing_log = Path("data/processing_log.json")
+processing_log = Path("data/logs/processing_log.json")
 
 def consolidate_entries(filename):
     paths = {

@@ -8,10 +8,13 @@ path = Path("data/file_groups.json")
 with open(path, "r") as f:
     file_groups = json.load(f)
 
-xs = file_groups["xs"]
+# xl = file_groups["xl"]
+# l = file_groups["l"]
+m = file_groups["m"]
+# xs = file_groups["xs"]
 # s = file_groups["s"]
 
-for file in xs:
+for file in m:
     filename = file["filename"]
     consolidate_entries(filename)
 

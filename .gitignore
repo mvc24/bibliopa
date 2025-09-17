@@ -2,8 +2,6 @@
 __pycache__/
 *.pyc
 utils/
-data/original
-data/consolidated
-data/batched
+data/
 scripts/scratch.py
 api/batch_sample.py
