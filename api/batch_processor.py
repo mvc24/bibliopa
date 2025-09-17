@@ -1,36 +1,40 @@
 import json
-import time
+import argparse
 from pathlib import Path
 from datetime import datetime
-from parse_single_batch import submit_batch, retrieve_batch_results
+from parse_single_batch import submit_batch
 
-# Topics that have been prepared (xs + s groups)
-PREPARED_TOPICS = [
-    "symbolkunde",     # SYMBOLKUNDE
-    "autographen",     # AUTOGRAPHEN
-    "geschichte",      # GESCHICHTE ALLGEMEIN LÄNDER
-    "maerchen",        # MÄRCHEN
-    "suchliste",       # SUCHLISTE
-    "zeitschriften",   # ZEITSCHRIFTEN
-    "aegypten",        # ÄGYPTEN VORDERER ORIENT
-    "buddhismus",      # BUDDHISMUS, HINDUISMUS
-    "esoterik",        # ESOTERIK
-    "islam",           # ISLAM
-    "kinder",          # KINDER- UND JUGENDLITERATUR
-    "monographien",    # MONOGRAPHIEN FREMDSPRACHIGER AUTOREN
-    "mythologie",      # MYTHOLOGIE
-    "renaissance",     # RENAISSANCE
-    "sonstiges",       # SONSTIGES, BILDBÄNDE, KATALOGE ATLANTEN
-    "zeitgeschichte"   # ZEITGESCHICHTE, REPORTAGEN
-]
+def get_available_topics():
+    """Auto-discover topics that have batch files ready for processing"""
+    batch_dir = Path("data/batched")
+    available_topics = []
+    
+    if not batch_dir.exists():
+        print(f"Warning: Batch directory {batch_dir} does not exist")
+        return available_topics
+    
+    # Scan subdirectories in data/batched/
+    for topic_dir in batch_dir.iterdir():
+        if topic_dir.is_dir():
+            # Check if directory contains .json batch files
+            json_files = list(topic_dir.glob("*.json"))
+            if json_files:
+                available_topics.append(topic_dir.name)
+                print(f"Found {len(json_files)} batch files for topic: {topic_dir.name}")
+    
+    available_topics.sort()  # Keep consistent ordering
+    return available_topics
 
 def find_batch_files():
-    """Find batch files for prepared topics only"""
+    """Find all batch files for available topics"""
     batch_dir = Path("data/batched")
     files = []
-    for topic in PREPARED_TOPICS:
+    available_topics = get_available_topics()
+    
+    for topic in available_topics:
         topic_files = list(batch_dir.glob(f"{topic}/*.json"))
         files.extend(topic_files)
+    
     return files
 
 def load_log():
@@ -51,15 +55,24 @@ def save_log(log_data):
 def extract_topic_from_path(file_path):
     return file_path.parent.name
 
-def run_batch_processor():
+def run_batch_processor(max_submit=15):
     print("Starting batch processor...")
     timestamp = datetime.now().strftime("%Y%m%d-%H%M")
+    
+    # Discover available topics
+    print("\n=== AUTO-DISCOVERING AVAILABLE TOPICS ===")
+    available_topics = get_available_topics()
+    print(f"Available topics ready for processing: {len(available_topics)}")
+    
+    if not available_topics:
+        print("No topics found with batch files. Run data_prep.py first to create batch files.")
+        return
 
     # Find files and load progress
     batch_files = find_batch_files()
     log_data = load_log()
 
-    print(f"Found {len(batch_files)} batch files to process")
+    print(f"\nTotal batch files ready for submission: {len(batch_files)}")
 
     # PHASE 1: Submit new batches (max 5 at a time)
     print("\n=== SUBMITTING NEW BATCHES ===")
@@ -69,7 +82,7 @@ def run_batch_processor():
     print(f"New files to submit: {len(new_files)}")
 
     submit_count = 0
-    max_submit = 5  # Rate limit protection
+    # max_submit is now passed as parameter
 
     for file_path in new_files:
         if submit_count >= max_submit:
@@ -103,50 +116,49 @@ def run_batch_processor():
             })
             save_log(log_data)
 
-    # PHASE 2: Check status of submitted batches
-    print(f"\n=== CHECKING SUBMITTED BATCHES ===")
-    completed_batch_ids = set(log_data["completed"])
-
-    for file_path, submission_info in log_data["submitted"].items():
-        batch_id = submission_info["batch_id"]
-
-        if batch_id in completed_batch_ids:
-            print(f"Already completed: {batch_id}")
-            continue
-
-        try:
-            print(f"Checking: {batch_id} ({submission_info['topic']})")
-            result = retrieve_batch_results(batch_id, submission_info["topic"])
-
-            if result["status"] == "completed":
-                print(f"✓ Completed: {result['output_file']} ({result['results_count']} results)")
-                log_data["completed"].append(batch_id)
-                save_log(log_data)
-
-            elif result["status"] == "processing":
-                print(f"⏳ Still processing: {batch_id}")
-
-        except Exception as e:
-            print(f"✗ Error checking {batch_id}: {e}")
-            log_data["failed"].append({
-                "batch_id": batch_id,
-                "error": str(e),
-                "timestamp": timestamp
-            })
-            save_log(log_data)
+    # Status checking moved to separate check_status.py script
 
     # SUMMARY
-    print(f"\n=== SUMMARY ===")
+    print(f"\n=== SUBMISSION SUMMARY ===")
     print(f"Files submitted this run: {submit_count}")
     print(f"Total submitted: {len(log_data['submitted'])}")
-    print(f"Total completed: {len(log_data['completed'])}")
-    print(f"Total failed: {len(log_data['failed'])}")
+    print(f"Total failed submissions: {len(log_data['failed'])}")
+    
+    if submit_count > 0:
+        print(f"\n✓ Use 'python api/check_status.py' to monitor batch progress.")
 
-    pending = len(log_data["submitted"]) - len(log_data["completed"])
-    print(f"Still processing: {pending}")
-
-    if pending > 0:
-        print(f"\nRun again in 10-15 minutes to check for completed batches.")
+def main():
+    parser = argparse.ArgumentParser(
+        description='Submit batch files to Claude API for processing'
+    )
+    parser.add_argument(
+        '--max-submit', 
+        type=int, 
+        default=15,
+        help='Maximum number of batches to submit in this run (default: 15)'
+    )
+    parser.add_argument(
+        '--list-topics',
+        action='store_true',
+        help='List available topics and exit (no submission)'
+    )
+    
+    args = parser.parse_args()
+    
+    if args.list_topics:
+        print("Available topics with batch files:")
+        topics = get_available_topics()
+        if not topics:
+            print("No topics found with batch files.")
+            return
+        
+        for topic in topics:
+            batch_count = len(list(Path(f"data/batched/{topic}").glob("*.json")))
+            print(f"  {topic}: {batch_count} batch files")
+        return
+    
+    print(f"Batch Processor - Max submissions: {args.max_submit}")
+    run_batch_processor(max_submit=args.max_submit)
 
 if __name__ == "__main__":
-    run_batch_processor()
+    main()

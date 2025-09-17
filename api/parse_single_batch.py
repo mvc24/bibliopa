@@ -1,6 +1,5 @@
 import anthropic
 from dotenv import load_dotenv
-from datetime import datetime
 import json
 from pathlib import Path
 from pprint import pp
@@ -147,63 +146,4 @@ def submit_batch(batch_path):
         "status": "submitted",
         "file_path": str(batch_path),
         "entry_count": len(batch_data)
-    }
-
-
-
-def retrieve_batch_results(batch_id, topic):
-    # Check status first
-    batch_status = client.messages.batches.retrieve(batch_id)
-    print("Current status:", batch_status.processing_status)
-
-    # If not ready, return without processing
-    if batch_status.processing_status != "ended":
-        return {"status": "processing", "batch_id": batch_id}
-
-    # Only get results ONCE when ready
-    batch_results = client.messages.batches.results(batch_id)
-    results_list = list(batch_results)  # Convert to list immediately
-
-    # Convert results to JSON-serializable format
-    results_data = []
-    for result in results_list:  # Use the list we already created
-        if result.result and result.result.type == "succeeded":  # Changed from "message" to "succeeded"
-            # Extract the text content from the message
-            response_text = result.result.message.content[0].text  # Changed path
-
-            # Strip markdown code blocks if present
-            if response_text.startswith("```json"):
-                response_text = response_text.replace("```json\n", "").replace("\n```", "")
-
-            try:
-                # Parse the actual JSON
-                parsed_json = json.loads(response_text)
-                result_data = {
-                    "custom_id": result.custom_id,
-                    "parsed_entry": parsed_json
-                }
-            except json.JSONDecodeError as e:
-                result_data = {
-                    "custom_id": result.custom_id,
-                    "error": f"JSON parsing failed: {e}",
-                    "raw_response": response_text
-                }
-
-            results_data.append(result_data)
-
-    # Save results to file (single file creation)
-    timestamp = datetime.now().strftime("%Y%m%d-%H%M")
-    filepath = f"data/parsed/batch_{topic}_{timestamp}.json"
-
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(results_data, f, ensure_ascii=False, indent=2)
-
-    print(f"Results saved to: {filepath}")
-    print(f"Number of results: {len(results_data)}")
-
-    return {
-        "status": "completed",
-        "batch_id": batch_id,
-        "output_file": filepath,
-        "results_count": len(results_data)
     }
