@@ -1,3 +1,4 @@
 {
-  "dataWrangler.experiments.autoDetectCsvDelimiter": true
+  "dataWrangler.experiments.autoDetectCsvDelimiter": true,
+  "python.analysis.extraPaths": ["./alembic"]
 }
