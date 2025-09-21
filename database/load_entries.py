@@ -5,15 +5,18 @@ import json
 import unicodedata
 from pathlib import Path
 from datetime import datetime
+
+from anthropic import NotFoundError
 from connection import get_db_connection
 from psycopg2 import sql
 sys.path.append(str(Path(__file__).parent.parent))
 from tables.topics import get_topic_id_by_name
 
-filename = Path("data/parsed/batch_aegypten_20250911-2255.json")
-
+# file = Path("data/parsed/batch_aegypten_20250911-2255.json")
+file_path = Path("data/parsed")
 
 def prepare_entries(filename):
+    full_file_path = Path(file_path / filename)
     books_data = []
     collect_people = []
     prices_data = []
@@ -30,11 +33,11 @@ def prepare_entries(filename):
     people_logged = 0
 
 
-    if not filename.exists():
+    if not full_file_path.is_file():
         raise FileNotFoundError(f"{filename} doesn't exist!")
 
     try:
-        with open(filename, "r") as f:
+        with open(full_file_path, "r") as f:
             entries = json.load(f)
 
         for entry in entries:
@@ -195,7 +198,7 @@ def prepare_entries(filename):
     status = {
         "success": success,
         "error_message": error_message,
-        "filename": filename.name,
+        "filename": file_path.name,
         "processing_done": processing_done,
         "loading_done": loading_done,
         "entry_count": entry_count,
@@ -225,9 +228,12 @@ def load_entries(prepared_entries):
     prices_data = prepared_entries["data"]["prices"]
     books2volumes_data = prepared_entries["data"]["books2volumes"]
     books_admin_data = prepared_entries["data"]["admin"]
+    filename = prepared_entries["filename"]
+    file_path = Path(file_path / filename)
     loading_done = False
     success = False
     error_message = None
+
 
     conn, cur = get_db_connection()
 
@@ -355,7 +361,7 @@ def load_entries(prepared_entries):
         conn.commit()
         success = True
         loading_done = True
-        pp(f"Successfully loaded {filename.name} to database.")
+        pp(f"Successfully loaded {filename} to database.")
 
     except Exception as e:
         conn.rollback()
@@ -367,8 +373,6 @@ def load_entries(prepared_entries):
         conn.close()
 
         loading_status = {
-            "success": success,
-            "error_message": error_message,
             "filename": prepared_entries["filename"],
             "loading_done": loading_done,
             "timestamp_loading": str(datetime.now())
