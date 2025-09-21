@@ -4,7 +4,7 @@ import uuid
 import json
 import unicodedata
 from pathlib import Path
-from datetime import datetime
+from datetime import date, datetime
 sys.path.append(str(Path(__file__).parent.parent))
 from tables.topics import get_topic_id_by_name
 
@@ -24,6 +24,8 @@ def prepare_entries(filename):
     loading_done = False
     success = False
     error_message = None
+    entry_count =  0
+    people_logged = 0
 
 
     if not filename.exists():
@@ -45,7 +47,6 @@ def prepare_entries(filename):
             topic = entry["parsed_entry"]["topic"].strip("'")
 
             topic_id = get_topic_id_by_name(topic)
-            # pp(topic_id)
 
             # books
             books_data.append({
@@ -140,6 +141,7 @@ def prepare_entries(filename):
                                 "is_translator": (role == "translator"),
                                 "sort_order": sort_order
                             })
+                            people_logged += 1
                     else:
                         collect_people.append({
                             "book_id": str(book_id),
@@ -156,6 +158,8 @@ def prepare_entries(filename):
                             "is_translator": (role == "translator"),
                             "sort_order": 0
                             })
+                        people_logged += 1
+
         # pp(collect_people)
 
             if not collect_people_file.exists():
@@ -167,9 +171,10 @@ def prepare_entries(filename):
 
                 with open(collect_people_file, "w") as f:
                     json.dump(collected_people, f, ensure_ascii=False, indent=2)
+
             success = True
             processing_done = True
-
+            entry_count += 1
 
     except FileNotFoundError:
         success = False
@@ -191,18 +196,23 @@ def prepare_entries(filename):
         "filename": filename.name,
         "processing_done": processing_done,
         "loading_done": loading_done,
+        "entry_count": entry_count,
+        "people_logged": people_logged,
         "data": {
             "books": books_data,
             "prices": prices_data,
             "admin": books_admin_data,
             "books2volumes": books2volumes_data
-        }
+        },
+        "timestamp": str(datetime.now())
     }
     # pp(f"status success: {status["success"]}")
     # pp(f"status error_message: {status["error_message"]}")
     # pp(f"status filename: {status["filename"]}")
     # pp(f"status processing_done: {status["processing_done"]}")
     # pp(f"status loading_done: {status["loading_done"]}")
+    # pp(f"status entry_count: {status["entry_count"]}")
+    # pp(f"status people_logged: {status["people_logged"]}")
 
     return status
 
