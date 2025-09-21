@@ -2,6 +2,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 from pprint import pp
+from database import load_entries
 from load_entries import prepare_entries
 
 # New approach
@@ -10,7 +11,7 @@ from load_entries import prepare_entries
 log_file = Path("data/logs/data_loading_log.json")
 
 # hardcoded for now! TODO get from parsed files
-filename = Path("data/parsed/batch_aegypten_20250911-2255.json")
+# filename = Path("data/parsed/batch_aegypten_20250911-2255.json")
 
 def get_parsed_files():
     parsed_dir = Path("data/parsed")
@@ -32,8 +33,7 @@ def read_log():
     else:
         with open(log_file, "r") as f:
             db_loading_log = json.load(f)
-            # pp(type(db_loading_log))
-            # pp(db_loading_log)
+
     return db_loading_log
 # read_log()
 
@@ -48,15 +48,19 @@ def get_file_for_processing():
 
         if processing_done:
             processed_files.append(filename)
-    pp(processed_files)
 
-    files_to_process = [f for f in available_files if str(f) not in processed_files]
-    pp(files_to_process)
+    files_to_process = [file for file in available_files if str(file) not in processed_files]
+
+    # pp(files_to_process)
     filename = files_to_process[0]
-    pp(filename)
-
+    # pp(filename)
     return filename
-files = get_file_for_processing()
+
+# files = get_file_for_processing()
+
+# run data prep with found file
+filename = get_file_for_processing()
+prepare_entries(filename)
 
 def log_data_processing(db_loading_log=None):
     status = prepare_entries(filename)
@@ -76,7 +80,6 @@ def log_data_processing(db_loading_log=None):
         json.dump(db_loading_log, f, ensure_ascii=False, indent=2)
     return db_loading_log
 
-#  log_data = log_data_processing()
 
 
 

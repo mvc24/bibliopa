@@ -4,7 +4,9 @@ import uuid
 import json
 import unicodedata
 from pathlib import Path
-from datetime import date, datetime
+from datetime import datetime
+from connection import get_db_connection
+from psycopg2 import sql
 sys.path.append(str(Path(__file__).parent.parent))
 from tables.topics import get_topic_id_by_name
 
@@ -162,19 +164,19 @@ def prepare_entries(filename):
 
         # pp(collect_people)
 
-            if not collect_people_file.exists():
-                raise FileNotFoundError("People file missing!")
-            else:
-                with open(collect_people_file, "r") as f:
-                    collected_people = json.load(f)
-                    collected_people.extend(collect_people)
+        if not collect_people_file.exists():
+            raise FileNotFoundError("People file missing!")
+        else:
+            with open(collect_people_file, "r") as f:
+                collected_people = json.load(f)
+                collected_people.extend(collect_people)
 
-                with open(collect_people_file, "w") as f:
-                    json.dump(collected_people, f, ensure_ascii=False, indent=2)
+            with open(collect_people_file, "w") as f:
+                json.dump(collected_people, f, ensure_ascii=False, indent=2)
 
-            success = True
-            processing_done = True
-            entry_count += 1
+        success = True
+        processing_done = True
+        entry_count = len(entries)
 
     except FileNotFoundError:
         success = False
@@ -216,4 +218,161 @@ def prepare_entries(filename):
 
     return status
 
-prepared_entries = prepare_entries(filename)
+# prepared_entries = prepare_entries(filename)
+
+def load_entries(prepared_entries):
+    books_data = prepared_entries["data"]["books"]
+    prices_data = prepared_entries["data"]["prices"]
+    books2volumes_data = prepared_entries["data"]["books2volumes"]
+    books_admin_data = prepared_entries["data"]["admin"]
+    loading_done = False
+    success = False
+    error_message = None
+
+    conn, cur = get_db_connection()
+
+    if conn is None:
+        error_message = print(f"Connection failed!")
+        return error_message
+
+    try:
+        # books
+        # SQL_BOOKS = "INSERT INTO x VALUES ();"
+        insert_books = """
+        INSERT INTO books (
+            book_id,
+            title,
+            subtitle,
+            publisher,
+            place_of_publication,
+            publication_year,
+            edition,
+            pages,
+            isbn,
+            format_original,
+            format_expanded,
+            condition,
+            copies,
+            illustrations,
+            packaging,
+            topic_id,
+            is_translation,
+            original_language,
+            is_multivolume,
+            series_title,
+            total_volumes)
+        VALUES (
+            %(book_id)s,
+            %(title)s,
+            %(subtitle)s,
+            %(publisher)s,
+            %(place_of_publication)s,
+            %(publication_year)s,
+            %(edition)s,
+            %(pages)s,
+            %(isbn)s,
+            %(format_original)s,
+            %(format_expanded)s,
+            %(condition)s,
+            %(copies)s,
+            %(illustrations)s,
+            %(packaging)s,
+            %(topic_id)s,
+            %(is_translation)s,
+            %(original_language)s,
+            %(is_multivolume)s,
+            %(series_title)s,
+            %(total_volumes)s
+        );
+        """
+        for record in books_data:
+            cur.execute(insert_books, record)
+
+        # volumes
+        insert_volumes = """
+        INSERT INTO books2volumes (
+            volume_id,
+            book_id,
+            volume_number,
+            volume_title,
+            pages,
+            notes
+        )
+        VALUES (
+            %(volume_id)s,
+            %(book_id)s,
+            %(volume_number)s,
+            %(volume_title)s,
+            %(pages)s,
+            %(notes)s,
+        );
+        """
+        for record in books2volumes_data:
+            cur.execute(insert_volumes, record)
+
+        # prices
+        insert_prices = """
+        INSERT INTO prices (
+            price_id,
+            book_id,
+            amount,
+            is_original
+        )
+        VALUES (
+            %(price_id)s,
+            %(book_id)s,
+            %(amount)s,
+            %(is_original)s
+        );
+        """
+        for record in prices_data:
+            cur.execute(insert_prices, record)
+
+        # admin
+        insert_admin = """
+        INSERT INTO book_admin (
+            book_id,
+            source_filename,
+            original_entry,
+            parsing_confidence,
+            needs_review,
+            verification_notes,
+            composite_id
+        )
+        VALUES (
+            %(book_id)s,
+            %(source_filename)s,
+            %(original_entry)s,
+            %(parsing_confidence)s,
+            %(needs_review)s,
+            %(verification_notes)s,
+            %(composite_id)s,
+        );
+        """
+        for record in books_admin_data:
+            cur.execute(insert_admin, record)
+
+        conn.commit()
+        success = True
+        loading_done = True
+        pp(f"Successfully loaded {filename.name} to database.")
+
+    except Exception as e:
+        conn.rollback()
+        success = False
+        error_message = f"Unexpected error: {str(e)}"
+
+    finally:
+        cur.close()
+        conn.close()
+
+        loading_status = {
+            "success": success,
+            "error_message": error_message,
+            "filename": prepared_entries["filename"],
+            "loading_done": loading_done,
+            "timestamp_loading": str(datetime.now())
+        }
+    return loading_status
+
+# load_entries(prepare_entries(filename))
