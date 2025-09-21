@@ -20,11 +20,18 @@ def prepare_entries(filename):
 
     collect_people_file = Path("database/collect_people.json")
 
+    processing_done = False
+    loading_done = False
+    success = False
+    error_message = None
+
+
     if not filename.exists():
         raise FileNotFoundError(f"{filename} doesn't exist!")
 
-    with open(filename, "r") as f:
-        entries = json.load(f)
+    try:
+        with open(filename, "r") as f:
+            entries = json.load(f)
 
         for entry in entries:
             # generate unique ids
@@ -119,7 +126,7 @@ def prepare_entries(filename):
                     if is_list:
                         for sort_order, person in enumerate(people):
                             collect_people.append({
-                                "book_id": book_id,
+                                "book_id": str(book_id),
                                 "composite_id": entry["custom_id"],
                                 "source_filename": filename.name,
                                 "display_name": person["display_name"],
@@ -135,7 +142,7 @@ def prepare_entries(filename):
                             })
                     else:
                         collect_people.append({
-                            "book_id": book_id,
+                            "book_id": str(book_id),
                             "composite_id": entry["custom_id"],
                             "source_filename": filename.name,
                             "display_name": people["display_name"],
@@ -149,7 +156,8 @@ def prepare_entries(filename):
                             "is_translator": (role == "translator"),
                             "sort_order": 0
                             })
-            # pp(collect_people)
+        # pp(collect_people)
+
             if not collect_people_file.exists():
                 raise FileNotFoundError("People file missing!")
             else:
@@ -159,9 +167,43 @@ def prepare_entries(filename):
 
                 with open(collect_people_file, "w") as f:
                     json.dump(collected_people, f, ensure_ascii=False, indent=2)
+            success = True
+            processing_done = True
 
 
-    return books_data, prices_data, books_admin_data, books2volumes_data
-    # people_data, books2people_data
+    except FileNotFoundError:
+        success = False
+        error_message = f"File {filename} not found"
+        # Data collections stay empty
+
+    except json.JSONDecodeError:
+        success = False
+        error_message = f"Invalid JSON in {filename}"
+
+    except Exception as e:
+        success = False
+        error_message = f"Unexpected error: {str(e)}"
+
+
+    status = {
+        "success": success,
+        "error_message": error_message,
+        "filename": filename.name,
+        "processing_done": processing_done,
+        "loading_done": loading_done,
+        "data": {
+            "books": books_data,
+            "prices": prices_data,
+            "admin": books_admin_data,
+            "books2volumes": books2volumes_data
+        }
+    }
+    # pp(f"status success: {status["success"]}")
+    # pp(f"status error_message: {status["error_message"]}")
+    # pp(f"status filename: {status["filename"]}")
+    # pp(f"status processing_done: {status["processing_done"]}")
+    # pp(f"status loading_done: {status["loading_done"]}")
+
+    return status
 
 prepared_entries = prepare_entries(filename)

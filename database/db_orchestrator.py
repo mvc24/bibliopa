@@ -20,6 +20,8 @@ def get_parsed_files():
 get_parsed_files()
 
 #
+# New approach
+# Orchestrator → Prep → Status back to Orchestrator → Load → Status back to Orchestrator
 
 # check which files are available for reading into the database
 # compare available filenames with the log file for previously processed files (flag is_processed: True)

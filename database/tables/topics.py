@@ -21,7 +21,7 @@ def get_topic_id_by_name(topic_name):
             print(f"{topic_name} not found!")
             return None
         # pp(topic_id)
-        pp(topic_id[0])
+        # pp(topic_id[0])
         return topic_id[0]
 
     except Exception as e:
@@ -30,11 +30,6 @@ def get_topic_id_by_name(topic_name):
 
     finally:
         conn.close()
-# get_topic_id_by_name("ÄGYPTEN VORDERER ORIENT")
-# get_topic_id_by_name("'ÄGYPTEN VORDERER ORIENT'")
-# get_topic_id_by_name("AGYPTEN VORDERER ORIENT")
-# get_topic_id_by_name("DEUTSCHLAND")
-# get_topic_id_by_name("ERSTAUSGABEN")
 
 def get_all_topics():
     conn, cur = get_db_connection()
