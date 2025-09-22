@@ -43,13 +43,12 @@ def get_files_for_processing():
     for processed_file in db_loading_log:
         filename = processed_file["filename"]
         processing_done = processed_file["processing_done"]
+        loading_done = processed_file["loading_done"]
 
-        if processing_done:
+        if processing_done and loading_done:
             processed_files.append(filename)
 
     files_to_process = [file for file in available_files if str(file) not in processed_files]
-
-    # filename = files_to_process[0]
 
     return files_to_process
 
@@ -58,7 +57,10 @@ def prep_and_load_files():
     start_time = time.time()
 # 1. get list
     files_for_processing = get_files_for_processing()
+    # pp(f"")
     file_count = 0
+    total_entries_loaded = 0
+    total_corrupt_entries = 0
 # 2. loop through list, log each part of the process separately
     for filename in files_for_processing:
         prep_status = prepare_entries(filename)
@@ -69,6 +71,7 @@ def prep_and_load_files():
             "loading_done": prep_status["loading_done"],
             "entry_count": prep_status["entry_count"],
             "people_logged": prep_status["people_logged"],
+            "corrupt_entries_found": prep_status["corrupt_entries_found"],
             "timestamp": prep_status["timestamp"]
         }
         current_log.append(log_entry)
@@ -88,11 +91,19 @@ def prep_and_load_files():
             with open(log_file, "w") as f:
                 json.dump(current_log, f, ensure_ascii=False, indent=2)
 
-        if prep_status["processing_done"] and load_status["loading_done"]:
-            file_count += 1
+            if prep_status["processing_done"] and load_status["loading_done"]:
+                file_count += 1
+                total_entries_loaded += prep_status["entry_count"]
+                total_corrupt_entries += prep_status["corrupt_entries_found"]
+
     end_time = time.time()
     duration = end_time - start_time
-    pp(f"{file_count} entries were prepped & loaded successfully in {duration:.2f} seconds 🥳")
+
+    # Create comprehensive success message
+    if total_corrupt_entries > 0:
+        pp(f"{file_count} files processed, {total_entries_loaded} entries loaded, {total_corrupt_entries} corrupt entries quarantined in {duration:.2f} seconds 🥳")
+    else:
+        pp(f"{file_count} files processed, {total_entries_loaded} entries loaded successfully in {duration:.2f} seconds 🥳")
 
 def main():
     prep_and_load_files()

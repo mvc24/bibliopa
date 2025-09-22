@@ -24,6 +24,8 @@ def prepare_entries(filename):
     books_admin_data = []
 
     collect_people_file = Path("database/collect_people.json")
+    corrupt_log_file = Path("data/logs/corrupt_entries_log.json")
+    review_entries_file = Path("data/logs/review_entries_log.json")
 
     processing_done = False
     loading_done = False
@@ -40,10 +42,28 @@ def prepare_entries(filename):
         with open(full_file_path, "r") as f:
             entries = json.load(f)
 
+        corrupt_entries = []
+        entries_for_review = []
+
         for entry in entries:
+            # Check if entry has parsing errors - quarantine corrupt entries
+            if "error" in entry:
+                corrupt_entries.append({
+                    "source_file": filename,
+                    "custom_id": entry.get("custom_id", "unknown"),
+                    "error": entry["error"],
+                    "raw_response": entry.get("raw_response", "")
+                })
+                continue  # Skip processing this corrupt entry
+
+            if entry["parsed_entry"]["administrative"]["needs_review"]:
+                entries_for_review.append(entry)
+                continue
+
+            # Process clean entries only
             # generate unique ids
-            book_id = uuid.uuid4()
-            price_id = uuid.uuid4()
+            book_id = str(uuid.uuid4())
+            price_id = str(uuid.uuid4())
 
             # topic id
             for key, value in entry["parsed_entry"].items():
@@ -83,7 +103,7 @@ def prepare_entries(filename):
             if entry["parsed_entry"]["is_multivolume"] == True:
 
                 for volume in entry["parsed_entry"]["volumes"]:
-                    volume_id =  uuid.uuid4()
+                    volume_id =  str(uuid.uuid4())
                     books2volumes_data.append({
                         "volume_id": volume_id,
                         "book_id": book_id,
@@ -111,7 +131,7 @@ def prepare_entries(filename):
             books_admin_data.append({
                 "book_id": book_id,
                 "composite_id": entry["custom_id"],
-                "source_filename": filename.name,
+                "source_filename": filename,
                 "original_entry": entry["parsed_entry"]["administrative"]["original_entry"],
                 "parsing_confidence": entry["parsed_entry"]["administrative"]["parsing_confidence"],
                 "needs_review": entry["parsed_entry"]["administrative"]["needs_review"],
@@ -134,7 +154,7 @@ def prepare_entries(filename):
                             collect_people.append({
                                 "book_id": str(book_id),
                                 "composite_id": entry["custom_id"],
-                                "source_filename": filename.name,
+                                "source_filename": filename,
                                 "display_name": person["display_name"],
                                 "family_name": person["family_name"],
                                 "given_names": person["given_names"],
@@ -151,7 +171,7 @@ def prepare_entries(filename):
                         collect_people.append({
                             "book_id": str(book_id),
                             "composite_id": entry["custom_id"],
-                            "source_filename": filename.name,
+                            "source_filename": filename,
                             "display_name": people["display_name"],
                             "family_name": people["family_name"],
                             "given_names": people["given_names"],
@@ -177,9 +197,36 @@ def prepare_entries(filename):
             with open(collect_people_file, "w") as f:
                 json.dump(collected_people, f, ensure_ascii=False, indent=2)
 
+        # Handle corrupt entries logging
+        corrupt_count = len(corrupt_entries)
+        if corrupt_count > 0:
+            if not corrupt_log_file.exists():
+                raise FileNotFoundError("Corrupt entries file missing!")
+            else:
+                with open(corrupt_log_file, "r") as f:
+                    existing_corrupt_entries = json.load(f)
+                    existing_corrupt_entries.extend(corrupt_entries)
+
+                with open(corrupt_log_file, "w") as f:
+                    json.dump(existing_corrupt_entries, f, ensure_ascii=False, indent=2)
+
+        # Handle entries that need review
+        review_count = len(entries_for_review)
+        if review_count > 0:
+            if not review_entries_file.exists():
+                raise FileNotFoundError("Review entries file missing!")
+            else:
+                with open(review_entries_file, "r") as f:
+                    existing_review_entries = json.load(f)
+                    existing_review_entries.extend(entries_for_review)
+
+                with open(review_entries_file, "w") as f:
+                    json.dump(existing_review_entries, f, ensure_ascii=False, indent=2)
+
+
         success = True
         processing_done = True
-        entry_count = len(entries)
+        entry_count = len(entries) - corrupt_count - review_count  # Only count clean entries
 
     except FileNotFoundError:
         success = False
@@ -198,11 +245,13 @@ def prepare_entries(filename):
     status = {
         "success": success,
         "error_message": error_message,
-        "filename": file_path.name,
+        "filename": filename,
         "processing_done": processing_done,
         "loading_done": loading_done,
         "entry_count": entry_count,
         "people_logged": people_logged,
+        "corrupt_entries_found": len(corrupt_entries) if 'corrupt_entries' in locals() else 0,
+        "review_entries_found": len(entries_for_review) if 'entries_for_review' in locals() else 0,
         "data": {
             "books": books_data,
             "prices": prices_data,
@@ -229,7 +278,6 @@ def load_entries(prepared_entries):
     books2volumes_data = prepared_entries["data"]["books2volumes"]
     books_admin_data = prepared_entries["data"]["admin"]
     filename = prepared_entries["filename"]
-    file_path = Path(file_path / filename)
     loading_done = False
     success = False
     error_message = None
@@ -310,7 +358,7 @@ def load_entries(prepared_entries):
             %(volume_number)s,
             %(volume_title)s,
             %(pages)s,
-            %(notes)s,
+            %(notes)s
         );
         """
         for record in books2volumes_data:
@@ -352,7 +400,7 @@ def load_entries(prepared_entries):
             %(parsing_confidence)s,
             %(needs_review)s,
             %(verification_notes)s,
-            %(composite_id)s,
+            %(composite_id)s
         );
         """
         for record in books_admin_data:
@@ -366,7 +414,7 @@ def load_entries(prepared_entries):
     except Exception as e:
         conn.rollback()
         success = False
-        error_message = f"Unexpected error: {str(e)}"
+        error_message = pp(f"Unexpected error: {str(e)}")
 
     finally:
         cur.close()
