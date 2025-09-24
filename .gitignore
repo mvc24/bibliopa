@@ -5,3 +5,4 @@ utils/
 data/
 scripts/scratch.py
 api/batch_sample.py
+frontend/.env.local
