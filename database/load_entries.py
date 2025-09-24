@@ -102,11 +102,13 @@ def prepare_entries(filename):
             # books2volumes
             if entry["parsed_entry"]["is_multivolume"] == True:
 
-                for volume in entry["parsed_entry"]["volumes"]:
-                    volume_id =  str(uuid.uuid4())
+                for index, volume in enumerate(entry["parsed_entry"]["volumes"]):
+                    volume_index = index + 1
+                    volume_id = str(uuid.uuid4())
                     books2volumes_data.append({
                         "volume_id": volume_id,
                         "book_id": book_id,
+                        "volume_index": volume_index,
                         "volume_number": volume["volume_number"],
                         "volume_title": volume["volume_title"],
                         "pages": volume["pages"],
@@ -226,7 +228,7 @@ def prepare_entries(filename):
 
         success = True
         processing_done = True
-        entry_count = len(entries) - corrupt_count - review_count  # Only count clean entries
+        entry_count = len(entries) - corrupt_count - review_count
 
     except FileNotFoundError:
         success = False
@@ -251,7 +253,6 @@ def prepare_entries(filename):
         "entry_count": entry_count,
         "people_logged": people_logged,
         "corrupt_entries_found": len(corrupt_entries) if 'corrupt_entries' in locals() else 0,
-        "review_entries_found": len(entries_for_review) if 'entries_for_review' in locals() else 0,
         "data": {
             "books": books_data,
             "prices": prices_data,
@@ -347,6 +348,7 @@ def load_entries(prepared_entries):
         INSERT INTO books2volumes (
             volume_id,
             book_id,
+            volume_index,
             volume_number,
             volume_title,
             pages,
@@ -355,6 +357,7 @@ def load_entries(prepared_entries):
         VALUES (
             %(volume_id)s,
             %(book_id)s,
+            %(volume_index)s,
             %(volume_number)s,
             %(volume_title)s,
             %(pages)s,
