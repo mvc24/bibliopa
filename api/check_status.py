@@ -65,7 +65,7 @@ def retrieve_batch_results(batch_id, original_file):
             results_data.append(result_data)
 
     # Save results to file (single file creation)
-    timestamp = datetime.now().strftime("%Y%m%d-%H%M")
+
     filename = Path(original_file).stem
     filepath = f"data/parsed/batch_{filename}.json"
 
