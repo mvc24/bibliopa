@@ -31,12 +31,23 @@ def prepare_entries(filename):
     loading_done = False
     success = False
     error_message = None
+    critical_error = False
     entry_count =  0
     people_logged = 0
 
 
     if not full_file_path.is_file():
+        critical_error = True
         raise FileNotFoundError(f"{filename} doesn't exist!")
+    if not collect_people_file.exists():
+        critical_error = True
+        raise FileNotFoundError("People file missing!")
+    if not corrupt_log_file.exists():
+        critical_error = True
+        raise FileNotFoundError("Corrupt entries file missing!")
+    if not review_entries_file.exists():
+        critical_error = True
+        raise FileNotFoundError("Review entries file missing!")
 
     try:
         with open(full_file_path, "r") as f:
@@ -189,41 +200,32 @@ def prepare_entries(filename):
 
         # pp(collect_people)
 
-        if not collect_people_file.exists():
-            raise FileNotFoundError("People file missing!")
-        else:
-            with open(collect_people_file, "r") as f:
-                collected_people = json.load(f)
-                collected_people.extend(collect_people)
+        with open(collect_people_file, "r") as f:
+            collected_people = json.load(f)
+            collected_people.extend(collect_people)
 
-            with open(collect_people_file, "w") as f:
-                json.dump(collected_people, f, ensure_ascii=False, indent=2)
+        with open(collect_people_file, "w") as f:
+            json.dump(collected_people, f, ensure_ascii=False, indent=2)
 
         # Handle corrupt entries logging
         corrupt_count = len(corrupt_entries)
         if corrupt_count > 0:
-            if not corrupt_log_file.exists():
-                raise FileNotFoundError("Corrupt entries file missing!")
-            else:
-                with open(corrupt_log_file, "r") as f:
-                    existing_corrupt_entries = json.load(f)
-                    existing_corrupt_entries.extend(corrupt_entries)
+            with open(corrupt_log_file, "r") as f:
+                existing_corrupt_entries = json.load(f)
+                existing_corrupt_entries.extend(corrupt_entries)
 
-                with open(corrupt_log_file, "w") as f:
-                    json.dump(existing_corrupt_entries, f, ensure_ascii=False, indent=2)
+            with open(corrupt_log_file, "w") as f:
+                json.dump(existing_corrupt_entries, f, ensure_ascii=False, indent=2)
 
         # Handle entries that need review
         review_count = len(entries_for_review)
         if review_count > 0:
-            if not review_entries_file.exists():
-                raise FileNotFoundError("Review entries file missing!")
-            else:
-                with open(review_entries_file, "r") as f:
-                    existing_review_entries = json.load(f)
-                    existing_review_entries.extend(entries_for_review)
+            with open(review_entries_file, "r") as f:
+                existing_review_entries = json.load(f)
+                existing_review_entries.extend(entries_for_review)
 
-                with open(review_entries_file, "w") as f:
-                    json.dump(existing_review_entries, f, ensure_ascii=False, indent=2)
+            with open(review_entries_file, "w") as f:
+                json.dump(existing_review_entries, f, ensure_ascii=False, indent=2)
 
 
         success = True
@@ -232,6 +234,7 @@ def prepare_entries(filename):
 
     except FileNotFoundError:
         success = False
+        critical_error = True
         error_message = f"File {filename} not found"
         # Data collections stay empty
 
@@ -241,11 +244,13 @@ def prepare_entries(filename):
 
     except Exception as e:
         success = False
+        critical_error = True
         error_message = f"Unexpected error: {str(e)}"
 
 
     status = {
         "success": success,
+        "critical_error": critical_error,
         "error_message": error_message,
         "filename": filename,
         "processing_done": processing_done,
@@ -261,17 +266,9 @@ def prepare_entries(filename):
         },
         "timestamp": str(datetime.now())
     }
-    # pp(f"status success: {status["success"]}")
-    # pp(f"status error_message: {status["error_message"]}")
-    # pp(f"status filename: {status["filename"]}")
-    # pp(f"status processing_done: {status["processing_done"]}")
-    # pp(f"status loading_done: {status["loading_done"]}")
-    # pp(f"status entry_count: {status["entry_count"]}")
-    # pp(f"status people_logged: {status["people_logged"]}")
 
     return status
 
-# prepared_entries = prepare_entries(filename)
 
 def load_entries(prepared_entries):
     books_data = prepared_entries["data"]["books"]
@@ -281,12 +278,14 @@ def load_entries(prepared_entries):
     filename = prepared_entries["filename"]
     loading_done = False
     success = False
+    critical_error = False
     error_message = None
 
 
     conn, cur = get_db_connection()
 
     if conn is None:
+        critical_error = True
         error_message = print(f"Connection failed!")
         return error_message
 
@@ -417,6 +416,7 @@ def load_entries(prepared_entries):
     except Exception as e:
         conn.rollback()
         success = False
+        critical_error = True
         error_message = pp(f"Unexpected error: {str(e)}")
 
     finally:
@@ -425,6 +425,9 @@ def load_entries(prepared_entries):
 
         loading_status = {
             "filename": prepared_entries["filename"],
+            "loading_success": success,
+            "critical_error_loading": critical_error,
+            "error_message_loading": error_message,
             "loading_done": loading_done,
             "timestamp_loading": str(datetime.now())
         }
