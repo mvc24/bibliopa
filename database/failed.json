@@ -1,0 +1,53 @@
+[
+    {
+        "filename": "batch_fremdsprachige_5-39.json",
+        "success": false,
+        "critical_error": true,
+        "error_message": "Unexpected error: list indices must be integers or slices, not str",
+        "processing_done": false,
+        "loading_done": false,
+        "entry_count": 0,
+        "people_logged": 43,
+        "corrupt_entries_found": 0,
+        "timestamp": "2025-09-26 18:33:12.551312"
+    },
+    {
+        "filename": "batch_reisen_2-13.json",
+        "success": false,
+        "critical_error": true,
+        "error_message": "Unexpected error: 'format_expanded'",
+        "processing_done": false,
+        "loading_done": false,
+        "entry_count": 0,
+        "people_logged": 16,
+        "corrupt_entries_found": 0,
+        "timestamp": "2025-09-26 18:33:26.644601"
+    },
+    {
+        "filename": "batch_esoterik_3-3.json",
+        "success": false,
+        "critical_error": true,
+        "error_message": "Unexpected error: list indices must be integers or slices, not str",
+        "processing_done": false,
+        "loading_done": false,
+        "entry_count": 0,
+        "people_logged": 9,
+        "corrupt_entries_found": 0,
+        "timestamp": "2025-09-26 18:33:34.641880"
+    },
+    {
+        "filename": "batch_autographen_2-2.json",
+        "success": true,
+        "critical_error": false,
+        "error_message": "Unexpected error: null value in column 'title' of relation 'books' violates not-null constraint. DETAIL:  Failing row contains (1c1d32e2-fc5b-4e0e-b85e-dab16c962d5e, null, null, null, null, null, null, null, null, Ms., Manuskript, null, null, null, null, f, null, f, null, null, 2025-09-26 18:34:21.174441, 2025-09-26 18:34:21.174441, 3aab7d5c-cb28-4196-8e5d-f78efe7bab0e).",
+        "processing_done": true,
+        "loading_done": false,
+        "entry_count": 3,
+        "people_logged": 3,
+        "corrupt_entries_found": 5,
+        "timestamp": "2025-09-26 18:34:21.162028",
+        "critical_error_loading": true,
+        "error_message_loading": null,
+        "timestamp_loading": "2025-09-26 18:34:21.178012"
+    }
+]
