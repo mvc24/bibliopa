@@ -1,10 +1,10 @@
-from datetime import datetime
 import time
 import json
+from datetime import datetime
 from pathlib import Path
-from pprint import pp
 from text_matching import test_similarity, normalise_text
 from progress import progress
+from pprint import pp
 
 consolidated_dir = Path("data/consolidated")
 processed_discrepancies_file = Path("data/logs/discrepancies_processed.json")
