@@ -5,8 +5,6 @@ import json
 import unicodedata
 from pathlib import Path
 from datetime import datetime
-
-from anthropic import NotFoundError
 from connection import get_db_connection
 from psycopg2 import sql
 sys.path.append(str(Path(__file__).parent.parent))

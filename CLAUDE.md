@@ -24,15 +24,23 @@ This is a production data engineering project with a complete ETL pipeline and m
 4. **Status Monitoring**: `api/check_status.py` - Independent batch status checking and result retrieval
 5. **API Integration**: `api/parse_single_batch.py` - Core Claude API functions
 6. **Quality Assurance**: Built-in confidence scoring and review flagging
-7. **Database Loading**: `database/db_orchestrator.py` - Orchestrates data preparation and PostgreSQL loading
-8. **Schema Management**: Alembic migrations for database version control
-9. **Web Interface**: Next.js frontend with Refine admin framework and Mantine components
+7. **JSON Corruption Repair**: `scripts/fix_json_codex.py` - Automated fixing of malformed JSON responses
+8. **Fuzzy Discrepancy Resolution**: `scripts/resolve_discrepancies.py` - Multi-tier matching to resolve topic migrations
+9. **Review Entry Processing**: `scripts/clean_log.py` - Confidence-based filtering for manual review optimization
+10. **Database Loading**: `database/db_orchestrator.py` - Orchestrates data preparation and PostgreSQL loading
+11. **Schema Management**: Alembic migrations for database version control
+12. **Web Interface**: Next.js frontend with Refine admin framework and Mantine components
 
 ## Core Files
 
 ### Production Scripts
 - `main.py`: Data consolidation orchestrator (processes file groups: xl, l, m, xs, s)
 - `scripts/data_prep.py`: Multi-source data consolidation with intelligent matching
+- `scripts/text_matching.py`: Advanced fuzzy text matching utilities using RapidFuzz for discrepancy resolution
+- `scripts/resolve_discrepancies.py`: Multi-tier fuzzy matching pipeline for topic migration identification
+- `scripts/clean_log.py`: Review entry classification and filtering by confidence levels
+- `scripts/is_corrupt.py`: JSON corruption detection and basic repair utilities
+- `scripts/fix_json_codex.py`: Production-grade JSON corruption repair with intelligent quote escaping
 - `api/batch_processor.py`: Auto-discovery and batch submission with configurable limits and command-line options
 - `api/parse_single_batch.py`: Core Claude API functions for batch submission only
 - `api/check_status.py`: Independent batch status monitoring, result retrieval, and progress tracking
@@ -133,6 +141,8 @@ npm start
 - `psycopg2`: PostgreSQL database adapter
 - `sqlalchemy`: Database ORM and schema management
 - `alembic`: Database migration management
+- `rapidfuzz`: High-performance fuzzy string matching for discrepancy resolution
+- `ijson`: Streaming JSON parser for memory-efficient processing of large datasets
 
 #### Frontend Dependencies
 - `next`: Next.js 15 React framework
@@ -196,6 +206,8 @@ Enterprise-grade Claude API integration with:
 - **Progress Persistence**: JSON-based batch status tracking with recovery capability
 - **Data Integrity**: Original entries preserved with encoding issue correction
 - **Comprehensive Logging**: Processing metrics, match rates, and quality indicators
+- **JSON Corruption Recovery**: Automated detection and repair of malformed API responses using context-aware quote escaping
+- **Fuzzy Match Resolution**: Multi-tier text similarity matching for discrepancy analysis and topic migration identification
 
 ### Critical Error Handling Architecture
 **Enhanced Database Loading Pipeline** with robust error management:
@@ -217,12 +229,15 @@ Enterprise-grade Claude API integration with:
 5. **Database Infrastructure**: PostgreSQL schema, Alembic migrations, and comprehensive data loading system
 6. **Frontend Foundation**: Next.js application with modern React stack and admin framework
 7. **Critical Error Handling**: Hybrid logging system with file quarantine and graceful degradation
+8. **JSON Corruption Resolution**: Automated detection and repair of malformed API responses using intelligent quote escaping
+9. **Advanced Text Matching**: RapidFuzz-based fuzzy matching pipeline for topic migration identification
+10. **Data Quality Pipeline**: Multi-tier discrepancy resolution with confidence-based review filtering
 
 ### 🔄 CURRENT FOCUS:
-- **Database Population**: Loading 13,000+ parsed entries from JSON files to PostgreSQL
+- **Manual Review Processing**: Handling entries flagged for manual review (excluding cross-references)
+- **Person Data Normalization**: Standardizing author/editor/contributor data structures for database consistency
+- **Database Population**: Loading processed entries from JSON files to PostgreSQL with proper join tables
 - **Frontend Development**: Building search interface, data editing capabilities, and user experience
-- **Data Quality Review**: Processing flagged entries and confidence score validation
-- **Remaining Batch Processing**: Processing any remaining file groups if needed
 
 ### 🗃️ NEAR-TERM ROADMAP:
 1. **Complete Data Loading**: Populate PostgreSQL database with all parsed entries
@@ -267,3 +282,83 @@ Only write code directly when:
 - Complex boilerplate that doesn't offer learning value
 
 This approach builds deeper understanding and creates more confident, self-sufficient developers while ensuring the codebase evolves thoughtfully.
+
+## Data Quality & Discrepancy Resolution Strategy
+
+### Multi-Stage Data Cleaning Pipeline
+
+The project implements a systematic three-phase approach to data quality management:
+
+#### Phase 1: Fuzzy Discrepancy Resolution (`scripts/resolve_discrepancies.py`)
+**Objective**: Multi-tier fuzzy matching to identify topic migrations and resolve discrepancies
+
+**Key Innovations**:
+- **Advanced Text Normalization**: Unicode normalization, case folding, and whitespace standardization via `text_matching.py`
+- **Multi-Tier Matching Strategy**:
+  1. **Exact Match** (normalized text): O(1) dictionary lookup for perfect matches
+  2. **High-Confidence Fuzzy**: RapidFuzz ≥95% similarity for near-exact matches
+  3. **Medium-Confidence Fuzzy**: 75-94% similarity for probable matches requiring review
+- **Performance Optimization**: Dictionary-based consolidated entry lookup with sorted iteration
+- **Comprehensive Scoring**: Full similarity matrix computation with best-match tracking
+
+**Technical Implementation**:
+```python
+# Normalized text matching with fuzzy fallback
+collected_lookup = {normalise_text(entry["text"]): entry for entry in collected_entries}
+score = fuzz.ratio(discrepancy_norm, collected_text)
+```
+
+**Advanced Features**:
+- **Progress Tracking**: Real-time processing feedback every 25 entries
+- **Match Enrichment**: Topic and price data recovery from matched consolidated entries
+- **Three-Tier Classification**: `resolved`, `resolved_ish`, and `unresolved` categories
+- **Performance Metrics**: Processing time tracking and completion statistics
+
+#### Phase 2: Review Entry Processing (`scripts/clean_log.py`)
+**Objective**: Intelligent classification and filtering of review entries for optimized manual curation
+
+**Advanced Classification Logic**:
+- **Cross-Reference Detection**: Regex pattern matching for "siehe" references and verification notes
+- **Confidence-Based Routing**: Separate high/medium confidence entries from low-confidence cross-references
+- **Memory-Efficient Processing**: IJson streaming parser for large review datasets
+- **Structured Output**: Organized categorization for downstream manual review workflows
+
+**Implementation Features**:
+```python
+# Cross-reference detection with dual pattern matching
+siehe = re.search("[sS]iehe", original_text)
+reference = re.search("reference", notes)
+```
+
+#### Phase 3: Manual Curation (Future - Frontend Interface)
+**Objective**: Human review with proper editing interface
+
+**Two-Track Approach**:
+- **"Ready" File**: Data validated for immediate database loading
+- **"Manual Review" File**: Complex cases requiring extensive editing via frontend tools
+
+### Data Quality Principles
+
+1. **Preserve Original Data**: Never modify source logs - always write to new files
+2. **Automated First**: Maximize automation before manual intervention
+3. **Recoverable Process**: Maintain data lineage and ability to reprocess
+4. **Efficient Filtering**: Use dictionary lookups and set operations for performance
+5. **Deferred Complexity**: Handle simple cases immediately, complex cases with proper tooling
+
+### Current Implementation Status
+
+**✅ COMPLETED:**
+- **JSON Corruption Resolution**: Automated repair of malformed API responses using intelligent quote escaping algorithms
+- **Advanced Fuzzy Matching**: RapidFuzz-based multi-tier matching pipeline with 95%+ high-confidence and 75-94% medium-confidence thresholds
+- **Text Normalization Infrastructure**: Unicode normalization, case folding, and whitespace standardization utilities
+- **Cross-Reference Detection**: Automated identification of "siehe" references for streamlined manual review filtering
+
+**🔄 IN PROGRESS:**
+- **Manual Review Processing**: Handling entries flagged for manual review (excluding mere cross-references)
+- **Person Data Normalization**: Standardizing author/editor/contributor data structures for database consistency
+
+**Expected Outcomes:**
+- **Discrepancy Reduction**: Significant reduction from ~1180 entries through automated topic migration identification
+- **Review Optimization**: Streamlined manual review workload through confidence-based filtering and cross-reference separation
+- **Data Quality Assurance**: Systematic fuzzy matching approach ensures comprehensive discrepancy resolution
+- **Processing Efficiency**: Multi-tier matching strategy maximizes automation while maintaining accuracy

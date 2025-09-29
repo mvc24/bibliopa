@@ -1,6 +1,5 @@
 import json
 import re
-from weakref import ref
 import ijson
 from pathlib import Path
 from pprint import pp

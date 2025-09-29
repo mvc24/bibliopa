@@ -1,44 +1,122 @@
 [
     {
-        "source_file": "batch_briefe_1-15.json",
-        "custom_id": "briefe_9_1_15",
-        "error": "JSON parsing failed: Expecting ',' delimiter: line 3 column 61 (char 86)",
-        "raw_response": "{\n    \"identifier\": null,\n    \"title\": \"„Ich bin Dir halt ein bißchen zu revolutionär\". Briefwechsel 1946 bis 1975\",\n    \"subtitle\": null,\n    \"authors\": [\n        {\n            \"display_name\": \"ARENDT, Hannah\",\n            \"family_name\": \"Arendt\",\n            \"given_names\": \"Hannah\",\n            \"name_particles\": null,\n            \"single_name\": null\n        },\n        {\n            \"display_name\": \"STERNBERGER, Dolf\",\n            \"family_name\": \"Sternberger\",\n            \"given_names\": \"Dolf\",\n            \"name_particles\": null,\n            \"single_name\": null\n        }\n    ],\n    \"editors\": [\n        {\n            \"display_name\": \"Bermbach, Udo\",\n            \"family_name\": \"Bermbach\",\n            \"given_names\": \"Udo\",\n            \"name_particles\": null,\n            \"single_name\": null\n        }\n    ],\n    \"contributors\": [],\n    \"publisher\": \"Rowohlt\",\n    \"place_of_publication\": \"Berlin\",\n    \"publication_year\": 2019,\n    \"edition\": null,\n    \"pages\": 477,\n    \"format_original\": \"OPbd.m.OU.\",\n    \"format_expanded\": \"Originalpappband mit Originalumschlag\",\n    \"condition\": \"Mängelexemplar\",\n    \"copies\": 1,\n    \"illustrations\": \"Mit Fotos\",\n    \"packaging\": \"m. Lesebändchen\",\n    \"isbn\": null,\n    \"price\": null,\n    \"topic\": \"BRIEFE TAGEBÜCHER WERKE\",\n    \"is_translation\": false,\n    \"original_language\": null,\n    \"translator\": null,\n    \"is_multivolume\": false,\n    \"series_title\": null,\n    \"total_volumes\": null,\n    \"volumes\": [],\n    \"administrative\": {\n        \"source_filename\": null,\n        \"original_entry\": \"ARENDT, Hannah und Dolf STERNBERGER. „Ich bin Dir halt ein bißchen zu revolutionär\". Briefwechsel 1946 bis 1975. Herausgegeben von Udo Bermbach. Mit Fotos. Berlin Rowohlt 2019. 477 S. OPbd.m.OU. m. Lesebändchen. Mängelexemplar.\",\n        \"parsing_confidence\": \"high\",\n        \"needs_review\": false,\n        \"verification_notes\": null\n    }\n}"
+        "text": "BEITL, Richard. Deutsche Volkskunde. Von Siedlung, Haus und Ackerflur. Von Glaube und Brauch. Von Sage, Wort und Lied des deutschen Volkes. Berlin Deutsche Buchgemeinschaft 1933. 550 S. Mit zahlr. Abb. OHLn. Einband berieben.",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
     },
     {
-        "source_file": "batch_esoterik_1-3.json",
-        "custom_id": "esoterik_9_1_3",
-        "error": "JSON parsing failed: Expecting ',' delimiter: line 3 column 106 (char 131)",
-        "raw_response": "{\n    \"identifier\": null,\n    \"title\": \"Die Stimme der Stille und andere ausgewählte Bruchstücke aus dem „Buch der Goldenen Lehren\"\",\n    \"subtitle\": null,\n    \"authors\": [\n        {\n            \"display_name\": \"Blavatsky, Helena Petrowna\",\n            \"family_name\": \"Blavatsky\",\n            \"given_names\": \"Helena Petrowna\",\n            \"name_particles\": null,\n            \"single_name\": null\n        }\n    ],\n    \"editors\": [],\n    \"contributors\": [],\n    \"publisher\": \"Adyar-Verlag\",\n    \"place_of_publication\": \"Graz\",\n    \"publication_year\": 1959,\n    \"edition\": null,\n    \"pages\": 141,\n    \"format_original\": \"OLn.\",\n    \"format_expanded\": \"Original-Leinen\",\n    \"condition\": null,\n    \"copies\": null,\n    \"illustrations\": null,\n    \"packaging\": null,\n    \"isbn\": null,\n    \"price\": null,\n    \"topic\": \"ESOTERIK\",\n    \"is_translation\": null,\n    \"original_language\": null,\n    \"translator\": null,\n    \"is_multivolume\": false,\n    \"series_title\": null,\n    \"total_volumes\": null,\n    \"volumes\": [],\n    \"administrative\": {\n        \"source_filename\": null,\n        \"original_entry\": \"BLAVATSKY, Helena Petrowna. Die Stimme der Stille und andere ausgewählte Bruchstücke aus dem „Buch der Goldenen Lehren\". Graz Adyar-Verlag 1959. 141 S. OLn.\",\n        \"parsing_confidence\": \"high\",\n        \"needs_review\": false\n    }\n}"
+        "text": "BENZ, Wolfgang. Theresienstadt. Eine Geschichte von Täuschung und Vernichtung. Mit 46 Abbildungen und 1 Karte. München Beck 2013. 281 S. OPbd.m.OU.",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
     },
     {
-        "source_file": "batch_erstausgaben3_54-79.json",
-        "custom_id": "erstausgaben3_1349_54_79",
-        "error": "JSON parsing failed: Expecting ',' delimiter: line 3 column 35 (char 58)",
-        "raw_response": "{\n  \"identifier\": null,\n  \"title\": \"Das Schiff „Esperance\"\",\n  \"subtitle\": \"Erzählung\",\n  \"authors\": [{\"display_name\": \"NEUMANN, Robert\", \"family_name\": \"Neumann\", \"given_names\": \"Robert\", \"name_particles\": null, \"single_name\": null}],\n  \"editors\": [],\n  \"contributors\": [],\n  \"publisher\": \"Zsolnay\",\n  \"place_of_publication\": \"Berlin\",\n  \"publication_year\": 1931,\n  \"edition\": \"1.-8.Tausend\",\n  \"pages\": 269,\n  \"format_original\": \"OLn\",\n  \"format_expanded\": \"Originalleinen\",\n  \"condition\": \"Sehr gut erhalten\",\n  \"copies\": 1,\n  \"illustrations\": null,\n  \"packaging\": null,\n  \"isbn\": null,\n  \"price\": 25,\n  \"topic\": \"erstausgaben\",\n  \"is_translation\": false,\n  \"original_language\": null,\n  \"translator\": null,\n  \"is_multivolume\": false,\n  \"series_title\": null,\n  \"total_volumes\": null,\n  \"volumes\": [],\n  \"administrative\": {\n    \"source_filename\": null,\n    \"original_entry\": \"NEUMANN, Robert. Das Schiff „Esperance\". Erzählung. Berlin Zsolnay 1931. 1.-8.Tausend 269 S. OLn. Sehr gut erhalten.\",\n    \"parsing_confidence\": \"high\",\n    \"needs_review\": false,\n    \"verification_notes\": null\n  }\n}"
+        "text": "BERLIN. Die Reichshauptstadt. Berlin Verlag Ludwig Simon (1936) 63 S. Ein Fotoband. Dreisprachig. OLn.m.OU.",
+        "price": 20,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
     },
     {
-        "source_file": "batch_signierte_7-10.json",
-        "custom_id": "signierte_150_7_10",
-        "error": "JSON parsing failed: Expecting ',' delimiter: line 31 column 200 (char 1119)",
-        "raw_response": "{\n    \"identifier\": null,\n    \"title\": \"Das Herzzerreißende der Dinge\",\n    \"subtitle\": null,\n    \"authors\": [{\"display_name\": \"MAYRÖCKER, Friederike\", \"family_name\": \"Mayröcker\", \"given_names\": \"Friederike\", \"name_particles\": null, \"single_name\": null}],\n    \"editors\": [],\n    \"contributors\": [],\n    \"publisher\": \"Suhrkamp\",\n    \"place_of_publication\": \"Frankfurt\",\n    \"publication_year\": 1985,\n    \"edition\": \"EA\",\n    \"pages\": 164,\n    \"format_original\": \"OBrosch\",\n    \"format_expanded\": \"Originalbroschur\",\n    \"condition\": null,\n    \"copies\": 1,\n    \"illustrations\": null,\n    \"packaging\": null,\n    \"isbn\": null,\n    \"price\": null,\n    \"topic\": \"SIGNIERTE EXEMPLARE\",\n    \"is_translation\": false,\n    \"original_language\": null,\n    \"translator\": null,\n    \"is_multivolume\": false,\n    \"series_title\": null,\n    \"total_volumes\": null,\n    \"volumes\": [],\n    \"administrative\": {\n        \"source_filename\": null,\n        \"original_entry\": \"MAYRÖCKER, Friederike. Das Herzzerreißende der Dinge. Frankfurt Suhrkamp 1985. 164 S. OBrosch. EA. Mit Widmung der Autorin „für Rüdiger Wischenbart-sehr herzlich Mayröcker\".\",\n        \"parsing_confidence\": \"high\",\n        \"needs_review\": false,\n        \"verification_notes\": null\n    }\n}"
+        "text": "BERNEY, Arnold. König Friedrich I. und das Haus Habsburg (1701-1707). München Oldenbourg 1927. XI, 284 S. OBrosch. Mit einer Bauchbinde.",
+        "price": 40,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
     },
     {
-        "source_file": "batch_erstausgaben3_76-79.json",
-        "custom_id": "erstausgaben3_1875_76_79",
-        "error": "JSON parsing failed: Expecting ',' delimiter: line 31 column 65 (char 993)",
-        "raw_response": "{\n    \"identifier\": null,\n    \"title\": \"Das Salz, bitte!\",\n    \"subtitle\": \"Ehegeschichten\",\n    \"authors\": [{\"display_name\": \"WOHMANN, Gabriele\", \"family_name\": \"Wohmann\", \"given_names\": \"Gabriele\", \"name_particles\": null, \"single_name\": null}],\n    \"editors\": [],\n    \"contributors\": [],\n    \"publisher\": \"Piper\",\n    \"place_of_publication\": \"München\",\n    \"publication_year\": 1992,\n    \"edition\": null,\n    \"pages\": 296,\n    \"format_original\": \"OLn.m.OU\",\n    \"format_expanded\": \"Originalleinen mit Originalumschlag\",\n    \"condition\": \"Neuwertig\",\n    \"copies\": null,\n    \"illustrations\": null,\n    \"packaging\": null,\n    \"isbn\": null,\n    \"price\": null,\n    \"topic\": \"erstausgaben\",\n    \"is_translation\": false,\n    \"original_language\": null,\n    \"translator\": null,\n    \"is_multivolume\": false,\n    \"series_title\": null,\n    \"total_volumes\": null,\n    \"volumes\": [],\n    \"administrative\": {\n        \"source_filename\": null,\n        \"original_entry\": \"WOHMANN, Gabriele. „Das Salz, bitte!\". Ehegeschichten. München Piper 1992. 296 S. OLn.m.OU. Neuwertig.\",\n        \"parsing_confidence\": \"high\",\n        \"needs_review\": false,\n        \"verification_notes\": null\n    }\n}"
+        "text": "BERNHARD, Marianne. Die Silberstraße und ihre Geschichte. Mit zahlr. Abb. Leipzig Sachsenbuch 1992. OPbd. Gr.4°.",
+        "price": 30,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
     },
     {
-        "source_file": "batch_biographien_23-27.json",
-        "custom_id": "biographien_554_23_27",
-        "error": "JSON parsing failed: Expecting ',' delimiter: line 3 column 65 (char 90)",
-        "raw_response": "{\n    \"identifier\": null,\n    \"title\": \"Kienzl-Rosegger. Wilhelm Kienzl „Lebenswanderung\" und sein Briefwechsel mit Peter Rosegger\",\n    \"subtitle\": \"Eigeleitet und kommentiert, nebst einem Namen-, Brief- und vollständigen Werkverzeichnis\",\n    \"authors\": [{\"display_name\": \"SITTNER, Hans\", \"family_name\": \"Sittner\", \"given_names\": \"Hans\", \"name_particles\": null, \"single_name\": null}],\n    \"editors\": [],\n    \"contributors\": [],\n    \"publisher\": \"Amalthea\",\n    \"place_of_publication\": \"Zürich\",\n    \"publication_year\": 1953,\n    \"edition\": null,\n    \"pages\": 477,\n    \"format_original\": \"OLn\",\n    \"format_expanded\": \"Originalleinen\",\n    \"condition\": null,\n    \"copies\": null,\n    \"illustrations\": \"Mit 44 Abbildungen und Textillustrationen sowie 16 Vignetten\",\n    \"packaging\": null,\n    \"isbn\": null,\n    \"price\": null,\n    \"topic\": \"BIOGRAPHIEN\",\n    \"is_translation\": false,\n    \"original_language\": null,\n    \"translator\": null,\n    \"is_multivolume\": false,\n    \"series_title\": null,\n    \"total_volumes\": null,\n    \"volumes\": [],\n    \"administrative\": {\n        \"source_filename\": null,\n        \"original_entry\": \"SITTNER, Hans. Kienzl-Rosegger. Wilhelm Kienzl „Lebenswanderung\" und sein Briefwechsel mit Peter Rosegger. Eigeleitet und kommentiert, nebst einem Namen-, Brief- und vollständigen Werkverzeichnis. Mit 44 Abbildungen und Textillustrationen sowie 16 Vignetten. Zürich Amalthea 1953. 477 S. OLn.\",\n        \"parsing_confidence\": \"high\",\n        \"needs_review\": false,\n        \"verification_notes\": null\n    }\n}"
+        "text": "BETTLER UND GAUKLER, DIRNEN UND HENKER. Außenseiter in einer mittelalterlichen Stadt. Köln 1300 – 1600. von Franz Irsigler und Arnold Lassotta. DTV München 1989. Mit 68 Abbildungen. 320 S.",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
     },
     {
-        "source_file": "batch_christentum_2-6.json",
-        "custom_id": "christentum_47_2_6",
-        "error": "JSON parsing failed: Expecting ',' delimiter: line 4 column 96 (char 178)",
-        "raw_response": "{\n    \"identifier\": null,\n    \"title\": \"Die Politik der Päpste im 20.Jahrhundert\",\n    \"subtitle\": \"Erweiterte und aktualisierte Neuausgabe von „Ein Jahrhundert Heilsgeschichte\" I und II\",\n    \"authors\": [{\"display_name\": \"DESCHNER, Karlheinz\", \"family_name\": \"Deschner\", \"given_names\": \"Karlheinz\", \"name_particles\": null, \"single_name\": null}],\n    \"editors\": [],\n    \"contributors\": [],\n    \"publisher\": \"Rowohlt\",\n    \"place_of_publication\": \"Reinbek\",\n    \"publication_year\": 1991,\n    \"edition\": \"1. Auflage der Neuausgabe\",\n    \"pages\": 731,\n    \"format_original\": \"OPbd.m.OU\",\n    \"format_expanded\": \"Originalpappband mit Originalumschlag\",\n    \"condition\": \"Verlagsfrisch\",\n    \"copies\": 1,\n    \"illustrations\": null,\n    \"packaging\": \"und Lesebändchen\",\n    \"isbn\": null,\n    \"price\": 40,\n    \"topic\": \"CHRISTENTUM\",\n    \"is_translation\": false,\n    \"original_language\": null,\n    \"translator\": null,\n    \"is_multivolume\": false,\n    \"series_title\": null,\n    \"total_volumes\": null,\n    \"volumes\": [],\n    \"administrative\": {\n        \"source_filename\": null,\n        \"original_entry\": \"DESCHNER, Karlheinz. Die Politik der Päpste im 20.Jahrhundert. Erweiterte und aktualisierte Neuausgabe von „Ein Jahrhundert Heilsgeschichte\" I und II. Reinbek Rowohlt 1991. 1. Auflage der Neuausgabe. 731 S. OPbd.m.OU und Lesebändchen. Verlagsfrisch\",\n        \"parsing_confidence\": \"high\",\n        \"needs_review\": false,\n        \"verification_notes\": null\n    }\n}"
+        "text": "BLACK, Edwin. IBM und der Holocaust. Die Verstrickung des Weltkonzerns in die Verbrechen der Nazis. A.d.Amerikan. München Propyläen 2001. 704 S. Mit Abb. OPbd.m.OU.",
+        "price": 50,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
+    },
+    {
+        "text": "BLUM, Hans. Die deutsche Revolution 1848-49. Eine Jubiläumsausgabe für das deutsche Volk. 1.-5. Tausend. Mit 256 authentischen Faksimilebeilagen, Karikaturen, Porträts und Illustrationen. Florenz Diederichs 1897. XIV, 480 S. OHLdr. Einband etwas berieben, schönes Ex. 2. Ex. 2. Aufl. wie EA.",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
+    },
+    {
+        "text": "BLUME, Wilhelm. Die Operation der deutschen Heere von der Schlacht bei Sedan bis zum Ende des Krieges. Feldzug 1870 – 71. Mit einer Übersichtskarte und Beilagen. Berlin Mittler 1872. 268 S. Mit einer mehrfach gefalteten Karte. OHLdr. Sehr gut erhalten.",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
+    },
+    {
+        "text": "BÖHME, Helmut. Prolegomena zu einer Sozial- und Wirtschaftsgeschichte Deutschlands im 19. und 20. Jahrhundert. Frankfurt Suhrkamp 1968. 155 S. es EA",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
+    },
+    {
+        "text": "BOOCKMANN, Hartmut. Ostpreußen und Westpreußen. Deutsche Geschichte im Osten Europas. Herausgegeben von …Berlin Siedler Verlag 1992. 479 S. Mit zahlr. Abb. Sonderausgabe. OPbd. Neuwertig.",
+        "price": 20,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
+    },
+    {
+        "text": "BOVERI, Margret. Tage des Überlebens. Berlin 1945. München Piper 1968. 337 S. OLn.m.OU. Mit einem Faksimile einer Postkarte.",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
+    },
+    {
+        "text": "BRANDI, Karl. Reformation und Gegenreformation. Mit einem Vorwort von Dieter Albrecht. Frankfurt Societäts – Verlag. 5. Auflage 1979. 552 S. Mit 8 Bildtafeln Unveränderter Neudruck. OLn.m.Ou. Sehr gut erhalten.",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
+    },
+    {
+        "text": "BRUNOS BUCH VOM SÄCHSISCHEN KRIEGE. Übersetzt von Wilhelm Wattenbach. Herausgegeben von Alexander Heine. Essen und Stuttgart Phaidon Verlag 1986. 238 S. OLn.m.OU und Lesebändchen. Historiker des deutschen Altertums.",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
+    },
+    {
+        "text": "CAESAR – TACITUS. Berichte über Germanen und Germanien. Herausgegeben von Alexander Heine. Essen und Stuttgart Phaidon Verlag 1986. 266 S. OLn.m.OU und Lesebändchen. Historiker des deutschen Altertums.",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
+    },
+    {
+        "text": "CHRONIK FREDEGARDS UND DER FRANKENKÖNIGE. Und die Lebensbeschreibungen des Abtes Columban, der Bischöfe Arnulf, Leodegar und Eligius, der Königin Balthilde. 2.verbesserte Aufl. Essen Phaidon 1986. 234 S. OLn.m.OU. (Historiker des deutschen Altertums)",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
+    },
+    {
+        "text": "CHRONIKEN DES MITTELALTERS. Widukind. Otto von Freising. Helmold. München Winkler 1964. 372 S. A.d.Latein von Ernst Metelmann, mit einer Einführung von Anton Ritthaler, einem Nachwort des Übersetzers und einer Karte. OLn.m.OU. Umschlag etwas berieben, sonst schönes Ex.",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
+    },
+    {
+        "text": "DAHL, Peter. Arbeitersender und Volksempfänger. Proletarische Radio-Bewegung und bürgerlicher Rundfunk bis 1945. Frankfurt Syndikat 1978. 235 S. Mit Abb. OKart.",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
+    },
+    {
+        "text": "DAS BUCH DER SINTI. „…nicht länger stillschweigend das Unrecht hinnehmen!“ Von Jörg Boström, Uschi Dresing, Jürgen Escher und Axel Grünewald. Mit einem Vorwort von Romani Rose. Berlin Elefanten Press Verlag 1981. 191 S. Mit vielen Fotos Folio. OBrosch. Sehr gut erhalten.",
+        "price": 20,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
+    },
+    {
+        "text": "DER DEUTSCHE RENAISSANCE-HUMANISMUS.. Abriss und Auswahl von Winfried Trillitzsch. Leipzig Reclam. 1981. 659 S. OLn.m.OU",
+        "price": null,
+        "topic": "DEUTSCHLAND",
+        "topic_normalised": "deutschland"
     }
 ]
