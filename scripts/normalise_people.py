@@ -33,20 +33,32 @@ def process_people_exact():
             else:
                 people_grouped[name].append(entry)
 
-    with open(grouped_people_file, "w") as f:
-        json.dump(people_grouped, f, ensure_ascii=False, indent=2)
+    people_sorted = sorted(people_grouped.items())
+    dict(people_sorted)
+
+    try:
+        with open(grouped_people_file, "w") as f:
+            json.dump(people_sorted, f, ensure_ascii=False, indent=2)
+
+    except json.JSONDecodeError as e:
+        print(f"something went awry: {e}")
+    # inspect(people_grouped)
 
     total = len(collected_people)
-    grouped = len(people_grouped)
+    grouped = len(people_sorted)
 
     reduction = ((total - grouped) / total ) * 100
 
 
     print(f"Collected people had {len(collected_people)} entries.")
-    print(f"The grouped file currently has {len(people_grouped)} entries.")
+    print(f"The grouped file currently has {len(people_sorted)} entries.")
     print(f"That's a reduction by {reduction:.2f}%, if this math is finally mathing.")
 
-    return people_grouped
+    return people_sorted
     # inspect(people_grouped)
 
-process_people_exact()
+# process_people_exact()
+
+def process_people_fuzzy():
+
+    return
