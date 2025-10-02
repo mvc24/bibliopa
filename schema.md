@@ -50,7 +50,7 @@ CREATE TABLE books (
 people
 
 CREATE TABLE people (
-    person_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    person_id UUID PRIMARY KEY,
     family_name TEXT,
     given_names TEXT,
     display_name TEXT NOT NULL,

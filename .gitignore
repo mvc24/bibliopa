@@ -1,7 +1,7 @@
 .env
 __pycache__/
 *.pyc
-utils/
+zzz_random_shit/
 data/
 scripts/scratch.py
 api/batch_sample.py
