@@ -8,4 +8,4 @@ api/batch_sample.py
 frontend/.env.local
 node_modules/
 .ipynb_checkpoints/
-database/in_progress
+database/in_progress/*.json
