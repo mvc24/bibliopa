@@ -1,0 +1,7 @@
+{
+  "total_entries": 17702,
+  "surname_groups": 7076,
+  "batches_created": 252,
+  "avg_batch_size": 70.24603174603175,
+  "output_directory": "database/in_progress/pass2_batches"
+}

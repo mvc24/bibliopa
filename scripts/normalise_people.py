@@ -88,7 +88,7 @@ def process_people_smart():
     # inspect(people_grouped)
     return people_sorted
 
-process_people_smart()
+# process_people_smart()
 
 def find_wonky_people_entries():
 
