@@ -8,6 +8,9 @@ import unicodedata
 
 def normalise_text(text):
 
+    if text in [None, "null", ""]:
+        return text
+
     text = unicodedata.normalize("NFC", text)
     text = text.lower()
     text = re.sub(r"\s+", " ", text).strip()
