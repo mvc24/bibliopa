@@ -4,7 +4,7 @@ import json
 import unicodedata
 
 def get_topics():
-    topics_dir = Path("data/original/keine preise")
+    topics_dir = Path("data/raw/prepped")
     topics = set()
 
 
