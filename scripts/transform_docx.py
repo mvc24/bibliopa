@@ -94,54 +94,54 @@ def read_entries():
                     text_clean = ' '.join(text_clean.split())
 
                     entries.append({
-                        "text": remove_exclamation,
+                        "text": text_clean,
                         "source": file,
                         "price": find_price,
                         "topic": topic,
                         "topic_normalised": topic_normalised,
                     })
 
-    entries_file = topic_normalised + ".json"
-    entries_path = folder_prepped / entries_file
+        entries_file = topic_normalised + ".json"
+        entries_path = folder_prepped / entries_file
 
-    with open(entries_path, "w") as f:
-        json.dump(entries, f, ensure_ascii=False, indent=2)
+        with open(entries_path, "w") as f:
+            json.dump(entries, f, ensure_ascii=False, indent=2)
 
-    rprint(f"Entries were successfully saved to {entries_file}")
+        rprint(f"Entries were successfully saved to {entries_file}")
 
-    timestamp = datetime.now().strftime("%Y%m%d-%H%M")
-    total_entries = len(entries)
-
-    log_entry = {
-        "timestamp": timestamp,
-        "topic": topic,
-        "entries_created": total_entries,
-        }
-        # normalise normalize("NFC")
-    if not processing_log.exists():
-        raise FileNotFoundError("process_log file missing!")
-    else:
-        with open(processing_log, "r") as f:
-            process_report = json.load(f)
-            process_report.append(log_entry)
-
-        with open(processing_log, "w") as f:
-            json.dump(process_report, f, ensure_ascii=False, indent=2)
-
-    if topic_normalised in ["erstausgaben1", "erstausgaben2"]:
-        return
-    elif topic_normalised == "erstausgaben3":
-        # load json files, combine them into unified records, move on to batching
-        path1 = path / "erstausgaben1.json"
-        path2 = path / "erstausgaben2.json"
-        with open(path1, "r") as f1:
-            erstausgaben1 = json.load(f1)
-        with open(path2, "r") as f2:
-            erstausgaben2 = json.load(f2)
-        ea_combined = erstausgaben1 + erstausgaben2 + entries
-        entries = ea_combined
+        timestamp = datetime.now().strftime("%Y%m%d-%H%M")
         total_entries = len(entries)
-        pass
+
+        log_entry = {
+            "timestamp": timestamp,
+            "topic": topic,
+            "entries_created": total_entries,
+            }
+            # normalise normalize("NFC")
+        if not processing_log.exists():
+            raise FileNotFoundError("process_log file missing!")
+        else:
+            with open(processing_log, "r") as f:
+                process_report = json.load(f)
+                process_report.append(log_entry)
+
+            with open(processing_log, "w") as f:
+                json.dump(process_report, f, ensure_ascii=False, indent=2)
+
+        if topic_normalised in ["erstausgaben1", "erstausgaben2"]:
+            return
+        elif topic_normalised == "erstausgaben3":
+            # load json files, combine them into unified records, move on to batching
+            path1 = path / "erstausgaben1.json"
+            path2 = path / "erstausgaben2.json"
+            with open(path1, "r") as f1:
+                erstausgaben1 = json.load(f1)
+            with open(path2, "r") as f2:
+                erstausgaben2 = json.load(f2)
+            ea_combined = erstausgaben1 + erstausgaben2 + entries
+            entries = ea_combined
+            total_entries = len(entries)
+            pass
 
 read_entries()
 
