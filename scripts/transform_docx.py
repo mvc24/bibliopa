@@ -18,7 +18,8 @@ def get_paths():
     paths = []
     for file in originals_dir.iterdir():
         paths.append(file)
-    # print(paths)
+    paths.sort()
+    # rprint(paths)
     return paths
 
 # get_paths()
@@ -102,9 +103,9 @@ def read_entries():
                     })
 
         entries_file = topic_normalised + ".json"
-        folder_prepped = folder_prepped / entries_file
+        file_path = folder_prepped / entries_file
 
-        with open(folder_prepped, "w") as f:
+        with open(file_path, "w") as f:
             json.dump(entries, f, ensure_ascii=False, indent=2)
 
         rprint(f"Entries were successfully saved to {entries_file}")
@@ -129,7 +130,7 @@ def read_entries():
                 json.dump(process_report, f, ensure_ascii=False, indent=2)
 
         if topic_normalised in ["erstausgaben1", "erstausgaben2"]:
-            return
+            continue
         elif topic_normalised == "erstausgaben3":
             # load json files, combine them into unified records, move on to batching
             path1 = folder_prepped / "erstausgaben1.json"
@@ -144,32 +145,3 @@ def read_entries():
             pass
 
 read_entries()
-
-# Step 1: Read the Word file
-
-# Open the docx file
-# Loop through tables and rows (same as before)
-# Extract the text from each cell
-
-# Step 2: Clean the text during extraction
-
-# Remove the "!" marker if it exists at the start
-# Replace all typographic quotation marks („ " " ") with single quotes (')
-# Normalize whitespace (newlines → spaces, multiple spaces → single)
-
-# Step 3: Extract metadata from the text
-
-# Find and extract price (using your existing regex patterns)
-# Remove the price from the text after extracting it
-# Determine topic from filename (your existing normalization logic)
-
-# Step 4: Store each entry temporarily
-
-# Create a dictionary for each entry with: text, price, topic, topic_normalised
-# Add all entries to a list
-
-# Step 5: Cleanup pass - filter out unwanted entries
-
-# Loop through your list of entries
-# Identify entries that start with "Siehe" or other reference patterns
-# Either remove them or flag them (you need to decide which)
