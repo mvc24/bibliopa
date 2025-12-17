@@ -102,9 +102,9 @@ def read_entries():
                     })
 
         entries_file = topic_normalised + ".json"
-        entries_path = folder_prepped / entries_file
+        folder_prepped = folder_prepped / entries_file
 
-        with open(entries_path, "w") as f:
+        with open(folder_prepped, "w") as f:
             json.dump(entries, f, ensure_ascii=False, indent=2)
 
         rprint(f"Entries were successfully saved to {entries_file}")
@@ -132,8 +132,8 @@ def read_entries():
             return
         elif topic_normalised == "erstausgaben3":
             # load json files, combine them into unified records, move on to batching
-            path1 = entries_path / "erstausgaben1.json"
-            path2 = entries_path / "erstausgaben2.json"
+            path1 = folder_prepped / "erstausgaben1.json"
+            path2 = folder_prepped / "erstausgaben2.json"
             with open(path1, "r") as f1:
                 erstausgaben1 = json.load(f1)
             with open(path2, "r") as f2:
