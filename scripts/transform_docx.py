@@ -132,8 +132,8 @@ def read_entries():
             return
         elif topic_normalised == "erstausgaben3":
             # load json files, combine them into unified records, move on to batching
-            path1 = path / "erstausgaben1.json"
-            path2 = path / "erstausgaben2.json"
+            path1 = entries_path / "erstausgaben1.json"
+            path2 = entries_path / "erstausgaben2.json"
             with open(path1, "r") as f1:
                 erstausgaben1 = json.load(f1)
             with open(path2, "r") as f2:
