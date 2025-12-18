@@ -11,24 +11,62 @@ folder_prepped = Path("data/raw/prepped")
 folder_parsed = Path("data/parsed")
 folder_matched = Path("data/matched")
 
-def match_prepped2parsed():
+def create_lookup():
+    corrupt_log_file = Path("data/logs/corrupt_entries_log.json")
+    cleaned_file = Path("data/processing/cleaned_corrupt_entries.json")
     lookup_dict = {}
-    try:
-        for file in folder_parsed.iterdir():
-            with open(file, "r") as f:
-                entries_parsed = json.load(f)
+
+    with open(corrupt_log_file, "r") as f:
+        corrupt_log = json.load(f)
+
+    with open(cleaned_file, "r") as f:
+        cleaned_entries = json.load(f)
+
+    # Create set of corrupt IDs
+    corrupt_ids = {entry["custom_id"] for entry in corrupt_log}
+
+    # Create lookup dict for cleaned entries
+    cleaned_dict = {entry["custom_id"]: entry for entry in cleaned_entries}
+
+    for file in folder_parsed.iterdir():
+
+        with open(file, "r") as f:
+            entries_parsed = json.load(f)
 
             for entry in entries_parsed:
+
+                if entry["custom_id"] in corrupt_ids:
+                    entry = cleaned_dict[entry["custom_id"]]
+
+                if "parsed_entry" in entry and isinstance(entry["parsed_entry"], list):
+                    entry["parsed_entry"] = entry["parsed_entry"][0]
+
+                if "error" in entry or "parsed_entry" not in entry:
+                    if entry["custom_id"] not in corrupt_ids:
+                        rprint(f"ERROR: Unexpected error in {entry["custom_id"]}")
+                    continue
+
+                # DEBUG: Print what we're about to process
+                # rprint(f"\nProcessing ID: {entry['custom_id']}")
+                # rprint(f"Has 'parsed_entry'? {'parsed_entry' in entry}")
+                # rprint(f"Type of entry['parsed_entry']: {type(entry['parsed_entry'])}")
+
+
                 key = normalise_text(entry["parsed_entry"]["administrative"]["original_entry"])
+
                 lookup_dict[key] = entry
-                lookup_dict.update({key: entry for entry in entries_parsed})
+                # lookup_dict.update({key: entry for entry in entries_parsed})
 
-        print(f"Number of entries in parsed file: {len(entries_parsed)}")
-        print(f"Number of entries in lookup_dict: {len(lookup_dict)}")
+    # rprint(f"Number of entries in parsed file: {len(entries_parsed)}")
+    # rprint(f"Number of entries in lookup_dict: {len(lookup_dict)}")
+    return lookup_dict
 
-    except json.JSONDecodeError as e:
-        rprint(f"Something went wrong: {e}")
 
+# create_lookup()
+
+def match_prepped2parsed():
+    lookup_dict = create_lookup()
+    i = 0
     for file in folder_prepped.iterdir():
         if not file.exists():
             raise FileNotFoundError(f"{file} doesn't exist")
@@ -37,6 +75,7 @@ def match_prepped2parsed():
             entries = json.load(f)
             matched_count = 0
             unmatched_count = 0
+            i+=1
 
         matched_entries = {}
         unmatched_entries = []
@@ -95,11 +134,14 @@ def match_prepped2parsed():
         with open(unmatched_file, "r") as f:
             unmatched_list = json.load(f)
             unmatched_list.extend(unmatched_entries)
+            unmatched_total = len(unmatched_list)
         with open (unmatched_file, "w") as f:
             json.dump(unmatched_list, f, ensure_ascii=False, indent=2)
 
-    rprint(f"\n=== RESULTS ===")
-    rprint(f"{file.name} has {total_entries} entries. {matched_count} were matched, {unmatched_count} remain.")
+        rprint(f"\n=== RESULTS ===")
+        rprint(f"{file.name} has {total_entries} entries. {matched_count} were matched, {unmatched_count} remain.")
+    rprint(f"{i} files have been processed.")
+    rprint(f"There is a total of {unmatched_total} entries.")
 
 
 match_prepped2parsed()
