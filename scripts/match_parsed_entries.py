@@ -9,6 +9,7 @@ from progress import progress
 
 folder_prepped = Path("data/raw/prepped")
 folder_parsed = Path("data/parsed")
+folder_matched = Path("data/matched")
 
 def match_prepped2parsed():
     lookup_dict = {}
@@ -37,9 +38,13 @@ def match_prepped2parsed():
             matched_count = 0
             unmatched_count = 0
 
+        matched_entries = {}
+        unmatched_entries = []
+
         for entry in entries:
 
             text = entry["text"]
+            total_entries = len(entries)
             if text.startswith("AUS!"):
                 # rprint("Found one!")
                 continue
@@ -50,16 +55,51 @@ def match_prepped2parsed():
 
             if text_norm in lookup_dict:
                 matched_count += 1
-                # parsed_entry = lookup_dict[text]
-                # parsed_topic = parsed_entry["parsed_entry"]["topic"]
-                # parsed_price = parsed_entry["parsed_entry"]["price"]
+            # GET entry
+                parsed_entry = lookup_dict[text_norm]
+            # Extract values for comparison
+
+                parsed_id = parsed_entry["custom_id"]
+                parsed_topic = parsed_entry["parsed_entry"]["topic"]
+                parsed_price = parsed_entry["parsed_entry"]["price"]
+
+                if topic == parsed_topic:
+                    topic_changed = 0
+                else:
+                    topic_changed = 1
+                    parsed_entry["parsed_entry"]["topic"] = topic
+
+                if price == parsed_price:
+                    price_changed = 0
+                else:
+                    price_changed = 1
+                    parsed_entry["parsed_entry"]["price"] = price
+
+                    parsed_entry["parsed_entry"]["administrative"]["topic_changed"] = topic_changed
+                    parsed_entry["parsed_entry"]["administrative"]["price_changed"] = price_changed
+
+            # Store the modified version
+                matched_entries[parsed_id] = parsed_entry
 
             else:
                 unmatched_count += 1
+                unmatched_entries.append(entry)
+
+    # write results to files
+        matched_path = folder_matched / file.name
+
+        with open(matched_path, "w") as f:
+            json.dump(matched_entries, f, ensure_ascii=False, indent=2)
+
+        unmatched_file = Path("data/processing/unmatched_entries.json")
+        with open(unmatched_file, "r") as f:
+            unmatched_list = json.load(f)
+            unmatched_list.extend(unmatched_entries)
+        with open (unmatched_file, "w") as f:
+            json.dump(unmatched_list, f, ensure_ascii=False, indent=2)
 
     rprint(f"\n=== RESULTS ===")
-    rprint(f"Matches found: {matched_count}")
-    rprint(f"No matches found: {unmatched_count}")
+    rprint(f"{file.name} has {total_entries} entries. {matched_count} were matched, {unmatched_count} remain.")
 
 
 match_prepped2parsed()
