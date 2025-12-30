@@ -13,3 +13,5 @@ database/in_progress/pass2_results
 database/in_progress/pass2_batches
 database/in_progress/pass1_results
 database/in_progress/pass1_batches
+.venv
+.next/
