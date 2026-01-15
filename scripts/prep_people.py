@@ -4,7 +4,6 @@ import sys
 from pathlib import Path
 from itertools import islice
 from rich import print, inspect
-from sqlalchemy import false
 
 people_file = Path("database/in_progress/people_prepped.json")
 
