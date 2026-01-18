@@ -114,8 +114,8 @@ def match_prepped2parsed():
                     price_changed = 1
                     parsed_entry["parsed_entry"]["price"] = price
 
-                    parsed_entry["parsed_entry"]["administrative"]["topic_changed"] = topic_changed
-                    parsed_entry["parsed_entry"]["administrative"]["price_changed"] = price_changed
+                parsed_entry["parsed_entry"]["administrative"]["topic_changed"] = topic_changed
+                parsed_entry["parsed_entry"]["administrative"]["price_changed"] = price_changed
 
             # Store the modified version
                 matched_entries[parsed_id] = parsed_entry
