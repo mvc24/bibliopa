@@ -1,0 +1,85 @@
+{
+    "composite_id": {
+        "topics": {
+            "topic_id": "SERIAL PRIMARY KEY",
+            "topic_name": "TEXT NOT NULL UNIQUE"
+        },
+        "books": {
+            "book_id": "SERIAL PRIMARY KEY",
+            "composite_id": "TEXT UNIQUE",
+            "title": "TEXT NOT NULL",
+            "subtitle": "TEXT",
+            "publisher": "TEXT",
+            "place_of_publication": "TEXT",
+            "publication_year": "INTEGER",
+            "edition": "TEXT",
+            "pages": "INTEGER",
+            "isbn": "TEXT",
+            "format_original": "TEXT",
+            "format_expanded": "TEXT",
+            "condition": "TEXT",
+            "copies": "INTEGER",
+            "illustrations": "TEXT",
+            "packaging": "TEXT",
+            "topic_id": "INTEGER REFERENCES topics(topic_id)",
+            "is_translation": "BOOLEAN DEFAULT FALSE",
+            "original_language": "TEXT",
+            "is_multivolume": "BOOLEAN DEFAULT FALSE",
+            "series_title": "TEXT",
+            "total_volumes": "INTEGER"
+        },
+        "people": {
+            "person_id": "SERIAL PRIMARY KEY",
+            "unified_id": "TEXT UNIQUE",
+            "family_name": "TEXT",
+            "given_names": "TEXT",
+            "name_particles": "TEXT",
+            "single_name": "TEXT",
+            "is_organisation": "BOOLEAN DEFAULT FALSE"
+        },
+        "books2people": {
+            "book_id": "INTEGER NOT NULL REFERENCES books(book_id) ON DELETE CASCADE",
+            "composite_id": "TEXT REFERENCES books(composite_id) ON DELETE CASCADE",
+            "person_id": "INTEGER NOT NULL REFERENCES people(person_id) ON DELETE CASCADE",
+            "unified_id": "TEXT REFERENCES people(unified_id) ON DELETE CASCADE",
+            "display_name": "TEXT",
+            "family_name": "TEXT",
+            "given_names": "TEXT",
+            "name_particles": "TEXT",
+            "single_name": "TEXT",
+            "sort_order": "INTEGER",
+            "is_author": "BOOLEAN DEFAULT FALSE",
+            "is_editor": "BOOLEAN DEFAULT FALSE",
+            "is_contributor": "BOOLEAN DEFAULT FALSE",
+            "is_translator": "BOOLEAN DEFAULT FALSE"
+        },
+        "books2volumes": {
+            "volume_id": "SERIAL PRIMARY KEY",
+            "book_id": "INTEGER NOT NULL REFERENCES books(book_id) ON DELETE CASCADE",
+            "volume_number": "INTEGER",
+            "volume_title": "TEXT",
+            "pages": "INTEGER",
+            "notes": "TEXT"
+        },
+        "prices": {
+            "price_id": "SERIAL PRIMARY KEY",
+            "book_id": "INTEGER NOT NULL REFERENCES books(book_id) ON DELETE CASCADE",
+            "amount": "INTEGER",
+            "imported_price": "BOOLEAN NOT NULL DEFAULT FALSE",
+            "source": "TEXT"
+        },
+        "book_admin": {
+            "book_id": "INTEGER PRIMARY KEY REFERENCES books(book_id) ON DELETE CASCADE",
+            "composite_id": "TEXT REFERENCES books(composite_id) ON DELETE CASCADE",
+            "source_filename": "TEXT NOT NULL",
+            "original_entry": "TEXT NOT NULL",
+            "parsing_confidence": "TEXT",
+            "needs_review": "BOOLEAN DEFAULT FALSE",
+            "verification_notes": "TEXT",
+            "topic_changed": "BOOLEAN DEFAULT FALSE",
+            "price_changed": "BOOLEAN DEFAULT FALSE",
+            "batch_id": "TEXT"
+        },
+        "status": {}
+    }
+}

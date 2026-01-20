@@ -125,6 +125,11 @@ def prepare_entries(filename):
                     })
 
             # prices
+            # THE PRICE CHANGE FLAG NEEDS TO BE ADDED HERE, or actually not really, because I don't have the previous price.
+            # change variable:
+            # if "price"
+            # imported_price = True
+
             if entry["parsed_entry"]["price"]:
                 is_original = True
             else:
@@ -137,6 +142,7 @@ def prepare_entries(filename):
                 "amount": entry["parsed_entry"]["price"],
             })
 
+            # price & topic change flags: change from 0/1 to BOOL!
             # admin data
             verification_notes = entry["parsed_entry"]["administrative"].get("verification_notes", "")
             books_admin_data.append({
