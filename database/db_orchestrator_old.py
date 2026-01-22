@@ -7,10 +7,10 @@ from database.load_entries_old import prepare_entries, load_entries
 
 
 log_file = Path("data/logs/data_loading_log.json")
-folder_path = Path("data/validated")
+folder_path = Path("data/parsed")
 
 def get_parsed_files():
-    parsed_dir = Path("data/validated")
+    parsed_dir = Path("data/parsed")
     parsed_files = set()
 
     if not parsed_dir.exists():

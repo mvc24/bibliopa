@@ -3,8 +3,9 @@ from pprint import pp
 import json
 import unicodedata
 
+topics_dir = Path("data/raw/original")
+
 def get_topics():
-    topics_dir = Path("data/raw/validated")
     topics = set()
 
 
@@ -19,12 +20,14 @@ def get_topics():
             topic = "ERSTAUSGABEN"
         elif topic == "ERSTAUSGABEN N - Z":
             topic = "ERSTAUSGABEN"
+        elif topic == "BIOGRAPHIE1":
+            topic = "BIOGRAPHIE"
 
-        topics.add(topic)
-    # pp(unique_topics)
+        topics.add(topic.title())
+    #print(topics)   # pp(unique_topics)
     return topics
 
-# get_topics()
+get_topics()
 
 
 # def get_topics():
