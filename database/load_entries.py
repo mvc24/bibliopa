@@ -18,18 +18,17 @@ from scripts.text_matching import normalise_text
 
 file_path = Path("data/validated")
 review_entries_file = Path("data/logs/review_entries_log.json")
-
+prepped4load_folder = Path("data/prepped4load")
 
 def prepare_entries(filename):
     topics = load_topics()
     topic_lookup = {normalise_text((topic["topic_name"])): topic["topic_id"] for topic in topics}
+    people_dict = load_people()[1]
 
     full_file_path = Path(file_path / filename)
     books_data = []
-    books2people_data = []
-    prices_data = []
-    books2volumes_data = []
-    books_admin_data = []
+
+    prepped4loading_data = {}
 
     processing_done = False
     loading_done = False
@@ -51,6 +50,11 @@ def prepare_entries(filename):
         entries_for_review = []
 
         for composite_id, entry in entries.items():
+            books2people_data = []
+            prices_data = []
+            books2volumes_data = []
+            books_admin_data = []
+
             books2people = entry["books2people"]
             needs_review = entry["admin"]["needs_review"]
             title = entry["books"]["title"]
@@ -71,6 +75,7 @@ def prepare_entries(filename):
             is_translation = entry["books"]["is_translation"]
             original_language = entry["books"]["original_language"]
             is_multivolume = entry["books"]["is_multivolume"]
+            volumes = entry["books"]["volumes"]
             series_title = entry["books"]["series_title"]
             total_volumes = entry["books"]["total_volumes"]
             source_filename = entry["admin"]["source_filename"]
@@ -79,6 +84,7 @@ def prepare_entries(filename):
             verification_notes = entry["admin"]["verification_notes"]
             topic_changed = entry["admin"]["topic_changed"]
             price_changed = entry["admin"]["price_changed"]
+            amount = entry["books"]["price"]
 
             if needs_review:
                 entries_for_review.append(entry)
@@ -114,13 +120,38 @@ def prepare_entries(filename):
                 "total_volumes": total_volumes
             })
 
-
-
             # admin
+            books_admin_data.append({
+                "book_id": None,
+                "composite_id": composite_id,
+                "source_filename": source_filename,
+                "original_entry": original_entry,
+                "parsing_confidence": parsing_confidence,
+                "needs_review": needs_review,
+                "verification_notes": verification_notes,
+                "topic_changed": topic_changed,
+                "price_changed": price_changed
+            })
 
+            # books2volumes
+            if is_multivolume:
+                for volume in volumes:
+                    volume_number = volume["volume_number"]
+                    volume_title = volume["volume_title"]
+                    pages = volume["pages"]
+                    notes = volume["notes"]
+                    books2volumes_data.append({
+                        "book_id": None,
+                        "composite_id": composite_id,
+                        "volume_number": volume_number,
+                        "volume_title": volume_title,
+                        "pages": pages,
+                        "notes": notes,
+                    })
 
             # books2people
             for person in books2people:
+                unified_id = person["unified_id"]
                 display_name = person["display_name"]
                 family_name = person["family_name"]
                 given_names = person["given_names"]
@@ -132,8 +163,53 @@ def prepare_entries(filename):
                 is_contributor = person["is_contributor"]
                 is_translator = person["is_translator"]
 
+                person_id = people_dict.get(unified_id)
 
+                books2people_data.append({
+                    "book_id": None,
+                    "composite_id": composite_id,
+                    "person_id": person_id,
+                    "unified_id": unified_id,
+                    "display_name": display_name,
+                    "family_name": family_name,
+                    "given_names": given_names,
+                    "name_particles": name_particles,
+                    "single_name": single_name,
+                    "sort_order": sort_order,
+                    "is_author": is_author,
+                    "is_editor": is_editor,
+                    "is_contributor": is_contributor,
+                    "is_translator": is_translator,
+                })
 
+            # prices
+            imported_price = False
+            if price_changed == 1:
+                imported_price = True
+            prices_data.append({
+                "book_id": None,
+                "composite_id": composite_id,
+                "amount": amount,
+                "imported_price": imported_price
+            })
+
+            prepped4loading_data[composite_id] = {
+                "books2people": books2people_data,
+                "books2volumes": books2volumes_data,
+                "admin": books_admin_data,
+                "prices": prices_data
+            }
+
+        prepped_files_path = prepped4load_folder / filename + ".json"
+
+        with open(prepped_files_path, "w") as f:
+            json.dump(prepped4loading_data, f, ensure_ascii=False, indent=2)
+
+        review_count = len(entries_for_review)
+        if review_count > 0:
+            with open(review_entries_file, "r") as f:
+                existing_review_entries = json.load(f)
+                existing_review_entries.extend(entries_for_review)
 
     except FileNotFoundError:
         success = False
@@ -150,5 +226,18 @@ def prepare_entries(filename):
         critical_error = True
         error_message = f"Unexpected error: {str(e)}"
 
+    status = {
+        "success": success,
+        "critical_error": critical_error,
+        "error_message": error_message,
+        "filename": filename,
+        "processing_done": processing_done,
+        "loading_done": loading_done,
+        "entry_count": entry_count,
+        "data": {
+            "books": books_data
+        },
+        "timestamp": str(datetime.now())
+    }
 
-    return
+    return status
