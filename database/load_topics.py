@@ -9,13 +9,13 @@ topics_data = []
 
 def load_topics():
     topics = get_topics()
-    print(topics)
+    # print(topics)
     for topic_id, topic in enumerate(topics, start=1):
         topics_data.append({
             "topic_id": topic_id,
             "topic_name": topic
         })
-    pp(topics_data)
+  #  pp(topics_data)
 
-    # return topics_data
-load_topics()
+    return topics_data
+# load_topics()

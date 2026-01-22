@@ -27,7 +27,7 @@ def get_topics():
     #print(topics)   # pp(unique_topics)
     return topics
 
-get_topics()
+#get_topics()
 
 
 # def get_topics():

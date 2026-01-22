@@ -1,19 +1,28 @@
 from rich import print as rprint
 from rich import inspect
 import json
-import re
+import sys
 from datetime import datetime
 from pathlib import Path
 import json
 import unicodedata
 from connection import get_db_connection
 from psycopg2 import sql
+sys.path.append(str(Path(__file__).parent.parent))
+
+from database import load_topics
+from database.load_topics import get_topics
+from database.load_people import load_people
+from scripts.text_matching import normalise_text
+
 
 file_path = Path("data/validated")
 review_entries_file = Path("data/logs/review_entries_log.json")
 
 
 def prepare_entries(filename):
+    topics = load_topics()
+    topic_lookup = {normalise_text((topic["topic_name"])): topic["topic_id"] for topic in topics}
 
     full_file_path = Path(file_path / filename)
     books_data = []
@@ -75,19 +84,53 @@ def prepare_entries(filename):
                 entries_for_review.append(entry)
                 continue
 
+            # books
+
+            # get topic id
+            topic_normalised = normalise_text(topic)
+            topic_id = topic_lookup.get(topic_normalised)
+
+            books_data.append({
+                "composite_id": composite_id,
+                "title": title,
+                "subtitle": subtitle,
+                "publisher": publisher,
+                "place_of_publication": place_of_publication,
+                "publication_year": publication_year,
+                "edition": edition,
+                "pages": pages,
+                "isbn": isbn,
+                "format_original": format_original,
+                "format_expanded": format_expanded,
+                "condition": condition,
+                "copies": copies,
+                "illustrations": illustrations,
+                "packaging": packaging,
+                "topic_id": topic_id,
+                "is_translation": is_translation,
+                "original_language": original_language,
+                "is_multivolume": is_multivolume,
+                "series_title": series_title,
+                "total_volumes": total_volumes
+            })
 
 
-                for person in books2people:
-                    display_name = person["display_name"]
-                    family_name = person["family_name"]
-                    given_names = person["given_names"]
-                    name_particles = person["name_particles"]
-                    single_name = person["single_name"]
-                    sort_order = person["sort_order"]
-                    is_author = person["is_author"]
-                    is_editor = person["is_editor"]
-                    is_contributor = person["is_contributor"]
-                    is_translator = person["is_translator"]
+
+            # admin
+
+
+            # books2people
+            for person in books2people:
+                display_name = person["display_name"]
+                family_name = person["family_name"]
+                given_names = person["given_names"]
+                name_particles = person["name_particles"]
+                single_name = person["single_name"]
+                sort_order = person["sort_order"]
+                is_author = person["is_author"]
+                is_editor = person["is_editor"]
+                is_contributor = person["is_contributor"]
+                is_translator = person["is_translator"]
 
 
 
