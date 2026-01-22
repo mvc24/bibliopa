@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from rich import rprint as print
+from rich import print
 from collections import defaultdict
 
 people_records_prepped_file = Path("data/people/people_records_prepped.json")
@@ -29,11 +29,10 @@ def validate_data():
 
     people_dict = {person["unified_id"]: person for person in people_records}
 
-    # all failed entries will be collected, grouped by file name. They will be separated between "not_found" for those where the composite_id doesn't appear in the lookup dict, and those where the expected total and counted total of people don't match OR have an "oops" unified_id will be in "issues". There I'll save the full entry + the
+    # all failed entries will be collected, grouped by file name. They will be separated between "not_found" for those where the composite_id doesn't appear in the lookup dict, and those where the expected total and counted total of people don't match OR have an "oops" unified_id will be in "issues".
     # All validated entries will be collected in the report, grouped by file. If there is a mismatch between expected and actual roles, the entire entry will be stored, together with a report. If there are no issues, only the composite_id will be stored.
 
     processed_file_count = 0
-    validated_entries_total = 0
     failed_entries_total = 0
 
     failed_entries = {}
