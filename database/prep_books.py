@@ -17,6 +17,7 @@ review_entries_file = Path("data/logs/review_entries_log.json")
 prepped4load_folder = Path("data/prepped4load")
 
 review_entries_file = Path("data/logs/review_entries_log.json")
+book_data_file = Path("data/book_data4loading.json")
 
 def prepapre_books4loading():
     topics = load_topics()
@@ -25,7 +26,7 @@ def prepapre_books4loading():
 
     entries_for_review = []
 
-    books_data = []
+    books_data_dict = {}
 
     for file in folder_validated.iterdir():
 
@@ -85,7 +86,7 @@ def prepapre_books4loading():
             topic_normalised = normalise_text(topic)
             topic_id = topic_lookup.get(topic_normalised)
 
-            books_data.append({
+            books_data_dict[composite_id] = {
                 "composite_id": composite_id,
                 "title": title,
                 "subtitle": subtitle,
@@ -107,7 +108,7 @@ def prepapre_books4loading():
                 "is_multivolume": is_multivolume,
                 "series_title": series_title,
                 "total_volumes": total_volumes
-            })
+            }
 
             # admin
 
@@ -202,6 +203,10 @@ def prepapre_books4loading():
                 existing_review_entries.extend(entries_for_review)
 
         rprint(f"Successfully saved {len(entries)} entries to {file.name}")
+    books_data = list(books_data_dict.values())
+
+    with open(book_data_file, "w") as f:
+        json.dump(books_data, f, ensure_ascii=False, indent=2)
 
     return books_data
 
