@@ -59,15 +59,15 @@ BOOKS2VOLUMES_SCHEMA = {
     "volume_number": "INTEGER",
     "volume_title": "TEXT",
     "pages": "INTEGER",
-    "notes": "TEXT",
-    "UNIQUE": "(book_id, volume_number)"
+    "notes": "TEXT"
 }
 
 BOOKS2PEOPLE_SCHEMA = {
+    "b2p_id": "SERIAL PRIMARY KEY",
     "book_id": "INTEGER NOT NULL REFERENCES books(book_id) ON DELETE CASCADE",
-    "composite_id": "TEXT REFERENCES books(composite_id) ON DELETE CASCADE",
+    "composite_id": "TEXT NOT NULL",
     "person_id": "INTEGER NOT NULL REFERENCES people(person_id) ON DELETE CASCADE",
-    "unified_id": "TEXT REFERENCES people(unified_id) ON DELETE CASCADE",
+    "unified_id": "TEXT NOT NULL",
     "display_name": "TEXT",
     "family_name": "TEXT",
     "given_names": "TEXT",
@@ -79,14 +79,12 @@ BOOKS2PEOPLE_SCHEMA = {
     "is_contributor": "BOOLEAN DEFAULT FALSE",
     "is_translator": "BOOLEAN DEFAULT FALSE",
     "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
-    "updated_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
-    "PRIMARY KEY": "(book_id, person_id)"
+    "updated_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
 }
 
 BOOK_ADMIN_SCHEMA = {
     "book_id": "INTEGER PRIMARY KEY REFERENCES books(book_id) ON DELETE CASCADE",
     "composite_id": "TEXT REFERENCES books(composite_id) ON DELETE CASCADE",
-    "source_filename": "TEXT NOT NULL",
     "original_entry": "TEXT NOT NULL",
     "parsing_confidence": "TEXT",
     "needs_review": "BOOLEAN DEFAULT FALSE",

@@ -208,14 +208,9 @@ def prepare_books4loading():
         json.dump(entries_for_review, f, ensure_ascii=False, indent=2)
 
     review_count = len(entries_for_review)
-    # if review_count > 0:
-    #     with open(review_entries_file, "r") as f:
-    #         existing_review_entries = json.load(f)
-    #         existing_review_entries.append(entries_for_review)
-    #     with open(review_entries_file, "w") as f:
-    #         json.dump(existing_review_entries, f, ensure_ascii=False, indent=2)
+
     print(f"{review_count} entries need review")
 
     return books_data
 
-prepare_books4loading()
+#prepare_books4loading()
