@@ -15,21 +15,18 @@ from scripts.text_matching import normalise_text
 folder_validated = Path("data/validated")
 review_entries_file = Path("data/logs/review_entries_log.json")
 prepped4load_folder = Path("data/prepped4load")
-
-review_entries_file = Path("data/logs/review_entries_log.json")
 book_data_file = Path("data/book_data4loading.json")
 
-def prepapre_books4loading():
+def prepare_books4loading():
     topics = load_topics()
     topic_lookup = {normalise_text((topic["topic_name"])): topic["topic_id"] for topic in topics}
     people_dict = load_people()[1]
 
-    entries_for_review = []
 
     books_data_dict = {}
+    entries_for_review = {}
 
     for file in folder_validated.iterdir():
-
 
         prepped4loading_data = {}
 
@@ -77,11 +74,11 @@ def prepapre_books4loading():
             amount = entry["books"]["price"]
 
             if not title:
-                entries_for_review.append(entry)
+                entries_for_review[composite_id] = entry
                 continue
 
             if needs_review:
-                entries_for_review.append(entry)
+                entries_for_review[composite_id] = entry
                 continue
 
             # books
@@ -200,11 +197,6 @@ def prepapre_books4loading():
         with open(prepped_files_path, "w") as f:
             json.dump(prepped4loading_data, f, ensure_ascii=False, indent=2)
 
-        review_count = len(entries_for_review)
-        if review_count > 0:
-            with open(review_entries_file, "r") as f:
-                existing_review_entries = json.load(f)
-                existing_review_entries.extend(entries_for_review)
 
         rprint(f"Successfully saved {len(entries)} entries to {file.name}")
     books_data = list(books_data_dict.values())
@@ -212,6 +204,18 @@ def prepapre_books4loading():
     with open(book_data_file, "w") as f:
         json.dump(books_data, f, ensure_ascii=False, indent=2)
 
+    with open(review_entries_file, "w") as f:
+        json.dump(entries_for_review, f, ensure_ascii=False, indent=2)
+
+    review_count = len(entries_for_review)
+    # if review_count > 0:
+    #     with open(review_entries_file, "r") as f:
+    #         existing_review_entries = json.load(f)
+    #         existing_review_entries.append(entries_for_review)
+    #     with open(review_entries_file, "w") as f:
+    #         json.dump(existing_review_entries, f, ensure_ascii=False, indent=2)
+    print(f"{review_count} entries need review")
+
     return books_data
 
-prepapre_books4loading()
+prepare_books4loading()

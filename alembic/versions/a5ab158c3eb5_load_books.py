@@ -14,7 +14,7 @@ import sys
 
 from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent.parent))
-from database.prep_books import prepapre_books4loading
+from database.prep_books import prepare_books4loading
 
 # revision identifiers, used by Alembic.
 revision: str = 'a5ab158c3eb5'
@@ -24,7 +24,7 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
-    books_data = prepapre_books4loading()
+    books_data = prepare_books4loading()
 
     books_table = sa.table("books",
         sa.column('composite_id', sa.Text),
@@ -54,4 +54,5 @@ def upgrade() -> None:
 
 def downgrade() -> None:
     """Downgrade schema."""
+    op.execute("ALTER SEQUENCE books_book_id_seq RESTART WITH 1")
     op.execute("DELETE FROM books")
