@@ -76,6 +76,10 @@ def prepapre_books4loading():
             price_changed = entry["admin"]["price_changed"]
             amount = entry["books"]["price"]
 
+            if not title:
+                entries_for_review.append(entry)
+                continue
+
             if needs_review:
                 entries_for_review.append(entry)
                 continue
