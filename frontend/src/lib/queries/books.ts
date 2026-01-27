@@ -36,6 +36,31 @@ export async function getAllBooksWithEverything() {
   return result.rows;
 }
 
+export async function getBookWithEverythingById(id: number) {
+  const result = await query<BookDisplayRow>(
+    sql`
+    SELECT
+      b.*,
+      ba.*,
+      b2p.*,
+      p.*,
+      t.*,
+      b2v.*,
+      pr.*
+    FROM books b
+    LEFT JOIN book_admin ba ON b.book_id = ba.book_id
+    LEFT JOIN topics t ON b.topic_id = t.topic_id
+    LEFT JOIN books2people b2p ON b.book_id = b2p.book_id
+    LEFT JOIN people p ON b2p.person_id = p.person_id
+    LEFT JOIN books2volumes b2v ON b.book_id = b2v.book_id
+    LEFT JOIN prices pr ON b.book_id = pr.book_id
+    WHERE b.book_id = $1
+    `,
+    [id],
+  );
+  return result.rows;
+}
+
 // TODO(human): Add more query functions as you practice:
 // - getBooksWithPagination(page, limit)
 // - getBooksWithFilters(search, topicId, etc.)

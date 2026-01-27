@@ -1,13 +1,34 @@
-"use client";
+'use client';
 
-import { MantineProvider, createTheme } from "@mantine/core";
-import { SessionProvider } from "next-auth/react";
-import "@mantine/core/styles.css";
+import {
+  MantineColorsTuple,
+  MantineProvider,
+  createTheme,
+} from '@mantine/core';
+import { SessionProvider } from 'next-auth/react';
+import '@mantine/core/styles.css';
+
+const myColor: MantineColorsTuple = [
+  '#f2f8f7',
+  '#e6edec',
+  '#c7dbd9',
+  '#a5c8c4',
+  '#89b8b2',
+  '#77aea7',
+  '#6ca9a2',
+  '#5a948d',
+  '#4d847d',
+  '#264a46',
+];
 
 const theme = createTheme({
-  focusRing: "always",
-  primaryColor: "blue",
-  defaultRadius: "md",
+  focusRing: 'always',
+  // primaryColor: 'green',
+  colors: {
+    myColor,
+  },
+  primaryColor: 'myColor',
+  defaultRadius: 'md',
   fontFamily:
     'var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
   // Larger default font sizes for accessibility (90-year-old user)

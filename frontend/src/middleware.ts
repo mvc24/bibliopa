@@ -11,17 +11,24 @@ export default withAuth(
     const path = req.nextUrl.pathname;
 
     // Check if path requires specific roles
-    if (path.startsWith('/entries/new') || path.startsWith('/entries/') && path.includes('/edit')) {
+    if (
+      path.startsWith('/books/new') ||
+      (path.startsWith('/books/') && path.includes('/edit'))
+    ) {
       // Add/Edit entries requires family or admin role
       if (!token || (token.role !== 'family' && token.role !== 'admin')) {
-        return NextResponse.redirect(new URL('/login?error=unauthorized', req.url));
+        return NextResponse.redirect(
+          new URL('/login?error=unauthorized', req.url),
+        );
       }
     }
 
     if (path.startsWith('/people/') && path.includes('/edit')) {
       // Edit people requires family or admin role
       if (!token || (token.role !== 'family' && token.role !== 'admin')) {
-        return NextResponse.redirect(new URL('/login?error=unauthorized', req.url));
+        return NextResponse.redirect(
+          new URL('/login?error=unauthorized', req.url),
+        );
       }
     }
 
@@ -32,29 +39,38 @@ export default withAuth(
         if (!token) {
           return NextResponse.json(
             { error: 'Unauthorized', message: 'Authentication required' },
-            { status: 401 }
+            { status: 401 },
           );
         }
 
         // Write operations on books/people/prices require family or admin
         if (
-          (path.includes('/books') || path.includes('/people') || path.includes('/prices')) &&
+          (path.includes('/books') ||
+            path.includes('/people') ||
+            path.includes('/prices')) &&
           token.role !== 'family' &&
           token.role !== 'admin'
         ) {
           return NextResponse.json(
             { error: 'Forbidden', message: 'Insufficient permissions' },
-            { status: 403 }
+            { status: 403 },
           );
         }
 
-        // DELETE operations require admin only
-        if (req.method === 'DELETE' && token.role !== 'admin') {
-          return NextResponse.json(
-            { error: 'Forbidden', message: 'Admin access required' },
-            { status: 403 }
-          );
+        // DELETE operations on system data require admin only
+        // (books/people/prices already handled above - family can delete those)
+        if (
+          req.method === 'DELETE' &&
+          token.role !== 'admin' &&
+          !path.includes('/books') &&
+          !path.includes('/people') &&
+          !path.includes('/prices')
+        ) {
         }
+        return NextResponse.json(
+          { error: 'Forbidden', message: 'Admin access required' },
+          { status: 403 },
+        );
       }
     }
 
@@ -71,6 +87,7 @@ export default withAuth(
           '/',
           '/login',
           '/bibliography',
+          '/books',
           '/project',
           '/contact',
         ];
@@ -94,7 +111,7 @@ export default withAuth(
         return !!token;
       },
     },
-  }
+  },
 );
 
 // Specify which routes this middleware should run on
