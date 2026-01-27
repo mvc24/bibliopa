@@ -10,20 +10,42 @@ import { getAllBooksWithEverything } from '@/lib/queries/books';
  *
  * Query params: page, limit, search, topic_id, author
  */
-export async function GET() {
+export async function GET(request: NextRequest) {
   try {
-    const books = await getAllBooksWithEverything();
+    // ===== STEP 1: Extract data from request =====
+    const searchParams = request.nextUrl.searchParams;
 
-    const totalCount = books.length;
+    // Parse query parameters with defaults
+    const page = parseInt(searchParams.get('page') || '1');
+    const limit = parseInt(searchParams.get('limit') || '50');
+    const search = searchParams.get('search') || undefined;
+    const topicId = searchParams.get('topic_id') || undefined;
+
+    // ===== STEP 2: Call your query function =====
+    // TODO(human): Replace with your query function
+    // const { books, totalCount } = await getBooksWithFilters({
+    //   page,
+    //   limit,
+    //   search,
+    //   topicId
+    // });
+
+    // Temporary placeholder - replace this when you implement your query!
+    const books: any[] = [];
+    const totalCount = 0;
+    const totalPages = Math.ceil(totalCount / limit);
+
+    // Silence unused variable warnings (remove these lines when implementing)
+    console.log('TODO: Use these params in query:', { search, topicId });
 
     // ===== STEP 3: Format and return response =====
     return NextResponse.json({
       data: books,
       pagination: {
-        page: 1,
-        limit: totalCount,
+        page,
+        limit,
         total: totalCount,
-        total_pages: 1,
+        total_pages: totalPages,
       },
     });
   } catch (error) {

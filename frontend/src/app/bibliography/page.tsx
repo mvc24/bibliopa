@@ -1,4 +1,5 @@
-import { AppShell } from "../../components/layout/AppShell";
+'use client';
+import { AppShell } from '../../components/layout/AppShell';
 import {
   Card,
   Title,
@@ -9,16 +10,22 @@ import {
   Table,
   Text,
   Checkbox,
-} from "@mantine/core";
+} from '@mantine/core';
 
 export default function BibliographyPage() {
   return (
     <AppShell>
       <Stack gap="md">
-        <Card shadow="sm" padding="lg">
+        <Card
+          shadow="sm"
+          padding="lg"
+        >
           <Stack gap="xs">
             <Title order={2}>Bibliography</Title>
-            <TextInput label="Search" placeholder="Title, author, keyword" />
+            <TextInput
+              label="Search"
+              placeholder="Title, author, keyword"
+            />
             <Group gap="sm">
               <Checkbox label="Show prices (special/family)" />
               <Button variant="light">Advanced filters</Button>
@@ -31,7 +38,10 @@ export default function BibliographyPage() {
           </Stack>
         </Card>
 
-        <Card shadow="sm" padding="lg">
+        <Card
+          shadow="sm"
+          padding="lg"
+        >
           <Table>
             <Table.Thead>
               <Table.Tr>
@@ -48,13 +58,24 @@ export default function BibliographyPage() {
                 <Table.Td>1950</Table.Td>
                 <Table.Td>
                   <Group gap="xs">
-                    <Button size="xs" variant="subtle">
+                    <Button
+                      size="xs"
+                      variant="subtle"
+                    >
                       View
                     </Button>
-                    <Button size="xs" variant="subtle" color="green">
+                    <Button
+                      size="xs"
+                      variant="subtle"
+                      color="green"
+                    >
                       Add price
                     </Button>
-                    <Button size="xs" variant="subtle" color="yellow">
+                    <Button
+                      size="xs"
+                      variant="subtle"
+                      color="yellow"
+                    >
                       Edit
                     </Button>
                   </Group>

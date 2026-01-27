@@ -1,17 +1,24 @@
-import { AppShell } from "../../components/layout/AppShell";
-import { Card, Title, Stack, Text, List } from "@mantine/core";
+'use client';
+import { AppShell } from '../../components/layout/AppShell';
+import { Card, Title, Stack, Text, List } from '@mantine/core';
 
 export default function ProjectPage() {
   return (
     <AppShell>
-      <Card shadow="sm" padding="lg">
+      <Card
+        shadow="sm"
+        padding="lg"
+      >
         <Stack gap="sm">
           <Title order={2}>Project Overview</Title>
           <Text>
             Portfolio-friendly overview of the tech stack, pipelines, and data
             quality processes behind Bibliopa.
           </Text>
-          <List type="unordered" spacing="xs">
+          <List
+            type="unordered"
+            spacing="xs"
+          >
             <List.Item>
               Backend: FastAPI, PostgreSQL, Alembic migrations
             </List.Item>

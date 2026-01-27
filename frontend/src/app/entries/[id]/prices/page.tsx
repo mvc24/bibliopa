@@ -1,4 +1,5 @@
-import { AppShell } from "../../../../components/layout/AppShell";
+'use client';
+import { AppShell } from '../../../../components/layout/AppShell';
 import {
   Card,
   Title,
@@ -7,16 +8,23 @@ import {
   Button,
   Table,
   Group,
-} from "@mantine/core";
+} from '@mantine/core';
 
 export default function EntryPricesPage() {
   return (
     <AppShell>
       <Stack gap="md">
-        <Card shadow="sm" padding="lg">
+        <Card
+          shadow="sm"
+          padding="lg"
+        >
           <Stack gap="sm">
             <Title order={2}>Add Price</Title>
-            <TextInput label="Price" placeholder="€45" required />
+            <TextInput
+              label="Price"
+              placeholder="€45"
+              required
+            />
             <TextInput
               label="Source link"
               placeholder="https://example.com/listing"
@@ -26,7 +34,10 @@ export default function EntryPricesPage() {
           </Stack>
         </Card>
 
-        <Card shadow="sm" padding="lg">
+        <Card
+          shadow="sm"
+          padding="lg"
+        >
           <Title order={3}>Price history</Title>
           <Table>
             <Table.Thead>

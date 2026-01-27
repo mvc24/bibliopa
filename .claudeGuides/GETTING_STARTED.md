@@ -16,13 +16,15 @@ Your Next.js boilerplate with authentication and API routes is now complete! Thi
 - **Transaction support** for complex operations
 
 ### ✅ API Routes
-All CRUD operations are ready:
-- `/api/books` - List, create books
-- `/api/books/[id]` - Get, update, delete individual book
-- `/api/people` - List, create people
-- `/api/people/[id]` - Get, update individual person
-- `/api/topics` - List, create topics
-- `/api/prices` - Get price history, add new prices
+
+EDIT: Queries will be created in lib/queries/ by the user!
+    All CRUD operations are ready:
+    - `/api/books` - List, create books
+    - `/api/books/[id]` - Get, update, delete individual book
+    - `/api/people` - List, create people
+    - `/api/people/[id]` - Get, update individual person
+    - `/api/topics` - List, create topics
+    - `/api/prices` - Get price history, add new prices
 
 ### ✅ TypeScript Types
 Complete type definitions in `src/types/database.ts` matching your PostgreSQL schema
@@ -137,7 +139,7 @@ Already configured in `.env.local`:
 | Role     | View | Download | Add/Edit | Delete | View Prices | Add Prices |
 |----------|------|----------|----------|--------|-------------|------------|
 | admin    | ✅   | ✅       | ✅       | ✅     | ✅          | ✅         |
-| family   | ✅   | ✅       | ✅       | ❌     | ✅          | ✅         |
+| family   | ✅   | ✅       | ✅       | ✅     | ✅          | ✅         |
 | viewer   | ✅   | ✅       | ❌       | ❌     | ❌          | ❌         |
 | guest    | ✅   | ❌       | ❌       | ❌     | ❌          | ❌         |
 

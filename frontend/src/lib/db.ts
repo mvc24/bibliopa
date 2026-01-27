@@ -1,4 +1,13 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Pool, QueryResult, QueryResultRow } from 'pg';
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function sql(strings: TemplateStringsArray, ...values: any[]): string {
+  return strings.reduce(
+    (result, str, i) => result + str + (values[i] ?? ''),
+    '',
+  );
+}
 
 // Singleton pattern for database connection pool
 let pool: Pool | null = null;
@@ -34,7 +43,7 @@ export function getPool(): Pool {
  */
 export async function query<T extends QueryResultRow = any>(
   text: string,
-  params?: any[]
+  params?: any[],
 ): Promise<QueryResult<T>> {
   const pool = getPool();
   const start = Date.now();
@@ -69,7 +78,7 @@ export async function query<T extends QueryResultRow = any>(
  * @returns Result from callback
  */
 export async function transaction<T>(
-  callback: (client: any) => Promise<T>
+  callback: (client: any) => Promise<T>,
 ): Promise<T> {
   const pool = getPool();
   const client = await pool.connect();

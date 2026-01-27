@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import {
   AppShell as MantineAppShell,
@@ -8,9 +8,9 @@ import {
   Burger,
   Group,
   Title,
-} from "@mantine/core";
-import { useDisclosure } from "@mantine/hooks";
-import { MainNav } from "../nav/MainNav";
+} from '@mantine/core';
+import { useDisclosure } from '@mantine/hooks';
+import { MainNav } from '../nav/MainNav';
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const [opened, { toggle }] = useDisclosure();
@@ -18,11 +18,15 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   return (
     <MantineAppShell
       header={{ height: 64 }}
-      navbar={{ width: 260, breakpoint: "sm", collapsed: { mobile: !opened } }}
+      navbar={{ width: 260, breakpoint: 'sm', collapsed: { mobile: !opened } }}
       padding="md"
     >
       <AppShellHeader>
-        <Group h="100%" px="md" justify="space-between">
+        <Group
+          h="100%"
+          px="md"
+          justify="space-between"
+        >
           <Group>
             <Burger
               opened={opened}
@@ -31,7 +35,10 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               size="sm"
               aria-label="Toggle navigation"
             />
-            <Title order={3} fw={700}>
+            <Title
+              order={3}
+              fw={700}
+            >
               Bibliopa
             </Title>
           </Group>

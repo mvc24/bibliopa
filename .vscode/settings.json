@@ -1,4 +1,5 @@
 {
   "dataWrangler.experiments.autoDetectCsvDelimiter": true,
-  "python.analysis.extraPaths": ["./alembic"]
+  "python.analysis.extraPaths": ["./alembic"],
+  "chatgpt.commentCodeLensEnabled": false
 }

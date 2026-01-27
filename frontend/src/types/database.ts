@@ -61,6 +61,84 @@ export interface BookWithRelations extends Book {
   admin_data?: BookAdmin;
 }
 
+export interface BookDisplayRow {
+  // From books table (b.*)
+  book_id: number;
+  composite_id: string;
+  title: string;
+  subtitle?: string | null;
+  publisher?: string | null;
+  place_of_publication?: string | null;
+  publication_year?: number | null;
+  edition?: string | null;
+  pages?: number | null;
+  isbn?: string | null;
+  format_original?: string | null;
+  format_expanded?: string | null;
+  condition?: string | null;
+  copies?: number | null;
+  illustrations?: string | null;
+  packaging?: string | null;
+  topic_id?: number | null;
+  is_translation: boolean;
+  original_language?: string | null;
+  is_multivolume: boolean;
+  series_title?: string | null;
+  total_volumes?: number | null;
+  book_created_at: Date;
+  book_updated_at: Date;
+
+  // From book_admin table (ba.*)
+  original_entry?: string | null;
+  parsing_confidence?: string | null;
+  needs_review?: boolean | null;
+  verification_notes?: string | null;
+  topic_changed?: boolean | null;
+  price_changed?: boolean | null;
+  batch_id?: string | null;
+  admin_created_at?: Date | null;
+
+  // From topics table (t.*)
+  topic_name?: string | null;
+  topic_created_at?: Date | null;
+
+  // From people table (p.*)
+  person_id?: number | null;
+  unified_id?: string | null;
+  family_name?: string | null;
+  given_names?: string | null;
+  name_particles?: string | null;
+  single_name?: string | null;
+  is_organisation?: boolean | null;
+  person_created_at?: Date | null;
+  person_updated_at?: Date | null;
+
+  // From books2people table (b2p.*)
+  b2p_id?: number | null;
+  display_name?: string | null;
+  sort_order?: number | null;
+  is_author?: boolean | null;
+  is_editor?: boolean | null;
+  is_contributor?: boolean | null;
+  is_translator?: boolean | null;
+  b2p_created_at?: Date | null;
+  b2p_updated_at?: Date | null;
+
+  // From prices table (pr.*)
+  price_id?: number | null;
+  amount?: number | null;
+  imported_price?: boolean | null;
+  price_source?: string | null;
+  price_date_added?: Date | null;
+
+  // From volumes table (b2v.*)
+  volume_id?: number | null;
+  volume_number?: number | null;
+  volume_title?: string | null;
+  volume_pages?: number | null;
+  volume_notes?: string | null;
+}
+
 // ===== People Types =====
 
 export interface Person {
@@ -167,7 +245,7 @@ export interface ApiError {
   status: number;
 }
 
-export interface ApiSuccess<T = any> {
+export interface ApiSuccess<T = unknown> {
   success: boolean;
   data?: T;
   message?: string;
