@@ -1,6 +1,6 @@
 // ===== User & Authentication Types =====
 
-export type UserRole = 'admin' | 'family' | 'viewer' | 'guest';
+export type UserRole = 'admin' | 'family' | 'researcher' | 'viewer' | 'guest';
 
 export interface User {
   user_id: string; // UUID
@@ -75,7 +75,7 @@ export interface BookDetail extends Book {
 
   prices: Array<{
     price_id: number;
-    amount: number;
+    amount?: number | null;
     source?: string | null;
     imported_price?: boolean | null;
     date_added: Date;

@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextRequest, NextResponse } from 'next/server';
 import { query, transaction } from '@/lib/db';
+import { canViewPrices, canViewDebugInfo } from '@/lib/auth';
 
 import { getSingleBookPageById } from '@/lib/queries/books';
 /**
@@ -20,7 +21,17 @@ export async function GET(
     }
     const book = await getSingleBookPageById(bookId);
 
-    return NextResponse.json({ data: book });
+    // Check permissions
+    const showPrices = await canViewPrices();
+    const showDebugInfo = await canViewDebugInfo();
+
+    return NextResponse.json({
+      data: book,
+      permissions: {
+        canViewPrices: showPrices,
+        canViewDebugInfo: showDebugInfo,
+      },
+    });
   } catch (error) {
     console.error('Error fetching book:', error);
     return NextResponse.json(

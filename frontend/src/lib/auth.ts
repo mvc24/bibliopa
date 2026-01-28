@@ -42,14 +42,22 @@ export async function requireRole(requiredRoles: UserRole[]) {
 
 /**
  * Check if user has permission for an action
- * Admin has all permissions
+ * Admin has all permissions (including debug info)
  * Family can add/edit/delete entries and view prices
+ * Researcher can view all content including prices (no edit functionality)
  * Viewer can only view (no prices)
  * Guest (no login) can only browse
  */
 export function hasPermission(
   userRole: UserRole | undefined,
-  action: 'view' | 'add' | 'edit' | 'delete' | 'view_prices' | 'add_prices',
+  action:
+    | 'view'
+    | 'add'
+    | 'edit'
+    | 'delete'
+    | 'view_prices'
+    | 'add_prices'
+    | 'view_debug_info',
 ): boolean {
   if (!userRole) {
     // No login - can only view
@@ -69,6 +77,9 @@ export function hasPermission(
         'view_prices',
         'add_prices',
       ].includes(action);
+
+    case 'researcher':
+      return ['view', 'view_prices'].includes(action);
 
     case 'viewer':
       return ['view'].includes(action);
@@ -100,9 +111,22 @@ export async function canDownload(): Promise<boolean> {
 
 /**
  * Check if user can see prices
- * Only admin and family can see prices
+ * Admin, family, and researcher can see prices
  */
 export async function canViewPrices(): Promise<boolean> {
+  if (process.env.NEXT_PUBLIC_DEV_MODE === 'true') return true;
+
   const role = await getUserRole();
-  return role === 'admin' || role === 'family';
+  return role === 'admin' || role === 'family' || role === 'researcher';
+}
+
+/**
+ * Check if user can see debug information
+ * Only admin can see composite_ids, unified_ids, and parsing metadata
+ */
+export async function canViewDebugInfo(): Promise<boolean> {
+  if (process.env.NEXT_PUBLIC_DEV_MODE === 'true') return true;
+
+  const role = await getUserRole();
+  return role === 'admin';
 }
