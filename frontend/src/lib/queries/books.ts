@@ -49,6 +49,7 @@ export async function getAllBooksForTablePaginated(
     LEFT JOIN topics t ON b.topic_id = t.topic_id
     LEFT JOIN books2people b2p ON b.book_id = b2p.book_id
     LEFT JOIN people p ON b2p.person_id = p.person_id
+    WHERE b.is_removed = FALSE
     GROUP BY b.book_id, b.title, b.subtitle, b.publication_year, t.topic_name
     LIMIT $1 OFFSET $2
     `,

@@ -48,6 +48,7 @@ export interface Book {
   total_volumes?: number | null;
   created_at: Date;
   updated_at: Date;
+  is_removed: boolean;
 }
 
 // For single book detail page
