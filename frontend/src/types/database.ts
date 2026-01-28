@@ -52,10 +52,10 @@ export interface Book {
 
 export interface BookWithRelations extends Book {
   topic?: Topic;
-  authors: PersonRole[];
-  editors: PersonRole[];
-  contributors: PersonRole[];
-  translator?: PersonRole;
+  authors: Books2People[];
+  editors: Books2People[];
+  contributors: Books2People[];
+  translator?: Books2People;
   prices: Price[];
   volumes: Volume[];
   admin_data?: BookAdmin;
@@ -101,6 +101,19 @@ export interface BookDisplayRow {
   // From topics table (t.*)
   topic_name?: string | null;
   topic_created_at?: Date | null;
+
+  people: Array<{
+    person_id: number;
+    family_name?: string | null;
+    given_names?: string | null;
+    name_particles?: string | null;
+    single_name?: string | null;
+    display_name?: string | null;
+    is_author: boolean;
+    is_editor: boolean;
+    is_contributor: boolean;
+    is_translator: boolean;
+  }>;
 
   // From people table (p.*)
   person_id?: number | null;
@@ -153,7 +166,7 @@ export interface Person {
   updated_at: Date;
 }
 
-export interface PersonRole {
+export interface Books2People {
   b2p_id: number;
   book_id: number;
   composite_id: string;
@@ -231,13 +244,15 @@ export interface BookAdmin {
 
 export interface PaginatedResponse<T> {
   data: T[];
-  pagination: {
-    page: number;
-    limit: number;
-    total: number;
-    total_pages: number;
-  };
+  pagination: PaginationInfo;
 }
+
+export type PaginationInfo = {
+  page: number;
+  limit: number;
+  total: number;
+  total_pages: number;
+};
 
 export interface ApiError {
   error: string;

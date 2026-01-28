@@ -11,6 +11,52 @@ export async function getAllBooks() {
   return result.rows;
 }
 
+export async function getTotalBookCount() {
+  const result = await query<{ count: number }>(
+    `SELECT COUNT(*) FROM books`,
+    [],
+  );
+
+  return result.rows[0].count;
+}
+
+export async function getAllBooksForTablePaginated(
+  page: number,
+  limit: number,
+) {
+  const offset = (page - 1) * limit;
+  const result = await query<BookDisplayRow>(
+    sql`
+    SELECT
+      b.book_id,
+      b.title,
+      b.subtitle,
+      b.publication_year,
+      t.topic_name,
+      JSONB_AGG(
+        JSONB_BUILD_OBJECT(
+          'family_name', p.family_name,
+          'given_names', p.given_names,
+          'name_particles', p.name_particles,
+          'single_name', p.single_name,
+          'display_name', b2p.display_name,
+          'is_author', b2p.is_author,
+          'is_editor', b2p.is_editor
+        )
+      ) AS people
+    FROM books b
+    LEFT JOIN book_admin ba ON b.book_id = ba.book_id
+    LEFT JOIN topics t ON b.topic_id = t.topic_id
+    LEFT JOIN books2people b2p ON b.book_id = b2p.book_id
+    LEFT JOIN people p ON b2p.person_id = p.person_id
+    GROUP BY b.book_id, b.title, b.subtitle, b.publication_year, t.topic_name
+    LIMIT $1 OFFSET $2
+    `,
+    [limit, offset],
+  );
+  return result.rows;
+}
+
 export async function getAllBooksWithEverything() {
   const result = await query<BookDisplayRow>(
     sql`

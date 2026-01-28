@@ -2,7 +2,10 @@ import { NextRequest, NextResponse } from 'next/server';
 // TODO(human): Import your query functions from lib/queries/books
 // import { getAllBooks, createBook } from '@/lib/queries/books';
 import { CreateBookInput } from '@/types/database';
-import { getAllBooksWithEverything } from '@/lib/queries/books';
+import {
+  getAllBooksForTablePaginated,
+  getTotalBookCount,
+} from '@/lib/queries/books';
 
 /**
  * GET /api/books
@@ -10,20 +13,23 @@ import { getAllBooksWithEverything } from '@/lib/queries/books';
  *
  * Query params: page, limit, search, topic_id, author
  */
-export async function GET() {
+export async function GET(request: Request) {
   try {
-    const books = await getAllBooksWithEverything();
+    const { searchParams } = new URL(request.url);
+    const page = parseInt(searchParams.get('page') || '1');
+    const limit = parseInt(searchParams.get('limit') || '100');
+    const books = await getAllBooksForTablePaginated(page, limit);
 
-    const totalCount = books.length;
+    const totalCount = await getTotalBookCount();
 
     // ===== STEP 3: Format and return response =====
     return NextResponse.json({
       data: books,
       pagination: {
-        page: 1,
-        limit: totalCount,
+        page: page,
+        limit: limit,
         total: totalCount,
-        total_pages: 1,
+        total_pages: Math.ceil(totalCount / limit),
       },
     });
   } catch (error) {

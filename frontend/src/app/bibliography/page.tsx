@@ -1,6 +1,12 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { BookDisplayRow } from '@/types/database';
+import {
+  BookDisplayRow,
+  PaginationInfo,
+  BookWithRelations,
+} from '@/types/database';
+import { useRouter } from 'next/navigation';
+
 import { AppShell } from '../../components/layout/AppShell';
 import {
   Card,
@@ -12,18 +18,27 @@ import {
   Table,
   Text,
   Checkbox,
+  Pagination,
 } from '@mantine/core';
-import { useRouter } from 'next/navigation';
 
 export default function BibliographyPage() {
+  // const [books, setBooks] = useState<BookWithRelations[]>([]);
   const [books, setBooks] = useState<BookDisplayRow[]>([]);
+  const [pagination, setPagination] = useState<PaginationInfo | null>(null);
+  const [currentPage, setCurrentPage] = useState(1);
+
   const router = useRouter();
 
   useEffect(() => {
-    fetch('/api/books')
+    fetch(`/api/books?page=${currentPage}`)
       .then((response) => response.json())
-      .then((result) => setBooks(result.data));
-  }, []);
+      .then((result) => {
+        // console.log('Books data:', result.data);
+        setBooks(result.data);
+        setPagination(result.pagination);
+      });
+  }, [currentPage]);
+  console.log('current books: ', books);
   return (
     <AppShell>
       <Stack gap="md">
@@ -41,13 +56,12 @@ export default function BibliographyPage() {
               <Button variant="light">Advanced filters</Button>
               <Button>Search</Button>
             </Group>
-            <Group gap="m">
+            {/* <Group gap="m">
               <Button variant="default">Download CSV</Button>
               <Button variant="default">Download PDF</Button>
-            </Group>
+            </Group> */}
           </Stack>
         </Card>
-
         <Card
           shadow="sm"
           padding="lg"
@@ -55,10 +69,10 @@ export default function BibliographyPage() {
           <Table>
             <Table.Thead>
               <Table.Tr>
-                <Table.Th>Title</Table.Th>
-                <Table.Th>Author</Table.Th>
-                <Table.Th>Year</Table.Th>
-                <Table.Th>Actions</Table.Th>
+                <Table.Th>Titel</Table.Th>
+                <Table.Th>Autor</Table.Th>
+                <Table.Th>Erscheinungsjahr</Table.Th>
+                <Table.Th>Thema</Table.Th>
               </Table.Tr>
             </Table.Thead>
             <Table.Tbody>
@@ -69,55 +83,29 @@ export default function BibliographyPage() {
                   style={{ cursor: 'pointer' }}
                 >
                   <Table.Td>{book.title}</Table.Td>
-                  <Table.Td>{/* author name */}</Table.Td>
+                  <Table.Td>
+                    {(() => {
+                      const author = book.people.find((p) => p.is_author);
+                      return author
+                        ? author.family_name || author.single_name || ''
+                        : '';
+                    })()}
+                  </Table.Td>
                   <Table.Td>{book.publication_year}</Table.Td>
-                  <Table.Td>{/* your action buttons */}</Table.Td>
+                  <Table.Td>{book.topic_name}</Table.Td>
                 </Table.Tr>
               ))}
             </Table.Tbody>
           </Table>
-          {/* <Table>
-            <Table.Thead>
-              <Table.Tr>
-                <Table.Th>Title</Table.Th>
-                <Table.Th>Author</Table.Th>
-                <Table.Th>Year</Table.Th>
-                <Table.Th>Actions</Table.Th>
-              </Table.Tr>
-            </Table.Thead>
-            <Table.Tbody>
-              <Table.Tr>
-                <Table.Td>Sample book</Table.Td>
-                <Table.Td>Person Example</Table.Td>
-                <Table.Td>1950</Table.Td>
-                <Table.Td>
-                  <Group gap="xs">
-                    <Button
-                      size="xs"
-                      variant="subtle"
-                    >
-                      View
-                    </Button>
-                    <Button
-                      size="xs"
-                      variant="subtle"
-                      color="green"
-                    >
-                      Add price
-                    </Button>
-                    <Button
-                      size="xs"
-                      variant="subtle"
-                      color="yellow"
-                    >
-                      Edit
-                    </Button>
-                  </Group>
-                </Table.Td>
-              </Table.Tr>
-            </Table.Tbody>
-          </Table> */}
         </Card>
+        <Pagination
+          total={pagination?.total_pages || 0}
+          value={currentPage}
+          onChange={setCurrentPage}
+          size="sm"
+          radius="md"
+          withEdges
+        />
       </Stack>
     </AppShell>
   );

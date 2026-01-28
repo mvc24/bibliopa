@@ -49,7 +49,7 @@ export async function requireRole(requiredRoles: UserRole[]) {
  */
 export function hasPermission(
   userRole: UserRole | undefined,
-  action: 'view' | 'add' | 'edit' | 'delete' | 'view_prices' | 'add_prices'
+  action: 'view' | 'add' | 'edit' | 'delete' | 'view_prices' | 'add_prices',
 ): boolean {
   if (!userRole) {
     // No login - can only view

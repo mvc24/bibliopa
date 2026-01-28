@@ -1,6 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { query, transaction } from '@/lib/db';
-import { BookWithRelations, CreateBookInput, BookFilters } from '@/types/database';
+import {
+  BookWithRelations,
+  CreateBookInput,
+  BookFilters,
+} from '@/types/database';
 
 /**
  * GET /api/books
@@ -46,12 +50,15 @@ export async function GET(request: NextRequest) {
     }
 
     // Add pagination
-    queryText += ` ORDER BY b.created_at DESC LIMIT $${paramIndex} OFFSET $${paramIndex + 1}`;
+    queryText += ` ORDER BY b.created_at DESC LIMIT $${paramIndex} OFFSET $${
+      paramIndex + 1
+    }`;
     queryParams.push(limit, offset);
 
     const result = await query(queryText, queryParams);
 
-    const totalCount = result.rows.length > 0 ? parseInt(result.rows[0].total_count) : 0;
+    const totalCount =
+      result.rows.length > 0 ? parseInt(result.rows[0].total_count) : 0;
     const totalPages = Math.ceil(totalCount / limit);
 
     // For each book, get authors/editors
@@ -59,7 +66,7 @@ export async function GET(request: NextRequest) {
       result.rows.map(async (book) => {
         const peopleResult = await query(
           `SELECT * FROM books2people WHERE book_id = $1 ORDER BY sort_order`,
-          [book.book_id]
+          [book.book_id],
         );
 
         return {
@@ -67,9 +74,10 @@ export async function GET(request: NextRequest) {
           authors: peopleResult.rows.filter((p: any) => p.is_author),
           editors: peopleResult.rows.filter((p: any) => p.is_editor),
           contributors: peopleResult.rows.filter((p: any) => p.is_contributor),
-          translator: peopleResult.rows.find((p: any) => p.is_translator) || null,
+          translator:
+            peopleResult.rows.find((p: any) => p.is_translator) || null,
         };
-      })
+      }),
     );
 
     return NextResponse.json({
@@ -84,8 +92,11 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error('Error fetching books:', error);
     return NextResponse.json(
-      { error: 'Failed to fetch books', message: error instanceof Error ? error.message : 'Unknown error' },
-      { status: 500 }
+      {
+        error: 'Failed to fetch books',
+        message: error instanceof Error ? error.message : 'Unknown error',
+      },
+      { status: 500 },
     );
   }
 }
@@ -103,7 +114,7 @@ export async function POST(request: NextRequest) {
     if (!body.title) {
       return NextResponse.json(
         { error: 'Validation error', message: 'Title is required' },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -143,7 +154,7 @@ export async function POST(request: NextRequest) {
           body.is_multivolume || false,
           body.series_title || null,
           body.total_volumes || null,
-        ]
+        ],
       );
 
       const newBook = bookResult.rows[0];
@@ -157,13 +168,16 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json(
       { success: true, data: result, message: 'Book created successfully' },
-      { status: 201 }
+      { status: 201 },
     );
   } catch (error) {
     console.error('Error creating book:', error);
     return NextResponse.json(
-      { error: 'Failed to create book', message: error instanceof Error ? error.message : 'Unknown error' },
-      { status: 500 }
+      {
+        error: 'Failed to create book',
+        message: error instanceof Error ? error.message : 'Unknown error',
+      },
+      { status: 500 },
     );
   }
 }

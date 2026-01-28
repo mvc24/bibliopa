@@ -21,7 +21,7 @@ export const authOptions: NextAuthOptions = {
           // Query user from database
           const result = await query<User>(
             'SELECT * FROM users WHERE username = $1 AND is_active = true',
-            [credentials.username]
+            [credentials.username],
           );
 
           const user = result.rows[0];
@@ -33,7 +33,7 @@ export const authOptions: NextAuthOptions = {
           // Verify password
           const isPasswordValid = await compare(
             credentials.password,
-            user.password_hash
+            user.password_hash,
           );
 
           if (!isPasswordValid) {

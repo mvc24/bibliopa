@@ -65,7 +65,8 @@ export async function GET(request: NextRequest) {
 
     const result = await query(queryText, queryParams);
 
-    const totalCount = result.rows.length > 0 ? parseInt(result.rows[0].total_count) : 0;
+    const totalCount =
+      result.rows.length > 0 ? parseInt(result.rows[0].total_count) : 0;
     const totalPages = Math.ceil(totalCount / limit);
 
     return NextResponse.json({
@@ -80,8 +81,11 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error('Error fetching people:', error);
     return NextResponse.json(
-      { error: 'Failed to fetch people', message: error instanceof Error ? error.message : 'Unknown error' },
-      { status: 500 }
+      {
+        error: 'Failed to fetch people',
+        message: error instanceof Error ? error.message : 'Unknown error',
+      },
+      { status: 500 },
     );
   }
 }
@@ -98,19 +102,21 @@ export async function POST(request: NextRequest) {
     // Generate unified_id (simplified version - you may want to use your Python logic)
     const unifiedId = body.single_name
       ? `single_${body.single_name.toLowerCase().replace(/\s+/g, '_')}`
-      : `${body.family_name?.toLowerCase() || ''}_${body.given_names?.toLowerCase().split(' ')[0] || ''}`.replace(/\s+/g, '_');
+      : `${body.family_name?.toLowerCase() || ''}_${
+          body.given_names?.toLowerCase().split(' ')[0] || ''
+        }`.replace(/\s+/g, '_');
 
     // Check if person already exists
     const existingResult = await query(
       `SELECT * FROM people WHERE unified_id = $1`,
-      [unifiedId]
+      [unifiedId],
     );
 
     if (existingResult.rows.length > 0) {
       return NextResponse.json({
         success: true,
         data: existingResult.rows[0],
-        message: 'Person already exists'
+        message: 'Person already exists',
       });
     }
 
@@ -127,18 +133,25 @@ export async function POST(request: NextRequest) {
         body.name_particles || null,
         body.single_name || null,
         body.is_organisation || false,
-      ]
+      ],
     );
 
     return NextResponse.json(
-      { success: true, data: result.rows[0], message: 'Person created successfully' },
-      { status: 201 }
+      {
+        success: true,
+        data: result.rows[0],
+        message: 'Person created successfully',
+      },
+      { status: 201 },
     );
   } catch (error) {
     console.error('Error creating person:', error);
     return NextResponse.json(
-      { error: 'Failed to create person', message: error instanceof Error ? error.message : 'Unknown error' },
-      { status: 500 }
+      {
+        error: 'Failed to create person',
+        message: error instanceof Error ? error.message : 'Unknown error',
+      },
+      { status: 500 },
     );
   }
 }
