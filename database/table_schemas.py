@@ -23,7 +23,8 @@ BOOKS_SCHEMA = {
     "series_title": "TEXT",
     "total_volumes": "INTEGER",
     "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
-    "updated_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
+    "updated_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
+    "is_removed": "BOOLEAN DEFAULT FALSE"
 }
 
 PEOPLE_SCHEMA = {
@@ -41,7 +42,8 @@ PEOPLE_SCHEMA = {
 TOPICS_SCHEMA = {
     "topic_id": "SERIAL PRIMARY KEY",
     "topic_name": "TEXT NOT NULL UNIQUE",
-    "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
+    "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
+    "topic_normalised": "VARCHAR(255)"
 }
 
 PRICES_SCHEMA = {

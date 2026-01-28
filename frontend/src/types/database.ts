@@ -56,6 +56,7 @@ export interface BookDetail extends Book {
   topic?: {
     topic_id: number;
     topic_name: string;
+    topic_normalised: string;
   };
 
   people: Array<{
@@ -149,6 +150,7 @@ export interface BookDisplayRow {
   // From topics table (t.*)
   topic_name?: string | null;
   topic_created_at?: Date | null;
+  topic_normalised: string;
 
   people: Array<{
     person_id: number;
@@ -245,6 +247,7 @@ export interface Topic {
   topic_id: number;
   topic_name: string;
   created_at: Date;
+  topic_normalised: string;
 }
 
 export interface TopicWithCount extends Topic {
@@ -373,6 +376,7 @@ export interface BookFilters {
   is_translation?: boolean;
   page?: number;
   limit?: number;
+  topic_normalised: string;
 }
 
 export interface PeopleFilters {
