@@ -34,8 +34,8 @@ const theme = createTheme({
   // Larger default font sizes for accessibility (90-year-old user)
   fontSizes: {
     xs: '10px',
-    sm: '16px',
-    md: '18px',
+    sm: '14px',
+    md: '16px',
     lg: '20px',
     xl: '24px',
   },

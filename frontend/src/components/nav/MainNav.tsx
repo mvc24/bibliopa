@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { Group, Anchor } from '@mantine/core';
 
 const links = [
-  { href: '/bibliography', label: 'Bibliographie' },
+  { href: '/books', label: 'Bibliographie' },
   { href: '/project', label: 'Projekt' },
   { href: '/contact', label: 'Kontakt' },
   { href: '/login', label: 'Login' },
