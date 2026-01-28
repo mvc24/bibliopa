@@ -16,6 +16,7 @@ import {
   Checkbox,
   Pagination,
 } from '@mantine/core';
+import { TopicsNav } from '@/components/nav/TopicsNav';
 
 export default function BibliographyPage() {
   // const [books, setBooks] = useState<BookWithRelations[]>([]);
@@ -34,7 +35,6 @@ export default function BibliographyPage() {
         setPagination(result.pagination);
       });
   }, [currentPage]);
-  console.log('current books: ', books);
   return (
     <AppShell>
       <Stack gap="md">

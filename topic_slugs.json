@@ -11,12 +11,12 @@
   },
   {
     "topic_id": 3,
-    "topic_name": "Kinder- Und Jugendliteratur",
+    "topic_name": "Kinder- und Jugendliteratur",
     "topic_normalised": "kinder"
   },
   {
     "topic_id": 4,
-    "topic_name": "Fremdsprachige Literatur In Übersetzungen",
+    "topic_name": "Fremdsprachige Literatur in Übersetzungen",
     "topic_normalised": "fremdsprachige"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "topic_id": 6,
-    "topic_name": "Reisen Geographie",
+    "topic_name": "Reisen, Geographie",
     "topic_normalised": "reisen"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "topic_id": 8,
-    "topic_name": "Deutsche Literatur Monographien",
+    "topic_name": "Deutsche Literatur: Monographien",
     "topic_normalised": "de-lit-monographien"
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "topic_id": 11,
-    "topic_name": "Ägypten Vorderer Orient",
+    "topic_name": "Ägypten, Vorderer Orient",
     "topic_normalised": "aegypten"
   },
   {
@@ -61,12 +61,12 @@
   },
   {
     "topic_id": 13,
-    "topic_name": "Deutsche Literatur Texte",
+    "topic_name": "Deutsche Literatur: Texte",
     "topic_normalised": "de-lit-texte"
   },
   {
     "topic_id": 14,
-    "topic_name": "Ethnologie Psychologie Naturwissenschaft",
+    "topic_name": "Ethnologie, Psychologie, Naturwissenschaft",
     "topic_normalised": "ethnologie"
   },
   {
@@ -101,12 +101,12 @@
   },
   {
     "topic_id": 21,
-    "topic_name": "Briefe Tagebücher Werke",
+    "topic_name": "Briefe, Tagebücher, Werke",
     "topic_normalised": "briefe"
   },
   {
     "topic_id": 22,
-    "topic_name": "Buch Verlag Almanache",
+    "topic_name": "Buch, Verlag, Almanache",
     "topic_normalised": "buch"
   },
   {
@@ -126,7 +126,7 @@
   },
   {
     "topic_id": 26,
-    "topic_name": "Geschichte Allgemein Länder",
+    "topic_name": "Geschichte Allgemein: Länder",
     "topic_normalised": "geschichte"
   },
   {
@@ -146,7 +146,7 @@
   },
   {
     "topic_id": 30,
-    "topic_name": "Sonstiges, Bildbände, Kataloge Atlanten",
+    "topic_name": "Sonstiges, Bildbände, Kataloge, Atlanten",
     "topic_normalised": "sonstiges"
   },
   {
@@ -166,7 +166,7 @@
   },
   {
     "topic_id": 34,
-    "topic_name": "Musik Und Theater",
+    "topic_name": "Musik und Theater",
     "topic_normalised": "musik"
   },
   {
@@ -216,7 +216,7 @@
   },
   {
     "topic_id": 44,
-    "topic_name": "Griechenland Rom",
+    "topic_name": "Griechenland, Rom",
     "topic_normalised": "griechenland"
   },
   {

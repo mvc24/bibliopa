@@ -33,7 +33,7 @@ const theme = createTheme({
     'var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
   // Larger default font sizes for accessibility (90-year-old user)
   fontSizes: {
-    xs: '14px',
+    xs: '10px',
     sm: '16px',
     md: '18px',
     lg: '20px',
@@ -44,6 +44,18 @@ const theme = createTheme({
     Button: {
       defaultProps: {
         size: 'lg',
+      },
+    },
+    NavLink: {
+      // ← Add this
+      styles: {
+        label: {
+          fontSize: '13px',
+          lineHeight: '10px',
+        },
+        root: {
+          padding: '4px 4px',
+        },
       },
     },
   },

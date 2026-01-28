@@ -8,13 +8,19 @@ import {
   Burger,
   Group,
   Title,
+  Box,
 } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MainNav } from '../nav/MainNav';
+import { TopicsNav } from '../nav/TopicsNav';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+
 export function AppShell({ children }: { children: React.ReactNode }) {
   const [mobileOpened, { toggle: toggleMobile }] = useDisclosure();
-  const [desktopOpened, { toggle: toggleDesktop }] = useDisclosure(false);
+  const [desktopOpened, { toggle: toggleDesktop }] = useDisclosure(true);
+  const pathname = usePathname();
+  const isOnBooksPage = pathname.startsWith('/books');
 
   return (
     <MantineAppShell
@@ -57,9 +63,8 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </Group>
         </Group>
       </AppShellHeader>
-
       <AppShellNavbar p="md">
-        <MainNav />
+        <Box>{isOnBooksPage ? <TopicsNav /> : <MainNav />}</Box>
       </AppShellNavbar>
 
       <AppShellMain>{children}</AppShellMain>
