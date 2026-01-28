@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { BookDetail } from '@/types/database';
 import { formatPerson, formatDate } from '@/lib/formatters';
 import { AppShell } from '../../../components/layout/AppShell';
@@ -62,12 +63,23 @@ export default function BookPage({
 
   return (
     <AppShell>
-      <Stack>
+      <Stack
+        gap="xl"
+        my="xl"
+      >
+        <Link
+          href="/books"
+          style={{ textDecoration: 'none' }}
+        >
+          <Text c="blue">← Zurück zur Übersicht</Text>
+        </Link>
+
         <Flex
           gap="md"
           justify="flex-start"
           align="flex-start"
           direction="row"
+          my="lg"
         >
           {/* Main Book Information */}
           <Card
@@ -212,28 +224,6 @@ export default function BookPage({
               </Group>
             )}
 
-            {book.admin_data?.original_entry && (
-              <Box>
-                <Group>
-                  <Button
-                    size="compact-sm"
-                    onClick={toggle}
-                  >
-                    Original-Eintrag anzeigen
-                  </Button>
-                </Group>
-                <Collapse in={opened}>
-                  <Text
-                    size="sm"
-                    ff="monospace"
-                    style={{ whiteSpace: 'pre-wrap' }}
-                  >
-                    {book.admin_data.original_entry}
-                  </Text>
-                </Collapse>
-              </Box>
-            )}
-
             {/* Multivolume Info */}
             {book.is_multivolume && (
               <Group gap="xs">
@@ -263,6 +253,28 @@ export default function BookPage({
                 <Text fw={500}>Verpackung:</Text>
                 <Text>{book.packaging}</Text>
               </Group>
+            )}
+
+            {book.admin_data?.original_entry && (
+              <Box>
+                <Group>
+                  <Button
+                    size="compact-sm"
+                    onClick={toggle}
+                  >
+                    Original-Eintrag anzeigen
+                  </Button>
+                </Group>
+                <Collapse in={opened}>
+                  <Text
+                    size="sm"
+                    ff="monospace"
+                    style={{ whiteSpace: 'pre-wrap' }}
+                  >
+                    {book.admin_data.original_entry}
+                  </Text>
+                </Collapse>
+              </Box>
             )}
           </Card>
 

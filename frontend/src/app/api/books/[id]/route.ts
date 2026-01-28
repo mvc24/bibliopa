@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextRequest, NextResponse } from 'next/server';
-import { query, transaction } from '@/lib/db';
+import { query } from '@/lib/db';
 import { canViewPrices, canViewDebugInfo } from '@/lib/auth';
 
 import { getSingleBookPageById } from '@/lib/queries/books';
@@ -10,7 +10,7 @@ import { getSingleBookPageById } from '@/lib/queries/books';
  */
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } },
+  { params }: { params: Promise<{ id: string }> },
 ) {
   try {
     const { id } = await params;
@@ -51,10 +51,11 @@ export async function GET(
  */
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } },
+  { params }: { params: Promise<{ id: string }> },
 ) {
   try {
-    const bookId = parseInt(params.id);
+    const { id } = await params;
+    const bookId = parseInt(id);
     const body = await request.json();
 
     if (isNaN(bookId)) {
@@ -145,10 +146,11 @@ export async function PUT(
  */
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { id: string } },
+  { params }: { params: Promise<{ id: string }> },
 ) {
   try {
-    const bookId = parseInt(params.id);
+    const { id } = await params;
+    const bookId = parseInt(id);
 
     if (isNaN(bookId)) {
       return NextResponse.json({ error: 'Invalid book ID' }, { status: 400 });

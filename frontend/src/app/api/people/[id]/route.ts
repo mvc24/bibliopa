@@ -7,29 +7,24 @@ import { query } from '@/lib/db';
  */
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> },
 ) {
   try {
-    const personId = parseInt(params.id);
+    const { id } = await params;
+    const personId = parseInt(id);
 
     if (isNaN(personId)) {
-      return NextResponse.json(
-        { error: 'Invalid person ID' },
-        { status: 400 }
-      );
+      return NextResponse.json({ error: 'Invalid person ID' }, { status: 400 });
     }
 
     // Get person
     const personResult = await query(
       `SELECT * FROM people WHERE person_id = $1`,
-      [personId]
+      [personId],
     );
 
     if (personResult.rows.length === 0) {
-      return NextResponse.json(
-        { error: 'Person not found' },
-        { status: 404 }
-      );
+      return NextResponse.json({ error: 'Person not found' }, { status: 404 });
     }
 
     const person = personResult.rows[0];
@@ -48,7 +43,7 @@ export async function GET(
        LEFT JOIN topics t ON b.topic_id = t.topic_id
        WHERE b2p.person_id = $1
        ORDER BY b.publication_year DESC, b.title`,
-      [personId]
+      [personId],
     );
 
     const personWithBooks = {
@@ -61,8 +56,11 @@ export async function GET(
   } catch (error) {
     console.error('Error fetching person:', error);
     return NextResponse.json(
-      { error: 'Failed to fetch person', message: error instanceof Error ? error.message : 'Unknown error' },
-      { status: 500 }
+      {
+        error: 'Failed to fetch person',
+        message: error instanceof Error ? error.message : 'Unknown error',
+      },
+      { status: 500 },
     );
   }
 }
@@ -74,26 +72,29 @@ export async function GET(
  */
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> },
 ) {
   try {
-    const personId = parseInt(params.id);
+    const { id } = await params;
+    const personId = parseInt(id);
     const body = await request.json();
 
     if (isNaN(personId)) {
-      return NextResponse.json(
-        { error: 'Invalid person ID' },
-        { status: 400 }
-      );
+      return NextResponse.json({ error: 'Invalid person ID' }, { status: 400 });
     }
 
     // Build update query
     const updateFields: string[] = [];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const updateValues: any[] = [];
     let paramIndex = 1;
 
     const allowedFields = [
-      'family_name', 'given_names', 'name_particles', 'single_name', 'is_organisation'
+      'family_name',
+      'given_names',
+      'name_particles',
+      'single_name',
+      'is_organisation',
     ];
 
     for (const field of allowedFields) {
@@ -107,7 +108,7 @@ export async function PUT(
     if (updateFields.length === 0) {
       return NextResponse.json(
         { error: 'No fields to update' },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -118,27 +119,29 @@ export async function PUT(
     updateValues.push(personId);
 
     const result = await query(
-      `UPDATE people SET ${updateFields.join(', ')} WHERE person_id = $${paramIndex} RETURNING *`,
-      updateValues
+      `UPDATE people SET ${updateFields.join(
+        ', ',
+      )} WHERE person_id = $${paramIndex} RETURNING *`,
+      updateValues,
     );
 
     if (result.rows.length === 0) {
-      return NextResponse.json(
-        { error: 'Person not found' },
-        { status: 404 }
-      );
+      return NextResponse.json({ error: 'Person not found' }, { status: 404 });
     }
 
     return NextResponse.json({
       success: true,
       data: result.rows[0],
-      message: 'Person updated successfully'
+      message: 'Person updated successfully',
     });
   } catch (error) {
     console.error('Error updating person:', error);
     return NextResponse.json(
-      { error: 'Failed to update person', message: error instanceof Error ? error.message : 'Unknown error' },
-      { status: 500 }
+      {
+        error: 'Failed to update person',
+        message: error instanceof Error ? error.message : 'Unknown error',
+      },
+      { status: 500 },
     );
   }
 }
