@@ -50,6 +50,53 @@ export interface Book {
   updated_at: Date;
 }
 
+// For single book detail page
+export interface BookDetail extends Book {
+  topic?: {
+    topic_id: number;
+    topic_name: string;
+  };
+
+  people: Array<{
+    person_id: number;
+    unified_id: string;
+    display_name?: string | null;
+    family_name?: string | null;
+    given_names?: string | null;
+    name_particles?: string | null;
+    single_name?: string | null;
+    is_organisation?: boolean | null;
+    is_author: boolean;
+    is_editor: boolean;
+    is_contributor: boolean;
+    is_translator: boolean;
+    sort_order?: number | null;
+  }>;
+
+  prices: Array<{
+    price_id: number;
+    amount: number;
+    source?: string | null;
+    imported_price?: boolean | null;
+    date_added: Date;
+  }>;
+
+  volumes?: Array<{
+    volume_id: number;
+    volume_number?: number | null;
+    volume_title?: string | null;
+    pages?: number | null;
+    notes?: string | null;
+  }>;
+
+  admin_data?: {
+    original_entry: string;
+    needs_review: boolean;
+    parsing_confidence?: string | null;
+    verification_notes?: string | null;
+  };
+}
+
 export interface BookWithRelations extends Book {
   topic?: Topic;
   authors: Books2People[];

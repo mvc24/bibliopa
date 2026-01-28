@@ -11,14 +11,19 @@ import {
 } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MainNav } from '../nav/MainNav';
-
+import Link from 'next/link';
 export function AppShell({ children }: { children: React.ReactNode }) {
-  const [opened, { toggle }] = useDisclosure();
+  const [mobileOpened, { toggle: toggleMobile }] = useDisclosure();
+  const [desktopOpened, { toggle: toggleDesktop }] = useDisclosure(false);
 
   return (
     <MantineAppShell
       header={{ height: 64 }}
-      navbar={{ width: 260, breakpoint: 'sm', collapsed: { mobile: !opened } }}
+      navbar={{
+        width: 260,
+        breakpoint: 'sm',
+        collapsed: { mobile: !mobileOpened, desktop: !desktopOpened },
+      }}
       padding="md"
     >
       <AppShellHeader>
@@ -29,20 +34,27 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         >
           <Group>
             <Burger
-              opened={opened}
-              onClick={toggle}
+              opened={mobileOpened}
+              onClick={toggleMobile}
               hiddenFrom="sm"
               size="sm"
               aria-label="Toggle navigation"
             />
-            <Title
-              order={3}
-              fw={700}
+            <Link
+              href="/"
+              style={{ cursor: 'pointer' }}
             >
-              Bibliopa
-            </Title>
+              <Title
+                order={2}
+                fw={700}
+              >
+                Bibliopa
+              </Title>
+            </Link>
           </Group>
-          <MainNav />
+          <Group visibleFrom="sm">
+            <MainNav />
+          </Group>
         </Group>
       </AppShellHeader>
 

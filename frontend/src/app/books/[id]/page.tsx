@@ -1,6 +1,6 @@
 'use client';
 import { use } from 'react';
-import { BookDisplayRow } from '@/types/database';
+import { BookDetail } from '@/types/database';
 import { useEffect, useState } from 'react';
 import { AppShell } from '../../../components/layout/AppShell';
 import {
@@ -23,12 +23,12 @@ export default function BookPage({
 }) {
   const { id } = use(params); // use() unwraps the Promise
 
-  const [book, setBook] = useState<BookDisplayRow | null>(null);
+  const [book, setBook] = useState<BookDetail | null>(null);
 
   useEffect(() => {
     fetch(`/api/books/${id}`)
       .then((response) => response.json())
-      .then((result) => setBook(result.data[0]));
+      .then((result) => setBook(result.data));
   }, [id]);
   return (
     <AppShell>

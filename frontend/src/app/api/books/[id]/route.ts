@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextRequest, NextResponse } from 'next/server';
 import { query, transaction } from '@/lib/db';
 
-import { getBookWithEverythingById } from '@/lib/queries/books';
+import { getSingleBookPageById } from '@/lib/queries/books';
 /**
  * GET /api/books/[id]
  * Get a single book with all related data
@@ -17,7 +18,7 @@ export async function GET(
     if (isNaN(bookId)) {
       return NextResponse.json({ error: 'Invalid book ID' }, { status: 400 });
     }
-    const book = await getBookWithEverythingById(bookId);
+    const book = await getSingleBookPageById(bookId);
 
     return NextResponse.json({ data: book });
   } catch (error) {

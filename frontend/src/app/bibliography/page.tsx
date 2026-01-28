@@ -1,10 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
-import {
-  BookDisplayRow,
-  PaginationInfo,
-  BookWithRelations,
-} from '@/types/database';
+import { BookDisplayRow, PaginationInfo } from '@/types/database';
 import { useRouter } from 'next/navigation';
 
 import { AppShell } from '../../components/layout/AppShell';
@@ -72,7 +68,7 @@ export default function BibliographyPage() {
                 <Table.Th>Titel</Table.Th>
                 <Table.Th>Autor</Table.Th>
                 <Table.Th>Erscheinungsjahr</Table.Th>
-                <Table.Th>Thema</Table.Th>
+                {/* <Table.Th>Thema</Table.Th> */}
               </Table.Tr>
             </Table.Thead>
             <Table.Tbody>
@@ -92,7 +88,7 @@ export default function BibliographyPage() {
                     })()}
                   </Table.Td>
                   <Table.Td>{book.publication_year}</Table.Td>
-                  <Table.Td>{book.topic_name}</Table.Td>
+                  {/* <Table.Td>{book.topic_name}</Table.Td> */}
                 </Table.Tr>
               ))}
             </Table.Tbody>
