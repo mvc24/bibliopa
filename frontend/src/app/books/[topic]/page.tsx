@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { BookDisplayRow, PaginationInfo } from '@/types/database';
 import { useRouter } from 'next/navigation';
 
-import { AppShell } from '../../components/layout/AppShell';
+import { AppShell } from '../../../components/layout/AppShell';
 import {
   Card,
   Title,

@@ -23,9 +23,18 @@ export async function getTotalBookCount() {
 export async function getAllBooksForTablePaginated(
   page: number,
   limit: number,
+  topicNormalised?: string,
 ) {
   const offset = (page - 1) * limit;
-  const result = await query<BookDisplayRow>(
+  let whereClause = 'WHERE b.is_removed = FALSE';
+  const params: (number | string | boolean | null)[] = [limit, offset];
+
+  if (topicNormalised && topicNormalised !== 'all') {
+    whereClause += ' AND t.topic_normalised = $3';
+    params.push(topicNormalised);
+  }
+
+  const result = await query<BookDetail>(
     sql`
     SELECT
       b.book_id,
@@ -49,11 +58,11 @@ export async function getAllBooksForTablePaginated(
     LEFT JOIN topics t ON b.topic_id = t.topic_id
     LEFT JOIN books2people b2p ON b.book_id = b2p.book_id
     LEFT JOIN people p ON b2p.person_id = p.person_id
-    WHERE b.is_removed = FALSE
+    ${whereClause}
     GROUP BY b.book_id, b.title, b.subtitle, b.publication_year, t.topic_name
     LIMIT $1 OFFSET $2
     `,
-    [limit, offset],
+    params,
   );
   return result.rows;
 }

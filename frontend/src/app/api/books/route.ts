@@ -18,7 +18,9 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url);
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '100');
-    const books = await getAllBooksForTablePaginated(page, limit);
+    const topic = searchParams.get('topic') || undefined;
+
+    const books = await getAllBooksForTablePaginated(page, limit, topic);
 
     const totalCount = await getTotalBookCount();
 
