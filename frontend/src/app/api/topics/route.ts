@@ -1,12 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { query } from '@/lib/db';
 import { getAllTopics } from '@/lib/queries/topics';
-import { Topic } from '@/types/database';
 
 /**
-
+ * GET /api/topics
+ * List all topics
  */
-export async function GET(request: NextRequest) {
+export async function GET() {
   try {
     const topics = await getAllTopics();
 
