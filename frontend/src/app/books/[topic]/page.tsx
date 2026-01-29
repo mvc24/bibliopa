@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 
-import { BookDetail, BookDisplayRow, PaginationInfo } from '@/types/database';
+import { BookDetail, PaginationInfo } from '@/types/database';
 import { useRouter } from 'next/navigation';
 
 import { AppShell } from '../../../components/layout/AppShell';
@@ -16,7 +16,6 @@ import {
   Modal,
   NumberInput,
   Text,
-  Checkbox,
   Pagination,
   Box,
 } from '@mantine/core';
