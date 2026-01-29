@@ -20,11 +20,12 @@ export async function GET(request: Request) {
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '100');
     const topic = searchParams.get('topic') || undefined;
+    const search = searchParams.get('search') || undefined;
     const canView = await canViewPrices();
 
-    const books = await getAllBooksForTablePaginated(page, limit, topic);
+    const books = await getAllBooksForTablePaginated(page, limit, topic, search);
 
-    const totalCount = await getTotalBookCount();
+    const totalCount = await getTotalBookCount(topic, search);
 
     // ===== STEP 3: Format and return response =====
     return NextResponse.json({

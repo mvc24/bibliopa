@@ -35,11 +35,28 @@ export default function BibliographyPage() {
   const [priceAmount, setPriceAmount] = useState<number | string>('');
   const [priceSource, setPriceSource] = useState('');
   const [opened, { open, close }] = useDisclosure(false);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [activeSearch, setActiveSearch] = useState('');
 
   const router = useRouter();
 
+  const handleSearch = () => {
+    if (searchTerm.trim()) {
+      setActiveSearch(searchTerm);
+      setCurrentPage(1);
+    } else {
+      setActiveSearch('');
+    }
+  };
+
   useEffect(() => {
-    fetch(`/api/books?page=${currentPage}&topic=${topic}`)
+    const url = activeSearch
+      ? `/api/books?page=${currentPage}&search=${encodeURIComponent(
+          activeSearch,
+        )}`
+      : `/api/books?page=${currentPage}&topic=${topic}`;
+
+    fetch(url)
       .then((response) => response.json())
       .then((result) => {
         console.log('Books data:', result.data);
@@ -48,7 +65,7 @@ export default function BibliographyPage() {
         setPagination(result.pagination);
         setShowPrices(result.permissions?.canViewPrices || false);
       });
-  }, [currentPage, topic]);
+  }, [currentPage, topic, activeSearch]);
 
   const bookData = books.map((book) => ({
     ...book,
@@ -87,12 +104,36 @@ export default function BibliographyPage() {
           <Stack gap="xs">
             <Title order={2}>Bibliographie</Title>
             <TextInput
-              label="Search"
-              placeholder="Title, author, keyword"
+              label="Suche"
+              placeholder="Titel oder Personen"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.currentTarget.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  handleSearch();
+                }
+              }}
             />
             <Group gap="m">
-              <Button variant="light">Advanced filters</Button>
-              <Button>Search</Button>
+              {/* <Button variant="light">Advanced filters</Button> */}
+              <Button
+                size="sm"
+                onClick={handleSearch}
+              >
+                Suchen
+              </Button>
+              {activeSearch && (
+                <Button
+                  variant="subtle"
+                  onClick={() => {
+                    setActiveSearch('');
+                    setSearchTerm('');
+                    setCurrentPage(1);
+                  }}
+                >
+                  Clear search
+                </Button>
+              )}
             </Group>
             {/* <Group gap="m">
               <Button variant="default">Download CSV</Button>
@@ -106,7 +147,7 @@ export default function BibliographyPage() {
               key={book.book_id}
               onClick={() =>
                 router.push(
-                  `/books/${book.topic?.topic_normalised}/${book.book_id}`,
+                  `/books/${book.topic?.topic_normalised}/${book.book_id}?page=${currentPage}`,
                 )
               }
               style={{ cursor: 'pointer' }}

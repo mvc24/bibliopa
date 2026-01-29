@@ -11,10 +11,41 @@ export async function getAllBooks() {
   return result.rows;
 }
 
-export async function getTotalBookCount() {
+export async function getTotalBookCount(
+  topicNormalised?: string,
+  search?: string,
+) {
+  let whereClause = 'WHERE b.is_removed = FALSE';
+  const params: (string | boolean)[] = [];
+  let paramIndex = 1;
+
+  if (search) {
+    const searchPattern = `%${search}%`;
+    whereClause += ` AND (
+      b.title ILIKE $${paramIndex} OR
+      b.subtitle ILIKE $${paramIndex} OR
+      p.family_name ILIKE $${paramIndex} OR
+      p.given_names ILIKE $${paramIndex} OR
+      p.single_name ILIKE $${paramIndex}
+    )`;
+    params.push(searchPattern);
+    paramIndex++;
+  } else if (topicNormalised && topicNormalised !== 'all') {
+    whereClause += ` AND t.topic_normalised = $${paramIndex}`;
+    params.push(topicNormalised);
+    paramIndex++;
+  }
+
   const result = await query<{ count: number }>(
-    `SELECT COUNT(*) FROM books`,
-    [],
+    `
+    SELECT COUNT(DISTINCT b.book_id) as count
+    FROM books b
+    LEFT JOIN topics t ON b.topic_id = t.topic_id
+    LEFT JOIN books2people b2p ON b.book_id = b2p.book_id
+    LEFT JOIN people p ON b2p.person_id = p.person_id
+    ${whereClause}
+    `,
+    params,
   );
 
   return result.rows[0].count;
@@ -24,14 +55,29 @@ export async function getAllBooksForTablePaginated(
   page: number,
   limit: number,
   topicNormalised?: string,
+  search?: string,
 ) {
   const offset = (page - 1) * limit;
   let whereClause = 'WHERE b.is_removed = FALSE';
   const params: (number | string | boolean | null)[] = [limit, offset];
+  let paramIndex = 3;
 
-  if (topicNormalised && topicNormalised !== 'all') {
-    whereClause += ' AND t.topic_normalised = $3';
+  if (search) {
+    // When searching, ignore topic filter and search across all fields
+    const searchPattern = `%${search}%`;
+    whereClause += ` AND (
+      b.title ILIKE $${paramIndex} OR
+      b.subtitle ILIKE $${paramIndex} OR
+      p.family_name ILIKE $${paramIndex} OR
+      p.given_names ILIKE $${paramIndex} OR
+      p.single_name ILIKE $${paramIndex}
+    )`;
+    params.push(searchPattern);
+    paramIndex++;
+  } else if (topicNormalised && topicNormalised !== 'all') {
+    whereClause += ` AND t.topic_normalised = $${paramIndex}`;
     params.push(topicNormalised);
+    paramIndex++;
   }
 
   const result = await query<BookDetail>(
