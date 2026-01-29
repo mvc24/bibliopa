@@ -1,0 +1,117 @@
+SET
+SET
+SET
+SET
+SET
+SET
+ set_config 
+------------
+ 
+(1 row)
+
+SET
+SET
+SET
+SET
+SET
+SET
+ERROR:  relation "alembic_version" already exists
+ERROR:  relation "book_admin" already exists
+ERROR:  relation "books" already exists
+ERROR:  relation "books2people" already exists
+ERROR:  relation "books2people_b2p_id_seq" already exists
+ALTER SEQUENCE
+ERROR:  relation "books2volumes" already exists
+ERROR:  relation "books2volumes_volume_id_seq" already exists
+ALTER SEQUENCE
+ERROR:  relation "books_book_id_seq" already exists
+ALTER SEQUENCE
+ERROR:  relation "people" already exists
+ERROR:  relation "people_person_id_seq" already exists
+ALTER SEQUENCE
+ERROR:  relation "prices" already exists
+ERROR:  relation "prices_price_id_seq" already exists
+ALTER SEQUENCE
+ERROR:  relation "sessions" already exists
+ERROR:  relation "topics" already exists
+ERROR:  relation "topics_topic_id_seq" already exists
+ALTER SEQUENCE
+ERROR:  relation "users" already exists
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+COPY 1
+COPY 9834
+COPY 9834
+COPY 15478
+COPY 1825
+COPY 7818
+COPY 9834
+COPY 0
+COPY 46
+COPY 0
+ setval 
+--------
+  15478
+(1 row)
+
+ setval 
+--------
+   1825
+(1 row)
+
+ setval 
+--------
+   9834
+(1 row)
+
+ setval 
+--------
+   7818
+(1 row)
+
+ setval 
+--------
+   9834
+(1 row)
+
+ setval 
+--------
+      1
+(1 row)
+
+ERROR:  could not create unique index "alembic_version_pkc"
+DETAIL:  Key (version_num)=(75a6066945d6) is duplicated.
+ERROR:  could not create unique index "book_admin_pkey"
+DETAIL:  Key (book_id)=(7370) is duplicated.
+ERROR:  could not create unique index "books2people_pkey"
+DETAIL:  Key (b2p_id)=(3870) is duplicated.
+ERROR:  could not create unique index "books2volumes_pkey"
+DETAIL:  Key (volume_id)=(457) is duplicated.
+ERROR:  could not create unique index "books_composite_id_key"
+DETAIL:  Key (composite_id)=(de-lit-monographien_20_1_10) is duplicated.
+ERROR:  could not create unique index "books_pkey"
+DETAIL:  Key (book_id)=(7364) is duplicated.
+ERROR:  could not create unique index "people_pkey"
+DETAIL:  Key (person_id)=(1955) is duplicated.
+ERROR:  could not create unique index "people_unified_id_key"
+DETAIL:  Key (unified_id)=(friedlander_saul) is duplicated.
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ERROR:  there is no unique constraint matching given keys for referenced table "books"
+ERROR:  there is no unique constraint matching given keys for referenced table "books"
+ERROR:  there is no unique constraint matching given keys for referenced table "books"
+ERROR:  there is no unique constraint matching given keys for referenced table "people"
+ERROR:  there is no unique constraint matching given keys for referenced table "books"
+ALTER TABLE
+ERROR:  there is no unique constraint matching given keys for referenced table "books"
+ALTER TABLE

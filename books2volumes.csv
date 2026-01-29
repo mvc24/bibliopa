@@ -1,0 +1,1826 @@
+volume_id,book_id,volume_number,volume_title,pages,notes
+1,36,1,Hölle,173,
+2,36,2,Fegefeuer,173,
+3,36,3,Paradies,190,
+4,37,1,Robinson Crusoe erster und zweiter Teil. Kapitän Singleton,755,
+5,37,2,Moll Flanders. Roxana. John Shappard. Jonathan Wild,662,
+6,42,1,Erster Band,463,
+7,42,2,zweiter Band,413,
+8,43,1,,631,
+9,43,2,,611,
+10,60,1,,647,
+11,60,2,,646,
+12,154,16,,,
+13,155,2,,,
+14,160,1,E. Revenscroft: The Anatomist; Isaac Jackman: All the world's a stage; Arthur Murphy: The Apprentice; Richard Brinsley Sheridan: The Critic; David Garrick: The Guardian,,Mit 6 Kupfern
+15,160,2,Edmund Smith: Phaedra; William Wycherley: The Plain Dealer; Sir John Vanbrugh: The Provok'd Husband,,Mit 4 Kupfern
+16,160,3,Sir John Vanbrugh: The Provok'd Wife; George Farquhar: The Recruiting Officer; Colley Cibber: The Refusal,,Mit 3 Kupfern
+17,160,4,"George, Late Duke of Buckingham: The Rehearsal; Sir John Vanbrugh: The Relapse; Edward Young: The Revenge; Richard Brinsley Sheridan: The Rivals",,Mit 3 Kupfern und 1 Lithographie
+18,160,5,Thomas Otway: Venice Preserved; Arthur Murphy: Way To Keep Him; William Congreve: The Way Of The World,,Mit 3 Kupfern
+19,163,1,Unschuld,456,OPbd.m. Klarsichtfolie und Leseband. Verlagsfrisch
+20,163,2,Engel,524,OPbd.m. Klarsichtfolie und Lesebändchen
+21,218,1,,453,XV Seiten Vorspann
+22,218,2,,383,
+23,219,1,,617,
+24,219,2,,649,
+25,225,1,,582,
+26,225,2,,663,
+27,227,1,,498,XV Vorspann
+28,227,2,,573,
+29,227,3,,582,
+30,381,1,,611,
+31,381,2,,583,
+32,490,1,Kim. Das Dschungelbuch. Das neue Dschungelbuch. Dunkles Indien,1041,
+33,490,2,Hart und Heiss. Kleine Geschichten aus den Bergen. Geschichten aus Simla. Die schönste Geschichte der Welt. Schwarz und Weiß. Bilanz,1135,
+34,490,3,Das Grosse Abenteuer. Fischerjungs. Puck vom Buchsberg. Staaks und Genossen. Das kommt davon. Wie spricht der Hund. Das Licht erlosch Balladen aus dem Biwak,949,
+35,547,1,,430,
+36,547,2,,334,
+37,555,3,Ein Yankee am Hofe des Königs Artus,481,"Mit Illustrationen der Erstausgabe von Daniel C. Beard und einem Anhang mit Nachwort, Zeittafel und Bibliographie"
+38,561,1,,1591,
+39,561,2,,1082,
+40,563,1,,512,
+41,563,2,,563,
+42,595,1,Ersther Theil. Buch I – II,864,"XLVIII, 864 S."
+43,595,2,Zweeter Theil. Buch II – III,958,"XXVIII, 958 S."
+44,595,3,Dritter und letzter Theil mit einem Register übers ganze Werk,801,"XLI, 801 S."
+45,604,10,,,Band X
+46,667,1,In Swanns Welt 1. Combray,290,1.- 20. Tsd.
+47,667,2,In Swanns Welt 2,271,293 – 563 S. 1. – 20. Tsd.
+48,667,3,Im Schatten junger Mädchenblüte 1,347,1. – 14. Tsd.
+49,667,4,Im Schatten junger Mädchenblüte 2,344,349 – 692 S. 1.- 14. Tsd.
+50,667,5,Die Welt der Guermantes 1,413,1. – 17. Tsd.
+51,667,6,Die Welt der Guermantes 2,371,417 – 787 S. 1. – 17. Tsd.
+52,667,7,Sodom und Gomorrha.1,354,1. – 17. Tsd.
+53,667,8,Sodom und Gomorrha.2,368,357 – 724 S. 1. – 17. Tsd.
+54,667,9,Die Gefangene 1,283,1. 17. Tsd.
+55,667,10,Die Gefangene 2,274,285 – 558 S. 1. – 17. Tsd.
+56,667,11,Die Entflohene,380,1. – 17. Tsd.
+57,667,12,Die wiedergefundene Zeit 1,252,1. – 17. Tsd.
+58,667,13,Die wiedergefundene Zeit.2,253,265.- 517 S. 1. -17. Tsd.
+59,679,1,,,
+60,679,2,,,
+61,709,1,,561,
+62,709,2,,537,
+63,737,1,Zeit der Reife,326,
+64,738,1,Die Konstitution,661,1977. 9. – 14. Tsd.
+65,738,2,Die Personalisation 1,473,1977
+66,738,3,Die Personalisation 2,694,1978. S. 477 – 1171
+67,738,4,Elbehnon oder Die Letzte Spirale,396,1978
+68,738,5,Objektive und subjektive Neurose,739,1979
+69,773,1,Quicksilver,1145,Taschenbuch
+70,773,2,Confusion,1006,Taschenbuch
+71,773,3,Principia,1119,gebunden
+72,805,1,Die Gefährten,,Erster Teil
+73,805,2,Die zwei Türme,,Zweiter Teil
+74,805,3,Die Wiederkehr des Königs,,Dritter Teil
+75,811,1,,218,
+76,811,2,,217,
+77,813,1,Die Agonie des Christentums,184,1928
+78,813,2,Tante Lula,194,1928
+79,813,3,Der Spiegel des Todes. Novellen,238,1925
+80,835,1,,252,
+81,835,2,,245,
+82,835,3,,218,
+83,835,4,,262,
+84,847,1,Erster Band,460,
+85,847,2,Zweiter Band,621,
+86,849,1,Die Wellen,293,Roman
+87,849,2,Mrs.Dalloway,238,Roman
+88,849,3,Zwischen den Akten,203,
+89,849,4,Die Fahrt zum Leuchtturm,254,Roman
+90,849,5,Orlando,291,Eine Biographie
+91,853,1,,529,
+92,853,2,,451,
+93,864,1,Die Bildhauer,432,
+94,864,2,Die Maler. Die Architekten. Die Toreuten. Die Münzstempelschneider. Die Gemmenschneider. Die Vasenmaler,,
+95,884,1,Geschichte Alexanders des Großen,467,
+96,884,2,Geschichte der Diadochen,443,
+97,884,3,Geschichte der Epigonen,563,XXIII
+98,898,1,,330,
+99,898,2,,288,
+100,906,1,,,fehlt
+101,906,2,,171,Mit 1 Titelvignette und 2 Lithographien
+102,906,3,,127,"VI, 121 S. Mit 1 Titelvignette und 1 Lithographie"
+103,906,4,,164,"VI, 158 S. Mit 1 Titelvignette und 2 Lithographien"
+104,906,5,,176,"VI, 170 S. Mit 1 Titelvignette und 2 Lithographien"
+105,906,6,,184,"V, 156 S. und 23 S. Anhang. Mit 1 Titelvignette und 2 Lithographien"
+106,945,1,,,
+107,945,2,,,
+108,948,1,Der Orient und Griechenland,500,"Mit 21 Abbildungen und 3 Karten. A.d.Engl. XI, 500 SS."
+109,948,2,Rom,502,Mit 21 Abbildungen und 2 Karten 502 S.
+110,956,1,Die Mythologie der Griechen,614,"Zweite Ausgabe. Mit zwölf lithographierten Tafeln. 1855. VIII, 614 SS."
+111,956,2,Die Mythologie der Römer für Gebildete und die studierende Jugend,495,1845. 495 S.
+112,956,3,Die Mythologie der Ägypter für die Gebildeten und die studierende Jugend,300,Mit 13 lithographierten Tafeln. 1846. 300 S.
+113,956,4,Die Mythologie der Semiten für Gebildete und die studierende Jugend,364,1849. 364 S.
+114,956,5,Die Mythologie der Perser für Gebildete und die studierende Jugend,403,1850. 403 S.
+115,956,6,Die Mythologie der Germanen,367,Zweite Ausgabe. 1855. 367 S.
+116,956,7,Die Mythologie der Slawen für Gebildete und die studierende Jugend,482,1853. 482 S.
+117,956,8,Generalregister,98,1855. 98 S.
+118,958,1,Die Götter,308,"Mit 22 Abbildungen. XII, 308 S."
+119,958,2,Die Heroen,262,Mit 20 Abbildungen. 262 S.
+120,1084,1,1.Teil der vollständigen Ausgabe,205,
+121,1084,2,2. Teil der vollständigen Ausgabe,232,
+122,1101,1,,,"XV, 2659 Spalten und 221 S."
+123,1101,2,,,"XV, 2659 Spalten und 221 S."
+124,1124,1,Erstes Heft,91,"VIII,83 S."
+125,1124,2,Zweites Heft,116,116 S.
+126,1127,2,Zweiter Band,290,
+127,1132,1,Gott und Schöpfung,419,"LXXXIII, 419, 32 S."
+128,1132,2,Die sittliche Weltordnung,524,"LXXIV, 524 S."
+129,1132,3,Der Mensch und das Heil,664,"Mit Sachverzeichnis und Glossar. CXVIII, 664 S. und Verlags Werbung"
+130,1140,1,Der cherubinische Wandersmann oder geistreiche Sinn und Schlußreime zur göttlichen Beschaulichkeit anleitend. Anno 1675,,
+131,1140,2,Heilige Seelenlust oder geistliche Hirtenlieder der in ihren Jesum verliebten Psyche. Anno 1675. Mit Anhang,,
+132,1141,2,,366,Zweiter Band
+133,1172,1,,339,Erster Band
+134,1181,2,Ausgewählte Schriften des Hl. Basilius des Großen. Zweiter Band,366,1877
+135,1181,,Johannes von Damaskus Darlegung des Orthodoxen Glaubens,316,1880
+136,1181,1,Origenes Ausgewählte Schriften. Erster Band,339,1874
+137,1183,1,Die Väter der Kirche,337,
+138,1183,2,Die Welt der Mystik,352,
+139,1184,1,,,
+140,1184,2,,,
+141,1227,1,Bücher I – VI,377,Mit einem Frontispiz XXI
+142,1227,2,Bücher VII – X,362,Mit einem Frontispiz
+143,1233,1,,466,XXXIX Vorspann
+144,1233,2,,509,
+145,1247,1,,396,
+146,1247,2,,376,
+147,1251,2,,,
+148,1255,1,,547,XL Vorspann
+149,1255,2,,529,
+150,1255,3,,636,
+151,1279,1,Streitschriften wider die Epikureer,171,"XII, 171 S."
+152,1279,2,Parallelschriften zu Senecas Dialogen,174,"XV, 174 S."
+153,1279,3,Politische Schriften,204,"XII, 204 S."
+154,1289,1,Dialoge I – VI,407,"XVII, 407 S. Mit Besitzervermerk"
+155,1289,2,Dialoge VII – XII,371,371 S.
+156,1289,3,An Lucilius Briefe 1 – 69,621,"XIV, 621 S."
+157,1289,4,An Lucilius Briefe 1 – 69,867,"XIV, 867 S."
+158,1289,5,Über die Milde. Über die Wohltaten,621,"XII, 621 S."
+159,1290,1,Briefe 1 – 80,245,
+160,1290,2,Briefe 81 – 124,246,
+161,1291,1,Der Dialoge erster Teil. Buch I-VI,266,"XXIV, 266 S."
+162,1291,2,Der Dialoge zweiter Teil Buch VII-XII,240,240 S.
+163,1291,3,Briefe an Lucilius Erster Teil. Brief 1-81,374,"VIII, 374 S."
+164,1291,4,Briefe an Lucilius Zweiter Teil Brief 82-124,364,"VIII, 364 S."
+165,1293,1,König Oedipus. Oedipus in Kolonos. Antigone,224,Erster Theil
+166,1293,2,Der rasende Ajas. Philoktetes. Elektra. Die Trachinierinnen,248,Zweiter Theil
+167,1317,1,,321,CXXVIII Seiten Einleitung
+168,1317,2,,716,
+169,1318,3,,,
+170,1339,1,die Verwandlungen,609,"XXX, 609 SS. Erste dt. Übersetzung in Prosa"
+171,1340,1,die Verwandlungen,609,
+172,1341,1,,,
+173,1341,2,,,
+174,1351,1,,352,"XVI, 352 S."
+175,1385,1,Von der Steinzeit bis zu den Mysterien von Eleusis,433,"1978, 5. Auflage, Unterstreichungen mit Bleistift, sonst neuwertig"
+176,1385,2,Von Gautama Buddha bis zu den Anfängen des Christentums,464,"1979, 3. Auflage, wenige Anstreichungen mit Bleistift, neuwertig"
+177,1385,3,Von Mohammed bis zum Beginn der Neuzeit,326,"1983, III/1, verlagsfrisch"
+178,1385,4,Vom Zeitalter der Entdeckungen bis zur Gegenwart,496,"1991, III/2, verlagsfrisch"
+179,1385,5,Quellentexte,456,"1981, Band IV, übersetzt und herausgegeben von Günter Lanczkowski, verlagsfrisch"
+180,1390,1,Glaube und Weisheit der Hindus,334,
+181,1390,2,"Dichtung, Wissenschaft und Staatskunst der Hindus",348,
+182,1392,1,,605,
+183,1399,1,,,
+184,1399,2,,,
+185,1426,1,,,
+186,1426,2,,,
+187,1426,3,,,
+188,1426,4,,,
+189,1426,5,,,
+190,1426,6,Registerband,,
+191,1435,1,,,Nur dieser Band vorhanden
+192,1436,2,,,vorhanden
+193,1436,3,,,vorhanden
+194,1437,1,1946-49,,
+195,1437,2,1966-71,,
+196,1438,2,,,Fehlt erster Band. Neuwertiger grüner HLdr. Band mit Lesebändchen
+197,1439,1,,,fehlt
+198,1439,2,,,fehlt
+199,1439,3,,,
+200,1440,1,,,vorhanden
+201,1440,2,,,vorhanden
+202,1441,3,,,Suhrkamp stw 576
+203,1441,4,,,Suhrkamp stw 577
+204,1442,2,,,Nur Band 2 vorhanden
+205,1443,1,Wien und Niederösterreich 1. Abtlg. Wien,326,"Titelblatt fehlt, dieses jedoch in einer schönen HS. nachgeschrieben"
+206,1443,4,Wien und Niederösterreich. 2. Abtlg. NIEDERÖSTERREICH,360,
+207,1443,5,Ungarn Band I,528,
+208,1443,7,Steiermark,412,
+209,1443,8,Kärnten und Krain,508,
+210,1443,9,Ungarn Band II,658,
+211,1443,10,"Das Küstenland (Görz, Gradiska, Triest und Istrien.)",372,
+212,1443,11,Dalmatien,352,
+213,1443,12,Ungarn (III. Band),604,
+214,1443,14,Böhmen (I. Abtheilung),618,
+215,1443,15,Böhmen (II. Abtheilung),680,
+216,1443,16,Ungarn (IV. Band),602,
+217,1443,21,Ungarn (V. Band). (2. Abtheilung),482,
+218,1443,23,Ungarn (VI. Band),598,
+219,1444,2,,,vorhanden
+220,1444,4,,,vorhanden
+221,1445,1,,322,Mit 30 Bildern und einem Faksimile zum Teil nach unveröffentlichten Originalen. XLII Seiten Vorwort
+222,1446,1,,,Band 1 vorh.
+223,1448,1,,437,
+224,1448,2,,434,
+225,1452,3,Geographische Charakterbilder,,24 Bildertafeln in Farbendruck
+226,1453,8,,256,Achtes und letztes Bändchen
+227,1471,43,,572,Mit vielen Abbildungen
+228,1494,9,,572,"Mit 30 Lithographien nach Originalzeichnungen von H.Bürkner, Julius Scholz Hermann Wagner und Andern"
+229,1498,20,,435,Mit 8 farbigen und 20 Tondruckbildern sowie zahlreichen Text-Illustrationen
+230,1519,1,Mythologie der Urvölker,568,
+231,1519,2,Mythologie des Ostens,656,
+232,1519,3,Mythologie des Westens,653,
+233,1519,4,Schöpferische Mythologie,862,
+234,1521,1,,554,"XLIX, 505 SS."
+235,1521,2,,492,492 SS.
+236,1527,1,,315,
+237,1527,2,,303,
+238,1527,3,,343,
+239,1528,1,,1044,XLII
+240,1528,2,,540,XII
+241,1528,3,,,
+242,1530,1,,368,"XV, 368 S."
+243,1534,1,,337,
+244,1534,2,,396,
+245,1555,1,Die Mythologie der Griechen,614,"Zweite Ausgabe. Mit zwölf Lithographierten Tafeln. 1855. VIII, 614 S."
+246,1555,2,Die Mythologie der Römer für Gebildete und die studierende Jugend,495,1845. 495 S.
+247,1555,3,Die Mythologie der Ägypter für Gebildete und die studierende Jugend,300,Mit 13 lithographierten Tafeln. 1846. 300 S.
+248,1555,4,Die Mythologie der Semiten für Gebildete und die studierende Jugend,364,1849. 364 S.
+249,1555,5,Die Mythologie der Perser für Gebildete und die studierende Jugend,403,1850. 403 S.
+250,1555,6,Die Mythologie der Germanen,367,Zweite Ausgabe. 1855. 367 S.
+251,1555,7,Die Mythologie der Slawen für Gebildete und die studierende Jugend,482,1855. 482 S.
+252,1555,8,General-Register zu Konrad Schwenck`s Mythologie der Griechen,98,"1855. VII, 98 S."
+253,1556,1,,,
+254,1556,2,,,
+255,1556,3,,,
+256,1556,4,,,
+257,1556,5,,,
+258,1556,6,,,
+259,1556,7,,,
+260,1556,8,,,
+261,1556,9,,,
+262,1556,10,,,
+263,1566,1,Erstes Bändchen,222,München 1810
+264,1566,2,Zweytes Bändchen,222,München 1810
+265,1566,3,Drittes Bändchen,246,Leipzig 1810
+266,1566,4,Viertes Bändchen,294,"München 1810, Mit einem Titelkupfer"
+267,1575,1899,Jahrgang 1899,,
+268,1575,1902,Jahrgang 1902,,
+269,1575,1903,Jahrgang 1903,,2 Exemplare
+270,1575,1904,Jahrgang 1904,,2 Exemplare
+271,1575,1905,Jahrgang 1905,,
+272,1575,1906,Jahrgang 1906,,
+273,1575,1908,Jahrgang 1908,,
+274,1575,1909,Jahrgang 1909,,
+275,1575,1910,Jahrgang 1910,,
+276,1575,1911,Jahrgang 1911,,
+277,1575,1912,Jahrgang 1912,,2 Exemplare
+278,1575,1913,Jahrgang 1913,,
+279,1575,1914,Jahrgang 1914,,2 Exemplare
+280,1575,1915,Jahrgang 1915,,
+281,1575,1918,Jahrgang 1918,,
+282,1575,1919,Jahrgang 1919,,2 Exemplare
+283,1577,1,Arbeitswelt und Bürgergeist,885,München Beck 1990
+284,1577,2,Machtstaat vor der Demokratie,948,München Beck 1992
+285,1580,1,,596,"XV, 596 SS."
+286,1580,2,,671,"VII, 671 SS."
+287,1580,3,,682,"X, 682 SS."
+288,1580,4,,654,"X, 654 SS."
+289,1580,5,,590,"XVI, 590 SS."
+290,1580,6,,860,"XVI, 860 SS."
+291,1604,1,Köln I,243,XXIV Vorspann
+292,1604,2,Köln II,245,XIV Vorspann
+293,1604,3,Köln III,238,XXXI Vorspann
+294,1605,1,Bayerische Chroniken des 14. Jahrhunderts,231,
+295,1605,2,Italienische Quellen des 14. Jahrhunderts,232,
+296,1608,1,Einleitung Buch I-IV,293,
+297,1608,2,Buch V-VIII,313,
+298,1608,3,Buch IX-X. Register,247,
+299,1618,1,,,
+300,1618,2,,,
+301,1644,1,,436,Mit einem Nachtrag von Paulhans Peters. 3. Aufl.
+302,1644,2,,647,Mit einem Nachtrag von Paulhans Peters. 3. Aufl.
+303,1644,3,,223,
+304,1672,1,Flämische Malerei um 1600. Tradition und Fortschritt,535,Kunsthistorisches Museum Wien 7. Dezember 1997 bis 14. April 1998
+305,1672,2,PIETER BRUEGHEL d.Ä.. Beiheft: ergänzende Leihgaben zur Ausstellung im Kunsthistorischen Museum Wien,18,OBrosch.
+306,1672,3,PIETER BRUEGHEL d.Ä.. Im Kunsthistorischen Museum Wien,164,Skira und KHM Wien 1997
+307,1690,1,Land und Volk,60,Mit 142 Abb. a. Taf. und 60 S. Text
+308,1690,2,Die Bildende Kunst,60,Mit 140 Abb. a. Taf. und 60 S. Text
+309,1740,1,Erstes Heft,82,Wien Sartori 1866
+310,1740,2,Zweites Heft,82,Wien Sartori 1867
+311,1740,3,Drittes Heft,44,Wien Sartori 1868
+312,1757,1,Norm und Form,208,
+313,1757,2,Das symbolische Bild,294,
+314,1757,3,Die Entdeckung des Sichtbaren,198,
+315,1757,4,Neues über alte Meister,144,
+316,1772,1,Eine Bild-Enzyklopädie,417,Mit 1011 Abbildungen
+317,1772,2,,600,
+318,1775,1,Geschichte des Lebens und des Werkes,559,IX Seiten Vorspann
+319,1775,2,Katalog,620,Mit 1000 Abbildungen
+320,1775,3,Briefe und Dokumente,,"Mit zahlreichen Abbildungen, Faksimiles und einer gefalteten Tafel"
+321,1810,1,,382,Mit zahlr. Abb. 1988. 7. – 8. Tausend
+322,1810,2,,475,Mit zahlr. Abb. 1987
+323,1817,1,Werdezeit,131,Mit 56 Abb. auf Tafeln
+324,1817,2,Reifezeit,146,Mit 85 Abb. auf Tafeln
+325,1822,1,Katalog,168,
+326,1822,2,Abbildungen,293,
+327,1826,1,1893 – 1906,659,
+328,1826,2,1907 – 1940,1346,
+329,1863,1,,95,
+330,1863,2,,67,
+331,1914,1,,67,
+332,1914,2,,66,
+333,1914,3,,44,
+334,1914,4,,124,
+335,1915,1,,566,
+336,1915,2,,319,
+337,1929,1,Werke 1890 – 1936,,
+338,1929,2,Werke 1937 – 1973,,
+339,1956,1,Anfänge und Entfaltung 1400 – 1470,462,Mit Aufnahmen von Antonio Quattrone. Mit 256 Abb. auf Taf. 134 kleineren Abb.
+340,1956,2,Die Blütezeit 1470 – 1510,470,Mit Aufnahmen von Antonio Quattrone und Fabio Lensini. Mit 238 Abb. auf Taf. 149 kleineren Abb.
+341,2005,1,Textband,333,
+342,2005,2,Tafelband,,230 ganzseitige schwarz-weiß Abbildungen
+343,2033,1,Der Impressionismus in Frankreich,400,von Peter H. Feist
+344,2033,2,Der Impressionismus in Europa und Nordamerika,712,"von Beatrice von Bismarck, Andreas Blühm, Peter H. Feist, Jens Peter Munk, Karin Sagner-Düchting und Ingo F. Walther"
+345,2069,5,,,
+346,2073,1,Ikonographie und Ikonologie,,
+347,2159,1,Erster Band: Florenz. Siena. Umbrien. Rom.,,Toskana
+348,2159,2,Zweiter Band: Lombardei. Emilia. Venedig.,,
+349,2170,1,,243,"XXIV, 243 S."
+350,2170,2,,245,"XIV, 245 S."
+351,2170,3,,238,"XXXI, 238 S."
+352,2183,1,Der Künstler,192,"Von Anna Maria Brizio, Maria Vittoria Brugnoli und Andre Chastel"
+353,2183,2,Der Forscher,192,"Von Carlo Zammattio, Augusto Marinoni und Anna Maria Brizio"
+354,2183,3,Der Erfinder,192,"Von Ludwig H. Heydenreich, Bern Dibner und Ladislao Reti"
+355,2215,1,Bilderschrift,117,Mit einer Zeichnung
+356,2215,2,Bilderschrift,70,33 Zeichnungen
+357,2250,1,,535,
+358,2250,2,,164,
+359,2295,1,,398,"IX, 398 SS."
+360,2296,3,,172,
+361,2297,1,Ursprünge und Anfänge,345,"IX, 345 SS."
+362,2298,2,Gnostisch-theosophische und freimaurerisch-okkulte Geheimgesellschaften bis an die Wende zum 20.Jahrhundert. Wege in die Gegenwart,582,"XII, 582 SS."
+363,2301,1,Zeugnisse der Kirchenväter,493,"Unter Mitwirkung von Ernst Haenchen und Martin Krause. Eingeleitet, übersetzt und erläutert von Werner Foerster"
+364,2301,2,Der Manichäismus,464,"Unter Mitwirkung von Jes Peter Asmussen eingeleitet, übersetzt und erläutert von Alexander Böhlig"
+365,2301,3,Koptische und mandäische Quelle,499,"Eingeleitet, übersetzt und erläutert von Martin Krause und Kurt Rudolph. Herausgegeben von Werner Foerster"
+366,2302,3,Der Manichäismus,462,
+367,2328,9,,,
+368,2346,1,,,
+369,2346,2,,,
+370,2364,1,3 Teile in einem Band,736,"XLVII, 216, 273, 247 SS"
+371,2376,1,,,
+372,2376,2,,,
+373,2377,1,Die Symbolik des Katharertums und das Problem des heterodoxen Symbols im Rahmen der abendländischen Kultureinheit,236,Alles Erschienene!
+374,2384,1,A – K,,
+375,2385,1,,,
+376,2385,2,L –Z,,
+377,2388,1,Erster Band. Zweite Abtheilung,166,ohne Kupfer
+378,2403,1,,,Erster Band
+379,2405,1,,,
+380,2405,2,,,
+381,2431,59,,,Band 59
+382,2437,127,,,Band 127
+383,2452,74,,,
+384,2455,43,,,Band 43
+385,2456,102,,,Band 102
+386,2470,162,,,Band 162
+387,2490,143,,,Band 143
+388,2501,12,,128,
+389,2516,1,Erster Band,422,Mit 17 Bildbeigaben auf Tafeln 1922
+390,2516,2,Zweiter Band,263,Mit 16 Bildbeigaben auf Tafeln 1927
+391,2516,3,Dritter Band,318,Mit 10 Bildbeigaben auf Tafeln 1931
+392,2521,1,Zu den Dichtungen und ästhetischen Schriften,220,
+393,2521,2,"Zu den kritischen, antiquarischen und philosophischen Schriften",179,
+394,2537,147,,,Band 147
+395,2545,111,,,
+396,2551,72,,,Band 72
+397,2553,93,,,Band 93
+398,2562,125,,,Band 125
+399,2575,1,,420,
+400,2575,2,,494,
+401,2578,56,,,
+402,2580,144,,,
+403,2584,1,,234,
+404,2584,2,,233,
+405,2584,3,,246,
+406,2585,1,,331,
+407,2590,1,,204,
+408,2590,2,,256,
+409,2598,1,,771,
+410,2598,2,,863,
+411,2598,3,,837,
+412,2598,4,,837,
+413,2598,5,,778,
+414,2598,6,,775,
+415,2602,1,Aus älteren Quellen,321,"XVI, 321 S. Mit Eignerstempel. Buchausstattung von F.H. Ehmke"
+416,2602,2,Aus neueren Sammlungen,348,"VIII, 348 S. Mit Eignerstempel"
+417,2610,1,,234,
+418,2610,2,,233,
+419,2610,3,,246,
+420,2611,2,,370,
+421,2615,1,,421,
+422,2615,2,,479,
+423,2621,1,,679,Erster Band übertragen von Felix Paul Greve. Unveränderter Neudruck der Erstauflage von 1909
+424,2621,2,,743,Zweiter Band übertragen von Paul Hansmann
+425,2630,1,,,Band I
+426,2679,1,,251,
+427,2679,2,,257,
+428,2770,1,Vierundvierzig Gedichte,53,
+429,2771,2,,,Band 2
+430,2802,3,Schickeria,,
+431,2802,4,Prominenz,,
+432,2817,1,Liebe und Wald,,Erste Folge
+433,2821,2,,,
+434,2867,2,Gertrud,503,
+435,2984,1,Orpheus und Euridike,1222,
+436,2985,8,,,Band VIII
+437,3057,1,,441,
+438,3057,2,,486,Pages 443-929
+439,3059,1,,,1981. Erste Auflage
+440,3059,2,,325,1982. 17. und 18. Tausend
+441,3059,3,,360,1982. 27.-28.Tausend. EA
+442,3083,2,1964-1977,208,
+443,3361,1,,,sehr schön
+444,3361,2,,,sehr schön
+445,3718,49,,,2. 230-446 S.
+446,3719,69,,,
+447,3719,72,,,
+448,3719,75,,,
+449,3719,77,,,
+450,3719,82,,,
+451,3719,91,,,
+452,3720,,1965,82,
+453,3720,,1966,98,
+454,3721,1,,,Reprint covering 1965-1970 period
+455,3721,2,,,Reprint covering 1965-1970 period
+456,3724,200,,404,"53. Jahrgang, 200. Heft der Gesamtfolge, Juni 2013"
+457,3725,1966,,173,4 Ex.
+458,3725,1967,,230,3 Ex.
+459,3725,1968,,219,2 Ex.
+460,3725,1969,,278,4 Ex.
+461,3725,1970,Heft 1,173,2 Ex. Ab 1970 Wiener Halbjahresschrift…herausgegeben von Otto Breicha in Verbindung mit dem Museum des 20. Jahrhunderts (Wien)
+462,3725,1970,Heft 2,178,2 Ex.
+463,3725,1971,Heft 1,195,3 Ex.
+464,3725,1971,Heft 2,208,3 Ex.
+465,3725,1972,Heft 1,220,3 Ex.
+466,3725,1972,Heft 2,195,
+467,3725,1973,Heft 1,211,
+468,3725,1973,Heft 2,205,2 Ex.
+469,3725,1974,Heft 1,207,2 Ex.
+470,3725,1974,Heft 2,187,2 Ex.
+471,3725,1975,Heft 1,207,
+472,3725,1975,Heft 2,273,
+473,3725,1976,Heft 1,379,2 Ex.
+474,3725,1976,Heft 2,286,
+475,3725,1977,Heft 1,279,2 Ex.
+476,3725,1977,Heft 2,349,2 Ex. Ab jetzt Herausgegeben von Otto Breicha in Zusammenarbeit mit dem Kulturamt der Stadt Wien und dem Museum des 20. Jahrhunderts
+477,3725,1978,Heft 1,345,2 Ex.
+478,3725,1978,Heft 2,430,3 Ex.
+479,3725,1979,Heft 1,192,2 Ex. Ab jetzt Zeitschrift für Literatur und Kunst…und Bandangabe
+480,3725,1979,Heft 2,177,2 Ex.
+481,3725,1979,Heft 3,218,2 Ex.
+482,3725,1979,Heft 4,127,2 Ex.
+483,3725,1980,Heft 1,261,2 Ex.
+484,3725,1980,Heft 2,237,2 Ex.
+485,3725,1980,Heft 3,141,2 Ex.
+486,3725,1980,Heft 4,160,2 Ex.
+487,3725,1981,Heft 1,214,2 Ex.
+488,3725,1981,Heft 2,301,
+489,3725,1981,Heft 3,266,2 Ex.
+490,3725,1981,Heft 4,140,
+491,3725,1982,Heft 1,202,
+492,3725,1982,Heft 2,190,
+493,3725,1982,Heft 3,245,
+494,3725,1982,Heft 4,207,
+495,3725,1983,Heft 1,181,2 Ex.
+496,3725,1983,Heft 2,246,2 Ex.
+497,3725,1984,Heft 1,246,
+498,3725,1984,Heft 2,254,
+499,3725,1985,Heft 1,140,2 Ex.
+500,3725,1985,Heft 2,125,
+501,3725,1986,Heft 1,155,2 Ex.
+502,3725,1986,Heft 2,157,
+503,3725,1987,Heft 1,157,
+504,3725,1987,Heft 2,168,
+505,3725,1988,Heft 1,142,
+506,3725,1988,Heft 2,142,
+507,3725,1989,Heft 1,141,2 Ex.
+508,3725,1989,Heft 2,141,2 Ex. Von 1966 bis 1997 komplett
+509,3727,1,,,
+510,3727,2,,,
+511,3727,3,,,
+512,3727,4,,,
+513,3727,5,,,
+514,3727,6,,,
+515,3727,7,,,
+516,3727,8,,,
+517,3727,9,,,
+518,3727,10,,,
+519,3728,1,Heft 1,,Oktober 1927
+520,3728,2,Heft 2-3,,Dez./Jan. 1927/28
+521,3728,4,Heft 4,,Februar 1928
+522,3728,5,Heft 5/6,,April 1928
+523,3730,1,,,
+524,3800,1,,464,
+525,3800,2,,447,
+526,3800,3,,550,
+527,3800,4,,346,
+528,3802,1,,411,
+529,3802,2,,397,
+530,3823,1,Buch I,373,
+531,3823,2,Buch II,777,
+532,3836,1,,338,I. Bändchen
+533,3862,27,,,Mit 16 Seiten Verlagswerbung
+534,3865,1,,,Teil 2
+535,3866,1,,468,
+536,3881,1,,538,506 S. u.32 S. Verlagsanzeigen
+537,3881,2,,539,
+538,3882,1,,506,32 S. Bücherverzeichnis des Verlages
+539,3882,2,,539,
+540,3888,1,Wandlungen des Verhaltens in den weltlichen Oberschichten des Abendlandes,502,
+541,3889,2,Wandlungen der Gesellschaft. Entwurf zu einer Theorie der Zivilisation,601,
+542,3902,17,,,Band 17
+543,3924,31,,,Band 31
+544,3933,3,Erster Teil,299,stw 576
+545,3933,4,,,stw 577
+546,3978,4,Zeitgeschichtliche Betrachtungen. Das Karma der Unwahrhaftigkeit. Erster Teil,396,Dreizehn Vorträge
+547,4085,1,,,"Mit einer Widmung von Franz Vranitzky, österr. Bundeskanzler"
+548,4177,1,Vom Römischen Imperium zum Byzantinischen Reich,621,Herausgegeben von Paul Veyne
+549,4177,2,Vom Feudalzeitalter zur Renaissance,605,Herausgegeben von Georges Duby
+550,4177,3,Von der Renaissance zur Aufklärung,629,Herausgegeben von Philippe Aries und Roger Chartier
+551,4177,4,Von der Revolution zum Großen Krieg,657,Herausgegeben von Michel Perrot
+552,4177,5,Vom Ersten Weltkrieg zur Gegenwart,621,Herausgegeben von Antoine Prost und Gerard Vincent
+553,4182,1,,317,X Seiten Vorwort
+554,4182,2,,350,
+555,4182,3,,341,
+556,4184,1,Das Fiskalamt des Königreichs Böhmen in der älteren Zeit bis zum Jahre 1620,254,"XV, 254 S."
+557,4188,1,,165,
+558,4188,2,,176,
+559,4188,3,,165,
+560,4189,15,Elbogner Kreis,382,"LIV, 382 S. Mit einer Lithographie von Elbogen"
+561,4204,1,,,
+562,4204,2,,,
+563,4207,1,,424,XX S. Vorspann
+564,4207,2,,398,VIII S. Vorspann
+565,4207,3,,463,X S. Vorspann
+566,4215,46,Almanach auf das Jahr 46,318,ohne OU. Sehr gut erhalten
+567,4215,47,Almanach auf das Jahr 47,235,m. OU. Sehr gut erhalten
+568,4215,48,Almanach auf das Jahr 48 des zwanzigsten Jahrhunderts,320,U. an den Rändern etwas eingerissen
+569,4216,2,Zweiter Band so das siebente bis zwölfte Stück enthält nebst einem doppelten Register,548,und 7 Bll. Register in sechs monatlichen Nachrichten über Bücher in einem Band
+570,4217,1,Textband,552,"XVI, 552 S."
+571,4217,2,Bildband,328,328 S.
+572,4218,1,,735,XIII Seiten Vorspann
+573,4218,2,,371,
+574,4219,1,Deutsch Tanagra. Text. Porzellanfiguren des achtzehnten Jahrhunderts,247,"Mit zahlreichen Illustrationen, Vignetten, Leisten und Schlussstücken, ferner 109 Lichtdrucktafeln und 75 Autotypische Tafeln. (4 S.Vorwort), LXXXIV, 159 S."
+575,4219,2,Kunstgewerbe – Ölgemälde – Graphische Künste,158,"90 Illustrationen, außer zahlreichen Vignetten, Leisten, Schlussstücken etc. ferner 39 Lichtdruck-Tafeln und 32 autotypische Tafeln"
+576,4220,1,Biographien der Wiener Künstler und Schriftsteller,619,1902
+577,4220,2,Biographien und Bibliographie der deutschen Künstler und Schriftsteller in Österreich-Ungarn ausser Wien. (Mit Nachtrag für Wien.),388,1906
+578,4221,1,Autographen-Sammlung Basel,300,"Nr. 68 (gestempelt), Tafel XXXIII"
+579,4221,2,Nachtrag III zur Autographen-Sammlung,72,"304-376, Tafel XXXIV-LXXVII"
+580,4221,3,Nachtrag IV zur Autographen-Sammlung,34,"378-412, Tafel LXXVIII-LXXXXVII"
+581,4225,1,,702,Mit 323 Abb.i.Text und 112 ganzs. Bildtafeln
+582,4225,2,,669,Mit 356 Abb.i.Text und 56 ganzs. Bildtafeln
+583,4226,1,lateinisch-deutscher Theil,,"XX, 3214 Sp."
+584,4230,1,Grammatica Anglicana concentrata oder kurzgefaßte Englische Grammatic,314,Fünfte verbesserte Auflage von M.J.B. Rogler. Leipzig und Züllichau 1781
+585,4230,2,Vollständiges Deutsch-Englisches Wörterbuch als zweiter Theil zu Theodor Arnolds English Vocabulary,236,Erste Ausgabe. Leipzig und Züllichau bey N. S. Frommanns Erben 1790. M. Exlibris
+586,4259,1,Original 1905 edition,441,"11, X, 441 S."
+587,4259,2,2005 edition with introduction,448,Herausgegeben von Thomas Keiderling
+588,4317,1,Vom Altertum bis zur Renaissance,278,
+589,4317,2,Vom Barock bis zur Gegenwart,612,
+590,4333,1,Musterbuch,,"18 Blätter, Originalhalbeder"
+591,4333,2,Kommentarband,54,"mit 8 ganzseitigen Abbildungen, Originalpappband"
+592,4389,1,,125,II. Serie Band I
+593,4417,2,,380,II. Serie Band II
+594,4435,15,BYZANZ WIEDER EIN WELTREICH. Das Zeitalter der Makedonischen Dynastie. Teil I,308,
+595,4471,9,,,
+596,4474,2,,518,Nur Band 2 von 3 Bänden vorhanden
+597,4493,1,,954,"7, CXLVII, 800 S."
+598,4493,2,,1749,1749 S.
+599,4499,2,Danilo II. und sein Schüler: Die Königsbiographien,336,
+600,4501,1,,562,XV
+601,4501,2,,455,
+602,4505,14,,,Band XIV
+603,4510,1,,,Band I
+604,4515,1,,,
+605,4515,2,,,
+606,4517,1,,136,
+607,4517,2,,252,
+608,4565,1,Erster Band A – K,712,"1953. XLVII, 712 S."
+609,4565,2,Zweiter Band L – Ssuda,712,1955. 712 S.
+610,4565,3,Dritter Band Sta – Y,697,"1958. VII, 697 S."
+611,4591,1,"Gedichte, Poeme",329,Mit 45 Abb. a. Taf.
+612,4591,2,"Stücke, Essays, Reden",421,Mit 83 Abb. a. Taf.
+613,4591,3,"Briefe, Tagebücher",391,Mit 20 Abb. a. Taf.
+614,4607,1,,,
+615,4612,1,"Poesie. Übersetzungen, Umdichtungen von H. C. Artmann, Paul Celan, Friederike Mayröcker u.a. Texte über Chlebnikow von Majakovskij und Tatlin",393,
+616,4612,2,"Prosa Schriften Briefe. Deutsch von Peter Urban und Rosemarie Ziegler. Buchumschläge, Entwürfe, Fotos u.a.",630,
+617,4619,1,Der Doppelgänger. Frühe Romane und Erzählungen,916,1961
+618,4619,2,Onkelchens Traum. 3 Romane,997,1960
+619,4619,3,Aufzeichnungen aus einem Totenhaus und drei Erzählungen,861,1964. 6.-8.Tsd.
+620,4619,4,Der Spieler. Späte Romane und Novellen,781,1959
+621,4619,5,Tagebuch eines Schriftstellers. Notierte Gedanken,666,1963
+622,4619,6,Rodion Raskolnikoff. Schuld und Sühne,762,1964. 62.-65.Tsd.
+623,4619,7,Der Idiot,979,1973. 72.-74. Tsd.
+624,4619,8,Die Dämonen,,fehlt
+625,4619,9,Der Jüngling. Roman,892,1963. 43.-45. Tausend
+626,4619,10,Die Brüder Karamasoff. Roman in vier Teilen und einem Epilog,1303,1959. 95.Tsd.
+627,4645,3,Nach Schlüsselburg,,Dritter Teil
+628,4649,2,,314,
+629,4650,2,,314,
+630,4651,1,,,Band
+631,4665,5,Verlorene Leute. Zweiter Teil,221,Band 5. Zweiter Teil
+632,4666,1,Erzählungen,417,
+633,4666,2,Die Mutter. Der 9. Januar,418,
+634,4666,3,Meine Kindheit. Unter fremden Menschen,630,
+635,4666,4,Meine Universitäten. Erzählungen und Porträts,553,
+636,4751,1,,299,
+637,4751,2,,295,
+638,4768,4,,212,Aufsätze Autobiographie Brief an Stalin
+639,4792,1,Buch 1,408,7. Auflage
+640,4792,2,Buch 2,326,6. Auflage
+641,4848,2,18. – 20. Jahrhundert,174,
+642,4849,1,Die Romantik,183,1964
+643,4849,2,Der Realismus,210,1967
+644,4875,1,Lyrik,219,
+645,4887,1,,580,
+646,4887,2,,363,
+647,4887,3,,167,
+648,4918,1,Glaube und Weisheit der Hindus,334,
+649,4918,2,Dichtung Wissenschaft und Staatskunst der Hindus,348,
+650,4951,1,,740,
+651,4989,1,Originalkeramiken 1920-1931,,
+652,5025,1,Scherz und Satire ohne tiefere Bedeutung. Faschingsrevue der Concordia,57,
+653,5025,2,"Ernst, Satire und tiefere Bedeutung. Lessing-Almanach der Concordia",51,
+654,5044,2,,321,
+655,5053,1,"Das Haus: Entstehung, Geschichte, Erneuerung",147,
+656,5053,2,Die Vereinigung bildender Künstler 1897-1985,173,
+657,5060,1,Biographien der Wiener Künstler und Schriftsteller,619,Herausgegeben von Hermann Clemens Kosel. 1902
+658,5060,2,Biographien und Bibliographien und Bibliographie der deutschen Künstler und Schriftsteller in Österreich-Ungarn ausser Wien (mit Nachtrag für Wien),388,Herausgegeben von A. Reko und Heinr. Bohrmann. Wien 1906
+659,5095,100,,,Band 100 Schriftenreihe der Forschung im Verbund
+660,5103,1,Sommersemester 1942,298,
+661,5103,2,Wintersemester 1943/44,204,
+662,5136,1,Vom Römischen Imperium zum Byzantinischen Reich,,Herausgegeben von Paul Veyne. 5. Auflage: 19. Tausend
+663,5136,2,Vom Feudalzeitalter zur Renaissance,,Herausgegeben von George Duby. 5. Auflage: 18. – 20. Tausend
+664,5136,3,Von der Renaissance zur Aufklärung,,Herausgegeben von Philippe Aries und Roger Chartier. 4. Auflage: 15. – 17. Tausend
+665,5136,4,Von der Revolution zum Großen Krieg,,Herausgegeben von Michelle Perrot. 3. Auflage: 14. – 16. Tausend
+666,5136,5,Vom Ersten Weltkrieg zur Gegenwart,,Herausgegeben von Antoine Prost und Gerard Vincent. 1. Aufl.
+667,5154,1,,255,"VIII, 255 S."
+668,5154,2,,255,255 S.
+669,5154,3,,239,239 S.
+670,5154,4,,239,239 S.
+671,5180,1,Britische Wirtschaftsgeschichte seit 1750,172,vorhanden
+672,5206,12,Ausblicke,,Band 12 d. Gesamtausgabe 1922
+673,5220,3,Romanzero,313,"VI, 313 SS. Vorangestellt eine Seite Verlagsprogramm"
+674,5227,1,Leseerfahrungen I. Rezensionen und Aufsätze aus den Jahren 1900-1910,639,1988
+675,5227,2,Leseerfahrungen II. Rezensionen und Aufsätze aus den Jahren 1911-1916,807,1998
+676,5289,1,,499,
+677,5289,2,,477,
+678,5290,1,,,Teil 1
+679,5290,2,,,Teil 2
+680,5417,1,,349,
+681,5418,2,,397,
+682,5523,1,Eingeklemmt. Gedichte – Geschichten und Berichte – Stadtstiche. Poetische Protokolle. Kritik – Polemik – Agitation,200,Salzburg Hannibal 1979
+683,5523,2,Kalt in mir. Ein Lebensroman in Briefen,193,Wien Hannibal 1981
+684,5524,2,,470,
+685,5695,6,,295,
+686,5789,1,"Von Schleppern, Mördern, Träumern und Piraten",164,
+687,5789,2,Warum Athen zerstört werden musste,144,
+688,5800,1,Indochina und die amerikanische Krise,187,
+689,5804,1,Der Sturm zieht auf,337,"Mit einem einleitenden Essay von Rolf Hochhuth. Mit 27 Abb. und 19 Karten. XLV, 337 S."
+690,5804,2,Englands größte Stunde,370,Mit 29 Abb. und 13. Karten. 370 S.
+691,5804,3,Die große Allianz,385,Mit 26 Abb. und 15 Karten. 385 S.
+692,5804,4,Schicksalswende,475,Mit 31 Abb. und 12 Karten. 475 S.
+693,5804,5,Der Ring schließt sich,363,Mit 29 Abb. und 7 Karten. 363 S.
+694,5804,6,Triumph und Tragödie,376,Mit 27 Abb. und 16 Karten 376 S.
+695,5827,1,Kosmogenesis. Kosmische Evolution,740,"XXVI, 740 S."
+696,5827,2,Anthropogenesis. Zwölf Strophen aus dem Buche des DZYAN,842,"XVII, 842 S."
+697,5827,3,Esoterik,594,"XX, 594 S."
+698,5827,4,Index,313,313 S.
+699,5829,1,Wissenschaft,668,
+700,5829,2,Theologie,860,
+701,5862,1,,,
+702,5862,2,,,
+703,5870,1,Der erste Theil,492,
+704,5870,2,Der andere Theil,392,mit viertzig Kupfertafeln und unpag. Register
+705,5872,1,,310,Mit 50 Abb.
+706,5872,2,,212,Mit 48 Abb.
+707,5878,1,,280,Mit 7 Tafeln und 2 gef. Karten
+708,5878,2,Bildband,327,
+709,5888,1,,189,VI Vorspann
+710,5888,2,,139,III Vorspann
+711,5893,2,Kellerwirtschaft,975,Mit 280 Textabbildungen
+712,5901,1,Die Bierbrauerei,,
+713,5901,2,Die Zuckerfabrikation,,
+714,5901,3,"Die Spirituosenfabrikation, Essigerzeugung, Weinbereitung, etc.",,
+715,5901,4,Die Industrie der Mineralöle etc.,,
+716,5907,1,,195,"VI, 189, III S."
+717,5907,2,,143,"IV, 139 S."
+718,5913,1,Erster bis fünfter Teil,316,
+719,5913,2,Sechster bis achter Teil,268,
+720,5934,2,,334,Zweyter Band
+721,5937,3,Den nachgelassenen Werken entnommen,412,
+722,5939,7,Geschichte von den sieben Schwaben. Nebst einigen schwäbischen Volksliedern,59,
+723,5939,8,Geschichte von der heiligen Pfalzgräfin Genoveva,60,
+724,5939,9,Geschichte von den vier Heymonskindern,,
+725,5939,10,Geschichte von dem gehörnten Siegfried,187,Dazu noch eigener Band OBrosch.
+726,5939,11,Geschichte von den drei Schwestern. Geschichte von den drei Rolandsknappen. Schneeweißchen. Bruder Lustig,82,
+727,5939,12,Der wiedererstandene Eulenspiegel,108,
+728,5940,1,,16,
+729,5940,2,,7,
+730,5940,3,,16,
+731,5940,4,,15,
+732,5940,5,,32,
+733,5940,6,,72,
+734,5940,7,,48,
+735,5941,1,,233,XXIV Vorspann
+736,5941,2,,264,
+737,5963,1,Die Ursache,,
+738,5963,2,Der Keller,,
+739,5963,3,Der Atem,,
+740,5963,4,Die Kälte,,
+741,5963,5,Ein Kind,,
+742,5977,1,,318,Reihe Hanser 124
+743,5977,2,,239,Reihe Hanser 125
+744,5989,2,,,Band 1 fehlt
+745,5992,1,,283,
+746,5992,2,,315,
+747,5992,3,,299,
+1267,7943,1,Gedichte,964,1978
+748,5995,1,Anbruch der Gegenwart. Deutsche Geschichten 1900 bis 1918,534,
+749,5995,2,Gesichtete Zeit. Deutsche Geschichten 1918 bis 1933,548,
+750,5995,3,Notwendige Geschichten 1933 bis 1945,606,
+751,5995,4,Erfundene Wahrheit. Deutsche Geschichten 1945 bis 1960,504,
+752,5995,5,Verteidigung der Zukunft. Deutsche Geschichten. 1960 bis 1980,558,
+753,6005,1,Erster Teil,393,Roman No 7
+754,6024,1,Bewusstseins-Industrie,212,"es 63, 1964"
+755,6024,2,Poesie und Politik,142,"es 87, 1963"
+756,6029,4,1600 bis 1900,,
+757,6029,5,1600 bis 1900,,
+758,6029,6,1600 bis 1900,,
+759,6029,7,1600 bis 1900,,
+760,6029,8,1600 bis 1900,,
+761,6035,1,,356,"XXIII, 333 S."
+762,6035,2,,331,331 S.
+763,6056,11,,,Band 11
+764,6078,7,Der Briefwechsel mit Alfred Kubin 1903 bis 1952,484,
+765,6105,1,August 1967 – Dezember 1967,477,21.-22. Tsd. 1979
+766,6105,2,Dezember 1967 – April 1968,522,16. Tsd. 1980. 487-1008 S. Anhang XVIII S.
+767,6105,3,April 1968 – Juni 1968,366,18. bis 24. Tsd. 1983. 1017-1382 S.
+768,6105,4,Juni 1968 – August 1968,501,16. bis 33. Tsd. 1983. 1391-1891 S.
+769,6106,4,Aus dem Leben von Gesine Cresspahl,501,1391-1891 S.
+770,6110,1,Gärten und Straßen. Das erste Pariser Tagebuch. Kaukasische Aufzeichnungen,,
+771,6130,9,Mein Leben für die Zeitung 1926 – 1947. Journalistische Texte 2,581,Band IX
+772,6131,2,Band II/2,,
+773,6161,1,Das Wunderbare. Flöten und Dolche. Stürmische Morgen,256,
+774,6168,5,,,
+775,6171,1,,578,
+776,6171,2,,629,
+777,6175,1,,841,Band 1.1
+778,6193,1,,366,
+779,6198,1,Der Sohn des verlorenen Sohnes,282,Erster Roman der Trilogie. Herausgegeben von Ingolf Schulte
+780,6198,2,Idyll im Exil,378,Zweiter Roman der Trilogie. Herausgegeben von Ingolf Schulte
+781,6198,3,Das Vermächtnis des verlorenen Sohnes,396,Dritter Roman der Trilogie. Herausgegeben und mit einem Nachwort von Ingolf Schulte
+782,6209,1,,357,
+783,6209,2,,381,
+784,6230,11,,,
+785,6235,1,,312,
+786,6240,9,,,
+787,6259,1,,502,
+788,6259,2,,432,
+789,6266,2,,,Band 2
+790,6274,6,,,Band 6
+791,6285,19,,,XIX
+792,6319,1,,360,
+793,6319,2,,325,
+794,6319,3,,267,
+795,6326,1,,559,
+796,6326,2,,594,
+797,6348,1,,801,OPbd.m. Lesebändchen
+798,6348,2,Partituren,265,OKart
+799,6350,1,Erster Band,596,"IX, 596 S."
+800,6350,2,Zweiter Band,751,600 – 1351 S.
+801,6359,1,,,dtv wissenschaft 4080
+802,6359,2,,,dtv wissenschaft 4081
+803,6381,1,Das ältere Volkslied,239,
+804,6390,1,,537,
+805,6396,1,,350,XII Seiten Vorspann
+806,6396,2,,382,VI Seiten Vorspann
+807,6397,1,,267,"VIII, 267 S."
+808,6397,2,,349,"IV, 349 S."
+809,6417,1,Müllerlieder,90,
+810,6417,2,Goethelieder,113,
+811,6423,1,Von der Spätantike bis 1600,200,
+812,6423,3,Das 18. Jahrhundert,186,
+813,6423,5,Das 20. Jahrhundert,191,
+814,6433,1,Mädchenjahre 1819 – 1840,431,"Fünfte, aufs neue durchgesehene Auflage. 1912. Mit drei Bildnissen"
+815,6433,2,Ehejahre 1840 – 1856,416,"Vierte, unveränderte Auflage. 1910. Mit zwei Bildnissen"
+816,6433,3,Clara Schumann und ihre Freunde 1856 – 1896,642,Dritte durchgesehene Auflage. 1910. Mit zwei Bildnissen
+817,6442,1,Notenteil,78,
+818,6442,2,Textteil,142,
+819,6459,13,,,
+820,6471,1,Cahier I,,"Enthaltend Trois Sonates pour le Pianoforte Compose par…Oeuvre 9, 10 und Partant pour la Syrie Romance favorite variee pour le Pianoforte par…"
+821,6477,25,,,
+822,6481,24,,,
+823,6484,11,,,Band 11
+824,6485,6,,,Band 6
+825,6494,3,,,Band 3
+826,6496,12,,,Band 12
+827,6497,10,,,Band 10
+828,6499,22,,,Mit einem Nachtrag 15 S.
+829,6502,4,,,
+830,6505,21,,,Band 21
+831,6514,4,,,Studien zu Franz Schmidt IV
+832,6516,1,1783 – 1814,374,"XVIII, 374 S. 1907"
+833,6516,2,1815 – 1822,375,"XVI, 375 S. 1907"
+834,6516,3,1823 – 1827,301,"XV, 301 S. 1907"
+835,6516,4,Nachträge,378,"XVI, 378 S. 1911"
+836,6516,5,"Nachträge, Erläuterungen",386,"IX, 386 S. 1911"
+837,6518,16,,,Band 16
+838,6522,17,,,Band 17
+839,6529,9,,,
+840,6531,7,,,
+841,6532,18,,,Band 18
+842,6533,13,,,
+843,6535,2,,363,S. 461-823
+844,6537,2,,,Band 2
+845,6538,1,,,
+846,6539,20,,,Band 20
+847,6540,8,,,
+848,6561,1,,,
+849,6561,2,,,
+850,6571,2,Chronik 1940 – 1951,397,Mit zahlr. Fotos a. Taf.
+851,6574,1,,537,
+852,6574,2,,668,
+853,6597,1,Die Einsamen,362,Erster Band
+854,6620,1,1920 – 1934,689,
+855,6620,2,1935 – 1939,668,699-1367 S.
+856,6631,1,,583,
+857,6631,2,,388,
+858,6666,1,Liebe im Dorf. Der Kaiser am Lande,126,1/2
+859,6666,2,Das große Fest. Die feindlichen Brüder,153,3/4
+860,6666,3,Der deutsche Frühling. Ende und Anfang,158,5/6
+861,6699,1,,344,
+862,6699,2,,498,
+863,6699,3,,520,mit einigen Lesespuren
+864,6845,1,,275,
+865,6845,2,,223,
+866,6847,11,,159,Band 11
+867,6864,1,Brunsleben,331,alles Erschienene
+868,6892,1,Bürger und Soldaten,360,
+869,6892,2,Verratenes Volk,416,
+870,6892,3,Heimkehr der Fronttruppen,486,
+871,6892,4,Karl und Rosa,700,
+872,6925,1,,348,
+873,6927,3,,,
+874,7068,1,,,
+875,7068,2,,,
+876,7068,3,,,
+877,7115,4,,,
+878,7137,1,Die Ahnfrau. Trauerspiel in fünf Aufzügen,152,Fünfte Auflage
+879,7137,2,"Weh dem, der lügt! Lustspiel in fünf Aufzügen",144,Seiten 131 und 132 kopiert
+880,7138,1,,,Abtheilung
+881,7138,2,,,Abtheilung
+882,7138,3,,,Abtheilung
+883,7154,4,Vom Küssen und von Hühneraugen und anderes,30,gez. S.
+884,7174,1,Buch 1 – 10,619,XXXII
+885,7174,2,Buch 11 – 22,1018,XXXII
+886,7200,1,,50,
+887,7204,1,Evangelien,377,"1968. VIII, 377 S."
+888,7204,2,Apostolisches. Apokalypsen und Verwandtes,661,"1971. VIII, 661 S."
+889,7217,1,Teil I.: Die Evangelien. Teil II.: Die Entwicklung des Judentums und Jesus von Nazaret,802,"Teil I.: XII, 340 S. Teil II.: VII, 462 S."
+890,7217,2,Die Apostelgeschichte und die Anfänge des Christentums,660,"X, 660 S."
+891,7265,1,,159,
+892,7265,2,,192,
+893,7265,3,,76,
+894,7281,1,,428,
+895,7281,2,,398,
+896,7285,1,Geschichte und Kultur von den Anfängen bis zur türkischen Vorherrschaft,274,2. Auflage 1977. Mit zahlr. Abb.
+897,7285,2,"Chane, Sultane und Emire. Die islamischen Staaten vom Zusammenbruch des Timuridenreiches bis zur Erlangung der Unabhängigkeit",310,1975. Mit zahlr. Abb.
+898,7299,1,Von Mohammed bis Ghazali,153,"XIX, 153 S. Umschlag und Titel von E. H. Ernst Schneidler"
+899,7348,1,,316,Mit zahlr. Abb.
+900,7355,1,,,
+901,7355,2,,,
+902,7358,1,Erster Band,344,"Mit 244 Bildern auf 63 Tafeln und einer Karte. XVII, 344 S."
+903,7358,2,Zweiter Band,311,"Mit 258 Bildern auf 60 Tafeln und zwei Karten. XV, 311 S."
+904,7362,1,Physische Geographie. Nach dem gegenwärtigen Standpunkte der Wissenschaft,559,"VII, 559 S."
+905,7362,2,"Thier- und Pflanzen-Geographie. Nach der gegenwärtigen Verbreitung der Thiere und der Pflanzen, sowie mit Rücksicht auf deren Beziehung zum Menschen",652,"VIII, 652 S."
+906,7372,1,,559,XIV Seiten Vorspann
+907,7372,2,,570,X Seiten Vorspann
+908,7386,1,Erster Band,340,"1882. XI, 340 S."
+909,7386,2,Zweiter Band,328,"1884. VIII, 328 S."
+910,7388,1,,137,
+911,7388,2,,125,
+912,7389,14,,,XIV. Band
+913,7406,3,"Unter-Italien und Sizilien, nebst Ausflügen nach den Liparischen Inseln, Tunis, Malta, Sardinien und Athen",372,XXXIV Seiten Vorspann
+914,7420,1,Erster Band 1451 bis 1493,296,
+915,7420,2,Zweiter Band 1493 bis 1506,379,
+916,7442,1,"Amerika, Afrika",354,Mit 8 Karten. 1980
+917,7442,2,"Asien, Australien, Pazifik",364,Mit 8 Karten. 1981
+918,7444,4,,,Band 4
+919,7474,1,Erster Band,324,Band 2 fehlt
+920,7480,1,,,
+921,7480,2,,,
+922,7489,64,,,LXIV. Band
+923,7499,1,A – H,319,
+924,7499,2,I – Z,318,
+925,7505,57,,,LVII. Band
+926,7540,1,,,Band 1
+927,7545,23,I. Abtheilung. Das Reich und seine Bewohner,270,Band XXIII
+928,7548,1,,400,"VII, 272, 128 S."
+929,7548,2,,400,"VII, 400 S."
+930,7548,3,Supplement und Schlußband,472,"VIII, 472 S."
+931,7583,1,,137,
+932,7583,2,,125,
+933,7584,1,Noten zur Literatur I,192,14. – 17. Tsd. Bibliothek Suhrk. 47
+934,7584,2,Noten zur Literatur II,235,9. – 12. Tsd. Bibliothek S. 71
+935,7590,1,Begleitbuch zur Ausstellung,418,Erarbeitet von Helmut Böttiger unter Mitarbeit von Lutz Dittrich
+936,7590,2,Materialien zur Ausstellung,438,Herausgegeben von Bernd Busch und Thomas Combrink
+937,7603,1,,352,VII Seiten Vorspann
+938,7603,2,,394,
+939,7604,1,,,Band 1
+940,7606,1,Erster Band,681,Handbuch der Altertumswissenschaft II.2.1
+941,7608,2,Georges Bataille. Eine Thanatographie II,397,
+942,7619,1,Erster Teilband,1254,"XLII, 1254 S."
+943,7622,1,Erstes Buch,478,"VIII, 478 S."
+944,7643,1,Formen und Motive,635,
+945,7643,2,Personen und Figuren,608,
+946,7645,1,Wörterbuch von A – Z,,
+947,7645,2,Wörterbuch nach Sachgruppen,,
+948,7646,1,Fundamente und Aufbau,357,"VIII, 357 S."
+949,7646,2,Ausbau Teil 1,252,364 – 615 S
+950,7646,3,Ausbau Teil 2,335,618 – 952 S.
+951,7646,4,Umbau Teil 1,439,"VI, 956 – 1394 S."
+952,7646,5,Umbau Teil 2,487,1396 – 1882 S.
+953,7646,6,Schlüsse und Übersichten,435,1886 – 2320 S.
+954,7663,3,Erster Teilband,,Band 3
+955,7664,3,Zweiter Teilband,735,Band 3. Zweiter Teilband
+956,7675,1,,,
+957,7675,2,,,
+958,7679,5,"Exil in der Tschechoslowakei, Grossbritannien, Skandinavien, und Palästina",803,
+959,7680,1,Band 1/II,499,433-931 S.
+960,7698,1,,566,
+961,7719,1,Die zeitgenössischen Literaturen der Schweiz,752,Herausgegeben von Manfred Gsteiger. München Kindler 1974. OLn.
+962,7719,2,Die Literaturen der Deutschen Demokratischen Republik,677,Von Konrad Franke. Neubearbeitete Ausgabe mit drei einführenden Essays von Heinrich Vormweg. Zürich Kindler 1974. OLn.
+963,7719,3,Die zeitgenössische Literatur Österreichs,757,Herausgegeben von Hilde Spiel Zürich Kindler 1976. OLn.m.OU und Schuber.
+964,7729,2,,,Band 2
+965,7755,1,Schriften zur Literatur. Die Entdeckung Amerikas Literatur und Gesellschaft Der Mythos,544,Mit einem Vorwort von Italo Calvino
+966,7755,2,GESPRÄCHE MIT LEUKO,188,
+967,7782,1,Von der Aufklärung bis zum Idealismus,491,"XV, 491 S."
+968,7782,2,Von der Romantik bis zum Ende des Dritten Reichs,310,"IX, 310 S."
+969,7803,1,,421,
+970,7803,2,,458,
+971,7819,1,Erstes Bändchen. Mit einem kurzen Lebensabriss von Heinrich Corn. Kapitel 1 bis 74,358,
+972,7819,2,Zweites Bändchen. Kapitel 1 bis 69,311,
+973,7819,3,Drittes Bändchen. Kapitel 1 bis 65,386,
+974,7819,4,Vierter Band. Über die Geomantie. Das vierte Buch der geheimen Philosophie u.a.,280,
+975,7819,5,"Fünfter Band. Über Pictorius, Arbatel, Tritheim u.a.",367,
+976,7820,1,,307,
+977,7820,2,,255,
+978,7820,3,,199,
+979,7821,1,Stücke I,699,
+980,7821,2,Stücke 2,779,
+981,7821,3,Gedichte 1. (Sammlungen),527,
+982,7821,4,Gedichte 2. (Einzelgedichte) 1913 – 1956,592,
+983,7821,5,Prosa 1913 – 1956,589,
+984,7821,6,Schriften. 1920 – 1956,797,
+985,7822,1,,231,"XXXIV, 231 S. Mit einem Porträt und Vorwort des Herausgebers"
+986,7822,2,,243,243 S. Mit einem Porträt v. Sophie Mereau und einem Register
+987,7823,7,Dramen,426,Band 7
+988,7826,1,Die Göttliche Komödie. Hölle,313,"Mit einem Bildnis von Dante. XIV, 313 S."
+989,7826,2,Die Göttliche Komödie. Der Läuterungsberg,316,316 S.
+990,7826,3,Die Göttliche Komödie. Das Paradies,315,315 S.
+991,7826,4,Das Neue Leben. Gedichte,439,"XIV, 439 S."
+992,7827,10,,452,"XII, 452 S."
+993,7829,1,Vorlesungen zur Einführung in die Psychoanalyse. Und Neue Folge,663,
+994,7829,2,Die Traumdeutung,698,
+995,7829,3,Psychologie des Unbewussten,465,
+996,7829,4,Psychologische Schriften,335,
+997,7829,5,Sexualleben,336,
+998,7829,6,Hysterie und Angst,359,
+999,7829,7,"Zwang, Paranoia und Perversion",362,
+1000,7829,8,Zwei Kinderneurosen,258,
+1001,7829,9,Fragen der Gesellschaft. Ursprünge der Religion,653,
+1002,7829,10,Bildende Kunst und Literatur,326,
+1003,7829,11,Ergänzungsband. Schriften zur Behandlungstechnik,473,
+1004,7830,1,Gedichte,319,Erster Band
+1005,7830,2,Bühnenwerke,473,Zweiter Band
+1006,7830,3,Prosa,427,Dritter Band
+1007,7832,1,,347,XLIV Vorspann
+1008,7832,2,,230,
+1009,7833,9,Neunter Theil,300,
+1010,7833,10,Zehnter Theil,252,besteht aus der Lebensbeschreibung des Autors
+1011,7834,1,Erster Band,320,1775
+1012,7834,2,Zweyter Band,320,1775
+1013,7834,3,Dritter Band,221,1782
+1014,7835,1,1792 – 1806,557,"Mit sechs Bildertafeln, einem Faksimile und einem Schlussstück. LIII"
+1015,7835,2,1807 – 1816,523,Mit 6 Bildertafeln
+1016,7836,1,,302,XLVIII Vorspann
+1017,7836,2,,283,
+1018,7836,3,,290,
+1019,7836,4,,316,
+1020,7836,5,,350,
+1021,7836,6,,309,
+1022,7836,7,,270,
+1023,7836,8,,372,
+1024,7836,9,,276,V Vorspann
+1025,7836,10,,451,
+1026,7836,11,Ergänzungsband,233,XIX Vorspann
+1027,7836,12,Ergänzungsband,294,
+1028,7836,13,Ergänzungsband,301,
+1029,7836,14,Ergänzungsband,233,IV Vorspann
+1030,7836,15,Ergänzungsband,165,VIII Vorspann
+1031,7836,16,Ergänzungsband,226,
+1032,7837,1,Einleitung. Gedichte,234,"LXXXV, 234 S."
+1033,7837,2,Gedicht. Alphabet. Verzeichnis sämtlicher Gedichte,258,"X, 258 S."
+1034,7837,3,Die Ahnfrau. Sappho,248,
+1035,7837,4,Das goldene Vließ. Übersetzungen,258,
+1036,7837,5,König Ottokar. Ein treuer Diener seines Herrn. Bruchstück einer Bearbeitung,287,
+1037,7837,6,Des Meeres und der Liebe Wellen. Der Traum ein Leben. Melusina. Hannibal,300,
+1038,7837,7,"Weh dem, der lügt! Libussa. Esther",285,
+1039,7837,8,Bruderzwist. Jüdin von Toledo. Der Rabe. Übersetzungen und Bearbeitungen,275,
+1040,7837,9,Blanka von Kastilien. Die Schreibfeder. Wer ist schuldig?,294,
+1041,7837,10,Dramatische Fragmente 1807 – 1814. Stoffe und Charaktere. 1808 – 1813,301,
+1042,7837,11,Dramatische Fragmente 1819 – 1829. Satiren. Erzählungen,300,
+1043,7837,12,Studien zur Philosophie und Religion. Zur Geschichte einzelner Persönlichkeiten,276,
+1044,7837,13,Studien zum spanischen Theater. Verzeichnis der Dramen dieser Studien,290,
+1045,7837,14,"Studien zu den griechischen Dramatikern. Studien zur italienischen, französischen, englischen und deutschen Literatur. Theaterkritiken. Studien zu des Dichters eigenen Werken",238,VI. 238 S.
+1046,7837,15,Selbstbiographie. Tagebuch auf der Reise nach Italien 1819. Ein Erlebnis,288,
+1047,7837,16,"Tagebuch auf der Reise nach Deutschland, Frankreich und England, Griechenland. Erinnerungen aus dem Jahre 1848. Erinnerungen an Beethoven. Register zu Band 1 – 16",263,
+1048,7838,1,"Gedichte, Lieder, Romanzen",351,
+1049,7838,2,"Lieder, Sonette, Spaziergänge eines Wiener Poeten",409,
+1050,7838,3,"Der letzte Ritter, Schutt",349,
+1051,7838,4,"Nibelungen im Frack, Pfaff vom Kahlenberg",312,
+1052,7838,5,"Volkslieder aus Krain. Robin Hood, Nachwort",356,
+1053,7839,1,Tagebuch eines Christen,349,1949
+1054,7839,2,Schriften über Philosophie/Philologie/Kritik 1758 – 1763,432,1950
+1055,7839,3,Schriften über Sprache/Mysterien/Vernunft. 1772 – 1788,493,1951
+1056,7839,4,Kleine Schriften 1750 – 1788,500,1952
+1057,7839,5,Tagebuch eines Lesers 1753- 1788,451,1953
+1058,7839,6,Der Schlüssel 1750 – 1788,430,1957
+1059,7840,1,Lustspiele I,481,
+1060,7841,1,Jugendgedichte und Briefe 1784 – 1794,409,"Besorgt durch Friedrich Seebass. Zweite Auflage. XIX, 409 S."
+1061,7841,2,Gedichte. Hyperion. Briefe,571,"Besorgt durch Friedrich Seebass. XIX, 571 S."
+1449,8002,3,,386,
+1062,7841,3,Gedichte. Empedokles. Philosoph. Fragmente. Briefe,602,"Besorgt durch Ludwig v. Pigenot. XVII, 602 S."
+1063,7841,4,Gedichte 1800 – 1806,397,"Besorgt durch Norbert v. Hellingrath. Zweite Auflage. XXII, 397 S."
+1064,7841,5,Übersetzungen und Briefe 1806 – 1806,376,"Besorgt durch Norbert v. Hellingrath. Zweite Aufl. XIV, 376 S."
+1065,7841,6,Dichtungen. Jugendarb. Dokumente,573,"Besorgt durch Ludwig v. Pigenot u.Friedrich Seebass. XXVIII, 573 S."
+1066,7842,1,,474,XXXII Vorspann
+1067,7842,2,,538,XII Vorspann
+1068,7843,1,,406,
+1069,7843,2,,470,"Mit beigebundenem Dichterischer Nachlass (1858, XVI, 154 S.)"
+1070,7844,1,"Gedichte, Fabeln, Lustspeile",793,Textredaktion dieses Bandes Sibylle von Steinsdorff
+1071,7844,2,"Trauerspiele, Nathan, Dramatische Fragmente",798,"Kommentar: Karl S. Guthke (Band 1), Gert Hillen (Band 2). Textredaktion Maria Elisabeth Biener"
+1072,7844,3,Frühe kritische Schriften,807,Bearbeiter dieses Bandes: Karl Guthke
+1073,7844,4,Dramaturgische Schriften,941,Bearbeiter dieses Bandes. Karl Eibl
+1074,7844,5,"Literaturkritik, Poetik und Philologie",1104,Bearbeiter dieses Bandes: Jörg Schönert
+1075,7844,6,Kunsttheoretische und kunsthistorische Schriften,1102,Bearbeiter dieses Bandes: Albert von Schirnding
+1076,7844,7,Theologiekritische Schriften 1 und 2,990,Bearbeiter dieses Bandes: Helmut Göbel
+1077,7844,8,Theologiekritische Schriften 3. Philosophische Schriften,976,Bearbeiter dieses Bandes: Helmut Göbel. Register zur gesamten Ausgabe von Hiltrud Häntzschel
+1078,7846,1,,,
+1079,7846,2,,,
+1080,7846,3,,,
+1081,7847,1,,,
+1082,7847,2,,,
+1083,7847,3,,,
+1084,7847,4,,,
+1085,7847,5,,,
+1086,7847,6,,,
+1087,7847,7,,,
+1088,7847,8,,,
+1089,7847,9,,,
+1090,7847,10,,,
+1091,7849,1,Protagoras. Laches. Eutyphron. Apologie. Kriton. Gorgias,,"XLVIII, 147, 118, 108, 184 SS."
+1092,7849,2,Menon. Kratylos. Phaidon. Phaidros,,"91, 158, 155, 157 SS."
+1093,7849,3,Euthydemos. Hippias. Ion. Alkibiades. Gastmahl. Charmides. Lysis. Menexenos,,"107, 261, XXXVIII, 88, 168 SS."
+1094,7849,4,Theätet. Parmenides. Philebos,,"195, 162, 156 SS."
+1095,7849,5,Der Staat,,"XXXII, 568 SS."
+1096,7849,6,Timaios. Kritias. Sophistes. Politikos. Briefe,,"224, 156, 142, 154"
+1097,7849,7,Gesetze. Gesamtregister,,"XXXII, 573. VI, 158 SS."
+1098,7850,1,,676,Vorwort von Jean Rudolf von Salis
+1099,7850,2,,,Register und 16 Abbildungen
+1100,7852,1,Montague. Sterne. Cooper. Bulwer. Smith. Poe,216,
+1101,7852,2,Dickens. Bronte. Collins. Carroll. Ellin. Jones. Verne,180,
+1102,7852,3,James Joyce. Stanislaus Joyce,180,
+1103,7854,1,,162,XI Seiten Vorspann
+1104,7854,2,,200,
+1105,7856,1,,1193,
+1106,7856,2,,1048,
+1107,7857,1,Vermischte prosaische Schriften,384,"IV, 384 SS."
+1108,7857,2,Das Mährchen als Tonne. Aphorismen. Gedichte. Biographie,318,318 S.
+1109,7857,3,Gulliver's Reisen,421,421 S.
+1110,7858,1,,210,"CX, 210 SS."
+1111,7858,2,,259,"IV, 259 SS."
+1112,7862,1,Expeditionen in den Alltag. Gesammelte Skizzen 1895 – 1898,389,
+1113,7865,1,frühen Reisebücher,376,
+1114,7865,2,Reisebilder aus Schweden und England,233,
+1115,7865,3,Reisebilder aus Spanien und Portugal,406,
+1116,7865,4,Eines Dichters Basar,522,
+1117,7865,5,Meines Lebens Märchen,752,
+1118,7867,1,Erster Teil,203,
+1119,7867,2,Zweiter Teil,271,
+1120,7867,3,Dritter Teil,199,
+1121,7867,4,Vierter Teil,203,
+1122,7867,5,Fünfter Teil,148,
+1123,7867,6,Sechster Teil,189,
+1124,7867,7,Siebenter Teil,162,
+1125,7867,8,Achter Teil,163,
+1126,7867,9,Neunter Teil,179,
+1127,7867,10,Zehnter Teil,336,
+1128,7867,11,Elfter Teil,140,
+1129,7867,12,Zwölfter Teil,282,
+1130,7867,13,Dreizehnter Teil,186,
+1131,7867,14,Vierzehnter Teil,284,
+1132,7867,15,Fünfzehnter Teil,343,
+1133,7867,16,Sechzehnter Teil,198,
+1134,7867,17,Siebzehnter Teil,274,
+1135,7867,18,Achtzehnter Teil,196,
+1136,7867,19,Neunzehnter Teil,240,
+1137,7867,20,Zwanzigster Teil,410,
+1138,7868,1,,1097,
+1139,7868,2,,935,
+1140,7868,3,,867,
+1141,7870,1,,311,XXXI Vorspann
+1142,7870,2,,285,
+1143,7870,3,,278,
+1144,7871,1,Blumen des Bösen,284,
+1145,7871,2,Die künstlichen Paradiese,273,
+1146,7871,3,Kritische und nachgelassene Schriften,367,
+1147,7873,1,Frühe Texte. Inventionen und Gedichte,357,
+1148,7873,2,Prosa Konkrete Texte,384,
+1149,7875,1,1930 – 1939,519,
+1150,7875,2,1940 – 1963,589,
+1151,7877,1,Abhandlungen,430,Herausgegeben von Rolf Tiedemann und Hermann Schweppenhäuser
+1152,7877,2,Abhandlungen,796,
+1153,7877,3,Abhandlungen,1274,
+1154,7877,4,Aufsätze Essays Vorträge,406,II.1
+1155,7877,5,Aufsätze Essays Vorträge,813,II.2
+1156,7877,6,Aufsätze Essays Vorträge,1153,II.3
+1157,7877,7,Aufsätze Essays Vorträge,1526,II.4
+1158,7877,8,Kritiken und Rezensionen,374,III.1 Herausgegeben von Hella Tiedemann-Bartels
+1159,7877,9,Kritiken und Rezensionen,727,III.2
+1160,7877,10,Kleine Prosa Baudelaire-Übertragungen,438,IV.1 herausgegeben von Tillman Rexroth
+1161,7877,11,Kleine Prosa Baudelaire-Übertragungen,880,IV 1.2
+1162,7877,12,Kleine Prosa Baudelaire-Übertragungen,1178,IV 2
+1163,7878,1,,430,Band I.1
+1164,7879,1,Gedichte,563,
+1450,8002,4,,384,
+1165,7879,2,Essays & Aufsätze. Reden & Vorträge. Prosa. Stücke aus dem Nachlaß. Szenen,1630,
+1166,7879,3,Vermischte Schriften. Autobiographische Schriften,,
+1167,7884,1,Der Kampf um Wien. Ein Roman vom Tage,495,
+1168,7884,2,Das entfesselte Wien. Ein Roman von heute,232,
+1169,7884,3,Die freudlose Gasse. Ein Wiener Roman aus unseren Tagen,290,
+1170,7884,4,Die Stadt ohne Juden. Ein Roman von Übermorgen,217,
+1171,7884,5,Faustrecht. Roman,259,
+1172,7884,6,Hemmungslos. Roman,219,
+1173,7885,1,Gedichte. Poeme,329,
+1174,7885,2,Stücke. Essays. Reden,421,
+1175,7885,3,Briefe. Tagebücher,391,
+1176,7886,1,Die Bibliothek von Babel. Erzählungen,389,
+1177,7886,2,Spiegel und Maske. Erzählungen. Der Squonk. Buch der imaginären Wesen,354,
+1178,7886,3,Die Unsterblichkeit. Essays,405,
+1179,7886,4,Mythische Gründung von Buenos Aires. Gedichte,158,
+1180,7887,1,,319,"Hamburg Hoffmann und Campe, ohne Rücken"
+1181,7887,2,,316,Hamburg Hoffmann und Campe
+1182,7887,3,,326,"Paris bei Brunet, Rücken gelöst aber vorhanden"
+1183,7887,4,,372,Paris bei Brunet
+1184,7887,5,,312,Paris bei Brunet
+1185,7889,1,,,
+1186,7889,2,,,
+1187,7896,1,,940,Gedichte. Der Arzt Gion. Rumänisches Tagebuch. Aufzeichnungen aus Italien u.a.
+1188,7896,2,,970,Eine Kindheit. Der Tag des jungen Arztes. Wirkungen Goethes u.a.
+1189,7901,1,Poesie,427,
+1190,7901,2,Prosa. Schriften. Briefe,630,
+1191,7902,1,,552,
+1192,7902,2,,495,
+1193,7902,3,,502,
+1194,7902,4,,,fehlt
+1195,7907,1,Tagebücher 1951-1952,507,XVI Vorspann
+1196,7908,1,Erlösungen Gedichte und Sprüche,359,Vierte Ausgabe
+1197,7908,2,Weib und Welt. Ein Buch Gedichte,382,Vierte Ausgabe
+1198,7908,3,Lebensblätter. Novellen in Prosa. Auswahl,379,
+1199,7909,1,Das geistliche Jahr und Religiöse Dichtungen,239,
+1200,7909,2,Gedichte,370,
+1201,7909,3,Epen. Balladen,327,
+1202,7909,4,Erzählungen. Briefe,349,
+1203,7910,1,Gedichte,1006,
+1204,7910,2,Prosa Versepen Dramatische Versuche Übersetzungen,1005,
+1205,7911,1,Das Gemeindekind. Novellen Aphorismen,992,
+1206,7911,2,Kleine Romane,959,
+1207,7911,3,"Erzählungen, Autobiographische Schriften",930,
+1208,7913,1,Die Gedichte. Die Maulwürfe,621,Herausgegeben von Axel Vieregg
+1209,7913,2,Die Hörspiele I,823,Herausgegeben von Karl Karst
+1210,7913,3,Die Hörspiele II,737,Herausgegeben von Karl Karst
+1211,7913,4,Vermischte Schriften,681,Herausgegeben Axel Vieregg
+1212,7918,1,Gedichte. Meine Kinderjahre. Erinnerungen. Aufsätze und Theaterkritiken,411,LXXVI 411 S.
+1213,7918,2,Schach von Wuthenow. L`Adultera. Stine,419,
+1214,7918,3,"Irrungen, Wirrungen. Frau Jenny Treibel",392,
+1215,7918,4,Effi Briest,331,
+1216,7918,5,Der Stechlin,454,
+1217,7920,1,"Briefe an den Vater, die Mutter und die Frau",353,1968
+1218,7920,2,Briefe an die Tochter und an die Schwester,346,1969
+1219,7920,3,Briefe an Mathilde von Rohr,302,1969
+1220,7920,4,Briefe an Karl und Emilie Zöllner und andere Freunde. Mit Namensregister zu den Bänden eins bis vier,446,1971
+1221,7924,1,Schriften,434,
+1222,7924,2,Briefe Dokumente,332,
+1223,7925,1,,563,
+1224,7925,2,,617,
+1225,7927,1,1889 – 1939,503,1950
+1226,7927,2,1914 – 1923,503,1951
+1227,7927,3,1924 – 1939,703,1954
+1228,7927,4,1939 – 1949,467,1967
+1229,7931,1,Sämtliche Gedichte. Erster Teil: Die Gedichte der Ausgabe letzter Hand,782,
+1230,7931,2,Sämtliche Gedichte. Zweiter Teil: Gedichte aus dem Nachlaß,848,
+1231,7931,3,Epen. West-östlicher Divan. Theatergedichte,854,
+1232,7931,4,Der junge Goethe,1109,
+1233,7931,5,Die Faustdichtungen,836,
+1234,7931,6,Die Weimarer Dramen,1261,
+1235,7931,7,Wilhelm Meisters Lehrjahre,714,
+1236,7931,8,Wilhelm Meisters Wanderjahre. Wilhelm Meisters theatralische Sendung,958,
+1237,7931,9,Die Wahlverwandtschaften. Novellen. Maximen und Reflexionen,764,
+1238,7931,10,Aus meinem Leben. Dichtung und Wahrheit,1021,
+1239,7931,11,Italienische Reise. Tag- und Jahreshefte,1181,
+1240,7931,12,Biographische Einzelschriften,893,
+1241,7931,13,Schriften zur Kunst,1325,
+1242,7931,14,Schriften zur Literatur,1158,
+1243,7931,15,Übertragungen,1148,
+1244,7931,16,Naturwissenschaftliche Schriften. Erster Teil,997,
+1245,7931,17,Naturwissenschaftliche Schriften. Zweiter Teil,1030,
+1246,7931,18,Register der Personen und Orte. Goethe über seine Werke. Alphabetisches Verzeichnis zur Ausgabe. Chronik von Goethes Leben,560,
+1247,7933,1,,742,
+1248,7933,2,,746,
+1249,7933,3,,711,
+1250,7935,1,,402,1953
+1251,7935,2,,329,
+1252,7935,3,,276,1969
+1253,7938,1,1928 – 1945,429,
+1254,7938,2,1946 – 1950,323,
+1255,7940,1,Soziale Dramen,450,
+1256,7940,2,Soziale Dramen und Prosa,294,
+1257,7940,3,Familiendramen,435,
+1258,7940,4,Märchendramen,335,
+1259,7940,5,Florian Geyer,193,
+1260,7940,6,Märchendramen und Fragmentarisches,343,
+1261,7941,1,Erster Band 1835 – 1839,430,"XIX, 430 S."
+1262,7941,2,Zweiter Band 1840 – 1844,450,450 S.
+1263,7941,3,Dritter Band 1845 – 1854,467,467 S.
+1264,7941,4,Vierter Band 1854 – 1863,472,XXVII. 472 S.
+1265,7942,1,Erzählungen des Rheinländischen Hausfreundes. Vermischte Schriften,502,
+1266,7942,2,Gedichte. Briefe. Hebels Leben in Daten und Bildern,550,
+1268,7943,2,Dichterische Prosa. Dramatisches,972,1972
+1269,7943,3,Schriften zu Literatur und Politik I,861,1972
+1270,7943,4,Schriften zu Literatur und Politik II. Vermischtes,894,1972
+1271,7944,1,Einleitung. Buch der Lieder u. a.,510,"1911. LXIV, 510 S."
+1272,7944,2,Neue Gedichte,465,1912. 465 S.
+1273,7944,3,Romanzero. Gedichte. Verzeichnis sämtlicher Gedichte,583,1913. 583 S.
+1274,7944,4,Reisebilder Teil eins bis drei,533,1912. 533 S.
+1275,7944,5,Reisebilder Vierter Teil. Kleine Schriften,586,1914. 586 S.
+1276,7944,6,Französische Maler. Florentinische Nächte. Schnabelewopski,555,1912. 555 S.
+1277,7944,7,Die romantische Schule. Geschichte der Religion und Philosophie in Deutschland. Elementargeister,504,1910. 504 S.
+1278,7944,8,An die hohe Bundesversammlung u.a.,621,1913. 621 S.
+1279,7944,9,"Lutezia. Berichte über Politik, Kunst und Volksleben. Kleinere Schriften",531,1910. 531 S.
+1280,7944,10,Der Doktor Faust. Geständnisse. Nachträge zu Band I – X,444,1915. 444 S.
+1281,7948,1,,328,
+1282,7948,2,,336,
+1283,7948,3,,307,
+1284,7948,4,,138,
+1285,7949,1,Fantasiestücke in Callots Manier. Die Elixiere des Teufels,591,
+1286,7949,2,Nachtstücke. Klein Zaches genannt Zinnober. Die Serapionsbrüder,581,
+1287,7949,3,Prinzessin Brambilla. Lebensansichten des Katers Murr,526,
+1288,7949,4,Meister Floh. Letzte Erzählungen,531,
+1289,7954,1,,952,
+1290,7954,2,,991,
+1291,7954,3,,895,
+1292,7955,1,Gedichte. Hyperion,460,
+1293,7955,2,Der Tod des Empedokles. Aufsätze. Übersetzungen. Briefe,547,464-1011 S.
+1294,7955,3,Erläuterungen,238,
+1295,7956,1,Gedichte. Hyperion. Emilie vor ihrem Brauttag. Theoretische Versuche,1188,Je 2 Lesebändchen
+1296,7956,2,Der Tod des Empedokles. Übersetzungen. Briefe,1263,Je 2 Lesebändchen
+1297,7958,1,Satiren,391,Band 2 fehlt
+1298,7960,1,Volksstücke. Schauspiele,645,1970
+1299,7960,2,Komödien,645,1970
+1300,7960,3,Lyrik. Prosa. Romane,514,1971
+1301,7960,4,"Fragmente und Varianten. Exposes. Theoretisches, Briefe, Verse",688,"1971, 52 zusätzliche Seiten"
+1302,7961,1,,621,"CLXXXIII, 438"
+1303,7961,2,,590,
+1304,7961,3,,553,
+1305,7961,4,,521,
+1306,7961,5,,552,
+1307,7962,1,Die Jäger. Reue versöhnt,272,
+1308,7962,2,Die Reise nach der Stadt. Herbsttag,269,
+1309,7962,3,Der Mann von Wort. Dienstpflicht,276,
+1310,7962,4,Scheinverdienst. Der Spieler. Der Komet,272,
+1311,7962,5,Verbrechen aus Ehrsucht. Leichter Sinn. Die Hagestolzen,326,
+1312,7962,6,Die Aussteuer. Das Erbteil des Vaters,256,
+1313,7962,7,Die Höhen. Frauenstand,275,
+1314,7962,8,Die Advokaten. Erinnerung. Albert von Thurneisen,316,
+1315,7962,9,Bewusstsein. Der Vormund. Vaterfreude,272,
+1316,7962,10,Elise von Valberg. Hausfrieden. Die Mündel. Nachrichten von Ifflands Leben,429,
+1317,7964,1,Die Unsichtbare Loge. Hesperus,1359,I. 1.
+1318,7964,2,Siebenkäs. Flegeljahre,1233,I. 2.
+1319,7964,3,Titan. Komischer Anhang. Clavis Fichtiana,1174,I. 3.
+1320,7964,4,Kleinere Erzählungen. Schriften,1263,I. 4.
+1321,7964,5,Vorschule der Ästhetik. Levana. Politische Schriften,1355,I. 5.
+1322,7964,6,Späte Erzählungen. Schriften,1389,I. 6.
+1323,7964,7,Jugendwerke I,1187,II. 1.
+1324,7964,8,Jugendwerke II. Vermischte Schriften I,1062,II. 2.
+1325,7964,9,Vermischte Schriften II,1102,II. 3.
+1326,7964,10,Kommentar zu Band 1 – 3,771,II. 4.
+1327,7965,1,1906 – 1945,529,Mit vier Abb. a. Taf.
+1328,7965,2,1946 – 1955,559,4 Abb. a. Taf.
+1329,7965,3,1956 – 1961,431,Mit 4 Abb. a. Taf.
+1330,7966,1,Theorie und Praxis der Psychotherapie - Typologie,207,Gruppe I
+1331,7966,2,Probleme der Psychotherapie,107,Gruppe I
+1332,7966,3,Seelenprobleme der Gegenwart,323,Gruppe I
+1333,7966,4,Die Psychologie der Übertragung,193,Gruppe I
+1334,7966,5,Wirklichkeit der Seele,265,Gruppe I
+1335,7966,6,Der Einzelne in der Gesellschaft,117,Gruppe II
+1336,7966,7,Psychologie und Erziehung,147,Gruppe II
+1337,7966,8,Antwort auf Hiob,143,Gruppe III
+1338,7966,9,Psychologie und Religion,280,Gruppe III
+1339,7966,10,Psychiatrie und Okkultismus,155,Gruppe III
+1340,7966,11,Zur Psychoanalyse (Frühe Schriften III),155,Gruppe IV
+1341,7966,12,Versuch einer Darstellung der psychoanalytischen Theorie (Frühe Schriften IV),209,Gruppe IV
+1342,7966,13,Die Beziehungen zwischen dem Ich und dem Unbewussten,151,Gruppe IV
+1343,7966,14,Über die Psychologie der Dementia praecox (Frühe Schriften II),180,Gruppe V
+1344,7966,15,Zur Psychogenese der Geisteskrankheiten,100,Gruppe V
+1345,7966,16,Zum Wesen des Psychischen,149,Gruppe VI
+1346,7966,17,Über psychische Energetik und das Wesen der Träume,198,Gruppe VI
+1347,7966,18,Über Synchronizität,144,Gruppe VI
+1348,7966,19,Über Grundlagen der analytischen Psychologie,218,Gruppe VI
+1349,7966,20,Psychologie und Alchemie,620,Gruppe VI
+1350,7967,1,Tagebücher I Der erste Weltkrieg,556,
+1351,7967,2,Tagebücher II. Strahlungen. Erster Teil,517,
+1352,7967,3,Tagebücher III Strahlungen. Zweiter Teil,686,
+1353,7967,4,Tagebücher IV. Reisetagebücher,431,
+1354,7967,5,Essays I. Betrachtungen zur Zeit,537,
+1355,7967,6,Essays II. Der Arbeiter,661,
+1356,7967,7,Essays III. Das abenteuerliche Herz,497,
+1357,7967,8,Essays IV. Fassungen,672,
+1358,7967,9,Erzählende Schriften I. Erzählungen,515,
+1359,7967,10,Erzählende Schriften II. Heliopolis,431,
+1451,8002,5,,376,
+1360,7969,1,Vorkritische Schriften bis 1768. Erster Teil,564,
+1361,7969,2,Vorkritische Schriften bis 1768. Zweiter Teil,1008,
+1362,7969,3,Kritik der Reinen Vernunft. Erster Teil,307,
+1363,7969,4,Kritik der Reinen Vernunft. Zweiter Teil,712,
+1364,7969,5,Schriften zur Metaphysik und Logik,685,
+1365,7969,6,Schriften zur Ethik und Religionsphilosophie. Erster Teil,302,
+1366,7969,7,Schriften zur Ethik und Religionsphilosophie. Zweiter Teil,886,
+1367,7969,8,Kritik der Urteilskraft und Schriften zur Naturphilosophie,633,
+1368,7969,9,Schriften zur Anthropologie Geschichtsphilosophie Politik und Pädagogik. Erster Teil,393,
+1369,7969,10,Schriften zur Anthropologie Geschichtsphilosophie Politik und Pädagogik. Zweiter Teil,767,
+1370,7971,1,1. bis 17. Januar 1943,796,
+1371,7971,2,18. bis 31. Januar 1943,696,
+1372,7971,3,1. bis 15. Februar 1943,809,Typo in original: 19443 instead of 1943
+1373,7971,4,16. bis 28. Februar 1943,732,
+1374,7972,1,Dschungelwelt. Kim Das Dschungelbuch Das neue Dschungelbuch Dunkles Indien,1041,
+1375,7972,2,Hart und heiß. Kleine Geschichte aus den Bergen Geschichte aus Simla Die schönste Geschichte der Welt In schwarz und weiß Bilanz,1135,
+1376,7972,3,Das große Abenteuer,949,
+1377,7974,1,"Gesammelte Nachdichtungen. China, Japan, Persien",329,
+1378,7974,2,Erzählungen und Grotesken. Gesammelte Prosa,332,
+1379,7978,1,Zwillinge Die falschen Spieler. Elfride. Konradin. Schwur gegen die Ehe,455,
+1380,7978,2,Günstling. Aristodemos. Medea in Korinth. Medea auf dem Kaukasos. Damokles,416,
+1381,7978,3,"Fausts Leben, Thaten und Höllenfahrt",272,"VIII, 272 SS."
+1382,7978,4,Geschichte Raphaels de Aquillas,251,
+1383,7978,5,Geschichte Giafars des Barmeciden,362,"VI, 362 SS."
+1384,7978,6,Reisen vor der Sündfluth,342,1794
+1385,7978,7,Der Faust der Morgenländer,264,1795
+1386,7978,8,Geschichte eines Deutschen der neuesten Zeit,324,
+1387,7978,9,Der Weltmann und der Dichter,208,1797
+1388,7978,10,"Sahir, Eva`s Erstgeborener im Paradiese. Das zu frühe Erwachen des Genius der Menschheit. Bruchstück",265,"XII, 265 S."
+1389,7978,11,Betrachtungen und Gedanken. Erster Theil,288,
+1390,7978,12,Betrachtungen und Gedanken über verschiedene Gegenstände. Lebensskizze F. M. Klingers,,
+1391,7980,1,,626,
+1392,7980,2,,623,
+1393,7980,3,,828,
+1394,7981,1,,621,
+1395,7981,2,,623,
+1396,7981,3,,813,
+1397,7982,1,Grimassen Auswahl 1902 – 14,574,
+1398,7982,2,In dieser großen Zeit. Auswahl 1914 – 25,647,
+1399,7982,3,vor der Walpurgisnacht Auswahl 1925 – 33,690,
+1400,7983,3,Beim Wort genommen,462,2. Aufl. 1965
+1401,7983,4,Widerschein der Fackel. Glossen,433,"1.Aufl, 1956"
+1402,7983,5,Die letzten Tage der Menschheit. Tragödie in fünf Akten mit Vorspiel und Epilog. Der Text folgt der Originalfassung des Jahres 1926,769,1957
+1403,7983,6,Literatur und Lüge,355,1958
+1404,7983,9,Unsterblicher Witz,341,1961
+1405,7983,10,Mit vorzüglicher Hochachtung. Briefe des Verlages der Fackel,434,1962
+1406,7985,1,Einführung und Aufbau. De docta ignorantia. De venatione sapientiae,591,XL Seiten Einführung
+1407,7985,2,"De coniecturis, de principio u.a.",731,XXXI Seiten Einführung
+1408,7985,3,Compendium. De visione die u.a. Gesamtregister. Literaturverzeichnis,844,XXIV Seiten Einführung
+1409,7986,1,,,Band eins
+1410,7987,1,Lieber gestreifter Tiger,344,
+1411,7987,2,Wo ist unser buntes Theben,397,
+1412,7988,1,Gedichte 1902 – 1943,438,Hrsg. von Friedhelm Kemp. 1961. 2.Aufl. 4.-6.Tsd.
+1413,7988,2,Prosa und Schauspiele,1231,Hrsg. von Friedhelm Kemp. 1962. EA.
+1414,7988,3,Verse und Prosa aus dem Nachlass,177,Hrsg. v. Werner Kraft. 1961. EA.
+1415,7990,1,Gedichte und Versepen,1199,
+1416,7990,2,Briefe,1310,
+1417,7993,1,Dramen. Dramatische Fragmente. Übersetzungen Shakespeares,783,
+1418,7993,2,Lustspiele nach dem Plautus. Prosadichtungen. Theoretische Schriften,958,
+1419,7993,3,Lyrik. Briefe,994,
+1420,7994,1,Gedichte und Sinnsprüche. Fabeln. Jugenddramen,727,M.1.Porträt Lessings
+1421,7994,2,Dramen. Dramenfragmente,577,
+1422,7994,3,Frühe kritische Schriften,737,
+1423,7994,4,Über die Fabel. Literaturbriefe. Sophokles,571,
+1424,7994,5,Antiquarische Schriften,763,
+1425,7994,6,Hamburgische Dramaturgie. Leben und Leben lassen,548,
+1426,7994,7,Über das Epigramm. Beiträge zu einem deutschen Glossarium. Philosophische und theologische Schriften I,871,
+1427,7994,8,Philosophische und Theologische Schriften II,649,
+1428,7994,9,Briefe,908,
+1429,7994,10,Paul Rilla: Lessing und sein Zeitalter. Nachträge. Register,698,
+1430,7996,1,Einführung des Herausgebers. Sudelbücher. Fragmente. Fabeln. Verse,669,
+1431,7996,2,Aufsätze. Satirische Schriften,537,
+1432,7996,3,Ausführliche Erklärung der Hogarthischen Kupferstiche. Erster Teilband. Die Erklärung,456,
+1433,7996,31,Zweiter Teilband. Die Kupferstiche,99,Volume 3.1
+1434,7996,41,Briefe. Erster Teilband,412,Volume 4.1
+1435,7996,42,Briefe. Zweiter Teilband,872,Volume 4.2
+1436,7997,1,Sudelbücher. Zum vorliegenden Band. Nummernkonkordanz. Inhaltsverzeichnis,988,
+1437,7997,2,"Sudelbücher II. Materialhefte, Tagebücher",867,Band 2/1
+1438,7997,3,Kommentar zu Band 1 und Band 2 von Wolfgang Promies,1493,Band 2/2
+1439,7997,4,"Aufsätze. Entwürfe, Gedichte. Erklärung der Hogarthischen Kupferstiche",1075,Band 3/1
+1440,7997,5,Kommentar zu Band 3,463,Band 3/2
+1441,7997,6,Briefe. Kommentare,1340,Band 4
+1442,7998,1,,296,XXV Vorspann
+1443,7998,2,,345,
+1444,8001,2,,428,
+1445,8001,3,,386,
+1446,8001,4,,384,
+1447,8002,1,,363,XI Vorspann
+1448,8002,2,,428,
+1452,8003,1,Aufbruch zur Reformation,319,
+1453,8003,2,Erneuerung von Frömmigkeit und Theologie,299,
+1454,8003,3,Auseinandersetzung mit der römischen Kirche,302,
+1455,8003,4,Christsein und weltliches Regiment,319,
+1456,8003,5,Kirche Gottesdienst Schule,306,
+1457,8003,6,"Briefe Auswahl, Übersetzung und Erläuterungen von Johannes Schilling",,
+1458,8006,1,,,
+1459,8006,2,,,
+1460,8006,3,,,
+1461,8006,4,,,
+1462,8006,5,,,
+1463,8006,6,,,
+1464,8006,7,,,
+1465,8006,8,,,
+1466,8006,9,,,
+1467,8006,10,,,
+1468,8013,1,Briefe 1889-1936,581,Band I
+1469,8016,1,Tagebücher 1918 – 1921,907,"1979. XI, 907 S"
+1470,8016,2,Tagebücher 1933 – 1934,817,"1977. XXI, 817 S"
+1471,8016,3,Tagebücher 1935 – 1936,721,"1978. VII, 721 S"
+1472,8016,4,Tagebücher 1937 - 1939,986,"1980. VIII, 986 S"
+1473,8016,5,Tagebücher 1940 – 1943,1199,"1982. XI, 1199 S"
+1474,8016,6,Tagebücher 1944 – 1.4.1946,911,"1986. XIV, 911 S"
+1475,8016,7,Tagebücher 28.5.1946 – 31.12.1948,1041,"1989. XIII, 1041 S"
+1476,8016,8,Tagebücher 1949 – 1950,775,"1991. XVIII, 775 S"
+1477,8016,9,Tagebücher 1951 – 1952,927,"1993. XXII, 927 S"
+1478,8016,10,Tagebücher 1953 – 1955,976,"1995. XXI, 976 S"
+1479,8017,1,,499,
+1480,8017,2,,477,
+1481,8019,1,,319,
+1482,8019,2,,406,
+1483,8019,3,,333,
+1484,8019,4,,311,
+1485,8026,1,Gedichte,448,
+1486,8026,2,Maler Nolten. Novellen in zwei Teilen,502,
+1487,8026,3,Novellen und Märchen. Vermischte Schriften. Dramatisches,,
+1488,8027,1,Autobiographische und poetische Schriften,626,
+1489,8027,2,Reisen. Schriften zur Kunst und Mythologie,949,
+1490,8027,3,"Erfahrung, Sprache, Denken",831,
+1491,8029,1,"Prosa, Dramen, späte Briefe",844,
+1492,8032,1,,1040,1. – 10. Tausend
+1493,8032,2,,2159,Sonderausgabe. 31.- 40. Tausend. 1983
+1494,8033,1,Briefe 1901 – 1942,1458,"XXIV, 1458 SS. Lose dazu 2 Briefe an Carl Seelig"
+1495,8033,2,Briefe 1901 – 1942. Kommentar Register,830,"XVI, 830 SS."
+1496,8038,1,,357,ohne Umschlag
+1497,8038,2,,482,
+1498,8038,3,,601,
+1499,8038,4,,,fehlt
+1500,8043,1,,446,XII Vorspann
+1501,8043,2,,472,
+1502,8043,3,,432,
+1503,8043,4,,492,
+1504,8043,5,,514,
+1505,8043,6,,498,
+1506,8044,3,Allerlei Weltweisheit,492,dritter Band
+1507,8045,1,Erste Erzählungen. Grotesken,533,Deutsch v. Arno Schmidt und Hans Wollschläger
+1508,8045,2,Arabesken. Detektivgeschichten,565,Deutsch von Arno Schmidt und Hans Wollschläger. 535 – 1100 S.
+1509,8045,3,Phantastische Fahrten I,400,Deutsch von Arno Schmidt und Hans Wollschläger
+1510,8045,4,Phantastische Fahrten II. Faszination des Grauens,464,Deutsch von Arno Schmidt und Hans Wollschläger. 401 – 864 S.
+1511,8045,5,Kosmos und Eschatologie,320,Deutsch von Arno Schmidt und Hans Wollschläger. 865 – 1184
+1512,8045,6,Rezensionen I,342,"Deutsch von Richard Kruse, Friedrich Polakovics, Arno Schmidt und Ursula Wernicke. 1 – 342 S."
+1513,8045,7,Rezensionen II,288,"Deutsch von Richard Kruse, Friedrich Polakovics, Arno Schmidt, Ursula Wernicke und Hans Wollschläger. 343 – 630 S."
+1514,8045,8,Briefe,262,Deutsch von Hans Wollschläger. 631 – 892 S.
+1515,8045,9,Gedichte. Drama. Essays I,530,"Deutsch von Richard Kruse, Friedrich Polakovics, Arno Schmidt, Ursula Wernicke und Hans Wollschläger"
+1516,8045,10,Essays II. Marginalien,562,"Deutsch von Richard Kruse, Friedrich Polakovics und Ursula Wernicke. 531 – 1092 S."
+1517,8057,1,Eine Zeit in der Hölle. Lichtspuren,,
+1518,8057,2,Das trunkene Schiff. Gedichte,,
+1519,8058,1,Sämtliche Dichtungen,355,"Französisch, mit deutscher Übertragung von Walther Küchler"
+1520,8058,2,Briefe und Dokumente,392,Herausgegeben übersetzt und erläutert von Curd Ochwadt
+1521,8059,1,Romane,980,
+1522,8059,2,Romane,1148,
+1523,8059,3,Erzählungen. Essays. Kleine Prosa. Panoptikum. Reisebilder,1114,
+1524,8059,4,Kleine Prosa. Nachwort. Anhang,932,
+1525,8062,1,,654,
+1526,8062,2,,807,
+1527,8065,1,Die Hundertzwanzig Tage von Sodom oder die Schule der Ausschweifung,480,
+1528,8065,2,Justine oder die Leiden der Tugend,600,
+1529,8065,3,"Juliette oder Die Wonnen des Lasters, Teil 1",504,
+1530,8065,4,"Juliette oder Die Wonnen des Lasters, Teil 2",401,
+1531,8065,5,Die Philosophie im Boudoir oder die lasterhaften Lehrmeister,408,
+1532,8066,1,Schriften zur Literatur. Der Mensch und die Dinge. Aufsätze zur Literatur 1938-1946. Baudelaire. Ein Essay,334,"205, 129 S."
+1533,8066,2,Was ist Literatur?,250,
+1534,8066,3,"Saint Genet, Komödiant und Märtyrer",987,Übersetzt von Ursula Dörrenbächer
+1535,8066,4,"Schwarze und weiße Literatur. Aufsätze zur Literatur 1946-1960. Mallarmes Engagement. Mallarme (1842-1898). Was kann Literatur? Interviews, Reden Texte 1960-1976",555,"181, 157, 217 S."
+1536,8066,5,Der Idiot der Familie. Gustave Flaubert 1821-1857. I. Die Konstitution,663,Übersetzt und herausgegeben von Traugott König
+1537,8066,6,Der Idiot der Familie II. Gustave Flaubert 1821-1857. II. Die Personalisation,1171,
+1538,8066,7,Der Idiot der Familie III. Gustave Flaubert 1821-1857. III. Elbehnon oder die letzte Spirale,395,
+1539,8066,8,Der Idiot der Familie IV. Gustave Flaubert 1821-1857. IV. Objektive und subjektive Neurose,764,
+1540,8066,9,Beiheft,32,
+1541,8067,1,Gedichte. Dramen 1,1040,
+1542,8067,2,Dramen 2,1305,
+1543,8067,3,Fragmente. Übersetzungen. Bearbeitungen,1004,
+1544,8067,4,Historische Schriften,1072,
+1545,8067,5,Erzählungen. Theoretische Schriften,1370,
+1546,8069,1,,1077,
+1547,8069,2,,1043,
+1548,8070,1,,752,"Einleitung von Erhard Buschbeck. XXIX, 752 S."
+1549,8070,2,,690,Nachwort von Vinzenz Chiavacci jun. 690 S.
+1550,8071,1,Die Welt als Wille und Vorstellung,692,6. bis 8. Tausend
+1551,8071,2,Die Welt als Wille und Vorstellung,765,698 – 1462 S. 9 – 13. Tausend
+1552,8071,3,Kleine Schriften,779,6. – 10. Tausend
+1553,8071,4,Parerga und Paralipomena. Kleine philosophische Schriften Erster Teil,580,6. – 10. Tsd.
+1554,8071,5,Parerga und Paralipomena. Kleine philosophische Schriften. Zweiter Teil,761,6. bis 10. Tausend. Mit Gesamtregister und Gesamtinhalt
+1555,8072,1,Lyrik,319,
+1556,8072,2,Prosa 1918 – 1930,438,
+1557,8072,3,1931 – 1948,338,
+1558,8072,4,Schauspiele und Szenen,371,
+1559,8072,5,Manifeste und kritische Prosa,480,
+1560,8073,1,Komödien I,400,
+1561,8073,2,Komödien II,402,
+1562,8073,3,Komödien III,351,
+1563,8073,4,Historien I,458,
+1564,8073,5,Historien II,476,
+1565,8073,6,Tragödien I,388,
+1566,8073,7,Tragödien II,460,
+1567,8073,8,Tragödien III,399,
+1568,8073,9,Sonette/ Epen und die kleineren Dichtungen. Zweisprachige Ausgabe,470,
+1569,8075,1,,386,Einband durch Wasser beschädigt (Inhalt jedoch intakt)
+1570,8075,2,,365,
+1571,8075,3,,354,
+1572,8076,1,Gedichte Märchen und unheimliche Geschichten,618,
+1573,8076,2,Prosa Anhang,534,
+1574,8078,1,Frühe Erzählungen und Romane,1040,
+1575,8078,2,Märchen aus dem Phantasus. Dramen,926,
+1576,8078,3,Novellen,1106,
+1577,8078,4,Romane,852,
+1578,8080,1,Auferstehung. Roman,636,A.d.Russ. v. Ilse Frapan
+1579,8080,2,Anna Karenina. Roman in zwei Bänden - Band 1,664,A.d.Russ. v. Arthur Luther
+1580,8080,3,Anna Karenina. Roman in zwei Bänden - Band 2,577,A.d.Russ. v. Arthur Luther
+1581,8080,4,Krieg und Frieden - Band 1,503,A.d.Russ. v. Erich Boehme
+1582,8080,5,Krieg und Frieden - Band 2,535,A.d.Russ. v. Erich Boehme
+1583,8080,6,Krieg und Frieden - Band 3,561,A.d.Russ. v. Erich Boehme
+1584,8080,7,Krieg und Frieden - Band 4,488,A.d.Russ. v. Erich Boehme
+1585,8080,8,Kindheit Knabenjahre Jugendzeit,526,A.d.Russ. v. Eva Luther
+1586,8080,9,Der Überfall und andere Erzählungen,533,A.d.Russ. v. Arthur Luther
+1587,8080,10,Der Schneesturm und andere Erzählungen,526,A.d.Russ. v. Eva Luther
+1588,8080,11,Der Leinwandmesser und andere Erzählungen,553,"A.d.Russ. v. Arthur Luther, Erich Müller und August Scholz"
+1589,8080,12,Hadschi Murat und andere Erzählungen,627,"A.d.Russ. Erich Boehme, Erich Müller und August Scholz"
+1590,8080,13,Herr und Knecht. Volkserzählungen,424,"A.d.Russ. v, Erich Boehme"
+1591,8080,14,Bühnenwerke,483,A.d.Russ. v. August Scholz
+1592,8081,1,Erster Band 1847 – 1852,286,
+1593,8084,1,1907 – 1924,1330,
+1594,8084,2,1925 – 1928,1387,
+1595,8084,3,1929 – 1932,1344,
+1596,8086,1,Band 1785 – 1810,914,
+1597,8086,2,Band 1810 – 1815,917,
+1598,8086,3,Band 1815 – 1834,1013,
+1599,8092,1,Erzählungen,510,Mit einem Porträt des Autors
+1600,8092,2,Dialoge,375,
+1601,8092,3,Streitschriften,463,
+1602,8097,1,Die vier Jahreszeiten. Der Stein der Weisen. Feuerwerk. Mine-Haha,385,17. und 18. Tausend
+1603,8097,2,Die junge Welt. Frühlings Erwachen. Fritz Schwigerling. (Der Liebestrank),248,17. und 18. Tausend
+1604,8097,3,Erdgeist. Die Büchse der Pandora. Der Kammersänger,240,17. und 18. Tausend
+1605,8097,4,"Der Marquis von Keith. König Nicolo. Karl Hetmann, der Zwergriese (Hidalla)",265,17. und 18. Tausend
+1606,8097,5,Tod und Teufel. Musik. Die Zensur. Daha,231,17. und 18. Tausend
+1607,8097,6,Schloß Wetterstein / Franziska. Simson oder Scham und Eifersucht. Die Flöhe oder der Schmerzenstanz. Die Kaiserin von Neufundland,374,17. und 18. Tausend
+1608,8097,7,Der Schnellmaler. Bismarck. Herakles/ Überfürchtenichts. Schauspielkunst,323,12. und 13 Tausend
+1609,8097,8,Lyrik. Versepik. Erzählende Prosa,330,14. und 15. Tausend
+1610,8097,9,Dramen. Entwürfe. Aufsätze aus dem Nachlaß,467,4. und 5. Tausend
+1611,8098,1,Gedichte / Erster Teil,669,2 Ex.
+1612,8098,2,Gedichte / Zweiter Teil,602,
+1613,8098,3,Die Romane. Das Waisenhaus. Nachwuchs. Gold außer Kurs,911,
+1614,8098,4,Kleine Prosa,819,
+1615,8098,5,Briefe,670,
+1616,8100,1,Sein Leben und Lebenswerk von Philipp Aronstein. Gedichte,376,
+1617,8100,2,Lady Windermeres Fächer. Frau ohne Bedeutung. Idealer Gatte. Burnbury - oder die Bedeutung des Ernstseins,403,
+1618,8100,3,Vera oder die Nihilisten. Herzogin von Padua. Salome. Granatapfelhaus. Der glückliche Prinz und andere Märchen. Gedichte in Prosa,477,
+1619,8100,4,Bildnis des Dorian Gray. Lord Arthur Saviles Verbrechen u. andere Geschichten,434,
+1620,8100,5,Vorträge über Kunst Stickerei und Spitzenkunst. Ziele. Die Seele des Menschen unter dem Sozialismus. Aus dem Gefängnis. Sätze und Lehren zum Gebrauch für die Jugend,407,
+1621,8101,1,Gedichte in Prosa. Märchen. Erzählungen. Versuche und Aphorismen,685,
+1622,8101,2,Theaterstücke. Briefe. Gedichte. Nachwort,648,
+1623,8102,1,,974,Einleitung. Zeittafel. Epilog. Verzeichnis der Briefempfänger und Abbildungen
+1624,8102,2,,412,Anmerkungen. Für die deutsche Ausgabe bearbeitet und ergänzt von Peter Funke
+1625,8103,1,1900 - 1916,475,
+1626,8103,2,1917 – 1924,429,
+1627,8103,3,1925 – 1932,593,
+1628,8110,1,Die Apokryphen des Alten Testaments,507,"XXXII, 507 SS."
+1629,8110,2,Die Pseudepigraphen des Alten Testaments,540,"VII, 540 SS."
+1630,8146,1,Die fünf Bücher der Weisung,582,
+1631,8146,2,Bücher der Geschichte,521,
+1632,8146,3,Bücher der Kündigung,782,
+1633,8146,4,Die Schriftwerke,695,5. Verbesserte Auflage der neubearbeiteten Ausgabe von 1962
+1634,8149,1,,140,Hebräisch und Deutsch
+1635,8151,1,Buch I-III,464,"XXXVI, 464 S. Zweite, überprüfte Auflage 1962"
+1636,8151,2,Buch IV-V,274,"XII, 274 S. 1963"
+1637,8151,3,Buch VI-VII,287,287 S. 1969
+1638,8151,4,Ergänzungen und Register,149,"XXVII, 149 S. 1969"
+1639,8152,1,,646,
+1640,8152,2,,724,
+1641,8164,1,,383,
+1642,8164,2,,293,
+1643,8164,3,,321,
+1644,8164,4,,350,
+1645,8164,5,,377,
+1646,8164,6,,416,
+1647,8179,2,Babylonisch-persische Zeit,216,
+1648,8215,4,Judaica 4,285,Bibliothek Suhrkamp 831
+1649,8216,1,,,
+1650,8232,1,Im Land der Blinden,889,"XIII, 889 S."
+1651,8232,2,"Klug wie die Schlange, sanft wie die Taube",1746,1746 S.
+1652,8232,3,Endspiel,2578,2578 S.
+1653,8262,2,,186,226-412 S.
+1654,8280,1,1785 – 1797,398,1917
+1655,8280,2,1799 – 1813,580,1918
+1656,8285,2,Romeo und Julia. Othello. Der Kaufmann von Venedig,,
+1657,8300,1,1801 bis 1806,434,
+1658,8308,1,Erster Teil,255,"Mit 29 Bildbeigaben. XI, 255 S."
+1659,8308,2,Zweiter Teil,306,Mit 13 Bildbeigaben und 37 Illustrationen im Text. 306 S.
+1660,8309,2,,221,Eines von 1000 num. Ex. mit der Nr. 461
+1661,8325,1,,334,Mit Ex Libris Stempel und handschriftlichen Eintragungen auf letzter Seite. Mit 36 Bildbeigaben
+1662,8325,2,,348,Mit 37 Bildbeigaben
+1663,8326,1,Von Christoph Martin Wieland bis Franz Grillparzer,734,
+1664,8326,2,Von Annette von Droste-Hülshoff bis Wilhelm Raabe,768,
+1665,8330,1,,324,
+1666,8330,2,,321,
+1667,8332,8,,,Band VIII
+1668,8340,1,,263,
+1669,8340,2,,189,
+1670,8343,1,,,
+1671,8351,1,Erster Teil,330,
+1672,8351,2,Zweiter Teil,477,
+1673,8375,1,,,
+1674,8375,2,,,
+1675,8396,1,Erstes und zweites Buch,315,"mit einem Bildnis des Autors und zwei Beilagen. 70, 315 SS."
+1676,8396,2,"Drittes, viertes und fünftes Buch",594,mit einer Beilage. 322 – 915 S.
+1677,8397,1,"Erstes, zweites und drittes Buch",519,"LXXXVII, 519 S."
+1678,8397,2,Viertes und fünftes Buch,464,464 S.
+1679,8409,1,,343,
+1680,8409,2,,376,
+1681,8413,3,,,
+1682,8418,10,,,
+1683,8471,1,Erster bis fünfter Tag,665,
+1684,8471,2,Sechster bis zehnter Tag,585,
+1685,8486,4,Die Ansiedler,218,Mit Buchschmuck und 8 ganzs. Bildern in Steindruck
+1686,8486,5,Die Prärie,198,Buchschmuck und 8 ganzs. Bildern in Steindruck
+1687,8550,2,,,
+1688,8570,1,Ernst Jünger: Myrdun,71,"Mit 14 Zeichnungen von Alfred Kubin, 1980"
+1689,8570,2,G.A.Bürger: Münchhausen,137,"Mit 12 Zeichnungen von A.Kubin, 1979"
+1690,8570,3,E.T.A. Hoffmann: Zwei Nachtstücke,153,"Mit 20 Zeichnungen von Kubin, 1980"
+1691,8570,4,G.Hauptmann: Fasching,61,"Mit 13 Zeichnungen von Kubin, 1980"
+1692,8570,5,Carl Orff: Astutuli,81,"Mit 9 Zeichnungen von Kubin, 1980"
+1693,8649,7,,,
+1694,8677,1,,,
+1695,8677,2,,,
+1696,8693,1,Antike Philosophie,550,
+1697,8694,15,,,Band 15
+1698,8695,14,,,Gesamtausgabe Band 14
+1699,8696,2,,,Band 2
+1700,8705,1,,202,1967. ES 11
+1701,8705,2,,178,1966. 16.-22.Tsd. ES 58
+1702,8708,1,,,
+1703,8708,2,,,
+1704,8708,3,,,
+1705,8734,2,,370,Band 2 der Gesammelten Werke
+1706,8735,6,,294,Band VI der Gesammelten Werke
+1707,8751,1,Erster Band,1086,
+1708,8762,1,"La Rochefoucauld, Vauvernargues, Montesquieu. Chamfort",514,längere Widmungen von Rudi Gelbard
+1709,8762,2,"Galiani, Rivarol, Joubert, Jouffroy",392,längere Widmungen von Rudi Gelbard
+1710,8769,1,Die okzidentale Konstellation von Glauben und Wissen,918,
+1711,8769,2,Vernünftige Freiheit. Spuren des Diskurses über Glauben und Wissen,820,
+1712,8794,2,Von der Mythologie zur mystischen Philosophie,223,"Teil 2,1"
+1713,8795,1,Die mythologische Gnosis,456,Mit einer Einleitung zur Geschichte und Methodologie der Forschung
+1714,8808,1,,,
+1715,8808,2,,,
+1716,8816,1,Teil 1,,
+1717,8816,2,Teil 2,,
+1718,8820,1,,,Band 1 der Veröffentlichungen des Instituts Wiener Kreis
+1719,8841,1,A – Intuition,586,XCVI Vorspann
+1720,8841,2,Kategorisch – Zweck,664,
+1721,8845,1,,168,1966. Erstausgabe
+1722,8845,2,,167,1970. 5. Auflage
+1723,8851,1,Buch 1,161,Lateinisch-deutsch
+1724,8856,1,Von der Frühzeit bis zur Klassik,223,"VIII, 223 S."
+1725,8856,2,Vom Hellenismus bis zur Spätantike,234,"VI, 234 S."
+1726,8857,457,,,Rowohlts Enzyklopädie 457
+1727,8866,1,Der Zauber Platons,435,UTB 472
+1728,8866,2,"Falsche Propheten. Hegel, Marx und die Propheten",453,UTB 473
+1729,8902,1,Erster Band / II. Teil,,
+1730,8927,2,,,Band 2 der Veröffentlichungen des Instituts Wiener Kreis
+1731,8938,1,Der erhabenste aller Hysteriker,,A.d.Französ.
+1732,8938,2,Verweilen beim Negativen,,A.d.Engl.
+1733,8943,1,Antisemitismus,,
+1734,8943,2,Imperialismus,,
+1735,8943,3,Totale Herrschaft,,
+1736,8988,1,Band A – K,686,"VIII, 686 S."
+1737,8988,2,Band L – Sch,575,688 – 1263 S.
+1738,8988,3,Band Sci – Z,810,1266 – 2076 S.
+1739,8992,1,,350,"XI, 350 S."
+1740,8992,2,,413,351-763 S.
+1741,9015,2,"Stammesgesellschaften in Ostasien, Indonesien, Ozeanien",,Teil 1
+1742,9038,3,"Erinnerung, Geschichte, Identität 3",461,stw 1404
+1743,9066,1,Kultur und Gesellschaft I,177,
+1744,9110,1,,735,
+1745,9110,2,,869,
+1746,9111,1,,735,
+1747,9111,2,,853,
+1748,9139,1,Erster Band,104,"Notenteil 39 S., Mödling Landesverband der Trachten- und Heimatvereine für Niederösterreich 1975"
+1749,9139,2,Zweiter Band,74,"Notenteil 70 S., Mödling Niederösterreichische Heimatpflege 1988"
+1750,9143,1,Erster Theil,530,
+1751,9168,38,,,Band XXXVIII
+1752,9179,1,,492,alles Erschienene!
+1753,9198,1,Die Stadt,680,
+1754,9198,2,Die Katastralgemeinden,412,
+1755,9205,11,,,
+1756,9207,1,,431,"XVI, 431 S."
+1757,9207,2,,461,"VIII, 461 S."
+1758,9215,1,,368,
+1759,9215,2,,364,
+1760,9230,8,Burgenland,,Heft 1
+1761,9265,3,,,Band 3
+1762,9303,1,Reprint von Anton von Ruthner: Das Kaiserthum Österreich in malerischen Originalansichten…photographisch treu ausgeführten Stahlstichen von …,44,980 Ex. mit der Nr. 744
+1763,9308,1851,Für das Jahr 1851,180,
+1764,9308,1852,,180,
+1765,9308,1854,,180,
+1766,9308,1855,,180,
+1767,9308,1856,,180,
+1768,9308,1858,,180,
+1769,9308,1860,,180,
+1770,9308,1870,,180,
+1771,9308,1874,,180,
+1772,9308,1875,,180,
+1773,9308,1876,,180,
+1774,9308,1877,,180,
+1775,9308,,ohne Jahreszahl,180,Band 1
+1776,9308,,ohne Jahreszahl,180,Band 2
+1777,9325,1,,,Band 1
+1778,9350,1,,,Erster Band
+1779,9351,1,Teil 1,621,
+1780,9351,2,Teil 2,567,
+1781,9354,2,Erste Abtheilung,376,Nur dieser eine Band vorhanden
+1782,9378,2,,738,"333, 405 S."
+1783,9381,2,,571,Zweiter Band ohne den ersten Band
+1784,9383,1,,279,XVI Vorspann
+1785,9383,2,,232,
+1786,9385,1,Basisgeschichten,1004,Mit Abb.
+1787,9385,2,Lebensläufe,1032,Mit Abb.
+1788,9386,2,,719,
+1789,9387,3,,748,Band 3
+1790,9388,1,Erkämpfte Freiheit,620,Erinnerungen
+1791,9400,1,,787,Mit 8 Abb. a. Taf. XIV
+1792,9400,2,,643,Mit 8 Abb. a. Taf. IX
+1793,9401,1,,,
+1794,9421,10,,,Band 10
+1795,9485,1,,,
+1796,9485,2,,,
+1797,9594,1,Erster Band,381,Mit 29 Abb.
+1798,9594,2,Zweiter Band,385,Mit 29 Abb.
+1799,9610,1,,395,XVI Seiten Vorspann
+1800,9610,2,,392,
+1801,9645,1,Erster Teil 1875 – 1918,1184,mit Schuber
+1802,9645,2,Zweiter Teil: Jahre der Schwebe: 1919 und 1933. Nachgelassene Kapitel. Gesamtregister,432,1992
+1803,9651,1,Der Weg zum Feldherrn 1650 – 1705,1083,Mit 21 ganzs. Abb.
+1804,9651,2,Der Feldherr und Staatsmann 1705 – 1722,1030,Mit 11 ganzs. Abb. Nachwort von William Deakin
+1805,9656,1,Die Asche meiner Mutter,507,"1996, mit Lesebändchen"
+1806,9656,2,Ein rundherum tolles Land,487,"1999, mit Lesebändchen"
+1807,9656,3,Tag und Nacht und auch im Sommer,331,2006
+1808,9666,1,,774,
+1809,9666,2,,740,
+1810,9692,1,,407,
+1811,9692,2,,406,
+1812,9721,1,Der Aufstieg zur Macht,454,Mit 17 ganzs. Abb.
+1813,9721,2,Behauptung der Macht und kalter Krieg,493,Mit 16 ganzs. Abb.
+1814,9721,3,Großmachtpolitik und Tod des Kardinals,651,Mit 8 ganzs. Abb.
+1815,9730,1,1763 bis 1809,343,
+1816,9730,2,1809 bis 1824,263,
+1817,9745,1,1691 – 1704,451,
+1818,9745,2,1705 – 1709,300,
+1819,9745,3,1710 – 1715,338,
+1820,9745,4,1715 – 1723,335,
+1821,9747,1,Erster Teil 1901 – 1939,521,
+1822,9747,2,Zweiter Teil 1939 – 1978,554,Mit Abb. a. Taf.
+1823,9769,1,Die Wasserträger Gottes,259,EA. 1974
+1824,9769,2,Die vergebliche Warnung,325,11.-15.Tsd. 1975
+1825,9769,3,Bis man mir Scherben auf die Augen legt,377,EA. 1977
