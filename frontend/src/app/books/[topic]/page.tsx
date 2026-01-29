@@ -29,7 +29,6 @@ export default function BibliographyPage() {
   const [pagination, setPagination] = useState<PaginationInfo | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [showPrices, setShowPrices] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
   const [selectedBookId, setselectedBookId] = useState<number | null>(null);
   const [priceAmount, setPriceAmount] = useState<number | string>('');
   const [priceSource, setPriceSource] = useState('');

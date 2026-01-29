@@ -18,7 +18,7 @@ import { usePathname } from 'next/navigation';
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const [mobileOpened, { toggle: toggleMobile }] = useDisclosure();
-  const [desktopOpened, { toggle: toggleDesktop }] = useDisclosure(true);
+  const [desktopOpened] = useDisclosure(true);
   const pathname = usePathname();
   const isOnBooksPage = pathname.startsWith('/books');
 

@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Pool, QueryResult, QueryResultRow } from 'pg';
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function sql(strings: TemplateStringsArray, ...values: any[]): string {
   return strings.reduce(
     (result, str, i) => result + str + (values[i] ?? ''),
