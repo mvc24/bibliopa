@@ -281,6 +281,22 @@ export async function getBookWithEverythingById(id: number) {
   return result.rows;
 }
 
+/**
+ * Mark a book as removed (soft delete)
+ * Sets is_removed = TRUE for the specified book
+ */
+export async function markBookAsRemoved(bookId: number) {
+  const result = await query(
+    `UPDATE books
+     SET is_removed = TRUE
+     WHERE book_id = $1
+     RETURNING book_id`,
+    [bookId]
+  );
+
+  return result.rows[0];
+}
+
 // TODO(human): Add more query functions as you practice:
 // - getBooksWithPagination(page, limit)
 // - getBooksWithFilters(search, topicId, etc.)

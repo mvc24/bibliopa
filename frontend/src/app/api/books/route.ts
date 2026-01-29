@@ -5,6 +5,7 @@ import { CreateBookInput } from '@/types/database';
 import {
   getAllBooksForTablePaginated,
   getTotalBookCount,
+  markBookAsRemoved,
 } from '@/lib/queries/books';
 import { canViewPrices } from '@/lib/auth';
 
@@ -96,6 +97,62 @@ export async function POST(request: NextRequest) {
     return NextResponse.json(
       {
         error: 'Failed to create book',
+        message: error instanceof Error ? error.message : 'Unknown error',
+      },
+      { status: 500 },
+    );
+  }
+}
+
+/**
+ * PATCH /api/books?id=<book_id>
+ * Update book status (currently supports marking as removed)
+ *
+ * Query params: id (required)
+ * Request body: { is_removed: boolean }
+ */
+export async function PATCH(request: NextRequest) {
+  try {
+    // ===== STEP 1: Get book ID from query params =====
+    const { searchParams } = new URL(request.url);
+    const bookIdParam = searchParams.get('id');
+
+    if (!bookIdParam) {
+      return NextResponse.json(
+        { error: 'Validation error', message: 'Book ID is required' },
+        { status: 400 },
+      );
+    }
+
+    const bookId = parseInt(bookIdParam);
+
+    // ===== STEP 2: Parse request body =====
+    const body = await request.json();
+
+    // ===== STEP 3: Update book status =====
+    if (body.is_removed === true) {
+      await markBookAsRemoved(bookId);
+    } else {
+      return NextResponse.json(
+        { error: 'Validation error', message: 'Only is_removed=true is supported' },
+        { status: 400 },
+      );
+    }
+
+    // ===== STEP 4: Return success response =====
+    return NextResponse.json(
+      {
+        success: true,
+        message: 'Book status updated successfully',
+      },
+      { status: 200 },
+    );
+  } catch (error) {
+    // ===== STEP 5: Handle errors =====
+    console.error('Error updating book status:', error);
+    return NextResponse.json(
+      {
+        error: 'Failed to update book status',
         message: error instanceof Error ? error.message : 'Unknown error',
       },
       { status: 500 },

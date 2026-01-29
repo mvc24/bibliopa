@@ -214,7 +214,6 @@ export default function BibliographyPage() {
                       </Button>
                     ) : (
                       <Button
-                        variant="light"
                         radius="xl"
                         size="sm"
                         onClick={(e) => {
@@ -226,7 +225,53 @@ export default function BibliographyPage() {
                         Preis hinzufügen
                       </Button>
                     )}
-                    <Button size="sm">Buch entfernen</Button>
+                    <Button
+                      size="sm"
+                      variant="light"
+                      onClick={async (e) => {
+                        e.stopPropagation();
+
+                        if (
+                          !confirm(
+                            'Willst du das Buch wirklich aus dem Bestand nehmen?',
+                          )
+                        ) {
+                          return;
+                        }
+
+                        try {
+                          const response = await fetch(
+                            `/api/books?id=${book.book_id}`,
+                            {
+                              method: 'PATCH',
+                              headers: { 'Content-Type': 'application/json' },
+                              body: JSON.stringify({ is_removed: true }),
+                            },
+                          );
+
+                          if (response.ok) {
+                            // Refresh the books list
+                            const url = activeSearch
+                              ? `/api/books?page=${currentPage}&search=${encodeURIComponent(
+                                  activeSearch,
+                                )}`
+                              : `/api/books?page=${currentPage}&topic=${topic}`;
+
+                            const result = await fetch(url).then((r) =>
+                              r.json(),
+                            );
+                            setBooks(result.data);
+                          } else {
+                            alert('Fehler beim Entfernen');
+                          }
+                        } catch (error) {
+                          console.error('Error removing book:', error);
+                          alert('Fehler beim Entfernen');
+                        }
+                      }}
+                    >
+                      Buch entfernen
+                    </Button>
                   </Box>
                 )}
               </Group>
