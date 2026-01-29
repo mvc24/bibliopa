@@ -13,14 +13,15 @@ import {
   TextInput,
   Button,
   Group,
-  Table,
+  Modal,
+  NumberInput,
   Text,
   Checkbox,
   Pagination,
-  MantineColorsTuple,
-  createTheme,
+  Box,
 } from '@mantine/core';
 import { formatPerson } from '@/lib/formatters';
+import { useDisclosure } from '@mantine/hooks';
 
 export default function BibliographyPage() {
   const params = useParams();
@@ -28,6 +29,12 @@ export default function BibliographyPage() {
   const [books, setBooks] = useState<BookDetail[]>([]);
   const [pagination, setPagination] = useState<PaginationInfo | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
+  const [showPrices, setShowPrices] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedBookId, setselectedBookId] = useState<number | null>(null);
+  const [priceAmount, setPriceAmount] = useState<number | string>('');
+  const [priceSource, setPriceSource] = useState('');
+  const [opened, { open, close }] = useDisclosure(false);
 
   const router = useRouter();
 
@@ -36,8 +43,10 @@ export default function BibliographyPage() {
       .then((response) => response.json())
       .then((result) => {
         console.log('Books data:', result.data);
+        console.log('first book topic; ', result.data[0]?.topic);
         setBooks(result.data);
         setPagination(result.pagination);
+        setShowPrices(result.permissions?.canViewPrices || false);
       });
   }, [currentPage, topic]);
 
@@ -59,6 +68,13 @@ export default function BibliographyPage() {
       .filter((p) => p.is_translator)
       .map(formatPerson)
       .join(', '),
+    mostRecentPrice:
+      book.prices
+        .filter((pr) => pr.amount)
+        .sort(
+          (a, b) =>
+            new Date(b.date_added).getTime() - new Date(a.date_added).getTime(),
+        )[0] || null,
   }));
 
   return (
@@ -97,44 +113,151 @@ export default function BibliographyPage() {
               shadow="sm"
               padding="md"
             >
-              <Group>
-                <Group>
-                  <Text size="md">{book.authors}</Text>
-                </Group>
-                <Title
-                  order={2}
-                  size="md"
-                  textWrap="balance"
-                  c="#264a46"
-                >
-                  {book.title}
-                </Title>
-                <Text
-                  size="sm"
-                  c="dimmed"
-                >
-                  {book.subtitle}
-                </Text>
-
-                {book.editors && (
+              <Group
+                justify="space-between"
+                align="flex-start"
+              >
+                <Box style={{ flex: 2 }}>
                   <Group>
-                    <Text size="sm">Herausgegeben von {book.editors}</Text>
+                    <Text size="md">{book.authors}</Text>
                   </Group>
-                )}
-                <Group>
-                  <Text size="sm">
-                    {book.publication_year && `${book.publication_year}. `}
-                    Verlag/Ort: {book.publisher}/{book.place_of_publication}
+                  <Title
+                    order={2}
+                    size="md"
+                    textWrap="balance"
+                    c="#264a46"
+                  >
+                    {book.title}
+                  </Title>
+                  <Text
+                    size="sm"
+                    c="dimmed"
+                  >
+                    {book.subtitle}
                   </Text>
-                </Group>
-              </Group>
-              <Group>
-                <Button>Hello</Button>
+                  {book.editors && (
+                    <Group>
+                      <Text size="sm">Herausgegeben von {book.editors}</Text>
+                    </Group>
+                  )}
+                  <Group>
+                    <Text size="sm">
+                      {book.publication_year && `${book.publication_year}. `}
+                      Verlag/Ort: {book.publisher}/{book.place_of_publication}
+                    </Text>
+                  </Group>
+                </Box>
+
+                {showPrices && (
+                  <Box
+                    style={{
+                      flex: 1,
+                      display: 'flex',
+                      flexDirection: 'column',
+                      alignItems: 'flex-end',
+                      gap: '8px',
+                    }}
+                  >
+                    {book.mostRecentPrice ? (
+                      <Button
+                        variant="light"
+                        radius="xl"
+                        size="sm"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setselectedBookId(book.book_id);
+                          open();
+                        }}
+                      >
+                        € {book.mostRecentPrice.amount}
+                      </Button>
+                    ) : (
+                      <Button
+                        variant="light"
+                        radius="xl"
+                        size="sm"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setselectedBookId(book.book_id);
+                          open();
+                        }}
+                      >
+                        Preis hinzufügen
+                      </Button>
+                    )}
+                    <Button size="sm">Buch entfernen</Button>
+                  </Box>
+                )}
               </Group>
             </Card>
           ))}
         </Stack>
 
+        <Modal
+          opened={opened}
+          onClose={close}
+        >
+          <NumberInput
+            label="Betrag"
+            placeholder="Euro"
+            value={priceAmount}
+            onChange={setPriceAmount}
+            // error="Bitte gib einen Betrag ein oder mach das Fenster mit 'ESC' (Taste links oben auf der Tastatur) zu."
+            required
+            hideControls
+          ></NumberInput>
+          <TextInput
+            label="Quelle"
+            placeholder="Quelle"
+            value={priceSource}
+            onChange={(e) => setPriceSource(e.currentTarget.value)}
+          ></TextInput>
+          <Button
+            my="lg"
+            size="sm"
+            onClick={async () => {
+              if (!selectedBookId || !priceAmount) {
+                alert(
+                  'Bitte gib einen Betrag ein oder mach das Fenster mit ESC (Taste links oben auf der Tastatur) zu.',
+                );
+                return;
+              }
+
+              try {
+                const response = await fetch('/api/prices', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({
+                    book_id: selectedBookId,
+                    amount:
+                      typeof priceAmount === 'string'
+                        ? parseFloat(priceAmount)
+                        : priceAmount,
+                    source: priceSource || null,
+                  }),
+                });
+
+                if (response.ok) {
+                  close();
+                  setPriceAmount('');
+                  setPriceSource('');
+                  // Refresh the books list
+                  const result = await fetch(
+                    `/api/books?page=${currentPage}&topic=${topic}`,
+                  ).then((r) => r.json());
+                  setBooks(result.data);
+                } else {
+                  alert('Fehler beim Speichern');
+                }
+              } catch (error) {
+                console.error('Error saving price:', error);
+                alert('Fehler beim Speichern');
+              }
+            }}
+          >
+            Speichern
+          </Button>
+        </Modal>
         <Pagination
           total={pagination?.total_pages || 0}
           value={currentPage}

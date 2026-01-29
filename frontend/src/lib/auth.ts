@@ -56,7 +56,6 @@ export function hasPermission(
     | 'edit'
     | 'delete'
     | 'view_prices'
-    | 'add_prices'
     | 'view_debug_info',
 ): boolean {
   if (!userRole) {
@@ -69,14 +68,7 @@ export function hasPermission(
       return true; // Admin can do everything
 
     case 'family':
-      return [
-        'view',
-        'add',
-        'edit',
-        'delete',
-        'view_prices',
-        'add_prices',
-      ].includes(action);
+      return ['view', 'add', 'edit', 'delete', 'view_prices'].includes(action);
 
     case 'researcher':
       return ['view', 'view_prices'].includes(action);
@@ -112,10 +104,10 @@ export async function canDownload(): Promise<boolean> {
 /**
  * Check if user can see prices
  * Admin, family, and researcher can see prices
- */
+
+*/
 export async function canViewPrices(): Promise<boolean> {
   if (process.env.NEXT_PUBLIC_DEV_MODE === 'true') return true;
-
   const role = await getUserRole();
   return role === 'admin' || role === 'family' || role === 'researcher';
 }

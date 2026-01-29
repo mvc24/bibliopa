@@ -10,6 +10,10 @@ export default withAuth(
     const token = req.nextauth.token;
     const path = req.nextUrl.pathname;
 
+    if (path === '/books') {
+      return NextResponse.redirect(new URL('/books/all', req.url));
+    }
+
     // Check if path requires specific roles
     if (
       path.startsWith('/books/new') ||

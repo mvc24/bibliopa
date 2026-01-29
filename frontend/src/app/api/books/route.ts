@@ -6,6 +6,7 @@ import {
   getAllBooksForTablePaginated,
   getTotalBookCount,
 } from '@/lib/queries/books';
+import { canViewPrices } from '@/lib/auth';
 
 /**
  * GET /api/books
@@ -19,6 +20,7 @@ export async function GET(request: Request) {
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '100');
     const topic = searchParams.get('topic') || undefined;
+    const canView = await canViewPrices();
 
     const books = await getAllBooksForTablePaginated(page, limit, topic);
 
@@ -32,6 +34,9 @@ export async function GET(request: Request) {
         limit: limit,
         total: totalCount,
         total_pages: Math.ceil(totalCount / limit),
+      },
+      permissions: {
+        canViewPrices: canView,
       },
     });
   } catch (error) {
