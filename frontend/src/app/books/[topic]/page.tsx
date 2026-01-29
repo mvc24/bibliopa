@@ -41,6 +41,26 @@ export default function BibliographyPage() {
       });
   }, [currentPage, topic]);
 
+  const bookData = books.map((book) => ({
+    ...book,
+    authors: book.people
+      .filter((p) => p.is_author)
+      .map(formatPerson)
+      .join(', '),
+    editors: book.people
+      .filter((p) => p.is_editor)
+      .map(formatPerson)
+      .join(', '),
+    contributors: book.people
+      .filter((p) => p.is_contributor)
+      .map(formatPerson)
+      .join(', '),
+    translator: book.people
+      .filter((p) => p.is_translator)
+      .map(formatPerson)
+      .join(', '),
+  }));
+
   return (
     <AppShell>
       <Stack gap="md">
@@ -49,7 +69,7 @@ export default function BibliographyPage() {
           padding="lg"
         >
           <Stack gap="xs">
-            <Title order={2}>Bibliography</Title>
+            <Title order={2}>Bibliographie</Title>
             <TextInput
               label="Search"
               placeholder="Title, author, keyword"
@@ -65,7 +85,7 @@ export default function BibliographyPage() {
           </Stack>
         </Card>
         <Stack>
-          {books.map((book) => (
+          {bookData.map((book) => (
             <Card
               key={book.book_id}
               onClick={() =>
@@ -80,12 +100,7 @@ export default function BibliographyPage() {
               <Group>
                 {/* <Text size="sm">Autor:in: </Text> */}
 
-                <Text size="md">
-                  {book.people
-                    .filter((p) => p.is_author)
-                    .map(formatPerson)
-                    .join(', ')}
-                </Text>
+                <Text size="md">{book.authors}</Text>
               </Group>
               <Title
                 order={2}
@@ -102,18 +117,9 @@ export default function BibliographyPage() {
                 {book.subtitle}
               </Text>
 
-              {book.people
-                .filter((p) => p.is_editor)
-                .map(formatPerson)
-                .join(', ') && (
+              {book.editors && (
                 <Group>
-                  <Text size="sm">
-                    Herausgegeben von{' '}
-                    {book.people
-                      .filter((p) => p.is_editor)
-                      .map(formatPerson)
-                      .join(', ')}
-                  </Text>
+                  <Text size="sm">Herausgegeben von {book.editors}</Text>
                 </Group>
               )}
             </Card>
