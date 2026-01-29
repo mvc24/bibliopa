@@ -20,6 +20,13 @@ export function TopicsNav() {
 
   return (
     <Stack gap="0px">
+      <NavLink
+        component={Link}
+        href="/books/all"
+        label="Alle Bücher"
+        variant="subtle"
+        active={pathname === 'Alle Bücher'}
+      ></NavLink>
       {topics.map((topic) => (
         <NavLink
           key={topic.topic_id}

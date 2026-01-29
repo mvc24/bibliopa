@@ -1,5 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
+import { useParams } from 'next/navigation';
+
 import { BookDetail, BookDisplayRow, PaginationInfo } from '@/types/database';
 import { useRouter } from 'next/navigation';
 
@@ -21,7 +23,8 @@ import {
 import { formatPerson } from '@/lib/formatters';
 
 export default function BibliographyPage() {
-  // const [books, setBooks] = useState<BookWithRelations[]>([]);
+  const params = useParams();
+  const topic = (params.topic as string) || 'all';
   const [books, setBooks] = useState<BookDetail[]>([]);
   const [pagination, setPagination] = useState<PaginationInfo | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
@@ -29,14 +32,14 @@ export default function BibliographyPage() {
   const router = useRouter();
 
   useEffect(() => {
-    fetch(`/api/books?page=${currentPage}`)
+    fetch(`/api/books?page=${currentPage}&topic=${topic}`)
       .then((response) => response.json())
       .then((result) => {
         // console.log('Books data:', result.data);
         setBooks(result.data);
         setPagination(result.pagination);
       });
-  }, [currentPage]);
+  }, [currentPage, topic]);
 
   return (
     <AppShell>
@@ -74,6 +77,16 @@ export default function BibliographyPage() {
               shadow="sm"
               padding="md"
             >
+              <Group>
+                {/* <Text size="sm">Autor:in: </Text> */}
+
+                <Text size="md">
+                  {book.people
+                    .filter((p) => p.is_author)
+                    .map(formatPerson)
+                    .join(', ')}
+                </Text>
+              </Group>
               <Title
                 order={2}
                 size="md"
@@ -88,16 +101,7 @@ export default function BibliographyPage() {
               >
                 {book.subtitle}
               </Text>
-              <Group>
-                {/* <Text size="sm">Autor:in: </Text> */}
 
-                <Text size="md">
-                  {book.people
-                    .filter((p) => p.is_author)
-                    .map(formatPerson)
-                    .join(', ')}
-                </Text>
-              </Group>
               {book.people
                 .filter((p) => p.is_editor)
                 .map(formatPerson)

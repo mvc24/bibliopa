@@ -60,6 +60,29 @@ export async function getAllBooksForTablePaginated(
     LEFT JOIN people p ON b2p.person_id = p.person_id
     ${whereClause}
     GROUP BY b.book_id, b.title, b.subtitle, b.publication_year, t.topic_name
+    ORDER BY
+      CASE
+        WHEN EXISTS (
+          SELECT 1 FROM books2people b2p_check
+          WHERE b2p_check.book_id = b.book_id AND b2p_check.is_author = TRUE
+        )
+        THEN (
+          SELECT p_author.family_name
+          FROM books2people b2p_author
+          JOIN people p_author ON b2p_author.person_id = p_author.person_id
+          WHERE b2p_author.book_id = b.book_id AND b2p_author.is_author = TRUE
+          ORDER BY b2p_author.sort_order
+          LIMIT 1
+        )
+        ELSE (
+          SELECT p_editor.family_name
+          FROM books2people b2p_editor
+          JOIN people p_editor ON b2p_editor.person_id = p_editor.person_id
+          WHERE b2p_editor.book_id = b.book_id AND b2p_editor.is_editor = TRUE
+          ORDER BY b2p_editor.sort_order
+          LIMIT 1
+        )
+      END
     LIMIT $1 OFFSET $2
     `,
     params,
