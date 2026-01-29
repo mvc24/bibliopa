@@ -22,14 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    "src/app/api/.backup/examples/route_sample.ts",
-    "src/app/api/.backup/page_claude.tsx",
-    "src/app/api/.backup/examples/route_old.ts"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules", "/src/app/api/.backup/"]
 }
