@@ -35,7 +35,7 @@ export default function BibliographyPage() {
     fetch(`/api/books?page=${currentPage}&topic=${topic}`)
       .then((response) => response.json())
       .then((result) => {
-        // console.log('Books data:', result.data);
+        console.log('Books data:', result.data);
         setBooks(result.data);
         setPagination(result.pagination);
       });
@@ -98,30 +98,39 @@ export default function BibliographyPage() {
               padding="md"
             >
               <Group>
-                {/* <Text size="sm">Autor:in: </Text> */}
-
-                <Text size="md">{book.authors}</Text>
-              </Group>
-              <Title
-                order={2}
-                size="md"
-                textWrap="balance"
-                c="#264a46"
-              >
-                {book.title}
-              </Title>
-              <Text
-                size="sm"
-                c="dimmed"
-              >
-                {book.subtitle}
-              </Text>
-
-              {book.editors && (
                 <Group>
-                  <Text size="sm">Herausgegeben von {book.editors}</Text>
+                  <Text size="md">{book.authors}</Text>
                 </Group>
-              )}
+                <Title
+                  order={2}
+                  size="md"
+                  textWrap="balance"
+                  c="#264a46"
+                >
+                  {book.title}
+                </Title>
+                <Text
+                  size="sm"
+                  c="dimmed"
+                >
+                  {book.subtitle}
+                </Text>
+
+                {book.editors && (
+                  <Group>
+                    <Text size="sm">Herausgegeben von {book.editors}</Text>
+                  </Group>
+                )}
+                <Group>
+                  <Text size="sm">
+                    {book.publication_year && `${book.publication_year}. `}
+                    Verlag/Ort: {book.publisher}/{book.place_of_publication}
+                  </Text>
+                </Group>
+              </Group>
+              <Group>
+                <Button>Hello</Button>
+              </Group>
             </Card>
           ))}
         </Stack>

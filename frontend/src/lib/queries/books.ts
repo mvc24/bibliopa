@@ -41,6 +41,8 @@ export async function getAllBooksForTablePaginated(
       b.title,
       b.subtitle,
       b.publication_year,
+      b.publisher,
+      b.place_of_publication,
       t.topic_name,
       JSONB_AGG(
         JSONB_BUILD_OBJECT(
@@ -52,14 +54,26 @@ export async function getAllBooksForTablePaginated(
           'is_author', b2p.is_author,
           'is_editor', b2p.is_editor
         )
-      ) AS people
+      ) AS people,
+
+      JSONB_AGG(
+        DISTINCT JSONB_BUILD_OBJECT(
+            'price_id', pr.price_id,
+            'amount', pr.amount,
+            'source', pr.source,
+            'imported_price', pr.imported_price,
+            'date_added', pr.date_added
+          )
+        ) FILTER (WHERE pr.price_id IS NOT NULL) AS prices
+
     FROM books b
     LEFT JOIN book_admin ba ON b.book_id = ba.book_id
     LEFT JOIN topics t ON b.topic_id = t.topic_id
     LEFT JOIN books2people b2p ON b.book_id = b2p.book_id
     LEFT JOIN people p ON b2p.person_id = p.person_id
+    LEFT JOIN prices pr ON b.book_id = pr.book_id
     ${whereClause}
-    GROUP BY b.book_id, b.title, b.subtitle, b.publication_year, t.topic_name
+    GROUP BY b.book_id, b.title, b.subtitle, b.publication_year, b.publisher, b.place_of_publication, t.topic_name
     ORDER BY
       CASE
         WHEN EXISTS (
