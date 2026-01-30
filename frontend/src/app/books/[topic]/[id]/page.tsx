@@ -42,6 +42,7 @@ export default function SingleBookPage() {
         </Breadcrumbs>
         <Title order={3}>{book?.title}</Title>
         <Text>Diese Seite ist noch nicht fertig.</Text>
+        <Text size="md">{book?.admin_data?.original_entry}</Text>
         <Card
           shadow="sm"
           padding="lg"

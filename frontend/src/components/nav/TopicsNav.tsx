@@ -23,9 +23,9 @@ export function TopicsNav() {
       <NavLink
         component={Link}
         href="/books/all"
-        label="Alle Bücher"
+        label="Alle Daten"
         variant="subtle"
-        active={pathname === 'Alle Bücher'}
+        active={pathname === 'Alle Daten'}
       ></NavLink>
       {topics.map((topic) => (
         <NavLink

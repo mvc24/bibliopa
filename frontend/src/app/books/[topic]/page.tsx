@@ -133,6 +133,7 @@ export default function BibliographyPage() {
                 </Button>
               )}
             </Group>
+
             {/* <Group gap="m">
               <Button variant="default">Download CSV</Button>
               <Button variant="default">Download PDF</Button>
