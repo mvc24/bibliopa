@@ -19,10 +19,15 @@ def fix_topic_ids():
             with open(mapping_file, "r") as f:
                 mapping = json.load(f)
 
-            for composite_id, topic_id in mapping.items():
-                cur.execute(t"UPDATE books SET topic_id = {topic_id} WHERE composite_id = {composite_id}")
-                print(f"Updated {cur.rowcount} rows")
+            for i, (composite_id, topic_id) in enumerate(mapping.items(), 1):
+                cur.execute(t"UPDATE books SET topic_id = {topic_id}, updated_at = NOW() WHERE composite_id = {composite_id}")
+
+                if i % 100 == 0:  # Print every 100 rows
+                    print(f"Processed {i} rows so far...")
+
                 conn.commit()
+
+            print(f"Finished! Total rows processed: {i}")
 
 
         except Exception as e:
