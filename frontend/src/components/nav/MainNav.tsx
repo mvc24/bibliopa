@@ -2,17 +2,31 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Group, Anchor } from '@mantine/core';
+import { Group, Anchor, Menu, Avatar } from '@mantine/core';
+import { useSession, signOut } from 'next-auth/react';
 
 const links = [
   { href: '/books', label: 'Bibliographie' },
   { href: '/project', label: 'Projekt' },
   { href: '/contact', label: 'Kontakt' },
-  { href: '/login', label: 'Login' },
 ];
 
 export function MainNav() {
   const pathname = usePathname();
+  const { data: session, status } = useSession();
+
+  const getInitial = () => {
+    if (session?.user?.name) {
+      return session.user.name[0].toUpperCase();
+    }
+    if (session?.user?.email) {
+      return session.user.email[0].toUpperCase();
+    }
+    return '?';
+  };
+  const handleLogout = () => {
+    signOut({ callbackUrl: '/' });
+  };
 
   return (
     <Group
@@ -33,6 +47,24 @@ export function MainNav() {
           </Anchor>
         );
       })}
+      {status === 'authenticated' ? (
+        <Menu>
+          <Menu.Target>
+            <Avatar style={{ cursor: 'pointer' }}>{getInitial()}</Avatar>
+          </Menu.Target>
+          <Menu.Dropdown>
+            <Menu.Item onClick={handleLogout}>Logout</Menu.Item>
+          </Menu.Dropdown>
+        </Menu>
+      ) : (
+        <Anchor
+          component={Link}
+          href="/login"
+          underline={pathname === '/login' ? 'always' : 'hover'}
+        >
+          Login
+        </Anchor>
+      )}
     </Group>
   );
 }

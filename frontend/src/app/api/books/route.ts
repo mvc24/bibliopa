@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-// TODO(human): Import your query functions from lib/queries/books
-// import { getAllBooks, createBook } from '@/lib/queries/books';
+
 import { CreateBookInput } from '@/types/database';
 import {
   getAllBooksForTablePaginated,
@@ -24,7 +23,12 @@ export async function GET(request: Request) {
     const search = searchParams.get('search') || undefined;
     const canView = await canViewPrices();
 
-    const books = await getAllBooksForTablePaginated(page, limit, topic, search);
+    const books = await getAllBooksForTablePaginated(
+      page,
+      limit,
+      topic,
+      search,
+    );
 
     const totalCount = await getTotalBookCount(topic, search);
 
@@ -134,7 +138,10 @@ export async function PATCH(request: NextRequest) {
       await markBookAsRemoved(bookId);
     } else {
       return NextResponse.json(
-        { error: 'Validation error', message: 'Only is_removed=true is supported' },
+        {
+          error: 'Validation error',
+          message: 'Only is_removed=true is supported',
+        },
         { status: 400 },
       );
     }
