@@ -1,5 +1,12 @@
 import { query, sql } from '@/lib/db';
-import { Book, BookDetail, BookDisplayRow } from '@/types/database';
+import {
+  Book,
+  BookWithTopic,
+  BookDetail,
+  BookDisplayRow,
+  Books2People,
+  Price,
+} from '@/types/database';
 
 /**
  * Get all books with basic information
@@ -11,45 +18,128 @@ export async function getAllBooks() {
   return result.rows;
 }
 
-export async function getTotalBookCount(
-  topicNormalised?: string,
-  search?: string,
+// Rebuild query functions
+
+export async function getBooksOverviewWithTopic(
+  page: number,
+  limit: number,
+  topic_normalised?: string,
 ) {
-  let whereClause = 'WHERE b.is_removed = FALSE';
-  const params: (string | boolean)[] = [];
-  let paramIndex = 1;
-
-  if (search) {
-    const searchPattern = `%${search}%`;
-    whereClause += ` AND (
-      b.title ILIKE $${paramIndex} OR
-      b.subtitle ILIKE $${paramIndex} OR
-      p.family_name ILIKE $${paramIndex} OR
-      p.given_names ILIKE $${paramIndex} OR
-      p.single_name ILIKE $${paramIndex}
-    )`;
-    params.push(searchPattern);
-    paramIndex++;
-  } else if (topicNormalised && topicNormalised !== 'all') {
-    whereClause += ` AND t.topic_normalised = $${paramIndex}`;
-    params.push(topicNormalised);
-    paramIndex++;
-  }
-
-  const result = await query<{ count: number }>(
-    `
-    SELECT COUNT(DISTINCT b.book_id) as count
+  const offset = (page - 1) * limit;
+  const result = await query<BookWithTopic>(
+    sql`
+    SELECT
+      b.*,
+      t.topic_id,
+      t.topic_name,
+      t.topic_normalised
     FROM books b
     LEFT JOIN topics t ON b.topic_id = t.topic_id
-    LEFT JOIN books2people b2p ON b.book_id = b2p.book_id
-    LEFT JOIN people p ON b2p.person_id = p.person_id
-    ${whereClause}
-    `,
-    params,
-  );
 
+    WHERE b.is_removed = FALSE
+      AND ($1::text IS NULL OR t.topic_normalised = $1)
+
+    LIMIT $2 OFFSET $3
+    `,
+    [topic_normalised, limit, offset],
+  );
+  return result.rows;
+}
+
+export async function getPeopleForBooks(bookIds: number[]) {
+  const result = await query<Books2People>(
+    sql`
+    SELECT
+      b2p.*,
+      p.person_id,
+      p.unified_id,
+      p.family_name,
+      p.given_names,
+      p.name_particles,
+      p.single_name,
+      p.is_organisation
+    FROM books2people b2p
+    LEFT JOIN people p ON b2p.person_id = p.person_id
+    WHERE b2p.book_id = ANY($1)
+    ORDER BY b2p.book_id, b2p.sort_order
+    `,
+    [bookIds],
+  );
+  return result.rows;
+}
+
+export async function getPricesForBooks(bookIds: number[]) {
+  const result = await query<Price>(
+    sql`
+    SELECT
+    pr.*
+    FROM prices pr
+    WHERE pr.book_id = ANY($1)
+    `,
+    [bookIds],
+  );
+  return result.rows;
+}
+
+export async function getBookCount(
+  topic_normalised?: string,
+  authorPersonId?: number,
+) {
+  const result = await query<{ count: number }>(
+    sql`
+    SELECT COUNT(*) as count
+    FROM books b
+    LEFT JOIN topics t ON b.topic_id = t.topic_id
+    LEFT JOIN books2people b2p ON b.book_id = b2p.book_id AND b2p.is_author = TRUE
+    WHERE b.is_removed = FALSE
+      AND ($1::text IS NULL OR t.topic_normalised = $1)
+      AND ($2::integer IS NULL OR b2p.person_id = $2)
+    `,
+    [topic_normalised, authorPersonId],
+  );
   return result.rows[0].count;
 }
+
+export async function getAllAuthors() {
+  const result = await query(
+    sql`
+    SELECT
+      SELECT DISTINCT
+      p.person_id,
+      p.family_name,
+      p.given_names,
+      p.name_particles,
+      p.single_name,
+      p.is_organisation
+    FROM people p
+    JOIN books2people b2p ON p.person_id = b2p.person_id
+    WHERE b2p.is_author = TRUE
+    ORDER BY
+      COALESCE(p.family_name, p.single_name) ASC,
+      p.given_names ASC;
+    `,
+    [],
+  );
+  return result.rows;
+}
+
+/**
+ * Mark a book as removed (soft delete)
+ * Sets is_removed = TRUE for the specified book
+ */
+export async function markBookAsRemoved(bookId: number) {
+  const result = await query(
+    `UPDATE books
+     SET is_removed = TRUE
+     WHERE book_id = $1
+     RETURNING book_id`,
+    [bookId],
+  );
+
+  return result.rows[0];
+}
+
+// old, way too complicated, VERY VERY SLOW
 
 export async function getAllBooksForTablePaginated(
   page: number,
@@ -154,6 +244,46 @@ export async function getAllBooksForTablePaginated(
     params,
   );
   return result.rows;
+}
+
+export async function getTotalBookCount(
+  topicNormalised?: string,
+  search?: string,
+) {
+  let whereClause = 'WHERE b.is_removed = FALSE';
+  const params: (string | boolean)[] = [];
+  let paramIndex = 1;
+
+  if (search) {
+    const searchPattern = `%${search}%`;
+    whereClause += ` AND (
+      b.title ILIKE $${paramIndex} OR
+      b.subtitle ILIKE $${paramIndex} OR
+      p.family_name ILIKE $${paramIndex} OR
+      p.given_names ILIKE $${paramIndex} OR
+      p.single_name ILIKE $${paramIndex}
+    )`;
+    params.push(searchPattern);
+    paramIndex++;
+  } else if (topicNormalised && topicNormalised !== 'all') {
+    whereClause += ` AND t.topic_normalised = $${paramIndex}`;
+    params.push(topicNormalised);
+    paramIndex++;
+  }
+
+  const result = await query<{ count: number }>(
+    `
+    SELECT COUNT(DISTINCT b.book_id) as count
+    FROM books b
+    LEFT JOIN topics t ON b.topic_id = t.topic_id
+    LEFT JOIN books2people b2p ON b.book_id = b2p.book_id
+    LEFT JOIN people p ON b2p.person_id = p.person_id
+    ${whereClause}
+    `,
+    params,
+  );
+
+  return result.rows[0].count;
 }
 
 export async function getSingleBookPageById(id: number) {
@@ -280,29 +410,3 @@ export async function getBookWithEverythingById(id: number) {
   );
   return result.rows;
 }
-
-/**
- * Mark a book as removed (soft delete)
- * Sets is_removed = TRUE for the specified book
- */
-export async function markBookAsRemoved(bookId: number) {
-  const result = await query(
-    `UPDATE books
-     SET is_removed = TRUE
-     WHERE book_id = $1
-     RETURNING book_id`,
-    [bookId]
-  );
-
-  return result.rows[0];
-}
-
-// TODO(human): Add more query functions as you practice:
-// - getBooksWithPagination(page, limit)
-// - getBooksWithFilters(search, topicId, etc.)
-// - getBookById(bookId)
-// - getBookWithAllRelations(bookId) - joins with people, topics, prices
-// - searchBooksByTitle(searchTerm)
-// - createBook(bookData)
-// - updateBook(bookId, updates)
-// - deleteBook(bookId)

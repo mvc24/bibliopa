@@ -3,7 +3,6 @@ import { AppShell } from '../../components/layout/AppShell';
 import {
   Card,
   Title,
-  Text,
   Stack,
   Button,
   PasswordInput,

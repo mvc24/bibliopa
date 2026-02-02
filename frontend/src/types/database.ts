@@ -51,155 +51,8 @@ export interface Book {
   is_removed: boolean;
 }
 
-// For single book detail page
-export interface BookDetail extends Book {
-  topic?: {
-    topic_id: number;
-    topic_name: string;
-    topic_normalised: string;
-  };
-
-  people: Array<{
-    person_id: number;
-    unified_id: string;
-    display_name?: string | null;
-    family_name?: string | null;
-    given_names?: string | null;
-    name_particles?: string | null;
-    single_name?: string | null;
-    is_organisation?: boolean | null;
-    is_author: boolean;
-    is_editor: boolean;
-    is_contributor: boolean;
-    is_translator: boolean;
-    sort_order?: number | null;
-  }>;
-
-  prices: Array<{
-    price_id: number;
-    amount?: number | null;
-    source?: string | null;
-    imported_price?: boolean | null;
-    date_added: Date;
-  }>;
-
-  volumes?: Array<{
-    volume_id: number;
-    volume_number?: number | null;
-    volume_title?: string | null;
-    pages?: number | null;
-    notes?: string | null;
-  }>;
-
-  admin_data?: {
-    original_entry: string;
-    needs_review: boolean;
-    parsing_confidence?: string | null;
-    verification_notes?: string | null;
-  };
-}
-
-export interface BookWithRelations extends Book {
-  topic?: Topic;
-  authors: Books2People[];
-  editors: Books2People[];
-  contributors: Books2People[];
-  translator?: Books2People;
-  prices: Price[];
-  volumes: Volume[];
-  admin_data?: BookAdmin;
-}
-
-export interface BookDisplayRow {
-  // From books table (b.*)
-  book_id: number;
-  composite_id: string;
-  title: string;
-  subtitle?: string | null;
-  publisher?: string | null;
-  place_of_publication?: string | null;
-  publication_year?: number | null;
-  edition?: string | null;
-  pages?: number | null;
-  isbn?: string | null;
-  format_original?: string | null;
-  format_expanded?: string | null;
-  condition?: string | null;
-  copies?: number | null;
-  illustrations?: string | null;
-  packaging?: string | null;
-  topic_id?: number | null;
-  is_translation: boolean;
-  original_language?: string | null;
-  is_multivolume: boolean;
-  series_title?: string | null;
-  total_volumes?: number | null;
-  book_created_at: Date;
-  book_updated_at: Date;
-
-  // From book_admin table (ba.*)
-  original_entry?: string | null;
-  parsing_confidence?: string | null;
-  needs_review?: boolean | null;
-  verification_notes?: string | null;
-  topic_changed?: boolean | null;
-  price_changed?: boolean | null;
-  batch_id?: string | null;
-  admin_created_at?: Date | null;
-
-  // From topics table (t.*)
-  topic_name?: string | null;
-  topic_created_at?: Date | null;
-  topic_normalised: string;
-
-  people: Array<{
-    person_id: number;
-    family_name?: string | null;
-    given_names?: string | null;
-    name_particles?: string | null;
-    single_name?: string | null;
-    display_name?: string | null;
-    is_author: boolean;
-    is_editor: boolean;
-    is_contributor: boolean;
-    is_translator: boolean;
-  }>;
-
-  // From people table (p.*)
-  person_id?: number | null;
-  unified_id?: string | null;
-  family_name?: string | null;
-  given_names?: string | null;
-  name_particles?: string | null;
-  single_name?: string | null;
-  is_organisation?: boolean | null;
-  person_created_at?: Date | null;
-  person_updated_at?: Date | null;
-
-  // From books2people table (b2p.*)
-  b2p_id?: number | null;
-  display_name?: string | null;
-  sort_order?: number | null;
-  is_author?: boolean | null;
-  is_editor?: boolean | null;
-  is_contributor?: boolean | null;
-  is_translator?: boolean | null;
-  b2p_created_at?: Date | null;
-  b2p_updated_at?: Date | null;
-
-  // From prices table (pr.*)
-  price_id?: number | null;
-  amount?: number | null;
-  imported_price?: boolean | null;
-  price_source?: string | null;
-  price_date_added?: Date | null;
-
-  // From volumes table (b2v.*)
-  volume_id?: number | null;
-  volume_number?: number | null;
-  volume_title?: string | null;
-  volume_pages?: number | null;
-  volume_notes?: string | null;
+export interface BookWithTopic extends Book {
+  topic: Topic | null;
 }
 
 // ===== People Types =====
@@ -385,4 +238,157 @@ export interface PeopleFilters {
   is_organisation?: boolean;
   page?: number;
   limit?: number;
+}
+
+// === STUPIDLY COMPLICATED  & UNUSED TYPES ====
+
+// For single book detail page
+export interface BookDetail extends Book {
+  topic?: {
+    topic_id: number;
+    topic_name: string;
+    topic_normalised: string;
+  };
+
+  people: Array<{
+    person_id: number;
+    unified_id: string;
+    display_name?: string | null;
+    family_name?: string | null;
+    given_names?: string | null;
+    name_particles?: string | null;
+    single_name?: string | null;
+    is_organisation?: boolean | null;
+    is_author: boolean;
+    is_editor: boolean;
+    is_contributor: boolean;
+    is_translator: boolean;
+    sort_order?: number | null;
+  }>;
+
+  prices: Array<{
+    price_id: number;
+    amount?: number | null;
+    source?: string | null;
+    imported_price?: boolean | null;
+    date_added: Date;
+  }>;
+
+  volumes?: Array<{
+    volume_id: number;
+    volume_number?: number | null;
+    volume_title?: string | null;
+    pages?: number | null;
+    notes?: string | null;
+  }>;
+
+  admin_data?: {
+    original_entry: string;
+    needs_review: boolean;
+    parsing_confidence?: string | null;
+    verification_notes?: string | null;
+  };
+}
+
+export interface BookDisplayRow {
+  // From books table (b.*)
+  book_id: number;
+  composite_id: string;
+  title: string;
+  subtitle?: string | null;
+  publisher?: string | null;
+  place_of_publication?: string | null;
+  publication_year?: number | null;
+  edition?: string | null;
+  pages?: number | null;
+  isbn?: string | null;
+  format_original?: string | null;
+  format_expanded?: string | null;
+  condition?: string | null;
+  copies?: number | null;
+  illustrations?: string | null;
+  packaging?: string | null;
+  topic_id?: number | null;
+  is_translation: boolean;
+  original_language?: string | null;
+  is_multivolume: boolean;
+  series_title?: string | null;
+  total_volumes?: number | null;
+  book_created_at: Date;
+  book_updated_at: Date;
+
+  // From book_admin table (ba.*)
+  original_entry?: string | null;
+  parsing_confidence?: string | null;
+  needs_review?: boolean | null;
+  verification_notes?: string | null;
+  topic_changed?: boolean | null;
+  price_changed?: boolean | null;
+  batch_id?: string | null;
+  admin_created_at?: Date | null;
+
+  // From topics table (t.*)
+  topic_name?: string | null;
+  topic_created_at?: Date | null;
+  topic_normalised: string;
+
+  people: Array<{
+    person_id: number;
+    family_name?: string | null;
+    given_names?: string | null;
+    name_particles?: string | null;
+    single_name?: string | null;
+    display_name?: string | null;
+    is_author: boolean;
+    is_editor: boolean;
+    is_contributor: boolean;
+    is_translator: boolean;
+  }>;
+
+  // From people table (p.*)
+  person_id?: number | null;
+  unified_id?: string | null;
+  family_name?: string | null;
+  given_names?: string | null;
+  name_particles?: string | null;
+  single_name?: string | null;
+  is_organisation?: boolean | null;
+  person_created_at?: Date | null;
+  person_updated_at?: Date | null;
+
+  // From books2people table (b2p.*)
+  b2p_id?: number | null;
+  display_name?: string | null;
+  sort_order?: number | null;
+  is_author?: boolean | null;
+  is_editor?: boolean | null;
+  is_contributor?: boolean | null;
+  is_translator?: boolean | null;
+  b2p_created_at?: Date | null;
+  b2p_updated_at?: Date | null;
+
+  // From prices table (pr.*)
+  price_id?: number | null;
+  amount?: number | null;
+  imported_price?: boolean | null;
+  price_source?: string | null;
+  price_date_added?: Date | null;
+
+  // From volumes table (b2v.*)
+  volume_id?: number | null;
+  volume_number?: number | null;
+  volume_title?: string | null;
+  volume_pages?: number | null;
+  volume_notes?: string | null;
+}
+
+export interface BookWithRelations extends Book {
+  topic?: Topic;
+  authors: Books2People[];
+  editors: Books2People[];
+  contributors: Books2People[];
+  translator?: Books2People;
+  prices: Price[];
+  volumes: Volume[];
+  admin_data?: BookAdmin;
 }

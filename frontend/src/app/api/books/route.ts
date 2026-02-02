@@ -3,6 +3,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import { CreateBookInput } from '@/types/database';
 import {
   getAllBooksForTablePaginated,
+  getBookCount,
+  getBooksOverviewWithTopic,
+  getPeopleForBooks,
   getTotalBookCount,
   markBookAsRemoved,
 } from '@/lib/queries/books';
@@ -19,18 +22,19 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url);
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '100');
-    const topic = searchParams.get('topic') || undefined;
+    const topicNormalised = searchParams.get('topic') || undefined;
     const search = searchParams.get('search') || undefined;
     const canView = await canViewPrices();
 
-    const books = await getAllBooksForTablePaginated(
-      page,
-      limit,
-      topic,
-      search,
-    );
+    const books = await getBooksOverviewWithTopic(page, limit, topicNormalised);
+    const bookIds = books.map((book) => book.book_id);
+    const people = await getPeopleForBooks(bookIds);
 
-    const totalCount = await getTotalBookCount(topic, search);
+    const authorPersonId = searchParams.get('author')
+      ? parseInt(searchParams.get('author')!)
+      : undefined;
+
+    const totalCount = await getBookCount(topicNormalised, authorPersonId);
 
     // ===== STEP 3: Format and return response =====
     return NextResponse.json({
