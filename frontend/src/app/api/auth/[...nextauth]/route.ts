@@ -1,34 +1,36 @@
 import NextAuth, { NextAuthOptions } from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
 import { compare } from 'bcryptjs';
-import { query } from '@/lib/db';
-import { User } from '@/types/database';
+
+import { getActiveUser } from '@/lib/queries/users';
 
 export const authOptions: NextAuthOptions = {
   providers: [
     CredentialsProvider({
       name: 'Credentials',
       credentials: {
-        username: { label: 'Username', type: 'text' },
+        username: { label: 'Username or email', type: 'text' },
         password: { label: 'Password', type: 'password' },
       },
       async authorize(credentials) {
         if (!credentials?.username || !credentials?.password) {
-          throw new Error('Please provide both username and password');
+          throw new Error('Gib einen Benutzernamen oder ein Passwort ein.');
         }
 
         try {
           // Query user from database
-          const result = await query<User>(
-            'SELECT * FROM users WHERE username = $1 AND is_active = true',
-            [credentials.username],
-          );
-
-          const user = result.rows[0];
+          const user = await getActiveUser(credentials.username);
 
           if (!user) {
-            throw new Error('Invalid username or password');
+            throw new Error('Benutzername oder Passwort ist falsch.');
           }
+
+          // console.log('Password from form:', credentials.password);
+          // console.log('Hash from database:', user.password_hash);
+          // console.log(
+          //   'Hash starts with $2b?',
+          //   user.password_hash?.startsWith('$2b'),
+          // );
 
           // Verify password
           const isPasswordValid = await compare(
@@ -37,7 +39,7 @@ export const authOptions: NextAuthOptions = {
           );
 
           if (!isPasswordValid) {
-            throw new Error('Invalid username or password');
+            throw new Error('Benutzername oder Passwort ist falsch.');
           }
 
           // Return user object (will be stored in JWT)

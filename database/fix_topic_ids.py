@@ -37,4 +37,4 @@ def fix_topic_ids():
         finally:
             conn.close()
 
-fix_topic_ids()
+# fix_topic_ids()

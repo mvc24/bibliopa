@@ -8,10 +8,23 @@ import {
   Button,
   PasswordInput,
   TextInput,
-  Anchor,
 } from '@mantine/core';
 
+import { signIn } from 'next-auth/react';
+import { useState } from 'react';
+
 export default function LoginPage() {
+  const [username, setUsername] = useState<string>('');
+  const [password, setPassword] = useState<string>('');
+
+  const handleLogin = async () => {
+    await signIn('credentials', {
+      username: username,
+      password: password,
+      callbackUrl: '/books/all',
+    });
+  };
+
   return (
     <AppShell>
       <Card
@@ -22,22 +35,21 @@ export default function LoginPage() {
         <Stack gap="md">
           <Title order={2}>Login</Title>
           <TextInput
-            label="Email"
-            placeholder="you@example.com"
+            label="Benutzername oder E-Mail"
+            placeholder="Dein Benutzername ist opa"
+            name="username"
+            value={username}
+            onChange={(e) => setUsername(e.currentTarget.value)}
             required
           />
           <PasswordInput
-            label="Password"
-            placeholder="Your password"
+            label="Passwort"
+            placeholder="Gib dein Passwort ein"
+            value={password}
+            onChange={(e) => setPassword(e.currentTarget.value)}
             required
           />
-          <Button type="submit">Sign in</Button>
-          <Text
-            size="sm"
-            c="dimmed"
-          >
-            No account? <Anchor href="/account">Create a guest account</Anchor>
-          </Text>
+          <Button onClick={handleLogin}>Einloggen</Button>
         </Stack>
       </Card>
     </AppShell>
