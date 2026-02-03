@@ -27,7 +27,7 @@ export function AuthorFilter() {
   return (
     <Select
       label="Autor:in suchen"
-      placeholder="Tippe die ersten Buchstaben bis die richtige Person erscheint"
+      placeholder="Tippe den Namen, bis die richtige Person erscheint"
       data={authors.map((author) => ({
         value: author.person_id.toString(),
         label: formatPerson(author),
