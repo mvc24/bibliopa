@@ -1,6 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { useParams } from 'next/navigation';
+import { useParams, useSearchParams } from 'next/navigation';
 
 import { BookDetail, PaginationInfo } from '@/types/database';
 import { useRouter } from 'next/navigation';
@@ -25,6 +25,9 @@ import { AuthorFilter } from '@/components/nav/elements/AuthorFilter';
 
 export default function BibliographyPage() {
   const params = useParams();
+  const searchParams = useSearchParams();
+  const authorParam = searchParams.get('author');
+  const authorId = authorParam ? parseInt(authorParam) : null;
   const topic = (params.topic as string) || 'all';
   const [books, setBooks] = useState<BookDetail[]>([]);
   const [pagination, setPagination] = useState<PaginationInfo | null>(null);
@@ -36,7 +39,6 @@ export default function BibliographyPage() {
   const [opened, { open, close }] = useDisclosure(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [activeSearch, setActiveSearch] = useState('');
-
   const router = useRouter();
 
   const handleSearch = () => {
@@ -53,18 +55,20 @@ export default function BibliographyPage() {
       ? `/api/books?page=${currentPage}&search=${encodeURIComponent(
           activeSearch,
         )}`
+      : authorId
+      ? `/api/books?page=${currentPage}&author=${authorId}`
       : `/api/books?page=${currentPage}&topic=${topic}`;
 
     fetch(url)
       .then((response) => response.json())
       .then((result) => {
-        console.log('Books data:', result.data);
-        console.log('first book topic; ', result.data[0]?.topic);
+        // console.log('Books data:', result.data);
+        // console.log('first book topic; ', result.data[0]?.topic);
         setBooks(result.data);
         setPagination(result.pagination);
         setShowPrices(result.permissions?.canViewPrices || false);
       });
-  }, [currentPage, topic, activeSearch]);
+  }, [currentPage, topic, activeSearch, authorId]);
 
   const bookData = books.map((book) => ({
     ...book,
@@ -102,11 +106,7 @@ export default function BibliographyPage() {
         >
           <Stack gap="xs">
             <Title order={2}>Bibliographie</Title>
-            <AuthorFilter
-              onAuthorSelect={(personId) => {
-                router.push(`/books/all?author=${personId}`);
-              }}
-            />
+            <AuthorFilter />
             <TextInput
               label="Suche"
               placeholder="Titel oder Personen"

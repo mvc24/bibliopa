@@ -4,12 +4,10 @@ import { useState, useEffect } from 'react';
 import { Select } from '@mantine/core';
 import { AuthorListItem } from '@/types/database';
 import { formatPerson } from '@/lib/formatters';
+import { useRouter } from 'next/navigation';
 
-export function AuthorFilter({
-  onAuthorSelect,
-}: {
-  onAuthorSelect: (personId: number) => void;
-}) {
+export function AuthorFilter() {
+  const router = useRouter();
   const [authors, setAuthors] = useState<AuthorListItem[]>([]);
 
   useEffect(() => {
@@ -37,9 +35,9 @@ export function AuthorFilter({
       searchable
       onChange={(value) => {
         if (value) {
-          onAuthorSelect(parseInt(value));
+          router.push(`/books/all?author=${value}`);
         }
       }}
-    ></Select>
+    />
   );
 }

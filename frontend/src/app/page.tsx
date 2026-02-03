@@ -1,6 +1,6 @@
+import { AuthorFilter } from '@/components/nav/elements/AuthorFilter';
 import { AppShell } from '../components/layout/AppShell';
 import { Card, Stack, Title, Text, Button, Group } from '@mantine/core';
-import Link from 'next/link';
 
 export default function LandingPage() {
   return (
@@ -18,6 +18,7 @@ export default function LandingPage() {
             >
               Das hier ist noch nicht fertig
             </Text>
+            <AuthorFilter />
 
             {/* <Group>
               <Button component={Link} href="/bibliography" variant="filled">
