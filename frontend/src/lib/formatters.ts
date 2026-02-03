@@ -6,14 +6,17 @@ export function formatPerson(
   if (person.single_name) {
     return person.single_name.toUpperCase();
   }
-  const formattedPerson = [
-    person.given_names,
-    person.name_particles,
-    person.family_name?.toUpperCase(),
-  ]
+
+  const afterComma = [person.given_names, person.name_particles]
     .filter(Boolean)
     .join(' ');
-  return formattedPerson;
+
+  const familyName = person.family_name?.toUpperCase() || '';
+
+  if (afterComma) {
+    return `${familyName}, ${afterComma}`;
+  }
+  return familyName;
 }
 
 export function formatDate(date: Date | string): string {
