@@ -52,7 +52,15 @@ export interface Book {
 }
 
 export interface BookWithTopic extends Book {
-  topic: Topic | null;
+  topic_id?: number | null;
+  topic_name?: string | null;
+  topic_normalised?: string | null;
+  topic?: Topic | null;
+}
+
+export interface BookOverview extends BookWithTopic {
+  people: Books2People[];
+  prices: Price[];
 }
 
 // export interface Book

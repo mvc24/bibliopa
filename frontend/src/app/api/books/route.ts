@@ -49,7 +49,7 @@ export async function GET(request: Request) {
 
     const booksWithPeople = books.map((book) => ({
       ...book,
-      topic: topics.filter((t) => t.topic_id === book.topic_id),
+      topic: topics.find((t) => t.topic_id === book.topic_id) || null,
       people: people.filter((p) => p.book_id === book.book_id),
       prices: prices.filter((p) => p.book_id === book.book_id),
     }));

@@ -1,10 +1,14 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Select } from '@mantine/core';
+import { Select, ComboboxItem } from '@mantine/core';
 import { AuthorListItem } from '@/types/database';
 import { formatPerson } from '@/lib/formatters';
 import { useRouter } from 'next/navigation';
+
+interface AuthorComboboxItem extends ComboboxItem {
+  searchField: string;
+}
 
 export function AuthorFilter() {
   const router = useRouter();
@@ -31,8 +35,16 @@ export function AuthorFilter() {
       data={authors.map((author) => ({
         value: author.person_id.toString(),
         label: formatPerson(author),
+        searchField: author.family_name || author.single_name || '',
       }))}
       searchable
+      filter={({ options, search }) => {
+        const searchLower = search.toLowerCase().trim();
+        return (options as AuthorComboboxItem[]).filter((option) => {
+          const searchField = option.searchField.toLowerCase();
+          return searchField.includes(searchLower);
+        });
+      }}
       onChange={(value) => {
         if (value) {
           router.push(`/books/all?author=${value}`);

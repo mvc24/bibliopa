@@ -2,7 +2,12 @@
 import { useState, useEffect } from 'react';
 import { useParams, useSearchParams } from 'next/navigation';
 
-import { BookDetail, PaginationInfo } from '@/types/database';
+import {
+  BookDetail,
+  BookOverview,
+  BookWithTopic,
+  PaginationInfo,
+} from '@/types/database';
 import { useRouter } from 'next/navigation';
 
 import { AppShell } from '../../../components/layout/AppShell';
@@ -29,7 +34,7 @@ export default function BibliographyPage() {
   const authorParam = searchParams.get('author');
   const authorId = authorParam ? parseInt(authorParam) : null;
   const topic = (params.topic as string) || 'all';
-  const [books, setBooks] = useState<BookDetail[]>([]);
+  const [books, setBooks] = useState<BookOverview[]>([]);
   const [pagination, setPagination] = useState<PaginationInfo | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [showPrices, setShowPrices] = useState(false);
@@ -62,8 +67,8 @@ export default function BibliographyPage() {
     fetch(url)
       .then((response) => response.json())
       .then((result) => {
-        // console.log('Books data:', result.data);
-        // console.log('first book topic; ', result.data[0]?.topic);
+        console.log('Books data:', result.data);
+        console.log('first book topic; ', result.data[0]?.topic);
         setBooks(result.data);
         setPagination(result.pagination);
         setShowPrices(result.permissions?.canViewPrices || false);
@@ -72,6 +77,7 @@ export default function BibliographyPage() {
 
   const bookData = books.map((book) => ({
     ...book,
+    topic_normalised: book.topic_normalised,
     authors: book.people
       .filter((p) => p.is_author)
       .map(formatPerson)
@@ -152,7 +158,11 @@ export default function BibliographyPage() {
               key={book.book_id}
               onClick={() =>
                 router.push(
-                  `/books/${book.topic?.topic_normalised}/${book.book_id}?page=${currentPage}`,
+                  `/books/${book.topic_normalised || 'all'}/${
+                    book.book_id
+                  }?page=${currentPage}${
+                    authorId ? `&author=${authorId}` : ''
+                  }`,
                 )
               }
               style={{ cursor: 'pointer' }}
