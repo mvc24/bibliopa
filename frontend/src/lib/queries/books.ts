@@ -122,14 +122,29 @@ export async function getAllAuthors() {
   return result.rows;
 }
 
-export async function name(param?: type) {
-  const result = await query<Type>(
+export async function getBooksFilteredByAuthor(
+  page: number,
+  limit: number,
+  authorPersonId: number,
+) {
+  const offset = (page - 1) * limit;
+  const result = await query<BookWithTopic>(
     sql`
-
-  `,
-    [],
+    SELECT
+      b.*,
+      t.topic_id,
+      t.topic_name,
+      t.topic_normalised
+    FROM books b
+    LEFT JOIN topics t ON b.topic_id = t.topic_id
+    LEFT JOIN books2people b2p ON b.book_id = b2p.book_id
+    WHERE b.is_removed = FALSE
+      AND b2p.person_id = $1
+      AND b2p.is_author = TRUE
+    LIMIT $2 OFFSET $3
+    `,
+    [authorPersonId, limit, offset],
   );
-
   return result.rows;
 }
 /**
@@ -146,6 +161,26 @@ export async function markBookAsRemoved(bookId: number) {
   );
 
   return result.rows[0];
+}
+
+export async function getAllRemovedBooks() {
+  const result = await query<BookWithTopic>(
+    sql`
+    SELECT
+      b.*,
+      t.topic_id,
+      t.topic_name,
+      t.topic_normalised
+    FROM books b
+    LEFT JOIN topics t ON b.topic_id = t.topic_id
+
+    WHERE b.is_removed = TRUE
+
+  `,
+    [],
+  );
+
+  return result.rows;
 }
 
 // old, way too complicated, VERY VERY SLOW

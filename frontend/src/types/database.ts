@@ -55,6 +55,8 @@ export interface BookWithTopic extends Book {
   topic: Topic | null;
 }
 
+// export interface Book
+
 // ===== People Types =====
 
 export interface Person {

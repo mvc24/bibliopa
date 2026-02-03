@@ -1,11 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-import { CreateBookInput } from '@/types/database';
+import { BookWithTopic, CreateBookInput } from '@/types/database';
 import {
   getAllBooksForTablePaginated,
   getBookCount,
+  getBooksFilteredByAuthor,
   getBooksOverviewWithTopic,
   getPeopleForBooks,
+  getPricesForBooks,
   getTotalBookCount,
   markBookAsRemoved,
 } from '@/lib/queries/books';
@@ -24,21 +26,36 @@ export async function GET(request: Request) {
     const limit = parseInt(searchParams.get('limit') || '100');
     const topicNormalised = searchParams.get('topic') || undefined;
     const search = searchParams.get('search') || undefined;
-    const canView = await canViewPrices();
-
-    const books = await getBooksOverviewWithTopic(page, limit, topicNormalised);
-    const bookIds = books.map((book) => book.book_id);
-    const people = await getPeopleForBooks(bookIds);
 
     const authorPersonId = searchParams.get('author')
       ? parseInt(searchParams.get('author')!)
       : undefined;
+    const canView = await canViewPrices();
 
+    let books: BookWithTopic[] = [];
+    if (authorPersonId) {
+      books = await getBooksFilteredByAuthor(page, limit, authorPersonId);
+    } else if (topicNormalised && topicNormalised !== 'all') {
+      books = await getBooksOverviewWithTopic(page, limit, topicNormalised);
+    } else {
+      books = [];
+    }
     const totalCount = await getBookCount(topicNormalised, authorPersonId);
+
+    const bookIds = books.map((book) => book.book_id);
+    const people = await getPeopleForBooks(bookIds);
+
+    const prices = await getPricesForBooks(bookIds);
+
+    const booksWithPeople = books.map((book) => ({
+      ...book,
+      people: people.filter((p) => p.book_id === book.book_id),
+      prices: prices.filter((p) => p.book_id === book.book_id),
+    }));
 
     // ===== STEP 3: Format and return response =====
     return NextResponse.json({
-      data: books,
+      data: booksWithPeople,
       pagination: {
         page: page,
         limit: limit,
