@@ -1,8 +1,10 @@
-import { Person, BookDetail } from '@/types/database';
+import { Person, BookDetail, AuthorListItem } from '@/types/database';
 
-export function formatPerson(person: Person | BookDetail['people'][0]): string {
+export function formatPerson(
+  person: Person | AuthorListItem | BookDetail['people'][0],
+): string {
   if (person.single_name) {
-    return person.single_name;
+    return person.single_name.toUpperCase();
   }
   const formattedPerson = [
     person.given_names,

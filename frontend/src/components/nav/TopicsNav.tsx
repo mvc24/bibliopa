@@ -19,7 +19,13 @@ export function TopicsNav() {
   }, []);
 
   return (
-    <Stack gap="0px">
+    <Stack
+      gap="0px"
+      style={{
+        maxHeight: 'calc(100vh - 140px)',
+        overflow: 'auto',
+      }}
+    >
       <NavLink
         component={Link}
         href="/books/all"
@@ -33,7 +39,8 @@ export function TopicsNav() {
           component={Link}
           href={`/books/${topic.topic_normalised}`}
           label={topic.topic_name}
-          variant="subtle"
+          variant="Active filled"
+          autoContrast
           active={pathname === `/books/${topic.topic_normalised}`}
         ></NavLink>
       ))}

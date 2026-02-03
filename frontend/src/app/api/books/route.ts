@@ -2,16 +2,15 @@ import { NextRequest, NextResponse } from 'next/server';
 
 import { BookWithTopic, CreateBookInput } from '@/types/database';
 import {
-  getAllBooksForTablePaginated,
   getBookCount,
   getBooksFilteredByAuthor,
   getBooksOverviewWithTopic,
   getPeopleForBooks,
   getPricesForBooks,
-  getTotalBookCount,
   markBookAsRemoved,
 } from '@/lib/queries/books';
 import { canViewPrices } from '@/lib/auth';
+import { getAllTopics } from '@/lib/queries/topics';
 
 /**
  * GET /api/books
@@ -46,9 +45,11 @@ export async function GET(request: Request) {
     const people = await getPeopleForBooks(bookIds);
 
     const prices = await getPricesForBooks(bookIds);
+    const topics = await getAllTopics();
 
     const booksWithPeople = books.map((book) => ({
       ...book,
+      topic: topics.filter((t) => t.topic_id === book.topic_id),
       people: people.filter((p) => p.book_id === book.book_id),
       prices: prices.filter((p) => p.book_id === book.book_id),
     }));

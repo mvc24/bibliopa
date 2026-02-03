@@ -21,6 +21,7 @@ import {
 } from '@mantine/core';
 import { formatPerson } from '@/lib/formatters';
 import { useDisclosure } from '@mantine/hooks';
+import { AuthorFilter } from '@/components/nav/elements/AuthorFilter';
 
 export default function BibliographyPage() {
   const params = useParams();
@@ -101,6 +102,11 @@ export default function BibliographyPage() {
         >
           <Stack gap="xs">
             <Title order={2}>Bibliographie</Title>
+            <AuthorFilter
+              onAuthorSelect={(personId) => {
+                router.push(`/books/all?author=${personId}`);
+              }}
+            />
             <TextInput
               label="Suche"
               placeholder="Titel oder Personen"

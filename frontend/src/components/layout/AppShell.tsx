@@ -14,13 +14,13 @@ import { useDisclosure } from '@mantine/hooks';
 import { MainNav } from '../nav/MainNav';
 import { TopicsNav } from '../nav/TopicsNav';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+// import { usePathname } from 'next/navigation';
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const [mobileOpened, { toggle: toggleMobile }] = useDisclosure();
   const [desktopOpened] = useDisclosure(true);
-  const pathname = usePathname();
-  const isOnBooksPage = pathname.startsWith('/books');
+  // const pathname = usePathname();
+  // const isOnBooksPage = pathname.startsWith('/books');
 
   return (
     <MantineAppShell
@@ -64,7 +64,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         </Group>
       </AppShellHeader>
       <AppShellNavbar p="md">
-        <Box>{isOnBooksPage ? <TopicsNav /> : <MainNav />}</Box>
+        <Box>
+          <TopicsNav />
+        </Box>
       </AppShellNavbar>
 
       <AppShellMain>{children}</AppShellMain>

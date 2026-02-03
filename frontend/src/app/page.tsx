@@ -18,6 +18,7 @@ export default function LandingPage() {
             >
               Das hier ist noch nicht fertig
             </Text>
+
             {/* <Group>
               <Button component={Link} href="/bibliography" variant="filled">
                 Browse Bibliography

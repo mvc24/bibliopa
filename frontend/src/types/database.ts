@@ -96,6 +96,15 @@ export interface PersonWithBooks extends Person {
   book_count: number;
 }
 
+export interface AuthorListItem {
+  person_id: number;
+  family_name?: string | null;
+  given_names?: string | null;
+  name_particles?: string | null;
+  single_name?: string | null;
+  is_organisation: boolean;
+}
+
 // ===== Topic Types =====
 
 export interface Topic {
