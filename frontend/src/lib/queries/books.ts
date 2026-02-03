@@ -103,8 +103,7 @@ export async function getBookCount(
 export async function getAllAuthors() {
   const result = await query(
     sql`
-    SELECT
-      SELECT DISTINCT
+    SELECT DISTINCT
       p.person_id,
       p.family_name,
       p.given_names,
@@ -123,6 +122,16 @@ export async function getAllAuthors() {
   return result.rows;
 }
 
+export async function name(param?: type) {
+  const result = await query<Type>(
+    sql`
+
+  `,
+    [],
+  );
+
+  return result.rows;
+}
 /**
  * Mark a book as removed (soft delete)
  * Sets is_removed = TRUE for the specified book
