@@ -30,6 +30,7 @@ export async function GET(request: Request) {
       ? parseInt(searchParams.get('author')!)
       : undefined;
     const canView = await canViewPrices();
+    const totalCount = await getBookCount(topicNormalised, authorPersonId);
 
     let books: BookWithTopic[] = [];
     if (authorPersonId) {
@@ -37,9 +38,17 @@ export async function GET(request: Request) {
     } else if (topicNormalised && topicNormalised !== 'all') {
       books = await getBooksOverviewWithTopic(page, limit, topicNormalised);
     } else {
-      books = [];
+      // When topic is 'all', pass undefined to get all books
+      books = await getBooksOverviewWithTopic(page, limit, undefined);
     }
-    const totalCount = await getBookCount(topicNormalised, authorPersonId);
+    console.log(
+      'Total count:',
+      totalCount,
+      'Topic:',
+      topicNormalised,
+      'Author:',
+      authorPersonId,
+    );
 
     const bookIds = books.map((book) => book.book_id);
     const people = await getPeopleForBooks(bookIds);

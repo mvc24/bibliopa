@@ -87,7 +87,7 @@ export async function getBookCount(
 ) {
   const result = await query<{ count: number }>(
     sql`
-    SELECT COUNT(*) as count
+    SELECT COUNT(DISTINCT b.book_id) as count
     FROM books b
     LEFT JOIN topics t ON b.topic_id = t.topic_id
     LEFT JOIN books2people b2p ON b.book_id = b2p.book_id AND b2p.is_author = TRUE

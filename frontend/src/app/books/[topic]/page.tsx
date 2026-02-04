@@ -2,12 +2,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useSearchParams } from 'next/navigation';
 
-import {
-  BookDetail,
-  BookOverview,
-  BookWithTopic,
-  PaginationInfo,
-} from '@/types/database';
+import { BookOverview, PaginationInfo } from '@/types/database';
 import { useRouter } from 'next/navigation';
 
 import { AppShell } from '../../../components/layout/AppShell';
@@ -33,10 +28,12 @@ export default function BibliographyPage() {
   const searchParams = useSearchParams();
   const authorParam = searchParams.get('author');
   const authorId = authorParam ? parseInt(authorParam) : null;
+  const pageParam = searchParams.get('page');
+  const initialPage = pageParam ? parseInt(pageParam) : 1;
   const topic = (params.topic as string) || 'all';
   const [books, setBooks] = useState<BookOverview[]>([]);
   const [pagination, setPagination] = useState<PaginationInfo | null>(null);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(initialPage);
   const [showPrices, setShowPrices] = useState(false);
   const [selectedBookId, setselectedBookId] = useState<number | null>(null);
   const [priceAmount, setPriceAmount] = useState<number | string>('');
@@ -74,6 +71,12 @@ export default function BibliographyPage() {
         setShowPrices(result.permissions?.canViewPrices || false);
       });
   }, [currentPage, topic, activeSearch, authorId]);
+
+  useEffect(() => {
+    if (pageParam) {
+      setCurrentPage(parseInt(pageParam));
+    }
+  }, [pageParam]);
 
   const bookData = books.map((book) => ({
     ...book,
@@ -126,7 +129,7 @@ export default function BibliographyPage() {
             />
             <Group gap="m">
               {/* <Button variant="light">Advanced filters</Button> */}
-              <Button
+              {/* <Button
                 size="sm"
                 onClick={handleSearch}
               >
@@ -143,7 +146,7 @@ export default function BibliographyPage() {
                 >
                   Clear search
                 </Button>
-              )}
+              )} */}
             </Group>
 
             {/* <Group gap="m">

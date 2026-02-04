@@ -2,9 +2,18 @@
 import { useState, useEffect } from 'react';
 import { useParams, useSearchParams } from 'next/navigation';
 import { AppShell } from '@/components/layout/AppShell';
-import { Card, Title, Stack, Text, Breadcrumbs, Anchor } from '@mantine/core';
-import { BookDetail } from '@/types/database';
+import {
+  Card,
+  Title,
+  Stack,
+  Text,
+  Breadcrumbs,
+  Anchor,
+  Box,
+} from '@mantine/core';
+import { BookDetail, BookOverview } from '@/types/database';
 import Link from 'next/link';
+import { formatPerson } from '@/lib/formatters';
 
 export default function SingleBookPage() {
   const params = useParams();
@@ -13,6 +22,7 @@ export default function SingleBookPage() {
   const topic = params.topic as string;
   const page = searchParams.get('page') || '1';
   const [book, setBook] = useState<BookDetail | null>(null);
+  const [books, setBooks] = useState<BookOverview[]>([]);
 
   useEffect(() => {
     if (bookId) {
@@ -21,6 +31,34 @@ export default function SingleBookPage() {
         .then((data) => setBook(data));
     }
   }, [bookId]);
+
+  const bookData = books.map((book) => ({
+    ...book,
+    topic_normalised: book.topic_normalised,
+    authors: book.people
+      .filter((p) => p.is_author)
+      .map(formatPerson)
+      .join(', '),
+    editors: book.people
+      .filter((p) => p.is_editor)
+      .map(formatPerson)
+      .join(', '),
+    contributors: book.people
+      .filter((p) => p.is_contributor)
+      .map(formatPerson)
+      .join(', '),
+    translator: book.people
+      .filter((p) => p.is_translator)
+      .map(formatPerson)
+      .join(', '),
+    mostRecentPrice:
+      book.prices
+        .filter((pr) => pr.amount)
+        .sort(
+          (a, b) =>
+            new Date(b.date_added).getTime() - new Date(a.date_added).getTime(),
+        )[0] || null,
+  }));
 
   return (
     <AppShell>
@@ -43,11 +81,18 @@ export default function SingleBookPage() {
         <Title order={3}>{book?.title}</Title>
         <Text>Diese Seite ist noch nicht fertig.</Text>
         <Text size="md">{book?.admin_data?.original_entry}</Text>
+        <Box></Box>
         <Card
           shadow="sm"
           padding="lg"
         >
-          <pre style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}>
+          <pre
+            style={{
+              fontSize: '8px',
+              whiteSpace: 'pre-wrap',
+              wordBreak: 'break-word',
+            }}
+          >
             {JSON.stringify(book, null, 2)}
           </pre>
         </Card>
