@@ -63,7 +63,7 @@ export default function SingleBookPage() {
   return (
     <AppShell>
       <Stack gap="md">
-        <Breadcrumbs>
+        {/* <Breadcrumbs>
           <Anchor
             component={Link}
             href="/"
@@ -76,12 +76,40 @@ export default function SingleBookPage() {
           >
             {book?.topic?.topic_name || topic}
           </Anchor>
-          {/* <Text>{book?.title || 'Loading...'}</Text> */}
-        </Breadcrumbs>
+          <Text>{book?.title || 'Loading...'}</Text>
+        </Breadcrumbs> */}
+        <Anchor
+          component={Link}
+          href={`/books/${topic}?page=${page}`}
+          style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+        >
+          ← Zurück
+        </Anchor>
         <Title order={3}>{book?.title}</Title>
-        <Text>Diese Seite ist noch nicht fertig.</Text>
+        <Text c="grape">Diese Seite ist noch nicht fertig.</Text>
         <Text size="md">{book?.admin_data?.original_entry}</Text>
-        <Box></Box>
+        <Box>
+          {book?.prices && book.prices.filter((p) => p.amount).length > 0 ? (
+            <Stack gap="xs">
+              <Text>Preise:</Text>
+              {book.prices
+                .filter((p) => p.amount)
+                .map((price) => (
+                  <Text
+                    key={price.price_id}
+                    size="sm"
+                  >
+                    € {price.amount}
+                    {price.source && ` - ${price.source}`}
+                    {' - '}
+                    {new Date(price.date_added).toLocaleDateString('de-DE')}
+                  </Text>
+                ))}
+            </Stack>
+          ) : (
+            <Text>Keine Preise vorhanden</Text>
+          )}
+        </Box>
         <Card
           shadow="sm"
           padding="lg"
