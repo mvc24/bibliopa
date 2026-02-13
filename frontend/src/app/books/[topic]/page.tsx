@@ -73,6 +73,13 @@ export default function BibliographyPage() {
   }, [currentPage, topic, activeSearch, authorId]);
 
   useEffect(() => {
+    if (books.length > 0 && window.location.hash) {
+      const element = document.querySelector(window.location.hash);
+      element?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }, [books]);
+
+  useEffect(() => {
     if (pageParam) {
       setCurrentPage(parseInt(pageParam));
     }
@@ -159,13 +166,14 @@ export default function BibliographyPage() {
           {bookData.map((book) => (
             <Card
               key={book.book_id}
+              id={`book-${book.book_id}`}
               onClick={() =>
                 router.push(
                   `/books/${book.topic_normalised || 'all'}/${
                     book.book_id
                   }?page=${currentPage}${
                     authorId ? `&author=${authorId}` : ''
-                  }`,
+                  }#book-${book.book_id}`,
                 )
               }
               style={{ cursor: 'pointer' }}

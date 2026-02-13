@@ -24,6 +24,7 @@ export default function SingleBookPage() {
   const bookId = params.id as string;
   const topic = params.topic as string;
   const page = searchParams.get('page') || '1';
+  const authorId = searchParams.get('author');
   const [book, setBook] = useState<BookDetail | null>(null);
   const [books, setBooks] = useState<BookOverview[]>([]);
 
@@ -83,7 +84,9 @@ export default function SingleBookPage() {
         </Breadcrumbs> */}
         <Anchor
           component={Link}
-          href={`/books/${topic}?page=${page}`}
+          href={`/books/${topic}?page=${page}${
+            authorId ? `&author=${authorId}` : ''
+          }#book-${bookId}`}
           style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}
         >
           ← Zurück
@@ -109,12 +112,10 @@ export default function SingleBookPage() {
             </Table>
           </Grid.Col>
 
-          {/* Right column - 1/3 width */}
           <Grid.Col span={4}>
-            {/* Action buttons here */}
             <Stack gap="md">
-              <Button>Auslisten</Button>
-              <Button>Edit entry</Button>
+              <Button>Abschreiben</Button>
+              <Button>Daten bearbeiten</Button>
             </Stack>
           </Grid.Col>
         </Grid>
