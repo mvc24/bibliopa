@@ -1,4 +1,4 @@
-import { AuthorFilter } from '@/components/nav/elements/AuthorFilter';
+import { AuthorFilter } from '@/components/elements/AuthorFilter';
 import { AppShell } from '../components/layout/AppShell';
 import { Card, Stack, Title, Text, Button, Group } from '@mantine/core';
 

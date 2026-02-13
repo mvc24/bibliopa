@@ -63,6 +63,12 @@ export interface BookOverview extends BookWithTopic {
   prices: Price[];
 }
 
+export interface BookOverviewWithAdmin extends BookOverview {
+  original_entry: string;
+  verification_notes?: string | null;
+  topic_changed: boolean;
+}
+
 // export interface Book
 
 // ===== People Types =====
@@ -91,6 +97,7 @@ export interface Books2People {
   name_particles?: string | null;
   single_name?: string | null;
   sort_order?: number | null;
+  is_organisation: boolean;
   is_author: boolean;
   is_editor: boolean;
   is_contributor: boolean;
@@ -303,9 +310,10 @@ export interface BookDetail extends Book {
 
   admin_data?: {
     original_entry: string;
-    needs_review: boolean;
-    parsing_confidence?: string | null;
+    // needs_review: boolean;
+    // parsing_confidence?: string | null;
     verification_notes?: string | null;
+    topic_changed: boolean;
   };
 }
 

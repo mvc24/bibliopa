@@ -36,14 +36,14 @@ const theme = createTheme({
     xs: '12px',
     sm: '14px',
     md: '16px',
-    lg: '20px',
+    lg: '18px',
     xl: '24px',
   },
   // Larger default button sizes
   components: {
     Button: {
       defaultProps: {
-        size: 'md',
+        size: 'sm',
       },
     },
     NavLink: {

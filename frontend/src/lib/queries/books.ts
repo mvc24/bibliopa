@@ -6,6 +6,7 @@ import {
   Price,
   AuthorListItem,
   BookDetail,
+  BookAdmin,
 } from '@/types/database';
 
 /**
@@ -147,6 +148,36 @@ export async function getBooksFilteredByAuthor(
   );
   return result.rows;
 }
+
+export async function getSingleBook(bookId: number) {
+  const result = await query<BookWithTopic>(
+    sql`
+    SELECT
+      b.*,
+      t.topic_id,
+      t.topic_name,
+      t.topic_normalised
+    FROM books b
+    LEFT JOIN topics t ON b.topic_id = t.topic_id
+    WHERE b.book_id = $1 AND b.is_removed = FALSE
+    `,
+    [bookId],
+  );
+  return result.rows[0];
+}
+
+export async function getAdminInfoForSingleBook(bookId: number) {
+  const result = await query<BookAdmin>(
+    sql`
+      SELECT *
+      FROM book_admin
+      WHERE book_id = $1
+    `,
+    [bookId],
+  );
+  return result.rows[0];
+}
+
 /**
  * Mark a book as removed (soft delete)
  * Sets is_removed = TRUE for the specified book

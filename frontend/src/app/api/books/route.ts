@@ -4,7 +4,6 @@ import {
   Books2People,
   BookWithTopic,
   CreateBookInput,
-  Person,
   Price,
   Topic,
 } from '@/types/database';
@@ -38,7 +37,7 @@ export async function GET(request: Request) {
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '100');
     const topicNormalised = searchParams.get('topic') || undefined;
-    const search = searchParams.get('search') || undefined;
+    // const search = searchParams.get('search') || undefined;
 
     const authorPersonId = searchParams.get('author')
       ? parseInt(searchParams.get('author')!)
