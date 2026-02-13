@@ -1,6 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-import { BookWithTopic, CreateBookInput } from '@/types/database';
+import {
+  Books2People,
+  BookWithTopic,
+  CreateBookInput,
+  Person,
+  Price,
+  Topic,
+} from '@/types/database';
 import {
   getBookCount,
   getBooksFilteredByAuthor,
@@ -18,6 +25,13 @@ import { getAllTopics } from '@/lib/queries/topics';
  *
  * Query params: page, limit, search, topic_id, author
  */
+
+type BookWithEverything = BookWithTopic & {
+  topic: Topic | null;
+  people: Books2People[];
+  prices: Price[];
+};
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
@@ -62,6 +76,26 @@ export async function GET(request: Request) {
       people: people.filter((p) => p.book_id === book.book_id),
       prices: prices.filter((p) => p.book_id === book.book_id),
     }));
+
+    function getSortKey(book: BookWithEverything) {
+      const firstAuthor = book.people
+        .filter((p) => p.is_author)
+        .sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0))[0];
+      if (firstAuthor) {
+        return (
+          firstAuthor.family_name ||
+          firstAuthor.single_name ||
+          ''
+        ).toUpperCase();
+      }
+      return book.title.toUpperCase();
+    }
+
+    booksWithPeople.sort((a, b) => {
+      const keyA = getSortKey(a);
+      const keyB = getSortKey(b);
+      return keyA.localeCompare(keyB);
+    });
 
     // ===== STEP 3: Format and return response =====
     return NextResponse.json({

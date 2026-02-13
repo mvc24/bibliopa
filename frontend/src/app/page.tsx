@@ -11,13 +11,6 @@ export default function LandingPage() {
           padding="lg"
         >
           <Stack gap="sm">
-            <Title order={2}>Bibliopa</Title>
-            <Text
-              size="lg"
-              c="dimmed"
-            >
-              Das hier ist noch nicht fertig
-            </Text>
             <AuthorFilter />
 
             {/* <Group>

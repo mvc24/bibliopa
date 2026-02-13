@@ -4,16 +4,19 @@ import { useParams, useSearchParams } from 'next/navigation';
 import { AppShell } from '@/components/layout/AppShell';
 import {
   Card,
-  Title,
+  Grid,
   Stack,
   Text,
   Breadcrumbs,
   Anchor,
   Box,
+  Table,
+  Button,
 } from '@mantine/core';
 import { BookDetail, BookOverview } from '@/types/database';
 import Link from 'next/link';
 import { formatPerson } from '@/lib/formatters';
+import { ConditionalTableFields } from '@/components/nav/elements/ConditionalTableFields';
 
 export default function SingleBookPage() {
   const params = useParams();
@@ -85,9 +88,37 @@ export default function SingleBookPage() {
         >
           ← Zurück
         </Anchor>
-        <Title order={3}>{book?.title}</Title>
+        {/* <Title order={3}>{book?.title}</Title>
         <Text c="grape">Diese Seite ist noch nicht fertig.</Text>
-        <Text size="md">{book?.admin_data?.original_entry}</Text>
+        <Text size="md">{book?.admin_data?.original_entry}</Text> */}
+        <Grid>
+          {/* Left column - 2/3 width */}
+          <Grid.Col span={8}>
+            {/* All your bibliographic info here */}
+            <Table withRowBorders={false}>
+              <Table.Tbody>
+                <ConditionalTableFields
+                  label="Titel"
+                  value={book?.title}
+                />
+                <ConditionalTableFields
+                  label="Verlag"
+                  value={book?.publisher}
+                />
+              </Table.Tbody>
+            </Table>
+          </Grid.Col>
+
+          {/* Right column - 1/3 width */}
+          <Grid.Col span={4}>
+            {/* Action buttons here */}
+            <Stack gap="md">
+              <Button>Auslisten</Button>
+              <Button>Edit entry</Button>
+            </Stack>
+          </Grid.Col>
+        </Grid>
+
         <Box>
           {book?.prices && book.prices.filter((p) => p.amount).length > 0 ? (
             <Stack gap="xs">

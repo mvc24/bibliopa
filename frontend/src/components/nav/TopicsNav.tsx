@@ -14,7 +14,12 @@ export function TopicsNav() {
     fetch('/api/topics')
       .then((response) => response.json())
       .then((result) => {
-        setTopics(result.data);
+        if (result.data) {
+          setTopics(result.data);
+        }
+      })
+      .catch((error) => {
+        console.error('Failed to load topics:', error);
       });
   }, []);
 
