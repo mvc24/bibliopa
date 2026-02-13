@@ -280,15 +280,15 @@ export default function BibliographyPage() {
                             );
                             setBooks(result.data);
                           } else {
-                            alert('Fehler beim Entfernen');
+                            alert('Fehler beim Abschreiben');
                           }
                         } catch (error) {
                           console.error('Error removing book:', error);
-                          alert('Fehler beim Entfernen');
+                          alert('Fehler beim Abschreiben');
                         }
                       }}
                     >
-                      Buch entfernen
+                      Abschreiben
                     </Button>
                   </Box>
                 )}

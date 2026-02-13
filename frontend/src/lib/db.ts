@@ -19,9 +19,12 @@ export function getPool(): Pool {
   if (!pool) {
     pool = new Pool({
       connectionString: process.env.DATABASE_URL,
-      max: 20, // Maximum number of clients in the pool
-      idleTimeoutMillis: 30000, // Close idle clients after 30 seconds
-      connectionTimeoutMillis: 2000, // Return error after 2 seconds if no connection available
+      max: 1, // ← CHANGE: Only 1 connection per function
+      idleTimeoutMillis: 30000, // Keep this
+      connectionTimeoutMillis: 10000, // ← CHANGE: Give it more time to connect
+      ssl: {
+        rejectUnauthorized: false, // ← ADD: Required for Neon on Vercel
+      },
     });
 
     // Log pool errors
