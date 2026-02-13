@@ -140,6 +140,7 @@ export async function getBooksFilteredByAuthor(
     WHERE b.is_removed = FALSE
       AND b2p.person_id = $1
       AND b2p.is_author = TRUE
+    ORDER BY b.title
     LIMIT $2 OFFSET $3
     `,
     [authorPersonId, limit, offset],
