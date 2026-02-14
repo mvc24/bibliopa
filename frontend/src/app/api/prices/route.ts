@@ -2,9 +2,11 @@ import { NextRequest, NextResponse } from 'next/server';
 
 import { CreatePriceInput } from '@/types/database';
 import { addPriceToBook } from '@/lib/queries/prices';
+import { requireRole } from '@/lib/auth';
 
 export async function POST(request: NextRequest) {
   try {
+    await requireRole(['admin', 'family']);
     const body: CreatePriceInput = await request.json();
 
     if (!body.book_id) {

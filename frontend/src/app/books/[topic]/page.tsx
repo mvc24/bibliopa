@@ -18,11 +18,13 @@ import {
   Text,
   Pagination,
   Box,
+  Kbd,
 } from '@mantine/core';
 import { formatPerson } from '@/lib/formatters';
 import { useDisclosure } from '@mantine/hooks';
 import { AuthorFilter } from '@/components/elements/AuthorFilter';
 import { useRemoveBook } from '@/lib/hooks/useRemoveBook';
+import { useAddPrice } from '@/lib/hooks/useAddPrice';
 
 export default function BibliographyPage() {
   const params = useParams();
@@ -74,7 +76,10 @@ export default function BibliographyPage() {
   };
 
   const { removeBook, isLoading } = useRemoveBook(fetchBooks);
-
+  const { addPrice, isLoadingPrice } = useAddPrice(() => {
+    fetchBooks();
+    close();
+  });
   useEffect(() => {
     fetchBooks();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -217,7 +222,7 @@ export default function BibliographyPage() {
                   <Group>
                     <Text size="sm">
                       {book.publication_year && `${book.publication_year}. `}
-                      Verlag/Ort: {book.publisher}/{book.place_of_publication}
+                      Verlag/Ort: {book.publisher} : {book.place_of_publication}
                     </Text>
                   </Group>
                 </Box>
@@ -287,54 +292,28 @@ export default function BibliographyPage() {
             required
             hideControls
           ></NumberInput>
+
           <TextInput
             label="Quelle"
             placeholder="Quelle"
             value={priceSource}
             onChange={(e) => setPriceSource(e.currentTarget.value)}
           ></TextInput>
+          <Text>
+            Hier kannst du mit <Kbd>Strg</Kbd> + <Kbd>C</Kbd> die Adresse der
+            Website kopieren, auf der du den Preis gefunden hast.
+          </Text>
+          <Text>
+            Du kannst aber auch nur eine Notiz hinzufügen, oder das Feld leer
+            lassen.
+          </Text>
           <Button
-            my="lg"
-            size="sm"
-            onClick={async () => {
-              if (!selectedBookId || !priceAmount) {
-                alert(
-                  'Bitte gib einen Betrag ein oder mach das Fenster mit ESC (Taste links oben auf der Tastatur) zu.',
-                );
-                return;
-              }
-
-              try {
-                const response = await fetch('/api/prices', {
-                  method: 'POST',
-                  headers: { 'Content-Type': 'application/json' },
-                  body: JSON.stringify({
-                    book_id: selectedBookId,
-                    amount:
-                      typeof priceAmount === 'string'
-                        ? parseFloat(priceAmount)
-                        : priceAmount,
-                    source: priceSource || null,
-                  }),
-                });
-
-                if (response.ok) {
-                  close();
-                  setPriceAmount('');
-                  setPriceSource('');
-                  // Refresh the books list
-                  const result = await fetch(
-                    `/api/books?page=${currentPage}&topic=${topic}`,
-                  ).then((r) => r.json());
-                  setBooks(result.data);
-                } else {
-                  alert('Fehler beim Speichern');
-                }
-              } catch (error) {
-                console.error('Error saving price:', error);
-                alert('Fehler beim Speichern');
-              }
+            onClick={(e) => {
+              e.stopPropagation();
+              if (selectedBookId === null) return;
+              addPrice(selectedBookId, priceAmount, priceSource);
             }}
+            loading={isLoadingPrice}
           >
             Speichern
           </Button>

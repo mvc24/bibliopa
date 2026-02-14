@@ -70,11 +70,11 @@ export default withAuth(
           !path.includes('/people') &&
           !path.includes('/prices')
         ) {
+          return NextResponse.json(
+            { error: 'Forbidden', message: 'Admin access required' },
+            { status: 403 },
+          );
         }
-        return NextResponse.json(
-          { error: 'Forbidden', message: 'Admin access required' },
-          { status: 403 },
-        );
       }
     }
 
