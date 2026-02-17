@@ -40,7 +40,7 @@ export default function SingleBookPage() {
           setBook(result.data);
           setShowPrices(result.permissions?.canViewPrices || false);
           setCanModify(result.permissions?.canModifyBooks || false);
-          console.log('detail permissions:', result.permissions);
+          // console.log('detail permissions:', result.permissions);
         });
     }
   }, [bookId]);
@@ -88,6 +88,18 @@ export default function SingleBookPage() {
       volumeCount = book.total_volumes;
     }
   }
+
+  let format = '';
+  let format_original = '';
+  let format_expanded = '';
+
+  if (book?.format_original) {
+    format_original = `${book.format_original}`;
+  }
+  if (book?.format_expanded) {
+    format_expanded = book.format_expanded;
+  }
+  format = format_expanded + format_original;
 
   const peopleWithRoles =
     book?.people
@@ -199,8 +211,9 @@ export default function SingleBookPage() {
 
                 <ConditionalTableFields
                   label="Format"
-                  value={`${book?.format_expanded} (${book?.format_original})`}
+                  value={format}
                 />
+
                 <ConditionalTableFields
                   label="Zustand"
                   value={book?.condition}

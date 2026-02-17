@@ -70,7 +70,7 @@ export default function BibliographyPage() {
       .then((result) => {
         console.log('Books data:', result.data);
         console.log('first book topic; ', result.data[0]?.topic);
-        console.log('overview permissions: ', result.permissions);
+        // console.log('overview permissions: ', result.permissions);
         setBooks(result.data);
         setPagination(result.pagination);
         setShowPrices(result.permissions?.canViewPrices || false);
