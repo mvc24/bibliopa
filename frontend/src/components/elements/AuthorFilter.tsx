@@ -33,7 +33,7 @@ export function AuthorFilter() {
       size="lg"
       label="Autor:in suchen"
       description="Sobald du einen Namen aus einer Liste anklickst, werden die Ergebnisse auf diese Person eingeschränkt."
-      placeholder="Die Suche beginnt nach 3 Buchstaben"
+      placeholder="Gib mindestens 3 Buchstaben ein um die Suche zu starten"
       data={authors.map((author) => ({
         value: author.person_id.toString(),
         label: formatPerson(author),

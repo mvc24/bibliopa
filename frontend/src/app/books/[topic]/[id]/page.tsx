@@ -242,46 +242,48 @@ export default function SingleBookPage() {
                   value={book?.admin_data?.original_entry}
                 />
                 */}
-                <Table.Tr>
-                  <Table.Th
-                    fw={700}
-                    w={120}
-                    style={{
-                      verticalAlign: 'top',
-                      lineBreak: 'strict',
-                      background: 'none',
-                    }}
-                    fz="lg"
-                  >
-                    Preise
-                  </Table.Th>
-                  <Table.Td
-                    fz="lg"
-                    style={{ whiteSpace: 'pre-line' }}
-                  >
-                    <Box>
-                      {book?.prices &&
-                      book.prices.filter((p) => p.amount).length > 0 ? (
-                        <Stack gap="xs">
-                          {book.prices
-                            .filter((p) => p.amount)
-                            .map((price) => (
-                              <Text key={price.price_id}>
-                                € {price.amount}
-                                {price.source && ` - ${price.source}`}
-                                {' - '}
-                                {new Date(price.date_added).toLocaleDateString(
-                                  'de-DE',
-                                )}
-                              </Text>
-                            ))}
-                        </Stack>
-                      ) : (
-                        <Text size={'md'}>Keine Preise vorhanden</Text>
-                      )}
-                    </Box>
-                  </Table.Td>
-                </Table.Tr>
+                {showPrices && (
+                  <Table.Tr>
+                    <Table.Th
+                      fw={700}
+                      w={120}
+                      style={{
+                        verticalAlign: 'top',
+                        lineBreak: 'strict',
+                        background: 'none',
+                      }}
+                      fz="lg"
+                    >
+                      Preise
+                    </Table.Th>
+                    <Table.Td
+                      fz="lg"
+                      style={{ whiteSpace: 'pre-line' }}
+                    >
+                      <Box>
+                        {book?.prices &&
+                        book.prices.filter((p) => p.amount).length > 0 ? (
+                          <Stack gap="xs">
+                            {book.prices
+                              .filter((p) => p.amount)
+                              .map((price) => (
+                                <Text key={price.price_id}>
+                                  € {price.amount}
+                                  {price.source && ` - ${price.source}`}
+                                  {' - '}
+                                  {new Date(
+                                    price.date_added,
+                                  ).toLocaleDateString('de-DE')}
+                                </Text>
+                              ))}
+                          </Stack>
+                        ) : (
+                          <Text size={'md'}>Keine Preise vorhanden</Text>
+                        )}
+                      </Box>
+                    </Table.Td>
+                  </Table.Tr>
+                )}
 
                 <Table.Tr style={{ paddingTop: '100px' }}>
                   <Table.Th
