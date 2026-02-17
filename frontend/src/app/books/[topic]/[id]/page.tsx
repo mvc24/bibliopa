@@ -28,13 +28,20 @@ export default function SingleBookPage() {
   const page = searchParams.get('page') || '1';
   const authorId = searchParams.get('author');
   const [book, setBook] = useState<BookDetail | null>(null);
-  const [books, setBooks] = useState<BookOverview[]>([]);
+  const [showPrices, setShowPrices] = useState(false);
+  const [priceAmount, setPriceAmount] = useState<number | string>('');
+  const [priceSource, setPriceSource] = useState('');
+  const [canModify, setCanModify] = useState(false);
 
   useEffect(() => {
     if (bookId) {
       fetch(`/api/books/${bookId}`)
         .then((response) => response.json())
-        .then((data) => setBook(data));
+        .then((result) => {
+          setBook(result.data);
+          setShowPrices(result.permissions?.canViewPrices || false);
+          setCanModify(result.permissions?.canModify || false);
+        });
     }
   }, [bookId]);
 
@@ -65,6 +72,21 @@ export default function SingleBookPage() {
   let pages = '';
   if (book?.pages) {
     pages = `${book.pages} S.`;
+  }
+
+  let showMultivolume = '';
+  let seriesTitle = '';
+  let volumeCount = 0;
+
+  if (book?.is_multivolume) {
+    showMultivolume = 'Ja';
+
+    if (book?.series_title) {
+      seriesTitle = book.series_title;
+    }
+    if (book?.total_volumes) {
+      volumeCount = book.total_volumes;
+    }
   }
 
   const peopleWithRoles =
@@ -171,12 +193,18 @@ export default function SingleBookPage() {
                 /> */}
 
                 <ConditionalTableFields
-                  label="Umfang/Format"
-                  value={[pages, book?.format_original, book?.condition]
-                    .filter(Boolean)
-                    .join('; ')}
+                  label="Seitenanzahl"
+                  value={pages}
                 />
 
+                <ConditionalTableFields
+                  label="Format"
+                  value={`${book?.format_expanded} (${book?.format_original})`}
+                />
+                <ConditionalTableFields
+                  label="Zustand"
+                  value={book?.condition}
+                />
                 <ConditionalTableFields
                   label="Illustrationen"
                   value={book?.illustrations}
@@ -190,6 +218,19 @@ export default function SingleBookPage() {
                 <ConditionalTableFields
                   label="Beteiligte"
                   value={peopleWithRoles}
+                />
+
+                <ConditionalTableFields
+                  label="Mehrbändiges Werk"
+                  value={showMultivolume}
+                />
+                <ConditionalTableFields
+                  label="Reihentitel"
+                  value={seriesTitle}
+                />
+                <ConditionalTableFields
+                  label="Anzahl Bände"
+                  value={volumeCount}
                 />
 
                 {/* <ConditionalTableFields
