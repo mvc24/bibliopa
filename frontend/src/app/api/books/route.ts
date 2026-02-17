@@ -15,7 +15,7 @@ import {
   getPricesForBooks,
   markBookAsRemoved,
 } from '@/lib/queries/books';
-import { canViewPrices } from '@/lib/auth';
+import { canModify, canViewPrices } from '@/lib/auth';
 import { getAllTopics } from '@/lib/queries/topics';
 
 /**
@@ -43,6 +43,8 @@ export async function GET(request: Request) {
       ? parseInt(searchParams.get('author')!)
       : undefined;
     const canView = await canViewPrices();
+    const canModifyBooks = await canModify();
+
     const totalCount = await getBookCount(topicNormalised, authorPersonId);
 
     let books: BookWithTopic[] = [];
@@ -107,6 +109,7 @@ export async function GET(request: Request) {
       },
       permissions: {
         canViewPrices: canView,
+        canModifyBooks: canModifyBooks,
       },
     });
   } catch (error) {

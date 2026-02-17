@@ -17,7 +17,6 @@ import { BookDetail, BookOverview } from '@/types/database';
 import Link from 'next/link';
 import { formatPerson } from '@/lib/formatters';
 
-import { canViewPrices } from '@/lib/auth';
 import { ConditionalTableFields } from '@/components/elements/ConditionalTableFields';
 
 export default function SingleBookPage() {
@@ -28,10 +27,10 @@ export default function SingleBookPage() {
   const page = searchParams.get('page') || '1';
   const authorId = searchParams.get('author');
   const [book, setBook] = useState<BookDetail | null>(null);
+  const [canModifyBooks, setCanModify] = useState(false);
   const [showPrices, setShowPrices] = useState(false);
   const [priceAmount, setPriceAmount] = useState<number | string>('');
   const [priceSource, setPriceSource] = useState('');
-  const [canModify, setCanModify] = useState(false);
 
   useEffect(() => {
     if (bookId) {
@@ -40,7 +39,8 @@ export default function SingleBookPage() {
         .then((result) => {
           setBook(result.data);
           setShowPrices(result.permissions?.canViewPrices || false);
-          setCanModify(result.permissions?.canModify || false);
+          setCanModify(result.permissions?.canModifyBooks || false);
+          console.log('detail permissions:', result.permissions);
         });
     }
   }, [bookId]);
@@ -308,12 +308,15 @@ export default function SingleBookPage() {
             </Table>
           </Grid.Col>
 
-          {/* <Grid.Col span={3}>
-            <Stack gap="md">
-              <Button>Abschreiben</Button>
-              <Button>Daten bearbeiten</Button>
-            </Stack>
-          </Grid.Col> */}
+          {canModifyBooks && (
+            <Grid.Col span={3}>
+              <Stack gap="md">
+                <Button>Preis hinzufügen</Button>
+                <Button>Daten bearbeiten</Button>
+                <Button>Abschreiben</Button>
+              </Stack>
+            </Grid.Col>
+          )}
         </Grid>
 
         {/* <Card

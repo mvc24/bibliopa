@@ -38,6 +38,7 @@ export default function BibliographyPage() {
   const [pagination, setPagination] = useState<PaginationInfo | null>(null);
   const [currentPage, setCurrentPage] = useState(initialPage);
   const [showPrices, setShowPrices] = useState(false);
+  const [canModify, setCanModify] = useState(false);
   const [selectedBookId, setselectedBookId] = useState<number | null>(null);
   const [priceAmount, setPriceAmount] = useState<number | string>('');
   const [priceSource, setPriceSource] = useState('');
@@ -69,9 +70,11 @@ export default function BibliographyPage() {
       .then((result) => {
         console.log('Books data:', result.data);
         console.log('first book topic; ', result.data[0]?.topic);
+        console.log('overview permissions: ', result.permissions);
         setBooks(result.data);
         setPagination(result.pagination);
         setShowPrices(result.permissions?.canViewPrices || false);
+        setCanModify(result.permissions?.canModifyBooks || false);
       });
   };
 
@@ -227,7 +230,7 @@ export default function BibliographyPage() {
                   </Group>
                 </Box>
 
-                {showPrices && (
+                {canModify && (
                   <Box
                     style={{
                       flex: 1,
@@ -318,6 +321,7 @@ export default function BibliographyPage() {
             Speichern
           </Button>
         </Modal>
+
         <Pagination
           total={pagination?.total_pages || 0}
           value={currentPage}

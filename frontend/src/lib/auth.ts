@@ -109,6 +109,7 @@ export async function canDownload(): Promise<boolean> {
 export async function canModify(): Promise<boolean> {
   if (process.env.NEXT_PUBLIC_DEV_MODE === 'true') return true;
   const role = await getUserRole();
+
   return role === 'admin' || role === 'family';
 }
 
