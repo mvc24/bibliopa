@@ -16,6 +16,8 @@ import {
 import { BookDetail, BookOverview } from '@/types/database';
 import Link from 'next/link';
 import { formatPerson } from '@/lib/formatters';
+
+import { canViewPrices } from '@/lib/auth';
 import { ConditionalTableFields } from '@/components/elements/ConditionalTableFields';
 
 export default function SingleBookPage() {
@@ -186,7 +188,7 @@ export default function SingleBookPage() {
                 />
 
                 <ConditionalTableFields
-                  label="Verantwortliche"
+                  label="Beteiligte"
                   value={peopleWithRoles}
                 />
 

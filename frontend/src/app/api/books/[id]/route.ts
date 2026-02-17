@@ -6,6 +6,7 @@ import {
   getSingleBook,
 } from '@/lib/queries/books';
 import { BookDetail } from '@/types/database';
+import { canModify, canViewPrices } from '@/lib/auth';
 
 export async function GET(
   request: NextRequest,
@@ -19,6 +20,8 @@ export async function GET(
     const people = await getPeopleForBooks([bookId]);
     const prices = await getPricesForBooks([bookId]);
     const admin = await getAdminInfoForSingleBook(bookId);
+    const canView = await canViewPrices();
+    const canModifyBooks = await canModify();
 
     const book: BookDetail = {
       ...bookBase,
@@ -58,7 +61,10 @@ export async function GET(
       },
     };
 
-    return NextResponse.json(book);
+    return NextResponse.json({
+      data: book,
+      permissions: { canViewPrices: canView, canModifyBooks: canModifyBooks },
+    });
   } catch (error) {
     console.error('Error fetching book:', error);
     return NextResponse.json(
