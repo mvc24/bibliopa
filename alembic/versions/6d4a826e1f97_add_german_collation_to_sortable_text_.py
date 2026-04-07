@@ -19,54 +19,54 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
- op.execute("""
-        ALTER TABLE people
-        ALTER COLUMN family_name
-        TYPE VARCHAR COLLATE "de-x-icu"
-    """)
+	op.execute("""
+					ALTER TABLE people
+					ALTER COLUMN family_name
+					TYPE VARCHAR COLLATE "de-x-icu"
+			""")
 
-op.execute("""
-    ALTER TABLE people
-    ALTER COLUMN single_name
-    TYPE VARCHAR COLLATE "de-x-icu"
-""")
+	op.execute("""
+			ALTER TABLE people
+			ALTER COLUMN single_name
+			TYPE VARCHAR COLLATE "de-x-icu"
+	""")
 
 # Set German collation on topics table
-op.execute("""
-    ALTER TABLE topics
-    ALTER COLUMN topic_name
-    TYPE VARCHAR COLLATE "de-x-icu"
-""")
+	op.execute("""
+			ALTER TABLE topics
+			ALTER COLUMN topic_name
+			TYPE VARCHAR COLLATE "de-x-icu"
+	""")
 
 # Set German collation on books table
-op.execute("""
-    ALTER TABLE books
-    ALTER COLUMN title
-    TYPE VARCHAR COLLATE "de-x-icu"
-""")
+	op.execute("""
+			ALTER TABLE books
+			ALTER COLUMN title
+			TYPE VARCHAR COLLATE "de-x-icu"
+	""")
 
 
 def downgrade() -> None:
- op.execute("""
-        ALTER TABLE people
-        ALTER COLUMN family_name
-        TYPE VARCHAR
-    """)
+	op.execute("""
+					ALTER TABLE people
+					ALTER COLUMN family_name
+					TYPE VARCHAR
+			""")
 
-op.execute("""
-    ALTER TABLE people
-    ALTER COLUMN single_name
-    TYPE VARCHAR
-""")
+	op.execute("""
+			ALTER TABLE people
+			ALTER COLUMN single_name
+			TYPE VARCHAR
+	""")
 
-op.execute("""
-    ALTER TABLE topics
-    ALTER COLUMN topic_name
-    TYPE VARCHAR
-""")
+	op.execute("""
+			ALTER TABLE topics
+			ALTER COLUMN topic_name
+			TYPE VARCHAR
+	""")
 
-op.execute("""
-    ALTER TABLE books
-    ALTER COLUMN title
-    TYPE VARCHAR
-""")
+	op.execute("""
+			ALTER TABLE books
+			ALTER COLUMN title
+			TYPE VARCHAR
+	""")

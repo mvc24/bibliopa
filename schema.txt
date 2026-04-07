@@ -1,0 +1,138 @@
+CREATE SCHEMA "public";
+CREATE TABLE "alembic_version" (
+	"version_num" varchar(32),
+	CONSTRAINT "alembic_version_pkc" PRIMARY KEY("version_num")
+);
+CREATE TABLE "book_admin" (
+	"book_id" integer PRIMARY KEY,
+	"composite_id" text,
+	"original_entry" text NOT NULL,
+	"parsing_confidence" text,
+	"needs_review" boolean DEFAULT false,
+	"verification_notes" text,
+	"topic_changed" boolean DEFAULT false,
+	"price_changed" boolean DEFAULT false,
+	"batch_id" text,
+	"created_at" timestamp DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE "books" (
+	"book_id" serial PRIMARY KEY,
+	"composite_id" text CONSTRAINT "books_composite_id_key" UNIQUE,
+	"title" varchar NOT NULL,
+	"subtitle" text,
+	"publisher" text,
+	"place_of_publication" text,
+	"publication_year" integer,
+	"edition" text,
+	"pages" integer,
+	"isbn" text,
+	"format_original" text,
+	"format_expanded" text,
+	"condition" text,
+	"copies" integer,
+	"illustrations" text,
+	"packaging" text,
+	"topic_id" integer,
+	"is_translation" boolean DEFAULT false,
+	"original_language" text,
+	"is_multivolume" boolean DEFAULT false,
+	"series_title" text,
+	"total_volumes" integer,
+	"created_at" timestamp DEFAULT CURRENT_TIMESTAMP,
+	"updated_at" timestamp DEFAULT CURRENT_TIMESTAMP,
+	"is_removed" boolean DEFAULT false
+);
+CREATE TABLE "books2people" (
+	"b2p_id" serial PRIMARY KEY,
+	"book_id" integer NOT NULL,
+	"composite_id" text NOT NULL,
+	"person_id" integer NOT NULL,
+	"unified_id" text NOT NULL,
+	"display_name" text,
+	"family_name" text,
+	"given_names" text,
+	"name_particles" text,
+	"single_name" text,
+	"sort_order" integer,
+	"is_author" boolean DEFAULT false,
+	"is_editor" boolean DEFAULT false,
+	"is_contributor" boolean DEFAULT false,
+	"is_translator" boolean DEFAULT false,
+	"created_at" timestamp DEFAULT CURRENT_TIMESTAMP,
+	"updated_at" timestamp DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE "books2volumes" (
+	"volume_id" serial PRIMARY KEY,
+	"book_id" integer NOT NULL,
+	"volume_number" integer,
+	"volume_title" text,
+	"pages" integer,
+	"notes" text
+);
+CREATE TABLE "people" (
+	"person_id" serial PRIMARY KEY,
+	"unified_id" text CONSTRAINT "people_unified_id_key" UNIQUE,
+	"family_name" varchar,
+	"given_names" text,
+	"name_particles" text,
+	"single_name" varchar,
+	"is_organisation" boolean DEFAULT false,
+	"created_at" timestamp DEFAULT CURRENT_TIMESTAMP,
+	"updated_at" timestamp DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE "prices" (
+	"price_id" serial PRIMARY KEY,
+	"book_id" integer NOT NULL,
+	"amount" integer,
+	"imported_price" boolean DEFAULT false NOT NULL,
+	"source" text,
+	"date_added" timestamp DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE "sessions" (
+	"session_id" uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+	"user_id" uuid NOT NULL,
+	"session_token" text NOT NULL CONSTRAINT "sessions_session_token_key" UNIQUE,
+	"expires_at" timestamp NOT NULL,
+	"created_at" timestamp DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE "topics" (
+	"topic_id" serial PRIMARY KEY,
+	"topic_name" varchar NOT NULL CONSTRAINT "topics_topic_name_key" UNIQUE,
+	"created_at" timestamp DEFAULT CURRENT_TIMESTAMP,
+	"topic_normalised" varchar(255)
+);
+CREATE TABLE "users" (
+	"user_id" uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+	"username" text NOT NULL CONSTRAINT "users_username_key" UNIQUE,
+	"email" text NOT NULL CONSTRAINT "users_email_key" UNIQUE,
+	"password_hash" text NOT NULL,
+	"role" text DEFAULT 'viewer' NOT NULL,
+	"is_active" boolean DEFAULT true,
+	"created_at" timestamp DEFAULT CURRENT_TIMESTAMP,
+	"updated_at" timestamp DEFAULT CURRENT_TIMESTAMP
+);
+CREATE UNIQUE INDEX "alembic_version_pkc" ON "alembic_version" ("version_num");
+CREATE UNIQUE INDEX "book_admin_pkey" ON "book_admin" ("book_id");
+CREATE UNIQUE INDEX "books_composite_id_key" ON "books" ("composite_id");
+CREATE UNIQUE INDEX "books_pkey" ON "books" ("book_id");
+CREATE INDEX "ix_books_is_removed" ON "books" ("is_removed");
+CREATE INDEX "ix_books_topic_id" ON "books" ("topic_id");
+CREATE UNIQUE INDEX "books2people_pkey" ON "books2people" ("b2p_id");
+CREATE INDEX "ix_books2people_book_id" ON "books2people" ("book_id");
+CREATE INDEX "ix_books2people_person_id" ON "books2people" ("person_id");
+CREATE UNIQUE INDEX "books2volumes_pkey" ON "books2volumes" ("volume_id");
+CREATE INDEX "ix_books2volumes_book_id" ON "books2volumes" ("book_id");
+CREATE UNIQUE INDEX "people_pkey" ON "people" ("person_id");
+CREATE UNIQUE INDEX "people_unified_id_key" ON "people" ("unified_id");
+CREATE INDEX "ix_prices_book_id" ON "prices" ("book_id");
+CREATE UNIQUE INDEX "prices_pkey" ON "prices" ("price_id");
+CREATE UNIQUE INDEX "sessions_pkey" ON "sessions" ("session_id");
+CREATE UNIQUE INDEX "sessions_session_token_key" ON "sessions" ("session_token");
+CREATE UNIQUE INDEX "topics_pkey" ON "topics" ("topic_id");
+CREATE UNIQUE INDEX "topics_topic_name_key" ON "topics" ("topic_name");
+CREATE UNIQUE INDEX "users_email_key" ON "users" ("email");
+CREATE UNIQUE INDEX "users_pkey" ON "users" ("user_id");
+CREATE UNIQUE INDEX "users_username_key" ON "users" ("username");
+ALTER TABLE "books" ADD CONSTRAINT "books_topic_id_fkey" FOREIGN KEY ("topic_id") REFERENCES "topics"("topic_id");
+ALTER TABLE "books2people" ADD CONSTRAINT "books2people_person_id_fkey" FOREIGN KEY ("person_id") REFERENCES "people"("person_id") ON DELETE CASCADE;
+ALTER TABLE "sessions" ADD CONSTRAINT "sessions_user_id_fkey" FOREIGN KEY ("user_id") REFERENCES "users"("user_id") ON DELETE CASCADE;
