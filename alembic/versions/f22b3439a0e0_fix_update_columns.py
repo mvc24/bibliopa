@@ -19,11 +19,51 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
+    op.execute("""
+        CREATE OR REPLACE FUNCTION set_updated_at()
+        RETURNS TRIGGER
+        LANGUAGE plpgsql
+        AS $$
+        BEGIN
+            NEW.updated_at = NOW();
+            RETURN NEW;
+        END;
+        $$
+    """)
 
+    op.execute("""
+        CREATE TRIGGER set_updated_at_books
+        BEFORE UPDATE ON books
+        FOR EACH ROW
+        EXECUTE FUNCTION set_updated_at()
+    """)
 
-    pass
+    op.execute("""
+        CREATE TRIGGER set_updated_at_people
+        BEFORE UPDATE ON people
+        FOR EACH ROW
+        EXECUTE FUNCTION set_updated_at()
+    """)
+
+    op.execute("""
+        CREATE TRIGGER set_updated_at_books2people
+        BEFORE UPDATE ON books2people
+        FOR EACH ROW
+        EXECUTE FUNCTION set_updated_at()
+    """)
+
+    op.execute("""
+        CREATE TRIGGER set_updated_at_users
+        BEFORE UPDATE ON users
+        FOR EACH ROW
+        EXECUTE FUNCTION set_updated_at()
+    """)
 
 
 def downgrade() -> None:
-    """Downgrade schema."""
-    pass
+    op.execute("DROP TRIGGER IF EXISTS set_updated_at_books ON books")
+    op.execute("DROP TRIGGER IF EXISTS set_updated_at_people ON people")
+    op.execute("DROP TRIGGER IF EXISTS set_updated_at_books2people ON books2people")
+    op.execute("DROP TRIGGER IF EXISTS set_updated_at_users ON users")
+
+    op.execute("DROP FUNCTION IF EXISTS set_updated_at")
