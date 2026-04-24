@@ -115,3 +115,12 @@ SESSIONS_SCHEMA = {
     "expires_at": "TIMESTAMP NOT NULL",
     "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
 }
+
+PEOPLE_VARIANTS_SCHEMA = {
+    "variant_id": "serial PRIMARY KEY",
+    "person_id": "integer NOT NULL REFERENCES people(person_id)",
+    "unified_id": "text NOT NULL",
+    "variant_string": "text NOT NULL",
+    "source": "text",
+    "created_at": "timestamp DEFAULT CURRENT_TIMESTAMP"
+}
