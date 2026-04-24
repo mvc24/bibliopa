@@ -28,7 +28,7 @@ def upgrade() -> None:
     create_variants += ", ".join([f"{col} {dtype}" for col, dtype in PEOPLE_VARIANTS_SCHEMA.items()])
     create_variants += ");"
     op.execute(create_variants)
-    op.execute("ALTER TABLE people_variants ADD CONSTRAINT uq_person_variant UNIQUE (person_id, variant_string);")
+    op.execute("ALTER TABLE people_variants ADD CONSTRAINT uq_person_variant UNIQUE (person_id, variant_normalised);")
 
 
 def downgrade() -> None:

@@ -121,6 +121,7 @@ PEOPLE_VARIANTS_SCHEMA = {
     "person_id": "integer NOT NULL REFERENCES people(person_id)",
     "unified_id": "text NOT NULL",
     "variant_string": "text NOT NULL",
+    "variant_normalised": "text NOT NULL",
     "source": "text",
     "created_at": "timestamp DEFAULT CURRENT_TIMESTAMP"
 }
