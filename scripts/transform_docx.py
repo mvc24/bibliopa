@@ -91,7 +91,7 @@ def read_entries():
 
                     remove_exclamation = re.sub(r"^!\s*", "", price_cleaned)
 
-                    text_clean = remove_exclamation.replace('\n', '. ')
+                    text_clean = remove_exclamation.replace('\n', ' || ')
                     text_clean = ' '.join(text_clean.split())
 
                     entries.append({
