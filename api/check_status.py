@@ -45,31 +45,36 @@ def retrieve_batch_results(batch_id, original_file):
 
     # Convert results to JSON-serializable format
     results_data = []
-    for result in results_list:  # Use the list we already created
-        if result.result and result.result.type == "succeeded":  # Changed from "message" to "succeeded"
-            # Extract the text content from the message
-            response_text = result.result.message.content[0].text  # Changed path
+    for result in results_list:
+            if result.result and result.result.type == "succeeded":
+                response_text = result.result.message.content[0].text
 
-            # Strip markdown code blocks if present
-            if response_text.startswith("```json"):
-                response_text = response_text.replace("```json\n", "").replace("\n```", "")
+                if response_text.startswith("```json"):
+                    response_text = response_text.replace("```json\n", "").replace("\n```", "")
 
-            try:
-                # Parse the actual JSON
-                parsed_json = json.loads(response_text)
+                try:
+                    parsed_json = json.loads(response_text)
+                    result_data = {
+                        "custom_id": result.custom_id,
+                        "price": lookup.get(result.custom_id, {}).get("price", None),
+                        "parsed_entry": parsed_json
+                    }
+                except json.JSONDecodeError as e:
+                    result_data = {
+                        "custom_id": result.custom_id,
+                        "error": f"JSON parsing failed: {e}",
+                        "raw_response": response_text
+                    }
+
+                results_data.append(result_data)
+
+            elif result.result and result.result.type == "errored":
+                print(f"⚠ API error for entry {result.custom_id}: {result.result.error.type} — {result.result.error.message}")
                 result_data = {
                     "custom_id": result.custom_id,
-                    "price": lookup[result.custom_id]["price"],
-                    "parsed_entry": parsed_json
+                    "error": f"API error: {result.result.error.type} — {result.result.error.message}"
                 }
-            except json.JSONDecodeError as e:
-                result_data = {
-                    "custom_id": result.custom_id,
-                    "error": f"JSON parsing failed: {e}",
-                    "raw_response": response_text
-                }
-
-            results_data.append(result_data)
+                results_data.append(result_data)
 
     # Save results to file (single file creation)
 

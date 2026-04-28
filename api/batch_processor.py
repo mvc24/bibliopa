@@ -6,13 +6,13 @@ from parse_single_batch import submit_batch
 
 def get_available_topics():
     """Auto-discover topics that have batch files ready for processing"""
-    batch_dir = Path("data/batched")
+    batch_dir = Path("data/raw/batched")
     available_topics = []
-    
+
     if not batch_dir.exists():
         print(f"Warning: Batch directory {batch_dir} does not exist")
         return available_topics
-    
+
     # Scan subdirectories in data/batched/
     for topic_dir in batch_dir.iterdir():
         if topic_dir.is_dir():
@@ -21,20 +21,20 @@ def get_available_topics():
             if json_files:
                 available_topics.append(topic_dir.name)
                 print(f"Found {len(json_files)} batch files for topic: {topic_dir.name}")
-    
+
     available_topics.sort()  # Keep consistent ordering
     return available_topics
 
 def find_batch_files():
     """Find all batch files for available topics"""
-    batch_dir = Path("data/batched")
+    batch_dir = Path("data/raw/batched")
     files = []
     available_topics = get_available_topics()
-    
+
     for topic in available_topics:
         topic_files = list(batch_dir.glob(f"{topic}/*.json"))
         files.extend(topic_files)
-    
+
     return files
 
 def load_log():
@@ -58,12 +58,12 @@ def extract_topic_from_path(file_path):
 def run_batch_processor(max_submit=15):
     print("Starting batch processor...")
     timestamp = datetime.now().strftime("%Y%m%d-%H%M")
-    
+
     # Discover available topics
     print("\n=== AUTO-DISCOVERING AVAILABLE TOPICS ===")
     available_topics = get_available_topics()
     print(f"Available topics ready for processing: {len(available_topics)}")
-    
+
     if not available_topics:
         print("No topics found with batch files. Run data_prep.py first to create batch files.")
         return
@@ -123,7 +123,7 @@ def run_batch_processor(max_submit=15):
     print(f"Files submitted this run: {submit_count}")
     print(f"Total submitted: {len(log_data['submitted'])}")
     print(f"Total failed submissions: {len(log_data['failed'])}")
-    
+
     if submit_count > 0:
         print(f"\n✓ Use 'python api/check_status.py' to monitor batch progress.")
 
@@ -132,8 +132,8 @@ def main():
         description='Submit batch files to Claude API for processing'
     )
     parser.add_argument(
-        '--max-submit', 
-        type=int, 
+        '--max-submit',
+        type=int,
         default=15,
         help='Maximum number of batches to submit in this run (default: 15)'
     )
@@ -142,21 +142,21 @@ def main():
         action='store_true',
         help='List available topics and exit (no submission)'
     )
-    
+
     args = parser.parse_args()
-    
+
     if args.list_topics:
         print("Available topics with batch files:")
         topics = get_available_topics()
         if not topics:
             print("No topics found with batch files.")
             return
-        
+
         for topic in topics:
-            batch_count = len(list(Path(f"data/batched/{topic}").glob("*.json")))
+            batch_count = len(list(Path(f"data/raw/batched/{topic}").glob("*.json")))
             print(f"  {topic}: {batch_count} batch files")
         return
-    
+
     print(f"Batch Processor - Max submissions: {args.max_submit}")
     run_batch_processor(max_submit=args.max_submit)
 
