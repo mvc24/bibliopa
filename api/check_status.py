@@ -25,6 +25,12 @@ def save_log(log_data):
         json.dump(log_data, f, indent=2)
 
 def retrieve_batch_results(batch_id, original_file):
+
+    with open(original_file, "r", encoding="utf-8") as f:
+        batch_data = json.load(f)
+
+    lookup = {entry["composite_id"]: entry for entry in batch_data}
+
     # Check status first
     batch_status = client.messages.batches.retrieve(batch_id)
     print("Current status:", batch_status.processing_status)
@@ -53,6 +59,7 @@ def retrieve_batch_results(batch_id, original_file):
                 parsed_json = json.loads(response_text)
                 result_data = {
                     "custom_id": result.custom_id,
+                    "price": lookup[result.custom_id]["price"],
                     "parsed_entry": parsed_json
                 }
             except json.JSONDecodeError as e:
