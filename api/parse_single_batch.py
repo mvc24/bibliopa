@@ -180,24 +180,40 @@ def submit_batch(batch_path):
         German cataloging order: Place of publication → Publisher → Year
         - Example: "Wien Böhlau 1972" → place_of_publication: "Wien", publisher: "Böhlau", publication_year: 1972
 
-        FORMAT ABBREVIATIONS
-        Format information goes into TWO separate fields — never concatenate them:
-        - format_original: copy the abbreviation exactly as written in the entry
-        - format_expanded: expand using the patterns below
+        FORMAT
+        Format information goes into TWO fields — keep their content distinct from each other, but combine multiple format notations within each field:
+        - format_original: copy every format-related notation exactly as written in the entry
+        - format_expanded: provide German expansions for those notations
 
-        Base material patterns:
+        Format notations include both binding/material information and physical size/format information. Capture ALL format-related notations present in the entry, including ones not in the lists below. The lists are common patterns, not an exhaustive set.
+
+        Common binding/material patterns:
         - OLn → Originalleinen
         - OBrosch → Originalbroschur
         - OPbd → Originalpappband
         - HLn → Halbleinen
         - Pp → Pappband
 
+        Common size/format patterns:
+        - Fol. → Folio
+        - Gr.-4° → Großquart
+        - 4° → Quart
+        - Gr.-8° → Großoktav
+        - 8° → Oktav
+        - Kl.-8° → Kleinoktav
+
         Addition patterns (append with " mit "):
         - m.OU → mit Originalumschlag
         - m.Schutzumschlag → mit Schutzumschlag
 
-        Example:
+        For format notations not in the lists above:
+        - Always copy them verbatim into format_original
+        - Include an expansion in format_expanded only when it is an unambiguous, well-established German cataloging abbreviation
+        - When uncertain about the expansion, copy the original notation as-is into format_expanded rather than guessing
+
+        Examples:
         - "OLn.m.OU" → format_original: "OLn.m.OU", format_expanded: "Originalleinen mit Originalumschlag"
+        - "Gr.-4°. OPbd." → format_original: "Gr.-4°. OPbd.", format_expanded: "Großquart, Originalpappband"
 
         EDITION
         Edition information belongs in the "edition" field — NOT in format fields.
@@ -247,7 +263,13 @@ def submit_batch(batch_path):
                 "model": "claude-sonnet-4-6",
                 "max_tokens": 8000,
                 "temperature": 0,
-                "system": system_prompt,
+                "system": [
+                    {
+                        "type": "text",
+                        "text": system_prompt,
+                        "cache_control": {"type": "ephemeral"}
+                    }
+                        ],
                 "messages": [
                     {
                         "role": "user",
