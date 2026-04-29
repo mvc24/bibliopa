@@ -2,6 +2,8 @@
 BOOKS_SCHEMA = {
     "book_id": "SERIAL PRIMARY KEY",
     "composite_id": "TEXT UNIQUE",
+    "is_active": "INTEGER",
+    "is_removed": "BOOLEAN DEFAULT FALSE",
     "title": "TEXT NOT NULL",
     "subtitle": "TEXT",
     "publisher": "TEXT",
@@ -9,7 +11,6 @@ BOOKS_SCHEMA = {
     "publication_year": "INTEGER",
     "edition": "TEXT",
     "pages": "INTEGER",
-    "isbn": "TEXT",
     "format_original": "TEXT",
     "format_expanded": "TEXT",
     "condition": "TEXT",
@@ -23,8 +24,7 @@ BOOKS_SCHEMA = {
     "series_title": "TEXT",
     "total_volumes": "INTEGER",
     "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
-    "updated_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
-    "is_removed": "BOOLEAN DEFAULT FALSE"
+    "updated_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
 }
 
 PEOPLE_SCHEMA = {
@@ -38,6 +38,18 @@ PEOPLE_SCHEMA = {
     "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
     "updated_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
 }
+
+
+PEOPLE_VARIANTS_SCHEMA = {
+    "variant_id": "serial PRIMARY KEY",
+    "person_id": "integer NOT NULL REFERENCES people(person_id)",
+    "unified_id": "text NOT NULL",
+    "variant_string": "text NOT NULL",
+    "variant_normalised": "text NOT NULL",
+    "source": "text",
+    "created_at": "timestamp DEFAULT CURRENT_TIMESTAMP"
+}
+
 
 TOPICS_SCHEMA = {
     "topic_id": "SERIAL PRIMARY KEY",
@@ -70,6 +82,7 @@ BOOKS2PEOPLE_SCHEMA = {
     "composite_id": "TEXT NOT NULL",
     "person_id": "INTEGER NOT NULL REFERENCES people(person_id) ON DELETE CASCADE",
     "unified_id": "TEXT NOT NULL",
+    "variant_id": "INTEGER REFERENCES people_variants(variant_id) ON DELETE CASCADE",
     "display_name": "TEXT",
     "family_name": "TEXT",
     "given_names": "TEXT",
@@ -88,12 +101,12 @@ BOOK_ADMIN_SCHEMA = {
     "book_id": "INTEGER PRIMARY KEY REFERENCES books(book_id) ON DELETE CASCADE",
     "composite_id": "TEXT REFERENCES books(composite_id) ON DELETE CASCADE",
     "original_entry": "TEXT NOT NULL",
-    "parsing_confidence": "TEXT",
-    "needs_review": "BOOLEAN DEFAULT FALSE",
+    "corrected_by_api": "BOOLEAN DEFAULT FALSE",
+    "missing_person": "BOOLEAN DEFAULT FALSE",
+    "multiple_editions": "BOOLEAN DEFAULT FALSE",
+    "api_concerned": "BOOLEAN DEFAULT FALSE",
+    "problematic_multi_volume": "BOOLEAN DEFAULT FALSE",
     "verification_notes": "TEXT",
-    "topic_changed": "BOOLEAN DEFAULT FALSE",
-    "price_changed": "BOOLEAN DEFAULT FALSE",
-    "batch_id": "TEXT",
     "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
 }
 
@@ -114,14 +127,4 @@ SESSIONS_SCHEMA = {
     "session_token": "TEXT NOT NULL UNIQUE",
     "expires_at": "TIMESTAMP NOT NULL",
     "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
-}
-
-PEOPLE_VARIANTS_SCHEMA = {
-    "variant_id": "serial PRIMARY KEY",
-    "person_id": "integer NOT NULL REFERENCES people(person_id)",
-    "unified_id": "text NOT NULL",
-    "variant_string": "text NOT NULL",
-    "variant_normalised": "text NOT NULL",
-    "source": "text",
-    "created_at": "timestamp DEFAULT CURRENT_TIMESTAMP"
 }
