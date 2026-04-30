@@ -53,22 +53,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### ⚡ PRE-RESPONSE CHECKLIST (EXECUTE FIRST - BEFORE ANY OTHER RESPONSE)
 
-#### **Step 1: Determine Question Scope**
-User may signal question type using:
-- `[SYNTAX]` or `[PLANNING]` tags
-- `syntax:` or `planning:` prefixes
-- Plain statements: "this is a syntax question" / "planning question"
-
-**MANDATORY**: If question type is not explicitly stated, ask immediately:
-```
-"Is this a syntax question or a planning question?"
-```
-
-**FORBIDDEN**: Proceed to Step 2 without clear scope
-
----
-
-#### **Step 2: Read Before Responding**
+#### **Step 1: Read Before Responding**
 
 **FOR [SYNTAX] QUESTIONS - CRITICAL RULE:**
 
