@@ -5,6 +5,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 import json
+import re
 sys.path.append(str(Path(__file__).parent.parent))
 
 from scripts.text_matching import normalise_text
@@ -67,4 +68,18 @@ def match_people2variants():
     with open(unmatched_file, "w") as f:
         json.dump(unmatched, f, ensure_ascii=False, indent=2)
 
-match_people2variants()
+
+# match_people2variants()
+# result 1st try
+# {'unique_people': 9060, 'people_occurrences': 15892, 'matched': 5595, 'pct_matched': 61.75496688741722, 'unmatched': 3465, 'pct_unmatched': 38.24503311258278}
+
+def prep_unmatched():
+
+    with open(unmatched_file , "r") as f:
+        unmatched = json.load(f)
+    with open(people_file , "r") as f:
+        people = json.load(f)
+    with open(variants_file , "r") as f:
+        variants = json.load(f)
+
+    pass

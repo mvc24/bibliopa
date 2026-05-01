@@ -1,0 +1,599 @@
+{
+  "wilhelm südel und friedrich burschell": {
+    "person_ids": [
+      6885,
+      937
+    ],
+    "entries": [
+      {
+        "display_name": "Wilhelm Südel und Friedrich Burschell",
+        "composite_id": "fremdsprachige_720_29_38",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "gegenschatz, ernst; gigon, olof": {
+    "person_ids": [
+      2096,
+      2174
+    ],
+    "entries": [
+      {
+        "display_name": "Gegenschatz, Ernst; Gigon, Olof",
+        "composite_id": "antike_29_2_9",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "gegenschatz, ernst / gigon, olof": {
+    "person_ids": [
+      2096,
+      2174
+    ],
+    "entries": [
+      {
+        "display_name": "Gegenschatz, Ernst / Gigon, Olof",
+        "composite_id": "antike_30_2_9",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "urban, peter; ziegler, rosemarie; artmann, h. c.; celan, paul; mayröcker, friederike u.a.": {
+    "person_ids": [
+      7149,
+      7770,
+      171,
+      1029,
+      4511
+    ],
+    "entries": [
+      {
+        "display_name": "Urban, Peter; Ziegler, Rosemarie; Artmann, H. C.; Celan, Paul; Mayröcker, Friederike u.a.",
+        "composite_id": "russland_79_4_17",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "therre, hans; schmidt, rainer g.": {
+    "person_ids": [
+      6953,
+      6148
+    ],
+    "entries": [
+      {
+        "display_name": "Therre, Hans; Schmidt, Rainer G.",
+        "composite_id": "briefe_308_13_15",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "drohla, gisela; eliasberg, alexander; luther, arthur; röhl, hermann": {
+    "person_ids": [
+      1471,
+      1610,
+      4269,
+      5721
+    ],
+    "entries": [
+      {
+        "display_name": "Drohla, Gisela; Eliasberg, Alexander; Luther, Arthur; Röhl, Hermann",
+        "composite_id": "russland_352_15_17",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "karla hielscher u.a.": {
+    "person_ids": [
+      2866
+    ],
+    "entries": [
+      {
+        "display_name": "Karla Hielscher u.a.",
+        "composite_id": "russland_355_15_17",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "hans halm und richard hoffmann": {
+    "person_ids": [
+      2554,
+      2954
+    ],
+    "entries": [
+      {
+        "display_name": "Hans Halm und Richard Hoffmann",
+        "composite_id": "russland_362_15_17",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "markus kessel und myriam alfano": {
+    "person_ids": [
+      3436,
+      64
+    ],
+    "entries": [
+      {
+        "display_name": "Markus Kessel und Myriam Alfano",
+        "composite_id": "buch_120_5_8",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "conradt, heinrich; semerau, alfred": {
+    "person_ids": [
+      1145,
+      6454
+    ],
+    "entries": [
+      {
+        "display_name": "Conradt, Heinrich; Semerau, Alfred",
+        "composite_id": "sonstiges_18_1_4",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "luther, arthur; schröder, rudolf alexander; wolde, ludwig": {
+    "person_ids": [
+      4269,
+      6277,
+      7638
+    ],
+    "entries": [
+      {
+        "display_name": "Luther, Arthur; Schröder, Rudolf Alexander; Wolde, Ludwig",
+        "composite_id": "briefe_264_11_15",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "tophoven, elmar u.a.": {
+    "person_ids": [
+      7024
+    ],
+    "entries": [
+      {
+        "display_name": "Tophoven, Elmar u.a.",
+        "composite_id": "literatur_237_10_12",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "hess, albert und schünemann, peter": {
+    "person_ids": [
+      2835,
+      6337
+    ],
+    "entries": [
+      {
+        "display_name": "Hess, Albert und Schünemann, Peter",
+        "composite_id": "fremdsprachige_373_15_38",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "buber, martin; rosenzweig, franz": {
+    "person_ids": [
+      877,
+      5785
+    ],
+    "entries": [
+      {
+        "display_name": "Buber, Martin; Rosenzweig, Franz",
+        "composite_id": "judentum_60_3_9",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      },
+      {
+        "display_name": "Buber, Martin; Rosenzweig, Franz",
+        "composite_id": "judentum_61_3_9",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      },
+      {
+        "display_name": "BUBER, Martin; Rosenzweig, Franz",
+        "composite_id": "philosophie_402_17_24",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "bellosi, luciano u.a.": {
+    "person_ids": [
+      421
+    ],
+    "entries": [
+      {
+        "display_name": "Bellosi, Luciano u.a.",
+        "composite_id": "kunstbuecher_244_10_38",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "luther, arthur u.a.": {
+    "person_ids": [
+      4269
+    ],
+    "entries": [
+      {
+        "display_name": "Luther, Arthur u.a.",
+        "composite_id": "russland_336_14_17",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "gindro, severine; vitali, david": {
+    "person_ids": [
+      2185,
+      7235
+    ],
+    "entries": [
+      {
+        "display_name": "Gindro, Severine; Vitali, David",
+        "composite_id": "antike_50_3_9",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "stefan lorenzer und hans stilett": {
+    "person_ids": [
+      4219,
+      6750
+    ],
+    "entries": [
+      {
+        "display_name": "Stefan Lorenzer und Hans Stilett",
+        "composite_id": "philosophie_424_17_24",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "hans günther und karla hielscher": {
+    "person_ids": [
+      2454,
+      2866
+    ],
+    "entries": [
+      {
+        "display_name": "Hans Günther und Karla Hielscher",
+        "composite_id": "russland_38_2_17",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "staiger, emil; kraus, walther": {
+    "person_ids": [
+      6645,
+      3722
+    ],
+    "entries": [
+      {
+        "display_name": "Staiger, Emil; Kraus, Walther",
+        "composite_id": "antike_2_1_9",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "rechel-mertens, eva und zondergeld, rein a.": {
+    "person_ids": [
+      5540,
+      7799
+    ],
+    "entries": [
+      {
+        "display_name": "Rechel-Mertens, Eva und Zondergeld, Rein A.",
+        "composite_id": "fremdsprachige_460_19_38",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "vera loos und naomi nir-bleimling": {
+    "person_ids": [
+      4211,
+      4968
+    ],
+    "entries": [
+      {
+        "display_name": "Vera Loos und Naomi Nir-Bleimling",
+        "composite_id": "fremdsprachige_468_19_38",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "schlegel, august wilhelm und witte, karl": {
+    "person_ids": [
+      6083,
+      7615
+    ],
+    "entries": [
+      {
+        "display_name": "Schlegel, August Wilhelm und Witte, Karl",
+        "composite_id": "fremdsprachige_146_6_38",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "sell, maren und hoch, jürgen": {
+    "person_ids": [
+      6449,
+      2920
+    ],
+    "entries": [
+      {
+        "display_name": "Sell, Maren und Hoch, Jürgen",
+        "composite_id": "literatur_56_3_12",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "gockel, gabriele; schuhmacher, naemi; steckhan, sonja": {
+    "person_ids": [
+      7820,
+      7821,
+      7822
+    ],
+    "entries": [
+      {
+        "display_name": "Gockel, Gabriele; Schuhmacher, Naemi; Steckhan, Sonja",
+        "composite_id": "russland_225_10_17",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "alexander kaempfe und gerhard schindele": {
+    "person_ids": [
+      3295,
+      6060
+    ],
+    "entries": [
+      {
+        "display_name": "Alexander Kaempfe und Gerhard Schindele",
+        "composite_id": "russland_234_10_17",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "marg, walter und harder, richard": {
+    "person_ids": [
+      4407,
+      2591
+    ],
+    "entries": [
+      {
+        "display_name": "Marg, Walter und Harder, Richard",
+        "composite_id": "antike_100_5_9",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "rudolf wittkopf und carl heupel": {
+    "person_ids": [
+      7618,
+      2848
+    ],
+    "entries": [
+      {
+        "display_name": "Rudolf Wittkopf und Carl Heupel",
+        "composite_id": "philosophie_542_22_24",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "alexander eliasberg und salomo birnbaum": {
+    "person_ids": [
+      1610,
+      583
+    ],
+    "entries": [
+      {
+        "display_name": "Alexander Eliasberg und Salomo Birnbaum",
+        "composite_id": "fremdsprachige_832_34_38",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "günter dalitz und michael pfeiffer": {
+    "person_ids": [
+      1235,
+      5238
+    ],
+    "entries": [
+      {
+        "display_name": "Günter Dalitz und Michael Pfeiffer",
+        "composite_id": "russland_187_8_17",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "aggy jais und alexander kämpfe": {
+    "person_ids": [
+      3184,
+      3324
+    ],
+    "entries": [
+      {
+        "display_name": "Aggy Jais und Alexander Kämpfe",
+        "composite_id": "russland_302_13_17",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "fivian, erich; haas, h.": {
+    "person_ids": [
+      1840,
+      2486
+    ],
+    "entries": [
+      {
+        "display_name": "Fivian, Erich; Haas, H.",
+        "composite_id": "fremdsprachige_866_35_38",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "beckermann, ruth u.a.": {
+    "person_ids": [
+      391
+    ],
+    "entries": [
+      {
+        "display_name": "Beckermann, Ruth u.a.",
+        "composite_id": "erstausgaben_1553_63_78",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "adorno, th. w. u.a.": {
+    "person_ids": [
+      24
+    ],
+    "entries": [
+      {
+        "display_name": "ADORNO, Th. W. u.a.",
+        "composite_id": "philosophie_350_15_24",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  }
+}
