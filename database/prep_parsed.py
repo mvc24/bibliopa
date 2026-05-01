@@ -20,13 +20,11 @@ prep_log_file = Path("data/logs/prep_log.json")
 
 def prep_parsed_data():
 
-
     people_dict = {}
     prep_log = {
         "critical": {},
         "report": {}
     }
-    processed_file_count = 0
     critical_count = 0
 
 
@@ -123,7 +121,12 @@ def prep_parsed_data():
                     imported_price = False
 
                 # format original entry
-                original_entry = original_entry_pipes.replace(" || ", "\n")
+                original_entry = (
+                    original_entry_pipes
+                    .replace(" || ", "\n")
+                    .replace("<<", "„")
+                    .replace(">>", "“")
+)
 
                 # book data
                 parsed_data[composite_id] = [
@@ -209,6 +212,7 @@ def prep_parsed_data():
                         "is_contributor": False,
                         "is_translator": False
                     })
+                    people_count += 1
 
                 for sort_order, person in enumerate(editors, start=1):
                     display_name = person["display_name"]
@@ -226,6 +230,7 @@ def prep_parsed_data():
                         "is_contributor": False,
                         "is_translator": False
                     })
+                    people_count += 1
 
                 for sort_order, person in enumerate(contributors, start=1):
                     display_name = person["display_name"]
@@ -243,6 +248,7 @@ def prep_parsed_data():
                         "is_contributor": True,
                         "is_translator": False
                     })
+                    people_count += 1
 
                 if translator:
                     display_name = translator["display_name"]
@@ -260,6 +266,9 @@ def prep_parsed_data():
                         "is_contributor": False,
                         "is_translator": True
                     })
+                    people_count += 1
+
+
             except (KeyError, TypeError) as e:
                 composite_id = entry.get("custom_id", "unknown")
                 if composite_id not in prep_log["critical"]:
