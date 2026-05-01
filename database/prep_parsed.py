@@ -12,7 +12,7 @@ from scripts.text_matching import normalise_text
 folder_parsed = Path("data/parsed")
 folder_prepped = Path("data/prepped")
 
-topics_file = Path("data/from_db/topics.json")
+topics_file = Path("data/from db/topics.json")
 # people_var_file = Path("data/from_db/people_variants.json")
 people_extracted_file = Path("database/people_extracted.json")
 
@@ -56,209 +56,218 @@ def prep_parsed_data():
         # break
 
         for entry in entries:
-            entry_count += 1
+            try:
+                entry_count += 1
 
 
-            composite_id = entry["custom_id"]
-            price = entry.get("price", None)
-            parsed = entry["parsed_entry"]
+                composite_id = entry["custom_id"]
+                price = entry.get("price", None)
+                parsed = entry["parsed_entry"]
 
-            title = parsed["title"]
-            subtitle = parsed["subtitle"]
-            publisher = parsed["publisher"]
-            place_of_publication = parsed["place_of_publication"]
-            publication_year = parsed["publication_year"]
-            edition = parsed["edition"]
-            pages = parsed["pages"]
+                title = parsed["title"]
+                subtitle = parsed["subtitle"]
+                publisher = parsed["publisher"]
+                place_of_publication = parsed["place_of_publication"]
+                publication_year = parsed["publication_year"]
+                edition = parsed["edition"]
+                pages = parsed["pages"]
 
-            format_original = parsed["format_original"]
-            format_expanded = parsed["format_expanded"]
-            condition = parsed["condition"]
-            copies = parsed.get("copies", "")
-            illustrations = parsed["illustrations"]
-            packaging = parsed["packaging"]
-            is_translation = parsed["is_translation"]
-            original_language = parsed["original_language"]
-            is_multivolume = parsed["is_multivolume"]
-            volumes = parsed["volumes"]
-            series_title = parsed["series_title"]
-            total_volumes = parsed["total_volumes"]
-            original_entry_pipes = parsed["administrative"]["original_entry"]
-            is_reference = parsed["administrative"]["is_reference"]
-            corrected_by_api = parsed["administrative"]["corrected_by_api"]
-            missing_person = parsed["administrative"]["missing_person"]
-            multiple_editions = parsed["administrative"]["multiple_editions"]
-            api_concerned = parsed["administrative"]["api_concerned"]
-            problematic_multi_volume = parsed["administrative"]["problematic_multi_volume"]
-            verification_notes = parsed["administrative"].get("verification_notes", "")
+                format_original = parsed["format_original"]
+                format_expanded = parsed["format_expanded"]
+                condition = parsed["condition"]
+                copies = parsed.get("copies", "")
+                illustrations = parsed["illustrations"]
+                packaging = parsed["packaging"]
+                is_translation = parsed["is_translation"]
+                original_language = parsed["original_language"]
+                is_multivolume = parsed["is_multivolume"]
+                volumes = parsed["volumes"]
+                series_title = parsed["series_title"]
+                total_volumes = parsed["total_volumes"]
+                original_entry_pipes = parsed["administrative"]["original_entry"]
+                is_reference = parsed["administrative"]["is_reference"]
+                corrected_by_api = parsed["administrative"]["corrected_by_api"]
+                missing_person = parsed["administrative"]["missing_person"]
+                multiple_editions = parsed["administrative"]["multiple_editions"]
+                api_concerned = parsed["administrative"]["api_concerned"]
+                problematic_multi_volume = parsed["administrative"]["problematic_multi_volume"]
+                verification_notes = parsed["administrative"].get("verification_notes", "")
 
 
-            if is_reference == True:
-                continue
+                if is_reference == True:
+                    continue
 
-            # Get topic_id, log errors
-            if topic in topics_lookup:
-                topic_id = topics_lookup[topic]["topic_id"]
+                # Get topic_id, log errors
+                if topic in topics_lookup:
+                    topic_id = topics_lookup[topic]["topic_id"]
 
-            else:
+                else:
+                    if composite_id not in prep_log["critical"]:
+                        prep_log["critical"][composite_id] = []
+                    prep_log["critical"][composite_id].append("topic not found")
+                    critical_count += 1
+
+
+                # set is_active
+                is_active = 1
+
+                if api_concerned or problematic_multi_volume:
+                    is_active = 0
+                elif corrected_by_api or missing_person or multiple_editions or verification_notes:
+                    is_active = 2
+
+                # imported price
+                if price:
+                    imported_price = True
+                else:
+                    imported_price = False
+
+                # format original entry
+                original_entry = original_entry_pipes.replace(" || ", "\n")
+
+                # book data
+                parsed_data[composite_id] = [
+                    {
+                        "books_data": {
+                            "composite_id": composite_id,
+                            "is_active": is_active,
+                            "title": title,
+                            "subtitle": subtitle,
+                            "publisher": publisher,
+                            "place_of_publication": place_of_publication,
+                            "publication_year": publication_year,
+                            "edition": edition,
+                            "pages": pages,
+                            "format_original": format_original,
+                            "format_expanded": format_expanded,
+                            "condition": condition,
+                            "copies": copies,
+                            "illustrations": illustrations,
+                            "packaging": packaging,
+                            "topic_id": topic_id,
+                            "is_translation": is_translation,
+                            "original_language": original_language,
+                            "is_multivolume": is_multivolume,
+                            "series_title": series_title,
+                            "total_volumes": total_volumes
+                        },
+
+                        "admin_data": {
+                            "composite_id": composite_id,
+                            "original_entry": original_entry,
+                            "corrected_by_api": corrected_by_api,
+                            "missing_person": missing_person,
+                            "multiple_editions": multiple_editions,
+                            "api_concerned": api_concerned,
+                            "problematic_multi_volume": problematic_multi_volume,
+                            "verification_notes": verification_notes,
+                        },
+
+                        "price_data": {
+                            "amount": price,
+                            "imported_price": imported_price
+                        },
+
+                        "volumes_data": {
+                            "volumes": volumes
+                        }
+                    }
+                ]
+
+                # prep people
+
+                # if name_normalised not in people_dict:
+                #     people_dict[name_normalised] = []
+
+                # people_dict[name_normalised].append({
+                #     "display_name": display_name,
+                #     "composite_id": composite_id,
+                #     "sort_order": sort_order,
+                #     "is_author": True,   # adjust per role
+                #     ...
+                # })
+                # people
+                authors = parsed.get("authors") or []
+                editors = parsed.get("editors") or []
+                contributors = parsed.get("contributors") or []
+                translator = parsed["translator"]
+
+
+                for sort_order, person in enumerate(authors, start=1):
+                    display_name = person["display_name"]
+                    name_normalised = normalise_text(display_name)
+
+                    if name_normalised not in people_dict:
+                        people_dict[name_normalised] = []
+
+                    people_dict[name_normalised].append({
+                        "display_name": display_name,
+                        "composite_id": composite_id,
+                        "sort_order": sort_order,
+                        "is_author": True,
+                        "is_editor": False,
+                        "is_contributor": False,
+                        "is_translator": False
+                    })
+
+                for sort_order, person in enumerate(editors, start=1):
+                    display_name = person["display_name"]
+                    name_normalised = normalise_text(display_name)
+
+                    if name_normalised not in people_dict:
+                        people_dict[name_normalised] = []
+
+                    people_dict[name_normalised].append({
+                        "display_name": display_name,
+                        "composite_id": composite_id,
+                        "sort_order": sort_order,
+                        "is_author": False,
+                        "is_editor": True,
+                        "is_contributor": False,
+                        "is_translator": False
+                    })
+
+                for sort_order, person in enumerate(contributors, start=1):
+                    display_name = person["display_name"]
+                    name_normalised = normalise_text(display_name)
+
+                    if name_normalised not in people_dict:
+                        people_dict[name_normalised] = []
+
+                    people_dict[name_normalised].append({
+                        "display_name": display_name,
+                        "composite_id": composite_id,
+                        "sort_order": sort_order,
+                        "is_author": False,
+                        "is_editor": False,
+                        "is_contributor": True,
+                        "is_translator": False
+                    })
+
+                if translator:
+                    display_name = translator["display_name"]
+                    name_normalised = normalise_text(display_name)
+
+                    if name_normalised not in people_dict:
+                        people_dict[name_normalised] = []
+
+                    people_dict[name_normalised].append({
+                        "display_name": display_name,
+                        "composite_id": composite_id,
+                        "sort_order": 1,
+                        "is_author": False,
+                        "is_editor": False,
+                        "is_contributor": False,
+                        "is_translator": True
+                    })
+            except (KeyError, TypeError) as e:
+                composite_id = entry.get("custom_id", "unknown")
                 if composite_id not in prep_log["critical"]:
                     prep_log["critical"][composite_id] = []
-                prep_log["critical"][composite_id].append("topic not found")
+                prep_log["critical"][composite_id].append(f"processing error: {e}")
                 critical_count += 1
+                continue
 
-
-            # set is_active
-            is_active = 1
-
-            if api_concerned or problematic_multi_volume:
-                is_active = 0
-            elif corrected_by_api or missing_person or multiple_editions or verification_notes:
-                is_active = 2
-
-            # imported price
-            if price:
-                imported_price = True
-            else:
-                imported_price = False
-
-            # format original entry
-            original_entry = original_entry_pipes.replace(" || ", "\n")
-
-            # book data
-            parsed_data[composite_id] = [
-                {
-                    "books_data": {
-                        "composite_id": composite_id,
-                        "is_active": is_active,
-                        "title": title,
-                        "subtitle": subtitle,
-                        "publisher": publisher,
-                        "place_of_publication": place_of_publication,
-                        "publication_year": publication_year,
-                        "edition": edition,
-                        "pages": pages,
-                        "format_original": format_original,
-                        "format_expanded": format_expanded,
-                        "condition": condition,
-                        "copies": copies,
-                        "illustrations": illustrations,
-                        "packaging": packaging,
-                        "topic_id": topic_id,
-                        "is_translation": is_translation,
-                        "original_language": original_language,
-                        "is_multivolume": is_multivolume,
-                        "series_title": series_title,
-                        "total_volumes": total_volumes
-                    },
-
-                    "admin_data": {
-                        "composite_id": composite_id,
-                        "original_entry": original_entry,
-                        "corrected_by_api": corrected_by_api,
-                        "missing_person": missing_person,
-                        "multiple_editions": multiple_editions,
-                        "api_concerned": api_concerned,
-                        "problematic_multi_volume": problematic_multi_volume,
-                        "verification_notes": verification_notes,
-                    },
-
-                    "price_data": {
-                        "amount": price,
-                        "imported_price": imported_price
-                    },
-
-                    "volumes_data": {
-                        "volumes": volumes
-                    }
-                }
-            ]
-
-            # prep people
-
-            # if name_normalised not in people_dict:
-            #     people_dict[name_normalised] = []
-
-            # people_dict[name_normalised].append({
-            #     "display_name": display_name,
-            #     "composite_id": composite_id,
-            #     "sort_order": sort_order,
-            #     "is_author": True,   # adjust per role
-            #     ...
-            # })
-            # people
-            authors = parsed.get("authors") or []
-            editors = parsed.get("editors") or []
-            contributors = parsed.get("contributors") or []
-            translator = parsed["translator"]
-
-
-            for sort_order, person in enumerate(authors, start=1):
-                display_name = person["display_name"]
-                name_normalised = normalise_text(display_name)
-
-                if name_normalised not in people_dict:
-                    people_dict[name_normalised] = []
-
-                people_dict[name_normalised].append({
-                    "display_name": display_name,
-                    "composite_id": composite_id,
-                    "sort_order": sort_order,
-                    "is_author": True,
-                    "is_editor": False,
-                    "is_contributor": False,
-                    "is_translator": False
-                })
-
-            for sort_order, person in enumerate(editors, start=1):
-                display_name = person["display_name"]
-                name_normalised = normalise_text(display_name)
-
-                if name_normalised not in people_dict:
-                    people_dict[name_normalised] = []
-
-                people_dict[name_normalised].append({
-                    "display_name": display_name,
-                    "composite_id": composite_id,
-                    "sort_order": sort_order,
-                    "is_author": False,
-                    "is_editor": True,
-                    "is_contributor": False,
-                    "is_translator": False
-                })
-
-            for sort_order, person in enumerate(contributors, start=1):
-                display_name = person["display_name"]
-                name_normalised = normalise_text(display_name)
-
-                if name_normalised not in people_dict:
-                    people_dict[name_normalised] = []
-
-                people_dict[name_normalised].append({
-                    "display_name": display_name,
-                    "composite_id": composite_id,
-                    "sort_order": sort_order,
-                    "is_author": False,
-                    "is_editor": False,
-                    "is_contributor": True,
-                    "is_translator": False
-                })
-
-            if translator:
-                display_name = translator["display_name"]
-                name_normalised = normalise_text(display_name)
-
-                if name_normalised not in people_dict:
-                    people_dict[name_normalised] = []
-
-                people_dict[name_normalised].append({
-                    "display_name": display_name,
-                    "composite_id": composite_id,
-                    "sort_order": 1,
-                    "is_author": False,
-                    "is_editor": False,
-                    "is_contributor": False,
-                    "is_translator": True
-                })
 
         # rprint(people_dict)
         # break
