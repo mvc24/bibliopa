@@ -13,7 +13,7 @@ import sys
 
 from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent.parent))
-from database.load_people import load_people
+from database.initial_load.load_people import load_people
 
 
 # revision identifiers, used by Alembic.

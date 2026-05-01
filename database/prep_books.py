@@ -9,7 +9,7 @@ sys.path.append(str(Path(__file__).parent.parent))
 
 from database import load_topics
 from database.load_topics import load_topics
-from database.load_people import load_people
+from database.initial_load.load_people import load_people
 from scripts.text_matching import normalise_text
 
 folder_validated = Path("data/validated")
