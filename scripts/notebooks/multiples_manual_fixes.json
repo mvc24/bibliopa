@@ -1,0 +1,376 @@
+{
+  "schultze jena, leonhard; seler, eduard; dedenbach-salazar-saenz, sabine": [
+    {
+      "display_name": "Schultze Jena, Leonhard; Seler, Eduard; Dedenbach-Salazar-Saenz, Sabine",
+      "composite_id": "bibliophile_35_2_10",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "göckenjan, hansgerd / sweeney, james r.": [
+    {
+      "display_name": "Göckenjan, Hansgerd / Sweeney, James R.",
+      "composite_id": "mittelalter_77_4_7",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "barckhausen, christiane; dörper, sven; gräfe, ursula; rennert, udo": [
+    {
+      "display_name": "Barckhausen, Christiane; Dörper, Sven; Gräfe, Ursula; Rennert, Udo",
+      "composite_id": "biographie_133_6_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "keller, adelbert und rotter, friedrich": [
+    {
+      "display_name": "Keller, Adelbert und Rotter, Friedrich",
+      "composite_id": "briefe_120_5_15",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "jens, inge und walter": [
+    {
+      "display_name": "JENS, Inge und Walter",
+      "composite_id": "de-lit-monographien_126_6_10",
+      "sort_order": 1,
+      "is_author": true,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": false
+    }
+  ],
+  "reinig, christa und andere": [
+    {
+      "display_name": "Reinig, Christa und andere",
+      "composite_id": "russland_401_17_17",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "leitgab, grete und josef": [
+    {
+      "display_name": "Leitgab, Grete und Josef",
+      "composite_id": "illustrierte_276_12_14",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "wartburg, ida von; wartburg, walther von": [
+    {
+      "display_name": "Wartburg, Ida von; Wartburg, Walther von",
+      "composite_id": "fremdsprachige_6_1_38",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "schmitz, werner und göske, daniel": [
+    {
+      "display_name": "Schmitz, Werner und Göske, Daniel",
+      "composite_id": "briefe_259_11_15",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "celan, paul; kirsch, rainer u.a.": [
+    {
+      "display_name": "Celan, Paul; Kirsch, Rainer u.a.",
+      "composite_id": "russland_165_7_17",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "elio schmitz / italo svevo": [
+    {
+      "display_name": "ELIO SCHMITZ / ITALO SVEVO",
+      "composite_id": "fremdsprachige_355_15_38",
+      "sort_order": 1,
+      "is_author": true,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": false
+    }
+  ],
+  "oeser, hans-christian; richartz, walter e.; rowohlt, harry; wollschläger, hans": [
+    {
+      "display_name": "Oeser, Hans-Christian; Richartz, Walter E.; Rowohlt, Harry; Wollschläger, Hans",
+      "composite_id": "fremdsprachige_372_15_38",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "helga van breuningen und rosemarie still": [
+    {
+      "display_name": "Helga van Breuningen und Rosemarie Still",
+      "composite_id": "reisen_230_10_13",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "werner, reinold und stoll, andre": [
+    {
+      "display_name": "Werner, Reinold und Stoll, Andre",
+      "composite_id": "reisen_151_7_13",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "jürss, fritz; müller, reimar; schmidt, ernst günther": [
+    {
+      "display_name": "Jürss, Fritz; Müller, Reimar; Schmidt, Ernst Günther",
+      "composite_id": "antike_58_3_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "schlegel, august wilhelm; tieck, dorothea; baudissin, wolf graf; delius, nicolaus": [
+    {
+      "display_name": "SCHLEGEL, August Wilhelm; TIECK, Dorothea; BAUDISSIN, Wolf Graf; DELIUS, Nicolaus",
+      "composite_id": "briefe_329_14_15",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "graustein, gottfried; wilck, otto": [
+    {
+      "display_name": "Graustein, Gottfried; Wilck, Otto",
+      "composite_id": "briefe_336_14_15",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "villard, andre und bugow, s.": [
+    {
+      "display_name": "Villard, Andre und Bugow, S.",
+      "composite_id": "russland_35_2_17",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "moser, christian gottlob; vollbach, dorothea": [
+    {
+      "display_name": "Moser, Christian Gottlob; Vollbach, Dorothea",
+      "composite_id": "antike_9_1_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "reschke, renate und thomas": [
+    {
+      "display_name": "Reschke, Renate und Thomas",
+      "composite_id": "biographie_454_19_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "christiansen, friedrich und carl": [
+    {
+      "display_name": "CHRISTIANSEN, Friedrich und Carl",
+      "composite_id": "signierte_34_2_10",
+      "sort_order": 1,
+      "is_author": true,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": false
+    }
+  ],
+  "gravert, rita; juraschitz, norbert; schuler, karin": [
+    {
+      "display_name": "Gravert, Rita; Juraschitz, Norbert; Schuler, Karin",
+      "composite_id": "russland_229_10_17",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "kolb, eduard; weltmann, julius": [
+    {
+      "display_name": "Kolb, Eduard; Weltmann, Julius",
+      "composite_id": "buddhismus_15_1_3",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "fritz, eva und binder, otmar": [
+    {
+      "display_name": "Fritz, Eva und Binder, Otmar",
+      "composite_id": "signierte_210_9_10",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "maucy, christoph d.; wagmuth, wolfram; heuer, wolfgang": [
+    {
+      "display_name": "Maucy, Christoph D.; Wagmuth, Wolfram; Heuer, Wolfgang",
+      "composite_id": "bibliophile_126_6_10",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "schneider, gerhard und arndt, erwin": [
+    {
+      "display_name": "Schneider, Gerhard und Arndt, Erwin",
+      "composite_id": "illustrierte_110_5_14",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "nitschke, annelore; manzella, anton; von timroth, wilhelm": [
+    {
+      "display_name": "Nitschke, Annelore; Manzella, Anton; von Timroth, Wilhelm",
+      "composite_id": "russland_276_12_17",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "ingeborg und oleg kolinko": [
+    {
+      "display_name": "Ingeborg und Oleg Kolinko",
+      "composite_id": "russland_283_12_17",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "rudolf, kronprinz erzherzog (anregung und mitwirkung)": [
+    {
+      "display_name": "Rudolf, Kronprinz Erzherzog (Anregung und Mitwirkung)",
+      "composite_id": "suchliste_36_2_3",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": false
+    }
+  ],
+  "böll, annemarie und böll, heinrich": [
+    {
+      "display_name": "Böll, Annemarie und Böll, Heinrich",
+      "composite_id": "fremdsprachige_835_34_38",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "von osten, esther; streiter, anja": [
+    {
+      "display_name": "von Osten, Esther; Streiter, Anja",
+      "composite_id": "reisen_100_5_13",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "schmidt, heinrich und margarethe": [
+    {
+      "display_name": "SCHMIDT, Heinrich und Margarethe",
+      "composite_id": "symbolkunde_25_2_2",
+      "sort_order": 1,
+      "is_author": true,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": false
+    }
+  ],
+  "thomas brovot und christian hansen": [
+    {
+      "display_name": "Thomas Brovot und Christian Hansen",
+      "composite_id": "zeitgeschichte_56_3_4",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ],
+  "passig, kathrin und henschel, gerhard": [
+    {
+      "display_name": "Passig, Kathrin und Henschel, Gerhard",
+      "composite_id": "fremdsprachige_319_13_38",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  ]
+}
