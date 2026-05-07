@@ -23,7 +23,8 @@
       }
     ],
     "u_person_id": 5250,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "d'anjou, rene": {
     "match_found": [
@@ -36,7 +37,22 @@
       }
     ],
     "u_person_id": 1218,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
+  },
+  "kaiser, gert": {
+    "match_found": [
+      "kaiser, georg",
+      95.25641025641025,
+      {
+        "person_id": 3306,
+        "last": "kaiser",
+        "first": "georg"
+      }
+    ],
+    "u_person_id": 3306,
+    "u_match_found": true,
+    "points": 0
   },
   "bode, joachim": {
     "match_found": [
@@ -63,6 +79,20 @@
     ],
     "u_person_id": 4099,
     "u_match_found": true
+  },
+  "keyserling, e.von": {
+    "match_found": [
+      "keyserling, e. von",
+      98.88888888888889,
+      {
+        "person_id": 3443,
+        "last": "keyserling",
+        "first": "e. von"
+      }
+    ],
+    "u_person_id": 3443,
+    "u_match_found": true,
+    "points": 5
   },
   "wingler, h. m.": {
     "match_found": [
@@ -140,7 +170,22 @@
       }
     ],
     "u_person_id": 4816,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
+  },
+  "dostojevskij, fjodor m.": {
+    "match_found": [
+      "dostojewskij, fjodor m.",
+      98.26086956521739,
+      {
+        "person_id": 1447,
+        "last": "dostojewskij",
+        "first": "fjodor m."
+      }
+    ],
+    "u_person_id": 1447,
+    "u_match_found": true,
+    "points": 5
   },
   "balthasar, hans urs von": {
     "match_found": [
@@ -154,6 +199,20 @@
     ],
     "u_person_id": 263,
     "u_match_found": true
+  },
+  "schlegel, fr.": {
+    "match_found": [
+      "schlegel, a.w.",
+      92.63736263736264,
+      {
+        "person_id": 6083,
+        "last": "schlegel",
+        "first": "a.w."
+      }
+    ],
+    "u_person_id": 6083,
+    "u_match_found": true,
+    "points": 0
   },
   "pückler-muskau, hermann fürst von": {
     "match_found": [
@@ -179,7 +238,8 @@
       }
     ],
     "u_person_id": 5443,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "braungadt, ganna-maria": {
     "match_found": [
@@ -361,7 +421,8 @@
       }
     ],
     "u_person_id": 4594,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "mitis, oskar freiherr von": {
     "match_found": [
@@ -402,6 +463,20 @@
     "u_person_id": 5963,
     "u_match_found": true
   },
+  "shakespeare, bruce": {
+    "match_found": [
+      "shakespeare",
+      92.22222222222221,
+      {
+        "person_id": 6480,
+        "last": "shakespeare",
+        "first": ""
+      }
+    ],
+    "u_person_id": 6480,
+    "u_match_found": true,
+    "points": 0
+  },
   "casanova, giacomo chevalier de seingalt": {
     "match_found": [
       "casanova, giacomo",
@@ -413,7 +488,8 @@
       }
     ],
     "u_person_id": 1013,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 5
   },
   "wieland, c.m.": {
     "match_found": [
@@ -465,7 +541,8 @@
       }
     ],
     "u_person_id": 1898,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "hegenbarth, josef": {
     "match_found": [
@@ -544,6 +621,20 @@
     ],
     "u_person_id": 7790,
     "u_match_found": true
+  },
+  "leber, fr(iedrich otto) von": {
+    "match_found": [
+      "leber, friedrich otto von",
+      98.51851851851852,
+      {
+        "person_id": 4000,
+        "last": "leber",
+        "first": "friedrich otto von"
+      }
+    ],
+    "u_person_id": 4000,
+    "u_match_found": true,
+    "points": 5
   },
   "ehalt, hubert": {
     "match_found": [
@@ -803,7 +894,8 @@
       }
     ],
     "u_person_id": 158,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "leyen, friedrich von der": {
     "match_found": [
@@ -817,6 +909,20 @@
     ],
     "u_person_id": 4127,
     "u_match_found": true
+  },
+  "ehmcke, f.h.": {
+    "match_found": [
+      "ehmcke, f. h.",
+      98.46153846153847,
+      {
+        "person_id": 1563,
+        "last": "ehmcke",
+        "first": "f. h."
+      }
+    ],
+    "u_person_id": 1563,
+    "u_match_found": true,
+    "points": 5
   },
   "winter, leon de": {
     "match_found": [
@@ -857,6 +963,20 @@
     "u_person_id": 5543,
     "u_match_found": true
   },
+  "mccabe, bernard": {
+    "match_found": [
+      "mccabe, berrnard",
+      97.41666666666667,
+      {
+        "person_id": 4517,
+        "last": "mccabe",
+        "first": "berrnard"
+      }
+    ],
+    "u_person_id": 4517,
+    "u_match_found": true,
+    "points": 5
+  },
   "mallarme": {
     "match_found": [
       "mallarmé",
@@ -868,7 +988,8 @@
       }
     ],
     "u_person_id": 4356,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "wurzbach, wolfgang von": {
     "match_found": [
@@ -895,6 +1016,20 @@
     ],
     "u_person_id": 6918,
     "u_match_found": true
+  },
+  "pouqueville, f.c.h.l.": {
+    "match_found": [
+      "pouqueville, f.c,h,l.",
+      95.13784461152882,
+      {
+        "person_id": 5385,
+        "last": "pouqueville",
+        "first": "f.c,h,l."
+      }
+    ],
+    "u_person_id": 5385,
+    "u_match_found": true,
+    "points": 6
   },
   "schrott, raul": {
     "match_found": [
@@ -933,7 +1068,8 @@
       }
     ],
     "u_person_id": 652,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 8
   },
   "gnädiger, louise": {
     "match_found": [
@@ -972,7 +1108,8 @@
       }
     ],
     "u_person_id": 5546,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "ferdinandy, michael de": {
     "match_found": [
@@ -998,7 +1135,22 @@
       }
     ],
     "u_person_id": 5677,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
+  },
+  "dostojewskij, f.m.": {
+    "match_found": [
+      "dostojewski, f.m.",
+      98.88888888888889,
+      {
+        "person_id": 1447,
+        "last": "dostojewski",
+        "first": "f.m."
+      }
+    ],
+    "u_person_id": 1447,
+    "u_match_found": true,
+    "points": 5
   },
   "gogol, n. w.": {
     "match_found": [
@@ -1050,7 +1202,8 @@
       }
     ],
     "u_person_id": 3976,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "herlitschka, herbert e.": {
     "match_found": [
@@ -1076,7 +1229,8 @@
       }
     ],
     "u_person_id": 7019,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 5
   },
   "waggerl, k.h.": {
     "match_found": [
@@ -1091,6 +1245,20 @@
     "u_person_id": 7304,
     "u_match_found": true
   },
+  "müller, heiner": {
+    "match_found": [
+      "müller, erich",
+      93.93772893772893,
+      {
+        "person_id": 4799,
+        "last": "müller",
+        "first": "erich"
+      }
+    ],
+    "u_person_id": 4799,
+    "u_match_found": true,
+    "points": 0
+  },
   "frederichs, dr.": {
     "match_found": [
       "frederichs, dr.",
@@ -1103,6 +1271,20 @@
     ],
     "u_person_id": 1925,
     "u_match_found": true
+  },
+  "müller, robert": {
+    "match_found": [
+      "müller, gregor",
+      92.61904761904762,
+      {
+        "person_id": 4803,
+        "last": "müller",
+        "first": "gregor"
+      }
+    ],
+    "u_person_id": 4803,
+    "u_match_found": true,
+    "points": 0
   },
   "premerstein, anton von": {
     "match_found": [
@@ -1129,6 +1311,34 @@
     ],
     "u_person_id": 242,
     "u_match_found": true
+  },
+  "görlich, e.j.": {
+    "match_found": [
+      "görlich, e. j.",
+      98.57142857142858,
+      {
+        "person_id": 2281,
+        "last": "görlich",
+        "first": "e. j."
+      }
+    ],
+    "u_person_id": 2281,
+    "u_match_found": true,
+    "points": 5
+  },
+  "margull, g. fritze": {
+    "match_found": [
+      "margull, g.fritze",
+      98.88888888888889,
+      {
+        "person_id": 4410,
+        "last": "margull",
+        "first": "g.fritze"
+      }
+    ],
+    "u_person_id": 4410,
+    "u_match_found": true,
+    "points": 5
   },
   "bartels, wera von": {
     "match_found": [
@@ -1169,6 +1379,20 @@
     "u_person_id": 7077,
     "u_match_found": true
   },
+  "sacher masoch, alexander": {
+    "match_found": [
+      "sacher-masoch, alexander",
+      94.85507246376811,
+      {
+        "person_id": 5878,
+        "last": "sacher-masoch",
+        "first": "alexander"
+      }
+    ],
+    "u_person_id": 5878,
+    "u_match_found": true,
+    "points": 8
+  },
   "kleemeier, friedr. joh.": {
     "match_found": [
       "kleemeier, friedrich johannes",
@@ -1180,7 +1404,8 @@
       }
     ],
     "u_person_id": 3505,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 5
   },
   "lamennais, f. de": {
     "match_found": [
@@ -1194,6 +1419,20 @@
     ],
     "u_person_id": 3900,
     "u_match_found": true
+  },
+  "droste-hülshoff, anette von": {
+    "match_found": [
+      "droste-hülshoff, annette von",
+      97.06349206349206,
+      {
+        "person_id": 1472,
+        "last": "droste-hülshoff",
+        "first": "annette von"
+      }
+    ],
+    "u_person_id": 1472,
+    "u_match_found": true,
+    "points": 5
   },
   "bertele, hans von": {
     "match_found": [
@@ -1245,7 +1484,8 @@
       }
     ],
     "u_person_id": 2470,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 9
   },
   "wieland, c. m.": {
     "match_found": [
@@ -1284,7 +1524,8 @@
       }
     ],
     "u_person_id": 7401,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "growe, bernd (nachwort)": {
     "match_found": [
@@ -1297,7 +1538,8 @@
       }
     ],
     "u_person_id": 2399,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 5
   },
   "arnim, l. achim von": {
     "match_found": [
@@ -1323,7 +1565,8 @@
       }
     ],
     "u_person_id": 4715,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 5
   },
   "montgelas, graf albrecht": {
     "match_found": [
@@ -1349,7 +1592,8 @@
       }
     ],
     "u_person_id": 5298,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "stadlmann, franz (buchgestaltung)": {
     "match_found": [
@@ -1362,7 +1606,8 @@
       }
     ],
     "u_person_id": 6641,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 5
   },
   "klinger, johann (fotos)": {
     "match_found": [
@@ -1375,7 +1620,8 @@
       }
     ],
     "u_person_id": 3544,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "holzhacker, karl (fotos)": {
     "match_found": [
@@ -1388,7 +1634,8 @@
       }
     ],
     "u_person_id": 3002,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "kammler, fritz (fotos)": {
     "match_found": [
@@ -1401,7 +1648,8 @@
       }
     ],
     "u_person_id": 3319,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "esterházy, peter": {
     "match_found": [
@@ -1414,7 +1662,8 @@
       }
     ],
     "u_person_id": 1685,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "raleigh, sir walter": {
     "match_found": [
@@ -1479,7 +1728,8 @@
       }
     ],
     "u_person_id": 4808,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "seneca, l.annaeus": {
     "match_found": [
@@ -1492,7 +1742,8 @@
       }
     ],
     "u_person_id": 6459,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "kandinsky, wassily": {
     "match_found": [
@@ -1518,7 +1769,8 @@
       }
     ],
     "u_person_id": 4801,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "gogol, nicolai": {
     "match_found": [
@@ -1531,7 +1783,8 @@
       }
     ],
     "u_person_id": 2242,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "gogol, nikolaj": {
     "match_found": [
@@ -1544,7 +1797,8 @@
       }
     ],
     "u_person_id": 2242,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 9
   },
   "scholz, a.": {
     "match_found": [
@@ -1596,7 +1850,8 @@
       }
     ],
     "u_person_id": 2260,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "holleuffer, conrad von": {
     "match_found": [
@@ -1622,7 +1877,8 @@
       }
     ],
     "u_person_id": 2470,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "hammerstiiel, robert": {
     "match_found": [
@@ -1648,7 +1904,8 @@
       }
     ],
     "u_person_id": 2540,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "massenbach, sigrid von": {
     "match_found": [
@@ -1687,7 +1944,8 @@
       }
     ],
     "u_person_id": 3638,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "rousseau, j.j.": {
     "match_found": [
@@ -1701,6 +1959,20 @@
     ],
     "u_person_id": 5816,
     "u_match_found": true
+  },
+  "halben, z. von": {
+    "match_found": [
+      "halben, z. und h. von",
+      91.9047619047619,
+      {
+        "person_id": 2545,
+        "last": "halben",
+        "first": "z. und h. von"
+      }
+    ],
+    "u_person_id": 2545,
+    "u_match_found": true,
+    "points": 6
   },
   "grolman, adolf von": {
     "match_found": [
@@ -1726,7 +1998,8 @@
       }
     ],
     "u_person_id": 7717,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "tolstoi, graf alexej k.": {
     "match_found": [
@@ -1882,7 +2155,22 @@
       }
     ],
     "u_person_id": 314,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
+  },
+  "dostojewskij": {
+    "match_found": [
+      "dostojewski, a.",
+      93.0,
+      {
+        "person_id": 1446,
+        "last": "dostojewski",
+        "first": "a."
+      }
+    ],
+    "u_person_id": 1446,
+    "u_match_found": true,
+    "points": 6
   },
   "duerr, hans peer": {
     "match_found": [
@@ -1895,7 +2183,8 @@
       }
     ],
     "u_person_id": 1490,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 8
   },
   "hoffmann, e.t.a": {
     "match_found": [
@@ -1908,7 +2197,8 @@
       }
     ],
     "u_person_id": 2943,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 8
   },
   "müller, friedrich von": {
     "match_found": [
@@ -1973,7 +2263,8 @@
       }
     ],
     "u_person_id": 1909,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "rohbeck, johannes (einleitung)": {
     "match_found": [
@@ -1986,7 +2277,8 @@
       }
     ],
     "u_person_id": 5744,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "andreas-salome, lou": {
     "match_found": [
@@ -1999,7 +2291,8 @@
       }
     ],
     "u_person_id": 104,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "wegele, franz von": {
     "match_found": [
@@ -2038,7 +2331,8 @@
       }
     ],
     "u_person_id": 2378,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 5
   },
   "hellingrath, norbert v.": {
     "match_found": [
@@ -2155,7 +2449,8 @@
       }
     ],
     "u_person_id": 3965,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "dombrowski, ernst von": {
     "match_found": [
@@ -2196,6 +2491,20 @@
     "u_person_id": 2284,
     "u_match_found": true
   },
+  "fechner, g(ustav)th(eodor)": {
+    "match_found": [
+      "fechner, gustav theodor",
+      96.05351170568562,
+      {
+        "person_id": 1730,
+        "last": "fechner",
+        "first": "gustav theodor"
+      }
+    ],
+    "u_person_id": 1730,
+    "u_match_found": true,
+    "points": 6
+  },
   "gogol, nicolaj": {
     "match_found": [
       "gogol, nikolai",
@@ -2207,7 +2516,8 @@
       }
     ],
     "u_person_id": 2242,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "gogol, nikolai": {
     "match_found": [
@@ -2259,7 +2569,22 @@
       }
     ],
     "u_person_id": 4888,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
+  },
+  "schröder, r.a.": {
+    "match_found": [
+      "schröder, r. a.",
+      98.66666666666667,
+      {
+        "person_id": 6277,
+        "last": "schröder",
+        "first": "r. a."
+      }
+    ],
+    "u_person_id": 6277,
+    "u_match_found": true,
+    "points": 5
   },
   "puschkin, alexander s.": {
     "match_found": [
@@ -2272,7 +2597,8 @@
       }
     ],
     "u_person_id": 5443,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "benz, e.": {
     "match_found": [
@@ -2337,7 +2663,8 @@
       }
     ],
     "u_person_id": 2,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 5
   },
   "merkelbach, r.": {
     "match_found": [
@@ -2402,7 +2729,8 @@
       }
     ],
     "u_person_id": 1914,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "tabarelli, hans von": {
     "match_found": [
@@ -2467,7 +2795,8 @@
       }
     ],
     "u_person_id": 2409,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "haller, albrecht von": {
     "match_found": [
@@ -2506,7 +2835,8 @@
       }
     ],
     "u_person_id": 300,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "ehalt, hubert christian": {
     "match_found": [
@@ -2519,7 +2849,8 @@
       }
     ],
     "u_person_id": 1558,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 8
   },
   "wolf, hans": {
     "match_found": [
@@ -2545,7 +2876,22 @@
       }
     ],
     "u_person_id": 7231,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
+  },
+  "müller, heribert": {
+    "match_found": [
+      "müller, herta",
+      93.46153846153847,
+      {
+        "person_id": 4809,
+        "last": "müller",
+        "first": "herta"
+      }
+    ],
+    "u_person_id": 4809,
+    "u_match_found": true,
+    "points": 0
   },
   "raddatz, fritz": {
     "match_found": [
@@ -2559,6 +2905,34 @@
     ],
     "u_person_id": 5475,
     "u_match_found": true
+  },
+  "artzibaschew, m.": {
+    "match_found": [
+      "artzibaschew, m.p.",
+      97.77777777777777,
+      {
+        "person_id": 172,
+        "last": "artzibaschew",
+        "first": "m.p."
+      }
+    ],
+    "u_person_id": 172,
+    "u_match_found": true,
+    "points": 5
+  },
+  "artzibaschew, m.p": {
+    "match_found": [
+      "artzibaschew, m.p.",
+      98.88888888888889,
+      {
+        "person_id": 172,
+        "last": "artzibaschew",
+        "first": "m.p."
+      }
+    ],
+    "u_person_id": 172,
+    "u_match_found": true,
+    "points": 5
   },
   "sacher-masoch, leopold von": {
     "match_found": [
@@ -2688,7 +3062,22 @@
       }
     ],
     "u_person_id": 558,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
+  },
+  "hartlaub, g.f.": {
+    "match_found": [
+      "hartlaub, g. f.",
+      98.66666666666667,
+      {
+        "person_id": 2615,
+        "last": "hartlaub",
+        "first": "g. f."
+      }
+    ],
+    "u_person_id": 2615,
+    "u_match_found": true,
+    "points": 5
   },
   "strelka, josef": {
     "match_found": [
@@ -2701,7 +3090,8 @@
       }
     ],
     "u_person_id": 6795,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "schinkowitz, herberrt": {
     "match_found": [
@@ -2728,6 +3118,20 @@
     ],
     "u_person_id": 6394,
     "u_match_found": true
+  },
+  "gütersloh": {
+    "match_found": [
+      "gütersloh, a. p.",
+      91.25,
+      {
+        "person_id": 2470,
+        "last": "gütersloh",
+        "first": "a. p."
+      }
+    ],
+    "u_person_id": 2470,
+    "u_match_found": true,
+    "points": 6
   },
   "vogeler, heinrich": {
     "match_found": [
@@ -2792,7 +3196,22 @@
       }
     ],
     "u_person_id": 6897,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
+  },
+  "twain, marc": {
+    "match_found": [
+      "twain, mark",
+      96.36363636363636,
+      {
+        "person_id": 7103,
+        "last": "twain",
+        "first": "mark"
+      }
+    ],
+    "u_person_id": 7103,
+    "u_match_found": true,
+    "points": 5
   },
   "weizsäcker, richard von": {
     "match_found": [
@@ -2831,7 +3250,8 @@
       }
     ],
     "u_person_id": 6153,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 5
   },
   "schmied, wieland (essay)": {
     "match_found": [
@@ -2844,7 +3264,8 @@
       }
     ],
     "u_person_id": 6154,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "odojewskij, fürst wladimir f.": {
     "match_found": [
@@ -2898,6 +3319,20 @@
     "u_person_id": 3175,
     "u_match_found": true
   },
+  "crebillon, der jüngere": {
+    "match_found": [
+      "crébillon, der jüngere",
+      86.14718614718615,
+      {
+        "person_id": 1177,
+        "last": "crébillon",
+        "first": "der jüngere"
+      }
+    ],
+    "u_person_id": 1177,
+    "u_match_found": true,
+    "points": 5
+  },
   "crevel, rene": {
     "match_found": [
       "crevel, rené",
@@ -2909,7 +3344,22 @@
       }
     ],
     "u_person_id": 1184,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
+  },
+  "forkel, j.n.": {
+    "match_found": [
+      "forkel, j.r.",
+      96.66666666666666,
+      {
+        "person_id": 1879,
+        "last": "forkel",
+        "first": "j.r."
+      }
+    ],
+    "u_person_id": 1879,
+    "u_match_found": true,
+    "points": 5
   },
   "esterházy de galantha, gräfin helene": {
     "match_found": [
@@ -2922,7 +3372,8 @@
       }
     ],
     "u_person_id": 1684,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "marx, josef": {
     "match_found": [
@@ -2935,7 +3386,8 @@
       }
     ],
     "u_person_id": 4453,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "eckartshausen, karl von": {
     "match_found": [
@@ -2976,6 +3428,20 @@
     "u_person_id": 3570,
     "u_match_found": true
   },
+  "hofmann, e.t.a.": {
+    "match_found": [
+      "hoffmann, e.t.a.",
+      98.54166666666666,
+      {
+        "person_id": 2943,
+        "last": "hoffmann",
+        "first": "e.t.a."
+      }
+    ],
+    "u_person_id": 2943,
+    "u_match_found": true,
+    "points": 6
+  },
   "winckelmann, johannes": {
     "match_found": [
       "winckelmann, johann joachim",
@@ -2987,7 +3453,8 @@
       }
     ],
     "u_person_id": 7585,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "galbreath, d.l.": {
     "match_found": [
@@ -3014,6 +3481,20 @@
     ],
     "u_person_id": 1866,
     "u_match_found": true
+  },
+  "dutli, ralf": {
+    "match_found": [
+      "dutli, ralph",
+      94.84848484848484,
+      {
+        "person_id": 1513,
+        "last": "dutli",
+        "first": "ralph"
+      }
+    ],
+    "u_person_id": 1513,
+    "u_match_found": true,
+    "points": 6
   },
   "mitscherlich, a.": {
     "match_found": [
@@ -3078,7 +3559,8 @@
       }
     ],
     "u_person_id": 2405,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 8
   },
   "grün, max von der": {
     "match_found": [
@@ -3132,6 +3614,20 @@
     "u_person_id": 6083,
     "u_match_found": true
   },
+  "jung, fritz": {
+    "match_found": [
+      "jung, franz",
+      92.72727272727273,
+      {
+        "person_id": 3272,
+        "last": "jung",
+        "first": "franz"
+      }
+    ],
+    "u_person_id": 3272,
+    "u_match_found": true,
+    "points": 0
+  },
   "stael, germaine de": {
     "match_found": [
       "stael, germaine de",
@@ -3156,7 +3652,8 @@
       }
     ],
     "u_person_id": 6295,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "gobineau, arthur graf": {
     "match_found": [
@@ -3195,7 +3692,8 @@
       }
     ],
     "u_person_id": 52,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "petermann, reinhard": {
     "match_found": [
@@ -3208,7 +3706,22 @@
       }
     ],
     "u_person_id": 5207,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
+  },
+  "kirchner, e.": {
+    "match_found": [
+      "kirchner, e.l.",
+      97.14285714285714,
+      {
+        "person_id": 3475,
+        "last": "kirchner",
+        "first": "e.l."
+      }
+    ],
+    "u_person_id": 3475,
+    "u_match_found": true,
+    "points": 6
   },
   "leskow, nikolai": {
     "match_found": [
@@ -3221,7 +3734,8 @@
       }
     ],
     "u_person_id": 4109,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 8
   },
   "kahsnitz, rainer": {
     "match_found": [
@@ -3234,7 +3748,8 @@
       }
     ],
     "u_person_id": 3300,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "swaaij, louise von": {
     "match_found": [
@@ -3249,6 +3764,20 @@
     "u_person_id": 6859,
     "u_match_found": true
   },
+  "bidez, josoph": {
+    "match_found": [
+      "bidez, joseph",
+      96.92307692307692,
+      {
+        "person_id": 550,
+        "last": "bidez",
+        "first": "joseph"
+      }
+    ],
+    "u_person_id": 550,
+    "u_match_found": true,
+    "points": 5
+  },
   "brehm, alfred edmund": {
     "match_found": [
       "brehm, alfred",
@@ -3260,7 +3789,8 @@
       }
     ],
     "u_person_id": 797,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "lichtenberg, georg chr.": {
     "match_found": [
@@ -3273,7 +3803,8 @@
       }
     ],
     "u_person_id": 4134,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "bauernfeld, eduard von": {
     "match_found": [
@@ -3299,7 +3830,8 @@
       }
     ],
     "u_person_id": 2650,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "saar, ferdinand von": {
     "match_found": [
@@ -3339,6 +3871,20 @@
     ],
     "u_person_id": 6078,
     "u_match_found": true
+  },
+  "seligmann, a.(dalbert)f.(ranz)": {
+    "match_found": [
+      "seligmann, adalbert franz",
+      95.19999999999999,
+      {
+        "person_id": 6446,
+        "last": "seligmann",
+        "first": "adalbert franz"
+      }
+    ],
+    "u_person_id": 6446,
+    "u_match_found": true,
+    "points": 5
   },
   "seligmann, a.f.": {
     "match_found": [
@@ -3390,7 +3936,8 @@
       }
     ],
     "u_person_id": 4962,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "sterne, l.": {
     "match_found": [
@@ -3429,7 +3976,8 @@
       }
     ],
     "u_person_id": 6118,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 5
   },
   "clark, christopher (vorwort)": {
     "match_found": [
@@ -3442,7 +3990,8 @@
       }
     ],
     "u_person_id": 1099,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "wette, wolfram (historischer essay)": {
     "match_found": [
@@ -3455,7 +4004,8 @@
       }
     ],
     "u_person_id": 7508,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 5
   },
   "kues, nikolaus von": {
     "match_found": [
@@ -3482,6 +4032,20 @@
     ],
     "u_person_id": 1495,
     "u_match_found": true
+  },
+  "neumann, erwin": {
+    "match_found": [
+      "neumann, erich",
+      94.28571428571428,
+      {
+        "person_id": 4920,
+        "last": "neumann",
+        "first": "erich"
+      }
+    ],
+    "u_person_id": 4920,
+    "u_match_found": true,
+    "points": 0
   },
   "vring, georg von der": {
     "match_found": [
@@ -3561,6 +4125,20 @@
     "u_person_id": 1163,
     "u_match_found": true
   },
+  "petersen, jürgen h.": {
+    "match_found": [
+      "petersen, arne f.",
+      92.1031991744066,
+      {
+        "person_id": 5212,
+        "last": "petersen",
+        "first": "arne f."
+      }
+    ],
+    "u_person_id": 5212,
+    "u_match_found": true,
+    "points": 0
+  },
   "sarraute, natalie": {
     "match_found": [
       "sarraute, natalie",
@@ -3611,7 +4189,8 @@
       }
     ],
     "u_person_id": 437,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "giesebrecht, wilhelm von": {
     "match_found": [
@@ -3650,7 +4229,8 @@
       }
     ],
     "u_person_id": 3405,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "jens, inge": {
     "match_found": [
@@ -3702,7 +4282,36 @@
       }
     ],
     "u_person_id": 4057,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
+  },
+  "leitgab, josef": {
+    "match_found": [
+      "leitgeb, josef",
+      97.14285714285714,
+      {
+        "person_id": 4058,
+        "last": "leitgeb",
+        "first": "josef"
+      }
+    ],
+    "u_person_id": 4058,
+    "u_match_found": true,
+    "points": 4
+  },
+  "wartburg, ida von": {
+    "match_found": [
+      "wartburg, walther von",
+      91.9327731092437,
+      {
+        "person_id": 7373,
+        "last": "wartburg",
+        "first": "walther von"
+      }
+    ],
+    "u_person_id": 7373,
+    "u_match_found": true,
+    "points": 6
   },
   "schmitz, werner": {
     "match_found": [
@@ -3806,7 +4415,8 @@
       }
     ],
     "u_person_id": 7495,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 7
   },
   "schlegel, august wilhelm": {
     "match_found": [
@@ -3832,7 +4442,8 @@
       }
     ],
     "u_person_id": 4763,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "reschke, thomas": {
     "match_found": [
@@ -3910,7 +4521,8 @@
       }
     ],
     "u_person_id": 6144,
-    "u_match_found": true
+    "u_match_found": true,
+    "points": 6
   },
   "henschel, gerhard": {
     "match_found": [

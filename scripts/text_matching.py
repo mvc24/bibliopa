@@ -25,6 +25,7 @@ def remove_diacritics(text):
     text = unicodedata.normalize("NFD", text)
     text = "".join(c for c in text if not unicodedata.combining(c))
     text = text.lower()
+    text = text.replace("-", " ")
     text = re.sub(r"\s+", " ", text).strip()
 
     return text
