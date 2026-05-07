@@ -18,6 +18,18 @@ def normalise_text(text):
     # pp(f"text: {text}")
     return text
 
+def remove_diacritics(text):
+    if text in [None, "null", ""]:
+        return text
+
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(c for c in text if not unicodedata.combining(c))
+    text = text.lower()
+    text = re.sub(r"\s+", " ", text).strip()
+
+    return text
+
+
 # normalise_text(t2)
 
 def test_similarity(text1, text2):

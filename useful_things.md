@@ -6,6 +6,16 @@
     
     rprint(dict(list(variants_dict.items())[:3]))
 
+- printing insde a loop (when it's a list)
+
+    `for variant in variants[:20]:`
+    # Wrap in list() first, then slice
+    `for key, value in list(my_dict.items())[:20]:`
+        ...
+
+## venv
+restarting the venv:
+`source venv/bin/activate`
 
 ## percentages
 

@@ -1,0 +1,234 @@
+rommel, otto
+[
+    ('rommel, bettina', 90.0, {'person_id': 5760, 'last': 'rommel', 'first': 'bettina'}),
+    ('muehl, otto', 85.60606060606061, {'person_id': 4780, 'last': 'muehl', 'first': 'otto'}),
+    ('michel, otto', 83.33333333333334, {'person_id': 4645, 'last': 'michel', 'first': 'otto'}),
+    ('mauer, otto', 81.90235690235691, {'person_id': 4487, 'last': 'mauer', 'first': 'otto'})
+]
+stigler-fuchs, margarete von
+[
+    (
+        'stigler-fuchs, margarete von',
+        100.0,
+        {'person_id': 6748, 'last': 'stigler-fuchs', 'first': 'margarete von'}
+    ),
+    ('still, rosemarie', 79.53525641025642, {'person_id': 6751, 'last': 'still', 'first': 'rosemarie'}),
+    ('stifter, adalbert', 79.2156862745098, {'person_id': 6747, 'last': 'stifter', 'first': 'adalbert'}),
+    (
+        'mitscherlich, margarete',
+        78.22545494170208,
+        {'person_id': 4687, 'last': 'mitscherlich', 'first': 'margarete'}
+    )
+]
+renolder, klemens
+[
+    ('reventlow, else', 80.15686274509804, {'person_id': 5624, 'last': 'reventlow', 'first': 'else'}),
+    ('krenek, ernst', 80.0767859591389, {'person_id': 3742, 'last': 'krenek', 'first': 'ernst'}),
+    ('rohleder, hermann', 79.8529411764706, {'person_id': 5745, 'last': 'rohleder', 'first': 'hermann'}),
+    ('rennert, jürgen', 79.68627450980392, {'person_id': 5604, 'last': 'rennert', 'first': 'jürgen'})
+]
+fritz, elisabeth
+[
+    ('fritz, samuel', 87.03671328671328, {'person_id': 1980, 'last': 'fritz', 'first': 'samuel'}),
+    ('fries, albert', 86.53846153846155, {'person_id': 1961, 'last': 'fries', 'first': 'albert'}),
+    ('fritz, walter helmut', 86.17307692307693, {'person_id': 1981, 'last': 'fritz', 'first': 'walter helmut'}),
+    ('fritz, marianne', 83.83333333333333, {'person_id': 1979, 'last': 'fritz', 'first': 'marianne'})
+]
+becker, hartmut
+[
+    ('becker, max', 89.51515151515152, {'person_id': 388, 'last': 'becker', 'first': 'max'}),
+    ('jericke, hartmut', 88.84920634920634, {'person_id': 3228, 'last': 'jericke', 'first': 'hartmut'}),
+    ('becker, walter', 88.56277056277057, {'person_id': 390, 'last': 'becker', 'first': 'walter'}),
+    ('becker, udo', 88.36363636363636, {'person_id': 389, 'last': 'becker', 'first': 'udo'})
+]
+krempien, rainer
+[
+    ('reiner, imre', 83.33333333333334, {'person_id': 5575, 'last': 'reiner', 'first': 'imre'}),
+    ('reinisch, rainer', 83.33333333333334, {'person_id': 5582, 'last': 'reinisch', 'first': 'rainer'}),
+    ('krieger, karin', 82.85714285714285, {'person_id': 3753, 'last': 'krieger', 'first': 'karin'}),
+    ('krenkel, werner', 82.24368686868686, {'person_id': 3743, 'last': 'krenkel', 'first': 'werner'})
+]
+wasielewski, wilh. jos. v.
+[
+    ('goethe, j. w. v.', 71.9551282051282, {'person_id': 2234, 'last': 'goethe', 'first': 'j. w. v.'}),
+    ('stipek, h.', 70.25641025641026, {'person_id': 6754, 'last': 'stipek', 'first': 'h.'}),
+    ('waibel, leo', 69.7902097902098, {'person_id': 7323, 'last': 'waibel', 'first': 'leo'}),
+    ('wells, h.g.', 69.7902097902098, {'person_id': 7477, 'last': 'wells', 'first': 'h.g.'})
+]
+wasielewski, waldemar von
+[
+    ('wasiljew, wiktor', 82.9857142857143, {'person_id': 7376, 'last': 'wasiljew', 'first': 'wiktor'}),
+    ('baldass, alfred von', 76.48684210526316, {'person_id': 255, 'last': 'baldass', 'first': 'alfred von'}),
+    ('wesselski, albert', 75.07731092436975, {'person_id': 7502, 'last': 'wesselski', 'first': 'albert'}),
+    ('weiss, emil rudolf', 74.61666666666667, {'person_id': 7456, 'last': 'weiss', 'first': 'emil rudolf'})
+]
+philippe, charles louis
+[
+    (
+        'philippe, charles-louis',
+        98.26086956521739,
+        {'person_id': 5250, 'last': 'philippe', 'first': 'charles-louis'}
+    ),
+    ('philipp, rudolph', 86.81677018633542, {'person_id': 5249, 'last': 'philipp', 'first': 'rudolph'}),
+    ('chipp, herschel b.', 72.40625718886588, {'person_id': 1071, 'last': 'chipp', 'first': 'herschel b.'}),
+    ('levi, eliphas', 70.38275733927907, {'person_id': 4115, 'last': 'levi', 'first': 'eliphas'})
+]
+kerenyi, magda
+[
+    ('kerenyi, karl', 89.67032967032968, {'person_id': 3426, 'last': 'kerenyi', 'first': 'karl'}),
+    ('kerenyi, k.', 89.22077922077922, {'person_id': 3426, 'last': 'kerenyi', 'first': 'k.'}),
+    ('horny, magda', 84.92063492063492, {'person_id': 3031, 'last': 'horny', 'first': 'magda'}),
+    (
+        'kerenski, alexander f.',
+        83.8961038961039,
+        {'person_id': 3425, 'last': 'kerenski', 'first': 'alexander f.'}
+    )
+]
+knapp, robert
+[
+    ('knapp, horst', 90.05128205128206, {'person_id': 3565, 'last': 'knapp', 'first': 'horst'}),
+    ('kapr, albert', 85.07692307692308, {'person_id': 3341, 'last': 'kapr', 'first': 'albert'}),
+    ('grün, robert', 81.41025641025642, {'person_id': 2412, 'last': 'grün', 'first': 'robert'}),
+    ('jungk, robert', 81.2820512820513, {'person_id': 3280, 'last': 'jungk', 'first': 'robert'})
+]
+kornemann, ernst
+[
+    ('bornemann, ernest', 93.99509803921569, {'person_id': 712, 'last': 'bornemann', 'first': 'ernest'}),
+    ('wangermann, ernst', 87.57002801120449, {'person_id': 7368, 'last': 'wangermann', 'first': 'ernst'}),
+    ('konersmann, ralf', 84.44444444444443, {'person_id': 3633, 'last': 'konersmann', 'first': 'ralf'}),
+    ('konzelmann, gerhard', 83.50877192982456, {'person_id': 3650, 'last': 'konzelmann', 'first': 'gerhard'})
+]
+kohut, adolph
+[
+    ('kohout, pavel', 86.8974358974359, {'person_id': 3610, 'last': 'kohout', 'first': 'pavel'}),
+    ('koch, rudolf', 82.16524216524216, {'person_id': 3584, 'last': 'koch', 'first': 'rudolf'}),
+    ('donath, adolph', 81.66833166833167, {'person_id': 1421, 'last': 'donath', 'first': 'adolph'}),
+    ('kossuth, leonhard', 79.21294391882628, {'person_id': 3677, 'last': 'kossuth', 'first': 'leonhard'})
+]
+noll, peter
+[
+    ('kolb, peter', 87.87878787878789, {'person_id': 3615, 'last': 'kolb', 'first': 'peter'}),
+    ('sengl, peter', 85.60606060606061, {'person_id': 6462, 'last': 'sengl', 'first': 'peter'}),
+    ('gan, peter', 84.24242424242424, {'person_id': 2060, 'last': 'gan', 'first': 'peter'}),
+    ('brown, peter', 81.90235690235691, {'person_id': 846, 'last': 'brown', 'first': 'peter'})
+]
+d'anjou, rene
+[
+    ("d'anjou, rené", 96.92307692307692, {'person_id': 1218, 'last': "d'anjou", 'first': 'rené'}),
+    ("d'annunzio, gabriele", 85.46153846153845, {'person_id': 1219, 'last': "d'annunzio", 'first': 'gabriele'}),
+    ('remond, rene', 77.7065527065527, {'person_id': 5599, 'last': 'remond', 'first': 'rene'}),
+    ('daume, doreen', 77.15384615384615, {'person_id': 1258, 'last': 'daume', 'first': 'doreen'})
+]
+sahagun, fray bernardino de
+[
+    ('saar, ferdinand von', 82.30019493177387, {'person_id': 5871, 'last': 'saar', 'first': 'ferdinand von'}),
+    ('sarraute, nathalie', 77.42504409171076, {'person_id': 5946, 'last': 'sarraute', 'first': 'nathalie'}),
+    ('sandgruber, roman', 76.12200435729848, {'person_id': 5934, 'last': 'sandgruber', 'first': 'roman'}),
+    (
+        'schirach, ferdinand von',
+        73.47826086956522,
+        {'person_id': 6066, 'last': 'schirach', 'first': 'ferdinand von'}
+    )
+]
+litterscheid, claus
+[
+    ('bertisch, klaus', 79.90103463787675, {'person_id': 517, 'last': 'bertisch', 'first': 'klaus'}),
+    ('lindqvist, cecilia', 78.01769380716749, {'person_id': 4157, 'last': 'lindqvist', 'first': 'cecilia'}),
+    ('lerch, jan', 76.63157894736842, {'person_id': 4093, 'last': 'lerch', 'first': 'jan'}),
+    ('lambrecht, klaus', 76.44736842105263, {'person_id': 3899, 'last': 'lambrecht', 'first': 'klaus'})
+]
+schrijver, emile
+[
+    ('schering, emil', 88.8888888888889, {'person_id': 6024, 'last': 'schering', 'first': 'emil'}),
+    ('schroeder, michael', 87.61752136752138, {'person_id': 6280, 'last': 'schroeder', 'first': 'michael'}),
+    ('schiedermair, l.', 85.86538461538461, {'person_id': 6037, 'last': 'schiedermair', 'first': 'l.'}),
+    ('schneider, ilse', 85.6111111111111, {'person_id': 6181, 'last': 'schneider', 'first': 'ilse'})
+]
+wiesemann, falk
+[
+    ('wesermann, klaus', 88.06730769230768, {'person_id': 7501, 'last': 'wesermann', 'first': 'klaus'}),
+    ('wiese, martina', 86.74458874458875, {'person_id': 7541, 'last': 'wiese', 'first': 'martina'}),
+    ('wiesner, felix', 85.61904761904762, {'person_id': 7549, 'last': 'wiesner', 'first': 'felix'}),
+    ('wiedemann, barbara', 84.70370370370371, {'person_id': 7531, 'last': 'wiedemann', 'first': 'barbara'})
+]
+kaiser, gert
+[
+    ('kaiser, georg', 95.25641025641025, {'person_id': 3306, 'last': 'kaiser', 'first': 'georg'}),
+    ('gaiser, gerd', 88.8888888888889, {'person_id': 2047, 'last': 'gaiser', 'first': 'gerd'}),
+    ('kaiser, franz', 88.84615384615385, {'person_id': 3305, 'last': 'kaiser', 'first': 'franz'}),
+    ('kaiser, joseph franz', 86.66666666666667, {'person_id': 3308, 'last': 'kaiser', 'first': 'joseph franz'})
+]
+schrijver, emile g.l.
+[
+    ('schering, emil', 84.72222222222221, {'person_id': 6024, 'last': 'schering', 'first': 'emil'}),
+    ('schiedermair, l.', 84.30555555555554, {'person_id': 6037, 'last': 'schiedermair', 'first': 'l.'}),
+    ('schroeder, michael', 83.74847374847376, {'person_id': 6280, 'last': 'schroeder', 'first': 'michael'}),
+    ('schrader, o.', 83.57142857142857, {'person_id': 6258, 'last': 'schrader', 'first': 'o.'})
+]
+voolen, edward von
+[
+    ('lear, edward', 79.62962962962963, {'person_id': 3997, 'last': 'lear', 'first': 'edward'}),
+    (
+        'villers, alexander von',
+        78.13852813852813,
+        {'person_id': 7225, 'last': 'villers', 'first': 'alexander von'}
+    ),
+    ('gorey, edward', 77.4928774928775, {'person_id': 2277, 'last': 'gorey', 'first': 'edward'}),
+    ('molo, walter von', 76.79843304843304, {'person_id': 7276, 'last': 'molo', 'first': 'walter von'})
+]
+stark, johann
+[
+    ('kotas, johann', 92.09401709401709, {'person_id': 3682, 'last': 'kotas', 'first': 'johann'}),
+    ('starobinski, jean', 87.57918552036199, {'person_id': 6660, 'last': 'starobinski', 'first': 'jean'}),
+    ('starke, ottomar', 85.84615384615384, {'person_id': 6658, 'last': 'starke', 'first': 'ottomar'}),
+    ('staub, hans', 84.66200466200466, {'person_id': 6663, 'last': 'staub', 'first': 'hans'})
+]
+bode, joachim
+[
+    ('bode, joachim', 100.0, {'person_id': 650, 'last': 'bode', 'first': 'joachim'}),
+    ('bode, johann joachim', 91.46153846153847, {'person_id': 650, 'last': 'bode', 'first': 'johann joachim'}),
+    ('otte, joachim', 89.74358974358975, {'person_id': 5067, 'last': 'otte', 'first': 'joachim'}),
+    ('bumke, joachim', 88.95604395604396, {'person_id': 909, 'last': 'bumke', 'first': 'joachim'})
+]
+lery, jean de
+[
+    ('lery, jean de', 100.0, {'person_id': 4099, 'last': 'lery', 'first': 'jean de'}),
+    ('lerch, jan', 86.35897435897436, {'person_id': 4093, 'last': 'lerch', 'first': 'jan'}),
+    ('amery, jean', 83.68298368298368, {'person_id': 93, 'last': 'amery', 'first': 'jean'}),
+    ('leymarie, jean', 80.48618048618049, {'person_id': 4128, 'last': 'leymarie', 'first': 'jean'})
+]
+mackenzie, alexander
+[
+    ('mackensen, lutz', 86.33333333333333, {'person_id': 4308, 'last': 'mackensen', 'first': 'lutz'}),
+    ('emanuely, alexander', 81.8201754385965, {'person_id': 1625, 'last': 'emanuely', 'first': 'alexander'}),
+    ('eliasberg, alexander', 81.11111111111113, {'person_id': 1610, 'last': 'eliasberg', 'first': 'alexander'}),
+    ('maczynska, magdalena', 81.0, {'person_id': 4311, 'last': 'maczynska', 'first': 'magdalena'})
+]
+mayer, susanne
+[
+    ('lanwerd, susanne', 86.90476190476191, {'person_id': 3937, 'last': 'lanwerd', 'first': 'susanne'}),
+    ('farin, susanne', 85.71428571428571, {'person_id': 1720, 'last': 'farin', 'first': 'susanne'}),
+    ('mayor, adrienne', 83.22222222222221, {'person_id': 4507, 'last': 'mayor', 'first': 'adrienne'}),
+    ('mayr, max', 83.14814814814815, {'person_id': 4509, 'last': 'mayr', 'first': 'max'})
+]
+mary, geo t.
+[
+    ('marty, andre e.', 84.83333333333334, {'person_id': 4447, 'last': 'marty', 'first': 'andre e.'}),
+    ('marbach, g. o.', 83.24074074074073, {'person_id': 4398, 'last': 'marbach', 'first': 'g. o.'}),
+    ('max, g.', 82.85714285714285, {'person_id': 4504, 'last': 'max', 'first': 'g.'}),
+    ('marty, eric', 81.7929292929293, {'person_id': 4448, 'last': 'marty', 'first': 'eric'})
+]
+segev, tom
+[
+    ('selge, martin', 81.07692307692308, {'person_id': 6444, 'last': 'selge', 'first': 'martin'}),
+    ('seel, otto', 80.19047619047619, {'person_id': 6409, 'last': 'seel', 'first': 'otto'}),
+    ('seidel, margot', 79.9047619047619, {'person_id': 6427, 'last': 'seidel', 'first': 'margot'}),
+    ('slevogt, max', 79.5, {'person_id': 6550, 'last': 'slevogt', 'first': 'max'})
+]
+serotta, edward
+[
+    ('lear, edward', 85.3030303030303, {'person_id': 3997, 'last': 'lear', 'first': 'edward'}),
+    ('schaper, edzard', 81.27272727272727, {'person_id': 5988, 'last': 'schaper', 'first': 'edzard'}),
+    ('castle, eduard', 80.93795093795094, {'person_id': 1021, 'last': 'castle', 'first': 'eduard'}),
+    ('seitter, walter', 80.92929292929291, {'person_id': 6441, 'last': 'seitter', 'first': 'walter'})
+]
