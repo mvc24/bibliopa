@@ -43,6 +43,13 @@ The rule of thumb: **count what each iteration hands you, then create that many 
 
 **The number of loops equals how many levels deep you need to go, not how many nested structures exist.**
 
+## does the key already exist in my dict?
+
+check for membership with `if **variable** in **dict**`, then do:
+
+    `dict[variable].append({})`
+    else:
+    `dict[variable] = {}
 
 ## alas, methods
 
