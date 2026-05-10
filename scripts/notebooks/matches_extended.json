@@ -1,6 +1,563 @@
 {
+  "schlegel, fr.": {
+    "correct_match": [
+      [
+        "schlegel, friedrich",
+        91.09311740890689,
+        {
+          "person_id": 6085,
+          "last": "schlegel",
+          "first": "friedrich"
+        }
+      ]
+    ],
+    "person_id": 6085,
+    "match_found": true,
+    "composite_id": [
+      "briefe_280_12_15"
+    ],
+    "points": 4
+  },
+  "lissmann, konrad paul": {
+    "correct_match": [
+      [
+        "liessmann, konrad paul",
+        98.7878787878788,
+        {
+          "person_id": 4143,
+          "last": "liessmann",
+          "first": "konrad paul"
+        }
+      ],
+      [
+        "liessmann, paul konrad",
+        92.43867243867243,
+        {
+          "person_id": 4143,
+          "last": "liessmann",
+          "first": "paul konrad"
+        }
+      ]
+    ],
+    "person_id": 4143,
+    "match_found": true,
+    "composite_id": [
+      "oesterreich_101_5_13"
+    ],
+    "points": 3
+  },
+  "culianu, joan p.": {
+    "correct_match": [
+      [
+        "culianu, ioan p.",
+        97.5,
+        {
+          "person_id": 1197,
+          "last": "culianu",
+          "first": "ioan p."
+        }
+      ]
+    ],
+    "person_id": 1197,
+    "match_found": true,
+    "composite_id": [
+      "renaissance_51_3_4"
+    ],
+    "points": 3
+  },
+  "grosse, friedrich der": {
+    "correct_match": [
+      [
+        "große, friedrich der",
+        96.61111111111111,
+        {
+          "person_id": 1957,
+          "last": "große",
+          "first": "friedrich der"
+        }
+      ]
+    ],
+    "person_id": 1957,
+    "match_found": true,
+    "composite_id": [
+      "renaissance_71_3_4",
+      "briefe_146_6_15",
+      "biographie_212_9_27",
+      "briefe_66_3_15"
+    ],
+    "points": 3
+  },
+  "weber, m(ax) m(aria) von": {
+    "correct_match": [
+      [
+        "weber, max maria von",
+        96.66666666666667,
+        {
+          "person_id": 7398,
+          "last": "weber",
+          "first": "max maria von"
+        }
+      ]
+    ],
+    "person_id": 7398,
+    "match_found": true,
+    "composite_id": [
+      "erstausgaben_1431_58_78"
+    ],
+    "points": 3
+  },
+  "pouqueville, f.c.h.l.": {
+    "correct_match": [
+      [
+        "pouqueville, f.c,h,l.",
+        95.13784461152882,
+        {
+          "person_id": 5385,
+          "last": "pouqueville",
+          "first": "f.c,h,l."
+        }
+      ]
+    ],
+    "person_id": 5385,
+    "match_found": true,
+    "composite_id": [
+      "griechenland_103_5_10"
+    ],
+    "points": 4
+  },
+  "menuhin, jehudi": {
+    "correct_match": [
+      [
+        "menuhin, yehudi",
+        97.33333333333334,
+        {
+          "person_id": 4586,
+          "last": "menuhin",
+          "first": "yehudi"
+        }
+      ]
+    ],
+    "person_id": 4586,
+    "match_found": true,
+    "composite_id": [
+      "biographie_415_17_27"
+    ],
+    "points": 3
+  },
+  "levi-strauss, levi": {
+    "correct_match": [
+      [
+        "levi-strauss, claude",
+        93.77777777777779,
+        {
+          "person_id": 4117,
+          "last": "levi-strauss",
+          "first": "claude"
+        }
+      ],
+      [
+        "levi-strauss",
+        93.33333333333333,
+        {
+          "person_id": 4117,
+          "last": "levi-strauss",
+          "first": ""
+        }
+      ]
+    ],
+    "person_id": 4117,
+    "match_found": true,
+    "composite_id": [
+      "ethnologie_96_4_13"
+    ],
+    "points": 3
+  },
+  "vergilius maro, p": {
+    "correct_match": [
+      [
+        "vergilius maro, publius",
+        94.78260869565217,
+        {
+          "person_id": 7197,
+          "last": "vergilius maro",
+          "first": "publius"
+        }
+      ],
+      [
+        "vergil",
+        87.05882352941177,
+        {
+          "person_id": 7197,
+          "last": "vergil",
+          "first": ""
+        }
+      ]
+    ],
+    "person_id": 7197,
+    "match_found": true,
+    "composite_id": [
+      "antike_143_6_9"
+    ],
+    "points": 3
+  },
+  "halben, z. von": {
+    "correct_match": [
+      [
+        "halben, z. und h. von",
+        91.9047619047619,
+        {
+          "person_id": 2545,
+          "last": "halben",
+          "first": "z. und h. von"
+        }
+      ]
+    ],
+    "person_id": 2545,
+    "match_found": true,
+    "composite_id": [
+      "insel_81_4_27"
+    ],
+    "points": 4
+  },
+  "tchichold, jan": {
+    "correct_match": [
+      [
+        "tschichold, jan",
+        98.00000000000001,
+        {
+          "person_id": 7087,
+          "last": "tschichold",
+          "first": "jan"
+        }
+      ]
+    ],
+    "person_id": 7087,
+    "match_found": true,
+    "composite_id": [
+      "bibliophile_215_9_10"
+    ],
+    "points": 3
+  },
+  "dostojewskij": {
+    "correct_match": [
+      [
+        "dostojewskij, fjodor",
+        92.0,
+        {
+          "person_id": 1447,
+          "last": "dostojewskij",
+          "first": "fjodor"
+        }
+      ],
+      [
+        "dostojewski, f.m.",
+        91.27450980392156,
+        {
+          "person_id": 1447,
+          "last": "dostojewski",
+          "first": "f.m."
+        }
+      ],
+      [
+        "dostojewski, fjodor m.",
+        90.9090909090909,
+        {
+          "person_id": 1447,
+          "last": "dostojewski",
+          "first": "fjodor m."
+        }
+      ]
+    ],
+    "person_id": 1447,
+    "match_found": true,
+    "composite_id": [
+      "suchliste_9_1_3"
+    ],
+    "points": 4
+  },
+  "benz, r.": {
+    "correct_match": [
+      [
+        "benz, richard",
+        88.26923076923077,
+        {
+          "person_id": 448,
+          "last": "benz",
+          "first": "richard"
+        }
+      ]
+    ],
+    "person_id": 448,
+    "match_found": true,
+    "composite_id": [
+      "kunstbuecher_1_1_38"
+    ],
+    "points": 3
+  },
+  "fechner, g(ustav)th(eodor)": {
+    "correct_match": [
+      [
+        "fechner, gustav theodor",
+        96.05351170568562,
+        {
+          "person_id": 1730,
+          "last": "fechner",
+          "first": "gustav theodor"
+        }
+      ],
+      [
+        "fechner, g.th.",
+        86.37362637362637,
+        {
+          "person_id": 1730,
+          "last": "fechner",
+          "first": "g.th."
+        }
+      ]
+    ],
+    "person_id": 1730,
+    "match_found": true,
+    "composite_id": [
+      "religion_30_2_4"
+    ],
+    "points": 4
+  },
+  "stündel, kieter h.": {
+    "correct_match": [
+      [
+        "stündel, dieter h.",
+        97.77777777777777,
+        {
+          "person_id": 6834,
+          "last": "stündel",
+          "first": "dieter h."
+        }
+      ]
+    ],
+    "person_id": 6834,
+    "match_found": true,
+    "composite_id": [
+      "fremdsprachige_226_10_38"
+    ],
+    "points": 3
+  },
+  "gütersloh": {
+    "correct_match": [
+      [
+        "gütersloh, a. p.",
+        91.25,
+        {
+          "person_id": 2470,
+          "last": "gütersloh",
+          "first": "a. p."
+        }
+      ],
+      [
+        "gütersloh, paris von",
+        89.0,
+        {
+          "person_id": 2470,
+          "last": "gütersloh",
+          "first": "paris von"
+        }
+      ],
+      [
+        "gütersloh, albert paris",
+        87.82608695652175,
+        {
+          "person_id": 2470,
+          "last": "gütersloh",
+          "first": "albert paris"
+        }
+      ]
+    ],
+    "person_id": 2470,
+    "match_found": true,
+    "composite_id": [
+      "kunstbuecher_119_5_38"
+    ],
+    "points": 4
+  },
+  "kokoschka": {
+    "correct_match": [
+      [
+        "kokoschka, o.",
+        93.84615384615384,
+        {
+          "person_id": 3611,
+          "last": "kokoschka",
+          "first": "o."
+        }
+      ],
+      [
+        "kokoschka, oskar",
+        91.25,
+        {
+          "person_id": 3611,
+          "last": "kokoschka",
+          "first": "oskar"
+        }
+      ]
+    ],
+    "person_id": 3611,
+    "match_found": true,
+    "composite_id": [
+      "kunstbuecher_119_5_38"
+    ],
+    "points": 3
+  },
+  "hußmann, heinrich": {
+    "correct_match": [
+      [
+        "hussmann, heinrich",
+        95.46840958605664,
+        {
+          "person_id": 3106,
+          "last": "hussmann",
+          "first": "heinrich"
+        }
+      ],
+      [
+        "hußmann",
+        88.23529411764706,
+        {
+          "person_id": 3106,
+          "last": "hußmann",
+          "first": ""
+        }
+      ]
+    ],
+    "person_id": 3106,
+    "match_found": true,
+    "composite_id": [
+      "signierte_223_9_10"
+    ],
+    "points": 3
+  },
+  "dutli, ralf": {
+    "correct_match": [
+      [
+        "dutli, ralph",
+        94.84848484848484,
+        {
+          "person_id": 1513,
+          "last": "dutli",
+          "first": "ralph"
+        }
+      ]
+    ],
+    "person_id": 1513,
+    "match_found": true,
+    "composite_id": [
+      "russland_213_9_17"
+    ],
+    "points": 4
+  },
+  "grillparzer": {
+    "correct_match": [
+      [
+        "grillparzer, franz",
+        92.22222222222221,
+        {
+          "person_id": 2368,
+          "last": "grillparzer",
+          "first": "franz"
+        }
+      ],
+      [
+        "franz, grillparzer",
+        71.88552188552188,
+        {
+          "person_id": 2368,
+          "last": "franz",
+          "first": "grillparzer"
+        }
+      ]
+    ],
+    "person_id": 2368,
+    "match_found": true,
+    "composite_id": [
+      "erstausgaben_630_26_78"
+    ],
+    "points": 3
+  },
+  "aue, artmann von": {
+    "correct_match": [
+      [
+        "aue, hartmann von",
+        98.82352941176471,
+        {
+          "person_id": 2627,
+          "last": "aue",
+          "first": "hartmann von"
+        }
+      ]
+    ],
+    "person_id": 2627,
+    "match_found": true,
+    "composite_id": [
+      "de-lit-texte_57_3_20"
+    ],
+    "points": 3
+  },
+  "adorno": {
+    "correct_match": [
+      [
+        "adorno, th. w.",
+        88.57142857142858,
+        {
+          "person_id": 24,
+          "last": "adorno",
+          "first": "th. w."
+        }
+      ],
+      [
+        "adorno, theodor",
+        88.0,
+        {
+          "person_id": 24,
+          "last": "adorno",
+          "first": "theodor"
+        }
+      ],
+      [
+        "adorno, theodor w.",
+        86.66666666666666,
+        {
+          "person_id": 24,
+          "last": "adorno",
+          "first": "theodor w."
+        }
+      ]
+    ],
+    "person_id": 24,
+    "match_found": true,
+    "composite_id": [
+      "musik_71_3_11"
+    ],
+    "points": 3
+  },
+  "leitgab, josef": {
+    "correct_match": [
+      [
+        "leitgeb, josef",
+        97.14285714285714,
+        {
+          "person_id": 4058,
+          "last": "leitgeb",
+          "first": "josef"
+        }
+      ]
+    ],
+    "person_id": 4058,
+    "match_found": true,
+    "composite_id": [
+      "illustrierte_276_12_14"
+    ],
+    "points": 4
+  },
   "stigler-fuchs, margarete von": {
-    "match_found": [
+    "correct_match": [
       "stigler-fuchs, margarete von",
       100.0,
       {
@@ -9,15 +566,16 @@
         "first": "margarete von"
       }
     ],
-    "u_person_id": 6748,
-    "u_match_found": true,
+    "person_id": 6748,
+    "match_found": true,
     "composite_id": [
       "wien_220_9_10",
       "wien_221_9_10"
-    ]
+    ],
+    "points": 100
   },
   "philippe, charles louis": {
-    "match_found": [
+    "correct_match": [
       "philippe, charles-louis",
       98.26086956521739,
       {
@@ -26,15 +584,15 @@
         "first": "charles-louis"
       }
     ],
-    "u_person_id": 5250,
-    "u_match_found": true,
+    "person_id": 5250,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_720_29_38"
     ],
-    "points": 7
+    "points": 100
   },
   "d'anjou, rene": {
-    "match_found": [
+    "correct_match": [
       "d'anjou, rené",
       96.92307692307692,
       {
@@ -43,16 +601,16 @@
         "first": "rené"
       }
     ],
-    "u_person_id": 1218,
-    "u_match_found": true,
+    "person_id": 1218,
+    "match_found": true,
     "composite_id": [
       "bibliophile_32_2_10",
       "buch_138_6_8"
     ],
-    "points": 7
+    "points": 100
   },
   "bode, joachim": {
-    "match_found": [
+    "correct_match": [
       "bode, joachim",
       100.0,
       {
@@ -61,14 +619,15 @@
         "first": "joachim"
       }
     ],
-    "u_person_id": 650,
-    "u_match_found": true,
+    "person_id": 650,
+    "match_found": true,
     "composite_id": [
       "bibliophile_45_2_10"
-    ]
+    ],
+    "points": 100
   },
   "lery, jean de": {
-    "match_found": [
+    "correct_match": [
       "lery, jean de",
       100.0,
       {
@@ -77,14 +636,15 @@
         "first": "jean de"
       }
     ],
-    "u_person_id": 4099,
-    "u_match_found": true,
+    "person_id": 4099,
+    "match_found": true,
     "composite_id": [
       "reisen_205_9_13"
-    ]
+    ],
+    "points": 100
   },
   "keyserling, e.von": {
-    "match_found": [
+    "correct_match": [
       "keyserling, e. von",
       98.88888888888889,
       {
@@ -93,15 +653,15 @@
         "first": "e. von"
       }
     ],
-    "u_person_id": 3443,
-    "u_match_found": true,
+    "person_id": 3443,
+    "match_found": true,
     "composite_id": [
       "illustrierte_195_8_14"
     ],
-    "points": 5
+    "points": 100
   },
   "wingler, h. m.": {
-    "match_found": [
+    "correct_match": [
       "wingler, h. m.",
       100.0,
       {
@@ -110,14 +670,15 @@
         "first": "h. m."
       }
     ],
-    "u_person_id": 7589,
-    "u_match_found": true,
+    "person_id": 7589,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_594_24_38"
-    ]
+    ],
+    "points": 100
   },
   "dostojewski, fjodor m.": {
-    "match_found": [
+    "correct_match": [
       "dostojewski, fjodor m.",
       100.0,
       {
@@ -126,17 +687,18 @@
         "first": "fjodor m."
       }
     ],
-    "u_person_id": 1447,
-    "u_match_found": true,
+    "person_id": 1447,
+    "match_found": true,
     "composite_id": [
       "insel_241_10_27",
       "insel_242_10_27",
       "insel_243_10_27",
       "russland_93_4_17"
-    ]
+    ],
+    "points": 100
   },
   "villon, francois": {
-    "match_found": [
+    "correct_match": [
       "villon, francois",
       100.0,
       {
@@ -145,14 +707,15 @@
         "first": "francois"
       }
     ],
-    "u_person_id": 7226,
-    "u_match_found": true,
+    "person_id": 7226,
+    "match_found": true,
     "composite_id": [
       "insel_245_10_27"
-    ]
+    ],
+    "points": 100
   },
   "weiß, e.r.": {
-    "match_found": [
+    "correct_match": [
       "weiß, e.r.",
       100.0,
       {
@@ -161,14 +724,15 @@
         "first": "e.r."
       }
     ],
-    "u_person_id": 7456,
-    "u_match_found": true,
+    "person_id": 7456,
+    "match_found": true,
     "composite_id": [
       "biographie_384_16_27"
-    ]
+    ],
+    "points": 100
   },
   "lachmann, hedwig": {
-    "match_found": [
+    "correct_match": [
       "lachmann, hedwig",
       100.0,
       {
@@ -177,14 +741,15 @@
         "first": "hedwig"
       }
     ],
-    "u_person_id": 3877,
-    "u_match_found": true,
+    "person_id": 3877,
+    "match_found": true,
     "composite_id": [
       "biographie_384_16_27"
-    ]
+    ],
+    "points": 100
   },
   "müller, klaus": {
-    "match_found": [
+    "correct_match": [
       "müller, klaus e.",
       96.25,
       {
@@ -193,15 +758,15 @@
         "first": "klaus e."
       }
     ],
-    "u_person_id": 4816,
-    "u_match_found": true,
+    "person_id": 4816,
+    "match_found": true,
     "composite_id": [
       "russland_86_4_17"
     ],
-    "points": 7
+    "points": 100
   },
   "dostojevskij, fjodor m.": {
-    "match_found": [
+    "correct_match": [
       "dostojewskij, fjodor m.",
       98.26086956521739,
       {
@@ -210,15 +775,15 @@
         "first": "fjodor m."
       }
     ],
-    "u_person_id": 1447,
-    "u_match_found": true,
+    "person_id": 1447,
+    "match_found": true,
     "composite_id": [
       "russland_87_4_17"
     ],
-    "points": 5
+    "points": 100
   },
   "balthasar, hans urs von": {
-    "match_found": [
+    "correct_match": [
       "balthasar, hans urs von",
       100.0,
       {
@@ -227,15 +792,16 @@
         "first": "hans urs von"
       }
     ],
-    "u_person_id": 263,
-    "u_match_found": true,
+    "person_id": 263,
+    "match_found": true,
     "composite_id": [
       "fruehes_57_3_4",
       "christentum_52_3_6"
-    ]
+    ],
+    "points": 100
   },
   "pückler-muskau, hermann fürst von": {
-    "match_found": [
+    "correct_match": [
       "pückler-muskau, hermann fürst von",
       100.0,
       {
@@ -244,15 +810,16 @@
         "first": "hermann fürst von"
       }
     ],
-    "u_person_id": 5433,
-    "u_match_found": true,
+    "person_id": 5433,
+    "match_found": true,
     "composite_id": [
       "briefe_295_12_15",
       "briefe_296_12_15"
-    ]
+    ],
+    "points": 100
   },
   "puschkin, alexander sergejewitsch": {
-    "match_found": [
+    "correct_match": [
       "puschkin, alexander",
       91.51515151515152,
       {
@@ -261,15 +828,15 @@
         "first": "alexander"
       }
     ],
-    "u_person_id": 5443,
-    "u_match_found": true,
+    "person_id": 5443,
+    "match_found": true,
     "composite_id": [
       "briefe_298_12_15"
     ],
-    "points": 6
+    "points": 100
   },
   "braungadt, ganna-maria": {
-    "match_found": [
+    "correct_match": [
       "braungadt, ganna-maria",
       100.0,
       {
@@ -278,14 +845,15 @@
         "first": "ganna-maria"
       }
     ],
-    "u_person_id": 792,
-    "u_match_found": true,
+    "person_id": 792,
+    "match_found": true,
     "composite_id": [
       "russland_385_16_17"
-    ]
+    ],
+    "points": 100
   },
   "wolkonskaja, fürstin maria": {
-    "match_found": [
+    "correct_match": [
       "wolkonskaja, fürstin maria",
       100.0,
       {
@@ -294,14 +862,15 @@
         "first": "fürstin maria"
       }
     ],
-    "u_person_id": 7662,
-    "u_match_found": true,
+    "person_id": 7662,
+    "match_found": true,
     "composite_id": [
       "russland_390_16_17"
-    ]
+    ],
+    "points": 100
   },
   "wosnessenski, andrej": {
-    "match_found": [
+    "correct_match": [
       "wosnessenski, andrej",
       100.0,
       {
@@ -310,14 +879,15 @@
         "first": "andrej"
       }
     ],
-    "u_person_id": 7671,
-    "u_match_found": true,
+    "person_id": 7671,
+    "match_found": true,
     "composite_id": [
       "russland_391_16_17"
-    ]
+    ],
+    "points": 100
   },
   "hartlieb, wladimir von": {
-    "match_found": [
+    "correct_match": [
       "hartlieb, wladimir von",
       100.0,
       {
@@ -326,14 +896,15 @@
         "first": "wladimir von"
       }
     ],
-    "u_person_id": 2618,
-    "u_match_found": true,
+    "person_id": 2618,
+    "match_found": true,
     "composite_id": [
       "philosophie_469_19_24"
-    ]
+    ],
+    "points": 100
   },
   "krasinski, graf zygmunt": {
-    "match_found": [
+    "correct_match": [
       "krasinski, graf zygmunt",
       100.0,
       {
@@ -342,14 +913,15 @@
         "first": "graf zygmunt"
       }
     ],
-    "u_person_id": 3716,
-    "u_match_found": true,
+    "person_id": 3716,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_780_32_78"
-    ]
+    ],
+    "points": 100
   },
   "eissler, k.r.": {
-    "match_found": [
+    "correct_match": [
       "eissler, k.r.",
       100.0,
       {
@@ -358,14 +930,15 @@
         "first": "k.r."
       }
     ],
-    "u_person_id": 1599,
-    "u_match_found": true,
+    "person_id": 1599,
+    "match_found": true,
     "composite_id": [
       "literatur_103_5_12"
-    ]
+    ],
+    "points": 100
   },
   "weiss, walter": {
-    "match_found": [
+    "correct_match": [
       "weiss, walter",
       100.0,
       {
@@ -374,16 +947,17 @@
         "first": "walter"
       }
     ],
-    "u_person_id": 7460,
-    "u_match_found": true,
+    "person_id": 7460,
+    "match_found": true,
     "composite_id": [
       "literatur_116_5_12",
       "erstausgaben_1948_78_78",
       "oesterreich_282_12_13"
-    ]
+    ],
+    "points": 100
   },
   "bormann, alexander von": {
-    "match_found": [
+    "correct_match": [
       "bormann, alexander von",
       100.0,
       {
@@ -392,14 +966,15 @@
         "first": "alexander von"
       }
     ],
-    "u_person_id": 709,
-    "u_match_found": true,
+    "person_id": 709,
+    "match_found": true,
     "composite_id": [
       "literatur_118_5_12"
-    ]
+    ],
+    "points": 100
   },
   "barner, wilfried": {
-    "match_found": [
+    "correct_match": [
       "barner, wilfried",
       100.0,
       {
@@ -408,14 +983,15 @@
         "first": "wilfried"
       }
     ],
-    "u_person_id": 284,
-    "u_match_found": true,
+    "person_id": 284,
+    "match_found": true,
     "composite_id": [
       "literatur_118_5_12"
-    ]
+    ],
+    "points": 100
   },
   "gleichen-russwurm, a.v.": {
-    "match_found": [
+    "correct_match": [
       "gleichen-russwurm, a.v.",
       100.0,
       {
@@ -424,14 +1000,15 @@
         "first": "a.v."
       }
     ],
-    "u_person_id": 2211,
-    "u_match_found": true,
+    "person_id": 2211,
+    "match_found": true,
     "composite_id": [
       "literatur_122_5_12"
-    ]
+    ],
+    "points": 100
   },
   "willemsen, carl a.": {
-    "match_found": [
+    "correct_match": [
       "willemsen, carl a.",
       100.0,
       {
@@ -440,15 +1017,16 @@
         "first": "carl a."
       }
     ],
-    "u_person_id": 7575,
-    "u_match_found": true,
+    "person_id": 7575,
+    "match_found": true,
     "composite_id": [
       "insel_636_26_27",
       "insel_89_4_27"
-    ]
+    ],
+    "points": 100
   },
   "behmer, marcus": {
-    "match_found": [
+    "correct_match": [
       "behmer, marcus",
       100.0,
       {
@@ -457,8 +1035,8 @@
         "first": "marcus"
       }
     ],
-    "u_person_id": 408,
-    "u_match_found": true,
+    "person_id": 408,
+    "match_found": true,
     "composite_id": [
       "insel_642_26_27",
       "insel_643_26_27",
@@ -466,10 +1044,11 @@
       "insel_150_7_27",
       "insel_154_7_27",
       "bibliophile_17_1_10"
-    ]
+    ],
+    "points": 100
   },
   "jahn, beate": {
-    "match_found": [
+    "correct_match": [
       "jahn, beate",
       100.0,
       {
@@ -478,14 +1057,15 @@
         "first": "beate"
       }
     ],
-    "u_person_id": 3179,
-    "u_match_found": true,
+    "person_id": 3179,
+    "match_found": true,
     "composite_id": [
       "insel_642_26_27"
-    ]
+    ],
+    "points": 100
   },
   "merian, matthaeus": {
-    "match_found": [
+    "correct_match": [
       "merian, matthaeus d.ä.",
       95.45454545454545,
       {
@@ -494,15 +1074,15 @@
         "first": "matthaeus d.ä."
       }
     ],
-    "u_person_id": 4594,
-    "u_match_found": true,
+    "person_id": 4594,
+    "match_found": true,
     "composite_id": [
       "oesterreich_100_5_13"
     ],
-    "points": 6
+    "points": 100
   },
   "mitis, oskar freiherr von": {
-    "match_found": [
+    "correct_match": [
       "mitis, oskar freiherr von",
       100.0,
       {
@@ -511,14 +1091,15 @@
         "first": "oskar freiherr von"
       }
     ],
-    "u_person_id": 4685,
-    "u_match_found": true,
+    "person_id": 4685,
+    "match_found": true,
     "composite_id": [
       "oesterreich_102_5_13"
-    ]
+    ],
+    "points": 100
   },
   "rauchensteiner, mafried": {
-    "match_found": [
+    "correct_match": [
       "rauchensteiner, manfried",
       99.16666666666667,
       {
@@ -527,14 +1108,15 @@
         "first": "manfried"
       }
     ],
-    "u_person_id": 5527,
-    "u_match_found": true,
+    "person_id": 5527,
+    "match_found": true,
     "composite_id": [
       "oesterreich_118_5_13"
-    ]
+    ],
+    "points": 100
   },
   "schaarschmidt-richter, i.": {
-    "match_found": [
+    "correct_match": [
       "schaarschmidt-richter, i.",
       100.0,
       {
@@ -543,14 +1125,15 @@
         "first": "i."
       }
     ],
-    "u_person_id": 5963,
-    "u_match_found": true,
+    "person_id": 5963,
+    "match_found": true,
     "composite_id": [
       "insel_137_6_27"
-    ]
+    ],
+    "points": 100
   },
   "casanova, giacomo chevalier de seingalt": {
-    "match_found": [
+    "correct_match": [
       "casanova, giacomo",
       88.71794871794873,
       {
@@ -559,15 +1142,15 @@
         "first": "giacomo"
       }
     ],
-    "u_person_id": 1013,
-    "u_match_found": true,
+    "person_id": 1013,
+    "match_found": true,
     "composite_id": [
       "briefe_117_5_15"
     ],
-    "points": 5
+    "points": 100
   },
   "wieland, c.m.": {
-    "match_found": [
+    "correct_match": [
       "wieland, c.m.",
       100.0,
       {
@@ -576,14 +1159,15 @@
         "first": "c.m."
       }
     ],
-    "u_person_id": 7533,
-    "u_match_found": true,
+    "person_id": 7533,
+    "match_found": true,
     "composite_id": [
       "briefe_123_5_15"
-    ]
+    ],
+    "points": 100
   },
   "röhl, h.": {
-    "match_found": [
+    "correct_match": [
       "röhl, h.",
       100.0,
       {
@@ -592,14 +1176,15 @@
         "first": "h."
       }
     ],
-    "u_person_id": 5721,
-    "u_match_found": true,
+    "person_id": 5721,
+    "match_found": true,
     "composite_id": [
       "insel_453_19_27"
-    ]
+    ],
+    "points": 100
   },
   "blok, alexander": {
-    "match_found": [
+    "correct_match": [
       "blok, alexander",
       100.0,
       {
@@ -608,14 +1193,15 @@
         "first": "alexander"
       }
     ],
-    "u_person_id": 622,
-    "u_match_found": true,
+    "person_id": 622,
+    "match_found": true,
     "composite_id": [
       "insel_454_19_27"
-    ]
+    ],
+    "points": 100
   },
   "francois, louise von": {
-    "match_found": [
+    "correct_match": [
       "françois, louise von",
       98.0,
       {
@@ -624,15 +1210,15 @@
         "first": "louise von"
       }
     ],
-    "u_person_id": 1898,
-    "u_match_found": true,
+    "person_id": 1898,
+    "match_found": true,
     "composite_id": [
       "insel_460_19_27"
     ],
-    "points": 7
+    "points": 100
   },
   "hegenbarth, josef": {
-    "match_found": [
+    "correct_match": [
       "hegenbarth, josef",
       100.0,
       {
@@ -641,14 +1227,15 @@
         "first": "josef"
       }
     ],
-    "u_person_id": 2704,
-    "u_match_found": true,
+    "person_id": 2704,
+    "match_found": true,
     "composite_id": [
       "insel_468_19_27"
-    ]
+    ],
+    "points": 100
   },
   "molo, walter von": {
-    "match_found": [
+    "correct_match": [
       "molo, walter von",
       100.0,
       {
@@ -657,14 +1244,15 @@
         "first": "walter von"
       }
     ],
-    "u_person_id": 7276,
-    "u_match_found": true,
+    "person_id": 7276,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_800_33_78"
-    ]
+    ],
+    "points": 100
   },
   "eliot, t.s.": {
-    "match_found": [
+    "correct_match": [
       "eliot, t.s.",
       100.0,
       {
@@ -673,16 +1261,17 @@
         "first": "t.s."
       }
     ],
-    "u_person_id": 1612,
-    "u_match_found": true,
+    "person_id": 1612,
+    "match_found": true,
     "composite_id": [
       "philosophie_432_18_24",
       "fremdsprachige_359_15_38",
       "philosophie_547_22_24"
-    ]
+    ],
+    "points": 100
   },
   "fechner, g.th.": {
-    "match_found": [
+    "correct_match": [
       "fechner, g.th.",
       100.0,
       {
@@ -691,14 +1280,15 @@
         "first": "g.th."
       }
     ],
-    "u_person_id": 1730,
-    "u_match_found": true,
+    "person_id": 1730,
+    "match_found": true,
     "composite_id": [
       "philosophie_440_18_24"
-    ]
+    ],
+    "points": 100
   },
   "gauss, karl markus": {
-    "match_found": [
+    "correct_match": [
       "gauss, karl markus",
       100.0,
       {
@@ -707,14 +1297,15 @@
         "first": "karl markus"
       }
     ],
-    "u_person_id": 2084,
-    "u_match_found": true,
+    "person_id": 2084,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_571_23_78"
-    ]
+    ],
+    "points": 100
   },
   "zobeltitz, fedor von": {
-    "match_found": [
+    "correct_match": [
       "zobeltitz, fedor von",
       100.0,
       {
@@ -723,14 +1314,15 @@
         "first": "fedor von"
       }
     ],
-    "u_person_id": 7790,
-    "u_match_found": true,
+    "person_id": 7790,
+    "match_found": true,
     "composite_id": [
       "buch_3_1_8"
-    ]
+    ],
+    "points": 100
   },
   "leber, fr(iedrich otto) von": {
-    "match_found": [
+    "correct_match": [
       "leber, friedrich otto von",
       98.51851851851852,
       {
@@ -739,15 +1331,15 @@
         "first": "friedrich otto von"
       }
     ],
-    "u_person_id": 4000,
-    "u_match_found": true,
+    "person_id": 4000,
+    "match_found": true,
     "composite_id": [
       "oesterreich_90_4_13"
     ],
-    "points": 5
+    "points": 100
   },
   "ehalt, hubert": {
-    "match_found": [
+    "correct_match": [
       "ehalt, hubert",
       100.0,
       {
@@ -756,14 +1348,15 @@
         "first": "hubert"
       }
     ],
-    "u_person_id": 1558,
-    "u_match_found": true,
+    "person_id": 1558,
+    "match_found": true,
     "composite_id": [
       "oesterreich_93_4_13"
-    ]
+    ],
+    "points": 100
   },
   "natter, g. tobias": {
-    "match_found": [
+    "correct_match": [
       "natter, g. tobias",
       100.0,
       {
@@ -772,14 +1365,15 @@
         "first": "g. tobias"
       }
     ],
-    "u_person_id": 4876,
-    "u_match_found": true,
+    "person_id": 4876,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_303_13_38"
-    ]
+    ],
+    "points": 100
   },
   "kalmer, josef": {
-    "match_found": [
+    "correct_match": [
       "kalmer, josef",
       100.0,
       {
@@ -788,14 +1382,15 @@
         "first": "josef"
       }
     ],
-    "u_person_id": 3315,
-    "u_match_found": true,
+    "person_id": 3315,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_759_31_38"
-    ]
+    ],
+    "points": 100
   },
   "künßberg, eberhart freiherr von": {
-    "match_found": [
+    "correct_match": [
       "künßberg, eberhart freiherr von",
       100.0,
       {
@@ -804,14 +1399,15 @@
         "first": "eberhart freiherr von"
       }
     ],
-    "u_person_id": 3823,
-    "u_match_found": true,
+    "person_id": 3823,
+    "match_found": true,
     "composite_id": [
       "insel_155_7_27"
-    ]
+    ],
+    "points": 100
   },
   "liliencron, detlev von": {
-    "match_found": [
+    "correct_match": [
       "liliencron, detlev von",
       100.0,
       {
@@ -820,14 +1416,15 @@
         "first": "detlev von"
       }
     ],
-    "u_person_id": 4148,
-    "u_match_found": true,
+    "person_id": 4148,
+    "match_found": true,
     "composite_id": [
       "insel_158_7_27"
-    ]
+    ],
+    "points": 100
   },
   "gütersloh, a. p.": {
-    "match_found": [
+    "correct_match": [
       "gütersloh, a. p.",
       100.0,
       {
@@ -836,14 +1433,15 @@
         "first": "a. p."
       }
     ],
-    "u_person_id": 2470,
-    "u_match_found": true,
+    "person_id": 2470,
+    "match_found": true,
     "composite_id": [
       "wien_4_1_10"
-    ]
+    ],
+    "points": 100
   },
   "dönhoff, marion gräfin": {
-    "match_found": [
+    "correct_match": [
       "dönhoff, marion gräfin",
       100.0,
       {
@@ -852,15 +1450,16 @@
         "first": "marion gräfin"
       }
     ],
-    "u_person_id": 1422,
-    "u_match_found": true,
+    "person_id": 1422,
+    "match_found": true,
     "composite_id": [
       "biographie_161_7_27",
       "judentum_81_4_9"
-    ]
+    ],
+    "points": 100
   },
   "einem, gottfried von": {
-    "match_found": [
+    "correct_match": [
       "einem, gottfried von",
       100.0,
       {
@@ -869,14 +1468,15 @@
         "first": "gottfried von"
       }
     ],
-    "u_person_id": 1580,
-    "u_match_found": true,
+    "person_id": 1580,
+    "match_found": true,
     "composite_id": [
       "biographie_171_7_27"
-    ]
+    ],
+    "points": 100
   },
   "weizsäcker, carl friedrich von": {
-    "match_found": [
+    "correct_match": [
       "weizsäcker, carl friedrich von",
       100.0,
       {
@@ -885,14 +1485,15 @@
         "first": "carl friedrich von"
       }
     ],
-    "u_person_id": 7469,
-    "u_match_found": true,
+    "person_id": 7469,
+    "match_found": true,
     "composite_id": [
       "biographie_172_7_27"
-    ]
+    ],
+    "points": 100
   },
   "freyhold, k.f.edmund von": {
-    "match_found": [
+    "correct_match": [
       "freyhold, k.f.edmund von",
       100.0,
       {
@@ -901,14 +1502,15 @@
         "first": "k.f.edmund von"
       }
     ],
-    "u_person_id": 1944,
-    "u_match_found": true,
+    "person_id": 1944,
+    "match_found": true,
     "composite_id": [
       "insel_425_18_27"
-    ]
+    ],
+    "points": 100
   },
   "paustowski, konstantin": {
-    "match_found": [
+    "correct_match": [
       "paustowski, konstantin",
       100.0,
       {
@@ -917,14 +1519,15 @@
         "first": "konstantin"
       }
     ],
-    "u_person_id": 5162,
-    "u_match_found": true,
+    "person_id": 5162,
+    "match_found": true,
     "composite_id": [
       "insel_441_18_27"
-    ]
+    ],
+    "points": 100
   },
   "villers, alexander von": {
-    "match_found": [
+    "correct_match": [
       "villers, alexander von",
       100.0,
       {
@@ -933,15 +1536,16 @@
         "first": "alexander von"
       }
     ],
-    "u_person_id": 7225,
-    "u_match_found": true,
+    "person_id": 7225,
+    "match_found": true,
     "composite_id": [
       "de-lit-texte_437_18_20",
       "biographie_613_25_27"
-    ]
+    ],
+    "points": 100
   },
   "pesendorfer, jo": {
-    "match_found": [
+    "correct_match": [
       "pesendorfer, jo",
       100.0,
       {
@@ -950,18 +1554,19 @@
         "first": "jo"
       }
     ],
-    "u_person_id": 5204,
-    "u_match_found": true,
+    "person_id": 5204,
+    "match_found": true,
     "composite_id": [
       "de-lit-texte_447_18_20",
       "oesterreich_276_12_13",
       "oesterreich_261_11_13",
       "signierte_194_8_10",
       "oesterreich_237_10_13"
-    ]
+    ],
+    "points": 100
   },
   "hung-ming, ku": {
-    "match_found": [
+    "correct_match": [
       "hung-ming, ku",
       100.0,
       {
@@ -970,14 +1575,15 @@
         "first": "ku"
       }
     ],
-    "u_person_id": 3785,
-    "u_match_found": true,
+    "person_id": 3785,
+    "match_found": true,
     "composite_id": [
       "neuzeit_82_4_4"
-    ]
+    ],
+    "points": 100
   },
   "windischgraetz, prinz ludwig": {
-    "match_found": [
+    "correct_match": [
       "windischgraetz, prinz ludwig",
       100.0,
       {
@@ -986,14 +1592,15 @@
         "first": "prinz ludwig"
       }
     ],
-    "u_person_id": 7588,
-    "u_match_found": true,
+    "person_id": 7588,
+    "match_found": true,
     "composite_id": [
       "neuzeit_97_4_4"
-    ]
+    ],
+    "points": 100
   },
   "wartburg, walther von": {
-    "match_found": [
+    "correct_match": [
       "wartburg, walther von",
       100.0,
       {
@@ -1002,15 +1609,16 @@
         "first": "walther von"
       }
     ],
-    "u_person_id": 7373,
-    "u_match_found": true,
+    "person_id": 7373,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_6_1_38",
       "fremdsprachige_6_1_38"
-    ]
+    ],
+    "points": 100
   },
   "bodenstedt, friedrich": {
-    "match_found": [
+    "correct_match": [
       "bodenstedt, friedrich",
       100.0,
       {
@@ -1019,15 +1627,16 @@
         "first": "friedrich"
       }
     ],
-    "u_person_id": 652,
-    "u_match_found": true,
+    "person_id": 652,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_22_1_38",
       "bibliophile_98_4_10"
-    ]
+    ],
+    "points": 100
   },
   "beauvoir, simone de": {
-    "match_found": [
+    "correct_match": [
       "beauvoir, simone de",
       100.0,
       {
@@ -1036,14 +1645,15 @@
         "first": "simone de"
       }
     ],
-    "u_person_id": 371,
-    "u_match_found": true,
+    "person_id": 371,
+    "match_found": true,
     "composite_id": [
       "briefe_88_4_15"
-    ]
+    ],
+    "points": 100
   },
   "asmussen, jes peter": {
-    "match_found": [
+    "correct_match": [
       "asmussen, jes peter",
       100.0,
       {
@@ -1052,14 +1662,15 @@
         "first": "jes peter"
       }
     ],
-    "u_person_id": 179,
-    "u_match_found": true,
+    "person_id": 179,
+    "match_found": true,
     "composite_id": [
       "okkultismus_40_2_8"
-    ]
+    ],
+    "points": 100
   },
   "arnim, bettina von": {
-    "match_found": [
+    "correct_match": [
       "arnim, bettina und gisela von",
       91.30268199233717,
       {
@@ -1068,15 +1679,15 @@
         "first": "bettina und gisela von"
       }
     ],
-    "u_person_id": 158,
-    "u_match_found": true,
+    "person_id": 158,
+    "match_found": true,
     "composite_id": [
       "maerchen_4_1_3"
     ],
-    "points": 7
+    "points": 100
   },
   "leyen, friedrich von der": {
-    "match_found": [
+    "correct_match": [
       "leyen, friedrich von der",
       100.0,
       {
@@ -1085,18 +1696,19 @@
         "first": "friedrich von der"
       }
     ],
-    "u_person_id": 4127,
-    "u_match_found": true,
+    "person_id": 4127,
+    "match_found": true,
     "composite_id": [
       "maerchen_11_1_3",
       "bibliophile_4_1_10",
       "maerchen_25_2_3",
       "maerchen_28_2_3",
       "maerchen_32_2_3"
-    ]
+    ],
+    "points": 100
   },
   "ehmcke, f.h.": {
-    "match_found": [
+    "correct_match": [
       "ehmcke, f. h.",
       98.46153846153847,
       {
@@ -1105,15 +1717,15 @@
         "first": "f. h."
       }
     ],
-    "u_person_id": 1563,
-    "u_match_found": true,
+    "person_id": 1563,
+    "match_found": true,
     "composite_id": [
       "maerchen_15_1_3"
     ],
-    "points": 5
+    "points": 100
   },
   "winter, leon de": {
-    "match_found": [
+    "correct_match": [
       "winter, leon de",
       100.0,
       {
@@ -1122,14 +1734,15 @@
         "first": "leon de"
       }
     ],
-    "u_person_id": 7600,
-    "u_match_found": true,
+    "person_id": 7600,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_936_38_38"
-    ]
+    ],
+    "points": 100
   },
   "perez, j.-l.": {
-    "match_found": [
+    "correct_match": [
       "perez, j.-l.",
       100.0,
       {
@@ -1138,14 +1751,15 @@
         "first": "j.-l."
       }
     ],
-    "u_person_id": 5186,
-    "u_match_found": true,
+    "person_id": 5186,
+    "match_found": true,
     "composite_id": [
       "judentum_124_5_9"
-    ]
+    ],
+    "points": 100
   },
   "recklinghausen, daniel von": {
-    "match_found": [
+    "correct_match": [
       "recklinghausen, daniel von",
       100.0,
       {
@@ -1154,14 +1768,15 @@
         "first": "daniel von"
       }
     ],
-    "u_person_id": 5543,
-    "u_match_found": true,
+    "person_id": 5543,
+    "match_found": true,
     "composite_id": [
       "monographien_32_2_3"
-    ]
+    ],
+    "points": 100
   },
   "mccabe, bernard": {
-    "match_found": [
+    "correct_match": [
       "mccabe, berrnard",
       97.41666666666667,
       {
@@ -1170,15 +1785,15 @@
         "first": "berrnard"
       }
     ],
-    "u_person_id": 4517,
-    "u_match_found": true,
+    "person_id": 4517,
+    "match_found": true,
     "composite_id": [
       "monographien_39_2_3"
     ],
-    "points": 5
+    "points": 100
   },
   "mallarme": {
-    "match_found": [
+    "correct_match": [
       "mallarmé",
       95.0,
       {
@@ -1187,15 +1802,15 @@
         "first": ""
       }
     ],
-    "u_person_id": 4356,
-    "u_match_found": true,
+    "person_id": 4356,
+    "match_found": true,
     "composite_id": [
       "monographien_42_2_3"
     ],
-    "points": 7
+    "points": 100
   },
   "wurzbach, wolfgang von": {
-    "match_found": [
+    "correct_match": [
       "wurzbach, wolfgang von",
       100.0,
       {
@@ -1204,14 +1819,15 @@
         "first": "wolfgang von"
       }
     ],
-    "u_person_id": 7686,
-    "u_match_found": true,
+    "person_id": 7686,
+    "match_found": true,
     "composite_id": [
       "bibliophile_58_3_10"
-    ]
+    ],
+    "points": 100
   },
   "tchihatchef, p. de": {
-    "match_found": [
+    "correct_match": [
       "tchihatchef, p. de",
       100.0,
       {
@@ -1220,14 +1836,15 @@
         "first": "p. de"
       }
     ],
-    "u_person_id": 6918,
-    "u_match_found": true,
+    "person_id": 6918,
+    "match_found": true,
     "composite_id": [
       "reisen_196_8_13"
-    ]
+    ],
+    "points": 100
   },
   "schrott, raul": {
-    "match_found": [
+    "correct_match": [
       "schrott, raul",
       100.0,
       {
@@ -1236,14 +1853,15 @@
         "first": "raul"
       }
     ],
-    "u_person_id": 6284,
-    "u_match_found": true,
+    "person_id": 6284,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_1672_67_78"
-    ]
+    ],
+    "points": 100
   },
   "adorno, theodor": {
-    "match_found": [
+    "correct_match": [
       "adorno, theodor",
       100.0,
       {
@@ -1252,14 +1870,15 @@
         "first": "theodor"
       }
     ],
-    "u_person_id": 24,
-    "u_match_found": true,
+    "person_id": 24,
+    "match_found": true,
     "composite_id": [
       "philosophie_161_7_24"
-    ]
+    ],
+    "points": 100
   },
   "bodenstedt, friedrich von": {
-    "match_found": [
+    "correct_match": [
       "bodenstedt, friedrich",
       96.8,
       {
@@ -1268,15 +1887,15 @@
         "first": "friedrich"
       }
     ],
-    "u_person_id": 652,
-    "u_match_found": true,
+    "person_id": 652,
+    "match_found": true,
     "composite_id": [
       "illustrierte_222_9_14"
     ],
-    "points": 8
+    "points": 100
   },
   "gnädiger, louise": {
-    "match_found": [
+    "correct_match": [
       "gnädiger, louise",
       100.0,
       {
@@ -1285,15 +1904,16 @@
         "first": "louise"
       }
     ],
-    "u_person_id": 2218,
-    "u_match_found": true,
+    "person_id": 2218,
+    "match_found": true,
     "composite_id": [
       "christentum_101_5_6",
       "christentum_77_4_6"
-    ]
+    ],
+    "points": 100
   },
   "narciß, georg a.": {
-    "match_found": [
+    "correct_match": [
       "narciß, georg a.",
       100.0,
       {
@@ -1302,14 +1922,15 @@
         "first": "georg a."
       }
     ],
-    "u_person_id": 4870,
-    "u_match_found": true,
+    "person_id": 4870,
+    "match_found": true,
     "composite_id": [
       "mittelalter_136_6_7"
-    ]
+    ],
+    "points": 100
   },
   "redon, odile": {
-    "match_found": [
+    "correct_match": [
       "redon, odilon",
       95.25641025641025,
       {
@@ -1318,15 +1939,15 @@
         "first": "odilon"
       }
     ],
-    "u_person_id": 5546,
-    "u_match_found": true,
+    "person_id": 5546,
+    "match_found": true,
     "composite_id": [
       "mittelalter_137_6_7"
     ],
-    "points": 6
+    "points": 100
   },
   "ferdinandy, michael de": {
-    "match_found": [
+    "correct_match": [
       "ferdinandy, michael de",
       100.0,
       {
@@ -1335,14 +1956,15 @@
         "first": "michael de"
       }
     ],
-    "u_person_id": 1271,
-    "u_match_found": true,
+    "person_id": 1271,
+    "match_found": true,
     "composite_id": [
       "mittelalter_147_6_7"
-    ]
+    ],
+    "points": 100
   },
   "rilke, rainer": {
-    "match_found": [
+    "correct_match": [
       "rilke, rainer maria",
       93.6842105263158,
       {
@@ -1351,15 +1973,15 @@
         "first": "rainer maria"
       }
     ],
-    "u_person_id": 5677,
-    "u_match_found": true,
+    "person_id": 5677,
+    "match_found": true,
     "composite_id": [
       "briefe_307_13_15"
     ],
-    "points": 6
+    "points": 100
   },
   "dostojewskij, f.m.": {
-    "match_found": [
+    "correct_match": [
       "dostojewski, f.m.",
       98.88888888888889,
       {
@@ -1368,15 +1990,15 @@
         "first": "f.m."
       }
     ],
-    "u_person_id": 1447,
-    "u_match_found": true,
+    "person_id": 1447,
+    "match_found": true,
     "composite_id": [
       "russland_100_5_17"
     ],
-    "points": 5
+    "points": 100
   },
   "gogol, n. w.": {
-    "match_found": [
+    "correct_match": [
       "gogol, n. w.",
       100.0,
       {
@@ -1385,14 +2007,15 @@
         "first": "n. w."
       }
     ],
-    "u_person_id": 2242,
-    "u_match_found": true,
+    "person_id": 2242,
+    "match_found": true,
     "composite_id": [
       "insel_115_5_27"
-    ]
+    ],
+    "points": 100
   },
   "lichatschow, d. s.": {
-    "match_found": [
+    "correct_match": [
       "lichatschow, d. s.",
       100.0,
       {
@@ -1401,15 +2024,16 @@
         "first": "d. s."
       }
     ],
-    "u_person_id": 4131,
-    "u_match_found": true,
+    "person_id": 4131,
+    "match_found": true,
     "composite_id": [
       "insel_123_5_27",
       "insel_124_5_27"
-    ]
+    ],
+    "points": 100
   },
   "born, bob von den": {
-    "match_found": [
+    "correct_match": [
       "born, bob von den",
       100.0,
       {
@@ -1418,14 +2042,15 @@
         "first": "bob von den"
       }
     ],
-    "u_person_id": 710,
-    "u_match_found": true,
+    "person_id": 710,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_555_23_38"
-    ]
+    ],
+    "points": 100
   },
   "lautreamont": {
-    "match_found": [
+    "correct_match": [
       "lautréamont",
       96.36363636363636,
       {
@@ -1434,15 +2059,15 @@
         "first": ""
       }
     ],
-    "u_person_id": 3976,
-    "u_match_found": true,
+    "person_id": 3976,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_558_23_38"
     ],
-    "points": 7
+    "points": 100
   },
   "herlitschka, herbert e.": {
-    "match_found": [
+    "correct_match": [
       "herlitschka, herbert e.",
       100.0,
       {
@@ -1451,15 +2076,16 @@
         "first": "herbert e."
       }
     ],
-    "u_person_id": 2798,
-    "u_match_found": true,
+    "person_id": 2798,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_562_23_38",
       "philosophie_484_20_24"
-    ]
+    ],
+    "points": 100
   },
   "tolstoi": {
-    "match_found": [
+    "correct_match": [
       "tolstoi, lew",
       91.66666666666667,
       {
@@ -1468,15 +2094,15 @@
         "first": "lew"
       }
     ],
-    "u_person_id": 7019,
-    "u_match_found": true,
+    "person_id": 7019,
+    "match_found": true,
     "composite_id": [
       "suchliste_52_3_3"
     ],
-    "points": 5
+    "points": 100
   },
   "waggerl, k.h.": {
-    "match_found": [
+    "correct_match": [
       "waggerl, k.h.",
       100.0,
       {
@@ -1485,14 +2111,15 @@
         "first": "k.h."
       }
     ],
-    "u_person_id": 7304,
-    "u_match_found": true,
+    "person_id": 7304,
+    "match_found": true,
     "composite_id": [
       "signierte_238_10_10"
-    ]
+    ],
+    "points": 100
   },
   "frederichs, dr.": {
-    "match_found": [
+    "correct_match": [
       "frederichs, dr.",
       100.0,
       {
@@ -1501,14 +2128,15 @@
         "first": "dr."
       }
     ],
-    "u_person_id": 1925,
-    "u_match_found": true,
+    "person_id": 1925,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_1302_53_78"
-    ]
+    ],
+    "points": 100
   },
   "premerstein, anton von": {
-    "match_found": [
+    "correct_match": [
       "premerstein, anton von",
       100.0,
       {
@@ -1517,14 +2145,15 @@
         "first": "anton von"
       }
     ],
-    "u_person_id": 5402,
-    "u_match_found": true,
+    "person_id": 5402,
+    "match_found": true,
     "composite_id": [
       "reisen_50_3_13"
-    ]
+    ],
+    "points": 100
   },
   "baedeker, k.": {
-    "match_found": [
+    "correct_match": [
       "baedeker, k.",
       100.0,
       {
@@ -1533,14 +2162,15 @@
         "first": "k."
       }
     ],
-    "u_person_id": 242,
-    "u_match_found": true,
+    "person_id": 242,
+    "match_found": true,
     "composite_id": [
       "reisen_74_3_13"
-    ]
+    ],
+    "points": 100
   },
   "görlich, e.j.": {
-    "match_found": [
+    "correct_match": [
       "görlich, e. j.",
       98.57142857142858,
       {
@@ -1549,15 +2179,15 @@
         "first": "e. j."
       }
     ],
-    "u_person_id": 2281,
-    "u_match_found": true,
+    "person_id": 2281,
+    "match_found": true,
     "composite_id": [
       "de-lit-monographien_88_4_10"
     ],
-    "points": 5
+    "points": 100
   },
   "margull, g. fritze": {
-    "match_found": [
+    "correct_match": [
       "margull, g.fritze",
       98.88888888888889,
       {
@@ -1566,15 +2196,15 @@
         "first": "g.fritze"
       }
     ],
-    "u_person_id": 4410,
-    "u_match_found": true,
+    "person_id": 4410,
+    "match_found": true,
     "composite_id": [
       "de-lit-monographien_96_4_10"
     ],
-    "points": 5
+    "points": 100
   },
   "bartels, wera von": {
-    "match_found": [
+    "correct_match": [
       "bartels, wera von",
       100.0,
       {
@@ -1583,14 +2213,15 @@
         "first": "wera von"
       }
     ],
-    "u_person_id": 292,
-    "u_match_found": true,
+    "person_id": 292,
+    "match_found": true,
     "composite_id": [
       "bibliophile_186_8_10"
-    ]
+    ],
+    "points": 100
   },
   "schlabrendorf, gustav von": {
-    "match_found": [
+    "correct_match": [
       "schlabrendorf, gustav von",
       100.0,
       {
@@ -1599,14 +2230,15 @@
         "first": "gustav von"
       }
     ],
-    "u_person_id": 6073,
-    "u_match_found": true,
+    "person_id": 6073,
+    "match_found": true,
     "composite_id": [
       "bibliophile_189_8_10"
-    ]
+    ],
+    "points": 100
   },
   "trubetzkoy, n.s.": {
-    "match_found": [
+    "correct_match": [
       "trubetzkoy, n.s.",
       100.0,
       {
@@ -1615,14 +2247,15 @@
         "first": "n.s."
       }
     ],
-    "u_person_id": 7077,
-    "u_match_found": true,
+    "person_id": 7077,
+    "match_found": true,
     "composite_id": [
       "russland_358_15_17"
-    ]
+    ],
+    "points": 100
   },
   "sacher masoch, alexander": {
-    "match_found": [
+    "correct_match": [
       "sacher-masoch, alexander",
       94.85507246376811,
       {
@@ -1631,15 +2264,15 @@
         "first": "alexander"
       }
     ],
-    "u_person_id": 5878,
-    "u_match_found": true,
+    "person_id": 5878,
+    "match_found": true,
     "composite_id": [
       "signierte_174_7_10"
     ],
-    "points": 8
+    "points": 100
   },
   "kleemeier, friedr. joh.": {
-    "match_found": [
+    "correct_match": [
       "kleemeier, friedrich johannes",
       90.83886628114513,
       {
@@ -1648,15 +2281,15 @@
         "first": "friedrich johannes"
       }
     ],
-    "u_person_id": 3505,
-    "u_match_found": true,
+    "person_id": 3505,
+    "match_found": true,
     "composite_id": [
       "buch_104_5_8"
     ],
-    "points": 5
+    "points": 100
   },
   "lamennais, f. de": {
-    "match_found": [
+    "correct_match": [
       "lamennais, f. de",
       100.0,
       {
@@ -1665,15 +2298,16 @@
         "first": "f. de"
       }
     ],
-    "u_person_id": 3900,
-    "u_match_found": true,
+    "person_id": 3900,
+    "match_found": true,
     "composite_id": [
       "buch_108_5_8",
       "bibliophile_143_6_10"
-    ]
+    ],
+    "points": 100
   },
   "droste-hülshoff, anette von": {
-    "match_found": [
+    "correct_match": [
       "droste-hülshoff, annette von",
       97.06349206349206,
       {
@@ -1682,16 +2316,16 @@
         "first": "annette von"
       }
     ],
-    "u_person_id": 1472,
-    "u_match_found": true,
+    "person_id": 1472,
+    "match_found": true,
     "composite_id": [
       "briefe_131_6_15",
       "illustrierte_97_4_14"
     ],
-    "points": 5
+    "points": 100
   },
   "bertele, hans von": {
-    "match_found": [
+    "correct_match": [
       "bertele, hans von",
       100.0,
       {
@@ -1700,14 +2334,15 @@
         "first": "hans von"
       }
     ],
-    "u_person_id": 513,
-    "u_match_found": true,
+    "person_id": 513,
+    "match_found": true,
     "composite_id": [
       "sonstiges_2_1_4"
-    ]
+    ],
+    "points": 100
   },
   "solovjev, w.s.": {
-    "match_found": [
+    "correct_match": [
       "solovjev, w.s.",
       100.0,
       {
@@ -1716,14 +2351,15 @@
         "first": "w.s."
       }
     ],
-    "u_person_id": 6572,
-    "u_match_found": true,
+    "person_id": 6572,
+    "match_found": true,
     "composite_id": [
       "philosophie_303_13_24"
-    ]
+    ],
+    "points": 100
   },
   "schauer, georg": {
-    "match_found": [
+    "correct_match": [
       "schauer, georg",
       100.0,
       {
@@ -1732,14 +2368,15 @@
         "first": "georg"
       }
     ],
-    "u_person_id": 5995,
-    "u_match_found": true,
+    "person_id": 5995,
+    "match_found": true,
     "composite_id": [
       "bibliophile_12_1_10"
-    ]
+    ],
+    "points": 100
   },
   "gütersloh, paris": {
-    "match_found": [
+    "correct_match": [
       "gütersloh, paris von",
       96.0,
       {
@@ -1748,15 +2385,15 @@
         "first": "paris von"
       }
     ],
-    "u_person_id": 2470,
-    "u_match_found": true,
+    "person_id": 2470,
+    "match_found": true,
     "composite_id": [
       "bibliophile_14_1_10"
     ],
-    "points": 9
+    "points": 100
   },
   "wieland, c. m.": {
-    "match_found": [
+    "correct_match": [
       "wieland, c. m.",
       100.0,
       {
@@ -1765,8 +2402,8 @@
         "first": "c. m."
       }
     ],
-    "u_person_id": 7533,
-    "u_match_found": true,
+    "person_id": 7533,
+    "match_found": true,
     "composite_id": [
       "antike_75_4_9",
       "briefe_240_10_15",
@@ -1774,10 +2411,11 @@
       "briefe_367_15_15",
       "briefe_190_8_15",
       "antike_210_9_9"
-    ]
+    ],
+    "points": 100
   },
   "kandinsky, w.": {
-    "match_found": [
+    "correct_match": [
       "kandinsky, w.",
       100.0,
       {
@@ -1786,14 +2424,15 @@
         "first": "w."
       }
     ],
-    "u_person_id": 3329,
-    "u_match_found": true,
+    "person_id": 3329,
+    "match_found": true,
     "composite_id": [
       "musik_119_5_11"
-    ]
+    ],
+    "points": 100
   },
   "webern, ant.v.": {
-    "match_found": [
+    "correct_match": [
       "webern, ant. v.",
       98.66666666666667,
       {
@@ -1802,15 +2441,15 @@
         "first": "ant. v."
       }
     ],
-    "u_person_id": 7401,
-    "u_match_found": true,
+    "person_id": 7401,
+    "match_found": true,
     "composite_id": [
       "musik_119_5_11"
     ],
-    "points": 7
+    "points": 100
   },
   "growe, bernd (nachwort)": {
-    "match_found": [
+    "correct_match": [
       "growe, bernd",
       90.43478260869566,
       {
@@ -1819,15 +2458,15 @@
         "first": "bernd"
       }
     ],
-    "u_person_id": 2399,
-    "u_match_found": true,
+    "person_id": 2399,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_433_18_38"
     ],
-    "points": 5
+    "points": 100
   },
   "arnim, l. achim von": {
-    "match_found": [
+    "correct_match": [
       "arnim, l. achim von",
       100.0,
       {
@@ -1836,15 +2475,16 @@
         "first": "l. achim von"
       }
     ],
-    "u_person_id": 157,
-    "u_match_found": true,
+    "person_id": 157,
+    "match_found": true,
     "composite_id": [
       "de-lit-texte_103_5_20",
       "de-lit-texte_104_5_20"
-    ]
+    ],
+    "points": 100
   },
   "moliere": {
-    "match_found": [
+    "correct_match": [
       "molière",
       90.95238095238095,
       {
@@ -1853,17 +2493,17 @@
         "first": ""
       }
     ],
-    "u_person_id": 4715,
-    "u_match_found": true,
+    "person_id": 4715,
+    "match_found": true,
     "composite_id": [
       "briefe_264_11_15",
       "fremdsprachige_627_26_38",
       "fremdsprachige_645_26_38"
     ],
-    "points": 5
+    "points": 100
   },
   "montgelas, graf albrecht": {
-    "match_found": [
+    "correct_match": [
       "montgelas, graf albrecht",
       100.0,
       {
@@ -1872,14 +2512,15 @@
         "first": "graf albrecht"
       }
     ],
-    "u_person_id": 2320,
-    "u_match_found": true,
+    "person_id": 2320,
+    "match_found": true,
     "composite_id": [
       "biographie_370_15_27"
-    ]
+    ],
+    "points": 100
   },
   "pissecker, walter (text)": {
-    "match_found": [
+    "correct_match": [
       "pissecker, walter",
       94.16666666666667,
       {
@@ -1888,15 +2529,15 @@
         "first": "walter"
       }
     ],
-    "u_person_id": 5298,
-    "u_match_found": true,
+    "person_id": 5298,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_211_9_38"
     ],
-    "points": 6
+    "points": 100
   },
   "stadlmann, franz (buchgestaltung)": {
-    "match_found": [
+    "correct_match": [
       "stadlmann, franz",
       89.6969696969697,
       {
@@ -1905,15 +2546,15 @@
         "first": "franz"
       }
     ],
-    "u_person_id": 6641,
-    "u_match_found": true,
+    "person_id": 6641,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_211_9_38"
     ],
-    "points": 5
+    "points": 100
   },
   "klinger, johann (fotos)": {
-    "match_found": [
+    "correct_match": [
       "klinger, johann",
       93.04347826086958,
       {
@@ -1922,15 +2563,15 @@
         "first": "johann"
       }
     ],
-    "u_person_id": 3544,
-    "u_match_found": true,
+    "person_id": 3544,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_211_9_38"
     ],
-    "points": 6
+    "points": 100
   },
   "holzhacker, karl (fotos)": {
-    "match_found": [
+    "correct_match": [
       "holzhacker, karl",
       93.33333333333333,
       {
@@ -1939,15 +2580,15 @@
         "first": "karl"
       }
     ],
-    "u_person_id": 3002,
-    "u_match_found": true,
+    "person_id": 3002,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_211_9_38"
     ],
-    "points": 6
+    "points": 100
   },
   "kammler, fritz (fotos)": {
-    "match_found": [
+    "correct_match": [
       "kammler, fritz",
       92.72727272727272,
       {
@@ -1956,15 +2597,15 @@
         "first": "fritz"
       }
     ],
-    "u_person_id": 3319,
-    "u_match_found": true,
+    "person_id": 3319,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_211_9_38"
     ],
-    "points": 6
+    "points": 100
   },
   "esterházy, peter": {
-    "match_found": [
+    "correct_match": [
       "esterhazy, peter",
       97.5,
       {
@@ -1973,17 +2614,17 @@
         "first": "peter"
       }
     ],
-    "u_person_id": 1685,
-    "u_match_found": true,
+    "person_id": 1685,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_366_15_38",
       "fremdsprachige_367_15_38",
       "fremdsprachige_369_15_38"
     ],
-    "points": 7
+    "points": 100
   },
   "raleigh, sir walter": {
-    "match_found": [
+    "correct_match": [
       "raleigh, sir walter",
       100.0,
       {
@@ -1992,14 +2633,15 @@
         "first": "sir walter"
       }
     ],
-    "u_person_id": 5497,
-    "u_match_found": true,
+    "person_id": 5497,
+    "match_found": true,
     "composite_id": [
       "reisen_256_11_13"
-    ]
+    ],
+    "points": 100
   },
   "rubruk, wilhelm von": {
-    "match_found": [
+    "correct_match": [
       "rubruk, wilhelm von",
       100.0,
       {
@@ -2008,14 +2650,15 @@
         "first": "wilhelm von"
       }
     ],
-    "u_person_id": 5825,
-    "u_match_found": true,
+    "person_id": 5825,
+    "match_found": true,
     "composite_id": [
       "reisen_262_11_13"
-    ]
+    ],
+    "points": 100
   },
   "morel, p. gall": {
-    "match_found": [
+    "correct_match": [
       "morel, p. gall",
       100.0,
       {
@@ -2024,14 +2667,15 @@
         "first": "p. gall"
       }
     ],
-    "u_person_id": 4741,
-    "u_match_found": true,
+    "person_id": 4741,
+    "match_found": true,
     "composite_id": [
       "christentum_53_3_6"
-    ]
+    ],
+    "points": 100
   },
   "voragine, jacobus de": {
-    "match_found": [
+    "correct_match": [
       "voragine, jacobus de",
       100.0,
       {
@@ -2040,14 +2684,15 @@
         "first": "jacobus de"
       }
     ],
-    "u_person_id": 3167,
-    "u_match_found": true,
+    "person_id": 3167,
+    "match_found": true,
     "composite_id": [
       "christentum_73_3_6"
-    ]
+    ],
+    "points": 100
   },
   "müller, hans von": {
-    "match_found": [
+    "correct_match": [
       "müller, hans wolfgang",
       93.03571428571429,
       {
@@ -2056,15 +2701,15 @@
         "first": "hans wolfgang"
       }
     ],
-    "u_person_id": 4808,
-    "u_match_found": true,
+    "person_id": 4808,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_724_29_78"
     ],
-    "points": 6
+    "points": 100
   },
   "seneca, l.annaeus": {
-    "match_found": [
+    "correct_match": [
       "seneca, l. annaeus",
       98.88888888888889,
       {
@@ -2073,15 +2718,15 @@
         "first": "l. annaeus"
       }
     ],
-    "u_person_id": 6459,
-    "u_match_found": true,
+    "person_id": 6459,
+    "match_found": true,
     "composite_id": [
       "antike_125_6_9"
     ],
-    "points": 7
+    "points": 100
   },
   "kandinsky, wassily": {
-    "match_found": [
+    "correct_match": [
       "kandinsky, wassily",
       100.0,
       {
@@ -2090,14 +2735,15 @@
         "first": "wassily"
       }
     ],
-    "u_person_id": 3329,
-    "u_match_found": true,
+    "person_id": 3329,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_474_19_38"
-    ]
+    ],
+    "points": 100
   },
   "müller, friedrich (mahler müller)": {
-    "match_found": [
+    "correct_match": [
       "müller, friedrich von (kanzler)",
       88.88054740957966,
       {
@@ -2106,15 +2752,15 @@
         "first": "friedrich von (kanzler)"
       }
     ],
-    "u_person_id": 4801,
-    "u_match_found": true,
+    "person_id": 4801,
+    "match_found": true,
     "composite_id": [
       "musik_90_4_11"
     ],
-    "points": 6
+    "points": 100
   },
   "gogol, nicolai": {
-    "match_found": [
+    "correct_match": [
       "gogol, nikolai",
       97.14285714285714,
       {
@@ -2123,18 +2769,18 @@
         "first": "nikolai"
       }
     ],
-    "u_person_id": 2242,
-    "u_match_found": true,
+    "person_id": 2242,
+    "match_found": true,
     "composite_id": [
       "russland_135_6_17",
       "russland_136_6_17",
       "russland_137_6_17",
       "insel_502_21_27"
     ],
-    "points": 7
+    "points": 100
   },
   "gogol, nikolaj": {
-    "match_found": [
+    "correct_match": [
       "gogol, nikolai",
       97.14285714285714,
       {
@@ -2143,15 +2789,15 @@
         "first": "nikolai"
       }
     ],
-    "u_person_id": 2242,
-    "u_match_found": true,
+    "person_id": 2242,
+    "match_found": true,
     "composite_id": [
       "russland_141_6_17"
     ],
-    "points": 9
+    "points": 100
   },
   "scholz, a.": {
-    "match_found": [
+    "correct_match": [
       "scholz, a.",
       100.0,
       {
@@ -2160,14 +2806,15 @@
         "first": "a."
       }
     ],
-    "u_person_id": 6242,
-    "u_match_found": true,
+    "person_id": 6242,
+    "match_found": true,
     "composite_id": [
       "russland_149_6_17"
-    ]
+    ],
+    "points": 100
   },
   "bülow, ulrich von": {
-    "match_found": [
+    "correct_match": [
       "bülow, ulrich von",
       100.0,
       {
@@ -2176,14 +2823,15 @@
         "first": "ulrich von"
       }
     ],
-    "u_person_id": 905,
-    "u_match_found": true,
+    "person_id": 905,
+    "match_found": true,
     "composite_id": [
       "philosophie_82_4_24"
-    ]
+    ],
+    "points": 100
   },
   "fetscher, iring": {
-    "match_found": [
+    "correct_match": [
       "fetscher, iring",
       100.0,
       {
@@ -2192,14 +2840,15 @@
         "first": "iring"
       }
     ],
-    "u_person_id": 1783,
-    "u_match_found": true,
+    "person_id": 1783,
+    "match_found": true,
     "composite_id": [
       "ethnologie_163_7_13"
-    ]
+    ],
+    "points": 100
   },
   "gombrich, ernst": {
-    "match_found": [
+    "correct_match": [
       "gombrich, ernst h.",
       96.66666666666667,
       {
@@ -2208,15 +2857,15 @@
         "first": "ernst h."
       }
     ],
-    "u_person_id": 2260,
-    "u_match_found": true,
+    "person_id": 2260,
+    "match_found": true,
     "composite_id": [
       "kinder_86_4_4"
     ],
-    "points": 7
+    "points": 100
   },
   "holleuffer, conrad von": {
-    "match_found": [
+    "correct_match": [
       "holleuffer, conrad von",
       100.0,
       {
@@ -2225,14 +2874,15 @@
         "first": "conrad von"
       }
     ],
-    "u_person_id": 2990,
-    "u_match_found": true,
+    "person_id": 2990,
+    "match_found": true,
     "composite_id": [
       "biographie_349_14_27"
-    ]
+    ],
+    "points": 100
   },
   "gütersloh, a.p.": {
-    "match_found": [
+    "correct_match": [
       "gütersloh, a. p.",
       98.75,
       {
@@ -2241,15 +2891,15 @@
         "first": "a. p."
       }
     ],
-    "u_person_id": 2470,
-    "u_match_found": true,
+    "person_id": 2470,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_188_8_38"
     ],
-    "points": 7
+    "points": 100
   },
   "hammerstiiel, robert": {
-    "match_found": [
+    "correct_match": [
       "hammerstiel, robert",
       99.0,
       {
@@ -2258,14 +2908,15 @@
         "first": "robert"
       }
     ],
-    "u_person_id": 2569,
-    "u_match_found": true,
+    "person_id": 2569,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_192_8_38"
-    ]
+    ],
+    "points": 100
   },
   "haider, edgard": {
-    "match_found": [
+    "correct_match": [
       "haider, edgar",
       98.57142857142858,
       {
@@ -2274,15 +2925,15 @@
         "first": "edgar"
       }
     ],
-    "u_person_id": 2540,
-    "u_match_found": true,
+    "person_id": 2540,
+    "match_found": true,
     "composite_id": [
       "wien_44_2_10"
     ],
-    "points": 7
+    "points": 100
   },
   "massenbach, sigrid von": {
-    "match_found": [
+    "correct_match": [
       "massenbach, sigrid von",
       100.0,
       {
@@ -2291,15 +2942,16 @@
         "first": "sigrid von"
       }
     ],
-    "u_person_id": 4463,
-    "u_match_found": true,
+    "person_id": 4463,
+    "match_found": true,
     "composite_id": [
       "biographie_528_22_27",
       "biographie_528_22_27"
-    ]
+    ],
+    "points": 100
   },
   "moritz, k. ph.": {
-    "match_found": [
+    "correct_match": [
       "moritz, k. ph.",
       100.0,
       {
@@ -2308,14 +2960,15 @@
         "first": "k. ph."
       }
     ],
-    "u_person_id": 4749,
-    "u_match_found": true,
+    "person_id": 4749,
+    "match_found": true,
     "composite_id": [
       "biographie_532_22_27"
-    ]
+    ],
+    "points": 100
   },
   "könig, franz kardinal": {
-    "match_found": [
+    "correct_match": [
       "könig, franz",
       91.42857142857143,
       {
@@ -2324,15 +2977,15 @@
         "first": "franz"
       }
     ],
-    "u_person_id": 3638,
-    "u_match_found": true,
+    "person_id": 3638,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_230_10_38"
     ],
-    "points": 6
+    "points": 100
   },
   "rousseau, j.j.": {
-    "match_found": [
+    "correct_match": [
       "rousseau, j.j.",
       100.0,
       {
@@ -2341,14 +2994,15 @@
         "first": "j.j."
       }
     ],
-    "u_person_id": 5816,
-    "u_match_found": true,
+    "person_id": 5816,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_783_32_38"
-    ]
+    ],
+    "points": 100
   },
   "grolman, adolf von": {
-    "match_found": [
+    "correct_match": [
       "grolman, adolf von",
       100.0,
       {
@@ -2357,14 +3011,15 @@
         "first": "adolf von"
       }
     ],
-    "u_person_id": 2387,
-    "u_match_found": true,
+    "person_id": 2387,
+    "match_found": true,
     "composite_id": [
       "insel_82_4_27"
-    ]
+    ],
+    "points": 100
   },
   "zafon, carlos ruiz": {
-    "match_found": [
+    "correct_match": [
       "zafón, carlos ruiz",
       91.91721132897604,
       {
@@ -2373,15 +3028,15 @@
         "first": "carlos ruiz"
       }
     ],
-    "u_person_id": 7717,
-    "u_match_found": true,
+    "person_id": 7717,
+    "match_found": true,
     "composite_id": [
       "insel_86_4_27"
     ],
-    "points": 6
+    "points": 100
   },
   "tolstoi, graf alexej k.": {
-    "match_found": [
+    "correct_match": [
       "tolstoi, graf alexej k.",
       100.0,
       {
@@ -2390,14 +3045,15 @@
         "first": "graf alexej k."
       }
     ],
-    "u_person_id": 7017,
-    "u_match_found": true,
+    "person_id": 7017,
+    "match_found": true,
     "composite_id": [
       "russland_329_14_17"
-    ]
+    ],
+    "points": 100
   },
   "tolstoi, graf alexej r.": {
-    "match_found": [
+    "correct_match": [
       "tolstoi, graf alexej r.",
       100.0,
       {
@@ -2406,14 +3062,15 @@
         "first": "graf alexej r."
       }
     ],
-    "u_person_id": 7018,
-    "u_match_found": true,
+    "person_id": 7018,
+    "match_found": true,
     "composite_id": [
       "russland_330_14_17"
-    ]
+    ],
+    "points": 100
   },
   "tolstoi, graf leo": {
-    "match_found": [
+    "correct_match": [
       "tolstoi, graf leo",
       100.0,
       {
@@ -2422,17 +3079,18 @@
         "first": "graf leo"
       }
     ],
-    "u_person_id": 7019,
-    "u_match_found": true,
+    "person_id": 7019,
+    "match_found": true,
     "composite_id": [
       "russland_331_14_17",
       "russland_332_14_17",
       "russland_333_14_17",
       "russland_334_14_17"
-    ]
+    ],
+    "points": 100
   },
   "lilienthal, wilh.": {
-    "match_found": [
+    "correct_match": [
       "lilienthal, wilh.",
       100.0,
       {
@@ -2441,14 +3099,15 @@
         "first": "wilh."
       }
     ],
-    "u_person_id": 4149,
-    "u_match_found": true,
+    "person_id": 4149,
+    "match_found": true,
     "composite_id": [
       "russland_331_14_17"
-    ]
+    ],
+    "points": 100
   },
   "tolstoi, graf leo n.": {
-    "match_found": [
+    "correct_match": [
       "tolstoi, graf leo n.",
       100.0,
       {
@@ -2457,14 +3116,15 @@
         "first": "graf leo n."
       }
     ],
-    "u_person_id": 7019,
-    "u_match_found": true,
+    "person_id": 7019,
+    "match_found": true,
     "composite_id": [
       "russland_335_14_17"
-    ]
+    ],
+    "points": 100
   },
   "tolstoi, lew": {
-    "match_found": [
+    "correct_match": [
       "tolstoi, lew",
       100.0,
       {
@@ -2473,16 +3133,17 @@
         "first": "lew"
       }
     ],
-    "u_person_id": 7019,
-    "u_match_found": true,
+    "person_id": 7019,
+    "match_found": true,
     "composite_id": [
       "russland_343_14_17",
       "russland_344_14_17",
       "russland_346_14_17"
-    ]
+    ],
+    "points": 100
   },
   "tolstoi, lew n.": {
-    "match_found": [
+    "correct_match": [
       "tolstoi, lew n.",
       100.0,
       {
@@ -2491,14 +3152,15 @@
         "first": "lew n."
       }
     ],
-    "u_person_id": 7019,
-    "u_match_found": true,
+    "person_id": 7019,
+    "match_found": true,
     "composite_id": [
       "russland_347_14_17"
-    ]
+    ],
+    "points": 100
   },
   "tolstoj, graf leo": {
-    "match_found": [
+    "correct_match": [
       "tolstoj, graf leo",
       100.0,
       {
@@ -2507,14 +3169,15 @@
         "first": "graf leo"
       }
     ],
-    "u_person_id": 7019,
-    "u_match_found": true,
+    "person_id": 7019,
+    "match_found": true,
     "composite_id": [
       "russland_348_14_17"
-    ]
+    ],
+    "points": 100
   },
   "metternich, clemens fürst von": {
-    "match_found": [
+    "correct_match": [
       "metternich, clemens fürst von",
       100.0,
       {
@@ -2523,14 +3186,15 @@
         "first": "clemens fürst von"
       }
     ],
-    "u_person_id": 4614,
-    "u_match_found": true,
+    "person_id": 4614,
+    "match_found": true,
     "composite_id": [
       "neuzeit_39_2_4"
-    ]
+    ],
+    "points": 100
   },
   "hedin, sven v.": {
-    "match_found": [
+    "correct_match": [
       "hedin, sven v.",
       100.0,
       {
@@ -2539,14 +3203,15 @@
         "first": "sven v."
       }
     ],
-    "u_person_id": 2695,
-    "u_match_found": true,
+    "person_id": 2695,
+    "match_found": true,
     "composite_id": [
       "reisen_30_2_13"
-    ]
+    ],
+    "points": 100
   },
   "weiss, walter m.": {
-    "match_found": [
+    "correct_match": [
       "weiss, walter m.",
       100.0,
       {
@@ -2555,14 +3220,15 @@
         "first": "walter m."
       }
     ],
-    "u_person_id": 7460,
-    "u_match_found": true,
+    "person_id": 7460,
+    "match_found": true,
     "composite_id": [
       "reisen_40_2_13"
-    ]
+    ],
+    "points": 100
   },
   "bataille, george": {
-    "match_found": [
+    "correct_match": [
       "bataille, georges",
       98.82352941176471,
       {
@@ -2571,15 +3237,15 @@
         "first": "georges"
       }
     ],
-    "u_person_id": 314,
-    "u_match_found": true,
+    "person_id": 314,
+    "match_found": true,
     "composite_id": [
       "suchliste_1_1_3"
     ],
-    "points": 7
+    "points": 100
   },
   "duerr, hans peer": {
-    "match_found": [
+    "correct_match": [
       "duerr, hans peter",
       98.82352941176471,
       {
@@ -2588,15 +3254,15 @@
         "first": "hans peter"
       }
     ],
-    "u_person_id": 1490,
-    "u_match_found": true,
+    "person_id": 1490,
+    "match_found": true,
     "composite_id": [
       "suchliste_11_1_3"
     ],
-    "points": 8
+    "points": 100
   },
   "hoffmann, e.t.a": {
-    "match_found": [
+    "correct_match": [
       "hoffmann, e.t.a.",
       98.75,
       {
@@ -2605,17 +3271,17 @@
         "first": "e.t.a."
       }
     ],
-    "u_person_id": 2943,
-    "u_match_found": true,
+    "person_id": 2943,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_725_30_78",
       "illustrierte_170_7_14",
       "illustrierte_171_7_14"
     ],
-    "points": 8
+    "points": 100
   },
   "müller, friedrich von": {
-    "match_found": [
+    "correct_match": [
       "müller, friedrich von",
       100.0,
       {
@@ -2624,14 +3290,15 @@
         "first": "friedrich von"
       }
     ],
-    "u_person_id": 4801,
-    "u_match_found": true,
+    "person_id": 4801,
+    "match_found": true,
     "composite_id": [
       "briefe_153_7_15"
-    ]
+    ],
+    "points": 100
   },
   "gogh, vincent van": {
-    "match_found": [
+    "correct_match": [
       "gogh, vincent van",
       100.0,
       {
@@ -2640,15 +3307,16 @@
         "first": "vincent van"
       }
     ],
-    "u_person_id": 2240,
-    "u_match_found": true,
+    "person_id": 2240,
+    "match_found": true,
     "composite_id": [
       "briefe_157_7_15",
       "briefe_158_7_15"
-    ]
+    ],
+    "points": 100
   },
   "gogh-bonger, johanna gesina von": {
-    "match_found": [
+    "correct_match": [
       "gogh-bonger, johanna gesina von",
       100.0,
       {
@@ -2657,14 +3325,15 @@
         "first": "johanna gesina von"
       }
     ],
-    "u_person_id": 2239,
-    "u_match_found": true,
+    "person_id": 2239,
+    "match_found": true,
     "composite_id": [
       "briefe_158_7_15"
-    ]
+    ],
+    "points": 100
   },
   "herder, johann gottfried von": {
-    "match_found": [
+    "correct_match": [
       "herder, johann gottfried von",
       100.0,
       {
@@ -2673,15 +3342,16 @@
         "first": "johann gottfried von"
       }
     ],
-    "u_person_id": 2792,
-    "u_match_found": true,
+    "person_id": 2792,
+    "match_found": true,
     "composite_id": [
       "briefe_173_7_15",
       "bibliophile_124_5_10"
-    ]
+    ],
+    "points": 100
   },
   "franke, herbert w.": {
-    "match_found": [
+    "correct_match": [
       "franke, herbert",
       96.66666666666667,
       {
@@ -2690,15 +3360,15 @@
         "first": "herbert"
       }
     ],
-    "u_person_id": 1909,
-    "u_match_found": true,
+    "person_id": 1909,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_9_1_38"
     ],
-    "points": 7
+    "points": 100
   },
   "rohbeck, johannes (einleitung)": {
-    "match_found": [
+    "correct_match": [
       "rohbeck, johannes",
       91.33333333333333,
       {
@@ -2707,15 +3377,15 @@
         "first": "johannes"
       }
     ],
-    "u_person_id": 5744,
-    "u_match_found": true,
+    "person_id": 5744,
+    "match_found": true,
     "composite_id": [
       "philosophie_583_24_24"
     ],
-    "points": 6
+    "points": 100
   },
   "andreas-salome, lou": {
-    "match_found": [
+    "correct_match": [
       "andreas-salomé, lou",
       97.89473684210526,
       {
@@ -2724,15 +3394,15 @@
         "first": "lou"
       }
     ],
-    "u_person_id": 104,
-    "u_match_found": true,
+    "person_id": 104,
+    "match_found": true,
     "composite_id": [
       "biographie_75_4_27"
     ],
-    "points": 7
+    "points": 100
   },
   "wegele, franz von": {
-    "match_found": [
+    "correct_match": [
       "wegele, franz von",
       100.0,
       {
@@ -2741,14 +3411,15 @@
         "first": "franz von"
       }
     ],
-    "u_person_id": 7408,
-    "u_match_found": true,
+    "person_id": 7408,
+    "match_found": true,
     "composite_id": [
       "biographie_84_4_27"
-    ]
+    ],
+    "points": 100
   },
   "keyserling, graf hermann": {
-    "match_found": [
+    "correct_match": [
       "keyserling, graf hermann",
       100.0,
       {
@@ -2757,17 +3428,18 @@
         "first": "graf hermann"
       }
     ],
-    "u_person_id": 3444,
-    "u_match_found": true,
+    "person_id": 3444,
+    "match_found": true,
     "composite_id": [
       "philosophie_188_8_24",
       "philosophie_189_8_24",
       "philosophie_190_8_24",
       "philosophie_191_8_24"
-    ]
+    ],
+    "points": 100
   },
   "grimmelshausen, johann jakob cristoffel von": {
-    "match_found": [
+    "correct_match": [
       "grimmelshausen, hans jakob christoffel von",
       91.65227021040975,
       {
@@ -2776,15 +3448,15 @@
         "first": "hans jakob christoffel von"
       }
     ],
-    "u_person_id": 2378,
-    "u_match_found": true,
+    "person_id": 2378,
+    "match_found": true,
     "composite_id": [
       "illustrierte_146_6_14"
     ],
-    "points": 5
+    "points": 100
   },
   "hellingrath, norbert v.": {
-    "match_found": [
+    "correct_match": [
       "hellingrath, norbert v.",
       100.0,
       {
@@ -2793,14 +3465,15 @@
         "first": "norbert v."
       }
     ],
-    "u_person_id": 2754,
-    "u_match_found": true,
+    "person_id": 2754,
+    "match_found": true,
     "composite_id": [
       "briefe_33_2_15"
-    ]
+    ],
+    "points": 100
   },
   "pigenot, ludwig v.": {
-    "match_found": [
+    "correct_match": [
       "pigenot, ludwig v.",
       100.0,
       {
@@ -2809,14 +3482,15 @@
         "first": "ludwig v."
       }
     ],
-    "u_person_id": 5275,
-    "u_match_found": true,
+    "person_id": 5275,
+    "match_found": true,
     "composite_id": [
       "briefe_33_2_15"
-    ]
+    ],
+    "points": 100
   },
   "schirnding, albert von": {
-    "match_found": [
+    "correct_match": [
       "schirnding, albert von",
       100.0,
       {
@@ -2825,14 +3499,15 @@
         "first": "albert von"
       }
     ],
-    "u_person_id": 6069,
-    "u_match_found": true,
+    "person_id": 6069,
+    "match_found": true,
     "composite_id": [
       "briefe_40_2_15"
-    ]
+    ],
+    "points": 100
   },
   "friedenthal, r.": {
-    "match_found": [
+    "correct_match": [
       "friedenthal, r.",
       100.0,
       {
@@ -2841,14 +3516,15 @@
         "first": "r."
       }
     ],
-    "u_person_id": 1950,
-    "u_match_found": true,
+    "person_id": 1950,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_1944_78_78"
-    ]
+    ],
+    "points": 100
   },
   "guenther, johannes von": {
-    "match_found": [
+    "correct_match": [
       "guenther, johannes von",
       100.0,
       {
@@ -2857,16 +3533,17 @@
         "first": "johannes von"
       }
     ],
-    "u_person_id": 2437,
-    "u_match_found": true,
+    "person_id": 2437,
+    "match_found": true,
     "composite_id": [
       "signierte_74_3_10",
       "russland_261_11_17",
       "erstausgaben_660_27_78"
-    ]
+    ],
+    "points": 100
   },
   "wilhelm, hellmut": {
-    "match_found": [
+    "correct_match": [
       "wilhelm, hellmut",
       100.0,
       {
@@ -2875,14 +3552,15 @@
         "first": "hellmut"
       }
     ],
-    "u_person_id": 7566,
-    "u_match_found": true,
+    "person_id": 7566,
+    "match_found": true,
     "composite_id": [
       "philosophie_505_21_24"
-    ]
+    ],
+    "points": 100
   },
   "gleichen-rußwurm, alexander von": {
-    "match_found": [
+    "correct_match": [
       "gleichen-rußwurm, alexander von",
       100.0,
       {
@@ -2891,14 +3569,15 @@
         "first": "alexander von"
       }
     ],
-    "u_person_id": 2211,
-    "u_match_found": true,
+    "person_id": 2211,
+    "match_found": true,
     "composite_id": [
       "philosophie_510_21_24"
-    ]
+    ],
+    "points": 100
   },
   "madariaga, salvador de": {
-    "match_found": [
+    "correct_match": [
       "madariaga, salvador de",
       100.0,
       {
@@ -2907,14 +3586,15 @@
         "first": "salvador de"
       }
     ],
-    "u_person_id": 4312,
-    "u_match_found": true,
+    "person_id": 4312,
+    "match_found": true,
     "composite_id": [
       "philosophie_512_21_24"
-    ]
+    ],
+    "points": 100
   },
   "lauf, detlef-i.": {
-    "match_found": [
+    "correct_match": [
       "lauf, detlef-ingo",
       95.13725490196077,
       {
@@ -2923,15 +3603,15 @@
         "first": "detlef-ingo"
       }
     ],
-    "u_person_id": 3965,
-    "u_match_found": true,
+    "person_id": 3965,
+    "match_found": true,
     "composite_id": [
       "buddhismus_60_3_3"
     ],
-    "points": 6
+    "points": 100
   },
   "dombrowski, ernst von": {
-    "match_found": [
+    "correct_match": [
       "dombrowski, ernst von",
       100.0,
       {
@@ -2940,16 +3620,17 @@
         "first": "ernst von"
       }
     ],
-    "u_person_id": 1417,
-    "u_match_found": true,
+    "person_id": 1417,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_1168_47_78",
       "signierte_42_2_10",
       "de-lit-monographien_15_1_10"
-    ]
+    ],
+    "points": 100
   },
   "lefort, gertrud von": {
-    "match_found": [
+    "correct_match": [
       "lefort, gertrud von",
       100.0,
       {
@@ -2958,14 +3639,15 @@
         "first": "gertrud von"
       }
     ],
-    "u_person_id": 7275,
-    "u_match_found": true,
+    "person_id": 7275,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_1173_47_78"
-    ]
+    ],
+    "points": 100
   },
   "görres, joseph von": {
-    "match_found": [
+    "correct_match": [
       "görres, joseph von",
       100.0,
       {
@@ -2974,15 +3656,16 @@
         "first": "joseph von"
       }
     ],
-    "u_person_id": 2284,
-    "u_match_found": true,
+    "person_id": 2284,
+    "match_found": true,
     "composite_id": [
       "de-lit-texte_175_8_20",
       "neuzeit_73_3_4"
-    ]
+    ],
+    "points": 100
   },
   "gogol, nicolaj": {
-    "match_found": [
+    "correct_match": [
       "gogol, nikolai",
       94.28571428571428,
       {
@@ -2991,15 +3674,15 @@
         "first": "nikolai"
       }
     ],
-    "u_person_id": 2242,
-    "u_match_found": true,
+    "person_id": 2242,
+    "match_found": true,
     "composite_id": [
       "insel_503_21_27"
     ],
-    "points": 6
+    "points": 100
   },
   "gogol, nikolai": {
-    "match_found": [
+    "correct_match": [
       "gogol, nikolai",
       100.0,
       {
@@ -3008,14 +3691,15 @@
         "first": "nikolai"
       }
     ],
-    "u_person_id": 2242,
-    "u_match_found": true,
+    "person_id": 2242,
+    "match_found": true,
     "composite_id": [
       "insel_504_21_27"
-    ]
+    ],
+    "points": 100
   },
   "goeppert-frank, herma": {
-    "match_found": [
+    "correct_match": [
       "goeppert-frank, herma",
       100.0,
       {
@@ -3024,15 +3708,16 @@
         "first": "herma"
       }
     ],
-    "u_person_id": 2229,
-    "u_match_found": true,
+    "person_id": 2229,
+    "match_found": true,
     "composite_id": [
       "insel_520_21_27",
       "insel_520_21_27"
-    ]
+    ],
+    "points": 100
   },
   "rogler, m.j.b.": {
-    "match_found": [
+    "correct_match": [
       "rogler, m.j.b.",
       100.0,
       {
@@ -3041,15 +3726,16 @@
         "first": "m.j.b."
       }
     ],
-    "u_person_id": 5743,
-    "u_match_found": true,
+    "person_id": 5743,
+    "match_found": true,
     "composite_id": [
       "buch_25_2_8",
       "literatur_10_1_12"
-    ]
+    ],
+    "points": 100
   },
   "nebehay, christian": {
-    "match_found": [
+    "correct_match": [
       "nebehay, christian m.",
       97.14285714285714,
       {
@@ -3058,15 +3744,15 @@
         "first": "christian m."
       }
     ],
-    "u_person_id": 4888,
-    "u_match_found": true,
+    "person_id": 4888,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_369_15_38"
     ],
-    "points": 7
+    "points": 100
   },
   "schröder, r.a.": {
-    "match_found": [
+    "correct_match": [
       "schröder, r. a.",
       98.66666666666667,
       {
@@ -3075,15 +3761,15 @@
         "first": "r. a."
       }
     ],
-    "u_person_id": 6277,
-    "u_match_found": true,
+    "person_id": 6277,
+    "match_found": true,
     "composite_id": [
       "insel_18_1_27"
     ],
-    "points": 5
+    "points": 100
   },
   "puschkin, alexander s.": {
-    "match_found": [
+    "correct_match": [
       "puschkin, alexander",
       97.27272727272728,
       {
@@ -3092,15 +3778,15 @@
         "first": "alexander"
       }
     ],
-    "u_person_id": 5443,
-    "u_match_found": true,
+    "person_id": 5443,
+    "match_found": true,
     "composite_id": [
       "russland_259_11_17"
     ],
-    "points": 7
+    "points": 100
   },
   "benz, e.": {
-    "match_found": [
+    "correct_match": [
       "benz, e.",
       100.0,
       {
@@ -3109,14 +3795,15 @@
         "first": "e."
       }
     ],
-    "u_person_id": 447,
-    "u_match_found": true,
+    "person_id": 447,
+    "match_found": true,
     "composite_id": [
       "russland_270_11_17"
-    ]
+    ],
+    "points": 100
   },
   "luther, a.": {
-    "match_found": [
+    "correct_match": [
       "luther, a.",
       100.0,
       {
@@ -3125,14 +3812,15 @@
         "first": "a."
       }
     ],
-    "u_person_id": 4269,
-    "u_match_found": true,
+    "person_id": 4269,
+    "match_found": true,
     "composite_id": [
       "russland_270_11_17"
-    ]
+    ],
+    "points": 100
   },
   "tschizewskij, d.": {
-    "match_found": [
+    "correct_match": [
       "tschizewskij, d.",
       100.0,
       {
@@ -3141,14 +3829,15 @@
         "first": "d."
       }
     ],
-    "u_person_id": 7089,
-    "u_match_found": true,
+    "person_id": 7089,
+    "match_found": true,
     "composite_id": [
       "russland_270_11_17"
-    ]
+    ],
+    "points": 100
   },
   "grandaur, georg": {
-    "match_found": [
+    "correct_match": [
       "grandaur, georg",
       100.0,
       {
@@ -3157,14 +3846,15 @@
         "first": "georg"
       }
     ],
-    "u_person_id": 2325,
-    "u_match_found": true,
+    "person_id": 2325,
+    "match_found": true,
     "composite_id": [
       "mittelalter_112_5_7"
-    ]
+    ],
+    "points": 100
   },
   "abel, otto u. wattenbach, wilhelm": {
-    "match_found": [
+    "correct_match": [
       "abel, otto",
       86.06060606060606,
       {
@@ -3173,16 +3863,16 @@
         "first": "otto"
       }
     ],
-    "u_person_id": 2,
-    "u_match_found": true,
+    "person_id": 2,
+    "match_found": true,
     "composite_id": [
       "mittelalter_116_5_7",
       "deutschland_65_3_4"
     ],
-    "points": 5
+    "points": 100
   },
   "merkelbach, r.": {
-    "match_found": [
+    "correct_match": [
       "merkelbach, r.",
       100.0,
       {
@@ -3191,14 +3881,15 @@
         "first": "r."
       }
     ],
-    "u_person_id": 4598,
-    "u_match_found": true,
+    "person_id": 4598,
+    "match_found": true,
     "composite_id": [
       "antike_63_3_9"
-    ]
+    ],
+    "points": 100
   },
   "gantner, josef": {
-    "match_found": [
+    "correct_match": [
       "gantner, josef",
       100.0,
       {
@@ -3207,14 +3898,15 @@
         "first": "josef"
       }
     ],
-    "u_person_id": 2062,
-    "u_match_found": true,
+    "person_id": 2062,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_555_23_38"
-    ]
+    ],
+    "points": 100
   },
   "roeßler, arthur": {
-    "match_found": [
+    "correct_match": [
       "roeßler, arthur",
       100.0,
       {
@@ -3223,14 +3915,15 @@
         "first": "arthur"
       }
     ],
-    "u_person_id": 5734,
-    "u_match_found": true,
+    "person_id": 5734,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_572_23_38"
-    ]
+    ],
+    "points": 100
   },
   "niebelschütz, wolf von": {
-    "match_found": [
+    "correct_match": [
       "niebelschütz, wolf von",
       100.0,
       {
@@ -3239,14 +3932,15 @@
         "first": "wolf von"
       }
     ],
-    "u_person_id": 4942,
-    "u_match_found": true,
+    "person_id": 4942,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_823_33_38"
-    ]
+    ],
+    "points": 100
   },
   "frankl, viktor": {
-    "match_found": [
+    "correct_match": [
       "frankl, viktor e.",
       96.4705882352941,
       {
@@ -3255,15 +3949,15 @@
         "first": "viktor e."
       }
     ],
-    "u_person_id": 1914,
-    "u_match_found": true,
+    "person_id": 1914,
+    "match_found": true,
     "composite_id": [
       "ethnologie_38_2_13"
     ],
-    "points": 7
+    "points": 100
   },
   "tabarelli, hans von": {
-    "match_found": [
+    "correct_match": [
       "tabarelli, hans von",
       100.0,
       {
@@ -3272,14 +3966,15 @@
         "first": "hans von"
       }
     ],
-    "u_person_id": 6887,
-    "u_match_found": true,
+    "person_id": 6887,
+    "match_found": true,
     "composite_id": [
       "wien_239_10_10"
-    ]
+    ],
+    "points": 100
   },
   "gessner, salomon": {
-    "match_found": [
+    "correct_match": [
       "gessner, salomon",
       100.0,
       {
@@ -3288,14 +3983,15 @@
         "first": "salomon"
       }
     ],
-    "u_person_id": 2149,
-    "u_match_found": true,
+    "person_id": 2149,
+    "match_found": true,
     "composite_id": [
       "bibliophile_113_5_10"
-    ]
+    ],
+    "points": 100
   },
   "grimmelshausen, h.j.chr. von": {
-    "match_found": [
+    "correct_match": [
       "grimmelshausen, h.j.chr. von",
       100.0,
       {
@@ -3304,14 +4000,15 @@
         "first": "h.j.chr. von"
       }
     ],
-    "u_person_id": 2378,
-    "u_match_found": true,
+    "person_id": 2378,
+    "match_found": true,
     "composite_id": [
       "bibliophile_119_5_10"
-    ]
+    ],
+    "points": 100
   },
   "herder, j. g. von": {
-    "match_found": [
+    "correct_match": [
       "herder, j. g. von",
       100.0,
       {
@@ -3320,14 +4017,15 @@
         "first": "j. g. von"
       }
     ],
-    "u_person_id": 2792,
-    "u_match_found": true,
+    "person_id": 2792,
+    "match_found": true,
     "composite_id": [
       "bibliophile_123_5_10"
-    ]
+    ],
+    "points": 100
   },
   "grün, anastasius (pseudonym)": {
-    "match_found": [
+    "correct_match": [
       "grün, anastasius",
       91.42857142857143,
       {
@@ -3336,15 +4034,15 @@
         "first": "anastasius"
       }
     ],
-    "u_person_id": 2409,
-    "u_match_found": true,
+    "person_id": 2409,
+    "match_found": true,
     "composite_id": [
       "de-lit-texte_17_1_20"
     ],
-    "points": 6
+    "points": 100
   },
   "haller, albrecht von": {
-    "match_found": [
+    "correct_match": [
       "haller, albrecht von",
       100.0,
       {
@@ -3353,14 +4051,15 @@
         "first": "albrecht von"
       }
     ],
-    "u_person_id": 2552,
-    "u_match_found": true,
+    "person_id": 2552,
+    "match_found": true,
     "composite_id": [
       "de-lit-texte_19_1_20"
-    ]
+    ],
+    "points": 100
   },
   "stravinsky, igor": {
-    "match_found": [
+    "correct_match": [
       "stravinsky, igor",
       100.0,
       {
@@ -3369,14 +4068,15 @@
         "first": "igor"
       }
     ],
-    "u_person_id": 6790,
-    "u_match_found": true,
+    "person_id": 6790,
+    "match_found": true,
     "composite_id": [
       "musik_1_1_11"
-    ]
+    ],
+    "points": 100
   },
   "bartok, bela": {
-    "match_found": [
+    "correct_match": [
       "bartók, béla",
       93.33333333333333,
       {
@@ -3385,15 +4085,15 @@
         "first": "béla"
       }
     ],
-    "u_person_id": 300,
-    "u_match_found": true,
+    "person_id": 300,
+    "match_found": true,
     "composite_id": [
       "musik_4_1_11"
     ],
-    "points": 6
+    "points": 100
   },
   "ehalt, hubert christian": {
-    "match_found": [
+    "correct_match": [
       "ehalt, hubert charistian",
       96.55797101449275,
       {
@@ -3402,15 +4102,15 @@
         "first": "hubert charistian"
       }
     ],
-    "u_person_id": 1558,
-    "u_match_found": true,
+    "person_id": 1558,
+    "match_found": true,
     "composite_id": [
       "monographien_8_1_3"
     ],
-    "points": 8
+    "points": 100
   },
   "wolf, hans": {
-    "match_found": [
+    "correct_match": [
       "wolf, hans",
       100.0,
       {
@@ -3419,14 +4119,15 @@
         "first": "hans"
       }
     ],
-    "u_person_id": 7644,
-    "u_match_found": true,
+    "person_id": 7644,
+    "match_found": true,
     "composite_id": [
       "monographien_14_1_3"
-    ]
+    ],
+    "points": 100
   },
   "vischer, georg matthei": {
-    "match_found": [
+    "correct_match": [
       "vischer, georg matthäus",
       95.57312252964427,
       {
@@ -3435,15 +4136,15 @@
         "first": "georg matthäus"
       }
     ],
-    "u_person_id": 7231,
-    "u_match_found": true,
+    "person_id": 7231,
+    "match_found": true,
     "composite_id": [
       "oesterreich_277_12_13"
     ],
-    "points": 6
+    "points": 100
   },
   "raddatz, fritz": {
-    "match_found": [
+    "correct_match": [
       "raddatz, fritz",
       100.0,
       {
@@ -3452,14 +4153,15 @@
         "first": "fritz"
       }
     ],
-    "u_person_id": 5475,
-    "u_match_found": true,
+    "person_id": 5475,
+    "match_found": true,
     "composite_id": [
       "briefe_343_14_15"
-    ]
+    ],
+    "points": 100
   },
   "artzibaschew, m.": {
-    "match_found": [
+    "correct_match": [
       "artzibaschew, m.p.",
       97.77777777777777,
       {
@@ -3468,16 +4170,16 @@
         "first": "m.p."
       }
     ],
-    "u_person_id": 172,
-    "u_match_found": true,
+    "person_id": 172,
+    "match_found": true,
     "composite_id": [
       "russland_35_2_17",
       "russland_36_2_17"
     ],
-    "points": 5
+    "points": 100
   },
   "artzibaschew, m.p": {
-    "match_found": [
+    "correct_match": [
       "artzibaschew, m.p.",
       98.88888888888889,
       {
@@ -3486,15 +4188,15 @@
         "first": "m.p."
       }
     ],
-    "u_person_id": 172,
-    "u_match_found": true,
+    "person_id": 172,
+    "match_found": true,
     "composite_id": [
       "russland_37_2_17"
     ],
-    "points": 5
+    "points": 100
   },
   "sacher-masoch, leopold von": {
-    "match_found": [
+    "correct_match": [
       "sacher-masoch, leopold von",
       100.0,
       {
@@ -3503,18 +4205,19 @@
         "first": "leopold von"
       }
     ],
-    "u_person_id": 5879,
-    "u_match_found": true,
+    "person_id": 5879,
+    "match_found": true,
     "composite_id": [
       "de-lit-texte_379_16_20",
       "de-lit-texte_380_16_20",
       "de-lit-texte_381_16_20",
       "de-lit-texte_382_16_20",
       "erstausgaben_1367_55_78"
-    ]
+    ],
+    "points": 100
   },
   "droysen, joh. gust.": {
-    "match_found": [
+    "correct_match": [
       "droysen, joh. gust.",
       100.0,
       {
@@ -3523,14 +4226,15 @@
         "first": "joh. gust."
       }
     ],
-    "u_person_id": 1475,
-    "u_match_found": true,
+    "person_id": 1475,
+    "match_found": true,
     "composite_id": [
       "antike_0_1_9"
-    ]
+    ],
+    "points": 100
   },
   "bissing, fr. w. freiherr von": {
-    "match_found": [
+    "correct_match": [
       "bissing, fr. w. freiherr von",
       100.0,
       {
@@ -3539,14 +4243,15 @@
         "first": "fr. w. freiherr von"
       }
     ],
-    "u_person_id": 596,
-    "u_match_found": true,
+    "person_id": 596,
+    "match_found": true,
     "composite_id": [
       "antike_4_1_9"
-    ]
+    ],
+    "points": 100
   },
   "niebelshütz, wolf von": {
-    "match_found": [
+    "correct_match": [
       "niebelschütz, wolf von",
       99.0909090909091,
       {
@@ -3555,14 +4260,15 @@
         "first": "wolf von"
       }
     ],
-    "u_person_id": 4942,
-    "u_match_found": true,
+    "person_id": 4942,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_1491_60_78"
-    ]
+    ],
+    "points": 100
   },
   "niebelschütz, ilse von": {
-    "match_found": [
+    "correct_match": [
       "niebelschütz, ilse von",
       100.0,
       {
@@ -3571,14 +4277,15 @@
         "first": "ilse von"
       }
     ],
-    "u_person_id": 4941,
-    "u_match_found": true,
+    "person_id": 4941,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_1491_60_78"
-    ]
+    ],
+    "points": 100
   },
   "treskow, irena v.": {
-    "match_found": [
+    "correct_match": [
       "treskow, irena v.",
       100.0,
       {
@@ -3587,14 +4294,15 @@
         "first": "irena v."
       }
     ],
-    "u_person_id": 7050,
-    "u_match_found": true,
+    "person_id": 7050,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_1491_60_78"
-    ]
+    ],
+    "points": 100
   },
   "turgenjeff, iwan": {
-    "match_found": [
+    "correct_match": [
       "turgenjeff, iwan",
       100.0,
       {
@@ -3603,14 +4311,15 @@
         "first": "iwan"
       }
     ],
-    "u_person_id": 7099,
-    "u_match_found": true,
+    "person_id": 7099,
+    "match_found": true,
     "composite_id": [
       "insel_385_16_27"
-    ]
+    ],
+    "points": 100
   },
   "weiss, e. r.": {
-    "match_found": [
+    "correct_match": [
       "weiss, e. r.",
       100.0,
       {
@@ -3619,15 +4328,16 @@
         "first": "e. r."
       }
     ],
-    "u_person_id": 7456,
-    "u_match_found": true,
+    "person_id": 7456,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_781_32_38",
       "bibliophile_147_6_10"
-    ]
+    ],
+    "points": 100
   },
   "dore, gustav": {
-    "match_found": [
+    "correct_match": [
       "dore, gustav",
       100.0,
       {
@@ -3636,14 +4346,15 @@
         "first": "gustav"
       }
     ],
-    "u_person_id": 1433,
-    "u_match_found": true,
+    "person_id": 1433,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_239_10_38"
-    ]
+    ],
+    "points": 100
   },
   "bierce, ambroise": {
-    "match_found": [
+    "correct_match": [
       "bierce, ambrose",
       98.75,
       {
@@ -3652,15 +4363,15 @@
         "first": "ambrose"
       }
     ],
-    "u_person_id": 558,
-    "u_match_found": true,
+    "person_id": 558,
+    "match_found": true,
     "composite_id": [
       "bibliophile_76_4_10"
     ],
-    "points": 7
+    "points": 100
   },
   "hartlaub, g.f.": {
-    "match_found": [
+    "correct_match": [
       "hartlaub, g. f.",
       98.66666666666667,
       {
@@ -3669,15 +4380,15 @@
         "first": "g. f."
       }
     ],
-    "u_person_id": 2615,
-    "u_match_found": true,
+    "person_id": 2615,
+    "match_found": true,
     "composite_id": [
       "okkultismus_51_3_8"
     ],
-    "points": 5
+    "points": 100
   },
   "strelka, josef": {
-    "match_found": [
+    "correct_match": [
       "strelka, joseph",
       95.9047619047619,
       {
@@ -3686,15 +4397,15 @@
         "first": "joseph"
       }
     ],
-    "u_person_id": 6795,
-    "u_match_found": true,
+    "person_id": 6795,
+    "match_found": true,
     "composite_id": [
       "oesterreich_301_13_13"
     ],
-    "points": 7
+    "points": 100
   },
   "schinkowitz, herberrt": {
-    "match_found": [
+    "correct_match": [
       "schinkowitz, herbert",
       99.04761904761905,
       {
@@ -3703,14 +4414,15 @@
         "first": "herbert"
       }
     ],
-    "u_person_id": 6064,
-    "u_match_found": true,
+    "person_id": 6064,
+    "match_found": true,
     "composite_id": [
       "kinder_71_3_4"
-    ]
+    ],
+    "points": 100
   },
   "sebald, w.g.": {
-    "match_found": [
+    "correct_match": [
       "sebald, w.g.",
       100.0,
       {
@@ -3719,14 +4431,15 @@
         "first": "w.g."
       }
     ],
-    "u_person_id": 6394,
-    "u_match_found": true,
+    "person_id": 6394,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_1706_69_78"
-    ]
+    ],
+    "points": 100
   },
   "vogeler, heinrich": {
-    "match_found": [
+    "correct_match": [
       "vogeler, heinrich",
       100.0,
       {
@@ -3735,15 +4448,16 @@
         "first": "heinrich"
       }
     ],
-    "u_person_id": 7245,
-    "u_match_found": true,
+    "person_id": 7245,
+    "match_found": true,
     "composite_id": [
       "illustrierte_159_7_14",
       "insel_339_14_27"
-    ]
+    ],
+    "points": 100
   },
   "kottenkamp, dr. franz": {
-    "match_found": [
+    "correct_match": [
       "kottenkamp, dr. franz",
       100.0,
       {
@@ -3752,14 +4466,15 @@
         "first": "dr. franz"
       }
     ],
-    "u_person_id": 3684,
-    "u_match_found": true,
+    "person_id": 3684,
+    "match_found": true,
     "composite_id": [
       "briefe_62_3_15"
-    ]
+    ],
+    "points": 100
   },
   "montague, lady": {
-    "match_found": [
+    "correct_match": [
       "montague, lady",
       100.0,
       {
@@ -3768,14 +4483,15 @@
         "first": "lady"
       }
     ],
-    "u_person_id": 3882,
-    "u_match_found": true,
+    "person_id": 3882,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_646_26_38"
-    ]
+    ],
+    "points": 100
   },
   "mandiargues, andre pieyre de": {
-    "match_found": [
+    "correct_match": [
       "mandiargues, andre pieyre de",
       100.0,
       {
@@ -3784,15 +4500,16 @@
         "first": "andre pieyre de"
       }
     ],
-    "u_person_id": 4370,
-    "u_match_found": true,
+    "person_id": 4370,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_336_14_38",
       "fremdsprachige_595_24_38"
-    ]
+    ],
+    "points": 100
   },
   "reaux, tallemant de": {
-    "match_found": [
+    "correct_match": [
       "réaux, tallemant de",
       96.84210526315789,
       {
@@ -3801,15 +4518,15 @@
         "first": "tallemant de"
       }
     ],
-    "u_person_id": 6897,
-    "u_match_found": true,
+    "person_id": 6897,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_882_36_38"
     ],
-    "points": 7
+    "points": 100
   },
   "twain, marc": {
-    "match_found": [
+    "correct_match": [
       "twain, mark",
       96.36363636363636,
       {
@@ -3818,15 +4535,15 @@
         "first": "mark"
       }
     ],
-    "u_person_id": 7103,
-    "u_match_found": true,
+    "person_id": 7103,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_898_36_38"
     ],
-    "points": 5
+    "points": 100
   },
   "weizsäcker, richard von": {
-    "match_found": [
+    "correct_match": [
       "weizsäcker, richard von",
       100.0,
       {
@@ -3835,14 +4552,15 @@
         "first": "richard von"
       }
     ],
-    "u_person_id": 7470,
-    "u_match_found": true,
+    "person_id": 7470,
+    "match_found": true,
     "composite_id": [
       "biographie_635_26_27"
-    ]
+    ],
+    "points": 100
   },
   "krleza, miroslav": {
-    "match_found": [
+    "correct_match": [
       "krleza, miroslav",
       100.0,
       {
@@ -3851,14 +4569,15 @@
         "first": "miroslav"
       }
     ],
-    "u_person_id": 3759,
-    "u_match_found": true,
+    "person_id": 3759,
+    "match_found": true,
     "composite_id": [
       "insel_499_20_27"
-    ]
+    ],
+    "points": 100
   },
   "schmied, erika (fotografie)": {
-    "match_found": [
+    "correct_match": [
       "schmied, erika",
       90.37037037037038,
       {
@@ -3867,15 +4586,15 @@
         "first": "erika"
       }
     ],
-    "u_person_id": 6153,
-    "u_match_found": true,
+    "person_id": 6153,
+    "match_found": true,
     "composite_id": [
       "de-lit-monographien_3_1_10"
     ],
-    "points": 5
+    "points": 100
   },
   "schmied, wieland (essay)": {
-    "match_found": [
+    "correct_match": [
       "schmied, wieland",
       93.33333333333333,
       {
@@ -3884,15 +4603,15 @@
         "first": "wieland"
       }
     ],
-    "u_person_id": 6154,
-    "u_match_found": true,
+    "person_id": 6154,
+    "match_found": true,
     "composite_id": [
       "de-lit-monographien_3_1_10"
     ],
-    "points": 6
+    "points": 100
   },
   "odojewskij, fürst wladimir f.": {
-    "match_found": [
+    "correct_match": [
       "odojewskij, fürst wladimir f.",
       100.0,
       {
@@ -3901,14 +4620,15 @@
         "first": "fürst wladimir f."
       }
     ],
-    "u_person_id": 4997,
-    "u_match_found": true,
+    "person_id": 4997,
+    "match_found": true,
     "composite_id": [
       "russland_232_10_17"
-    ]
+    ],
+    "points": 100
   },
   "stählin, jacob von": {
-    "match_found": [
+    "correct_match": [
       "stählin, jacob von",
       100.0,
       {
@@ -3917,14 +4637,15 @@
         "first": "jacob von"
       }
     ],
-    "u_person_id": 6826,
-    "u_match_found": true,
+    "person_id": 6826,
+    "match_found": true,
     "composite_id": [
       "russland_243_10_17"
-    ]
+    ],
+    "points": 100
   },
   "moritz, karl ph.": {
-    "match_found": [
+    "correct_match": [
       "moritz, karl ph.",
       100.0,
       {
@@ -3933,14 +4654,15 @@
         "first": "karl ph."
       }
     ],
-    "u_person_id": 4749,
-    "u_match_found": true,
+    "person_id": 4749,
+    "match_found": true,
     "composite_id": [
       "de-lit-texte_327_14_20"
-    ]
+    ],
+    "points": 100
   },
   "jaffe, aniela": {
-    "match_found": [
+    "correct_match": [
       "jaffe, aniela",
       100.0,
       {
@@ -3949,15 +4671,16 @@
         "first": "aniela"
       }
     ],
-    "u_person_id": 3175,
-    "u_match_found": true,
+    "person_id": 3175,
+    "match_found": true,
     "composite_id": [
       "briefe_198_8_15",
       "biographie_314_13_27"
-    ]
+    ],
+    "points": 100
   },
   "crebillon, der jüngere": {
-    "match_found": [
+    "correct_match": [
       "crébillon, der jüngere",
       86.14718614718615,
       {
@@ -3966,15 +4689,15 @@
         "first": "der jüngere"
       }
     ],
-    "u_person_id": 1177,
-    "u_match_found": true,
+    "person_id": 1177,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_277_12_38"
     ],
-    "points": 5
+    "points": 100
   },
   "crevel, rene": {
-    "match_found": [
+    "correct_match": [
       "crevel, rené",
       96.66666666666666,
       {
@@ -3983,16 +4706,16 @@
         "first": "rené"
       }
     ],
-    "u_person_id": 1184,
-    "u_match_found": true,
+    "person_id": 1184,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_279_12_38",
       "fremdsprachige_280_12_38"
     ],
-    "points": 7
+    "points": 100
   },
   "forkel, j.n.": {
-    "match_found": [
+    "correct_match": [
       "forkel, j.r.",
       96.66666666666666,
       {
@@ -4001,15 +4724,15 @@
         "first": "j.r."
       }
     ],
-    "u_person_id": 1879,
-    "u_match_found": true,
+    "person_id": 1879,
+    "match_found": true,
     "composite_id": [
       "musik_34_2_11"
     ],
-    "points": 5
+    "points": 100
   },
   "esterházy de galantha, gräfin helene": {
-    "match_found": [
+    "correct_match": [
       "esterhazy de galantha, gräfin helene",
       94.88888888888889,
       {
@@ -4018,15 +4741,15 @@
         "first": "gräfin helene"
       }
     ],
-    "u_person_id": 1684,
-    "u_match_found": true,
+    "person_id": 1684,
+    "match_found": true,
     "composite_id": [
       "autographen_12_1_2"
     ],
-    "points": 6
+    "points": 100
   },
   "marx, josef": {
-    "match_found": [
+    "correct_match": [
       "marx, joseph",
       94.84848484848484,
       {
@@ -4035,15 +4758,15 @@
         "first": "joseph"
       }
     ],
-    "u_person_id": 4453,
-    "u_match_found": true,
+    "person_id": 4453,
+    "match_found": true,
     "composite_id": [
       "autographen_23_1_2"
     ],
-    "points": 6
+    "points": 100
   },
   "eckartshausen, karl von": {
-    "match_found": [
+    "correct_match": [
       "eckartshausen, karl von",
       100.0,
       {
@@ -4052,14 +4775,15 @@
         "first": "karl von"
       }
     ],
-    "u_person_id": 1535,
-    "u_match_found": true,
+    "person_id": 1535,
+    "match_found": true,
     "composite_id": [
       "deutschland_13_1_4"
-    ]
+    ],
+    "points": 100
   },
   "fest, joachim": {
-    "match_found": [
+    "correct_match": [
       "fest, joachim",
       100.0,
       {
@@ -4068,14 +4792,15 @@
         "first": "joachim"
       }
     ],
-    "u_person_id": 1782,
-    "u_match_found": true,
+    "person_id": 1782,
+    "match_found": true,
     "composite_id": [
       "deutschland_20_1_4"
-    ]
+    ],
+    "points": 100
   },
   "knigge, adolph freiherr": {
-    "match_found": [
+    "correct_match": [
       "knigge, adolph freiherr",
       100.0,
       {
@@ -4084,14 +4809,15 @@
         "first": "adolph freiherr"
       }
     ],
-    "u_person_id": 3570,
-    "u_match_found": true,
+    "person_id": 3570,
+    "match_found": true,
     "composite_id": [
       "de-lit-texte_28_2_20"
-    ]
+    ],
+    "points": 100
   },
   "hofmann, e.t.a.": {
-    "match_found": [
+    "correct_match": [
       "hoffmann, e.t.a.",
       98.54166666666666,
       {
@@ -4100,15 +4826,15 @@
         "first": "e.t.a."
       }
     ],
-    "u_person_id": 2943,
-    "u_match_found": true,
+    "person_id": 2943,
+    "match_found": true,
     "composite_id": [
       "bibliophile_127_6_10"
     ],
-    "points": 6
+    "points": 100
   },
   "winckelmann, johannes": {
-    "match_found": [
+    "correct_match": [
       "winckelmann, johann joachim",
       92.16931216931216,
       {
@@ -4117,15 +4843,15 @@
         "first": "johann joachim"
       }
     ],
-    "u_person_id": 7585,
-    "u_match_found": true,
+    "person_id": 7585,
+    "match_found": true,
     "composite_id": [
       "philosophie_327_14_24"
     ],
-    "points": 6
+    "points": 100
   },
   "galbreath, d.l.": {
-    "match_found": [
+    "correct_match": [
       "galbreath, d.l.",
       100.0,
       {
@@ -4134,14 +4860,15 @@
         "first": "d.l."
       }
     ],
-    "u_person_id": 2050,
-    "u_match_found": true,
+    "person_id": 2050,
+    "match_found": true,
     "composite_id": [
       "buch_82_4_8"
-    ]
+    ],
+    "points": 100
   },
   "foerster, heinz von": {
-    "match_found": [
+    "correct_match": [
       "foerster, heinz von",
       100.0,
       {
@@ -4150,14 +4877,15 @@
         "first": "heinz von"
       }
     ],
-    "u_person_id": 1866,
-    "u_match_found": true,
+    "person_id": 1866,
+    "match_found": true,
     "composite_id": [
       "philosophie_527_22_24"
-    ]
+    ],
+    "points": 100
   },
   "mitscherlich, a.": {
-    "match_found": [
+    "correct_match": [
       "mitscherlich, a.",
       100.0,
       {
@@ -4166,14 +4894,15 @@
         "first": "a."
       }
     ],
-    "u_person_id": 4686,
-    "u_match_found": true,
+    "person_id": 4686,
+    "match_found": true,
     "composite_id": [
       "briefe_15_1_15"
-    ]
+    ],
+    "points": 100
   },
   "sauer, a.": {
-    "match_found": [
+    "correct_match": [
       "sauer, a.",
       100.0,
       {
@@ -4182,14 +4911,15 @@
         "first": "a."
       }
     ],
-    "u_person_id": 5951,
-    "u_match_found": true,
+    "person_id": 5951,
+    "match_found": true,
     "composite_id": [
       "briefe_23_1_15"
-    ]
+    ],
+    "points": 100
   },
   "barrault, jean louis": {
-    "match_found": [
+    "correct_match": [
       "barrault, jean louis",
       100.0,
       {
@@ -4198,14 +4928,15 @@
         "first": "jean louis"
       }
     ],
-    "u_person_id": 288,
-    "u_match_found": true,
+    "person_id": 288,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_92_4_38"
-    ]
+    ],
+    "points": 100
   },
   "gruber, r.p.": {
-    "match_found": [
+    "correct_match": [
       "gruber, r.p.",
       100.0,
       {
@@ -4214,14 +4945,15 @@
         "first": "r.p."
       }
     ],
-    "u_person_id": 2405,
-    "u_match_found": true,
+    "person_id": 2405,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_643_26_78"
-    ]
+    ],
+    "points": 100
   },
   "gruber, reinhard p": {
-    "match_found": [
+    "correct_match": [
       "gruber, reinhard p.",
       98.94736842105263,
       {
@@ -4230,15 +4962,15 @@
         "first": "reinhard p."
       }
     ],
-    "u_person_id": 2405,
-    "u_match_found": true,
+    "person_id": 2405,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_644_26_78"
     ],
-    "points": 8
+    "points": 100
   },
   "grün, max von der": {
-    "match_found": [
+    "correct_match": [
       "grün, max von der",
       100.0,
       {
@@ -4247,14 +4979,15 @@
         "first": "max von der"
       }
     ],
-    "u_person_id": 2411,
-    "u_match_found": true,
+    "person_id": 2411,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_648_26_78"
-    ]
+    ],
+    "points": 100
   },
   "enzensberger, h. m.": {
-    "match_found": [
+    "correct_match": [
       "enzensberger, h. m.",
       100.0,
       {
@@ -4263,14 +4996,15 @@
         "first": "h. m."
       }
     ],
-    "u_person_id": 1648,
-    "u_match_found": true,
+    "person_id": 1648,
+    "match_found": true,
     "composite_id": [
       "zeitschriften_8_1_1"
-    ]
+    ],
+    "points": 100
   },
   "sfurim, mendele moicher": {
-    "match_found": [
+    "correct_match": [
       "sfurim, mendele moicher",
       100.0,
       {
@@ -4279,14 +5013,15 @@
         "first": "mendele moicher"
       }
     ],
-    "u_person_id": 4711,
-    "u_match_found": true,
+    "person_id": 4711,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_832_34_38"
-    ]
+    ],
+    "points": 100
   },
   "schlegel, a.w.": {
-    "match_found": [
+    "correct_match": [
       "schlegel, a.w.",
       100.0,
       {
@@ -4295,15 +5030,16 @@
         "first": "a.w."
       }
     ],
-    "u_person_id": 6083,
-    "u_match_found": true,
+    "person_id": 6083,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_833_34_38",
       "fremdsprachige_834_34_38"
-    ]
+    ],
+    "points": 100
   },
   "stael, germaine de": {
-    "match_found": [
+    "correct_match": [
       "stael, germaine de",
       100.0,
       {
@@ -4312,14 +5048,15 @@
         "first": "germaine de"
       }
     ],
-    "u_person_id": 1282,
-    "u_match_found": true,
+    "person_id": 1282,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_848_34_38"
-    ]
+    ],
+    "points": 100
   },
   "schubring, walther": {
-    "match_found": [
+    "correct_match": [
       "schubring, waltheer",
       98.94736842105263,
       {
@@ -4328,15 +5065,15 @@
         "first": "waltheer"
       }
     ],
-    "u_person_id": 6295,
-    "u_match_found": true,
+    "person_id": 6295,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_587_24_38"
     ],
-    "points": 7
+    "points": 100
   },
   "gobineau, arthur graf": {
-    "match_found": [
+    "correct_match": [
       "gobineau, arthur graf",
       100.0,
       {
@@ -4345,14 +5082,15 @@
         "first": "arthur graf"
       }
     ],
-    "u_person_id": 2224,
-    "u_match_found": true,
+    "person_id": 2224,
+    "match_found": true,
     "composite_id": [
       "insel_46_2_27"
-    ]
+    ],
+    "points": 100
   },
   "blumenbach, wenzel k": {
-    "match_found": [
+    "correct_match": [
       "blumenbach, wenzel k.",
       99.04761904761905,
       {
@@ -4361,14 +5099,15 @@
         "first": "wenzel k."
       }
     ],
-    "u_person_id": 632,
-    "u_match_found": true,
+    "person_id": 632,
+    "match_found": true,
     "composite_id": [
       "oesterreich_14_1_13"
-    ]
+    ],
+    "points": 100
   },
   "alarcon, pedro antonio de": {
-    "match_found": [
+    "correct_match": [
       "alarcón, pedro antonio de",
       91.73333333333332,
       {
@@ -4377,15 +5116,15 @@
         "first": "pedro antonio de"
       }
     ],
-    "u_person_id": 52,
-    "u_match_found": true,
+    "person_id": 52,
+    "match_found": true,
     "composite_id": [
       "insel_530_22_27"
     ],
-    "points": 6
+    "points": 100
   },
   "petermann, reinhard": {
-    "match_found": [
+    "correct_match": [
       "petermann, reinhard e.",
       97.27272727272728,
       {
@@ -4394,15 +5133,15 @@
         "first": "reinhard e."
       }
     ],
-    "u_person_id": 5207,
-    "u_match_found": true,
+    "person_id": 5207,
+    "match_found": true,
     "composite_id": [
       "wien_89_4_10"
     ],
-    "points": 7
+    "points": 100
   },
   "kirchner, e.": {
-    "match_found": [
+    "correct_match": [
       "kirchner, e.l.",
       97.14285714285714,
       {
@@ -4411,15 +5150,15 @@
         "first": "e.l."
       }
     ],
-    "u_person_id": 3475,
-    "u_match_found": true,
+    "person_id": 3475,
+    "match_found": true,
     "composite_id": [
       "russland_175_8_17"
     ],
-    "points": 6
+    "points": 100
   },
   "leskow, nikolai": {
-    "match_found": [
+    "correct_match": [
       "lesskow, nikolai",
       98.54166666666666,
       {
@@ -4428,15 +5167,15 @@
         "first": "nikolai"
       }
     ],
-    "u_person_id": 4109,
-    "u_match_found": true,
+    "person_id": 4109,
+    "match_found": true,
     "composite_id": [
       "russland_187_8_17"
     ],
-    "points": 8
+    "points": 100
   },
   "kahsnitz, rainer": {
-    "match_found": [
+    "correct_match": [
       "kahsnitz, raine",
       98.75,
       {
@@ -4445,15 +5184,15 @@
         "first": "raine"
       }
     ],
-    "u_person_id": 3300,
-    "u_match_found": true,
+    "person_id": 3300,
+    "match_found": true,
     "composite_id": [
       "sonstiges_45_2_4"
     ],
-    "points": 7
+    "points": 100
   },
   "swaaij, louise von": {
-    "match_found": [
+    "correct_match": [
       "swaaij, louise von",
       100.0,
       {
@@ -4462,14 +5201,15 @@
         "first": "louise von"
       }
     ],
-    "u_person_id": 6859,
-    "u_match_found": true,
+    "person_id": 6859,
+    "match_found": true,
     "composite_id": [
       "sonstiges_47_2_4"
-    ]
+    ],
+    "points": 100
   },
   "bidez, josoph": {
-    "match_found": [
+    "correct_match": [
       "bidez, joseph",
       96.92307692307692,
       {
@@ -4478,15 +5218,15 @@
         "first": "joseph"
       }
     ],
-    "u_person_id": 550,
-    "u_match_found": true,
+    "person_id": 550,
+    "match_found": true,
     "composite_id": [
       "griechenland_190_8_10"
     ],
-    "points": 5
+    "points": 100
   },
   "brehm, alfred edmund": {
-    "match_found": [
+    "correct_match": [
       "brehm, alfred",
       93.0,
       {
@@ -4495,16 +5235,16 @@
         "first": "alfred"
       }
     ],
-    "u_person_id": 797,
-    "u_match_found": true,
+    "person_id": 797,
+    "match_found": true,
     "composite_id": [
       "reisen_101_5_13",
       "reisen_102_5_13"
     ],
-    "points": 6
+    "points": 100
   },
   "lichtenberg, georg chr.": {
-    "match_found": [
+    "correct_match": [
       "lichtenberg, georg christoph",
       94.84472049689442,
       {
@@ -4513,15 +5253,15 @@
         "first": "georg christoph"
       }
     ],
-    "u_person_id": 4134,
-    "u_match_found": true,
+    "person_id": 4134,
+    "match_found": true,
     "composite_id": [
       "reisen_115_5_13"
     ],
-    "points": 7
+    "points": 100
   },
   "bauernfeld, eduard von": {
-    "match_found": [
+    "correct_match": [
       "bauernfeld, eduard von",
       100.0,
       {
@@ -4530,14 +5270,15 @@
         "first": "eduard von"
       }
     ],
-    "u_person_id": 340,
-    "u_match_found": true,
+    "person_id": 340,
+    "match_found": true,
     "composite_id": [
       "de-lit-monographien_32_2_10"
-    ]
+    ],
+    "points": 100
   },
   "hauptmann, gerhar": {
-    "match_found": [
+    "correct_match": [
       "hauptmann, gerhard",
       98.88888888888889,
       {
@@ -4546,15 +5287,15 @@
         "first": "gerhard"
       }
     ],
-    "u_person_id": 2650,
-    "u_match_found": true,
+    "person_id": 2650,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_672_27_78"
     ],
-    "points": 7
+    "points": 100
   },
   "saar, ferdinand von": {
-    "match_found": [
+    "correct_match": [
       "saar, ferdinand von",
       100.0,
       {
@@ -4563,14 +5304,15 @@
         "first": "ferdinand von"
       }
     ],
-    "u_person_id": 5871,
-    "u_match_found": true,
+    "person_id": 5871,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_1365_55_78"
-    ]
+    ],
+    "points": 100
   },
   "vries, theun de": {
-    "match_found": [
+    "correct_match": [
       "vries, theun de",
       100.0,
       {
@@ -4579,14 +5321,15 @@
         "first": "theun de"
       }
     ],
-    "u_person_id": 1289,
-    "u_match_found": true,
+    "person_id": 1289,
+    "match_found": true,
     "composite_id": [
       "biographie_616_25_27"
-    ]
+    ],
+    "points": 100
   },
   "schlager, j.e.": {
-    "match_found": [
+    "correct_match": [
       "schlager, j.e.",
       100.0,
       {
@@ -4595,14 +5338,15 @@
         "first": "j.e."
       }
     ],
-    "u_person_id": 6078,
-    "u_match_found": true,
+    "person_id": 6078,
+    "match_found": true,
     "composite_id": [
       "wien_102_5_10"
-    ]
+    ],
+    "points": 100
   },
   "seligmann, a.(dalbert)f.(ranz)": {
-    "match_found": [
+    "correct_match": [
       "seligmann, adalbert franz",
       95.19999999999999,
       {
@@ -4611,15 +5355,15 @@
         "first": "adalbert franz"
       }
     ],
-    "u_person_id": 6446,
-    "u_match_found": true,
+    "person_id": 6446,
+    "match_found": true,
     "composite_id": [
       "wien_112_5_10"
     ],
-    "points": 5
+    "points": 100
   },
   "seligmann, a.f.": {
-    "match_found": [
+    "correct_match": [
       "seligmann, a.f.",
       100.0,
       {
@@ -4628,14 +5372,15 @@
         "first": "a.f."
       }
     ],
-    "u_person_id": 6446,
-    "u_match_found": true,
+    "person_id": 6446,
+    "match_found": true,
     "composite_id": [
       "wien_122_5_10"
-    ]
+    ],
+    "points": 100
   },
   "kraus, carl von": {
-    "match_found": [
+    "correct_match": [
       "kraus, carl von",
       100.0,
       {
@@ -4644,14 +5389,15 @@
         "first": "carl von"
       }
     ],
-    "u_person_id": 3718,
-    "u_match_found": true,
+    "person_id": 3718,
+    "match_found": true,
     "composite_id": [
       "insel_59_3_27"
-    ]
+    ],
+    "points": 100
   },
   "gracian, balthasar": {
-    "match_found": [
+    "correct_match": [
       "gracian, balthasar",
       100.0,
       {
@@ -4660,14 +5406,15 @@
         "first": "balthasar"
       }
     ],
-    "u_person_id": 2309,
-    "u_match_found": true,
+    "person_id": 2309,
+    "match_found": true,
     "composite_id": [
       "insel_60_3_27"
-    ]
+    ],
+    "points": 100
   },
   "nigro, salvatore s.": {
-    "match_found": [
+    "correct_match": [
       "nigro, salvatore d.",
       97.89473684210526,
       {
@@ -4676,15 +5423,15 @@
         "first": "salvatore d."
       }
     ],
-    "u_person_id": 4962,
-    "u_match_found": true,
+    "person_id": 4962,
+    "match_found": true,
     "composite_id": [
       "kunstbuecher_421_17_38"
     ],
-    "points": 7
+    "points": 100
   },
   "sterne, l.": {
-    "match_found": [
+    "correct_match": [
       "sterne, l.",
       100.0,
       {
@@ -4693,14 +5440,15 @@
         "first": "l."
       }
     ],
-    "u_person_id": 6732,
-    "u_match_found": true,
+    "person_id": 6732,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_859_35_38"
-    ]
+    ],
+    "points": 100
   },
   "hube, hans-j.": {
-    "match_found": [
+    "correct_match": [
       "hube, hans-j.",
       100.0,
       {
@@ -4709,14 +5457,15 @@
         "first": "hans-j."
       }
     ],
-    "u_person_id": 3061,
-    "u_match_found": true,
+    "person_id": 3061,
+    "match_found": true,
     "composite_id": [
       "okkultismus_123_5_8"
-    ]
+    ],
+    "points": 100
   },
   "schmid, carl christian erhard": {
-    "match_found": [
+    "correct_match": [
       "schmid, carlo",
       86.73740053050398,
       {
@@ -4725,15 +5474,15 @@
         "first": "carlo"
       }
     ],
-    "u_person_id": 6118,
-    "u_match_found": true,
+    "person_id": 6118,
+    "match_found": true,
     "composite_id": [
       "briefe_204_9_15"
     ],
-    "points": 5
+    "points": 100
   },
   "clark, christopher (vorwort)": {
-    "match_found": [
+    "correct_match": [
       "clark, christopher",
       92.85714285714286,
       {
@@ -4742,15 +5491,15 @@
         "first": "christopher"
       }
     ],
-    "u_person_id": 1099,
-    "u_match_found": true,
+    "person_id": 1099,
+    "match_found": true,
     "composite_id": [
       "briefe_213_9_15"
     ],
-    "points": 6
+    "points": 100
   },
   "wette, wolfram (historischer essay)": {
-    "match_found": [
+    "correct_match": [
       "wette, wolfram",
       88.0,
       {
@@ -4759,15 +5508,15 @@
         "first": "wolfram"
       }
     ],
-    "u_person_id": 7508,
-    "u_match_found": true,
+    "person_id": 7508,
+    "match_found": true,
     "composite_id": [
       "briefe_213_9_15"
     ],
-    "points": 5
+    "points": 100
   },
   "kues, nikolaus von": {
-    "match_found": [
+    "correct_match": [
       "kues, nikolaus von",
       100.0,
       {
@@ -4776,14 +5525,15 @@
         "first": "nikolaus von"
       }
     ],
-    "u_person_id": 3793,
-    "u_match_found": true,
+    "person_id": 3793,
+    "match_found": true,
     "composite_id": [
       "briefe_224_9_15"
-    ]
+    ],
+    "points": 100
   },
   "dumas, alexander": {
-    "match_found": [
+    "correct_match": [
       "dumas, alexander",
       100.0,
       {
@@ -4792,15 +5542,16 @@
         "first": "alexander"
       }
     ],
-    "u_person_id": 1495,
-    "u_match_found": true,
+    "person_id": 1495,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_306_13_38",
       "fremdsprachige_307_13_38"
-    ]
+    ],
+    "points": 100
   },
   "vring, georg von der": {
-    "match_found": [
+    "correct_match": [
       "vring, georg von der",
       100.0,
       {
@@ -4809,14 +5560,15 @@
         "first": "georg von der"
       }
     ],
-    "u_person_id": 7272,
-    "u_match_found": true,
+    "person_id": 7272,
+    "match_found": true,
     "composite_id": [
       "erstausgaben_1808_73_78"
-    ]
+    ],
+    "points": 100
   },
   "waetzold, wilhelm": {
-    "match_found": [
+    "correct_match": [
       "waetzold, wilhelm",
       100.0,
       {
@@ -4825,14 +5577,15 @@
         "first": "wilhelm"
       }
     ],
-    "u_person_id": 7302,
-    "u_match_found": true,
+    "person_id": 7302,
+    "match_found": true,
     "composite_id": [
       "insel_359_15_27"
-    ]
+    ],
+    "points": 100
   },
   "daumier, honore": {
-    "match_found": [
+    "correct_match": [
       "daumier, honore",
       100.0,
       {
@@ -4841,14 +5594,15 @@
         "first": "honore"
       }
     ],
-    "u_person_id": 1259,
-    "u_match_found": true,
+    "person_id": 1259,
+    "match_found": true,
     "composite_id": [
       "insel_360_15_27"
-    ]
+    ],
+    "points": 100
   },
   "balzac, honore de": {
-    "match_found": [
+    "correct_match": [
       "balzac, honore de",
       100.0,
       {
@@ -4857,15 +5611,16 @@
         "first": "honore de"
       }
     ],
-    "u_person_id": 267,
-    "u_match_found": true,
+    "person_id": 267,
+    "match_found": true,
     "composite_id": [
       "insel_361_15_27",
       "insel_362_15_27"
-    ]
+    ],
+    "points": 100
   },
   "kues, niklaus von": {
-    "match_found": [
+    "correct_match": [
       "kues, niklaus von",
       100.0,
       {
@@ -4874,14 +5629,15 @@
         "first": "niklaus von"
       }
     ],
-    "u_person_id": 3793,
-    "u_match_found": true,
+    "person_id": 3793,
+    "match_found": true,
     "composite_id": [
       "christentum_42_2_6"
-    ]
+    ],
+    "points": 100
   },
   "corvin, otto von": {
-    "match_found": [
+    "correct_match": [
       "corvin, otto von",
       100.0,
       {
@@ -4890,14 +5646,15 @@
         "first": "otto von"
       }
     ],
-    "u_person_id": 1163,
-    "u_match_found": true,
+    "person_id": 1163,
+    "match_found": true,
     "composite_id": [
       "mittelalter_22_1_7"
-    ]
+    ],
+    "points": 100
   },
   "sarraute, natalie": {
-    "match_found": [
+    "correct_match": [
       "sarraute, natalie",
       100.0,
       {
@@ -4906,14 +5663,15 @@
         "first": "natalie"
       }
     ],
-    "u_person_id": 5946,
-    "u_match_found": true,
+    "person_id": 5946,
+    "match_found": true,
     "composite_id": [
       "literatur_223_9_12"
-    ]
+    ],
+    "points": 100
   },
   "borheck, l.aug.": {
-    "match_found": [
+    "correct_match": [
       "borheck, l.aug.",
       100.0,
       {
@@ -4922,14 +5680,15 @@
         "first": "l.aug."
       }
     ],
-    "u_person_id": 706,
-    "u_match_found": true,
+    "person_id": 706,
+    "match_found": true,
     "composite_id": [
       "antike_164_7_9"
-    ]
+    ],
+    "points": 100
   },
   "hentig, hartmut von": {
-    "match_found": [
+    "correct_match": [
       "hentig, hartmut von",
       100.0,
       {
@@ -4938,14 +5697,15 @@
         "first": "hartmut von"
       }
     ],
-    "u_person_id": 2779,
-    "u_match_found": true,
+    "person_id": 2779,
+    "match_found": true,
     "composite_id": [
       "philosophie_360_15_24"
-    ]
+    ],
+    "points": 100
   },
   "benjamin, waltet": {
-    "match_found": [
+    "correct_match": [
       "benjamin, walter",
       97.5,
       {
@@ -4954,15 +5714,15 @@
         "first": "walter"
       }
     ],
-    "u_person_id": 437,
-    "u_match_found": true,
+    "person_id": 437,
+    "match_found": true,
     "composite_id": [
       "philosophie_373_15_24"
     ],
-    "points": 7
+    "points": 100
   },
   "giesebrecht, wilhelm von": {
-    "match_found": [
+    "correct_match": [
       "giesebrecht, wilhelm von",
       100.0,
       {
@@ -4971,14 +5731,15 @@
         "first": "wilhelm von"
       }
     ],
-    "u_person_id": 2171,
-    "u_match_found": true,
+    "person_id": 2171,
+    "match_found": true,
     "composite_id": [
       "deutschland_73_3_4"
-    ]
+    ],
+    "points": 100
   },
   "mandeville, bernard de": {
-    "match_found": [
+    "correct_match": [
       "mandeville, bernard de",
       100.0,
       {
@@ -4987,14 +5748,15 @@
         "first": "bernard de"
       }
     ],
-    "u_person_id": 4369,
-    "u_match_found": true,
+    "person_id": 4369,
+    "match_found": true,
     "composite_id": [
       "bibliophile_158_7_10"
-    ]
+    ],
+    "points": 100
   },
   "keller, adelbert": {
-    "match_found": [
+    "correct_match": [
       "keller, adelbert von",
       96.0,
       {
@@ -5003,15 +5765,15 @@
         "first": "adelbert von"
       }
     ],
-    "u_person_id": 3405,
-    "u_match_found": true,
+    "person_id": 3405,
+    "match_found": true,
     "composite_id": [
       "briefe_120_5_15"
     ],
-    "points": 7
+    "points": 100
   },
   "jens, inge": {
-    "match_found": [
+    "correct_match": [
       "jens, inge",
       100.0,
       {
@@ -5020,14 +5782,15 @@
         "first": "inge"
       }
     ],
-    "u_person_id": 3221,
-    "u_match_found": true,
+    "person_id": 3221,
+    "match_found": true,
     "composite_id": [
       "de-lit-monographien_126_6_10"
-    ]
+    ],
+    "points": 100
   },
   "jens, walter": {
-    "match_found": [
+    "correct_match": [
       "jens, walter",
       100.0,
       {
@@ -5036,14 +5799,15 @@
         "first": "walter"
       }
     ],
-    "u_person_id": 3222,
-    "u_match_found": true,
+    "person_id": 3222,
+    "match_found": true,
     "composite_id": [
       "de-lit-monographien_126_6_10"
-    ]
+    ],
+    "points": 100
   },
   "reinig, christa": {
-    "match_found": [
+    "correct_match": [
       "reinig, christa",
       100.0,
       {
@@ -5052,14 +5816,15 @@
         "first": "christa"
       }
     ],
-    "u_person_id": 5581,
-    "u_match_found": true,
+    "person_id": 5581,
+    "match_found": true,
     "composite_id": [
       "russland_401_17_17"
-    ]
+    ],
+    "points": 100
   },
   "leitgab, grete": {
-    "match_found": [
+    "correct_match": [
       "leitgab, grete und josef",
       91.66666666666667,
       {
@@ -5068,15 +5833,15 @@
         "first": "grete und josef"
       }
     ],
-    "u_person_id": 4057,
-    "u_match_found": true,
+    "person_id": 4057,
+    "match_found": true,
     "composite_id": [
       "illustrierte_276_12_14"
     ],
-    "points": 6
+    "points": 100
   },
   "wartburg, ida von": {
-    "match_found": [
+    "correct_match": [
       "wartburg, walther von",
       91.9327731092437,
       {
@@ -5085,15 +5850,15 @@
         "first": "walther von"
       }
     ],
-    "u_person_id": 7373,
-    "u_match_found": true,
+    "person_id": 7373,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_6_1_38"
     ],
-    "points": 6
+    "points": 100
   },
   "schmitz, werner": {
-    "match_found": [
+    "correct_match": [
       "schmitz, werner",
       100.0,
       {
@@ -5102,14 +5867,15 @@
         "first": "werner"
       }
     ],
-    "u_person_id": 6163,
-    "u_match_found": true,
+    "person_id": 6163,
+    "match_found": true,
     "composite_id": [
       "briefe_259_11_15"
-    ]
+    ],
+    "points": 100
   },
   "celan, paul": {
-    "match_found": [
+    "correct_match": [
       "celan, paul",
       100.0,
       {
@@ -5118,14 +5884,15 @@
         "first": "paul"
       }
     ],
-    "u_person_id": 1029,
-    "u_match_found": true,
+    "person_id": 1029,
+    "match_found": true,
     "composite_id": [
       "russland_165_7_17"
-    ]
+    ],
+    "points": 100
   },
   "svevo, italo": {
-    "match_found": [
+    "correct_match": [
       "svevo, italo",
       100.0,
       {
@@ -5134,14 +5901,15 @@
         "first": "italo"
       }
     ],
-    "u_person_id": 6858,
-    "u_match_found": true,
+    "person_id": 6858,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_355_15_38"
-    ]
+    ],
+    "points": 100
   },
   "oeser, hans-christian": {
-    "match_found": [
+    "correct_match": [
       "oeser, hans-christian",
       100.0,
       {
@@ -5150,14 +5918,15 @@
         "first": "hans-christian"
       }
     ],
-    "u_person_id": 5004,
-    "u_match_found": true,
+    "person_id": 5004,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_372_15_38"
-    ]
+    ],
+    "points": 100
   },
   "rowohlt, harry": {
-    "match_found": [
+    "correct_match": [
       "rowohlt, harry",
       100.0,
       {
@@ -5166,14 +5935,15 @@
         "first": "harry"
       }
     ],
-    "u_person_id": 5821,
-    "u_match_found": true,
+    "person_id": 5821,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_372_15_38"
-    ]
+    ],
+    "points": 100
   },
   "wollschläger, hans": {
-    "match_found": [
+    "correct_match": [
       "wollschläger, hans",
       100.0,
       {
@@ -5182,14 +5952,15 @@
         "first": "hans"
       }
     ],
-    "u_person_id": 7663,
-    "u_match_found": true,
+    "person_id": 7663,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_372_15_38"
-    ]
+    ],
+    "points": 100
   },
   "still, rosemarie": {
-    "match_found": [
+    "correct_match": [
       "still, rosemarie",
       100.0,
       {
@@ -5198,14 +5969,15 @@
         "first": "rosemarie"
       }
     ],
-    "u_person_id": 6751,
-    "u_match_found": true,
+    "person_id": 6751,
+    "match_found": true,
     "composite_id": [
       "reisen_230_10_13"
-    ]
+    ],
+    "points": 100
   },
   "werner, reinold": {
-    "match_found": [
+    "correct_match": [
       "werner, reinhold",
       98.75,
       {
@@ -5214,15 +5986,15 @@
         "first": "reinhold"
       }
     ],
-    "u_person_id": 7495,
-    "u_match_found": true,
+    "person_id": 7495,
+    "match_found": true,
     "composite_id": [
       "reisen_151_7_13"
     ],
-    "points": 7
+    "points": 100
   },
   "schlegel, august wilhelm": {
-    "match_found": [
+    "correct_match": [
       "schlegel, august wilhelm",
       100.0,
       {
@@ -5231,14 +6003,15 @@
         "first": "august wilhelm"
       }
     ],
-    "u_person_id": 6083,
-    "u_match_found": true,
+    "person_id": 6083,
+    "match_found": true,
     "composite_id": [
       "briefe_329_14_15"
-    ]
+    ],
+    "points": 100
   },
   "moser, christian gottlob": {
-    "match_found": [
+    "correct_match": [
       "moser, christian",
       93.33333333333333,
       {
@@ -5247,15 +6020,15 @@
         "first": "christian"
       }
     ],
-    "u_person_id": 4763,
-    "u_match_found": true,
+    "person_id": 4763,
+    "match_found": true,
     "composite_id": [
       "antike_9_1_9"
     ],
-    "points": 6
+    "points": 100
   },
   "reschke, thomas": {
-    "match_found": [
+    "correct_match": [
       "reschke, thomas",
       100.0,
       {
@@ -5264,14 +6037,15 @@
         "first": "thomas"
       }
     ],
-    "u_person_id": 5610,
-    "u_match_found": true,
+    "person_id": 5610,
+    "match_found": true,
     "composite_id": [
       "biographie_454_19_27"
-    ]
+    ],
+    "points": 100
   },
   "christiansen, friedrich": {
-    "match_found": [
+    "correct_match": [
       "christiansen, friedrich",
       100.0,
       {
@@ -5280,14 +6054,15 @@
         "first": "friedrich"
       }
     ],
-    "u_person_id": 1081,
-    "u_match_found": true,
+    "person_id": 1081,
+    "match_found": true,
     "composite_id": [
       "signierte_34_2_10"
-    ]
+    ],
+    "points": 100
   },
   "christiansen, carl": {
-    "match_found": [
+    "correct_match": [
       "christiansen, carl",
       100.0,
       {
@@ -5296,14 +6071,15 @@
         "first": "carl"
       }
     ],
-    "u_person_id": 1080,
-    "u_match_found": true,
+    "person_id": 1080,
+    "match_found": true,
     "composite_id": [
       "signierte_34_2_10"
-    ]
+    ],
+    "points": 100
   },
   "kolinko, oleg": {
-    "match_found": [
+    "correct_match": [
       "kolinko, oleg",
       100.0,
       {
@@ -5312,14 +6088,15 @@
         "first": "oleg"
       }
     ],
-    "u_person_id": 3619,
-    "u_match_found": true,
+    "person_id": 3619,
+    "match_found": true,
     "composite_id": [
       "russland_283_12_17"
-    ]
+    ],
+    "points": 100
   },
   "böll, heinrich": {
-    "match_found": [
+    "correct_match": [
       "böll, heinrich",
       100.0,
       {
@@ -5328,14 +6105,15 @@
         "first": "heinrich"
       }
     ],
-    "u_person_id": 685,
-    "u_match_found": true,
+    "person_id": 685,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_835_34_38"
-    ]
+    ],
+    "points": 100
   },
   "schmidt, margarethe": {
-    "match_found": [
+    "correct_match": [
       "schmidt, margot",
       93.40350877192982,
       {
@@ -5344,15 +6122,15 @@
         "first": "margot"
       }
     ],
-    "u_person_id": 6144,
-    "u_match_found": true,
+    "person_id": 6144,
+    "match_found": true,
     "composite_id": [
       "symbolkunde_25_2_2"
     ],
-    "points": 6
+    "points": 100
   },
   "henschel, gerhard": {
-    "match_found": [
+    "correct_match": [
       "henschel, gerhard",
       100.0,
       {
@@ -5361,10 +6139,11 @@
         "first": "gerhard"
       }
     ],
-    "u_person_id": 2775,
-    "u_match_found": true,
+    "person_id": 2775,
+    "match_found": true,
     "composite_id": [
       "fremdsprachige_319_13_38"
-    ]
+    ],
+    "points": 100
   }
 }

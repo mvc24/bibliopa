@@ -58,3 +58,28 @@ Quick reference for "add a thing to a collection":
     list → .append(item) (adds one item to the end)
     set → .add(item)
     dict → d[key] = value (assignment, not a method)
+
+
+## compare two dicts with matching keys, use values from the second one in the first one
+
+    ```
+    for name, entry in to_check.items():
+        entry["info"]["person_id"] = checked[name]["info"]["person_id"]
+        entry["info"]["match_found"] = checked[name]["info"]["match_found"]
+        rprint(name, entry)
+    ```
+
+
+'schlegel, fr.': {
+        'correct_match': [
+            [
+                'schlegel, friedrich',
+                91.09311740890689,
+                {'person_id': 6085, 'last': 'schlegel', 'first': 'friedrich'}
+            ]
+        ],
+        'person_id': 6085,
+        'match_found': True,
+        'composite_id': ['briefe_280_12_15'],
+        'points': 4
+    },
