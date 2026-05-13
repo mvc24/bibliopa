@@ -1,0 +1,2442 @@
+[
+  {
+    "unified_id": "schneidawind_franz_j_a",
+    "family_name": "Schneidawind",
+    "given_names": "Franz Joseph Adolph",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "graesse_johann_g_t",
+    "family_name": "Graesse",
+    "given_names": "Johann Georg Theodor",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "portmann_raul_r",
+    "family_name": "Portmann",
+    "given_names": "Raul R.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "tissot_samuel_a_a_d",
+    "family_name": "Tissot",
+    "given_names": "Samuel Auguste André David",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "goldhagen_johann_e",
+    "family_name": "Goldhagen",
+    "given_names": "Johann Eustachius",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "schwarzenberg_karl_p",
+    "family_name": "Schwarzenberg",
+    "given_names": "Karl Philipp",
+    "name_particles": "zu",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "holbach_paul-henri_t",
+    "family_name": "Holbach",
+    "given_names": "Paul-Henri Thiry",
+    "name_particles": "d'",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "palaiphatos",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Czezik-Müller",
+    "is_organisation": false
+  },
+  {
+    "unified_id": "stadt_modling",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Stadt Mödling",
+    "is_organisation": false
+  },
+  {
+    "unified_id": "deutscher_buchgewerbeverein",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Deutscher Buchgewerbeverein",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "staatliche_akademie_f_g_k_u_b_z_l",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Staatliche Akademie für graphische Künste und Buchgewerbe zu Leipzig",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "gemeinde_wien",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Gemeinde Wien",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "radierwerkstatt_kurt_z_w",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Radierwerkstatt Kurt Zein Wien",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "internationale_stiftung_m_s",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Internationale Stiftung Mozarteum Salzburg",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "zentralburo_der_z_o",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Zentralbüro der Zionistischen Organisation",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "hans_blumenberg-archiv",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Hans Blumenberg-Archiv",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "verein_der_f_d_w_b_i_k",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Verein der Freunde des Wallraf-Richartz-Museums Bibliophilen-Gesellschaft in Köln",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "kopenhagener_kierkegaard-gesellschaft",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Kopenhagener Kierkegaard-Gesellschaft",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "verein_freunde_f_d_s_m",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Verein Freunde Friedrich Danielis Salzburg Museum",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "hamburger_stiftung_z_f_v_w_u_k",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Hamburger Stiftung zur Förderung von Wissenschaft und Kultur",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "wieland-archiv_biberach/riss",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Wieland-Archiv, Biberach/Riß",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "marktgemeinde_goisern",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Marktgemeinde Goisern",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "die_deutsche_b_l_f_a_m_u_b_u_d_s_b_f_a_m_u_l",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Die Deutsche Bibliothek, Leipzig, Frankfurt am Main und Berlin und die Stiftung Buchkunst Frankfurt am Main und Leipzig",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "werkstatt_breitenbrunn_e_u_w_f",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Werkstatt Breitenbrunn Elfe und Will Frenken",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "arbeitsgemeinschaft_des_m_h",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Arbeitsgemeinschaft des Mariahilfer Heimatmuseums",
+    "is_organisation": true
+  },
+  {
+    "unified_id": "wasielewski_wilh_j_v",
+    "family_name": "Wasielewski",
+    "given_names": "Wilh. Jos. v.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "wasielewski_waldemar_v",
+    "family_name": "Wasielewski",
+    "given_names": "Waldemar von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "sahagun_fray_b_d",
+    "family_name": "Sahagun",
+    "given_names": "Fray Bernardino de",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "schrijver_emile_g_l",
+    "family_name": "Schrijver",
+    "given_names": "Emile G. L.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "voolen_edward_v",
+    "family_name": "Voolen",
+    "given_names": "Edward von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "mary_geo_t",
+    "family_name": "Mary",
+    "given_names": "Geo T.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "tavernier_jean_b",
+    "family_name": "Tavernier",
+    "given_names": "Jean Baptiste",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "philippovich_eugen_v",
+    "family_name": "Philippovich",
+    "given_names": "Eugen von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "piranesi_giovanni_b",
+    "family_name": "Piranesi",
+    "given_names": "Giovanni Battista",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "danz_karl",
+    "family_name": "Danz",
+    "given_names": "D. J. T. L.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "sweeney_james_r",
+    "family_name": "Sweeney",
+    "given_names": "James R.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "norwich_john_j",
+    "family_name": "Norwich",
+    "given_names": "John J.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "pletnjowa_swetlana_a",
+    "family_name": "Pletnjowa",
+    "given_names": "Swetlana Alexandrowna",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "malory_sir_t",
+    "family_name": "Malory",
+    "given_names": "Sir Thomas",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "losow_irene_v",
+    "family_name": "Losow",
+    "given_names": "Irene von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "balmes_hans_j",
+    "family_name": "Balmes",
+    "given_names": "Hans Jürgen",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "mann_hans_m",
+    "family_name": "Mann",
+    "given_names": "Hans Mayer",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "schmidt_i_j",
+    "family_name": "Schmidt",
+    "given_names": "I. J.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "woodroffe_sir_j",
+    "family_name": "Woodroffe",
+    "given_names": "Sir John",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "govinda_l_a",
+    "family_name": "Govinda",
+    "given_names": "L. A.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "abs-p_josef_m",
+    "family_name": "Abs P.",
+    "given_names": "Josef Maria",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "glorez_andreas_v_m",
+    "family_name": "Glorez",
+    "given_names": "Andreas von Mährn",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "gartner_wernher_d",
+    "family_name": "Gärtner",
+    "given_names": "Wernher Der",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "oberdonau_gauamt_f_k_g",
+    "family_name": "Oberdonau",
+    "given_names": "Gauamt für Kommunalpolitik Gau",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "rudolf_kronprinz_e",
+    "family_name": "Rudolf",
+    "given_names": "Kronprinz Erzherzog",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "delevoy_robert_l",
+    "family_name": "Delevoy",
+    "given_names": "Robert L.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "castaneda_jorge_g",
+    "family_name": "Castaneda",
+    "given_names": "Jorge G.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "bismarck_otto_v",
+    "family_name": "Bismarck",
+    "given_names": "Otto von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "sauter_heinz_v",
+    "family_name": "Sauter",
+    "given_names": "Heinz von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "pe_li_t",
+    "family_name": "Pe",
+    "given_names": "Li Tai",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "koch_margit",
+    "family_name": "Koch",
+    "given_names": "Hans-Gerd",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "mirandola_giovanni_p_d",
+    "family_name": "Mirandola",
+    "given_names": "Giovanni Pico Della",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "bermann_richard_a",
+    "family_name": "Bermann",
+    "given_names": "Richard A.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "bernatzik_hugo_a",
+    "family_name": "Bernatzik",
+    "given_names": "Hugo Adolf",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "dolinar_frnce_m",
+    "family_name": "Dolinar",
+    "given_names": "Frnce M.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "endl_p_f",
+    "family_name": "Endl",
+    "given_names": "P. Friedrich",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "ade_hans_c",
+    "family_name": "Ade",
+    "given_names": "Hans Christoph",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "bieber_friedrich_j",
+    "family_name": "Bieber",
+    "given_names": "Friedrich J.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "gsell-fels_herbert",
+    "family_name": "Gsell-Fels",
+    "given_names": "Th.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "johnston_william_m",
+    "family_name": "Johnston",
+    "given_names": "William M.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "mayer_ludwig_j",
+    "family_name": "Mayer",
+    "given_names": "Ludwig Joseph",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "dowski_lee_v",
+    "family_name": "Dowski",
+    "given_names": "Lee Van",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "osterreich_art_c_i_u_k",
+    "family_name": "Österreich",
+    "given_names": "ART CLUB. Internationaler unabhängiger Künstlerverband",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "ernst_art_c_i_u_k",
+    "family_name": "Ernst",
+    "given_names": "R.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "garger_art_c_i_u_k",
+    "family_name": "Garger",
+    "given_names": "E.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "buchner_friedrich_m",
+    "family_name": "Buchner",
+    "given_names": "Friedrich Markus",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kampffmeyer_peter",
+    "family_name": "Kampffmeyer",
+    "given_names": "Bernh.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "emerson_charlotte",
+    "family_name": "Emerson",
+    "given_names": "R.W.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "miessner_wilhelm",
+    "family_name": "Mießner",
+    "given_names": "W.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "arnim_gisela_v",
+    "family_name": "Arnim",
+    "given_names": "Gisela von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "gasset_ortega_y",
+    "family_name": "Gasset",
+    "given_names": "Ortega Y",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kane_elisha_k",
+    "family_name": "Kane",
+    "given_names": "Elisha Kent",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kutzner_elisha_k",
+    "family_name": "Kutzner",
+    "given_names": "J.G.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "paulus_clementine",
+    "family_name": "Paulus",
+    "given_names": "G.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "tischbein_johann_h_d_a",
+    "family_name": "Tischbein",
+    "given_names": "Johann Heinrich d. Ä.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "strasser_edith_m_h",
+    "family_name": "Sträßer",
+    "given_names": "Edith M. H.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "reyes_aurelio_d_l",
+    "family_name": "Reyes",
+    "given_names": "Aurelio de los",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "zimmermann_martin",
+    "family_name": "Zimmermann",
+    "given_names": "W.F.A.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "chiavacci_vinzenz_j",
+    "family_name": "Chiavacci",
+    "given_names": "Vinzenz Jun.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "burney_vinzenz_j",
+    "family_name": "Burney",
+    "given_names": "C.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "lang_vinzenz_j",
+    "family_name": "Lang",
+    "given_names": "D.M.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "posselt_ernst_l",
+    "family_name": "Posselt",
+    "given_names": "Ernst Ludwig",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "politz_karl_h_l",
+    "family_name": "Pölitz",
+    "given_names": "Karl Heinrich Ludwig",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "nostitz_oswalt_v",
+    "family_name": "Nostitz",
+    "given_names": "Oswalt von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "hiller-von-gaertringen_julia_f",
+    "family_name": "Hiller von Gaertringen",
+    "given_names": "Julia Freifrau",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "arsenals_von_e_e_b_d",
+    "family_name": "Arsenals",
+    "given_names": "Von einem ehemaligen Betriebsrat des",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "drege_kunstlerhaus",
+    "family_name": "Drege",
+    "given_names": "Jean-Pierre",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "buhrer_emil_m",
+    "family_name": "Bührer",
+    "given_names": "Emil M.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "zimmermann_werner_g",
+    "family_name": "Zimmermann",
+    "given_names": "Werner G.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "zimmermann_w_f_a",
+    "family_name": "Zimmermann",
+    "given_names": "W. F. A.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "hancarville_pierre-francois_h",
+    "family_name": "Hancarville",
+    "given_names": "Pierre-Francois Hugues",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "schubert_g_h",
+    "family_name": "Schubert",
+    "given_names": "G. H.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "schubert_g_h",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "H.H.Ewers",
+    "is_organisation": false
+  },
+  {
+    "unified_id": "einsiedel_wolfgang_v",
+    "family_name": "Einsiedel",
+    "given_names": "Wolfgang von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "goodrich_norma_l",
+    "family_name": "Goodrich",
+    "given_names": "Norma Lorre",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "rossler_adalbert_v",
+    "family_name": "Rößler",
+    "given_names": "Adalbert von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "v.holten_ludwig",
+    "family_name": "v.Holten",
+    "given_names": "O.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "weis_berthold_k",
+    "family_name": "Weis",
+    "given_names": "Berthold K.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "flaccus_aulus_p",
+    "family_name": "Flaccus",
+    "given_names": "Aulus Persius",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "bardt_d_c_f",
+    "family_name": "Bardt",
+    "given_names": "D. Carl Friedrich",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "spence_jonathan_d",
+    "family_name": "Spence",
+    "given_names": "Jonathan D.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "beckett_james_c",
+    "family_name": "Beckett",
+    "given_names": "James Camlin",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "metz_karl_h",
+    "family_name": "Metz",
+    "given_names": "Karl H.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "franckenberg_abraham_v",
+    "family_name": "Franckenberg",
+    "given_names": "Abraham von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "literaturproduzenten_arbeitskreis_o",
+    "family_name": "Literaturproduzenten",
+    "given_names": "Arbeitskreis österreichischer",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "henking_karl_h",
+    "family_name": "Henking",
+    "given_names": "Karl H.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "alberton_gunther",
+    "family_name": "Alberton",
+    "given_names": "M.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "liebeskind_a_j",
+    "family_name": "Liebeskind",
+    "given_names": "A. J.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "ferdausi_hartmut",
+    "family_name": "Ferdausi",
+    "given_names": "Abul-Quasem",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "schwend_regni_m",
+    "family_name": "Schwend",
+    "given_names": "Regni Maria",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "humboldt_a_v",
+    "family_name": "Humboldt",
+    "given_names": "A. v.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "nissing_kurt",
+    "family_name": "Nissing",
+    "given_names": "Hanns-Gregor",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "hoddis_jakob_v",
+    "family_name": "Hoddis",
+    "given_names": "Jakob van",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "heilmann_joh_d",
+    "family_name": "Heilmann",
+    "given_names": "Joh. Dav.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "landmann_georg_p",
+    "family_name": "Landmann",
+    "given_names": "Georg Peter",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "borhek_august_c",
+    "family_name": "Borhek",
+    "given_names": "August Christian",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "ziehrer_carl_m",
+    "family_name": "Ziehrer",
+    "given_names": "Carl Michael",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "pohl_c_f",
+    "family_name": "Pohl",
+    "given_names": "C. F.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "muller_franz_k",
+    "family_name": "Müller",
+    "given_names": "Franz Karl",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "huber_ferdinand_l",
+    "family_name": "Huber",
+    "given_names": "Ferdinand Ludwig",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "bruhl_alois_f",
+    "family_name": "Brühl",
+    "given_names": "Alois Friedrich",
+    "name_particles": "Graf von",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "schroder_friedrich_l",
+    "family_name": "Schröder",
+    "given_names": "Friedrich Ludwig",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "gotter_friedrich_w",
+    "family_name": "Gotter",
+    "given_names": "Friedrich Wilhelm",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "radecki_sigismund_v",
+    "family_name": "Radecki",
+    "given_names": "Sigismund von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "silberstein_neil_a",
+    "family_name": "Silberstein",
+    "given_names": "Neil A.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "grange_henry-louis_d_l",
+    "family_name": "Grange",
+    "given_names": "Henry-Louis de la",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "bergmann_henry-louis_d_l",
+    "family_name": "Bergmann",
+    "given_names": "A.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "nola_alfonso_d",
+    "family_name": "Nola",
+    "given_names": "Alfonso di",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "nordenskiold_adolf_e",
+    "family_name": "Nordenskiöld",
+    "given_names": "Adolf Erik",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "auberrt_adolf_e",
+    "family_name": "Auberrt",
+    "given_names": "Hans-Joachim",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "owlglass_francois",
+    "family_name": "Owlglaß",
+    "given_names": "Dr.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "zima_peter_v",
+    "family_name": "Zima",
+    "given_names": "Peter V.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "bachtin",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "G.C.Lichtenberg",
+    "is_organisation": false
+  },
+  {
+    "unified_id": "clausewitz_karl_v",
+    "family_name": "Clausewitz",
+    "given_names": "Karl von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "ib_giovanni_d_b",
+    "family_name": "Ib",
+    "given_names": "Giovanni Di Boccaccio",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "bandion_wolfgang_j",
+    "family_name": "Bandion",
+    "given_names": "Wolfgang J.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "behncke_eberhard",
+    "family_name": "Behncke",
+    "given_names": "W.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "falke_o_v",
+    "family_name": "Falke",
+    "given_names": "O. von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "pernice_o_v",
+    "family_name": "Pernice",
+    "given_names": "E.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "swarzenski_o_v",
+    "family_name": "Swarzenski",
+    "given_names": "G.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "braun_o_v",
+    "family_name": "Braun",
+    "given_names": "E.W.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "dreger_o_v",
+    "family_name": "Dreger",
+    "given_names": "M.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kummel_o_v",
+    "family_name": "Kümmel",
+    "given_names": "O.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "lehnert_o_v",
+    "family_name": "Lehnert",
+    "given_names": "G.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "halben_h_v",
+    "family_name": "Halben",
+    "given_names": "H. von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "suttinger_johann_b",
+    "family_name": "Suttinger",
+    "given_names": "Johann Baptist",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "schrotter_franz_f_v",
+    "family_name": "Schrötter",
+    "given_names": "Franz Ferdinand von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "vierthaler_f(ranz)_m",
+    "family_name": "Vierthaler",
+    "given_names": "F(ranz) M(ichael)",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "vierthaler_fr_m",
+    "family_name": "Vierthaler",
+    "given_names": "Fr. M.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "weis_johann_n",
+    "family_name": "Weis",
+    "given_names": "Johann Nepomuk",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "thadden_r_v",
+    "family_name": "Thadden",
+    "given_names": "R. von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "magdelaine_r_v",
+    "family_name": "Magdelaine",
+    "given_names": "M.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "westermann_pascal",
+    "family_name": "Westermann",
+    "given_names": "Kurt-Michael",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "mosler_axel_m",
+    "family_name": "Mosler",
+    "given_names": "Axel M.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "babelon_alain",
+    "family_name": "Babelon",
+    "given_names": "Jean-Pierre",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "mecklenburg_herzog_z",
+    "family_name": "Mecklenburg",
+    "given_names": "Herzog Zu",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "griesinger_georg_a",
+    "family_name": "Griesinger",
+    "given_names": "Georg August",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "muller_johann_v",
+    "family_name": "Müller",
+    "given_names": "Johann von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "muller_johann_g",
+    "family_name": "Müller",
+    "given_names": "Johann Georg",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "worringer_johann_g",
+    "family_name": "Worringer",
+    "given_names": "W.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "anthing_johann_f",
+    "family_name": "Anthing",
+    "given_names": "Johann Friedrich",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "campbell_james_w",
+    "family_name": "Campbell",
+    "given_names": "James W.P.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "lucas_ernst",
+    "family_name": "Lucas",
+    "given_names": "Ed.(uard)",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "nabias_ernst",
+    "family_name": "Nabias",
+    "given_names": "S.",
+    "name_particles": "de",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "babo_mark",
+    "family_name": "Babo",
+    "given_names": "A.",
+    "name_particles": "Freiherr von",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kleist_ewald_c",
+    "family_name": "Kleist",
+    "given_names": "Ewald Christian",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "defregger_hans_p",
+    "family_name": "Defregger",
+    "given_names": "Hans Peter",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "janz_curt_p",
+    "family_name": "Janz",
+    "given_names": "Curt Paul",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "volkhamer-von-ehrenberg_johann_n",
+    "family_name": "Volkhamer von Ehrenberg",
+    "given_names": "Johann Nepomuk",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "geary_patrick_j",
+    "family_name": "Geary",
+    "given_names": "Patrick J.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "geyer_patrick_j",
+    "family_name": "Geyer",
+    "given_names": "Carl-Friedrich",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kirk_geoffrey_s",
+    "family_name": "Kirk",
+    "given_names": "Geoffrey Stephen",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "strassburg_gottfried_v",
+    "family_name": "Strassburg",
+    "given_names": "Gottfried Von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "ib_paul_h",
+    "family_name": "Ib",
+    "given_names": "Paul Hindemith",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "wolf-schneider-von-arno_oskar_f",
+    "family_name": "Wolf-Schneider von Arno",
+    "given_names": "Oskar Freiherr",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "vigny_alfred_d",
+    "family_name": "Vigny",
+    "given_names": "Alfred de",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "stepanowa_warwara_f",
+    "family_name": "Stepanowa",
+    "given_names": "Warwara F.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "lawrentjew_alexander_n",
+    "family_name": "Lawrentjew",
+    "given_names": "Alexander N.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "wilpert_gero_v",
+    "family_name": "Wilpert",
+    "given_names": "Gero von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "heyse_karl_w_l",
+    "family_name": "Heyse",
+    "given_names": "Karl Wilhelm Ludwig",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "frank_josef_m",
+    "family_name": "Frank",
+    "given_names": "Josef Maria",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "layard_austen_h",
+    "family_name": "Layard",
+    "given_names": "Austen Henry",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "reitzenstein_hartmut",
+    "family_name": "Reitzenstein",
+    "given_names": "R.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "schmidt_ernst_g",
+    "family_name": "Schmidt",
+    "given_names": "Ernst Günther",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "chesterfield_philip_d_s_e_o",
+    "family_name": "Chesterfield",
+    "given_names": "Philip Dormer Stanhope Earl of",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "borges_philip_d_s_e_o",
+    "family_name": "Borges",
+    "given_names": "J.L.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "gomperz_theodor",
+    "family_name": "Gomperz",
+    "given_names": "H.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "wittke_theodor",
+    "family_name": "Wittke",
+    "given_names": "Anne-Maria",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "daenert_isabella",
+    "family_name": "Daenert",
+    "given_names": "R.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "ehmke_professor",
+    "family_name": "Ehmke",
+    "given_names": "F.H.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "menar_august_v_l_o",
+    "family_name": "Menar",
+    "given_names": "August von Löwis of",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "andreae_johann_v",
+    "family_name": "Andreae",
+    "given_names": "Johann Valentin",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "lohneisen_wolfgang_f_v",
+    "family_name": "Löhneisen",
+    "given_names": "Wolfgang Frhr. von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "sevigne_madame_d",
+    "family_name": "Sevigne",
+    "given_names": "Madame de",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "muhl_theodora_v_d",
+    "family_name": "Mühl",
+    "given_names": "Theodora von der",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "aprent_horst",
+    "family_name": "Aprent",
+    "given_names": "Joh.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "stokkeby_nonna_n",
+    "family_name": "Stokkeby",
+    "given_names": "Nonna Nielsen",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "nossack_hans_e",
+    "family_name": "Nossack",
+    "given_names": "Hans Erich",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "nossak_hans_e",
+    "family_name": "Nossak",
+    "given_names": "Hans Erich",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "novak_helga_m",
+    "family_name": "Novak",
+    "given_names": "Helga M.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "greinert_wolff_a",
+    "family_name": "Greinert",
+    "given_names": "Wolff A.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "gousset_francois",
+    "family_name": "Gousset",
+    "given_names": "Marie-Thérèse",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "tesniere_francois",
+    "family_name": "Tesnière",
+    "given_names": "Marie-Hélène",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "gulich_gustav_v",
+    "family_name": "Gülich",
+    "given_names": "Gustav von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "stammler_notker_d",
+    "family_name": "Stammler",
+    "given_names": "Notker Der",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "ben-sasson_haim_h",
+    "family_name": "Ben-Sasson",
+    "given_names": "Haim Hillel",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kotowski_norman",
+    "family_name": "Kotowski",
+    "given_names": "Elke-Vera",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "jennings_gereon",
+    "family_name": "Jennings",
+    "given_names": "H.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "gorion_rahel_b",
+    "family_name": "Gorion",
+    "given_names": "Rahel bin",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "goldschmit-jentner_rudolf_k",
+    "family_name": "Goldschmit-Jentner",
+    "given_names": "Rudolf K.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "niedergall_ernst_e",
+    "family_name": "Niedergall",
+    "given_names": "Ernst Elias",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "arndt_ernst_m",
+    "family_name": "Arndt",
+    "given_names": "Ernst Moritz",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "danszky_eduard_p",
+    "family_name": "Danszky",
+    "given_names": "Eduard Paul",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "suskind_w_e",
+    "family_name": "Süskind",
+    "given_names": "W. E.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "starck_seb_g",
+    "family_name": "Starck",
+    "given_names": "Seb. Gottfr.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "novak_johann_f",
+    "family_name": "Novak",
+    "given_names": "Johann Friedrich",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "gries_j_d",
+    "family_name": "Gries",
+    "given_names": "J. D.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "heimatkunde'_arbeitsgemeinschaft_'",
+    "family_name": "Heimatkunde'",
+    "given_names": "Arbeitsgemeinschaft 'Währinger",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "prischwin_michail_m",
+    "family_name": "Prischwin",
+    "given_names": "Michail M.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "eddelbuttel_herbert_f_r",
+    "family_name": "Eddelbüttel",
+    "given_names": "Herbert F. R.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "detken_herbert_f_r",
+    "family_name": "Detken",
+    "given_names": "H.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "binder_alfred",
+    "family_name": "Binder",
+    "given_names": "W.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "vries_jan_d",
+    "family_name": "Vries",
+    "given_names": "Jan de",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "schlozer_karl_s_v",
+    "family_name": "Schlözer",
+    "given_names": "Karl sen. von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "schlozer_kurd_v",
+    "family_name": "Schlözer",
+    "given_names": "Kurd von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "schlozer_karl_j_v",
+    "family_name": "Schlözer",
+    "given_names": "Karl jun. von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "radhkrishnan_karl_j_v",
+    "family_name": "Radhkrishnan",
+    "given_names": "S.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "burton_sir_r",
+    "family_name": "Burton",
+    "given_names": "Sir Richard",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "arbuthnot_sir_r",
+    "family_name": "Arbuthnot",
+    "given_names": "F.F.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kat-angelino_p_d",
+    "family_name": "Kat Angelino",
+    "given_names": "P. de",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kleen_tyra_d",
+    "family_name": "Kleen",
+    "given_names": "Tyra de",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "velde_henry_v_d",
+    "family_name": "Velde",
+    "given_names": "Henry Van De",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "muller_johann_g",
+    "family_name": "Müller",
+    "given_names": "Johann Gottwerth",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "adler_paula_g_f",
+    "family_name": "Adler",
+    "given_names": "Paula geb. Freud",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "zillner_franz_v",
+    "family_name": "Zillner",
+    "given_names": "Franz Valentin",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "garscha_winfried_r",
+    "family_name": "Garscha",
+    "given_names": "Winfried R.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "aretin_karl_o_f_v",
+    "family_name": "Aretin",
+    "given_names": "Karl Otmar Freiherr von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "wehler_reinhard",
+    "family_name": "Wehler",
+    "given_names": "Hans-Ulrich",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "block_w_p",
+    "family_name": "Block",
+    "given_names": "W. Paul",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "goldhagen_daniel_j",
+    "family_name": "Goldhagen",
+    "given_names": "Daniel Jonah",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "ivanka_endre_v",
+    "family_name": "Ivanka",
+    "given_names": "Endre von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "strawson_peter_f",
+    "family_name": "Strawson",
+    "given_names": "Peter Frederick",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "grosse_gregor_d",
+    "family_name": "Grosse",
+    "given_names": "Gregor Der",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "abegg_martin_j",
+    "family_name": "Abegg",
+    "given_names": "Martin Jr.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "przibram_ludwig_r_v",
+    "family_name": "Przibram",
+    "given_names": "Ludwig Ritter von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "gombrich_salvatore",
+    "family_name": "Gombrich",
+    "given_names": "E.H.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "passeron_sophie",
+    "family_name": "Passeron",
+    "given_names": "Jean-Claude",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "riba_carl_t_a_r_v",
+    "family_name": "Riba",
+    "given_names": "Carl Theodor Albert Ritter von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "rakelmann_georgia_a",
+    "family_name": "Rakelmann",
+    "given_names": "Georgia A.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "jesina_josef_p",
+    "family_name": "Jesina",
+    "given_names": "Josef P.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "krogt_peter_v_d",
+    "family_name": "Krogt",
+    "given_names": "Peter van der",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "bontekoe-van-hoorn_willem_y",
+    "family_name": "Bontekoe Van Hoorn",
+    "given_names": "Willem Ysbrantsz",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "bougainville_louis_a_d",
+    "family_name": "Bougainville",
+    "given_names": "Louis Antoine de",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "podewils_clemens_g",
+    "family_name": "Podewils",
+    "given_names": "Clemens Graf",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kiefer_klaus_h",
+    "family_name": "Kiefer",
+    "given_names": "Klaus H.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "chardin_teilhard_d",
+    "family_name": "Chardin",
+    "given_names": "Teilhard De",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "grube_a_w",
+    "family_name": "Grube",
+    "given_names": "A. W.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "330_peter_v_i",
+    "family_name": "330",
+    "given_names": "Peter Vischer Ib",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "renner_victor_v",
+    "family_name": "Renner",
+    "given_names": "Victor v.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kahler_moritz",
+    "family_name": "Kahler",
+    "given_names": "N.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kriehuber_moritz",
+    "family_name": "Kriehuber",
+    "given_names": "F.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "thurheim_grafin_l",
+    "family_name": "Thürheim",
+    "given_names": "Gräfin Lulu",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "rhyn_rene_v",
+    "family_name": "Rhyn",
+    "given_names": "Rene van",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "zeylmans-van-emmichoven_rene_v",
+    "family_name": "Zeylmans Van Emmichoven",
+    "given_names": "F.W.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "zeylmans-van-emmichoven_rene_v",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Giese/Schweiger",
+    "is_organisation": false
+  },
+  {
+    "unified_id": "narciss_michael",
+    "family_name": "Narciss",
+    "given_names": "G.A.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "peter_enrique",
+    "family_name": "Peter",
+    "given_names": "M.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "ungewitter_theodor",
+    "family_name": "Ungewitter",
+    "given_names": "G.G.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "lindberg_david_c",
+    "family_name": "Lindberg",
+    "given_names": "David C.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "brazza_pierre_s_d",
+    "family_name": "Brazza",
+    "given_names": "Pierre Savorgnan de",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "gould_stephen_j",
+    "family_name": "Gould",
+    "given_names": "Stephen Jay",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "la-rochefoucauld_francois_d",
+    "family_name": "La Rochefoucauld",
+    "given_names": "François de",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "la-rochefoucauld_herzog_v",
+    "family_name": "La Rochefoucauld",
+    "given_names": "Herzog von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "rudolf-lewy_bearbeitet_v_e_s",
+    "family_name": "Rudolf Lewy",
+    "given_names": "bearbeitet von Elisabeth Schneider",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "dulken_stephen_v",
+    "family_name": "Dulken",
+    "given_names": "Stephen van",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "pretre_j_c",
+    "family_name": "Pretre",
+    "given_names": "J. C.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "isaacs_reginald_r",
+    "family_name": "Isaacs",
+    "given_names": "Reginald R.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "bilbassoff_b_v",
+    "family_name": "Bilbassoff",
+    "given_names": "B. von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "pezold_m_v",
+    "family_name": "Pezold",
+    "given_names": "M. v.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kuprejanov_nikolai_n",
+    "family_name": "Kuprejanov",
+    "given_names": "Nikolai Nikolajevic",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "mayer_franz_m_m",
+    "family_name": "Mayer",
+    "given_names": "Franz Martin Mayer",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "meiller_andreas_v",
+    "family_name": "Meiller",
+    "given_names": "Andreas von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "jedlicka_ludwig_f",
+    "family_name": "Jedlicka",
+    "given_names": "Ludwig F.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "loew_hans_m",
+    "family_name": "Loew",
+    "given_names": "Hans M.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "jordan_emil",
+    "family_name": "Jordan",
+    "given_names": "J.P.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "hensel_emil",
+    "family_name": "Hensel",
+    "given_names": "S.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "komorzynski_egon_v",
+    "family_name": "Komorzynski",
+    "given_names": "Egon v.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "larsen_jens_p",
+    "family_name": "Larsen",
+    "given_names": "Jens Peter",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "baldamus_kurt",
+    "family_name": "Baldamus",
+    "given_names": "M.K.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "baron_salo_w",
+    "family_name": "Baron",
+    "given_names": "Salo W.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "kalkreuth_christine_v",
+    "family_name": "Kalkreuth",
+    "given_names": "Christine von",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "heine_th_t",
+    "family_name": "Heine",
+    "given_names": "Th. Th.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "richartz_walter_e",
+    "family_name": "Richartz",
+    "given_names": "Walter E.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "breuningen_helga_v",
+    "family_name": "Breuningen",
+    "given_names": "Helga van",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "baudissin_wolf_g",
+    "family_name": "Baudissin",
+    "given_names": "Wolf Graf",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "bugow_andre",
+    "family_name": "Bugow",
+    "given_names": "S.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "maucy_christoph_d",
+    "family_name": "Maucy",
+    "given_names": "Christoph D.",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "rudolf_kronprinz_e_(",
+    "family_name": "Rudolf",
+    "given_names": "Kronprinz Erzherzog (Anregung",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "rudolf_kronprinz_e_(",
+    "family_name": "Rudolf",
+    "given_names": "Mitwirkung)",
+    "name_particles": "",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "unified_id": "erste_donau-dampfschiffahrts-gesellschaft",
+    "family_name": null,
+    "given_names": null,
+    "name_particles": "",
+    "single_name": "Erste Donau-Dampfschiffahrts-Gesellschaft",
+    "is_organisation": false
+  }
+]

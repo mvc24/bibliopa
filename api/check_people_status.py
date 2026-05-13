@@ -51,20 +51,20 @@ def retrieve_results(batch_id, output_path):
                 # Extract the JSON content from the response
                 content = result.result.message.content[0].text
                 try:
-                    # Parse the JSON array returned by Claude
-                    person_entries = json.loads(content)
+                    parsed = json.loads(content)
 
-                    # Add custom_id to each entry for tracking
-                    if isinstance(person_entries, list):
-                        for entry in person_entries:
+                    # Handle both array responses (nopes) and single object responses (clean)
+                    if isinstance(parsed, list):
+                        for entry in parsed:
                             entry["_source_custom_id"] = custom_id
-                        parsed_results.extend(person_entries)
+                        parsed_results.extend(parsed)
+                    elif isinstance(parsed, dict):
+                        parsed["_source_custom_id"] = custom_id
+                        parsed_results.append(parsed)
                     else:
-                        # If not a list, something went wrong
                         parsed_results.append({
-                            "unified_id": "oops",
                             "_source_custom_id": custom_id,
-                            "_error": "Response was not an array"
+                            "_error": "Response was not an object or array"
                         })
                 except json.JSONDecodeError as e:
                     parsed_results.append({
@@ -107,9 +107,11 @@ def main():
     """
     # Determine which pass to check
     if len(sys.argv) < 2:
-        print("Usage: python check_people_status.py [pass1|pass2]")
+        print("Usage: python check_people_status.py [pass1|pass2|clean|nopes]")
         print("  pass1: Check Pass 1 (splitting) batch status")
         print("  pass2: Check Pass 2 (deduplication) batch status")
+        print("  clean: Check Operation A (clean existing people) status")
+        print("  nopes: Check Operation B (nopes dedup + clean) status")
         return
 
     pass_type = sys.argv[1].lower()
@@ -126,9 +128,21 @@ def main():
         batch_pattern = "batch_dedup_"
         results_prefix = "results_pass2_"
         pass_name = "Pass 2"
+    elif pass_type == "clean":
+        tracking_file = Path("database/in_progress/clean_batch_tracking.json")
+        results_dir = Path("database/in_progress/clean_results")
+        batch_pattern = "batch_clean_"
+        results_prefix = "results_clean_"
+        pass_name = "Operation A (clean existing people)"
+    elif pass_type == "nopes":
+        tracking_file = Path("database/in_progress/nopes_batch_tracking.json")
+        results_dir = Path("database/in_progress/nopes_results")
+        batch_pattern = "batch_nopes_"
+        results_prefix = "results_nopes_"
+        pass_name = "Operation B (nopes dedup + clean)"
     else:
         print(f"Unknown pass type: {pass_type}")
-        print("Use 'pass1' or 'pass2'")
+        print("Use 'pass1', 'pass2', 'clean', or 'nopes'")
         return
 
     print(f"=== {pass_name} Status Check ===\n")
