@@ -2,8 +2,6 @@
   "janosch": {
     "composite_id": [
       "illustrierte_178_8_14",
-      "kinder_37_2_4",
-      "illustrierte_178_8_14",
       "kinder_37_2_4"
     ],
     "display_name": "JANOSCH",
@@ -22,7 +20,6 @@
   },
   "balthus": {
     "composite_id": [
-      "insel_246_10_27",
       "insel_246_10_27"
     ],
     "display_name": "Balthus",
@@ -41,18 +38,12 @@
   },
   "novalis": {
     "composite_id": [
-      "briefe_279_12_15",
-      "briefe_280_12_15",
-      "briefe_281_12_15",
-      "illustrierte_248_10_14",
-      "insel_505_21_27",
       "de-lit-texte_346_14_20",
-      "briefe_279_12_15",
       "briefe_280_12_15",
+      "insel_505_21_27",
       "briefe_281_12_15",
       "illustrierte_248_10_14",
-      "insel_505_21_27",
-      "de-lit-texte_346_14_20"
+      "briefe_279_12_15"
     ],
     "display_name": "NOVALIS",
     "last_norm": "novalis",
@@ -70,7 +61,6 @@
   },
   "raab": {
     "composite_id": [
-      "briefe_298_12_15",
       "briefe_298_12_15"
     ],
     "display_name": "Raab",
@@ -89,7 +79,6 @@
   },
   "schwaiger": {
     "composite_id": [
-      "signierte_91_4_10",
       "signierte_91_4_10"
     ],
     "display_name": "Schwaiger",
@@ -108,7 +97,6 @@
   },
   "kyselak": {
     "composite_id": [
-      "oesterreich_89_4_13",
       "oesterreich_89_4_13"
     ],
     "display_name": "KYSELAK",
@@ -127,7 +115,6 @@
   },
   "groothuis": {
     "composite_id": [
-      "wien_12_1_10",
       "wien_12_1_10"
     ],
     "display_name": "GROOTHUIS",
@@ -146,7 +133,6 @@
   },
   "schneidawind": {
     "composite_id": [
-      "oesterreich_134_6_13",
       "oesterreich_134_6_13"
     ],
     "display_name": "SCHNEIDAWIND",
@@ -165,7 +151,6 @@
   },
   "stoob": {
     "composite_id": [
-      "oesterreich_147_6_13",
       "oesterreich_147_6_13"
     ],
     "display_name": "STOOB",
@@ -184,7 +169,6 @@
   },
   "ludwig": {
     "composite_id": [
-      "erstausgaben_1070_43_78",
       "erstausgaben_1070_43_78"
     ],
     "display_name": "Ludwig Goldschneider",
@@ -203,7 +187,6 @@
   },
   "haarmann": {
     "composite_id": [
-      "literatur_129_6_12",
       "literatur_129_6_12"
     ],
     "display_name": "HAARMANN",
@@ -222,7 +205,6 @@
   },
   "graesse": {
     "composite_id": [
-      "mittelalter_39_2_7",
       "mittelalter_39_2_7"
     ],
     "display_name": "Graesse",
@@ -241,7 +223,6 @@
   },
   "julian": {
     "composite_id": [
-      "antike_78_4_9",
       "antike_78_4_9"
     ],
     "display_name": "JULIAN",
@@ -261,8 +242,6 @@
   "nonnos": {
     "composite_id": [
       "antike_90_4_9",
-      "antike_91_4_9",
-      "antike_90_4_9",
       "antike_91_4_9"
     ],
     "display_name": "NONNOS",
@@ -281,7 +260,6 @@
   },
   "juvenal": {
     "composite_id": [
-      "antike_175_8_9",
       "antike_175_8_9"
     ],
     "display_name": "JUVENAL",
@@ -300,7 +278,6 @@
   },
   "livius": {
     "composite_id": [
-      "antike_177_8_9",
       "antike_177_8_9"
     ],
     "display_name": "LIVIUS",
@@ -319,7 +296,6 @@
   },
   "hausner": {
     "composite_id": [
-      "kunstbuecher_200_9_38",
       "kunstbuecher_200_9_38"
     ],
     "display_name": "HAUSNER",
@@ -338,14 +314,13 @@
   },
   "athanassiadiss": {
     "composite_id": [
-      "kunstbuecher_908_37_38",
       "kunstbuecher_908_37_38"
     ],
-    "display_name": "Athanassiadis",
+    "display_name": "Athanassiadiss",
     "last_norm": "athanassiadis",
-    "family_name": "Athanassiadiss",
+    "family_name": "Athanassiadis",
     "first_norm": "michael",
-    "given_names": "Michaeil",
+    "given_names": "Michael",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
@@ -357,7 +332,6 @@
   },
   "muck": {
     "composite_id": [
-      "kunstbuecher_908_37_38",
       "kunstbuecher_908_37_38"
     ],
     "display_name": "Muck",
@@ -376,7 +350,6 @@
   },
   "velazquez": {
     "composite_id": [
-      "kunstbuecher_913_37_38",
       "kunstbuecher_913_37_38"
     ],
     "display_name": "VELAZQUEZ",
@@ -395,7 +368,6 @@
   },
   "thudydides": {
     "composite_id": [
-      "antike_137_6_9",
       "antike_137_6_9"
     ],
     "display_name": "THUKYDIDES",
@@ -414,7 +386,6 @@
   },
   "linke": {
     "composite_id": [
-      "literatur_268_11_12",
       "literatur_268_11_12"
     ],
     "display_name": "Linke",
@@ -433,7 +404,6 @@
   },
   "nussbaumer": {
     "composite_id": [
-      "literatur_268_11_12",
       "literatur_268_11_12"
     ],
     "display_name": "Nussbaumer",
@@ -452,14 +422,13 @@
   },
   "portmann": {
     "composite_id": [
-      "literatur_268_11_12",
       "literatur_268_11_12"
     ],
     "display_name": "Portmann",
     "last_norm": "portmann",
     "family_name": "Portmann",
-    "first_norm": "Raul R.",
-    "given_names": "raul r.",
+    "first_norm": "raul r.",
+    "given_names": "Raul R.",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
@@ -471,7 +440,6 @@
   },
   "scheibe": {
     "composite_id": [
-      "insel_282_12_27",
       "insel_282_12_27"
     ],
     "display_name": "Scheibe",
@@ -490,15 +458,13 @@
   },
   "lamartine": {
     "composite_id": [
-      "neuzeit_35_2_4",
       "okkultismus_163_7_8",
-      "neuzeit_35_2_4",
-      "okkultismus_163_7_8"
+      "neuzeit_35_2_4"
     ],
     "display_name": "LAMARTINE",
     "last_norm": "lamartine",
     "family_name": "Lamartine",
-    "first_norm": "alphonse de",
+    "first_norm": "alphonse",
     "given_names": "Alphonse",
     "name_particles": "de",
     "single_norm": null,
@@ -511,7 +477,6 @@
   },
   "tissot": {
     "composite_id": [
-      "bibliophile_209_9_10",
       "bibliophile_209_9_10"
     ],
     "display_name": "TISSOT",
@@ -530,7 +495,6 @@
   },
   "holub": {
     "composite_id": [
-      "suchliste_21_1_3",
       "suchliste_21_1_3"
     ],
     "display_name": "HOLUB",
@@ -549,10 +513,8 @@
   },
   "goldhagen": {
     "composite_id": [
-      "briefe_174_7_15",
       "antike_169_7_9",
-      "briefe_174_7_15",
-      "antike_169_7_9"
+      "briefe_174_7_15"
     ],
     "display_name": "Goldhagen",
     "last_norm": "goldhagen",
@@ -570,7 +532,6 @@
   },
   "rölleke": {
     "composite_id": [
-      "erstausgaben_315_13_78",
       "erstausgaben_315_13_78"
     ],
     "display_name": "Rölleke",
@@ -589,7 +550,6 @@
   },
   "eugippius": {
     "composite_id": [
-      "antike_53_3_9",
       "antike_53_3_9"
     ],
     "display_name": "EUGIPPIUS",
@@ -608,7 +568,6 @@
   },
   "jamblich": {
     "composite_id": [
-      "griechenland_69_3_10",
       "griechenland_69_3_10"
     ],
     "display_name": "JAMBLICH",
@@ -627,7 +586,6 @@
   },
   "vermeer": {
     "composite_id": [
-      "kunstbuecher_530_22_38",
       "kunstbuecher_530_22_38"
     ],
     "display_name": "VERMEER",
@@ -646,7 +604,6 @@
   },
   "mrazek": {
     "composite_id": [
-      "kunstbuecher_119_5_38",
       "kunstbuecher_119_5_38"
     ],
     "display_name": "Mrazek",
@@ -665,7 +622,6 @@
   },
   "schwarzenberg": {
     "composite_id": [
-      "briefe_58_3_15",
       "briefe_58_3_15"
     ],
     "display_name": "SCHWARZENBERG",
@@ -684,7 +640,6 @@
   },
   "holbach": {
     "composite_id": [
-      "philosophie_478_20_24",
       "philosophie_478_20_24"
     ],
     "display_name": "HOLBACH",
@@ -703,7 +658,6 @@
   },
   "deutschmeisterbund": {
     "composite_id": [
-      "oesterreich_65_3_13",
       "oesterreich_65_3_13"
     ],
     "display_name": "Deutschmeisterbund",
@@ -722,7 +676,6 @@
   },
   "kaufmann": {
     "composite_id": [
-      "musik_206_9_11",
       "musik_206_9_11"
     ],
     "display_name": "KAUFMANN",
@@ -741,7 +694,6 @@
   },
   "vollmer": {
     "composite_id": [
-      "mythologie_56_3_3",
       "mythologie_56_3_3"
     ],
     "display_name": "VOLLMER",
@@ -760,7 +712,6 @@
   },
   "palaiphatos": {
     "composite_id": [
-      "antike_101_5_9",
       "antike_101_5_9"
     ],
     "display_name": "PALAIPHATOS",
@@ -779,7 +730,6 @@
   },
   "dehio": {
     "composite_id": [
-      "oesterreich_189_8_13",
       "oesterreich_189_8_13"
     ],
     "display_name": "DEHIO",
@@ -798,8 +748,6 @@
   },
   "gasser": {
     "composite_id": [
-      "suchliste_35_2_3",
-      "oesterreich_242_10_13",
       "suchliste_35_2_3",
       "oesterreich_242_10_13"
     ],
@@ -820,8 +768,6 @@
   "jilek": {
     "composite_id": [
       "suchliste_35_2_3",
-      "oesterreich_242_10_13",
-      "suchliste_35_2_3",
       "oesterreich_242_10_13"
     ],
     "display_name": "Jilek",
@@ -840,7 +786,6 @@
   },
   "czezik-müller": {
     "composite_id": [
-      "oesterreich_23_1_13",
       "oesterreich_23_1_13"
     ],
     "display_name": "CZEZIK-MÜLLER",
@@ -859,7 +804,6 @@
   },
   "jakubinski": {
     "composite_id": [
-      "russland_311_13_17",
       "russland_311_13_17"
     ],
     "display_name": "Jakubinski",
@@ -878,7 +822,6 @@
   },
   "rembrandt": {
     "composite_id": [
-      "insel_557_23_27",
       "insel_557_23_27"
     ],
     "display_name": "REMBRANDT",
@@ -897,7 +840,6 @@
   },
   "ratz": {
     "composite_id": [
-      "musik_71_3_11",
       "musik_71_3_11"
     ],
     "display_name": "Ratz",
@@ -916,7 +858,6 @@
   },
   "mayer": {
     "composite_id": [
-      "musik_71_3_11",
       "musik_71_3_11"
     ],
     "display_name": "Mayer",
@@ -935,7 +876,6 @@
   },
   "schnebel": {
     "composite_id": [
-      "musik_71_3_11",
       "musik_71_3_11"
     ],
     "display_name": "Schnebel",
@@ -954,7 +894,6 @@
   },
   "abaelard": {
     "composite_id": [
-      "mittelalter_0_1_7",
       "mittelalter_0_1_7"
     ],
     "display_name": "ABAELARD",
@@ -973,7 +912,6 @@
   },
   "wagner-egelhaaf": {
     "composite_id": [
-      "literatur_219_9_12",
       "literatur_219_9_12"
     ],
     "display_name": "WAGNER-EGELHAAF",
@@ -992,7 +930,6 @@
   },
   "meldemann": {
     "composite_id": [
-      "bibliophile_163_7_10",
       "bibliophile_163_7_10"
     ],
     "display_name": "MELDEMANN",
@@ -1011,7 +948,6 @@
   },
   "stadt mödling": {
     "composite_id": [
-      "erstausgaben_1458_59_78",
       "erstausgaben_1458_59_78"
     ],
     "display_name": "Stadt Mödling",
@@ -1030,7 +966,6 @@
   },
   "deutscher buchgewerbeverein": {
     "composite_id": [
-      "buch_6_1_8",
       "buch_6_1_8"
     ],
     "display_name": "Deutscher Buchgewerbeverein",
@@ -1049,7 +984,6 @@
   },
   "staatliche akademie für graphische künste und buchgewerbe zu leipzig": {
     "composite_id": [
-      "buch_6_1_8",
       "buch_6_1_8"
     ],
     "display_name": "Staatliche Akademie für graphische Künste und Buchgewerbe zu Leipzig",
@@ -1068,7 +1002,6 @@
   },
   "gemeinde wien": {
     "composite_id": [
-      "wien_65_3_10",
       "wien_65_3_10"
     ],
     "display_name": "Gemeinde Wien",
@@ -1087,7 +1020,6 @@
   },
   "radierwerkstatt kurt zein wien": {
     "composite_id": [
-      "kunstbuecher_428_18_38",
       "kunstbuecher_428_18_38"
     ],
     "display_name": "RADIERWERKSTATT KURT ZEIN WIEN",
@@ -1106,7 +1038,6 @@
   },
   "internationale stiftung mozarteum salzburg": {
     "composite_id": [
-      "musik_82_4_11",
       "musik_82_4_11"
     ],
     "display_name": "Internationale Stiftung Mozarteum Salzburg",
@@ -1125,7 +1056,6 @@
   },
   "zentralbüro der zionistischen organisation": {
     "composite_id": [
-      "judentum_59_3_9",
       "judentum_59_3_9"
     ],
     "display_name": "Zentralbüro der Zionistischen Organisation",
@@ -1144,7 +1074,6 @@
   },
   "hans blumenberg-archiv": {
     "composite_id": [
-      "philosophie_84_4_24",
       "philosophie_84_4_24"
     ],
     "display_name": "Hans Blumenberg-Archiv",
@@ -1163,7 +1092,6 @@
   },
   "verein der freunde des wallraf-richartz-museums bibliophilen-gesellschaft in köln": {
     "composite_id": [
-      "bibliophile_219_9_10",
       "bibliophile_219_9_10"
     ],
     "display_name": "Verein der Freunde des Wallraf-Richartz-Museums Bibliophilen-Gesellschaft in Köln",
@@ -1182,7 +1110,6 @@
   },
   "kopenhagener kierkegaard-gesellschaft": {
     "composite_id": [
-      "philosophie_198_8_24",
       "philosophie_198_8_24"
     ],
     "display_name": "Kopenhagener Kierkegaard-Gesellschaft",
@@ -1201,7 +1128,6 @@
   },
   "verein freunde friedrich danielis salzburg museum": {
     "composite_id": [
-      "kunstbuecher_78_4_38",
       "kunstbuecher_78_4_38"
     ],
     "display_name": "Verein Freunde Friedrich Danielis Salzburg Museum",
@@ -1220,7 +1146,6 @@
   },
   "hamburger stiftung zur förderung von wissenschaft und kultur": {
     "composite_id": [
-      "briefe_361_15_15",
       "briefe_361_15_15"
     ],
     "display_name": "Hamburger Stiftung zur Förderung von Wissenschaft und Kultur",
@@ -1239,7 +1164,6 @@
   },
   "wieland-archiv, biberach/riß": {
     "composite_id": [
-      "briefe_361_15_15",
       "briefe_361_15_15"
     ],
     "display_name": "Wieland-Archiv, Biberach/Riß",
@@ -1258,7 +1182,6 @@
   },
   "marktgemeinde goisern": {
     "composite_id": [
-      "oesterreich_58_3_13",
       "oesterreich_58_3_13"
     ],
     "display_name": "Marktgemeinde Goisern",
@@ -1277,7 +1200,6 @@
   },
   "die deutsche bibliothek, leipzig, frankfurt am main und berlin und die stiftung buchkunst frankfurt am main und leipzig": {
     "composite_id": [
-      "buch_175_8_8",
       "buch_175_8_8"
     ],
     "display_name": "Die Deutsche Bibliothek, Leipzig, Frankfurt am Main und Berlin und die Stiftung Buchkunst Frankfurt am Main und Leipzig",
@@ -1296,7 +1218,6 @@
   },
   "werkstatt breitenbrunn elfe und will frenken": {
     "composite_id": [
-      "oesterreich_1_1_13",
       "oesterreich_1_1_13"
     ],
     "display_name": "Werkstatt Breitenbrunn Elfe und Will Frenken",
@@ -1315,7 +1236,6 @@
   },
   "arbeitsgemeinschaft des mariahilfer heimatmuseums": {
     "composite_id": [
-      "wien_75_4_10",
       "wien_75_4_10"
     ],
     "display_name": "Arbeitsgemeinschaft des Mariahilfer Heimatmuseums",
@@ -1334,10 +1254,8 @@
   },
   "rommel, otto": {
     "composite_id": [
-      "wien_210_9_10",
       "briefe_45_2_15",
-      "wien_210_9_10",
-      "briefe_45_2_15"
+      "wien_210_9_10"
     ],
     "display_name": "ROMMEL, Otto",
     "last_norm": "rommel",
@@ -1355,7 +1273,6 @@
   },
   "renolder, klemens": {
     "composite_id": [
-      "erstausgaben_1473_59_78",
       "erstausgaben_1473_59_78"
     ],
     "display_name": "Renolder, Klemens",
@@ -1374,7 +1291,6 @@
   },
   "fritz, elisabeth": {
     "composite_id": [
-      "erstausgaben_1473_59_78",
       "erstausgaben_1473_59_78"
     ],
     "display_name": "Fritz, Elisabeth",
@@ -1393,7 +1309,6 @@
   },
   "becker, hartmut": {
     "composite_id": [
-      "musik_132_6_11",
       "musik_132_6_11"
     ],
     "display_name": "Becker, Hartmut",
@@ -1412,7 +1327,6 @@
   },
   "krempien, rainer": {
     "composite_id": [
-      "musik_132_6_11",
       "musik_132_6_11"
     ],
     "display_name": "Krempien, Rainer",
@@ -1431,7 +1345,6 @@
   },
   "wasielewski, wilh. jos. v.": {
     "composite_id": [
-      "musik_142_6_11",
       "musik_142_6_11"
     ],
     "display_name": "WASIELEWSKI, Wilh. Jos. v.",
@@ -1450,7 +1363,6 @@
   },
   "wasielewski, waldemar von": {
     "composite_id": [
-      "musik_142_6_11",
       "musik_142_6_11"
     ],
     "display_name": "Wasielewski, Waldemar von",
@@ -1469,10 +1381,8 @@
   },
   "kerenyi, magda": {
     "composite_id": [
-      "griechenland_79_4_10",
       "briefe_49_2_15",
-      "griechenland_79_4_10",
-      "briefe_49_2_15"
+      "griechenland_79_4_10"
     ],
     "display_name": "Magda Kerenyi",
     "last_norm": "kerenyi",
@@ -1490,7 +1400,6 @@
   },
   "knapp, robert": {
     "composite_id": [
-      "griechenland_82_4_10",
       "griechenland_82_4_10"
     ],
     "display_name": "KNAPP, Robert",
@@ -1509,7 +1418,6 @@
   },
   "kornemann, ernst": {
     "composite_id": [
-      "griechenland_84_4_10",
       "griechenland_84_4_10"
     ],
     "display_name": "KORNEMANN, Ernst",
@@ -1528,7 +1436,6 @@
   },
   "kohut, adolph": {
     "composite_id": [
-      "philosophie_230_10_24",
       "philosophie_230_10_24"
     ],
     "display_name": "Kohut, Adolph",
@@ -1547,7 +1454,6 @@
   },
   "noll, peter": {
     "composite_id": [
-      "philosophie_242_10_24",
       "philosophie_242_10_24"
     ],
     "display_name": "NOLL, Peter",
@@ -1566,7 +1472,6 @@
   },
   "sahagun, fray bernardino de": {
     "composite_id": [
-      "bibliophile_35_2_10",
       "bibliophile_35_2_10"
     ],
     "display_name": "SAHAGUN, Fray Bernardino de",
@@ -1585,7 +1490,6 @@
   },
   "litterscheid, claus": {
     "composite_id": [
-      "bibliophile_35_2_10",
       "bibliophile_35_2_10"
     ],
     "display_name": "Litterscheid, Claus",
@@ -1604,7 +1508,6 @@
   },
   "schrijver, emile": {
     "composite_id": [
-      "bibliophile_39_2_10",
       "bibliophile_39_2_10"
     ],
     "display_name": "SCHRIJVER, Emile",
@@ -1623,9 +1526,6 @@
   },
   "wiesemann, falk": {
     "composite_id": [
-      "bibliophile_39_2_10",
-      "bibliophile_39_2_10",
-      "bibliophile_39_2_10",
       "bibliophile_39_2_10"
     ],
     "display_name": "WIESEMANN, Falk",
@@ -1644,7 +1544,6 @@
   },
   "schrijver, emile g.l.": {
     "composite_id": [
-      "bibliophile_39_2_10",
       "bibliophile_39_2_10"
     ],
     "display_name": "Schrijver, Emile G.L.",
@@ -1663,7 +1562,6 @@
   },
   "voolen, edward von": {
     "composite_id": [
-      "bibliophile_39_2_10",
       "bibliophile_39_2_10"
     ],
     "display_name": "Voolen, Edward von",
@@ -1682,7 +1580,6 @@
   },
   "stark, johann": {
     "composite_id": [
-      "bibliophile_43_2_10",
       "bibliophile_43_2_10"
     ],
     "display_name": "STARK, Johann",
@@ -1701,7 +1598,6 @@
   },
   "mackenzie, alexander": {
     "composite_id": [
-      "reisen_212_9_13",
       "reisen_212_9_13"
     ],
     "display_name": "MACKENZIE, Alexander",
@@ -1720,7 +1616,6 @@
   },
   "mayer, susanne": {
     "composite_id": [
-      "reisen_212_9_13",
       "reisen_212_9_13"
     ],
     "display_name": "Mayer, Susanne",
@@ -1739,7 +1634,6 @@
   },
   "mary, geo t.": {
     "composite_id": [
-      "reisen_218_9_13",
       "reisen_218_9_13"
     ],
     "display_name": "MARY, Geo T.",
@@ -1758,7 +1652,6 @@
   },
   "segev, tom": {
     "composite_id": [
-      "judentum_155_7_9",
       "judentum_155_7_9"
     ],
     "display_name": "SEGEV, Tom",
@@ -1777,7 +1670,6 @@
   },
   "serotta, edward": {
     "composite_id": [
-      "judentum_157_7_9",
       "judentum_157_7_9"
     ],
     "display_name": "SEROTTA, Edward",
@@ -1796,7 +1688,6 @@
   },
   "pascheles, wolf": {
     "composite_id": [
-      "judentum_159_7_9",
       "judentum_159_7_9"
     ],
     "display_name": "Pascheles, Wolf",
@@ -1815,7 +1706,6 @@
   },
   "stengel, theo": {
     "composite_id": [
-      "judentum_163_7_9",
       "judentum_163_7_9"
     ],
     "display_name": "STENGEL, Theo",
@@ -1834,7 +1724,6 @@
   },
   "gerigk, herbert": {
     "composite_id": [
-      "judentum_163_7_9",
       "judentum_163_7_9"
     ],
     "display_name": "GERIGK, Herbert",
@@ -1853,7 +1742,6 @@
   },
   "riedl, joachim": {
     "composite_id": [
-      "judentum_168_7_9",
       "judentum_168_7_9"
     ],
     "display_name": "Riedl, Joachim",
@@ -1872,7 +1760,6 @@
   },
   "wächter, ludwig": {
     "composite_id": [
-      "judentum_169_7_9",
       "judentum_169_7_9"
     ],
     "display_name": "Wächter, Ludwig",
@@ -1891,7 +1778,6 @@
   },
   "günther, bernd": {
     "composite_id": [
-      "judentum_169_7_9",
       "judentum_169_7_9"
     ],
     "display_name": "Günther, Bernd",
@@ -1928,8 +1814,8 @@
   },
   "stanley": {
     "composite_id": [
-      "reisen_283_12_13",
-      "suchliste_48_2_3"
+      "suchliste_48_2_3",
+      "reisen_283_12_13"
     ],
     "display_name": "STANLEY",
     "last_norm": "stanley",
@@ -2092,8 +1978,8 @@
   },
   "nolde, emil": {
     "composite_id": [
-      "kunstbuecher_825_34_38",
-      "kunstbuecher_376_16_38"
+      "kunstbuecher_376_16_38",
+      "kunstbuecher_825_34_38"
     ],
     "display_name": "NOLDE, Emil",
     "last_norm": "nolde",
@@ -2165,14 +2051,13 @@
   },
   "danz, d.j.t.l.": {
     "composite_id": [
-      "antike_44_2_9",
       "antike_44_2_9"
     ],
     "display_name": "DANZ, D.J.T.L.",
     "last_norm": "danz",
     "family_name": "DANZ",
     "first_norm": "d.j.t.l.",
-    "given_names": "D.J.T.L.",
+    "given_names": "D. J. T. L.",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
@@ -2184,7 +2069,6 @@
   },
   "göckenjan, hansgerd": {
     "composite_id": [
-      "mittelalter_77_4_7",
       "mittelalter_77_4_7"
     ],
     "display_name": "Göckenjan, Hansgerd",
@@ -2203,7 +2087,6 @@
   },
   "sweeney, james r.": {
     "composite_id": [
-      "mittelalter_77_4_7",
       "mittelalter_77_4_7"
     ],
     "display_name": "Sweeney, James R.",
@@ -2332,17 +2215,17 @@
     "composite_id": [
       "biographie_377_16_27"
     ],
-    "display_name": "Myer, Hans",
-    "last_norm": "myer",
-    "family_name": "Myer",
+    "display_name": "Mayer, Hans",
+    "last_norm": "mayer",
+    "family_name": "Mayer",
     "first_norm": "hans",
     "given_names": "Hans",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
     "match_found": null,
-    "original_entry": "LUTHER, Martin\nHans Myer: Martin Luther. Leben und Glaube. Gütersloh Bertelsmann Club 1982. OLn.m.OU Mit zahlr. Abb.",
-    "notes": "The author name 'Hans Myer' is unusual; the more common spelling would be 'Hans Meyer'. However, since there is no unambiguous correction, the name is left as written and api_concerned is flagged for human review.",
+    "original_entry": "LUTHER, Martin\nHans Mayer: Martin Luther. Leben und Glaube. Gütersloh Bertelsmann Club 1982. OLn.m.OU Mit zahlr. Abb.",
+    "notes": "mvc: Korrigiert. The author name 'Hans Myer' is unusual; the more common spelling would be 'Hans Meyer'. However, since there is no unambiguous correction, the name is left as written and api_concerned is flagged for human review.",
     "name_particles": "",
     "is_organisation": false
   },
@@ -2367,7 +2250,6 @@
   },
   "schott, albert": {
     "composite_id": [
-      "aegypten_52_3_3",
       "aegypten_52_3_3"
     ],
     "display_name": "Schott, Albert",
@@ -2422,7 +2304,6 @@
   },
   "roeder, günther": {
     "composite_id": [
-      "aegypten_66_3_3",
       "aegypten_66_3_3"
     ],
     "display_name": "ROEDER, Günther",
@@ -2621,8 +2502,8 @@
   },
   "kurz, isolde": {
     "composite_id": [
-      "erstausgaben_781_32_78",
       "erstausgaben_782_32_78",
+      "erstausgaben_781_32_78",
       "erstausgaben_783_32_78"
     ],
     "display_name": "KURZ, Isolde",
@@ -2751,24 +2632,24 @@
     "composite_id": [
       "buddhismus_47_2_3"
     ],
-    "display_name": "ABS. P, Jos.",
-    "last_norm": "abs. p",
-    "family_name": "ABS. P",
-    "first_norm": "jos.",
-    "given_names": "Jos.",
+    "display_name": "ABS P., Jos.",
+    "last_norm": "abs p",
+    "family_name": "Abs P.",
+    "first_norm": "josef maria",
+    "given_names": "Josef Maria",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
     "match_found": null,
     "original_entry": "ABS. P, Jos.\nIndiens Religion. Der Santana-Dharma. Eine Darstellung des Hinduismus. Übersetzt und erläutert von …Mit Abb. Bonn und Leipzig Kurt Schroeder. 1923. XVII, 234 S. OHLn.",
-    "notes": "missing_person: The entry states 'Übersetzt und erläutert von …' but no translator name follows the ellipsis. api_concerned: The author name 'ABS. P, Jos.' is highly unusual and may be an abbreviation, pseudonym, or cataloging error — possibly referring to a religious title (e.g., 'Abt P.' for 'Abt Pater') rather than a standard surname/given name combination. Human verification recommended.",
+    "notes": "mvc: Korrigiert. missing_person: The entry states 'Übersetzt und erläutert von …' but no translator name follows the ellipsis. api_concerned: The author name 'ABS. P, Jos.' is highly unusual and may be an abbreviation, pseudonym, or cataloging error — possibly referring to a religious title (e.g., 'Abt P.' for 'Abt Pater') rather than a standard surname/given name combination. Human verification recommended.",
     "name_particles": "",
     "is_organisation": false
   },
   "dsi, dschuang": {
     "composite_id": [
-      "buddhismus_48_2_3",
-      "buddhismus_8_1_3"
+      "buddhismus_8_1_3",
+      "buddhismus_48_2_3"
     ],
     "display_name": "DSCHUANG DSI",
     "last_norm": "dsi",
@@ -2799,24 +2680,6 @@
     "match_found": null,
     "original_entry": "AUS1 DSCHUANG DSI\nDas wahre Buch vom südlichen Blütenland. A .d. Chinesischen übertragen und erläutert von Richard Wilhelm. Einführung von Stephan Schuhmacher. Gütersloh Buchgemeinschaft 331 S. OLn. m. OU. Bücher der WeiSheit",
     "notes": "Series title 'Bücher der WeiSheit' corrected to 'Bücher der Weisheit' (obvious capitalization error). No publication year present in the entry.",
-    "name_particles": "",
-    "is_organisation": false
-  },
-  "aschtavakragita, bhagavadgita/": {
-    "composite_id": [
-      "buddhismus_49_2_3"
-    ],
-    "display_name": "BHAGAVADGITA/ ASCHTAVAKRAGITA",
-    "last_norm": "aschtavakragita",
-    "family_name": "ASCHTAVAKRAGITA",
-    "first_norm": "bhagavadgita/",
-    "given_names": "BHAGAVADGITA/",
-    "single_norm": null,
-    "single_name": null,
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "BHAGAVADGITA/ ASCHTAVAKRAGITA\nIndiens heilige Gesänge. Übertragen und kommentiert von Leopold von Schroeder. Düsseldorf Diederichs 1980. 2.Aufl. 172 S. Diederichs Gelbe Reihe. DG 021.OBrosch.",
-    "notes": "The entry header lists two distinct texts: 'BHAGAVADGITA' and 'ASCHTAVAKRAGITA'. It is unclear whether this volume contains both texts or only one of them. The title 'Indiens heilige Gesänge' is used as the main title. The original language of the source texts is Sanskrit, but this is not explicitly stated in the entry. The author field has been populated with the header entry as given, but these are sacred texts rather than personal authors. Human review is recommended to clarify the scope of the volume and the correct cataloging of the source texts.",
     "name_particles": "",
     "is_organisation": false
   },
@@ -2894,34 +2757,34 @@
   },
   "mayer, hans": {
     "composite_id": [
-      "erstausgaben_976_40_78",
       "erstausgaben_304_13_78",
-      "erstausgaben_1242_50_78",
-      "de-lit-texte_85_4_20",
-      "kunstbuecher_233_10_38",
-      "signierte_130_6_10",
-      "de-lit-monographien_213_9_10",
+      "literatur_192_8_12",
+      "russland_186_8_17",
+      "literatur_201_9_12",
       "literatur_181_8_12",
-      "literatur_182_8_12",
-      "literatur_183_8_12",
-      "literatur_184_8_12",
-      "literatur_185_8_12",
+      "literatur_191_8_12",
+      "de-lit-monographien_213_9_10",
+      "kunstbuecher_233_10_38",
       "literatur_187_8_12",
+      "literatur_190_8_12",
+      "literatur_183_8_12",
+      "erstausgaben_1242_50_78",
+      "literatur_184_8_12",
+      "literatur_199_8_12",
+      "literatur_200_9_12",
+      "literatur_185_8_12",
       "literatur_188_8_12",
       "literatur_189_8_12",
-      "literatur_190_8_12",
-      "literatur_191_8_12",
-      "literatur_192_8_12",
-      "literatur_193_8_12",
-      "literatur_194_8_12",
       "literatur_195_8_12",
+      "literatur_194_8_12",
       "literatur_196_8_12",
-      "literatur_197_8_12",
       "literatur_198_8_12",
-      "literatur_199_8_12",
-      "russland_186_8_17",
-      "literatur_200_9_12",
-      "literatur_201_9_12"
+      "signierte_130_6_10",
+      "literatur_182_8_12",
+      "literatur_193_8_12",
+      "literatur_197_8_12",
+      "erstausgaben_976_40_78",
+      "de-lit-texte_85_4_20"
     ],
     "display_name": "Hans Mayer",
     "last_norm": "mayer",
@@ -3029,8 +2892,8 @@
   },
   "koschel, christine": {
     "composite_id": [
-      "erstausgaben_171_7_78",
-      "briefe_80_4_15"
+      "briefe_80_4_15",
+      "erstausgaben_171_7_78"
     ],
     "display_name": "Koschel, Christine",
     "last_norm": "koschel",
@@ -3048,8 +2911,8 @@
   },
   "von weidenbaum, inge": {
     "composite_id": [
-      "erstausgaben_171_7_78",
-      "briefe_80_4_15"
+      "briefe_80_4_15",
+      "erstausgaben_171_7_78"
     ],
     "display_name": "von Weidenbaum, Inge",
     "last_norm": "von weidenbaum",
@@ -3342,15 +3205,15 @@
     "display_name": "Tobisch, Lotte v.",
     "last_norm": "tobisch",
     "family_name": "Tobisch",
-    "first_norm": "lotte v.",
-    "given_names": "Lotte v.",
+    "first_norm": "lotte",
+    "given_names": "Lotte",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
     "match_found": null,
     "original_entry": "BUSCHBECK, Erhard\nMimus Austriacus. Aus dem nachgelassenen Werk. Herausgegeben von Lotte v. Tobisch. Mit einem Vorwort von Carl Zuckmayer. Salzburg 'Das Berglandbuch' 1962. 302 S. Mit 24 Kunstdruckbildern und 11 Faksimiles. OLn.m.OU",
     "notes": null,
-    "name_particles": "",
+    "name_particles": "von",
     "is_organisation": false
   },
   "carrere d'encausse, helene": {
@@ -3359,14 +3222,14 @@
     ],
     "display_name": "CARRERE d'ENCAUSSE, Helene",
     "last_norm": "carrere d'encausse",
-    "family_name": "CARRERE d'ENCAUSSE",
+    "family_name": "Carrere d'Encausse",
     "first_norm": "helene",
     "given_names": "Helene",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
     "match_found": null,
-    "original_entry": "CARRERE d`ENCAUSSE, Helene\nLenin. A.d.Französ. M. zahlr. Abb. a. Taf. München Piper 2000. 539 S. OPbd.m.OU und Lesebändchen. Neuwertig.",
+    "original_entry": "CARRERE d'ENCAUSSE, Helene\nLenin. A.d.Französ. M. zahlr. Abb. a. Taf. München Piper 2000. 539 S. OPbd.m.OU und Lesebändchen. Neuwertig.",
     "notes": "Translator is not named in the entry (translation from French indicated by 'A.d.Französ.' but no translator given). missing_person flag set accordingly.",
     "name_particles": "",
     "is_organisation": false
@@ -3548,24 +3411,6 @@
     "match_found": null,
     "original_entry": "LI TAI PE IB 201\nNachdichtungen von Klabund. Wiesbaden Insel 1959. 47 S- Sehr gut erhalten2.Ex. 31.- 40.Tsd. 1929. Gut erhalten. 10.- 3. Ex. Priv. Bindung in Ln. 4. Ex.",
     "notes": "Multiple copies and editions described: 1st copy (main record): Wiesbaden, Insel, 1959, 47 S., sehr gut erhalten. 2nd copy: 31.-40. Tsd., 1929, gut erhalten, price noted as 10.-. 3rd copy: private binding in Leinen. 4th copy: no further details given. The contributor Klabund is listed as the author of the 'Nachdichtungen' (poetic adaptations), functioning as translator/adapter. 'S-' in '47 S-' is likely a typo for '47 S.' (Seiten).",
-    "name_particles": "",
-    "is_organisation": false
-  },
-  "ebner-schenbach, marie von": {
-    "composite_id": [
-      "insel_471_19_27"
-    ],
-    "display_name": "MARIE VON EBNER-SCHENBACH",
-    "last_norm": "ebner-schenbach",
-    "family_name": "EBNER-SCHENBACH",
-    "first_norm": "marie von",
-    "given_names": "MARIE VON",
-    "single_norm": null,
-    "single_name": null,
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "MARIE VON EBNER-SCHENBACH IB 1414\nAphorismen. Mit einem Nachwort von Karl Krolow. Berlin Insel 2016. 86 S.",
-    "notes": null,
     "name_particles": "",
     "is_organisation": false
   },
@@ -3808,7 +3653,6 @@
   "köhler, walther": {
     "composite_id": [
       "renaissance_16_1_4",
-      "renaissance_44_2_4",
       "renaissance_44_2_4"
     ],
     "display_name": "Köhler, Walther",
@@ -4331,8 +4175,8 @@
   },
   "scholz, wilhelm": {
     "composite_id": [
-      "mythologie_32_2_3",
-      "deutschland_9_1_4"
+      "deutschland_9_1_4",
+      "mythologie_32_2_3"
     ],
     "display_name": "SCHOLZ, Wilhelm",
     "last_norm": "scholz",
@@ -4476,8 +4320,8 @@
   },
   "ernst, r.": {
     "composite_id": [
-      "wien_24_1_10",
-      "wien_25_2_10"
+      "wien_25_2_10",
+      "wien_24_1_10"
     ],
     "display_name": "ERNST, R.",
     "last_norm": "ernst",
@@ -4495,8 +4339,8 @@
   },
   "garger, e.": {
     "composite_id": [
-      "wien_24_1_10",
-      "wien_25_2_10"
+      "wien_25_2_10",
+      "wien_24_1_10"
     ],
     "display_name": "GARGER, E.",
     "last_norm": "garger",
@@ -4784,8 +4628,8 @@
   },
   "bosch, hieronymus": {
     "composite_id": [
-      "kunstbuecher_43_2_38",
-      "kunstbuecher_601_25_38"
+      "kunstbuecher_601_25_38",
+      "kunstbuecher_43_2_38"
     ],
     "display_name": "BOSCH, Hieronymus",
     "last_norm": "bosch",
@@ -5093,7 +4937,6 @@
   },
   "hörmann, werner": {
     "composite_id": [
-      "okkultismus_41_2_8",
       "okkultismus_41_2_8"
     ],
     "display_name": "Hörmann, Werner",
@@ -5130,13 +4973,13 @@
   },
   "nooteboom, cees": {
     "composite_id": [
+      "reisen_229_10_13",
+      "reisen_232_10_13",
+      "insel_90_4_27",
       "fremdsprachige_686_28_38",
       "signierte_151_7_10",
-      "reisen_229_10_13",
       "reisen_230_10_13",
-      "reisen_231_10_13",
-      "reisen_232_10_13",
-      "insel_90_4_27"
+      "reisen_231_10_13"
     ],
     "display_name": "NOOTEBOOM, Cees",
     "last_norm": "nooteboom",
@@ -5550,10 +5393,8 @@
   },
   "hauff, hermann": {
     "composite_id": [
-      "reisen_185_8_13",
-      "reisen_185_8_13",
       "reisen_258_11_13",
-      "reisen_258_11_13"
+      "reisen_185_8_13"
     ],
     "display_name": "Hauff, Hermann",
     "last_norm": "hauff",
@@ -5589,8 +5430,8 @@
   },
   "nachama, andreas": {
     "composite_id": [
-      "judentum_200_9_9",
-      "judentum_96_4_9"
+      "judentum_96_4_9",
+      "judentum_200_9_9"
     ],
     "display_name": "Nachama, Andreas",
     "last_norm": "nachama",
@@ -5626,8 +5467,8 @@
   },
   "festspiele, berliner": {
     "composite_id": [
-      "judentum_200_9_9",
-      "judentum_96_4_9"
+      "judentum_96_4_9",
+      "judentum_200_9_9"
     ],
     "display_name": "Berliner Festspiele",
     "last_norm": "festspiele",
@@ -6602,8 +6443,8 @@
   },
   "jenaczek, friedrich": {
     "composite_id": [
-      "suchliste_57_3_3",
-      "briefe_358_15_15"
+      "briefe_358_15_15",
+      "suchliste_57_3_3"
     ],
     "display_name": "Jenaczek, Friedrich",
     "last_norm": "jenaczek",
@@ -7217,8 +7058,8 @@
   },
   "boström, jörg": {
     "composite_id": [
-      "sonstiges_3_1_4",
-      "deutschland_52_3_4"
+      "deutschland_52_3_4",
+      "sonstiges_3_1_4"
     ],
     "display_name": "Boström, Jörg",
     "last_norm": "boström",
@@ -7236,8 +7077,8 @@
   },
   "dresing, uschi": {
     "composite_id": [
-      "sonstiges_3_1_4",
-      "deutschland_52_3_4"
+      "deutschland_52_3_4",
+      "sonstiges_3_1_4"
     ],
     "display_name": "Dresing, Uschi",
     "last_norm": "dresing",
@@ -7255,8 +7096,8 @@
   },
   "escher, jürgen": {
     "composite_id": [
-      "sonstiges_3_1_4",
-      "deutschland_52_3_4"
+      "deutschland_52_3_4",
+      "sonstiges_3_1_4"
     ],
     "display_name": "Escher, Jürgen",
     "last_norm": "escher",
@@ -7274,8 +7115,8 @@
   },
   "grünewald, axel": {
     "composite_id": [
-      "sonstiges_3_1_4",
-      "deutschland_52_3_4"
+      "deutschland_52_3_4",
+      "sonstiges_3_1_4"
     ],
     "display_name": "Grünewald, Axel",
     "last_norm": "grünewald",
@@ -7293,8 +7134,8 @@
   },
   "rose, romani": {
     "composite_id": [
-      "sonstiges_3_1_4",
-      "deutschland_52_3_4"
+      "deutschland_52_3_4",
+      "sonstiges_3_1_4"
     ],
     "display_name": "Rose, Romani",
     "last_norm": "rose",
@@ -8086,8 +7927,8 @@
   },
   "nötzel, karl": {
     "composite_id": [
-      "geschichte_43_2_3",
-      "insel_503_21_27"
+      "insel_503_21_27",
+      "geschichte_43_2_3"
     ],
     "display_name": "Nötzel, Karl",
     "last_norm": "nötzel",
@@ -8199,7 +8040,6 @@
   },
   "göske, daniel": {
     "composite_id": [
-      "briefe_259_11_15",
       "briefe_259_11_15"
     ],
     "display_name": "Göske, Daniel",
@@ -8416,9 +8256,9 @@
   },
   "schiwy, günther": {
     "composite_id": [
-      "literatur_245_10_12",
+      "biographie_593_24_27",
       "zeitgeschichte_3_1_4",
-      "biographie_593_24_27"
+      "literatur_245_10_12"
     ],
     "display_name": "SCHIWY, Günther",
     "last_norm": "schiwy",
@@ -8454,7 +8294,6 @@
   },
   "mayer, reinhold": {
     "composite_id": [
-      "judentum_8_1_9",
       "judentum_8_1_9"
     ],
     "display_name": "Mayer, Reinhold",
@@ -8599,7 +8438,6 @@
   },
   "brugger, ingrid": {
     "composite_id": [
-      "erstausgaben_1619_65_78",
       "erstausgaben_1619_65_78"
     ],
     "display_name": "Brugger, Ingrid",
@@ -8726,7 +8564,6 @@
   },
   "jacobi, renate": {
     "composite_id": [
-      "islam_12_1_3",
       "islam_12_1_3"
     ],
     "display_name": "Jacobi, Renate",
@@ -8763,7 +8600,6 @@
   },
   "schwend, regni maria": {
     "composite_id": [
-      "fremdsprachige_355_15_38",
       "fremdsprachige_355_15_38"
     ],
     "display_name": "Schwend, Regni Maria",
@@ -8818,9 +8654,9 @@
   },
   "faulkner, william": {
     "composite_id": [
+      "fremdsprachige_374_15_38",
       "fremdsprachige_372_15_38",
-      "fremdsprachige_373_15_38",
-      "fremdsprachige_374_15_38"
+      "fremdsprachige_373_15_38"
     ],
     "display_name": "FAULKNER, William",
     "last_norm": "faulkner",
@@ -8910,8 +8746,8 @@
   },
   "rainer": {
     "composite_id": [
-      "kunstbuecher_907_37_38",
-      "kunstbuecher_483_20_38"
+      "kunstbuecher_483_20_38",
+      "kunstbuecher_907_37_38"
     ],
     "display_name": "Rainer",
     "last_norm": "rainer",
@@ -8920,28 +8756,10 @@
     "given_names": null,
     "single_norm": "rainer",
     "single_name": "Rainer",
-    "person_id": null,
+    "person_id": 5492,
     "match_found": null,
     "original_entry": "ÜBER DIE WAHRHEIT IN DER MALEREI\nAkademie der Bildenden Künste Wien !990. Brauer, Hollegha, Hundertwasser, Lehmden, Melcher, Mikl, Prachensky, Rainer. Ausstellungskatalog. 63 S. OBrosch.",
     "notes": "Publication year corrected from '!990' (likely a typo with '!' instead of '1') to 1990.",
-    "name_particles": "",
-    "is_organisation": false
-  },
-  "achleitner": {
-    "composite_id": [
-      "kunstbuecher_908_37_38"
-    ],
-    "display_name": "Achleitner",
-    "last_norm": "achleitner",
-    "family_name": null,
-    "first_norm": "",
-    "given_names": null,
-    "single_norm": "achleitner",
-    "single_name": "Achleitner",
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "UHL, Ottokar\nAchleitner, Athanassiadiss, Muck: Ottokar Uhl – Architekt und Ermöglicher. Mit einem Vorwort von Franz Kuzmich. Wien Picus 2002. 64 S. OPbd.",
-    "notes": "The editors are listed with only surnames: 'Achleitner', 'Athanassiadiss', 'Muck'. 'Athanassiadiss' may be a misspelling (possibly 'Athanassiades' or similar), but no unambiguous correction can be made. Full given names for all three editors are absent. The subject of the book is Ottokar Uhl (architect), listed as the heading name — he is not the author but the subject.",
     "name_particles": "",
     "is_organisation": false
   },
@@ -9200,7 +9018,6 @@
   },
   "landmann, georg peter": {
     "composite_id": [
-      "antike_146_6_9",
       "antike_146_6_9"
     ],
     "display_name": "Landmann, Georg Peter",
@@ -9237,7 +9054,6 @@
   },
   "borhek, august christian": {
     "composite_id": [
-      "antike_149_6_9",
       "antike_149_6_9"
     ],
     "display_name": "BORHEK, August Christian",
@@ -9600,9 +9416,9 @@
   },
   "radecki, sigismund von": {
     "composite_id": [
-      "russland_135_6_17",
+      "russland_137_6_17",
       "russland_136_6_17",
-      "russland_137_6_17"
+      "russland_135_6_17"
     ],
     "display_name": "Sigismund von Radecki",
     "last_norm": "radecki",
@@ -9746,8 +9562,8 @@
   },
   "karlinger, felix": {
     "composite_id": [
-      "okkultismus_89_4_8",
-      "maerchen_48_2_3"
+      "maerchen_48_2_3",
+      "okkultismus_89_4_8"
     ],
     "display_name": "Karlinger, Felix",
     "last_norm": "karlinger",
@@ -10611,9 +10427,9 @@
   },
   "janssen, horst": {
     "composite_id": [
+      "kunstbuecher_729_30_38",
       "kunstbuecher_246_10_38",
-      "kunstbuecher_247_10_38",
-      "kunstbuecher_729_30_38"
+      "kunstbuecher_247_10_38"
     ],
     "display_name": "JANSSEN, Horst",
     "last_norm": "janssen",
@@ -10665,15 +10481,15 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "(zeichnungen), tatjanna hauptmann": {
+  "hauptmann, tatjanna": {
     "composite_id": [
       "fremdsprachige_794_32_38"
     ],
-    "display_name": "Tatjanna Hauptmann (Zeichnungen)",
-    "last_norm": "(zeichnungen)",
-    "family_name": "(Zeichnungen)",
-    "first_norm": "tatjanna hauptmann",
-    "given_names": "Tatjanna Hauptmann",
+    "display_name": "Tatjanna Hauptmann",
+    "last_norm": "hauptmann",
+    "family_name": "Hauptmann",
+    "first_norm": "tatjanna",
+    "given_names": "Tatjanna",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
@@ -10867,7 +10683,6 @@
   },
   "weis, johann nepomuk": {
     "composite_id": [
-      "oesterreich_168_7_13",
       "oesterreich_168_7_13"
     ],
     "display_name": "WEIS, Johann Nepomuk",
@@ -10940,7 +10755,6 @@
   },
   "schiffmann, michael": {
     "composite_id": [
-      "zeitgeschichte_43_2_4",
       "zeitgeschichte_43_2_4"
     ],
     "display_name": "Michael Schiffmann",
@@ -10959,9 +10773,8 @@
   },
   "neumann, alfred": {
     "composite_id": [
-      "neuzeit_35_2_4",
-      "neuzeit_35_2_4",
-      "okkultismus_163_7_8"
+      "okkultismus_163_7_8",
+      "neuzeit_35_2_4"
     ],
     "display_name": "Alfred Neumann",
     "last_norm": "neumann",
@@ -11448,43 +11261,6 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "herodotus": {
-    "composite_id": [
-      "briefe_174_7_15",
-      "antike_169_7_9"
-    ],
-    "display_name": "HERODOTUS",
-    "last_norm": "herodotus",
-    "family_name": null,
-    "first_norm": "",
-    "given_names": null,
-    "single_norm": "herodotus",
-    "single_name": "HERODOTUS",
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "HERODOTUS\nNeun Bücher der Geschichte. Nach der Übersetzung von Goldhagen vollständig herausgegeben München Georg Müller 1911. 408, 441 SS. Buchausstattung von Paul Renner. Originalhalblederbände mit Lesebändchen. Sehr schöne Exemplare.",
-    "notes": null,
-    "name_particles": "",
-    "is_organisation": false
-  },
-  "aesop": {
-    "composite_id": [
-      "kunstbuecher_1_1_38"
-    ],
-    "display_name": "AESOP",
-    "last_norm": "aesop",
-    "family_name": null,
-    "first_norm": "",
-    "given_names": null,
-    "single_norm": "aesop",
-    "single_name": "AESOP",
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "AESOP\nBuch und Leben des hochberühmten Fabeldichters Aesopi. Mit einer Einführung von W. Worringer und in sprachlicher Erneuerung von R. Benz. Mit sechsunddreißig Abbildungen. München Piper 1925. 67 S. OPbd. Mit einem Bibliotheksstempel. Sehr gut erhalten.",
-    "notes": null,
-    "name_particles": "",
-    "is_organisation": false
-  },
   "worringer, w.": {
     "composite_id": [
       "kunstbuecher_1_1_38"
@@ -11811,7 +11587,6 @@
   },
   "richter, liselotte": {
     "composite_id": [
-      "philosophie_194_8_24",
       "philosophie_194_8_24"
     ],
     "display_name": "Richter, Liselotte",
@@ -12009,24 +11784,6 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "(design), alleycat": {
-    "composite_id": [
-      "kunstbuecher_95_4_38"
-    ],
-    "display_name": "Alleycat (Design)",
-    "last_norm": "(design)",
-    "family_name": "(Design)",
-    "first_norm": "alleycat",
-    "given_names": "Alleycat",
-    "single_norm": null,
-    "single_name": null,
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "DUPRE, Judith\nWolkenkratzer. Einleitendes Interview mit Philip Johnson. Design: Alleycat. Köln Könemann 1998. 125 S. OLn.m.OU Buchformat 20 x 46 cm!",
-    "notes": null,
-    "name_particles": "",
-    "is_organisation": false
-  },
   "mack smith, denis": {
     "composite_id": [
       "biographie_441_18_27"
@@ -12174,13 +11931,13 @@
   },
   "novotny, fritz": {
     "composite_id": [
+      "oesterreich_240_10_13",
       "wien_156_7_10",
-      "kunstbuecher_377_16_38",
+      "kunstbuecher_380_16_38",
       "kunstbuecher_378_16_38",
       "kunstbuecher_379_16_38",
-      "kunstbuecher_380_16_38",
-      "kunstbuecher_513_21_38",
-      "oesterreich_240_10_13"
+      "kunstbuecher_377_16_38",
+      "kunstbuecher_513_21_38"
     ],
     "display_name": "Novotny, Fritz",
     "last_norm": "novotny",
@@ -12378,7 +12135,6 @@
   },
   "fremantle, francesca": {
     "composite_id": [
-      "buddhismus_67_3_3",
       "buddhismus_67_3_3"
     ],
     "display_name": "Fremantle, Francesca",
@@ -12523,8 +12279,8 @@
   },
   "atze, marcel": {
     "composite_id": [
-      "buch_26_2_8",
-      "de-lit-monographien_26_2_10"
+      "de-lit-monographien_26_2_10",
+      "buch_26_2_8"
     ],
     "display_name": "Atze, Marcel",
     "last_norm": "atze",
@@ -12560,8 +12316,8 @@
   },
   "petschar, hans": {
     "composite_id": [
-      "oesterreich_33_2_13",
-      "okkultismus_0_1_8"
+      "okkultismus_0_1_8",
+      "oesterreich_33_2_13"
     ],
     "display_name": "Petschar, Hans",
     "last_norm": "petschar",
@@ -12975,7 +12731,6 @@
   },
   "stoll, andre": {
     "composite_id": [
-      "reisen_151_7_13",
       "reisen_151_7_13"
     ],
     "display_name": "Stoll, Andre",
@@ -13210,8 +12965,8 @@
   },
   "erbstösser, martin": {
     "composite_id": [
-      "mittelalter_117_5_7",
       "mittelalter_118_5_7",
+      "mittelalter_117_5_7",
       "okkultismus_59_3_8"
     ],
     "display_name": "ERBSTÖSSER, Martin",
@@ -13230,8 +12985,8 @@
   },
   "brecht": {
     "composite_id": [
-      "erstausgaben_306_13_78",
-      "erstausgaben_307_13_78"
+      "erstausgaben_307_13_78",
+      "erstausgaben_306_13_78"
     ],
     "display_name": "BRECHT",
     "last_norm": "brecht",
@@ -13249,7 +13004,6 @@
   },
   "noll, rudolf": {
     "composite_id": [
-      "antike_53_3_9",
       "antike_53_3_9"
     ],
     "display_name": "Noll, Rudolf",
@@ -13268,7 +13022,6 @@
   },
   "jürss, fritz": {
     "composite_id": [
-      "antike_58_3_9",
       "antike_58_3_9"
     ],
     "display_name": "Jürss, Fritz",
@@ -13287,7 +13040,6 @@
   },
   "müller, reimar": {
     "composite_id": [
-      "antike_58_3_9",
       "antike_58_3_9"
     ],
     "display_name": "Müller, Reimar",
@@ -13306,7 +13058,6 @@
   },
   "schmidt, ernst günther": {
     "composite_id": [
-      "antike_58_3_9",
       "antike_58_3_9"
     ],
     "display_name": "Schmidt, Ernst Günther",
@@ -13323,27 +13074,8 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "hesiod(i)": {
-    "composite_id": [
-      "antike_63_3_9"
-    ],
-    "display_name": "HESIOD(I)",
-    "last_norm": "hesiod(i)",
-    "family_name": null,
-    "first_norm": "",
-    "given_names": null,
-    "single_norm": "hesiod(i)",
-    "single_name": "HESIOD(I)",
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "HESIOD(I)\nTheogonia Opera et Dies Scutum. Edidit Friedrich Solmsen. Fragmenta Selecta ediderunt R. Merkelbach et M. L. West. Oxford University Press 1981. XXV, 246 S. Text Griechisch und Lateinisch. OLn .m. OU.",
-    "notes": "The author heading 'HESIOD(I)' appears to be a genitive Latin form (Hesiodi) used in the title context, retained as written. Place of publication 'Oxford' inferred from Oxford University Press. The XXV pages are front matter; main text pages recorded as 246. corrected_by_api: format field had a space before 'm.' ('OLn .m. OU') — normalized to 'OLn.m.OU' in format_original.",
-    "name_particles": "",
-    "is_organisation": false
-  },
   "diller, hans": {
     "composite_id": [
-      "antike_65_3_9",
       "antike_65_3_9"
     ],
     "display_name": "Diller, Hans",
@@ -14191,7 +13923,6 @@
   },
   "mühl, theodora von der": {
     "composite_id": [
-      "briefe_328_14_15",
       "briefe_328_14_15"
     ],
     "display_name": "Mühl, Theodora von der",
@@ -14354,7 +14085,6 @@
   },
   "werner, oskar": {
     "composite_id": [
-      "antike_1_1_9",
       "antike_1_1_9"
     ],
     "display_name": "Werner, Oskar",
@@ -14373,14 +14103,14 @@
   },
   "nossack, hans erich": {
     "composite_id": [
-      "erstausgaben_1493_60_78",
+      "de-lit-texte_345_14_20",
       "erstausgaben_1494_60_78",
-      "erstausgaben_1495_60_78",
-      "erstausgaben_1496_60_78",
-      "erstausgaben_1497_60_78",
-      "de-lit-texte_343_14_20",
+      "erstausgaben_1493_60_78",
       "de-lit-texte_344_14_20",
-      "de-lit-texte_345_14_20"
+      "erstausgaben_1496_60_78",
+      "erstausgaben_1495_60_78",
+      "de-lit-texte_343_14_20",
+      "erstausgaben_1497_60_78"
     ],
     "display_name": "NOSSACK, Hans Erich",
     "last_norm": "nossack",
@@ -14578,7 +14308,6 @@
   },
   "vostell, wolf": {
     "composite_id": [
-      "kunstbuecher_535_22_38",
       "kunstbuecher_535_22_38"
     ],
     "display_name": "VOSTELL, Wolf",
@@ -15641,7 +15370,6 @@
   },
   "pleschinski, hans": {
     "composite_id": [
-      "briefe_66_3_15",
       "briefe_66_3_15"
     ],
     "display_name": "Hans Pleschinski",
@@ -15750,8 +15478,8 @@
   },
   "hofmann-montanus, hans": {
     "composite_id": [
-      "oesterreich_67_3_13",
-      "oesterreich_260_11_13"
+      "oesterreich_260_11_13",
+      "oesterreich_67_3_13"
     ],
     "display_name": "HOFMANN-MONTANUS, Hans",
     "last_norm": "hofmann-montanus",
@@ -16127,24 +15855,6 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "(illustrationen), riou": {
-    "composite_id": [
-      "reisen_134_6_13"
-    ],
-    "display_name": "Riou (Illustrationen)",
-    "last_norm": "(illustrationen)",
-    "family_name": "(Illustrationen)",
-    "first_norm": "riou",
-    "given_names": "Riou",
-    "single_norm": null,
-    "single_name": null,
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "DUBOIS, Felix\nLa vie au Continent Noir. Illustrtions par Riou D´apres les documents D`Adrien Marie. Bibliotheque D´Education et de Recreation. Paris Hetzel 1893. IV, 301 S. Mit 8 Seiten Verlagswerbung. Bunter OLnBand mit viel Gold, 3 fach Goldschnitt. Gut erhalten.",
-    "notes": "Corrected 'Illustrtions' to 'Illustrations' (obvious typo). The series title 'Bibliotheque D´Education et de Recreation' is the well-known Hetzel series 'Bibliothèque d'Éducation et de Récréation'; accents normalized in output. Felix Dubois was a French journalist and explorer known for works on Africa, consistent with this title.",
-    "name_particles": "",
-    "is_organisation": false
-  },
   "noyer-weidner, alfred": {
     "composite_id": [
       "literatur_62_3_12"
@@ -16399,7 +16109,6 @@
   },
   "kolb, eduard": {
     "composite_id": [
-      "buddhismus_15_1_3",
       "buddhismus_15_1_3"
     ],
     "display_name": "Kolb, Eduard",
@@ -16418,7 +16127,6 @@
   },
   "weltmann, julius": {
     "composite_id": [
-      "buddhismus_15_1_3",
       "buddhismus_15_1_3"
     ],
     "display_name": "Weltmann, Julius",
@@ -16779,8 +16487,8 @@
   },
   "huber, martin": {
     "composite_id": [
-      "erstausgaben_226_10_78",
-      "erstausgaben_238_10_78"
+      "erstausgaben_238_10_78",
+      "erstausgaben_226_10_78"
     ],
     "display_name": "Huber, Martin",
     "last_norm": "huber",
@@ -17138,24 +16846,6 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "plautus, t.": {
-    "composite_id": [
-      "antike_109_5_9"
-    ],
-    "display_name": "PLAUTUS, T.",
-    "last_norm": "plautus",
-    "family_name": "PLAUTUS",
-    "first_norm": "t.",
-    "given_names": "T.",
-    "single_norm": null,
-    "single_name": null,
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "PLAUTUS, T.\nKomödien. Lateinisch und deutsch von Alfred Klotz. München Heimeran Verlag 1948. 306 S. OPbd. Verlagsfrisch Tusculum-Bücherei",
-    "notes": null,
-    "name_particles": "",
-    "is_organisation": false
-  },
   "klotz, alfred": {
     "composite_id": [
       "antike_109_5_9"
@@ -17174,45 +16864,8 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "plinii caecilii secundi, c.": {
-    "composite_id": [
-      "antike_110_5_9"
-    ],
-    "display_name": "PLINII CAECILII SECUNDI, C.",
-    "last_norm": "plinii caecilii secundi",
-    "family_name": "PLINII CAECILII SECUNDI",
-    "first_norm": "c.",
-    "given_names": "C.",
-    "single_norm": null,
-    "single_name": null,
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "PLINII CAECILII SECUNDI, C.\nEpistularum Libri decem. Briefe. Lateinisch-deutsch ed. Helmut Kasten. München Heimeran Tusculum 1968. 710 S. OLn. m. OU. Neuwertig",
-    "notes": null,
-    "name_particles": "",
-    "is_organisation": false
-  },
-  "plinius secundus d.ä., c": {
-    "composite_id": [
-      "antike_111_5_9"
-    ],
-    "display_name": "PLINIUS SECUNDUS D.Ä., C",
-    "last_norm": "plinius secundus d.ä.",
-    "family_name": "PLINIUS SECUNDUS D.Ä.",
-    "first_norm": "c",
-    "given_names": "C",
-    "single_norm": null,
-    "single_name": null,
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "PLINIUS SECUNDUS D.Ä., C:\nBuch VIII. Naturkunde Lateinisch-deutsch. Zoologie: Landtiere. Herausgegeben und übersetzt von Roderich König in Zusammenarbeit mit Gerhard Winkler. München Heimeran 1976. 312 S. OLn .m. OU. Tusculum. Neuwertig.Buch XX. Naturkunde Lateinisch-deutsch. Medizin und Paharmakologie: Heilmittel aus den Gartengewächsen. München Heimeran 1979. 362 S. Oln. m. OU. Neuwertig.",
-    "notes": "Two volumes of the Tusculum bilingual edition of Pliny's Naturalis Historia are described in sequence. Buch VIII (1976, 312 S.) and Buch XX (1979, 362 S.) are treated as separate volumes of the same multi-volume work. The first-described volume (Buch VIII) is used as the top-level record. 'Paharmakologie' in the original entry is an obvious typo for 'Pharmakologie' — corrected (corrected_by_api: true). The Tusculum series label appears only with Buch VIII but applies to the series as a whole.",
-    "name_particles": "",
-    "is_organisation": false
-  },
   "könig, roderich": {
     "composite_id": [
-      "antike_111_5_9",
       "antike_111_5_9"
     ],
     "display_name": "König, Roderich",
@@ -17244,24 +16897,6 @@
     "match_found": null,
     "original_entry": "PLINIUS SECUNDUS D.Ä., C:\nBuch VIII. Naturkunde Lateinisch-deutsch. Zoologie: Landtiere. Herausgegeben und übersetzt von Roderich König in Zusammenarbeit mit Gerhard Winkler. München Heimeran 1976. 312 S. OLn .m. OU. Tusculum. Neuwertig.Buch XX. Naturkunde Lateinisch-deutsch. Medizin und Paharmakologie: Heilmittel aus den Gartengewächsen. München Heimeran 1979. 362 S. Oln. m. OU. Neuwertig.",
     "notes": "Two volumes of the Tusculum bilingual edition of Pliny's Naturalis Historia are described in sequence. Buch VIII (1976, 312 S.) and Buch XX (1979, 362 S.) are treated as separate volumes of the same multi-volume work. The first-described volume (Buch VIII) is used as the top-level record. 'Paharmakologie' in the original entry is an obvious typo for 'Pharmakologie' — corrected (corrected_by_api: true). The Tusculum series label appears only with Buch VIII but applies to the series as a whole.",
-    "name_particles": "",
-    "is_organisation": false
-  },
-  "melae, pomponii": {
-    "composite_id": [
-      "antike_117_5_9"
-    ],
-    "display_name": "POMPONII MELAE",
-    "last_norm": "melae",
-    "family_name": "MELAE",
-    "first_norm": "pomponii",
-    "given_names": "POMPONII",
-    "single_norm": null,
-    "single_name": null,
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "POMPONII MELAE\nSitu orbis libri III. ad optimas editiones collati cum indice locupletissimo.\nDes Pomponius Mela drey Bücher von der Lage der Welt. Viennae Antonii Pichler 1807. 390 S. OHLdr. mit goldgeprägtem Rücken. Kaum benutzter Bibliotheksband aus Kremsier. Selten! Sehr gut erhalten. In dieser Ausgabe nur in Reprints.",
-    "notes": "The entry uses the genitive Latin form 'POMPONII MELAE' as the author heading, which is the standard RAK cataloging form for classical Latin authors. The actual author's name is Pomponius Mela, a 1st-century Roman geographer. The format 'OHLdr.' (Original-Halbleder) is not a standard abbreviation in the provided format table; it has been expanded as 'Original-Halbleder' based on general bibliographic convention. The entry notes this edition is rare and only available in reprints, which is consistent with an 1807 Viennae imprint of a classical text.",
     "name_particles": "",
     "is_organisation": false
   },
@@ -17646,7 +17281,6 @@
   },
   "ivanka, endre von": {
     "composite_id": [
-      "mittelalter_57_3_7",
       "mittelalter_57_3_7"
     ],
     "display_name": "IVANKA, Endre von",
@@ -17683,7 +17317,6 @@
   },
   "heuer, wolfgang": {
     "composite_id": [
-      "bibliophile_126_6_10",
       "bibliophile_126_6_10"
     ],
     "display_name": "Heuer, Wolfgang",
@@ -17846,8 +17479,8 @@
   },
   "nyssen, wilhelm": {
     "composite_id": [
-      "fruehes_75_4_4",
-      "religion_86_4_4"
+      "religion_86_4_4",
+      "fruehes_75_4_4"
     ],
     "display_name": "Nyssen, Wilhelm",
     "last_norm": "nyssen",
@@ -18099,7 +17732,6 @@
   },
   "dutli, hans": {
     "composite_id": [
-      "russland_215_9_17",
       "russland_215_9_17"
     ],
     "display_name": "Hans Dutli",
@@ -18262,7 +17894,6 @@
   },
   "schneider, gerhard": {
     "composite_id": [
-      "illustrierte_110_5_14",
       "illustrierte_110_5_14"
     ],
     "display_name": "Schneider, Gerhard",
@@ -18281,7 +17912,6 @@
   },
   "arndt, erwin": {
     "composite_id": [
-      "illustrierte_110_5_14",
       "illustrierte_110_5_14"
     ],
     "display_name": "Arndt, Erwin",
@@ -19667,24 +19297,6 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "(nachwort), thomas mann": {
-    "composite_id": [
-      "illustrierte_76_4_14"
-    ],
-    "display_name": "Thomas Mann (Nachwort)",
-    "last_norm": "(nachwort)",
-    "family_name": "(Nachwort)",
-    "first_norm": "thomas mann",
-    "given_names": "Thomas Mann",
-    "single_norm": null,
-    "single_name": null,
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "CHAMISSO, Adelbert von\nPeter Schlemihl wundersame Geschichte. Nachwort von Thomas Mann. Illustriert von Emil Preetorius. Frankfurt Insel 1973. 150 S. it 27",
-    "notes": null,
-    "name_particles": "",
-    "is_organisation": false
-  },
   "narciss, g.a.": {
     "composite_id": [
       "illustrierte_88_4_14"
@@ -20083,7 +19695,6 @@
   },
   "streiter, anja": {
     "composite_id": [
-      "reisen_100_5_13",
       "reisen_100_5_13"
     ],
     "display_name": "Streiter, Anja",
@@ -20192,7 +19803,6 @@
   },
   "tieck, dorothea": {
     "composite_id": [
-      "erstausgaben_1112_45_78",
       "erstausgaben_1112_45_78",
       "briefe_329_14_15"
     ],
@@ -20321,7 +19931,6 @@
   },
   "may, ekkehard": {
     "composite_id": [
-      "insel_61_3_27",
       "insel_61_3_27"
     ],
     "display_name": "May, Ekkehard",
@@ -21613,42 +21222,6 @@
     "person_id": null,
     "match_found": null,
     "original_entry": "PASOLINI, Pier Paolo\nKetzererfahrungen. 'Empirismo eretico'. Schriften zu Sprache, Literatur und Film. A.d.Italien übersetzt, kommentiert und mit einem Nachwort versehen von Reimar Klein. Frankfurt Ullstein 1982. 295 S. Ullstein Materialien. TB.",
-    "notes": null,
-    "name_particles": "",
-    "is_organisation": false
-  },
-  "(vorwort), italo calvino": {
-    "composite_id": [
-      "literatur_216_9_12"
-    ],
-    "display_name": "Italo Calvino (Vorwort)",
-    "last_norm": "(vorwort)",
-    "family_name": "(Vorwort)",
-    "first_norm": "italo calvino",
-    "given_names": "Italo Calvino",
-    "single_norm": null,
-    "single_name": null,
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "PAVESE, Cesare\nSchriften zur Literatur. Die Entdeckung Amerikas Literatur und Gesellschaft Der Mythos. A.d.Italien Berlin Volk und Welt 1980. 544 S. Mit einem Vorwort von Italo Calvino.\nGESPRÄCHE MIT LEUKO. A.d.Italien. Berlin Volk und Welt 1980. 188 S.\nZwei Original Pappbände in Schuber. Neuwertig",
-    "notes": "missing_person: Both volumes are translations from Italian ('A.d.Italien') but no translator name is given for either volume.",
-    "name_particles": "",
-    "is_organisation": false
-  },
-  "secundi, c. plini caecilii": {
-    "composite_id": [
-      "antike_162_7_9"
-    ],
-    "display_name": "C. PLINI CAECILII SECUNDI",
-    "last_norm": "secundi",
-    "family_name": "SECUNDI",
-    "first_norm": "c. plini caecilii",
-    "given_names": "C. PLINI CAECILII",
-    "single_norm": null,
-    "single_name": null,
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "C. PLINI CAECILII SECUNDI\nEpistularum libri decem. Briefe. Lateinisch-deutsch ed. Helmut Kasten. München Heimeran 1968. 710 S. OLn .m. OU Tusculum-Bücherei Verlagsfrisch.",
     "notes": null,
     "name_particles": "",
     "is_organisation": false

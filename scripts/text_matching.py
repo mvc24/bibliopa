@@ -21,12 +21,12 @@ def normalise_text(text):
 def remove_diacritics(text):
     if text in [None, "null", ""]:
         return text
-
+    text = text.replace("ß", "ss")
     text = unicodedata.normalize("NFD", text)
     text = "".join(c for c in text if not unicodedata.combining(c))
     text = text.lower()
-    text = text.replace("-", " ")
     text = re.sub(r"\s+", " ", text).strip()
+    text = text.replace(" ", "-")
 
     return text
 

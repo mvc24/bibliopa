@@ -68,18 +68,12 @@ Quick reference for "add a thing to a collection":
         entry["info"]["match_found"] = checked[name]["info"]["match_found"]
         rprint(name, entry)
     ```
+## Dictionary comprehensions, oooh aaah
 
+    # Dict comprehension to shape my data and separate it into separate data structures
 
-'schlegel, fr.': {
-        'correct_match': [
-            [
-                'schlegel, friedrich',
-                91.09311740890689,
-                {'person_id': 6085, 'last': 'schlegel', 'first': 'friedrich'}
-            ]
-        ],
-        'person_id': 6085,
-        'match_found': True,
-        'composite_id': ['briefe_280_12_15'],
-        'points': 4
-    },
+    singles_found = {k: v["info"] for k, v in singles_checked.items() if v["info"]["person_id"] is not None}
+    rprint(f"existing singles: {len(singles_found)}")
+
+    new_singles = {k: v["info"] for k, v in singles_checked.items() if v["info"]["person_id"] is None}
+    rprint(f"new_singles count: {len(new_singles)}")

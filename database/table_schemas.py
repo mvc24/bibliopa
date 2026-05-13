@@ -82,7 +82,7 @@ BOOKS2PEOPLE_SCHEMA = {
     "composite_id": "TEXT NOT NULL",
     "person_id": "INTEGER NOT NULL REFERENCES people(person_id) ON DELETE CASCADE",
     "unified_id": "TEXT NOT NULL",
-    "variant_id": "INTEGER REFERENCES people_variants(variant_id) ON DELETE CASCADE",
+    "variant_id": "INTEGER",
     "display_name": "TEXT",
     "family_name": "TEXT",
     "given_names": "TEXT",
