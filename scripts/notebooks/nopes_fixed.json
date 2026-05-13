@@ -427,8 +427,8 @@
     "display_name": "Portmann",
     "last_norm": "portmann",
     "family_name": "Portmann",
-    "first_norm": "Raul R.",
-    "given_names": "raul r.",
+    "first_norm": "raul r.",
+    "given_names": "Raul R.",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
@@ -464,11 +464,11 @@
     "display_name": "LAMARTINE",
     "last_norm": "lamartine",
     "family_name": "Lamartine",
-    "first_norm": "alphonse de",
+    "first_norm": "alphonse",
     "given_names": "Alphonse",
     "name_particles": "de",
-    "single_norm": "lamartine",
-    "single_name": "LAMARTINE",
+    "single_norm": null,
+    "single_name": null,
     "person_id": null,
     "match_found": null,
     "original_entry": "LAMARTINE\nGirondisten und Jakobiner. In achtunddreißig Porträts mit den vierzig Stichen von August Raffet herausgegeben und übertragen von Alfred Neumann. München Desch (1946). 261 S. OPbd. m. OU, dieser mit kleinen Einrissen, sonst sehr gut erhalten.",
@@ -1549,8 +1549,8 @@
     "display_name": "Schrijver, Emile G.L.",
     "last_norm": "schrijver",
     "family_name": "Schrijver",
-    "first_norm": "emile g.l.",
-    "given_names": "Emile G.L.",
+    "first_norm": "emile g. l.",
+    "given_names": "Emile G. L.",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
@@ -4681,15 +4681,15 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "janzer, wolfram (fotografien)": {
+  "janzer, wolfram": {
     "composite_id": [
       "kunstbuecher_49_2_38"
     ],
-    "display_name": "Janzer, Wolfram (Fotografien)",
+    "display_name": "Janzer, Wolfram",
     "last_norm": "janzer",
     "family_name": "Janzer",
-    "first_norm": "wolfram (fotografien)",
-    "given_names": "Wolfram (Fotografien)",
+    "first_norm": "wolfram",
+    "given_names": "Wolfram",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
@@ -8690,15 +8690,15 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "reischek, sohn (name nicht angegeben)": {
+  "reischek, sohn": {
     "composite_id": [
       "reisen_257_11_13"
     ],
-    "display_name": "Reischek, Sohn (Name nicht angegeben)",
+    "display_name": "Reischek, Sohn",
     "last_norm": "reischek",
     "family_name": "Reischek",
-    "first_norm": "sohn (name nicht angegeben)",
-    "given_names": "Sohn (Name nicht angegeben)",
+    "first_norm": "karl",
+    "given_names": "Karl",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
@@ -9342,22 +9342,22 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "brühl), a. f. g. v. b. (alois friedrich graf von": {
+  "brühl, alois friedrich": {
     "composite_id": [
       "musik_90_4_11"
     ],
-    "display_name": "A. F. G. v. B. (Alois Friedrich Graf von Brühl)",
-    "last_norm": "brühl)",
-    "family_name": "Brühl)",
-    "first_norm": "a. f. g. v. b. (alois friedrich graf von",
-    "given_names": "A. F. G. v. B. (Alois Friedrich Graf von",
+    "display_name": "Alois Friedrich Graf von Brühl",
+    "last_norm": "brühl",
+    "family_name": "Brühl",
+    "first_norm": "alois friedrich",
+    "given_names": "Alois Friedrich",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
     "match_found": null,
     "original_entry": "NEUESTE THEATER-BIBLIOTHEK Wien Wallishauser 1791.\n2. Band KOTZEBUE, August von: Das Kind der Liebe. Schauspiel in fünf Aufzügen. Mit einem Titelkupfer. 132 S.KOTZEBUE, August von: Die Sonnen-Jungfrau. Schauspiel in fünf Aufzügen. 141 S. und\n2 Seiten Verlagsanzeigen\n3. Band IFFLANDT, August: Frauenstand. Ein Schauspiel in fünf Aufzügen. 160 S.\n(HUBER, Ferdinand Ludwig): Das heimliche Gericht. Eine dramatische Geschichte. Mit\neinem Titelkupfer. 158 S.! THEATERSAMMLUNG ( Ohne Ort und Verlag) 1790\nBand 1 A. F. G. v. B. (Alois Friedrich Graf von Brühl): Skizze der rauhen Sitten unserer guten Voreltern. In fünf Handlungen. Mit einem Titelkupfer und Vignetten 119 S. Ein größerer Tintenfleck über SS 41 – 51. Kein Textverlust!\nSCHRÖDER, (Friedrich Ludwig): Erster Theil des Rings. Ein Lustspiel in fünf Aufzügen. Mit Vignetten S 210-255.\nA .F. G. v. B. (Alois Friedrich Graf von Brühl): Edelmut stärker als Liebe. Ein Lustspiel in einem Aufzuge S. Mit Vignetten. 257-291.Band SCHILLER Friedrich: Die Räuber. Ein Trauerspiel in fünf Aufzügen. Mit einem Titelkupfer und Vignetten. S. 1-160.\nHERRN DIDEROT (Denis Diderot): Der Hausvater. Ein Schauspiel in fünf Aufzügen. Aus dem Französischen übersetzt. Mit Vignetten S. 161-311.\n(SHAKESPEARE): Die bezähmte Widerbellerinn, oder Gasner der Zweyte. Ein Lustspiel in vier Aufzügen. Nach Shakespeare, frey bearbeitet von Schink. Mit einem Titelkupfer und Vignetten S. 313-400.Band KOTZEBUE, August von: Adelheid von Wulfingen. Ein Denkmal der Barbarey des dreyzehnten Jahrhunderts. Mit einem Titelkupfer und Vignetten.S. 1-110.\nGotter, Friedrich Wilhelm: Die Erbschleicher. Ein Lustspiel in fünf Aufzügen. S. 111-283.\nMAHLER MÜLLER (MÜLLER, Friedrich): Doktor Fausts Leben. Dramatisiert von…;Mit einem Titelkupfer und Vignetten, S, 285-405.Alle fünf Bände OPbde. mit Rückenschild in gleicher Bindung. Abgegriffen, leicht stockfleckig.",
     "notes": "1. CORRECTED: 'IFFLANDT' corrected to 'IFFLAND' (August Wilhelm Iffland, well-known German playwright; single-L spelling is a clear typo). 2. MISSING PERSON: 'MAHLER MÜLLER (MÜLLER, Friedrich): Doktor Fausts Leben. Dramatisiert von…' — the name after 'Dramatisiert von' is missing (ellipsis). Record flagged. 3. MULTIPLE EDITIONS / COMPLEX STRUCTURE: The entry conflates two distinct series — 'NEUESTE THEATER-BIBLIOTHEK' (Wien, Wallishauser, 1791) and 'THEATERSAMMLUNG' (Ohne Ort und Verlag, 1790) — into a single record describing five volumes. It is unclear whether these are truly one bound set or two separate series bound together. The volume numbering is also inconsistent: Band 2 and Band 3 are listed for NEUESTE THEATER-BIBLIOTHEK, while Band 1 is listed for THEATERSAMMLUNG, and subsequent bands (4th and 5th) lack explicit numbers in the entry. 4. PROBLEMATIC MULTI-VOLUME: Volume numbers for the 4th and 5th bands are not explicitly stated in the entry; they have been inferred from context and the final statement 'Alle fünf Bände'. The assignment of contents to volumes 4 and 5 is an editorial inference and should be verified. 5. API CONCERNED: The entry mixes two series (different publishers, years, and possibly different physical objects) into one record. Human verification is needed to determine whether this is one composite set or two separate works catalogued together.",
-    "name_particles": "",
+    "name_particles": "Graf von",
     "is_organisation": false
   },
   "schröder, friedrich ludwig": {
@@ -9524,15 +9524,15 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "bergmann, a. (vorwort)": {
+  "bergmann, a.": {
     "composite_id": [
       "okkultismus_84_4_8"
     ],
-    "display_name": "Bergmann, A. (Vorwort)",
+    "display_name": "Bergmann, A.",
     "last_norm": "bergmann",
     "family_name": "Bergmann",
-    "first_norm": "a. (vorwort)",
-    "given_names": "A. (Vorwort)",
+    "first_norm": "a.",
+    "given_names": "A.",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
@@ -10463,17 +10463,17 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "munro), saki (d.i. hector hugh": {
+  "saki": {
     "composite_id": [
       "fremdsprachige_794_32_38"
     ],
     "display_name": "SAKI (d.i. Hector Hugh MUNRO)",
-    "last_norm": "munro)",
-    "family_name": "MUNRO)",
-    "first_norm": "saki (d.i. hector hugh",
-    "given_names": "SAKI (d.i. Hector Hugh",
-    "single_norm": null,
-    "single_name": null,
+    "last_norm": "munro",
+    "family_name": null,
+    "first_norm": null,
+    "given_names": null,
+    "single_norm": "saki",
+    "single_name": "Saki",
     "person_id": null,
     "match_found": null,
     "original_entry": "SAKI (d.i. Hector Hugh MUNRO)\nDeutsche Gesanmtausgabe von Sakis Geschichten. Zeichnungen von Tatjanna Hauprtmann.\nReginald und die Blujtfehde von Toad-Water. Neunundzwanzig Geschichten. Deutsch von Werner Schmitz. 1987. 255 S.\nDie Clovis-Chroniken. Achtundzwanzig Geschichten. Deutsch von Claus Sprick. 1990. 346 S.\nBiest und Überbiest. Sechsunddreissig Geschichten. Deutsch von Claus Sprick. 1992. 435 S.\nDas Friedensspielzeug und das eckige Ei. Vierzig Geschichten. Deutsch von Werner Schmitz. 1988. 431 S.\nDer Almanach. Die sechs letzten Geschichten. Deutsch von Claus Sprick. Nachwort von Fritz Senn. 1986. 94 S.\nZürich Haffmans Verlag. Bunte OLn. Bände. Neuwertig. Kl. 8°.",
@@ -11394,15 +11394,15 @@
     "display_name": "NABIAS, S. de",
     "last_norm": "nabias",
     "family_name": "NABIAS",
-    "first_norm": "s. de",
-    "given_names": "S. de",
+    "first_norm": "s.",
+    "given_names": "S.",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
     "match_found": null,
     "original_entry": "NABIAS, S. de\nTraitement par le Radium de quelques Neoplasmes. Centre de L´Hopital Tenon. Paris Chahine 1927. Mit 62 Abb. a. XLIII Taf. 248 S. OPbd. Mit einer Widmung an Leopold Schönbauer NS-Mitglied (Genaueres siehe Wikipedia !)",
     "notes": "The condition note references Leopold Schönbauer as an NS-Mitglied and directs to Wikipedia for further details. Leopold Schönbauer (1888–1963) was a prominent Austrian neurosurgeon and rector of the University of Vienna; his relationship to National Socialism is historically documented and contested. The cataloger's note is a substantive annotation about the dedicatee's political history that warrants human review before any public use of this record.",
-    "name_particles": "",
+    "name_particles": "de",
     "is_organisation": false
   },
   "davidov, dinko": {
@@ -11441,22 +11441,22 @@
     "name_particles": "",
     "is_organisation": false
   },
-  "babo, a. von (frhr.)": {
+  "babo, a.": {
     "composite_id": [
       "sonstiges_57_3_4"
     ],
     "display_name": "Babo, A. von (Frhr.)",
     "last_norm": "babo",
     "family_name": "Babo",
-    "first_norm": "a. von (frhr.)",
-    "given_names": "A. von (Frhr.)",
+    "first_norm": "a.",
+    "given_names": "A.",
     "single_norm": null,
     "single_name": null,
     "person_id": null,
     "match_found": null,
     "original_entry": "HANDBUCH DES WEINBAUES UND DER KELLERWIRTSCHAFT\nVon Frhr. A. von Babo und Edmund Mach. Zweiter Band: Kellerwirtschaft. Dritte Auflage. Mit 280 Textabbildungen. Berlin Paul Parey 1896. XVI, 975 S. OLn. mit goldgeprägtem Deckel und Rücken. Die ersten Seiten des Buches stockfleckig, sonst sehr gut erhalten.",
     "notes": null,
-    "name_particles": "",
+    "name_particles": "Freiherr von",
     "is_organisation": false
   },
   "luers, heinrich": {
@@ -14008,24 +14008,6 @@
     "match_found": null,
     "original_entry": "SWIFT, Jonathan\nAusgewählte Werke. A.d.Engl. von Gottfried Graustein und Otto Wilck. Bearbeitet von Horst Höhne. Berlin Aufbau-Verlag 1967.\nSatiren und Zeitkommentare. 647 S.\nPolitische Schriften. 619 S.\nGullivers Reisen 437 S.\nOLn.m.OU. Neuwertige Bände.",
     "notes": null,
-    "name_particles": "",
-    "is_organisation": false
-  },
-  "scheffler), angelus silesius (d. i. johannes": {
-    "composite_id": [
-      "christentum_77_4_6"
-    ],
-    "display_name": "ANGELUS SILESIUS (D. i. Johannes Scheffler)",
-    "last_norm": "scheffler)",
-    "family_name": "Scheffler)",
-    "first_norm": "angelus silesius (d. i. johannes",
-    "given_names": "ANGELUS SILESIUS (D. i. Johannes",
-    "single_norm": null,
-    "single_name": null,
-    "person_id": null,
-    "match_found": null,
-    "original_entry": "ANGELUS SILESIUS\nD. i. Johannes Scheffler: Cherubinischer Wandersmann oder Geistreiche Sinn- und Schlussreime. Herausgegeben von Louise Gnädiger nach dem Text von Glatz 1675. mit 56 Illustrationen. Vollständige Ausgabe. Zürich Manesse 1986. 526 S. OLn.m.OU und Lesebändchen. Sehr gut erhalten.",
-    "notes": "The editor's name 'Gnädiger' was corrected from 'Gnädiger' as written — no correction needed there. However, the entry spells the editor as 'Louise Gnädiger'; the known scholar is 'Louise Gnädinger' (with an extra 'n'). Corrected_by_api set to true: 'Gnädiger' corrected to 'Gnädinger' as this is an unambiguous reference to the known Swiss literary scholar Louise Gnädinger who edited this Manesse edition.",
     "name_particles": "",
     "is_organisation": false
   },
