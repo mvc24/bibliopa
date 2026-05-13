@@ -1,0 +1,543 @@
+[
+  {
+    "display_norm": "paulus, g.",
+    "composite_id": [
+      "kinder_45_2_4"
+    ],
+    "family_name": "Paulus",
+    "given_names": "G.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "paulus_g",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pe, li tai",
+    "composite_id": [
+      "insel_456_19_27"
+    ],
+    "family_name": "Pe",
+    "given_names": "Li Tai",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pe_li_t",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pechmann, alexander",
+    "composite_id": [
+      "briefe_129_6_15"
+    ],
+    "family_name": "Pechmann",
+    "given_names": "Alexander",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pechmann_alexander",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pecho, brigitte",
+    "composite_id": [
+      "kunstbuecher_262_11_38"
+    ],
+    "family_name": "Pecho",
+    "given_names": "Brigitte",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pecho_brigitte",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "peege, emil",
+    "composite_id": [
+      "oesterreich_249_10_13"
+    ],
+    "family_name": "Peege",
+    "given_names": "Emil",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "peege_emil",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pelsaert, francois",
+    "composite_id": [
+      "reisen_240_10_13"
+    ],
+    "family_name": "Pelsaert",
+    "given_names": "Francois",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pelsaert_francois",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pereire, alfred",
+    "composite_id": [
+      "buch_108_5_8"
+    ],
+    "family_name": "Pereire",
+    "given_names": "Alfred",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pereire_alfred",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pernice, e.",
+    "composite_id": [
+      "kunstbuecher_241_10_38"
+    ],
+    "family_name": "Pernice",
+    "given_names": "E.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pernice_e",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "peter, m.",
+    "composite_id": [
+      "sonstiges_27_2_4"
+    ],
+    "family_name": "Peter",
+    "given_names": "M.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "peter_m",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "petermann, erwin",
+    "composite_id": [
+      "kunstbuecher_401_17_38"
+    ],
+    "family_name": "Petermann",
+    "given_names": "Erwin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "petermann_erwin",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "petschar, hans",
+    "composite_id": [
+      "okkultismus_0_1_8",
+      "oesterreich_33_2_13"
+    ],
+    "family_name": "Petschar",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "petschar_hans",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pezold, m. v.",
+    "composite_id": [
+      "russland_4_1_17"
+    ],
+    "family_name": "Pezold",
+    "given_names": "M.",
+    "name_prefix": null,
+    "name_particles": "v.",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pezold_m",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pfeuffer, hans",
+    "composite_id": [
+      "oesterreich_23_1_13"
+    ],
+    "family_name": "Pfeuffer",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pfeuffer_hans",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "philippovich, eugen von",
+    "composite_id": [
+      "kunstbuecher_834_34_38"
+    ],
+    "family_name": "Philippovich",
+    "given_names": "Eugen",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "philippovich_eugen",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pieber, margit",
+    "composite_id": [
+      "kunstbuecher_71_3_38"
+    ],
+    "family_name": "Pieber",
+    "given_names": "Margit",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pieber_margit",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "piranesi, giovanni battista",
+    "composite_id": [
+      "kunstbuecher_847_34_38"
+    ],
+    "family_name": "Piranesi",
+    "given_names": "Giovanni Battista",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "piranesi_giovanni_b",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pissarro, joachim",
+    "composite_id": [
+      "kunstbuecher_415_17_38"
+    ],
+    "family_name": "Pissarro",
+    "given_names": "Joachim",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pissarro_joachim",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pleschinski, hans",
+    "composite_id": [
+      "briefe_66_3_15"
+    ],
+    "family_name": "Pleschinski",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pleschinski_hans",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pletnjowa, swetlana alexandrowna",
+    "composite_id": [
+      "mittelalter_84_4_7"
+    ],
+    "family_name": "Pletnjowa",
+    "given_names": "Swetlana Alexandrowna",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pletnjowa_swetlana_a",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "podewils, clemens graf",
+    "composite_id": [
+      "zeitschriften_3_1_1"
+    ],
+    "family_name": "Podewils",
+    "given_names": "Clemens",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": "Graf",
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "podewils_clemens",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pohanka, reinhard",
+    "composite_id": [
+      "wien_91_4_10"
+    ],
+    "family_name": "Pohanka",
+    "given_names": "Reinhard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pohanka_reinhard",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "pohl, c. f.",
+    "composite_id": [
+      "musik_84_4_11"
+    ],
+    "family_name": "Pohl",
+    "given_names": "C. F.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pohl_c_f",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "ponente, nello",
+    "composite_id": [
+      "kunstbuecher_297_12_38"
+    ],
+    "family_name": "Ponente",
+    "given_names": "Nello",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "ponente_nello",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "port, frieda",
+    "composite_id": [
+      "antike_199_8_9"
+    ],
+    "family_name": "Port",
+    "given_names": "Frieda",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "port_frieda",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "portisch, hugo",
+    "composite_id": [
+      "wien_91_4_10"
+    ],
+    "family_name": "Portisch",
+    "given_names": "Hugo",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "portisch_hugo",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "portmann",
+    "composite_id": [
+      "literatur_268_11_12"
+    ],
+    "family_name": "Portmann",
+    "given_names": "Raul R.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "portmann_raul_r",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "portmann, adolf",
+    "composite_id": [
+      "okkultismus_151_7_8"
+    ],
+    "family_name": "Portmann",
+    "given_names": "Adolf",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "portmann_adolf",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "poschmann, henri",
+    "composite_id": [
+      "de-lit-texte_85_4_20"
+    ],
+    "family_name": "Poschmann",
+    "given_names": "Henri",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "poschmann_henri",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "posselt, ernst ludwig",
+    "composite_id": [
+      "deutschland_84_4_4"
+    ],
+    "family_name": "Posselt",
+    "given_names": "Ernst Ludwig",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "posselt_ernst_l",
+    "_source_custom_id": "batch_nopes_028"
+  },
+  {
+    "display_norm": "prange, peter",
+    "composite_id": [
+      "kunstbuecher_424_17_38"
+    ],
+    "family_name": "Prange",
+    "given_names": "Peter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "prange_peter",
+    "_source_custom_id": "batch_nopes_028"
+  }
+]

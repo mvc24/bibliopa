@@ -1,0 +1,545 @@
+[
+  {
+    "display_norm": "kümmel, otto",
+    "composite_id": [
+      "kunstbuecher_293_12_38"
+    ],
+    "family_name": "Kümmel",
+    "given_names": "Otto",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kummel_otto",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "kümmel, o.",
+    "composite_id": [
+      "kunstbuecher_241_10_38"
+    ],
+    "family_name": "Kümmel",
+    "given_names": "O.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kummel_o",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "la rochefoucauld, françois de",
+    "composite_id": [
+      "insel_71_3_27"
+    ],
+    "family_name": "La Rochefoucauld",
+    "given_names": "François",
+    "name_prefix": null,
+    "name_particles": "de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "la_rochefoucauld",
+    "matched_person_id": 3868,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "la rochefoucauld, herzog von",
+    "composite_id": [
+      "insel_72_3_27"
+    ],
+    "family_name": "La Rochefoucauld",
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": "Herzog von",
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "la_rochefoucauld",
+    "matched_person_id": 3868,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lachmann, karl",
+    "composite_id": [
+      "briefe_39_2_15"
+    ],
+    "family_name": "Lachmann",
+    "given_names": "Karl",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lachmann_karl",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lachmayer, herbert",
+    "composite_id": [
+      "musik_79_4_11",
+      "wien_163_7_10",
+      "kunstbuecher_411_17_38"
+    ],
+    "family_name": "Lachmayer",
+    "given_names": "Herbert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lachmayer_herbert",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lamartine",
+    "composite_id": [
+      "okkultismus_163_7_8",
+      "neuzeit_35_2_4"
+    ],
+    "family_name": "Lamartine",
+    "given_names": "Alphonse",
+    "name_prefix": null,
+    "name_particles": "de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lamartine_alphonse",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "landesregierung, burgenländische",
+    "composite_id": [
+      "oesterreich_263_11_13"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Burgenländische Landesregierung",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "burgerlandische_landesregierung",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "landmann, georg peter",
+    "composite_id": [
+      "antike_146_6_9"
+    ],
+    "family_name": "Landmann",
+    "given_names": "Georg Peter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "landmann_georg_p",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lang, d.m.",
+    "composite_id": [
+      "aegypten_10_1_3"
+    ],
+    "family_name": "Lang",
+    "given_names": "D.M.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lang_d_m",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lang, lothar",
+    "composite_id": [
+      "insel_363_15_27"
+    ],
+    "family_name": "Lang",
+    "given_names": "Lothar",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lang_lothar",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "larsen, jens peter",
+    "composite_id": [
+      "musik_67_3_11"
+    ],
+    "family_name": "Larsen",
+    "given_names": "Jens Peter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "larsen_jens_p",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lausch, susanne",
+    "composite_id": [
+      "reisen_290_12_13"
+    ],
+    "family_name": "Lausch",
+    "given_names": "Susanne",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lausch_susanne",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lavrin, janko",
+    "composite_id": [
+      "russland_87_4_17"
+    ],
+    "family_name": "Lavrin",
+    "given_names": "Janko",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lavrin_janko",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lawrentjew, alexander n.",
+    "composite_id": [
+      "russland_265_11_17"
+    ],
+    "family_name": "Lawrentjew",
+    "given_names": "Alexander N.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lawrentjew_alexander_n",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "layard, austen henry",
+    "composite_id": [
+      "aegypten_26_2_3"
+    ],
+    "family_name": "Layard",
+    "given_names": "Austen Henry",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "layard_austen_h",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lbus, anita",
+    "composite_id": [
+      "bibliophile_0_1_10"
+    ],
+    "family_name": "Lbus",
+    "given_names": "Anita",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lbus_anita",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "le povremoyne, jehan",
+    "composite_id": [
+      "bibliophile_144_6_10"
+    ],
+    "family_name": "Le Povremoyne",
+    "given_names": "Jehan",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "le_povremoyne_jehan",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lebeer, louis",
+    "composite_id": [
+      "kunstbuecher_309_13_38"
+    ],
+    "family_name": "Lebeer",
+    "given_names": "Louis",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lebeer_louis",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lehner, ulrike",
+    "composite_id": [
+      "erstausgaben_1143_46_78"
+    ],
+    "family_name": "Lehner",
+    "given_names": "Ulrike",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lehner_ulrike",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lehnert, g.",
+    "composite_id": [
+      "kunstbuecher_241_10_38"
+    ],
+    "family_name": "Lehnert",
+    "given_names": "G.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lehnert_g",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "leibniz",
+    "composite_id": [
+      "philosophie_205_9_24"
+    ],
+    "family_name": "Leibniz",
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "leibniz_gottfried_w",
+    "matched_person_id": 4037,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "leinfellner, heinz",
+    "composite_id": [
+      "kunstbuecher_313_13_38"
+    ],
+    "family_name": "Leinfellner",
+    "given_names": "Heinz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "leinfellner_heinz",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lellenberg, jon",
+    "composite_id": [
+      "briefe_129_6_15"
+    ],
+    "family_name": "Lellenberg",
+    "given_names": "Jon",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lellenberg_jon",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lenk, rudolf",
+    "composite_id": [
+      "oesterreich_105_5_13"
+    ],
+    "family_name": "Lenk",
+    "given_names": "Rudolf",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lenk_rudolf",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lenz, werner",
+    "composite_id": [
+      "buch_112_5_8"
+    ],
+    "family_name": "Lenz",
+    "given_names": "Werner",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lenz_werner",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lepka, gregor",
+    "composite_id": [
+      "signierte_120_5_10"
+    ],
+    "family_name": "Lepka",
+    "given_names": "Gregor",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lepka_gregor",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "leuschner, joachim",
+    "composite_id": [
+      "deutschland_8_1_4"
+    ],
+    "family_name": "Leuschner",
+    "given_names": "Joachim",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "leuschner_joachim",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "lewy, guenter",
+    "composite_id": [
+      "deutschland_26_2_4"
+    ],
+    "family_name": "Lewy",
+    "given_names": "Guenter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lewy_guenter",
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "liebeskind, a. j.",
+    "composite_id": [
+      "de-lit-texte_320_13_20"
+    ],
+    "family_name": "Liebeskind",
+    "given_names": "A. J.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "liebeskind_a_j",
+    "_source_custom_id": "batch_nopes_021"
+  }
+]

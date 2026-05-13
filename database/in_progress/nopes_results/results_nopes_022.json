@@ -1,0 +1,543 @@
+[
+  {
+    "display_norm": "liegler, leopold",
+    "composite_id": [
+      "erstausgaben_1313_53_78"
+    ],
+    "family_name": "Liegler",
+    "given_names": "Leopold",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "liegler_leopold",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "lindberg, david c.",
+    "composite_id": [
+      "griechenland_198_8_10"
+    ],
+    "family_name": "Lindberg",
+    "given_names": "David C.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lindberg_david_c",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "lindner, werner",
+    "composite_id": [
+      "deutschland_9_1_4"
+    ],
+    "family_name": "Lindner",
+    "given_names": "Werner",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lindner_werner",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "linke",
+    "composite_id": [
+      "literatur_268_11_12"
+    ],
+    "family_name": "Linke",
+    "given_names": "Angelika",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "linke_angelika",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "lissauer, ernst",
+    "composite_id": [
+      "signierte_125_6_10"
+    ],
+    "family_name": "Lissauer",
+    "given_names": "Ernst",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lissauer_ernst",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "literaturproduzenten, arbeitskreis österreichischer",
+    "composite_id": [
+      "erstausgaben_406_17_78"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Arbeitskreis österreichischer Literaturproduzenten",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "arbeitskreis_osterreichischer_literaturproduzenten",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "litterscheid, claus",
+    "composite_id": [
+      "bibliophile_35_2_10"
+    ],
+    "family_name": "Litterscheid",
+    "given_names": "Claus",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "litterscheid_claus",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "livius",
+    "composite_id": [
+      "antike_177_8_9"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Livius",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "livius",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "locke, david",
+    "composite_id": [
+      "philosophie_215_9_24"
+    ],
+    "family_name": "Locke",
+    "given_names": "David",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "locke_david",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "locke, john",
+    "composite_id": [
+      "philosophie_216_9_24"
+    ],
+    "family_name": "Locke",
+    "given_names": "John",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "locke_john",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "loew, hans m.",
+    "composite_id": [
+      "oesterreich_245_10_13"
+    ],
+    "family_name": "Loew",
+    "given_names": "Hans M.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "loew_hans_m",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "loos, erich",
+    "composite_id": [
+      "briefe_117_5_15"
+    ],
+    "family_name": "Loos",
+    "given_names": "Erich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "loos_erich",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "losow, irene von",
+    "composite_id": [
+      "russland_83_4_17"
+    ],
+    "family_name": "Losow",
+    "given_names": "Irene",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "losow_irene",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "lotman",
+    "composite_id": [
+      "literatur_273_11_12"
+    ],
+    "family_name": "Lotman",
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "lotman_juri",
+    "matched_person_id": 4227,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "lucas, ed.(uard)",
+    "composite_id": [
+      "signierte_126_6_10"
+    ],
+    "family_name": "Lucas",
+    "given_names": "Eduard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lucas_eduard",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "luers, heinrich",
+    "composite_id": [
+      "sonstiges_63_3_4"
+    ],
+    "family_name": "Luers",
+    "given_names": "Heinrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "luers_heinrich",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "löhneisen, wolfgang frhr. von",
+    "composite_id": [
+      "briefe_325_14_15"
+    ],
+    "family_name": "Löhneisen",
+    "given_names": "Wolfgang",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": "Frhr.",
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lohneisen_wolfgang",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "löser, christian",
+    "composite_id": [
+      "briefe_212_9_15"
+    ],
+    "family_name": "Löser",
+    "given_names": "Christian",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "loser_christian",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "mack, karin",
+    "composite_id": [
+      "de-lit-monographien_54_3_10"
+    ],
+    "family_name": "Mack",
+    "given_names": "Karin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mack_karin",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "mack smith, denis",
+    "composite_id": [
+      "biographie_441_18_27"
+    ],
+    "family_name": "Mack Smith",
+    "given_names": "Denis",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mack_smith_denis",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "mackenzie, alexander",
+    "composite_id": [
+      "reisen_212_9_13"
+    ],
+    "family_name": "Mackenzie",
+    "given_names": "Alexander",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mackenzie_alexander",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "mader, elke",
+    "composite_id": [
+      "mythologie_26_2_3"
+    ],
+    "family_name": "Mader",
+    "given_names": "Elke",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mader_elke",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "magdelaine, m.",
+    "composite_id": [
+      "neuzeit_48_2_4"
+    ],
+    "family_name": "Magdelaine",
+    "given_names": "M.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "magdelaine_m",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "maimann, helene",
+    "composite_id": [
+      "oesterreich_79_4_13"
+    ],
+    "family_name": "Maimann",
+    "given_names": "Helene",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "maimann_helene",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "malcolm, norman",
+    "composite_id": [
+      "philosophie_335_14_24"
+    ],
+    "family_name": "Malcolm",
+    "given_names": "Norman",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "malcolm_norman",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "malory, sir thomas",
+    "composite_id": [
+      "biographie_384_16_27",
+      "suchliste_31_2_3"
+    ],
+    "family_name": "Malory",
+    "given_names": "Thomas",
+    "name_prefix": "Sir",
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "malory_thomas",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "mann, hans mayer",
+    "composite_id": [
+      "de-lit-monographien_155_7_10"
+    ],
+    "family_name": "Mann",
+    "given_names": "Hans Mayer",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mann_hans_m",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "mannteufel, ingo",
+    "composite_id": [
+      "russland_314_13_17"
+    ],
+    "family_name": "Mannteufel",
+    "given_names": "Ingo",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mannteufel_ingo",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "manzella, anton",
+    "composite_id": [
+      "russland_276_12_17"
+    ],
+    "family_name": "Manzella",
+    "given_names": "Anton",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "manzella_anton",
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "marechaux, pascal",
+    "composite_id": [
+      "reisen_39_2_13"
+    ],
+    "family_name": "Marechaux",
+    "given_names": "Pascal",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "marechaux_pascal",
+    "_source_custom_id": "batch_nopes_022"
+  }
+]

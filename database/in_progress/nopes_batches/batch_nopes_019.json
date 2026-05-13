@@ -1,0 +1,670 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "kisch, wilhelm",
+      "composite_id": [
+        "wien_59_3_10"
+      ],
+      "family_name": "KISCH",
+      "given_names": "Wilhelm",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kisch",
+      "first_norm": "wilhelm",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "klaar, alfred",
+      "composite_id": [
+        "briefe_103_5_15"
+      ],
+      "family_name": "Klaar",
+      "given_names": "Alfred",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "klaar",
+      "first_norm": "alfred",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kleen, tyra de",
+      "composite_id": [
+        "buddhismus_16_1_3"
+      ],
+      "family_name": "Kleen",
+      "given_names": "Tyra de",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kleen",
+      "first_norm": "tyra de",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "klein, chico",
+      "composite_id": [
+        "oesterreich_89_4_13"
+      ],
+      "family_name": "Klein",
+      "given_names": "Chico",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "klein",
+      "first_norm": "chico",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "klein, reimar",
+      "composite_id": [
+        "literatur_215_9_12"
+      ],
+      "family_name": "Klein",
+      "given_names": "Reimar",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "klein",
+      "first_norm": "reimar",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kleinpeter, dieter",
+      "composite_id": [
+        "kunstbuecher_753_31_38"
+      ],
+      "family_name": "KLEINPETER",
+      "given_names": "Dieter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kleinpeter",
+      "first_norm": "dieter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kleist, ewald christian",
+      "composite_id": [
+        "briefe_36_2_15"
+      ],
+      "family_name": "KLEIST",
+      "given_names": "Ewald Christian",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kleist",
+      "first_norm": "ewald christian",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "klemperer, hadwig",
+      "composite_id": [
+        "briefe_214_9_15"
+      ],
+      "family_name": "Klemperer",
+      "given_names": "Hadwig",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "klemperer",
+      "first_norm": "hadwig",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "klemperer",
+      "composite_id": [
+        "musik_71_3_11"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Klemperer",
+      "last_norm": "klemperer",
+      "first_norm": "",
+      "single_norm": "klemperer",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kling, thomas",
+      "composite_id": [
+        "de-lit-monographien_215_9_10"
+      ],
+      "family_name": "Kling",
+      "given_names": "Thomas",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kling",
+      "first_norm": "thomas",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "klobouk, alexandra",
+      "composite_id": [
+        "insel_641_26_27"
+      ],
+      "family_name": "Klobouk",
+      "given_names": "Alexandra",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "klobouk",
+      "first_norm": "alexandra",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kloft, hans",
+      "composite_id": [
+        "okkultismus_64_3_8"
+      ],
+      "family_name": "KLOFT",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kloft",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "klotz, heinrich",
+      "composite_id": [
+        "kunstbuecher_272_11_38"
+      ],
+      "family_name": "KLOTZ",
+      "given_names": "Heinrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "klotz",
+      "first_norm": "heinrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "klotz, alfred",
+      "composite_id": [
+        "antike_109_5_9"
+      ],
+      "family_name": "Klotz",
+      "given_names": "Alfred",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "klotz",
+      "first_norm": "alfred",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "knapp, robert",
+      "composite_id": [
+        "griechenland_82_4_10"
+      ],
+      "family_name": "KNAPP",
+      "given_names": "Robert",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "knapp",
+      "first_norm": "robert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "knepler, georg",
+      "composite_id": [
+        "signierte_104_5_10"
+      ],
+      "family_name": "KNEPLER",
+      "given_names": "Georg",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "knepler",
+      "first_norm": "georg",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "koberg, roland",
+      "composite_id": [
+        "de-lit-monographien_123_5_10",
+        "de-lit-monographien_124_5_10"
+      ],
+      "family_name": "Koberg",
+      "given_names": "Roland",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "koberg",
+      "first_norm": "roland",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "koch, hans-gerd",
+      "composite_id": [
+        "de-lit-monographien_131_6_10"
+      ],
+      "family_name": "Koch",
+      "given_names": "Hans-Gerd",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "koch",
+      "first_norm": "hans-gerd",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kohl, engelbert",
+      "composite_id": [
+        "reisen_34_2_13"
+      ],
+      "family_name": "KOHL",
+      "given_names": "Engelbert",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kohl",
+      "first_norm": "engelbert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kohn, richard",
+      "composite_id": [
+        "russland_272_11_17"
+      ],
+      "family_name": "Kohn",
+      "given_names": "Richard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kohn",
+      "first_norm": "richard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kohut, adolph",
+      "composite_id": [
+        "philosophie_230_10_24"
+      ],
+      "family_name": "Kohut",
+      "given_names": "Adolph",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kohut",
+      "first_norm": "adolph",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kolb, eduard",
+      "composite_id": [
+        "buddhismus_15_1_3"
+      ],
+      "family_name": "Kolb",
+      "given_names": "Eduard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kolb",
+      "first_norm": "eduard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kolbe, georg",
+      "composite_id": [
+        "insel_282_12_27"
+      ],
+      "family_name": "KOLBE",
+      "given_names": "GEORG",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kolbe",
+      "first_norm": "georg",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kolisch, rudolf",
+      "composite_id": [
+        "musik_118_5_11"
+      ],
+      "family_name": "Kolisch",
+      "given_names": "Rudolf",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kolisch",
+      "first_norm": "rudolf",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "komorzynski, egon v.",
+      "composite_id": [
+        "musik_62_3_11"
+      ],
+      "family_name": "KOMORZYNSKI",
+      "given_names": "Egon v.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "komorzynski",
+      "first_norm": "egon v.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "konrad, karel",
+      "composite_id": [
+        "signierte_108_5_10"
+      ],
+      "family_name": "KONRAD",
+      "given_names": "Karel",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "konrad",
+      "first_norm": "karel",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kopenhagener kierkegaard-gesellschaft",
+      "composite_id": [
+        "philosophie_198_8_24"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Kopenhagener Kierkegaard-Gesellschaft",
+      "last_norm": "kopenhagener kierkegaard-gesellschaft",
+      "first_norm": "",
+      "single_norm": "kopenhagener kierkegaard-gesellschaft",
+      "is_organisation": true
+    },
+    {
+      "display_norm": "kornemann, ernst",
+      "composite_id": [
+        "griechenland_84_4_10"
+      ],
+      "family_name": "KORNEMANN",
+      "given_names": "Ernst",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kornemann",
+      "first_norm": "ernst",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "korte, hermann",
+      "composite_id": [
+        "ethnologie_204_9_13"
+      ],
+      "family_name": "Korte",
+      "given_names": "Hermann",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "korte",
+      "first_norm": "hermann",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kosack, wolfgang",
+      "composite_id": [
+        "literatur_21_1_12"
+      ],
+      "family_name": "KOSACK",
+      "given_names": "Wolfgang",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kosack",
+      "first_norm": "wolfgang",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 3597,
+      "unified_id": "kohl_norbert",
+      "family_name": "Kohl",
+      "given_names": "Norbert",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3484,
+      "unified_id": "kisch_egon_e",
+      "family_name": "Kisch",
+      "given_names": "Egon Erwin",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3529,
+      "unified_id": "klemperer_otto",
+      "family_name": "Klemperer",
+      "given_names": "Otto",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3530,
+      "unified_id": "klemperer_victor",
+      "family_name": "Klemperer",
+      "given_names": "Victor",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3488,
+      "unified_id": "klaar_marianne",
+      "family_name": "Klaar",
+      "given_names": "Marianne",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3565,
+      "unified_id": "knapp_horst",
+      "family_name": "Knapp",
+      "given_names": "Horst",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3522,
+      "unified_id": "kleist_heinrich_von",
+      "family_name": "Kleist",
+      "given_names": "Heinrich",
+      "name_particles": "von",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3506,
+      "unified_id": "klein_agnes",
+      "family_name": "Klein",
+      "given_names": "Agnes",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3507,
+      "unified_id": "klein_e",
+      "family_name": "Klein",
+      "given_names": "E.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3508,
+      "unified_id": "klein_herm_j",
+      "family_name": "Klein",
+      "given_names": "Herm. J.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3509,
+      "unified_id": "klein_johannes",
+      "family_name": "Klein",
+      "given_names": "Johannes",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3510,
+      "unified_id": "klein_judith",
+      "family_name": "Klein",
+      "given_names": "Judith",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3511,
+      "unified_id": "klein_jürgen",
+      "family_name": "Klein",
+      "given_names": "Jürgen",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3512,
+      "unified_id": "klein_michael",
+      "family_name": "Klein",
+      "given_names": "Michael",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3513,
+      "unified_id": "klein_peter_k",
+      "family_name": "Klein",
+      "given_names": "Peter K.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3514,
+      "unified_id": "klein_richard",
+      "family_name": "Klein",
+      "given_names": "Richard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3515,
+      "unified_id": "klein_rudolf",
+      "family_name": "Klein",
+      "given_names": "Rudolf",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3516,
+      "unified_id": "klein_stefan_i",
+      "family_name": "Klein",
+      "given_names": "Stefan Isidor",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3581,
+      "unified_id": "koch_g_a",
+      "family_name": "Koch",
+      "given_names": "G.A.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3582,
+      "unified_id": "koch_klaus",
+      "family_name": "Koch",
+      "given_names": "Klaus",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3583,
+      "unified_id": "koch_l",
+      "family_name": "Koch",
+      "given_names": "L.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3584,
+      "unified_id": "koch_rudolf",
+      "family_name": "Koch",
+      "given_names": "Rudolf",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3585,
+      "unified_id": "koch_wilhelm",
+      "family_name": "Koch",
+      "given_names": "Wilhelm",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3609,
+      "unified_id": "kohn_hans",
+      "family_name": "Kohn",
+      "given_names": "Hans",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3556,
+      "unified_id": "klotz_petrus",
+      "family_name": "Klotz",
+      "given_names": "Petrus",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3614,
+      "unified_id": "kolb_karl",
+      "family_name": "Kolb",
+      "given_names": "Karl",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3615,
+      "unified_id": "kolb_peter",
+      "family_name": "Kolb",
+      "given_names": "Peter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

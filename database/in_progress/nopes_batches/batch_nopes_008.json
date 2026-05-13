@@ -1,0 +1,473 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "dittrich, heinrich",
+      "composite_id": [
+        "antike_177_8_9"
+      ],
+      "family_name": "Dittrich",
+      "given_names": "Heinrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dittrich",
+      "first_norm": "heinrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dolinar, frnce m.",
+      "composite_id": [
+        "reisen_8_1_13"
+      ],
+      "family_name": "Dolinar",
+      "given_names": "Frnce M.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dolinar",
+      "first_norm": "frnce m.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dolk, wouter",
+      "composite_id": [
+        "erstausgaben_528_22_78"
+      ],
+      "family_name": "Dolk",
+      "given_names": "Wouter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dolk",
+      "first_norm": "wouter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "douzinas, costas",
+      "composite_id": [
+        "zeitgeschichte_10_1_4"
+      ],
+      "family_name": "DOUZINAS",
+      "given_names": "Costas",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "douzinas",
+      "first_norm": "costas",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dowski, lee van",
+      "composite_id": [
+        "kunstbuecher_310_13_38"
+      ],
+      "family_name": "DOWSKI",
+      "given_names": "LEE VAN",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dowski",
+      "first_norm": "lee van",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "drege, jean-pierre",
+      "composite_id": [
+        "reisen_51_3_13"
+      ],
+      "family_name": "Drege",
+      "given_names": "Jean-Pierre",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "drege",
+      "first_norm": "jean-pierre",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dreger, m.",
+      "composite_id": [
+        "kunstbuecher_241_10_38"
+      ],
+      "family_name": "Dreger",
+      "given_names": "M.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dreger",
+      "first_norm": "m.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dresing, uschi",
+      "composite_id": [
+        "deutschland_52_3_4",
+        "sonstiges_3_1_4"
+      ],
+      "family_name": "Dresing",
+      "given_names": "Uschi",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dresing",
+      "first_norm": "uschi",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dsi, dschuang",
+      "composite_id": [
+        "buddhismus_8_1_3",
+        "buddhismus_48_2_3"
+      ],
+      "family_name": "DSI",
+      "given_names": "DSCHUANG",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dsi",
+      "first_norm": "dschuang",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dulken, stephen van",
+      "composite_id": [
+        "zeitgeschichte_50_3_4"
+      ],
+      "family_name": "DULKEN",
+      "given_names": "Stephen van",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dulken",
+      "first_norm": "stephen van",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dunzendorfer, albrecht",
+      "composite_id": [
+        "oesterreich_105_5_13"
+      ],
+      "family_name": "Dunzendorfer",
+      "given_names": "Albrecht",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dunzendorfer",
+      "first_norm": "albrecht",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dupaquier, jacques",
+      "composite_id": [
+        "neuzeit_8_1_4"
+      ],
+      "family_name": "Dupaquier",
+      "given_names": "Jacques",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dupaquier",
+      "first_norm": "jacques",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "durden, mark",
+      "composite_id": [
+        "sonstiges_52_3_4"
+      ],
+      "family_name": "DURDEN",
+      "given_names": "Mark",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "durden",
+      "first_norm": "mark",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dutli, hans",
+      "composite_id": [
+        "russland_215_9_17"
+      ],
+      "family_name": "Dutli",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dutli",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dylan, bob",
+      "composite_id": [
+        "fremdsprachige_319_13_38"
+      ],
+      "family_name": "DYLAN",
+      "given_names": "Bob",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dylan",
+      "first_norm": "bob",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dörper, sven",
+      "composite_id": [
+        "biographie_133_6_27"
+      ],
+      "family_name": "Dörper",
+      "given_names": "Sven",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dörper",
+      "first_norm": "sven",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dümling, albrecht",
+      "composite_id": [
+        "autographen_9_1_2"
+      ],
+      "family_name": "Dümling",
+      "given_names": "Albrecht",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dümling",
+      "first_norm": "albrecht",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ebert, albert",
+      "composite_id": [
+        "insel_6_1_27"
+      ],
+      "family_name": "EBERT",
+      "given_names": "ALBERT",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ebert",
+      "first_norm": "albert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ebster, manfred",
+      "composite_id": [
+        "signierte_48_2_10"
+      ],
+      "family_name": "EBSTER",
+      "given_names": "Manfred",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ebster",
+      "first_norm": "manfred",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "eco",
+      "composite_id": [
+        "literatur_273_11_12"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Eco",
+      "last_norm": "eco",
+      "first_norm": "",
+      "single_norm": "eco",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "eddelbüttel, herbert f. r.",
+      "composite_id": [
+        "sonstiges_77_4_4"
+      ],
+      "family_name": "Eddelbüttel",
+      "given_names": "Herbert F. R.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "eddelbüttel",
+      "first_norm": "herbert f. r.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ehlers, joachim",
+      "composite_id": [
+        "biographie_203_9_27"
+      ],
+      "family_name": "Ehlers",
+      "given_names": "Joachim",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ehlers",
+      "first_norm": "joachim",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ehmke, f.h.",
+      "composite_id": [
+        "maerchen_25_2_3"
+      ],
+      "family_name": "EHMKE",
+      "given_names": "F.H.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ehmke",
+      "first_norm": "f.h.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ehrmann, daniel",
+      "composite_id": [
+        "judentum_195_8_9"
+      ],
+      "family_name": "EHRMANN",
+      "given_names": "Daniel",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ehrmann",
+      "first_norm": "daniel",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "eich-fischer, marianne",
+      "composite_id": [
+        "de-lit-texte_301_13_20"
+      ],
+      "family_name": "Eich-Fischer",
+      "given_names": "Marianne",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "eich-fischer",
+      "first_norm": "marianne",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "eichenbaum",
+      "composite_id": [
+        "russland_311_13_17"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Eichenbaum",
+      "last_norm": "eichenbaum",
+      "first_norm": "",
+      "single_norm": "eichenbaum",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "eichenbaun, boris",
+      "composite_id": [
+        "russland_112_5_17"
+      ],
+      "family_name": "EICHENBAUN",
+      "given_names": "Boris",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "eichenbaun",
+      "first_norm": "boris",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "einsiedel, wolfgang von",
+      "composite_id": [
+        "biographie_107_5_27"
+      ],
+      "family_name": "Einsiedel",
+      "given_names": "Wolfgang von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "einsiedel",
+      "first_norm": "wolfgang von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "eipeldauer, heike",
+      "composite_id": [
+        "erstausgaben_1619_65_78"
+      ],
+      "family_name": "Eipeldauer",
+      "given_names": "Heike",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "eipeldauer",
+      "first_norm": "heike",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "eis, gerhard",
+      "composite_id": [
+        "literatur_101_5_12"
+      ],
+      "family_name": "EIS",
+      "given_names": "Gerhard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "eis",
+      "first_norm": "gerhard",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 1573,
+      "unified_id": "eichenbaum_boris",
+      "family_name": "Eichenbaum",
+      "given_names": "Boris",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1513,
+      "unified_id": "dutli_ralph",
+      "family_name": "Dutli",
+      "given_names": "Ralph",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1544,
+      "unified_id": "eco_umberto",
+      "family_name": "Eco",
+      "given_names": "Umberto",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1397,
+      "unified_id": "dittrich_lutz",
+      "family_name": "Dittrich",
+      "given_names": "Lutz",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1562,
+      "unified_id": "ehlers_wilhelm",
+      "family_name": "Ehlers",
+      "given_names": "Wilhelm",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

@@ -162,7 +162,7 @@ def submit_clean_batch(batch_path):
     requests = []
     for person in batch_data:
         request = {
-            "custom_id": person["unified_id"],
+            "custom_id": str(person["person_id"]),
             "params": {
                 "model": "claude-sonnet-4-6",
                 "max_tokens": 1000,

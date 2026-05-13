@@ -1,0 +1,544 @@
+[
+  {
+    "display_norm": "fisher, angela",
+    "composite_id": [
+      "reisen_91_4_13"
+    ],
+    "family_name": "Fisher",
+    "given_names": "Angela",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "fisher_angela",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "flaccus, aulus persius",
+    "composite_id": [
+      "antike_175_8_9"
+    ],
+    "family_name": "Flaccus",
+    "given_names": "Aulus Persius",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "flaccus_aulus_p",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "fleckenstein, josef",
+    "composite_id": [
+      "deutschland_8_1_4"
+    ],
+    "family_name": "Fleckenstein",
+    "given_names": "Josef",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "fleckenstein_josef",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "fleischer, wolfgang",
+    "composite_id": [
+      "biographie_15_1_27"
+    ],
+    "family_name": "Fleischer",
+    "given_names": "Wolfgang",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "fleischer_wolfgang",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "fleury, michel",
+    "composite_id": [
+      "reisen_46_2_13"
+    ],
+    "family_name": "Fleury",
+    "given_names": "Michel",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "fleury_michel",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "flickinger, brigitte",
+    "composite_id": [
+      "russland_121_5_17"
+    ],
+    "family_name": "Flickinger",
+    "given_names": "Brigitte",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "flickinger_brigitte",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "fraenkel, carlos",
+    "composite_id": [
+      "philosophie_136_6_24"
+    ],
+    "family_name": "Fraenkel",
+    "given_names": "Carlos",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "fraenkel_carlos",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "franck, martine",
+    "composite_id": [
+      "autographen_14_1_2"
+    ],
+    "family_name": "Franck",
+    "given_names": "Martine",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "franck_martine",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "franckenberg, abraham von",
+    "composite_id": [
+      "christentum_14_1_6"
+    ],
+    "family_name": "Franckenberg",
+    "given_names": "Abraham",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "franckenberg_abraham",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "frank, josef maria",
+    "composite_id": [
+      "reisen_155_7_13"
+    ],
+    "family_name": "Frank",
+    "given_names": "Josef Maria",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "frank_josef_m",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "fremantle, francesca",
+    "composite_id": [
+      "buddhismus_67_3_3"
+    ],
+    "family_name": "Fremantle",
+    "given_names": "Francesca",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "fremantle_francesca",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "frenschkowski, marco",
+    "composite_id": [
+      "fruehes_80_4_4"
+    ],
+    "family_name": "Frenschkowski",
+    "given_names": "Marco",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "frenschkowski_marco",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "friedländer, walter",
+    "composite_id": [
+      "kunstbuecher_326_14_38"
+    ],
+    "family_name": "Friedländer",
+    "given_names": "Walter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "friedlander_walter",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "fritz, elisabeth",
+    "composite_id": [
+      "erstausgaben_1473_59_78"
+    ],
+    "family_name": "Fritz",
+    "given_names": "Elisabeth",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "fritz_elisabeth",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "fritz, eva",
+    "composite_id": [
+      "signierte_210_9_10"
+    ],
+    "family_name": "Fritz",
+    "given_names": "Eva",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "fritz_eva",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "fröbe-kapteyn, olga",
+    "composite_id": [
+      "okkultismus_151_7_8"
+    ],
+    "family_name": "Fröbe-Kapteyn",
+    "given_names": "Olga",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "frobekapteyn_olga",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "fuchs, gerhard",
+    "composite_id": [
+      "erstausgaben_558_23_78",
+      "oesterreich_201_9_13"
+    ],
+    "family_name": "Fuchs",
+    "given_names": "Gerhard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "fuchs_gerhard",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "fuchs, draeger",
+    "composite_id": [
+      "kunstbuecher_91_4_38"
+    ],
+    "family_name": "Fuchs",
+    "given_names": "Draeger",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "fuchs_draeger",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "fuentes, enrique",
+    "composite_id": [
+      "kunstbuecher_148_6_38"
+    ],
+    "family_name": "Fuentes",
+    "given_names": "Enrique",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "fuentes_enrique",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "fusseneggera, fertrud",
+    "composite_id": [
+      "erstausgaben_566_23_78"
+    ],
+    "family_name": "Fusseneggera",
+    "given_names": "Fertrud",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "fusseneggera_fertrud",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "g.c.lichtenberg",
+    "composite_id": [
+      "insel_275_12_27"
+    ],
+    "family_name": "Lichtenberg",
+    "given_names": "G. C.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lichtenberg_g_c",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "galeano, eduardo",
+    "composite_id": [
+      "maerchen_26_2_3"
+    ],
+    "family_name": "Galeano",
+    "given_names": "Eduardo",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "galeano_eduardo",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "galerie, berlinische",
+    "composite_id": [
+      "kunstbuecher_209_9_38"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Berlinische Galerie",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "berlinische_galerie",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "gall, günter",
+    "composite_id": [
+      "kunstbuecher_860_35_38"
+    ],
+    "family_name": "Gall",
+    "given_names": "Günter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "gall_gunter",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "gallwitz, klaus",
+    "composite_id": [
+      "kunstbuecher_260_11_38"
+    ],
+    "family_name": "Gallwitz",
+    "given_names": "Klaus",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "gallwitz_klaus",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "garas, klara",
+    "composite_id": [
+      "kunstbuecher_343_14_38"
+    ],
+    "family_name": "Garas",
+    "given_names": "Klara",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "garas_klara",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "garger, e.",
+    "composite_id": [
+      "wien_25_2_10",
+      "wien_24_1_10"
+    ],
+    "family_name": "Garger",
+    "given_names": "E.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "garger_ernst",
+    "matched_person_id": 2071,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "garscha, winfried r.",
+    "composite_id": [
+      "oesterreich_193_8_13"
+    ],
+    "family_name": "Garscha",
+    "given_names": "Winfried R.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "garscha_winfried_r",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "garver, newton",
+    "composite_id": [
+      "philosophie_335_14_24"
+    ],
+    "family_name": "Garver",
+    "given_names": "Newton",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "garver_newton",
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "garzarolli-thurnlackh, karl",
+    "composite_id": [
+      "kunstbuecher_101_5_38"
+    ],
+    "family_name": "Garzarolli-Thurnlackh",
+    "given_names": "Karl",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "garzarollithurnlackh_karl",
+    "_source_custom_id": "batch_nopes_010"
+  }
+]

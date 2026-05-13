@@ -1,0 +1,542 @@
+[
+  {
+    "display_norm": "beckwith, carol",
+    "composite_id": [
+      "reisen_91_4_13"
+    ],
+    "family_name": "Beckwith",
+    "given_names": "Carol",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "beckwith_carol",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bednarik, karl",
+    "composite_id": [
+      "wien_166_7_10"
+    ],
+    "family_name": "Bednarik",
+    "given_names": "Karl",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bednarik_karl",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "beebe, william",
+    "composite_id": [
+      "reisen_92_4_13"
+    ],
+    "family_name": "Beebe",
+    "given_names": "William",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "beebe_william",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "behncke, w.",
+    "composite_id": [
+      "kunstbuecher_241_10_38"
+    ],
+    "family_name": "Behncke",
+    "given_names": "W.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "behncke_w",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bei, neda",
+    "composite_id": [
+      "de-lit-monographien_215_9_10"
+    ],
+    "family_name": "Bei",
+    "given_names": "Neda",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bei_neda",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bein, alex",
+    "composite_id": [
+      "judentum_11_1_9"
+    ],
+    "family_name": "Bein",
+    "given_names": "Alex",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bein_alex",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "beinart, haim",
+    "composite_id": [
+      "judentum_12_1_9"
+    ],
+    "family_name": "Beinart",
+    "given_names": "Haim",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "beinart_haim",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bell, gertrude",
+    "composite_id": [
+      "reisen_93_4_13"
+    ],
+    "family_name": "Bell",
+    "given_names": "Gertrude",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bell_gertrude",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "beltz, walter",
+    "composite_id": [
+      "aegypten_46_2_3"
+    ],
+    "family_name": "Beltz",
+    "given_names": "Walter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "beltz_walter",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "ben-sasson, haim hillel",
+    "composite_id": [
+      "judentum_80_4_9"
+    ],
+    "family_name": "Ben-Sasson",
+    "given_names": "Haim Hillel",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bensasson_haim_h",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "berendt, hans",
+    "composite_id": [
+      "bibliophile_53_3_10"
+    ],
+    "family_name": "Berendt",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "berendt_hans",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bergel, kurt",
+    "composite_id": [
+      "erstausgaben_1393_56_78"
+    ],
+    "family_name": "Bergel",
+    "given_names": "Kurt",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bergel_kurt",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bergmann, a.",
+    "composite_id": [
+      "okkultismus_84_4_8"
+    ],
+    "family_name": "Bergmann",
+    "given_names": "A.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bergmann_a",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bermann, richard a.",
+    "composite_id": [
+      "reisen_2_1_13"
+    ],
+    "family_name": "Bermann",
+    "given_names": "Richard A.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bermann_richard_a",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bermbach, udo",
+    "composite_id": [
+      "briefe_78_4_15"
+    ],
+    "family_name": "Bermbach",
+    "given_names": "Udo",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bermbach_udo",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bernard, andreas",
+    "composite_id": [
+      "philosophie_9_1_24"
+    ],
+    "family_name": "Bernard",
+    "given_names": "Andreas",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bernard_andreas",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bernatzik, hugo",
+    "composite_id": [
+      "reisen_3_1_13"
+    ],
+    "family_name": "Bernatzik",
+    "given_names": "Hugo",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bernatzik_hugo",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bernatzik, hugo adolf",
+    "composite_id": [
+      "reisen_4_1_13"
+    ],
+    "family_name": "Bernatzik",
+    "given_names": "Hugo Adolf",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bernatzik_hugo_a",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bernatzik, emmy",
+    "composite_id": [
+      "reisen_94_4_13"
+    ],
+    "family_name": "Bernatzik",
+    "given_names": "Emmy",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bernatzik_emmy",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bertsch, christoph",
+    "composite_id": [
+      "kunstbuecher_420_17_38"
+    ],
+    "family_name": "Bertsch",
+    "given_names": "Christoph",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bertsch_christoph",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "beuningen, helga",
+    "composite_id": [
+      "signierte_151_7_10"
+    ],
+    "family_name": "Beuningen",
+    "given_names": "Helga",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "beuningen_helga",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "biba, otto",
+    "composite_id": [
+      "briefe_165_7_15"
+    ],
+    "family_name": "Biba",
+    "given_names": "Otto",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "biba_otto",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bibby, geoffrey",
+    "composite_id": [
+      "aegypten_11_1_3"
+    ],
+    "family_name": "Bibby",
+    "given_names": "Geoffrey",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bibby_geoffrey",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bieber, friedrich j.",
+    "composite_id": [
+      "reisen_16_1_13"
+    ],
+    "family_name": "Bieber",
+    "given_names": "Friedrich J.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bieber_friedrich_j",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "biermann, georg",
+    "composite_id": [
+      "kunstbuecher_35_2_38"
+    ],
+    "family_name": "Biermann",
+    "given_names": "Georg",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "biermann_georg",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "bilbassoff, b. von",
+    "composite_id": [
+      "russland_4_1_17"
+    ],
+    "family_name": "Bilbassoff",
+    "given_names": "B.",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bilbassoff_b",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "binder, w.",
+    "composite_id": [
+      "mythologie_56_3_3"
+    ],
+    "family_name": "Binder",
+    "given_names": "W.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "binder_w",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "binder, otmar",
+    "composite_id": [
+      "signierte_210_9_10"
+    ],
+    "family_name": "Binder",
+    "given_names": "Otmar",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "binder_otmar",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "birkhan, helmut",
+    "composite_id": [
+      "okkultismus_15_1_8"
+    ],
+    "family_name": "Birkhan",
+    "given_names": "Helmut",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "birkhan_helmut",
+    "_source_custom_id": "batch_nopes_003"
+  },
+  {
+    "display_norm": "birnbacher, dieter",
+    "composite_id": [
+      "philosophie_593_24_24"
+    ],
+    "family_name": "Birnbacher",
+    "given_names": "Dieter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "birnbacher_dieter",
+    "_source_custom_id": "batch_nopes_003"
+  }
+]

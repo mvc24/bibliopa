@@ -1,0 +1,545 @@
+[
+  {
+    "display_norm": "pressler, christine",
+    "composite_id": [
+      "kinder_53_3_4"
+    ],
+    "family_name": "Pressler",
+    "given_names": "Christine",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pressler_christine",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "prestage, edgar",
+    "composite_id": [
+      "reisen_253_11_13"
+    ],
+    "family_name": "Prestage",
+    "given_names": "Edgar",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "prestage_edgar",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "pretre, j. c.",
+    "composite_id": [
+      "kunstbuecher_507_21_38"
+    ],
+    "family_name": "Pretre",
+    "given_names": "J. C.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pretre_j_c",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "pretzel, ulrich",
+    "composite_id": [
+      "de-lit-texte_317_13_20"
+    ],
+    "family_name": "Pretzel",
+    "given_names": "Ulrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pretzel_ulrich",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "prischwin, michail m.",
+    "composite_id": [
+      "insel_492_20_27"
+    ],
+    "family_name": "Prischwin",
+    "given_names": "Michail M.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "prischwin_michail_m",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "proft, irmhild",
+    "composite_id": [
+      "erstausgaben_665_27_78"
+    ],
+    "family_name": "Proft",
+    "given_names": "Irmhild",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "proft_irmhild",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "proft, hilmar",
+    "composite_id": [
+      "erstausgaben_665_27_78"
+    ],
+    "family_name": "Proft",
+    "given_names": "Hilmar",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "proft_hilmar",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "projekt, bibel",
+    "composite_id": [
+      "religion_7_1_4"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Bibel Projekt",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bibel_projekt",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "proksch, peter",
+    "composite_id": [
+      "kunstbuecher_426_18_38"
+    ],
+    "family_name": "Proksch",
+    "given_names": "Peter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "proksch_peter",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "prstojevic, miroslav",
+    "composite_id": [
+      "sonstiges_69_3_4"
+    ],
+    "family_name": "Prstojevic",
+    "given_names": "Miroslav",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "prstojevic_miroslav",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "pruckner, hildegard",
+    "composite_id": [
+      "wien_106_5_10"
+    ],
+    "family_name": "Pruckner",
+    "given_names": "Hildegard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pruckner_hildegard",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "pryce, william",
+    "composite_id": [
+      "kunstbuecher_17_1_38"
+    ],
+    "family_name": "Pryce",
+    "given_names": "William",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "pryce_william",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "przibram, ludwig ritter von",
+    "composite_id": [
+      "biographie_44_2_27"
+    ],
+    "family_name": "Przibram",
+    "given_names": "Ludwig",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": "Ritter",
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "przibram_ludwig",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "pölitz, karl heinrich ludwig",
+    "composite_id": [
+      "deutschland_84_4_4"
+    ],
+    "family_name": "Pölitz",
+    "given_names": "Karl Heinrich Ludwig",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "politz_karl_h_l",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "pötzl, eduard",
+    "composite_id": [
+      "autographen_26_2_2"
+    ],
+    "family_name": "Pötzl",
+    "given_names": "Eduard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "potzl_eduard",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "quennell, peter",
+    "composite_id": [
+      "briefe_117_5_15"
+    ],
+    "family_name": "Quennell",
+    "given_names": "Peter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "quennell_peter",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "raab",
+    "composite_id": [
+      "briefe_298_12_15"
+    ],
+    "family_name": "Raab",
+    "given_names": "Harald",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "raab_harald",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "radecki, sigismund von",
+    "composite_id": [
+      "russland_137_6_17",
+      "russland_136_6_17",
+      "russland_135_6_17"
+    ],
+    "family_name": "Radecki",
+    "given_names": "Sigismund",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "radecki_sigismund",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "radetzkaja, olga",
+    "composite_id": [
+      "russland_343_14_17"
+    ],
+    "family_name": "Radetzkaja",
+    "given_names": "Olga",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "radetzkaja_olga",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "radhkrishnan, s.",
+    "composite_id": [
+      "buddhismus_1_1_3"
+    ],
+    "family_name": "Radhkrishnan",
+    "given_names": "S.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "radhkrishnan_s",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "radierwerkstatt kurt zein wien",
+    "composite_id": [
+      "kunstbuecher_428_18_38"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Radierwerkstatt Kurt Zein Wien",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "radierwerkstatt_kurt_zein_wien",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "radspieler, hans",
+    "composite_id": [
+      "briefe_361_15_15"
+    ],
+    "family_name": "Radspieler",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "radspieler_hans",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "raffet, auguste",
+    "composite_id": [
+      "okkultismus_163_7_8"
+    ],
+    "family_name": "Raffet",
+    "given_names": "Auguste",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "raffet_auguste",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "rainer",
+    "composite_id": [
+      "kunstbuecher_483_20_38",
+      "kunstbuecher_907_37_38"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Rainer",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "rainer",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "rakelmann, georgia a.",
+    "composite_id": [
+      "zeitgeschichte_14_1_4"
+    ],
+    "family_name": "Rakelmann",
+    "given_names": "Georgia A.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "rakelmann_georgia_a",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "ramberg-berdyczewski, rahel",
+    "composite_id": [
+      "judentum_137_6_9"
+    ],
+    "family_name": "Ramberg-Berdyczewski",
+    "given_names": "Rahel",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "ramberg-berdyczewski_rahel",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "ramelli, agostino",
+    "composite_id": [
+      "sonstiges_71_3_4"
+    ],
+    "family_name": "Ramelli",
+    "given_names": "Agostino",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "ramelli_agostino",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "ramsauer, august",
+    "composite_id": [
+      "russland_180_8_17"
+    ],
+    "family_name": "Ramsauer",
+    "given_names": "August",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "ramsauer_august",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "ramsauer, hertha",
+    "composite_id": [
+      "illustrierte_97_4_14"
+    ],
+    "family_name": "Ramsauer",
+    "given_names": "Hertha",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "ramsauer_hertha",
+    "_source_custom_id": "batch_nopes_029"
+  },
+  {
+    "display_norm": "ramshorn, carl",
+    "composite_id": [
+      "oesterreich_117_5_13"
+    ],
+    "family_name": "Ramshorn",
+    "given_names": "Carl",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "ramshorn_carl",
+    "_source_custom_id": "batch_nopes_029"
+  }
+]

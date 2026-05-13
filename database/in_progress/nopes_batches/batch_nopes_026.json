@@ -1,0 +1,455 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "neurath, walter",
+      "composite_id": [
+        "kinder_86_4_4"
+      ],
+      "family_name": "NEURATH",
+      "given_names": "Walter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "neurath",
+      "first_norm": "walter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "niedergall, ernst elias",
+      "composite_id": [
+        "insel_220_9_27"
+      ],
+      "family_name": "NIEDERGALL",
+      "given_names": "ERNST ELIAS",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "niedergall",
+      "first_norm": "ernst elias",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nissing, hanns-gregor",
+      "composite_id": [
+        "christentum_68_3_6"
+      ],
+      "family_name": "Nissing",
+      "given_names": "Hanns-Gregor",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nissing",
+      "first_norm": "hanns-gregor",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nitsche, peter",
+      "composite_id": [
+        "russland_2_1_17"
+      ],
+      "family_name": "Nitsche",
+      "given_names": "Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nitsche",
+      "first_norm": "peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nitschke, annelore",
+      "composite_id": [
+        "russland_276_12_17"
+      ],
+      "family_name": "Nitschke",
+      "given_names": "Annelore",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nitschke",
+      "first_norm": "annelore",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nohl, ludwig",
+      "composite_id": [
+        "musik_93_4_11"
+      ],
+      "family_name": "NOHL",
+      "given_names": "Ludwig",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nohl",
+      "first_norm": "ludwig",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nola, alfonso di",
+      "composite_id": [
+        "okkultismus_89_4_8"
+      ],
+      "family_name": "NOLA",
+      "given_names": "Alfonso di",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nola",
+      "first_norm": "alfonso di",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nolde, emil",
+      "composite_id": [
+        "kunstbuecher_376_16_38",
+        "kunstbuecher_825_34_38"
+      ],
+      "family_name": "NOLDE",
+      "given_names": "Emil",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nolde",
+      "first_norm": "emil",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nolden, bärbel",
+      "composite_id": [
+        "de-lit-monographien_215_9_10"
+      ],
+      "family_name": "Nolden",
+      "given_names": "Bärbel",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nolden",
+      "first_norm": "bärbel",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "noll, peter",
+      "composite_id": [
+        "philosophie_242_10_24"
+      ],
+      "family_name": "NOLL",
+      "given_names": "Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "noll",
+      "first_norm": "peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "noll, rudolf",
+      "composite_id": [
+        "antike_53_3_9"
+      ],
+      "family_name": "Noll",
+      "given_names": "Rudolf",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "noll",
+      "first_norm": "rudolf",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nollert, angelika",
+      "composite_id": [
+        "kunstbuecher_524_21_38"
+      ],
+      "family_name": "Nollert",
+      "given_names": "Angelika",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nollert",
+      "first_norm": "angelika",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nolte, helmut",
+      "composite_id": [
+        "ethnologie_92_4_13"
+      ],
+      "family_name": "Nolte",
+      "given_names": "Helmut",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nolte",
+      "first_norm": "helmut",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nonnos",
+      "composite_id": [
+        "antike_90_4_9",
+        "antike_91_4_9"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "NONNOS",
+      "last_norm": "nonnos",
+      "first_norm": "",
+      "single_norm": "nonnos",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nono-schoenberg, nuria",
+      "composite_id": [
+        "biographie_43_2_27"
+      ],
+      "family_name": "NONO-SCHOENBERG",
+      "given_names": "Nuria",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nono-schoenberg",
+      "first_norm": "nuria",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nooteboom, cees",
+      "composite_id": [
+        "reisen_229_10_13",
+        "reisen_232_10_13",
+        "insel_90_4_27",
+        "fremdsprachige_686_28_38",
+        "signierte_151_7_10",
+        "reisen_230_10_13",
+        "reisen_231_10_13"
+      ],
+      "family_name": "NOOTEBOOM",
+      "given_names": "Cees",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nooteboom",
+      "first_norm": "cees",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nordau, max",
+      "composite_id": [
+        "biographie_453_19_27"
+      ],
+      "family_name": "NORDAU",
+      "given_names": "Max",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nordau",
+      "first_norm": "max",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nordenskiöld, adolf erik",
+      "composite_id": [
+        "reisen_233_10_13"
+      ],
+      "family_name": "NORDENSKIÖLD",
+      "given_names": "Adolf Erik",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nordenskiöld",
+      "first_norm": "adolf erik",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nordmann, ingeborg",
+      "composite_id": [
+        "philosophie_356_15_24"
+      ],
+      "family_name": "Nordmann",
+      "given_names": "Ingeborg",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nordmann",
+      "first_norm": "ingeborg",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "norwich, john j.",
+      "composite_id": [
+        "mittelalter_78_4_7"
+      ],
+      "family_name": "NORWICH",
+      "given_names": "John J.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "norwich",
+      "first_norm": "john j.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "norwid, cyprian",
+      "composite_id": [
+        "insel_109_5_27"
+      ],
+      "family_name": "NORWID",
+      "given_names": "CYPRIAN",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "norwid",
+      "first_norm": "cyprian",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nossack, hans erich",
+      "composite_id": [
+        "de-lit-texte_345_14_20",
+        "erstausgaben_1494_60_78",
+        "erstausgaben_1493_60_78",
+        "de-lit-texte_344_14_20",
+        "erstausgaben_1496_60_78",
+        "erstausgaben_1495_60_78",
+        "de-lit-texte_343_14_20",
+        "erstausgaben_1497_60_78"
+      ],
+      "family_name": "NOSSACK",
+      "given_names": "Hans Erich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nossack",
+      "first_norm": "hans erich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nossak, hans erich",
+      "composite_id": [
+        "erstausgaben_1498_60_78"
+      ],
+      "family_name": "NOSSAK",
+      "given_names": "Hans Erich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nossak",
+      "first_norm": "hans erich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nossik, boris",
+      "composite_id": [
+        "biographie_454_19_27"
+      ],
+      "family_name": "NOSSIK",
+      "given_names": "Boris",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nossik",
+      "first_norm": "boris",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nostitz, oswalt von",
+      "composite_id": [
+        "fremdsprachige_560_23_38"
+      ],
+      "family_name": "Nostitz",
+      "given_names": "Oswalt von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nostitz",
+      "first_norm": "oswalt von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "nottelmann, nicole",
+      "composite_id": [
+        "biographie_455_19_27"
+      ],
+      "family_name": "NOTTELMANN",
+      "given_names": "Nicole",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "nottelmann",
+      "first_norm": "nicole",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "novak, kurt",
+      "composite_id": [
+        "christentum_115_5_6"
+      ],
+      "family_name": "NOVAK",
+      "given_names": "Kurt",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "novak",
+      "first_norm": "kurt",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "novak, helga m.",
+      "composite_id": [
+        "erstausgaben_1499_60_78"
+      ],
+      "family_name": "NOVAK",
+      "given_names": "Helga M.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "novak",
+      "first_norm": "helga m.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "novak, johann friedrich",
+      "composite_id": [
+        "briefe_58_3_15"
+      ],
+      "family_name": "Novak",
+      "given_names": "Johann Friedrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "novak",
+      "first_norm": "johann friedrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "novalis",
+      "composite_id": [
+        "de-lit-texte_346_14_20",
+        "briefe_280_12_15",
+        "insel_505_21_27",
+        "briefe_281_12_15",
+        "illustrierte_248_10_14",
+        "briefe_279_12_15"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "NOVALIS",
+      "last_norm": "novalis",
+      "first_norm": "",
+      "single_norm": "novalis",
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 4925,
+      "unified_id": "neurath_paul",
+      "family_name": "Neurath",
+      "given_names": "Paul",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

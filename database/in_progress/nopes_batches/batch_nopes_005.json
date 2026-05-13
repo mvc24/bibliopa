@@ -1,0 +1,580 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "braun, joseph",
+      "composite_id": [
+        "christentum_16_1_6"
+      ],
+      "family_name": "BRAUN",
+      "given_names": "Joseph",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "braun",
+      "first_norm": "joseph",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "braun, e.w.",
+      "composite_id": [
+        "kunstbuecher_241_10_38"
+      ],
+      "family_name": "Braun",
+      "given_names": "E.W.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "braun",
+      "first_norm": "e.w.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "braun, reinhard",
+      "composite_id": [
+        "oesterreich_45_2_13"
+      ],
+      "family_name": "BRAUN",
+      "given_names": "Reinhard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "braun",
+      "first_norm": "reinhard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "braun, isabella",
+      "composite_id": [
+        "kinder_8_1_4"
+      ],
+      "family_name": "BRAUN",
+      "given_names": "Isabella",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "braun",
+      "first_norm": "isabella",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "brazza, pierre savorgnan de",
+      "composite_id": [
+        "reisen_100_5_13"
+      ],
+      "family_name": "BRAZZA",
+      "given_names": "Pierre Savorgnan de",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "brazza",
+      "first_norm": "pierre savorgnan de",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "brecht",
+      "composite_id": [
+        "erstausgaben_307_13_78",
+        "erstausgaben_306_13_78"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "BRECHT",
+      "last_norm": "brecht",
+      "first_norm": "",
+      "single_norm": "brecht",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "brendel, walter",
+      "composite_id": [
+        "musik_15_1_11"
+      ],
+      "family_name": "BRENDEL",
+      "given_names": "Walter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "brendel",
+      "first_norm": "walter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "breuningen, helga van",
+      "composite_id": [
+        "reisen_230_10_13"
+      ],
+      "family_name": "Breuningen",
+      "given_names": "Helga van",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "breuningen",
+      "first_norm": "helga van",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "brilli, attilio",
+      "composite_id": [
+        "reisen_104_5_13"
+      ],
+      "family_name": "BRILLI",
+      "given_names": "Attilio",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "brilli",
+      "first_norm": "attilio",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "brissaud, pierre",
+      "composite_id": [
+        "kinder_73_3_4"
+      ],
+      "family_name": "Brissaud",
+      "given_names": "Pierre",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "brissaud",
+      "first_norm": "pierre",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "brovot, thomas",
+      "composite_id": [
+        "zeitgeschichte_56_3_4"
+      ],
+      "family_name": "Brovot",
+      "given_names": "Thomas",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "brovot",
+      "first_norm": "thomas",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "brugger, ingrid",
+      "composite_id": [
+        "erstausgaben_1619_65_78"
+      ],
+      "family_name": "Brugger",
+      "given_names": "Ingrid",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "brugger",
+      "first_norm": "ingrid",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "brunmayr, hans",
+      "composite_id": [
+        "de-lit-monographien_234_10_10"
+      ],
+      "family_name": "Brunmayr",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "brunmayr",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "brunngraber, rudolf",
+      "composite_id": [
+        "signierte_26_2_10"
+      ],
+      "family_name": "BRUNNGRABER",
+      "given_names": "Rudolf",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "brunngraber",
+      "first_norm": "rudolf",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "brückner, christine",
+      "composite_id": [
+        "erstausgaben_1556_63_78"
+      ],
+      "family_name": "Brückner",
+      "given_names": "Christine",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "brückner",
+      "first_norm": "christine",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "brühl, alois friedrich",
+      "composite_id": [
+        "musik_90_4_11"
+      ],
+      "family_name": "Brühl",
+      "given_names": "Alois Friedrich",
+      "name_particles": "Graf von",
+      "single_name": null,
+      "last_norm": "brühl",
+      "first_norm": "alois friedrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "buchner, friedrich markus",
+      "composite_id": [
+        "insel_446_18_27"
+      ],
+      "family_name": "Buchner",
+      "given_names": "Friedrich Markus",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "buchner",
+      "first_norm": "friedrich markus",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "buchner, alexander",
+      "composite_id": [
+        "musik_19_1_11"
+      ],
+      "family_name": "BUCHNER",
+      "given_names": "Alexander",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "buchner",
+      "first_norm": "alexander",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bugow, s.",
+      "composite_id": [
+        "russland_35_2_17"
+      ],
+      "family_name": "Bugow",
+      "given_names": "S.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bugow",
+      "first_norm": "s.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "buonaroti, michelagniolo",
+      "composite_id": [
+        "bibliophile_165_7_10"
+      ],
+      "family_name": "BUONAROTI",
+      "given_names": "MICHELAGNIOLO",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "buonaroti",
+      "first_norm": "michelagniolo",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "burgess, anthony",
+      "composite_id": [
+        "monographien_33_2_3"
+      ],
+      "family_name": "Burgess",
+      "given_names": "Anthony",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "burgess",
+      "first_norm": "anthony",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "burmester, herbert",
+      "composite_id": [
+        "reisen_16_1_13"
+      ],
+      "family_name": "Burmester",
+      "given_names": "Herbert",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "burmester",
+      "first_norm": "herbert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "burney, c.",
+      "composite_id": [
+        "aegypten_10_1_3"
+      ],
+      "family_name": "Burney",
+      "given_names": "C.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "burney",
+      "first_norm": "c.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "burton, richard",
+      "composite_id": [
+        "reisen_6_1_13"
+      ],
+      "family_name": "BURTON",
+      "given_names": "Richard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "burton",
+      "first_norm": "richard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "burton, sir richard",
+      "composite_id": [
+        "buddhismus_15_1_3"
+      ],
+      "family_name": "Burton",
+      "given_names": "Sir Richard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "burton",
+      "first_norm": "sir richard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "butler, rupert",
+      "composite_id": [
+        "deutschland_7_1_4"
+      ],
+      "family_name": "BUTLER",
+      "given_names": "Rupert",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "butler",
+      "first_norm": "rupert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "buxbaum, friedrich",
+      "composite_id": [
+        "autographen_0_1_2"
+      ],
+      "family_name": "BUXBAUM",
+      "given_names": "Friedrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "buxbaum",
+      "first_norm": "friedrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "böckh, august",
+      "composite_id": [
+        "insel_603_25_27"
+      ],
+      "family_name": "Böckh",
+      "given_names": "August",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "böckh",
+      "first_norm": "august",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "böll, annemarie",
+      "composite_id": [
+        "fremdsprachige_835_34_38"
+      ],
+      "family_name": "Böll",
+      "given_names": "Annemarie",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "böll",
+      "first_norm": "annemarie",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bührer, emil m.",
+      "composite_id": [
+        "reisen_51_3_13"
+      ],
+      "family_name": "Bührer",
+      "given_names": "Emil M.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bührer",
+      "first_norm": "emil m.",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 932,
+      "unified_id": "burney_c",
+      "family_name": "Burney",
+      "given_names": "Charles",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 779,
+      "unified_id": "braun_anne",
+      "family_name": "Braun",
+      "given_names": "Anne",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 780,
+      "unified_id": "braun_bernhard",
+      "family_name": "Braun",
+      "given_names": "Bernhard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 781,
+      "unified_id": "braun_felix",
+      "family_name": "Braun",
+      "given_names": "Felix",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 782,
+      "unified_id": "braun_karlheinz",
+      "family_name": "Braun",
+      "given_names": "Karlheinz",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 783,
+      "unified_id": "braun_otto",
+      "family_name": "Braun",
+      "given_names": "Otto",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 785,
+      "unified_id": "braun_theodor",
+      "family_name": "Braun",
+      "given_names": "Theodor",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 786,
+      "unified_id": "braun_volker",
+      "family_name": "Braun",
+      "given_names": "Volker",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 954,
+      "unified_id": "butler_judith",
+      "family_name": "Butler",
+      "given_names": "Judith",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 855,
+      "unified_id": "brugger",
+      "family_name": "Brugger",
+      "given_names": "Ingried",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 856,
+      "unified_id": "brugger_eveline",
+      "family_name": "Brugger",
+      "given_names": "Eveline",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 857,
+      "unified_id": "brugger_walter",
+      "family_name": "Brugger",
+      "given_names": "Walter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 685,
+      "unified_id": "boll_heinrich",
+      "family_name": "Böll",
+      "given_names": "Heinrich",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 686,
+      "unified_id": "boll_viktor",
+      "family_name": "Böll",
+      "given_names": "Viktor",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 795,
+      "unified_id": "brecht_bertolt",
+      "family_name": "Brecht",
+      "given_names": "Bertolt",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 938,
+      "unified_id": "burton_robert",
+      "family_name": "Burton",
+      "given_names": "Robert",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7168,
+      "unified_id": "van_breuningen_helga",
+      "family_name": "Breuningen",
+      "given_names": "Helga",
+      "name_particles": "van",
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

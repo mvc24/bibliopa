@@ -1,0 +1,546 @@
+[
+  {
+    "display_norm": "janssen, horst",
+    "composite_id": [
+      "kunstbuecher_729_30_38",
+      "kunstbuecher_246_10_38",
+      "kunstbuecher_247_10_38"
+    ],
+    "family_name": "Janssen",
+    "given_names": "Horst",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "janssen_horst",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "janz, curt paul",
+    "composite_id": [
+      "biographie_449_18_27"
+    ],
+    "family_name": "Janz",
+    "given_names": "Curt Paul",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "janz_curt_p",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "janzer, wolfram",
+    "composite_id": [
+      "kunstbuecher_49_2_38"
+    ],
+    "family_name": "Janzer",
+    "given_names": "Wolfram",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "janzer_wolfram",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jappe, hajo",
+    "composite_id": [
+      "de-lit-monographien_49_2_10"
+    ],
+    "family_name": "Jappe",
+    "given_names": "Hajo",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jappe_hajo",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jardin, andre",
+    "composite_id": [
+      "biographie_304_13_27"
+    ],
+    "family_name": "Jardin",
+    "given_names": "Andre",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jardin_andre",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jarka, horst",
+    "composite_id": [
+      "briefe_330_14_15"
+    ],
+    "family_name": "Jarka",
+    "given_names": "Horst",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jarka_horst",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jedlicka, ludwig f.",
+    "composite_id": [
+      "oesterreich_245_10_13"
+    ],
+    "family_name": "Jedlicka",
+    "given_names": "Ludwig F.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jedlicka_ludwig_f",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jelinek",
+    "composite_id": [
+      "erstausgaben_1007_41_78"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Jelinek",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jelinek",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jenaczek, friedrich",
+    "composite_id": [
+      "briefe_358_15_15",
+      "suchliste_57_3_3"
+    ],
+    "family_name": "Jenaczek",
+    "given_names": "Friedrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jenaczek_friedrich",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jennings, h.",
+    "composite_id": [
+      "okkultismus_54_3_8"
+    ],
+    "family_name": "Jennings",
+    "given_names": "H.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jennings_h",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jesina, josef p.",
+    "composite_id": [
+      "literatur_20_1_12"
+    ],
+    "family_name": "Jesina",
+    "given_names": "Josef P.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jesina_josef_p",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jilek",
+    "composite_id": [
+      "suchliste_35_2_3",
+      "oesterreich_242_10_13"
+    ],
+    "family_name": "Jilek",
+    "given_names": "Sonja",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jilek_sonja",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "john, michael",
+    "composite_id": [
+      "wien_106_5_10"
+    ],
+    "family_name": "John",
+    "given_names": "Michael",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "john_michael",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "johnston, william m.",
+    "composite_id": [
+      "oesterreich_77_4_13"
+    ],
+    "family_name": "Johnston",
+    "given_names": "William M.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "johnston_william_m",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jordan, j.p.",
+    "composite_id": [
+      "christentum_39_2_6"
+    ],
+    "family_name": "Jordan",
+    "given_names": "J.P.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jordan_j_p",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "julian",
+    "composite_id": [
+      "antike_78_4_9"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Julian",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "julian",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jung, peter",
+    "composite_id": [
+      "oesterreich_42_2_13"
+    ],
+    "family_name": "Jung",
+    "given_names": "Peter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jung_peter",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "juraschitz, norbert",
+    "composite_id": [
+      "russland_229_10_17"
+    ],
+    "family_name": "Juraschitz",
+    "given_names": "Norbert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "juraschitz_norbert",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "juvenal",
+    "composite_id": [
+      "antike_175_8_9"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Juvenal",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "juvenal",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jäger, gottfried",
+    "composite_id": [
+      "kunstbuecher_9_1_38"
+    ],
+    "family_name": "Jäger",
+    "given_names": "Gottfried",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jager_gottfried",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jürss, fritz",
+    "composite_id": [
+      "antike_58_3_9"
+    ],
+    "family_name": "Jürss",
+    "given_names": "Fritz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jurss_fritz",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "jütte, robert",
+    "composite_id": [
+      "judentum_58_3_9"
+    ],
+    "family_name": "Jütte",
+    "given_names": "Robert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "jutte_robert",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "kada, klaus",
+    "composite_id": [
+      "kunstbuecher_495_20_38"
+    ],
+    "family_name": "Kada",
+    "given_names": "Klaus",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kada_klaus",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "kaesler, dirk",
+    "composite_id": [
+      "biographie_32_2_27"
+    ],
+    "family_name": "Kaesler",
+    "given_names": "Dirk",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kaesler_dirk",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "kahler, n.",
+    "composite_id": [
+      "wien_94_4_10"
+    ],
+    "family_name": "Kahler",
+    "given_names": "N.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kahler_n",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "kaiser, maria",
+    "composite_id": [
+      "russland_314_13_17"
+    ],
+    "family_name": "Kaiser",
+    "given_names": "Maria",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kaiser_maria",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "kaiser, reihard",
+    "composite_id": [
+      "fremdsprachige_302_13_38"
+    ],
+    "family_name": "Kaiser",
+    "given_names": "Reihard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kaiser_reihard",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "kalkreuth, christine von",
+    "composite_id": [
+      "bibliophile_152_7_10"
+    ],
+    "family_name": "Kalkreuth",
+    "given_names": "Christine",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "kalkreuth_christine",
+    "matched_person_id": 3312,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "kalkschmidt, eugen",
+    "composite_id": [
+      "kunstbuecher_248_10_38"
+    ],
+    "family_name": "Kalkschmidt",
+    "given_names": "Eugen",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kalkschmidt_eugen",
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "kampffmeyer, bernh.",
+    "composite_id": [
+      "signierte_112_5_10"
+    ],
+    "family_name": "Kampffmeyer",
+    "given_names": "Bernh.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kampffmeyer_bernh",
+    "_source_custom_id": "batch_nopes_017"
+  }
+]

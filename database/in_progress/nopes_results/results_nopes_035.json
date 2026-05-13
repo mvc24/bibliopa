@@ -1,0 +1,543 @@
+[
+  {
+    "display_norm": "spengler, oswald",
+    "composite_id": [
+      "neuzeit_44_2_4"
+    ],
+    "family_name": "Spengler",
+    "given_names": "Oswald",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "spengler_oswald",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "spiegelberg, frederic",
+    "composite_id": [
+      "buddhismus_60_3_3"
+    ],
+    "family_name": "Spiegelberg",
+    "given_names": "Frederic",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "spiegelberg_frederic",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "spuler, bertold",
+    "composite_id": [
+      "islam_28_2_3"
+    ],
+    "family_name": "Spuler",
+    "given_names": "Bertold",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "spuler_bertold",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "staatliche akademie für graphische künste und buchgewerbe zu leipzig",
+    "composite_id": [
+      "buch_6_1_8"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Staatliche Akademie für graphische Künste und Buchgewerbe zu Leipzig",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "staatliche_akademie_fur_graphische_kunste_und_buchgewerbe_zu_leipzig",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stade, bernhard",
+    "composite_id": [
+      "judentum_214_9_9"
+    ],
+    "family_name": "Stade",
+    "given_names": "Bernhard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stade_bernhard",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stadelmann, rainer",
+    "composite_id": [
+      "aegypten_36_2_3"
+    ],
+    "family_name": "Stadelmann",
+    "given_names": "Rainer",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stadelmann_rainer",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stadt mödling",
+    "composite_id": [
+      "erstausgaben_1458_59_78"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Stadt Mödling",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stadt_modling",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stahower, daniel",
+    "composite_id": [
+      "briefe_129_6_15"
+    ],
+    "family_name": "Stahower",
+    "given_names": "Daniel",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stahower_daniel",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stammler, notker der",
+    "composite_id": [
+      "de-lit-monographien_183_8_10"
+    ],
+    "family_name": "Stammler",
+    "given_names": "Notker der",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stammler_notker_d",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stanley",
+    "composite_id": [
+      "suchliste_48_2_3",
+      "reisen_283_12_13"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Stanley",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stanley",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "starck, seb. gottfr.",
+    "composite_id": [
+      "philosophie_216_9_24"
+    ],
+    "family_name": "Starck",
+    "given_names": "Seb. Gottfr.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "starck_seb_g",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stark, johann",
+    "composite_id": [
+      "bibliophile_43_2_10"
+    ],
+    "family_name": "Stark",
+    "given_names": "Johann",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stark_johann",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stassinopoulos huffington, arianna",
+    "composite_id": [
+      "biographie_472_19_27"
+    ],
+    "family_name": "Stassinopoulos Huffington",
+    "given_names": "Arianna",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stassinopoulos_huffington_arianna",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stehr, hermann",
+    "composite_id": [
+      "deutschland_9_1_4"
+    ],
+    "family_name": "Stehr",
+    "given_names": "Hermann",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stehr_hermann",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stein, günther",
+    "composite_id": [
+      "russland_186_8_17"
+    ],
+    "family_name": "Stein",
+    "given_names": "Günther",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stein_gunther",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "steinhauser, mary",
+    "composite_id": [
+      "deutschland_39_2_4"
+    ],
+    "family_name": "Steinhauser",
+    "given_names": "Mary",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "steinhauser_mary",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "steinig, günther",
+    "composite_id": [
+      "russland_103_5_17"
+    ],
+    "family_name": "Steinig",
+    "given_names": "Günther",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "steinig_gunther",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stelzl, ulrike",
+    "composite_id": [
+      "kunstbuecher_499_20_38"
+    ],
+    "family_name": "Stelzl",
+    "given_names": "Ulrike",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stelzl_ulrike",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stendhal, friedrich",
+    "composite_id": [
+      "fremdsprachige_857_35_38"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Stendhal",
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "stendhal",
+    "matched_person_id": 6717,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stengel, theo",
+    "composite_id": [
+      "judentum_163_7_9"
+    ],
+    "family_name": "Stengel",
+    "given_names": "Theo",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stengel_theo",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stepan, eduard",
+    "composite_id": [
+      "oesterreich_146_6_13"
+    ],
+    "family_name": "Stepan",
+    "given_names": "Eduard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stepan_eduard",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stepanowa, warwara f.",
+    "composite_id": [
+      "russland_265_11_17"
+    ],
+    "family_name": "Stepanowa",
+    "given_names": "Warwara F.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stepanowa_warwara_f",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stephan, rudolph",
+    "composite_id": [
+      "musik_118_5_11"
+    ],
+    "family_name": "Stephan",
+    "given_names": "Rudolph",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stephan_rudolph",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "sternberger, dolf",
+    "composite_id": [
+      "briefe_78_4_15"
+    ],
+    "family_name": "Sternberger",
+    "given_names": "Dolf",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "sternberger_dolf",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stifer, adalbert",
+    "composite_id": [
+      "de-lit-texte_411_17_20"
+    ],
+    "family_name": "Stifer",
+    "given_names": "Adalbert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stifer_adalbert",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stoker, bram",
+    "composite_id": [
+      "fremdsprachige_866_35_38"
+    ],
+    "family_name": "Stoker",
+    "given_names": "Bram",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stoker_bram",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stokkeby, nonna nielsen",
+    "composite_id": [
+      "russland_33_2_17"
+    ],
+    "family_name": "Stokkeby",
+    "given_names": "Nonna Nielsen",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stokkeby_nonna_n",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stoll, andre",
+    "composite_id": [
+      "reisen_151_7_13"
+    ],
+    "family_name": "Stoll",
+    "given_names": "Andre",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stoll_andre",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "stolz, anna",
+    "composite_id": [
+      "kunstbuecher_30_2_38"
+    ],
+    "family_name": "Stolz",
+    "given_names": "Anna",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stolz_anna",
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "strassburg, gottfried von",
+    "composite_id": [
+      "de-lit-texte_176_8_20"
+    ],
+    "family_name": "Strassburg",
+    "given_names": "Gottfried",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "strassburg_gottfried",
+    "_source_custom_id": "batch_nopes_035"
+  }
+]

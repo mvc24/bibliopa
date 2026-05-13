@@ -1,0 +1,471 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "danz, d.j.t.l.",
+      "composite_id": [
+        "antike_44_2_9"
+      ],
+      "family_name": "DANZ",
+      "given_names": "D. J. T. L.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "danz",
+      "first_norm": "d.j.t.l.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "daschkowa, fürstin",
+      "composite_id": [
+        "russland_83_4_17"
+      ],
+      "family_name": "DASCHKOWA",
+      "given_names": "Fürstin",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "daschkowa",
+      "first_norm": "fürstin",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "daub, sigrid",
+      "composite_id": [
+        "biographie_105_5_27"
+      ],
+      "family_name": "Daub",
+      "given_names": "Sigrid",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "daub",
+      "first_norm": "sigrid",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "davidov, dinko",
+      "composite_id": [
+        "sonstiges_51_3_4"
+      ],
+      "family_name": "DAVIDOV",
+      "given_names": "Dinko",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "davidov",
+      "first_norm": "dinko",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "davies, martin",
+      "composite_id": [
+        "buch_52_3_8"
+      ],
+      "family_name": "DAVIES",
+      "given_names": "Martin",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "davies",
+      "first_norm": "martin",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "de bruyn, günther",
+      "composite_id": [
+        "biographie_307_13_27"
+      ],
+      "family_name": "de Bruyn",
+      "given_names": "Günther",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "de bruyn",
+      "first_norm": "günther",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "de keyser, eugenie",
+      "composite_id": [
+        "kunstbuecher_297_12_38"
+      ],
+      "family_name": "de Keyser",
+      "given_names": "Eugenie",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "de keyser",
+      "first_norm": "eugenie",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "de rougemont, denis",
+      "composite_id": [
+        "biographie_165_7_27"
+      ],
+      "family_name": "de Rougemont",
+      "given_names": "Denis",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "de rougemont",
+      "first_norm": "denis",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "decker, gunnar",
+      "composite_id": [
+        "biographie_281_12_27"
+      ],
+      "family_name": "Decker",
+      "given_names": "Gunnar",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "decker",
+      "first_norm": "gunnar",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dedenbach-salazar-saenz, sabine",
+      "composite_id": [
+        "bibliophile_35_2_10"
+      ],
+      "family_name": "Dedenbach-Salazar-Saenz",
+      "given_names": "Sabine",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dedenbach-salazar-saenz",
+      "first_norm": "sabine",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "defregger, hans peter",
+      "composite_id": [
+        "kunstbuecher_82_4_38"
+      ],
+      "family_name": "DEFREGGER",
+      "given_names": "Hans Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "defregger",
+      "first_norm": "hans peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dehio",
+      "composite_id": [
+        "oesterreich_189_8_13"
+      ],
+      "family_name": "Dehio",
+      "given_names": "georg",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dehio",
+      "first_norm": "Georg",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "deissinger, hans",
+      "composite_id": [
+        "signierte_36_2_10"
+      ],
+      "family_name": "DEISSINGER",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "deissinger",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "delevoy, robert l.",
+      "composite_id": [
+        "kunstbuecher_297_12_38"
+      ],
+      "family_name": "Delevoy",
+      "given_names": "Robert L.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "delevoy",
+      "first_norm": "robert l.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "delitzsch, friedrich",
+      "composite_id": [
+        "aegypten_15_1_3"
+      ],
+      "family_name": "DELITZSCH",
+      "given_names": "Friedrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "delitzsch",
+      "first_norm": "friedrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "delius, nicolaus",
+      "composite_id": [
+        "briefe_329_14_15"
+      ],
+      "family_name": "DELIUS",
+      "given_names": "Nicolaus",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "delius",
+      "first_norm": "nicolaus",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "delumeau, jean",
+      "composite_id": [
+        "fremdsprachige_323_13_38"
+      ],
+      "family_name": "Delumeau",
+      "given_names": "Jean",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "delumeau",
+      "first_norm": "jean",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "demus, jakob",
+      "composite_id": [
+        "autographen_6_1_2"
+      ],
+      "family_name": "DEMUS",
+      "given_names": "Jakob",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "demus",
+      "first_norm": "jakob",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "denninger, edgar",
+      "composite_id": [
+        "kunstbuecher_860_35_38"
+      ],
+      "family_name": "Denninger",
+      "given_names": "Edgar",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "denninger",
+      "first_norm": "edgar",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "deren, maya",
+      "composite_id": [
+        "mythologie_11_1_3"
+      ],
+      "family_name": "DEREN",
+      "given_names": "Maya",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "deren",
+      "first_norm": "maya",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dermutz, klaus",
+      "composite_id": [
+        "musik_173_7_11"
+      ],
+      "family_name": "DERMUTZ",
+      "given_names": "Klaus",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dermutz",
+      "first_norm": "klaus",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "desch, kurt",
+      "composite_id": [
+        "buch_107_5_8"
+      ],
+      "family_name": "DESCH",
+      "given_names": "KURT",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "desch",
+      "first_norm": "kurt",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "detken, h.",
+      "composite_id": [
+        "reisen_125_6_13"
+      ],
+      "family_name": "DETKEN",
+      "given_names": "H.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "detken",
+      "first_norm": "h.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "deutscher buchgewerbeverein",
+      "composite_id": [
+        "buch_6_1_8"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Deutscher Buchgewerbeverein",
+      "last_norm": "deutscher buchgewerbeverein",
+      "first_norm": "",
+      "single_norm": "deutscher buchgewerbeverein",
+      "is_organisation": true
+    },
+    {
+      "display_norm": "deutschmeisterbund",
+      "composite_id": [
+        "oesterreich_65_3_13"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Deutschmeisterbund",
+      "last_norm": "deutschmeisterbund",
+      "first_norm": "",
+      "single_norm": "deutschmeisterbund",
+      "is_organisation": true
+    },
+    {
+      "display_norm": "die deutsche bibliothek, leipzig, frankfurt am main und berlin und die stiftung buchkunst frankfurt am main und leipzig",
+      "composite_id": [
+        "buch_175_8_8"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Die Deutsche Bibliothek, Leipzig, Frankfurt am Main und Berlin und die Stiftung Buchkunst Frankfurt am Main und Leipzig",
+      "last_norm": "die deutsche bibliothek, leipzig, frankfurt am main und berlin und die stiftung buchkunst frankfurt am main und leipzig",
+      "first_norm": "",
+      "single_norm": "die deutsche bibliothek, leipzig, frankfurt am main und berlin und die stiftung buchkunst frankfurt am main und leipzig",
+      "is_organisation": true
+    },
+    {
+      "display_norm": "diebener, wilhelm",
+      "composite_id": [
+        "sonstiges_6_1_4"
+      ],
+      "family_name": "DIEBENER",
+      "given_names": "Wilhelm",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "diebener",
+      "first_norm": "wilhelm",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dieckmann, friedrich",
+      "composite_id": [
+        "biographie_543_22_27"
+      ],
+      "family_name": "Dieckmann",
+      "given_names": "Friedrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dieckmann",
+      "first_norm": "friedrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "dietrichs, hermann",
+      "composite_id": [
+        "bibliophile_15_1_10"
+      ],
+      "family_name": "Dietrichs",
+      "given_names": "Hermann",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "dietrichs",
+      "first_norm": "hermann",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "diller, hans",
+      "composite_id": [
+        "antike_65_3_9"
+      ],
+      "family_name": "Diller",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "diller",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 1254,
+      "unified_id": "daschkowa_polina",
+      "family_name": "Daschkowa",
+      "given_names": "Polina",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1263,
+      "unified_id": "davies_norman",
+      "family_name": "Davies",
+      "given_names": "Norman",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1264,
+      "unified_id": "davies_philip_r",
+      "family_name": "Davies",
+      "given_names": "Philip R.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1312,
+      "unified_id": "delius_f_c",
+      "family_name": "Delius",
+      "given_names": "F.C.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1324,
+      "unified_id": "demus_klaus",
+      "family_name": "Demus",
+      "given_names": "Klaus",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

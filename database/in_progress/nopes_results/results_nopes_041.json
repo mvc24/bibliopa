@@ -1,0 +1,470 @@
+[
+  {
+    "display_norm": "wutzdorf, fritz",
+    "composite_id": [
+      "kunstbuecher_927_38_38"
+    ],
+    "family_name": "Wutzdorf",
+    "given_names": "Fritz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "wutzdorf_fritz",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "wächter, ludwig",
+    "composite_id": [
+      "judentum_169_7_9"
+    ],
+    "family_name": "Wächter",
+    "given_names": "Ludwig",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "wachter_ludwig",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zacherl, elisabeth",
+    "composite_id": [
+      "maerchen_48_2_3"
+    ],
+    "family_name": "Zacherl",
+    "given_names": "Elisabeth",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zacherl_elisabeth",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zborowski, mark",
+    "composite_id": [
+      "judentum_186_8_9"
+    ],
+    "family_name": "Zborowski",
+    "given_names": "Mark",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zborowski_mark",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zechner, ingo",
+    "composite_id": [
+      "wien_51_3_10"
+    ],
+    "family_name": "Zechner",
+    "given_names": "Ingo",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zechner_ingo",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zeilinger, elisabeth",
+    "composite_id": [
+      "oesterreich_33_2_13"
+    ],
+    "family_name": "Zeilinger",
+    "given_names": "Elisabeth",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zeilinger_elisabeth",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zentralbüro der zionistischen organisation",
+    "composite_id": [
+      "judentum_59_3_9"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Zentralbüro der Zionistischen Organisation",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zentralburo_der_zionistischen_organisation",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zernatto, guido",
+    "composite_id": [
+      "de-lit-monographien_234_10_10"
+    ],
+    "family_name": "Zernatto",
+    "given_names": "Guido",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zernatto_guido",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zeylmans van emmichoven, f.w.",
+    "composite_id": [
+      "biographie_62_3_27"
+    ],
+    "family_name": "Zeylmans van Emmichoven",
+    "given_names": "F.W.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "zeylmans_van_emmichoven_f_w",
+    "matched_person_id": 7760,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "ziehlke, friedrich",
+    "composite_id": [
+      "buddhismus_15_1_3"
+    ],
+    "family_name": "Ziehlke",
+    "given_names": "Friedrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "ziehlke_friedrich",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "ziehrer, carl michael",
+    "composite_id": [
+      "autographen_34_2_2"
+    ],
+    "family_name": "Ziehrer",
+    "given_names": "Carl Michael",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "ziehrer_carl_m",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "ziehrer, marianne",
+    "composite_id": [
+      "autographen_34_2_2"
+    ],
+    "family_name": "Ziehrer",
+    "given_names": "Marianne",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "ziehrer_marianne",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zillner, franz valentin",
+    "composite_id": [
+      "oesterreich_176_8_13"
+    ],
+    "family_name": "Zillner",
+    "given_names": "Franz Valentin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zillner_franz_v",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zima, peter v.",
+    "composite_id": [
+      "literatur_273_11_12"
+    ],
+    "family_name": "Zima",
+    "given_names": "Peter V.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zima_peter_v",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zimmermann, w.f.a.",
+    "composite_id": [
+      "reisen_310_13_13"
+    ],
+    "family_name": "Zimmermann",
+    "given_names": "W.F.A.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zimmermann_w_f_a",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zimmermann, werner g.",
+    "composite_id": [
+      "buch_117_5_8"
+    ],
+    "family_name": "Zimmermann",
+    "given_names": "Werner G.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zimmermann_werner_g",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zimmermann, w. f. a.",
+    "composite_id": [
+      "briefe_138_6_15"
+    ],
+    "family_name": "Zimmermann",
+    "given_names": "W.F.A.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zimmermann_w_f_a",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zobel, victor",
+    "composite_id": [
+      "insel_230_10_27"
+    ],
+    "family_name": "Zobel",
+    "given_names": "Victor",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zobel_victor",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zobl, zellwecker",
+    "composite_id": [
+      "erstausgaben_997_40_78"
+    ],
+    "family_name": "Zobl",
+    "given_names": "Zellwecker",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zobl_zellwecker",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zoll, irmgard",
+    "composite_id": [
+      "insel_229_10_27"
+    ],
+    "family_name": "Zoll",
+    "given_names": "Irmgard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zoll_irmgard",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zollinger, albin",
+    "composite_id": [
+      "illustrierte_33_2_14"
+    ],
+    "family_name": "Zollinger",
+    "given_names": "Albin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zollinger_albin",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zorn, rudolf",
+    "composite_id": [
+      "renaissance_70_3_4"
+    ],
+    "family_name": "Zorn",
+    "given_names": "Rudolf",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zorn_rudolf",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zupan, gojko",
+    "composite_id": [
+      "reisen_8_1_13"
+    ],
+    "family_name": "Zupan",
+    "given_names": "Gojko",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zupan_gojko",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "zykan, josef",
+    "composite_id": [
+      "kunstbuecher_101_5_38"
+    ],
+    "family_name": "Zykan",
+    "given_names": "Josef",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "zykan_josef",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "äbtekonferenz, salzburger",
+    "composite_id": [
+      "fruehes_85_4_4"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Salzburger Äbtekonferenz",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "salzburger_abtekonferenz",
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "österreich, art club. internationaler unabhängiger künstlerverband",
+    "composite_id": [
+      "wien_4_1_10"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "ART CLUB. Internationaler unabhängiger Künstlerverband Österreich",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "art_club_internationaler_unabhangiger_kunstlerverband_osterreich",
+    "_source_custom_id": "batch_nopes_041"
+  }
+]

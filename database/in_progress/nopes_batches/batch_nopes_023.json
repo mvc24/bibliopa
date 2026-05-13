@@ -1,0 +1,581 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "marias, julian",
+      "composite_id": [
+        "fremdsprachige_692_28_38"
+      ],
+      "family_name": "Marias",
+      "given_names": "Julian",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "marias",
+      "first_norm": "julian",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "marino, giambattista",
+      "composite_id": [
+        "kunstbuecher_338_14_38"
+      ],
+      "family_name": "MARINO",
+      "given_names": "Giambattista",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "marino",
+      "first_norm": "giambattista",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "marktgemeinde goisern",
+      "composite_id": [
+        "oesterreich_58_3_13"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Marktgemeinde Goisern",
+      "last_norm": "marktgemeinde goisern",
+      "first_norm": "",
+      "single_norm": "marktgemeinde goisern",
+      "is_organisation": true
+    },
+    {
+      "display_norm": "marsais, du",
+      "composite_id": [
+        "philosophie_478_20_24"
+      ],
+      "family_name": "Marsais",
+      "given_names": "Du",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "marsais",
+      "first_norm": "du",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "martin, walser",
+      "composite_id": [
+        "erstausgaben_1809_73_78"
+      ],
+      "family_name": "Martin",
+      "given_names": "WALSER",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "martin",
+      "first_norm": "walser",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "martins, pina",
+      "composite_id": [
+        "renaissance_22_1_4"
+      ],
+      "family_name": "Martins",
+      "given_names": "Pina",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "martins",
+      "first_norm": "pina",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mary, geo t.",
+      "composite_id": [
+        "reisen_218_9_13"
+      ],
+      "family_name": "MARY",
+      "given_names": "Geo T.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mary",
+      "first_norm": "geo t.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mattl, siegfried",
+      "composite_id": [
+        "oesterreich_79_4_13"
+      ],
+      "family_name": "Mattl",
+      "given_names": "Siegfried",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mattl",
+      "first_norm": "siegfried",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "maucy, christoph d.",
+      "composite_id": [
+        "bibliophile_126_6_10"
+      ],
+      "family_name": "Maucy",
+      "given_names": "Christoph D.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "maucy",
+      "first_norm": "christoph d.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "may, ekkehard",
+      "composite_id": [
+        "insel_61_3_27"
+      ],
+      "family_name": "May",
+      "given_names": "Ekkehard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "may",
+      "first_norm": "ekkehard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mayer",
+      "composite_id": [
+        "musik_71_3_11"
+      ],
+      "family_name": "Mayer",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayer",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mayer, susanne",
+      "composite_id": [
+        "reisen_212_9_13"
+      ],
+      "family_name": "Mayer",
+      "given_names": "Susanne",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayer",
+      "first_norm": "susanne",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "myer, hans",
+      "composite_id": [
+        "biographie_377_16_27"
+      ],
+      "family_name": "Mayer",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayer",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mayer, hans",
+      "composite_id": [
+        "erstausgaben_304_13_78",
+        "literatur_192_8_12",
+        "russland_186_8_17",
+        "literatur_201_9_12",
+        "literatur_181_8_12",
+        "literatur_191_8_12",
+        "de-lit-monographien_213_9_10",
+        "kunstbuecher_233_10_38",
+        "literatur_187_8_12",
+        "literatur_190_8_12",
+        "literatur_183_8_12",
+        "erstausgaben_1242_50_78",
+        "literatur_184_8_12",
+        "literatur_199_8_12",
+        "literatur_200_9_12",
+        "literatur_185_8_12",
+        "literatur_188_8_12",
+        "literatur_189_8_12",
+        "literatur_195_8_12",
+        "literatur_194_8_12",
+        "literatur_196_8_12",
+        "literatur_198_8_12",
+        "signierte_130_6_10",
+        "literatur_182_8_12",
+        "literatur_193_8_12",
+        "literatur_197_8_12",
+        "erstausgaben_976_40_78",
+        "de-lit-texte_85_4_20"
+      ],
+      "family_name": "Mayer",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayer",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mayer, ludwig joseph",
+      "composite_id": [
+        "oesterreich_98_4_13"
+      ],
+      "family_name": "MAYER",
+      "given_names": "Ludwig Joseph",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayer",
+      "first_norm": "ludwig joseph",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mayer, reinhold",
+      "composite_id": [
+        "judentum_8_1_9"
+      ],
+      "family_name": "Mayer",
+      "given_names": "Reinhold",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayer",
+      "first_norm": "reinhold",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mayer, verena",
+      "composite_id": [
+        "de-lit-monographien_123_5_10",
+        "de-lit-monographien_124_5_10"
+      ],
+      "family_name": "Mayer",
+      "given_names": "Verena",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayer",
+      "first_norm": "verena",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mayer, vera",
+      "composite_id": [
+        "kunstbuecher_344_14_38"
+      ],
+      "family_name": "MAYER",
+      "given_names": "Vera",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayer",
+      "first_norm": "vera",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mayer, franz",
+      "composite_id": [
+        "kunstbuecher_344_14_38"
+      ],
+      "family_name": "Mayer",
+      "given_names": "Franz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayer",
+      "first_norm": "franz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mayer, kurt",
+      "composite_id": [
+        "kunstbuecher_411_17_38"
+      ],
+      "family_name": "Mayer",
+      "given_names": "Kurt",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayer",
+      "first_norm": "kurt",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mayer, franz martin mayer",
+      "composite_id": [
+        "oesterreich_230_10_13"
+      ],
+      "family_name": "MAYER",
+      "given_names": "Franz Martin Mayer",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayer",
+      "first_norm": "franz martin mayer",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mayer-beck, fritz",
+      "composite_id": [
+        "kunstbuecher_806_33_38",
+        "illustrierte_161_7_14"
+      ],
+      "family_name": "MAYER-BECK",
+      "given_names": "Fritz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayer-beck",
+      "first_norm": "fritz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mayer-marton, georg",
+      "composite_id": [
+        "erstausgaben_771_31_78"
+      ],
+      "family_name": "Mayer-Marton",
+      "given_names": "Georg",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayer-marton",
+      "first_norm": "georg",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mayr, ernst",
+      "composite_id": [
+        "biographie_155_7_27"
+      ],
+      "family_name": "Mayr",
+      "given_names": "Ernst",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mayr",
+      "first_norm": "ernst",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mc luhan, marshall",
+      "composite_id": [
+        "buch_124_5_8"
+      ],
+      "family_name": "MC LUHAN",
+      "given_names": "Marshall",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mc luhan",
+      "first_norm": "marshall",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mcintyre, joan",
+      "composite_id": [
+        "sonstiges_14_1_4"
+      ],
+      "family_name": "McIntyre",
+      "given_names": "Joan",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mcintyre",
+      "first_norm": "joan",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mecklenburg, herzog zu",
+      "composite_id": [
+        "suchliste_19_1_3"
+      ],
+      "family_name": "MECKLENBURG",
+      "given_names": "HERZOG ZU",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mecklenburg",
+      "first_norm": "herzog zu",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "meehan, bernard",
+      "composite_id": [
+        "buch_12_1_8"
+      ],
+      "family_name": "MEEHAN",
+      "given_names": "Bernard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "meehan",
+      "first_norm": "bernard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "meier, harri",
+      "composite_id": [
+        "maerchen_45_2_3"
+      ],
+      "family_name": "Meier",
+      "given_names": "Harri",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "meier",
+      "first_norm": "harri",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "meiller, andreas von",
+      "composite_id": [
+        "oesterreich_231_10_13"
+      ],
+      "family_name": "MEILLER",
+      "given_names": "Andreas von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "meiller",
+      "first_norm": "andreas von",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 4434,
+      "unified_id": "martin_christian_l",
+      "family_name": "Martin",
+      "given_names": "Christian Ludwig",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4435,
+      "unified_id": "martin_christoph",
+      "family_name": "Martin",
+      "given_names": "Christoph",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4436,
+      "unified_id": "martin_dieter",
+      "family_name": "Martin",
+      "given_names": "Dieter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4438,
+      "unified_id": "martin_gunther",
+      "family_name": "Martin",
+      "given_names": "Gunther",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4439,
+      "unified_id": "martin_michael",
+      "family_name": "Martin",
+      "given_names": "Michael",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4411,
+      "unified_id": "marias_javier",
+      "family_name": "Marias",
+      "given_names": "Javier",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4509,
+      "unified_id": "mayr_max",
+      "family_name": "Mayr",
+      "given_names": "Max",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4541,
+      "unified_id": "meier_albert",
+      "family_name": "Meier",
+      "given_names": "Albert",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4542,
+      "unified_id": "meier_christian",
+      "family_name": "Meier",
+      "given_names": "Christian",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4543,
+      "unified_id": "meier_gerhard",
+      "family_name": "Meier",
+      "given_names": "Gerhard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4545,
+      "unified_id": "meier_hugo",
+      "family_name": "Meier",
+      "given_names": "Hugo",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4547,
+      "unified_id": "meier_mischa",
+      "family_name": "Meier",
+      "given_names": "Mischa",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4548,
+      "unified_id": "meier_pirmin",
+      "family_name": "Meier",
+      "given_names": "Pirmin",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4550,
+      "unified_id": "meier_walther",
+      "family_name": "Meier",
+      "given_names": "Walther",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "janssen, horst",
+      "composite_id": [
+        "kunstbuecher_729_30_38",
+        "kunstbuecher_246_10_38",
+        "kunstbuecher_247_10_38"
+      ],
+      "family_name": "JANSSEN",
+      "given_names": "Horst",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "janssen",
+      "first_norm": "horst",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "janz, curt paul",
+      "composite_id": [
+        "biographie_449_18_27"
+      ],
+      "family_name": "Janz",
+      "given_names": "Curt Paul",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "janz",
+      "first_norm": "curt paul",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "janzer, wolfram",
+      "composite_id": [
+        "kunstbuecher_49_2_38"
+      ],
+      "family_name": "Janzer",
+      "given_names": "Wolfram",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "janzer",
+      "first_norm": "wolfram",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jappe, hajo",
+      "composite_id": [
+        "de-lit-monographien_49_2_10"
+      ],
+      "family_name": "Jappe",
+      "given_names": "Hajo",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jappe",
+      "first_norm": "hajo",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jardin, andre",
+      "composite_id": [
+        "biographie_304_13_27"
+      ],
+      "family_name": "JARDIN",
+      "given_names": "Andre",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jardin",
+      "first_norm": "andre",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jarka, horst",
+      "composite_id": [
+        "briefe_330_14_15"
+      ],
+      "family_name": "Jarka",
+      "given_names": "Horst",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jarka",
+      "first_norm": "horst",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jedlicka, ludwig f.",
+      "composite_id": [
+        "oesterreich_245_10_13"
+      ],
+      "family_name": "Jedlicka",
+      "given_names": "Ludwig F.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jedlicka",
+      "first_norm": "ludwig f.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jelinek",
+      "composite_id": [
+        "erstausgaben_1007_41_78"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "JELINEK",
+      "last_norm": "jelinek",
+      "first_norm": "",
+      "single_norm": "jelinek",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jenaczek, friedrich",
+      "composite_id": [
+        "briefe_358_15_15",
+        "suchliste_57_3_3"
+      ],
+      "family_name": "Jenaczek",
+      "given_names": "Friedrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jenaczek",
+      "first_norm": "friedrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jennings, h.",
+      "composite_id": [
+        "okkultismus_54_3_8"
+      ],
+      "family_name": "JENNINGS",
+      "given_names": "H.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jennings",
+      "first_norm": "h.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jesina, josef p.",
+      "composite_id": [
+        "literatur_20_1_12"
+      ],
+      "family_name": "JESINA",
+      "given_names": "Josef P.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jesina",
+      "first_norm": "josef p.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jilek",
+      "composite_id": [
+        "suchliste_35_2_3",
+        "oesterreich_242_10_13"
+      ],
+      "family_name": "Jilek",
+      "given_names": "Sonja",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jilek",
+      "first_norm": "sonja",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "john, michael",
+      "composite_id": [
+        "wien_106_5_10"
+      ],
+      "family_name": "John",
+      "given_names": "Michael",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "john",
+      "first_norm": "michael",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "johnston, william m.",
+      "composite_id": [
+        "oesterreich_77_4_13"
+      ],
+      "family_name": "JOHNSTON",
+      "given_names": "William M.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "johnston",
+      "first_norm": "william m.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jordan, j.p.",
+      "composite_id": [
+        "christentum_39_2_6"
+      ],
+      "family_name": "JORDAN",
+      "given_names": "J.P.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jordan",
+      "first_norm": "j.p.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "julian",
+      "composite_id": [
+        "antike_78_4_9"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "JULIAN",
+      "last_norm": "julian",
+      "first_norm": "",
+      "single_norm": "julian",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jung, peter",
+      "composite_id": [
+        "oesterreich_42_2_13"
+      ],
+      "family_name": "Jung",
+      "given_names": "Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jung",
+      "first_norm": "peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "juraschitz, norbert",
+      "composite_id": [
+        "russland_229_10_17"
+      ],
+      "family_name": "Juraschitz",
+      "given_names": "Norbert",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "juraschitz",
+      "first_norm": "norbert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "juvenal",
+      "composite_id": [
+        "antike_175_8_9"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Juvenal",
+      "last_norm": "juvenal",
+      "first_norm": "",
+      "single_norm": "juvenal",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jäger, gottfried",
+      "composite_id": [
+        "kunstbuecher_9_1_38"
+      ],
+      "family_name": "Jäger",
+      "given_names": "Gottfried",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jäger",
+      "first_norm": "gottfried",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jürss, fritz",
+      "composite_id": [
+        "antike_58_3_9"
+      ],
+      "family_name": "Jürss",
+      "given_names": "Fritz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jürss",
+      "first_norm": "fritz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jütte, robert",
+      "composite_id": [
+        "judentum_58_3_9"
+      ],
+      "family_name": "Jütte",
+      "given_names": "Robert",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jütte",
+      "first_norm": "robert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kada, klaus",
+      "composite_id": [
+        "kunstbuecher_495_20_38"
+      ],
+      "family_name": "Kada",
+      "given_names": "Klaus",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kada",
+      "first_norm": "klaus",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kaesler, dirk",
+      "composite_id": [
+        "biographie_32_2_27"
+      ],
+      "family_name": "KAESLER",
+      "given_names": "Dirk",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kaesler",
+      "first_norm": "dirk",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kahler, n.",
+      "composite_id": [
+        "wien_94_4_10"
+      ],
+      "family_name": "Kahler",
+      "given_names": "N.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kahler",
+      "first_norm": "n.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kaiser, maria",
+      "composite_id": [
+        "russland_314_13_17"
+      ],
+      "family_name": "Kaiser",
+      "given_names": "Maria",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kaiser",
+      "first_norm": "maria",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kaiser, reihard",
+      "composite_id": [
+        "fremdsprachige_302_13_38"
+      ],
+      "family_name": "Kaiser",
+      "given_names": "Reihard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kaiser",
+      "first_norm": "reihard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kalkreuth, christine von",
+      "composite_id": [
+        "bibliophile_152_7_10"
+      ],
+      "family_name": "Kalkreuth",
+      "given_names": "Christine von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kalkreuth",
+      "first_norm": "christine von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kalkschmidt, eugen",
+      "composite_id": [
+        "kunstbuecher_248_10_38"
+      ],
+      "family_name": "KALKSCHMIDT",
+      "given_names": "Eugen",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kalkschmidt",
+      "first_norm": "eugen",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kampffmeyer, bernh.",
+      "composite_id": [
+        "signierte_112_5_10"
+      ],
+      "family_name": "Kampffmeyer",
+      "given_names": "Bernh.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kampffmeyer",
+      "first_norm": "bernh.",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 3271,
+      "unified_id": "jung_c_g",
+      "family_name": "Jung",
+      "given_names": "C. G.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3272,
+      "unified_id": "jung_franz",
+      "family_name": "Jung",
+      "given_names": "Franz",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3273,
+      "unified_id": "jung_hermann",
+      "family_name": "Jung",
+      "given_names": "Hermann",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3274,
+      "unified_id": "jung_joachim",
+      "family_name": "Jung",
+      "given_names": "Joachim",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3275,
+      "unified_id": "jung_jochen",
+      "family_name": "Jung",
+      "given_names": "Jochen",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3312,
+      "unified_id": "kalkreuth_christine",
+      "family_name": "Kalkreuth",
+      "given_names": "Christine",
+      "name_particles": "von",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3313,
+      "unified_id": "kalkreuth_wolf",
+      "family_name": "Kalkreuth",
+      "given_names": "Wolf",
+      "name_particles": "Graf von",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3262,
+      "unified_id": "jordan_karl",
+      "family_name": "Jordan",
+      "given_names": "Karl",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3216,
+      "unified_id": "jelinek_elfriede",
+      "family_name": "Jelinek",
+      "given_names": "Elfriede",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3217,
+      "unified_id": "jelinek_heinrich",
+      "family_name": "Jelinek",
+      "given_names": "Heinrich",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3214,
+      "unified_id": "jedlicka_gotthard",
+      "family_name": "Jedlicka",
+      "given_names": "Gotthard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3246,
+      "unified_id": "johnston_basil",
+      "family_name": "Johnston",
+      "given_names": "Basil",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3284,
+      "unified_id": "jäger_jacques",
+      "family_name": "Jäger",
+      "given_names": "Jacques",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3305,
+      "unified_id": "kaiser_franz",
+      "family_name": "Kaiser",
+      "given_names": "Franz",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3306,
+      "unified_id": "kaiser_georg",
+      "family_name": "Kaiser",
+      "given_names": "Georg",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3307,
+      "unified_id": "kaiser_joachim",
+      "family_name": "Kaiser",
+      "given_names": "Joachim",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3308,
+      "unified_id": "kaiser_joseph_f",
+      "family_name": "Kaiser",
+      "given_names": "Joseph Franz",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3309,
+      "unified_id": "kaiser_konstantin",
+      "family_name": "Kaiser",
+      "given_names": "Konstantin",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+[
+  {
+    "display_norm": "kane, elisha kent",
+    "composite_id": [
+      "kinder_39_2_4"
+    ],
+    "family_name": "Kane",
+    "given_names": "Elisha Kent",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kane_elisha_k",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kaplan, robert",
+    "composite_id": [
+      "neuzeit_85_4_4"
+    ],
+    "family_name": "Kaplan",
+    "given_names": "Robert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kaplan_robert",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kaplan, ellen",
+    "composite_id": [
+      "neuzeit_85_4_4"
+    ],
+    "family_name": "Kaplan",
+    "given_names": "Ellen",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kaplan_ellen",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kapst, erich",
+    "composite_id": [
+      "musik_86_4_11"
+    ],
+    "family_name": "Kapst",
+    "given_names": "Erich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kapst_erich",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "karasek, horst",
+    "composite_id": [
+      "okkultismus_57_3_8"
+    ],
+    "family_name": "Karasek",
+    "given_names": "Horst",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "karasek_horst",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "karlinger, felix",
+    "composite_id": [
+      "maerchen_48_2_3",
+      "okkultismus_89_4_8"
+    ],
+    "family_name": "Karlinger",
+    "given_names": "Felix",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "karlinger_felix",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "karpfen, fritz",
+    "composite_id": [
+      "kunstbuecher_254_11_38"
+    ],
+    "family_name": "Karpfen",
+    "given_names": "Fritz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "karpfen_fritz",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kasolea, antigone",
+    "composite_id": [
+      "fremdsprachige_360_15_38"
+    ],
+    "family_name": "Kasolea",
+    "given_names": "Antigone",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kasolea_antigone",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kat angelino, p. de",
+    "composite_id": [
+      "buddhismus_16_1_3"
+    ],
+    "family_name": "Kat Angelino",
+    "given_names": "P.",
+    "name_prefix": null,
+    "name_particles": "de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kat_angelino_p",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "katzer, franz",
+    "composite_id": [
+      "kinder_86_4_4"
+    ],
+    "family_name": "Katzer",
+    "given_names": "Franz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "katzer_franz",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kaufmann",
+    "composite_id": [
+      "musik_206_9_11"
+    ],
+    "family_name": "Kaufmann",
+    "given_names": "Harald",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kaufmann_harald",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kehlmann, michael",
+    "composite_id": [
+      "biographie_45_2_27"
+    ],
+    "family_name": "Kehlmann",
+    "given_names": "Michael",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kehlmann_michael",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "keil, hermann",
+    "composite_id": [
+      "zeitgeschichte_30_2_4"
+    ],
+    "family_name": "Keil",
+    "given_names": "Hermann",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "keil_hermann",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "keim, franz",
+    "composite_id": [
+      "kinder_91_4_4"
+    ],
+    "family_name": "Keim",
+    "given_names": "Franz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "keim_franz",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "keller",
+    "composite_id": [
+      "biographie_98_4_27"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Keller",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "keller",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kempowski",
+    "composite_id": [
+      "suchliste_25_2_3"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Kempowski",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kempowski",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kennan, george",
+    "composite_id": [
+      "russland_175_8_17"
+    ],
+    "family_name": "Kennan",
+    "given_names": "George",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kennan_george",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kerenyi, magda",
+    "composite_id": [
+      "briefe_49_2_15",
+      "griechenland_79_4_10"
+    ],
+    "family_name": "Kerenyi",
+    "given_names": "Magda",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kerenyi_magda",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kessler, eckhard",
+    "composite_id": [
+      "philosophie_326_14_24"
+    ],
+    "family_name": "Kessler",
+    "given_names": "Eckhard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kessler_eckhard",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kesting, marianne",
+    "composite_id": [
+      "biographie_112_5_27"
+    ],
+    "family_name": "Kesting",
+    "given_names": "Marianne",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kesting_marianne",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "ketterer, julia",
+    "composite_id": [
+      "erstausgaben_238_10_78"
+    ],
+    "family_name": "Ketterer",
+    "given_names": "Julia",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "ketterer_julia",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "khan, inayat",
+    "composite_id": [
+      "islam_16_1_3"
+    ],
+    "family_name": "Khan",
+    "given_names": "Inayat",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "khan_inayat",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kiefer, anselm",
+    "composite_id": [
+      "kunstbuecher_260_11_38"
+    ],
+    "family_name": "Kiefer",
+    "given_names": "Anselm",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kiefer_anselm",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kiefer, klaus h.",
+    "composite_id": [
+      "de-lit-monographien_61_3_10"
+    ],
+    "family_name": "Kiefer",
+    "given_names": "Klaus H.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kiefer_klaus_h",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kienzler, klaus",
+    "composite_id": [
+      "religion_41_2_4"
+    ],
+    "family_name": "Kienzler",
+    "given_names": "Klaus",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kienzler_klaus",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kinder, hermann",
+    "composite_id": [
+      "aegypten_49_2_3"
+    ],
+    "family_name": "Kinder",
+    "given_names": "Hermann",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kinder_hermann",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kindermann, heinz",
+    "composite_id": [
+      "de-lit-monographien_95_4_10"
+    ],
+    "family_name": "Kindermann",
+    "given_names": "Heinz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kindermann_heinz",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kipphardt, heinar",
+    "composite_id": [
+      "erstausgaben_1064_43_78",
+      "erstausgaben_1065_43_78"
+    ],
+    "family_name": "Kipphardt",
+    "given_names": "Heinar",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kipphardt_heinar",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kirk, geoffrey stephen",
+    "composite_id": [
+      "mythologie_22_1_3"
+    ],
+    "family_name": "Kirk",
+    "given_names": "Geoffrey Stephen",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "kirk_geoffrey_s",
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "kirsch, rainer",
+    "composite_id": [
+      "russland_165_7_17"
+    ],
+    "family_name": "Kirsch",
+    "given_names": "Rainer",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "kirsch_rainer",
+    "matched_person_id": 5153,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_018"
+  }
+]

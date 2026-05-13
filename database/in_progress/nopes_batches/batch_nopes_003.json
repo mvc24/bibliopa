@@ -1,0 +1,543 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "beckwith, carol",
+      "composite_id": [
+        "reisen_91_4_13"
+      ],
+      "family_name": "BECKWITH",
+      "given_names": "Carol",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "beckwith",
+      "first_norm": "carol",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bednarik, karl",
+      "composite_id": [
+        "wien_166_7_10"
+      ],
+      "family_name": "Bednarik",
+      "given_names": "Karl",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bednarik",
+      "first_norm": "karl",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "beebe, william",
+      "composite_id": [
+        "reisen_92_4_13"
+      ],
+      "family_name": "BEEBE",
+      "given_names": "William",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "beebe",
+      "first_norm": "william",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "behncke, w.",
+      "composite_id": [
+        "kunstbuecher_241_10_38"
+      ],
+      "family_name": "Behncke",
+      "given_names": "W.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "behncke",
+      "first_norm": "w.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bei, neda",
+      "composite_id": [
+        "de-lit-monographien_215_9_10"
+      ],
+      "family_name": "Bei",
+      "given_names": "Neda",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bei",
+      "first_norm": "neda",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bein, alex",
+      "composite_id": [
+        "judentum_11_1_9"
+      ],
+      "family_name": "BEIN",
+      "given_names": "Alex",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bein",
+      "first_norm": "alex",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "beinart, haim",
+      "composite_id": [
+        "judentum_12_1_9"
+      ],
+      "family_name": "BEINART",
+      "given_names": "Haim",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "beinart",
+      "first_norm": "haim",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bell, gertrude",
+      "composite_id": [
+        "reisen_93_4_13"
+      ],
+      "family_name": "BELL",
+      "given_names": "Gertrude",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bell",
+      "first_norm": "gertrude",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "beltz, walter",
+      "composite_id": [
+        "aegypten_46_2_3"
+      ],
+      "family_name": "BELTZ",
+      "given_names": "Walter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "beltz",
+      "first_norm": "walter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ben-sasson, haim hillel",
+      "composite_id": [
+        "judentum_80_4_9"
+      ],
+      "family_name": "Ben-Sasson",
+      "given_names": "Haim Hillel",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ben-sasson",
+      "first_norm": "haim hillel",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "berendt, hans",
+      "composite_id": [
+        "bibliophile_53_3_10"
+      ],
+      "family_name": "Berendt",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "berendt",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bergel, kurt",
+      "composite_id": [
+        "erstausgaben_1393_56_78"
+      ],
+      "family_name": "Bergel",
+      "given_names": "Kurt",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bergel",
+      "first_norm": "kurt",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bergmann, a.",
+      "composite_id": [
+        "okkultismus_84_4_8"
+      ],
+      "family_name": "Bergmann",
+      "given_names": "A.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bergmann",
+      "first_norm": "a.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bermann, richard a.",
+      "composite_id": [
+        "reisen_2_1_13"
+      ],
+      "family_name": "BERMANN",
+      "given_names": "Richard A.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bermann",
+      "first_norm": "richard a.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bermbach, udo",
+      "composite_id": [
+        "briefe_78_4_15"
+      ],
+      "family_name": "BERMBACH",
+      "given_names": "Udo",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bermbach",
+      "first_norm": "udo",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bernard, andreas",
+      "composite_id": [
+        "philosophie_9_1_24"
+      ],
+      "family_name": "Bernard",
+      "given_names": "Andreas",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bernard",
+      "first_norm": "andreas",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bernatzik, hugo",
+      "composite_id": [
+        "reisen_3_1_13"
+      ],
+      "family_name": "BERNATZIK",
+      "given_names": "Hugo",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bernatzik",
+      "first_norm": "hugo",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bernatzik, hugo adolf",
+      "composite_id": [
+        "reisen_4_1_13"
+      ],
+      "family_name": "BERNATZIK",
+      "given_names": "Hugo Adolf",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bernatzik",
+      "first_norm": "hugo adolf",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bernatzik, emmy",
+      "composite_id": [
+        "reisen_94_4_13"
+      ],
+      "family_name": "BERNATZIK",
+      "given_names": "Emmy",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bernatzik",
+      "first_norm": "emmy",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bertsch, christoph",
+      "composite_id": [
+        "kunstbuecher_420_17_38"
+      ],
+      "family_name": "Bertsch",
+      "given_names": "Christoph",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bertsch",
+      "first_norm": "christoph",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "beuningen, helga",
+      "composite_id": [
+        "signierte_151_7_10"
+      ],
+      "family_name": "Beuningen",
+      "given_names": "Helga",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "beuningen",
+      "first_norm": "helga",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "biba, otto",
+      "composite_id": [
+        "briefe_165_7_15"
+      ],
+      "family_name": "Biba",
+      "given_names": "Otto",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "biba",
+      "first_norm": "otto",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bibby, geoffrey",
+      "composite_id": [
+        "aegypten_11_1_3"
+      ],
+      "family_name": "BIBBY",
+      "given_names": "Geoffrey",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bibby",
+      "first_norm": "geoffrey",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bieber, friedrich j.",
+      "composite_id": [
+        "reisen_16_1_13"
+      ],
+      "family_name": "Bieber",
+      "given_names": "Friedrich J.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bieber",
+      "first_norm": "friedrich j.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "biermann, georg",
+      "composite_id": [
+        "kunstbuecher_35_2_38"
+      ],
+      "family_name": "BIERMANN",
+      "given_names": "Georg",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "biermann",
+      "first_norm": "georg",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bilbassoff, b. von",
+      "composite_id": [
+        "russland_4_1_17"
+      ],
+      "family_name": "BILBASSOFF",
+      "given_names": "B. von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bilbassoff",
+      "first_norm": "b. von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "binder, w.",
+      "composite_id": [
+        "mythologie_56_3_3"
+      ],
+      "family_name": "Binder",
+      "given_names": "W.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "binder",
+      "first_norm": "w.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "binder, otmar",
+      "composite_id": [
+        "signierte_210_9_10"
+      ],
+      "family_name": "Binder",
+      "given_names": "Otmar",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "binder",
+      "first_norm": "otmar",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "birkhan, helmut",
+      "composite_id": [
+        "okkultismus_15_1_8"
+      ],
+      "family_name": "BIRKHAN",
+      "given_names": "Helmut",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "birkhan",
+      "first_norm": "helmut",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "birnbacher, dieter",
+      "composite_id": [
+        "philosophie_593_24_24"
+      ],
+      "family_name": "Birnbacher",
+      "given_names": "Dieter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "birnbacher",
+      "first_norm": "dieter",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 492,
+      "unified_id": "bermann_moriz",
+      "family_name": "Bermann",
+      "given_names": "Moriz",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 397,
+      "unified_id": "bednarik_herbert",
+      "family_name": "Bednarik",
+      "given_names": "Herbert",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 494,
+      "unified_id": "bernard_tristan",
+      "family_name": "Bernard",
+      "given_names": "Trisstan",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 418,
+      "unified_id": "bell_quentin",
+      "family_name": "Bell",
+      "given_names": "Quentin",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 477,
+      "unified_id": "bergmann_hugo",
+      "family_name": "Bergmann",
+      "given_names": "Hugo",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 560,
+      "unified_id": "biermann_kurt_r",
+      "family_name": "Biermann",
+      "given_names": "Kurt-R.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 561,
+      "unified_id": "biermann_wolf",
+      "family_name": "Biermann",
+      "given_names": "Wolf",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 574,
+      "unified_id": "binder_christa",
+      "family_name": "Binder",
+      "given_names": "Christa",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 575,
+      "unified_id": "binder_dieter_a",
+      "family_name": "Binder",
+      "given_names": "Dieter A.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 576,
+      "unified_id": "binder_hartmut",
+      "family_name": "Binder",
+      "given_names": "Hartmut",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 577,
+      "unified_id": "binder_klaus",
+      "family_name": "Binder",
+      "given_names": "Klaus",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 578,
+      "unified_id": "binder_wilhelm",
+      "family_name": "Binder",
+      "given_names": "Wilhelm",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 520,
+      "unified_id": "bertsch_august",
+      "family_name": "Bertsch",
+      "given_names": "August",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

@@ -1,0 +1,543 @@
+[
+  {
+    "display_norm": "braun, joseph",
+    "composite_id": [
+      "christentum_16_1_6"
+    ],
+    "family_name": "Braun",
+    "given_names": "Joseph",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "braun_joseph",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "braun, e.w.",
+    "composite_id": [
+      "kunstbuecher_241_10_38"
+    ],
+    "family_name": "Braun",
+    "given_names": "E.W.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "braun_e_w",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "braun, reinhard",
+    "composite_id": [
+      "oesterreich_45_2_13"
+    ],
+    "family_name": "Braun",
+    "given_names": "Reinhard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "braun_reinhard",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "braun, isabella",
+    "composite_id": [
+      "kinder_8_1_4"
+    ],
+    "family_name": "Braun",
+    "given_names": "Isabella",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "braun_isabella",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "brazza, pierre savorgnan de",
+    "composite_id": [
+      "reisen_100_5_13"
+    ],
+    "family_name": "Brazza",
+    "given_names": "Pierre Savorgnan",
+    "name_prefix": null,
+    "name_particles": "de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "brazza_pierre_s",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "brecht",
+    "composite_id": [
+      "erstausgaben_307_13_78",
+      "erstausgaben_306_13_78"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Brecht",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "brecht",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "brendel, walter",
+    "composite_id": [
+      "musik_15_1_11"
+    ],
+    "family_name": "Brendel",
+    "given_names": "Walter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "brendel_walter",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "breuningen, helga van",
+    "composite_id": [
+      "reisen_230_10_13"
+    ],
+    "family_name": "Breuningen",
+    "given_names": "Helga",
+    "name_prefix": null,
+    "name_particles": "van",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "van_breuningen_helga",
+    "matched_person_id": 7168,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "brilli, attilio",
+    "composite_id": [
+      "reisen_104_5_13"
+    ],
+    "family_name": "Brilli",
+    "given_names": "Attilio",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "brilli_attilio",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "brissaud, pierre",
+    "composite_id": [
+      "kinder_73_3_4"
+    ],
+    "family_name": "Brissaud",
+    "given_names": "Pierre",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "brissaud_pierre",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "brovot, thomas",
+    "composite_id": [
+      "zeitgeschichte_56_3_4"
+    ],
+    "family_name": "Brovot",
+    "given_names": "Thomas",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "brovot_thomas",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "brugger, ingrid",
+    "composite_id": [
+      "erstausgaben_1619_65_78"
+    ],
+    "family_name": "Brugger",
+    "given_names": "Ingrid",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "brugger_ingrid",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "brunmayr, hans",
+    "composite_id": [
+      "de-lit-monographien_234_10_10"
+    ],
+    "family_name": "Brunmayr",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "brunmayr_hans",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "brunngraber, rudolf",
+    "composite_id": [
+      "signierte_26_2_10"
+    ],
+    "family_name": "Brunngraber",
+    "given_names": "Rudolf",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "brunngraber_rudolf",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "brückner, christine",
+    "composite_id": [
+      "erstausgaben_1556_63_78"
+    ],
+    "family_name": "Brückner",
+    "given_names": "Christine",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bruckner_christine",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "brühl, alois friedrich",
+    "composite_id": [
+      "musik_90_4_11"
+    ],
+    "family_name": "Brühl",
+    "given_names": "Alois Friedrich",
+    "name_prefix": null,
+    "name_particles": "Graf von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bruhl_alois_f",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "buchner, friedrich markus",
+    "composite_id": [
+      "insel_446_18_27"
+    ],
+    "family_name": "Buchner",
+    "given_names": "Friedrich Markus",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "buchner_friedrich_m",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "buchner, alexander",
+    "composite_id": [
+      "musik_19_1_11"
+    ],
+    "family_name": "Buchner",
+    "given_names": "Alexander",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "buchner_alexander",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "bugow, s.",
+    "composite_id": [
+      "russland_35_2_17"
+    ],
+    "family_name": "Bugow",
+    "given_names": "S.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bugow_s",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "buonaroti, michelagniolo",
+    "composite_id": [
+      "bibliophile_165_7_10"
+    ],
+    "family_name": "Buonaroti",
+    "given_names": "Michelagniolo",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "buonaroti_michelagniolo",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "burgess, anthony",
+    "composite_id": [
+      "monographien_33_2_3"
+    ],
+    "family_name": "Burgess",
+    "given_names": "Anthony",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "burgess_anthony",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "burmester, herbert",
+    "composite_id": [
+      "reisen_16_1_13"
+    ],
+    "family_name": "Burmester",
+    "given_names": "Herbert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "burmester_herbert",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "burney, c.",
+    "composite_id": [
+      "aegypten_10_1_3"
+    ],
+    "family_name": "Burney",
+    "given_names": "C.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "burney_c",
+    "matched_person_id": 932,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "burton, richard",
+    "composite_id": [
+      "reisen_6_1_13"
+    ],
+    "family_name": "Burton",
+    "given_names": "Richard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "burton_richard",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "burton, sir richard",
+    "composite_id": [
+      "buddhismus_15_1_3"
+    ],
+    "family_name": "Burton",
+    "given_names": "Richard",
+    "name_prefix": "Sir",
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "burton_richard",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "butler, rupert",
+    "composite_id": [
+      "deutschland_7_1_4"
+    ],
+    "family_name": "Butler",
+    "given_names": "Rupert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "butler_rupert",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "buxbaum, friedrich",
+    "composite_id": [
+      "autographen_0_1_2"
+    ],
+    "family_name": "Buxbaum",
+    "given_names": "Friedrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "buxbaum_friedrich",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "böckh, august",
+    "composite_id": [
+      "insel_603_25_27"
+    ],
+    "family_name": "Böckh",
+    "given_names": "August",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bockh_august",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "böll, annemarie",
+    "composite_id": [
+      "fremdsprachige_835_34_38"
+    ],
+    "family_name": "Böll",
+    "given_names": "Annemarie",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "boll_annemarie",
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "bührer, emil m.",
+    "composite_id": [
+      "reisen_51_3_13"
+    ],
+    "family_name": "Bührer",
+    "given_names": "Emil M.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "buhrer_emil_m",
+    "_source_custom_id": "batch_nopes_005"
+  }
+]

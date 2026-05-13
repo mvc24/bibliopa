@@ -1,0 +1,546 @@
+[
+  {
+    "display_norm": "mosler, axel m.",
+    "composite_id": [
+      "reisen_43_2_13"
+    ],
+    "family_name": "Mosler",
+    "given_names": "Axel M.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mosler_axel_m",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "mrazek",
+    "composite_id": [
+      "kunstbuecher_119_5_38"
+    ],
+    "family_name": "Mrazek",
+    "given_names": "Wilhelm",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mrazek_wilhelm",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "mrazek, wilhelm",
+    "composite_id": [
+      "kunstbuecher_705_29_38"
+    ],
+    "family_name": "Mrazek",
+    "given_names": "Wilhelm",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mrazek_wilhelm",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "muck",
+    "composite_id": [
+      "kunstbuecher_908_37_38"
+    ],
+    "family_name": "Muck",
+    "given_names": "Herbert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "muck_herbert",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "mumbaur, otto",
+    "composite_id": [
+      "reisen_283_12_13"
+    ],
+    "family_name": "Mumbaur",
+    "given_names": "Otto",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mumbaur_otto",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "saki",
+    "composite_id": [
+      "fremdsprachige_794_32_38"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Saki",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "saki",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "muschg, walter",
+    "composite_id": [
+      "de-lit-texte_118_5_20",
+      "de-lit-texte_119_5_20",
+      "literatur_207_9_12"
+    ],
+    "family_name": "Muschg",
+    "given_names": "Walter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "muschg_walter",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "muschik",
+    "composite_id": [
+      "signierte_91_4_10"
+    ],
+    "family_name": "Muschik",
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "muschik_johann",
+    "matched_person_id": 4851,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "möller, horst",
+    "composite_id": [
+      "neuzeit_16_1_4"
+    ],
+    "family_name": "Möller",
+    "given_names": "Horst",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "moller_horst",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "mühl, theodora von der",
+    "composite_id": [
+      "briefe_328_14_15"
+    ],
+    "family_name": "Mühl",
+    "given_names": "Theodora",
+    "name_prefix": null,
+    "name_particles": "von der",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "muhl_theodora",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "müller, franz karl",
+    "composite_id": [
+      "musik_87_4_11"
+    ],
+    "family_name": "Müller",
+    "given_names": "Franz Karl",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "muller_franz_k",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "müller, johann von",
+    "composite_id": [
+      "briefe_173_7_15"
+    ],
+    "family_name": "Müller",
+    "given_names": "Johann",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "muller_von_johann",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "müller, johann georg",
+    "composite_id": [
+      "briefe_173_7_15"
+    ],
+    "family_name": "Müller",
+    "given_names": "Johann Georg",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "muller_johann_g",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "müller, reimar",
+    "composite_id": [
+      "antike_58_3_9"
+    ],
+    "family_name": "Müller",
+    "given_names": "Reimar",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "muller_reimar",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "müller, johann gottwerth",
+    "composite_id": [
+      "de-lit-texte_334_14_20"
+    ],
+    "family_name": "Müller",
+    "given_names": "Johann Gottwerth",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "muller_johann_g2",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "münster, clemens",
+    "composite_id": [
+      "briefe_80_4_15"
+    ],
+    "family_name": "Münster",
+    "given_names": "Clemens",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "munster_clemens",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "nabias, s. de",
+    "composite_id": [
+      "signierte_145_6_10"
+    ],
+    "family_name": "Nabias",
+    "given_names": "S.",
+    "name_prefix": null,
+    "name_particles": "de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "nabias_s",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "nachama, andreas",
+    "composite_id": [
+      "judentum_96_4_9",
+      "judentum_200_9_9"
+    ],
+    "family_name": "Nachama",
+    "given_names": "Andreas",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "nachama_andreas",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "nader, helen",
+    "composite_id": [
+      "sonstiges_30_2_4"
+    ],
+    "family_name": "Nader",
+    "given_names": "Helen",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "nader_helen",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "narciss, g.a.",
+    "composite_id": [
+      "illustrierte_88_4_14"
+    ],
+    "family_name": "Narciss",
+    "given_names": "G.A.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "narciss_ga",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "naredi-rainer, paul",
+    "composite_id": [
+      "oesterreich_162_7_13"
+    ],
+    "family_name": "Naredi-Rainer",
+    "given_names": "Paul",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "naredirainer_paul",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "nawalny, alexej",
+    "composite_id": [
+      "russland_229_10_17"
+    ],
+    "family_name": "Nawalny",
+    "given_names": "Alexej",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "nawalny_alexej",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "nebehay, renee",
+    "composite_id": [
+      "kinder_66_3_4"
+    ],
+    "family_name": "Nebehay",
+    "given_names": "Renee",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "nebehay_renee",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "nelson, heinrich",
+    "composite_id": [
+      "bibliophile_165_7_10"
+    ],
+    "family_name": "Nelson",
+    "given_names": "Heinrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "nelson_heinrich",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "neret, gilles",
+    "composite_id": [
+      "aegypten_48_2_3"
+    ],
+    "family_name": "Neret",
+    "given_names": "Gilles",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "neret_gilles",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "neu, till",
+    "composite_id": [
+      "literatur_39_2_12"
+    ],
+    "family_name": "Neu",
+    "given_names": "Till",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "neu_till",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "neu, paul",
+    "composite_id": [
+      "bibliophile_153_7_10"
+    ],
+    "family_name": "Neu",
+    "given_names": "Paul",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "neu_paul",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "neugebauer, wolfgang",
+    "composite_id": [
+      "oesterreich_274_11_13"
+    ],
+    "family_name": "Neugebauer",
+    "given_names": "Wolfgang",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "neugebauer_wolfgang",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "neugebauer, peter",
+    "composite_id": [
+      "fremdsprachige_866_35_38"
+    ],
+    "family_name": "Neugebauer",
+    "given_names": "Peter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "neugebauer_peter",
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "neumann, alfred",
+    "composite_id": [
+      "okkultismus_163_7_8",
+      "neuzeit_35_2_4"
+    ],
+    "family_name": "Neumann",
+    "given_names": "Alfred",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "neumann_alfred",
+    "_source_custom_id": "batch_nopes_025"
+  }
+]

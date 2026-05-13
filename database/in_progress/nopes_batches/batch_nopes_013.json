@@ -1,0 +1,579 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "gsell-fels, th.",
+      "composite_id": [
+        "reisen_24_1_13"
+      ],
+      "family_name": "GSELL-FELS",
+      "given_names": "Th.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gsell-fels",
+      "first_norm": "th.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "gurlitt, cornelius",
+      "composite_id": [
+        "literatur_122_5_12"
+      ],
+      "family_name": "Gurlitt",
+      "given_names": "Cornelius",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gurlitt",
+      "first_norm": "cornelius",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "gäng, peter",
+      "composite_id": [
+        "neuzeit_71_3_4"
+      ],
+      "family_name": "GÄNG",
+      "given_names": "Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gäng",
+      "first_norm": "peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "gärtner, wernher der",
+      "composite_id": [
+        "insel_649_26_27"
+      ],
+      "family_name": "GÄRTNER",
+      "given_names": "WERNHER DER",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gärtner",
+      "first_norm": "wernher der",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "göckenjan, hansgerd",
+      "composite_id": [
+        "mittelalter_77_4_7"
+      ],
+      "family_name": "Göckenjan",
+      "given_names": "Hansgerd",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "göckenjan",
+      "first_norm": "hansgerd",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "göske, daniel",
+      "composite_id": [
+        "briefe_259_11_15"
+      ],
+      "family_name": "Göske",
+      "given_names": "Daniel",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "göske",
+      "first_norm": "daniel",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "göttweig, abtei",
+      "composite_id": [
+        "oesterreich_4_1_13"
+      ],
+      "family_name": "Göttweig",
+      "given_names": "Abtei",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "göttweig",
+      "first_norm": "abtei",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "gülich, gustav von",
+      "composite_id": [
+        "ethnologie_66_3_13"
+      ],
+      "family_name": "GÜLICH",
+      "given_names": "Gustav von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gülich",
+      "first_norm": "gustav von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "günther, bernd",
+      "composite_id": [
+        "judentum_169_7_9"
+      ],
+      "family_name": "Günther",
+      "given_names": "Bernd",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "günther",
+      "first_norm": "bernd",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "h.h.ewers",
+      "composite_id": [
+        "illustrierte_25_2_14"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "H.H.Ewers",
+      "last_norm": "h.h.ewers",
+      "first_norm": "",
+      "single_norm": "h.h.ewers",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "haarmann",
+      "composite_id": [
+        "literatur_129_6_12"
+      ],
+      "family_name": "Haarmann",
+      "given_names": "Harald",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "haarmann",
+      "first_norm": "harald",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "haarmann, harald",
+      "composite_id": [
+        "sonstiges_17_1_4"
+      ],
+      "family_name": "HAARMANN",
+      "given_names": "Harald",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "haarmann",
+      "first_norm": "harald",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "haasbauer, anton",
+      "composite_id": [
+        "wien_144_6_10"
+      ],
+      "family_name": "Haasbauer",
+      "given_names": "Anton",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "haasbauer",
+      "first_norm": "anton",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "haberland, detlef",
+      "composite_id": [
+        "reisen_235_10_13"
+      ],
+      "family_name": "Haberland",
+      "given_names": "Detlef",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "haberland",
+      "first_norm": "detlef",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "habinger, gabriele",
+      "composite_id": [
+        "reisen_93_4_13"
+      ],
+      "family_name": "Habinger",
+      "given_names": "Gabriele",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "habinger",
+      "first_norm": "gabriele",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "haffner, sarah",
+      "composite_id": [
+        "autographen_19_1_2"
+      ],
+      "family_name": "HAFFNER",
+      "given_names": "Sarah",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "haffner",
+      "first_norm": "sarah",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hainisch, erwin",
+      "composite_id": [
+        "oesterreich_189_8_13"
+      ],
+      "family_name": "Hainisch",
+      "given_names": "Erwin",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hainisch",
+      "first_norm": "erwin",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "halben, h. von",
+      "composite_id": [
+        "insel_81_4_27"
+      ],
+      "family_name": "Halben",
+      "given_names": "H. von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "halben",
+      "first_norm": "h. von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hamburger, käthe",
+      "composite_id": [
+        "de-lit-monographien_156_7_10"
+      ],
+      "family_name": "Hamburger",
+      "given_names": "Käthe",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hamburger",
+      "first_norm": "käthe",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hamburger stiftung zur förderung von wissenschaft und kultur",
+      "composite_id": [
+        "briefe_361_15_15"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Hamburger Stiftung zur Förderung von Wissenschaft und Kultur",
+      "last_norm": "hamburger stiftung zur förderung von wissenschaft und kultur",
+      "first_norm": "",
+      "single_norm": "hamburger stiftung zur förderung von wissenschaft und kultur",
+      "is_organisation": true
+    },
+    {
+      "display_norm": "hamerling, robert",
+      "composite_id": [
+        "bibliophile_15_1_10"
+      ],
+      "family_name": "HAMERLING",
+      "given_names": "Robert",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hamerling",
+      "first_norm": "robert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hammerstiiel, robert",
+      "composite_id": [
+        "kunstbuecher_192_8_38"
+      ],
+      "family_name": "HAMMERSTIIEL",
+      "given_names": "Robert",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hammerstiiel",
+      "first_norm": "robert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hanak, anton",
+      "composite_id": [
+        "kunstbuecher_193_8_38"
+      ],
+      "family_name": "HANAK",
+      "given_names": "Anton",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hanak",
+      "first_norm": "anton",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hancarville, pierre-francois hugues",
+      "composite_id": [
+        "sonstiges_18_1_4"
+      ],
+      "family_name": "HANCARVILLE",
+      "given_names": "Pierre-Francois Hugues",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hancarville",
+      "first_norm": "pierre-francois hugues",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hango, hermann",
+      "composite_id": [
+        "oesterreich_53_3_13"
+      ],
+      "family_name": "Hango",
+      "given_names": "Hermann",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hango",
+      "first_norm": "hermann",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hans blumenberg-archiv",
+      "composite_id": [
+        "philosophie_84_4_24"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Hans Blumenberg-Archiv",
+      "last_norm": "hans blumenberg-archiv",
+      "first_norm": "",
+      "single_norm": "hans blumenberg-archiv",
+      "is_organisation": true
+    },
+    {
+      "display_norm": "hansen, traude",
+      "composite_id": [
+        "wien_49_2_10"
+      ],
+      "family_name": "HANSEN",
+      "given_names": "Traude",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hansen",
+      "first_norm": "traude",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hansen, christian",
+      "composite_id": [
+        "zeitgeschichte_56_3_4"
+      ],
+      "family_name": "Hansen",
+      "given_names": "Christian",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hansen",
+      "first_norm": "christian",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "harich-schneider, eta",
+      "composite_id": [
+        "musik_44_2_11"
+      ],
+      "family_name": "HARICH-SCHNEIDER",
+      "given_names": "Eta",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "harich-schneider",
+      "first_norm": "eta",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hartmann, richard",
+      "composite_id": [
+        "islam_9_1_3"
+      ],
+      "family_name": "HARTMANN",
+      "given_names": "Richard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hartmann",
+      "first_norm": "richard",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 2522,
+      "unified_id": "haffner_sebastian",
+      "family_name": "Haffner",
+      "given_names": "Sebastian",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2545,
+      "unified_id": "halben_z",
+      "family_name": "Halben",
+      "given_names": "Z.",
+      "name_particles": "von",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7828,
+      "unified_id": "halben_h",
+      "family_name": "Halben",
+      "given_names": "H.",
+      "name_particles": "von",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2484,
+      "unified_id": "haarmann_ulrich",
+      "family_name": "Haarmann",
+      "given_names": "Ulrich",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2581,
+      "unified_id": "hansen_joseph",
+      "family_name": "Hansen",
+      "given_names": "Joseph",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2582,
+      "unified_id": "hansen_thorkild",
+      "family_name": "Hansen",
+      "given_names": "Thorkild",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2621,
+      "unified_id": "hartmann_dominik",
+      "family_name": "Hartmann",
+      "given_names": "Dominik",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2622,
+      "unified_id": "hartmann_ernest",
+      "family_name": "Hartmann",
+      "given_names": "Ernest",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2623,
+      "unified_id": "hartmann_franz",
+      "family_name": "Hartmann",
+      "given_names": "Franz",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2624,
+      "unified_id": "hartmann_otto_j",
+      "family_name": "Hartmann",
+      "given_names": "Otto Jul.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2625,
+      "unified_id": "hartmann_ph_k",
+      "family_name": "Hartmann",
+      "given_names": "Ph. K.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2626,
+      "unified_id": "hartmann_r",
+      "family_name": "Hartmann",
+      "given_names": "R.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2453,
+      "unified_id": "gunther_alfred",
+      "family_name": "Günther",
+      "given_names": "Alfred",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2454,
+      "unified_id": "gunther_hans",
+      "family_name": "Günther",
+      "given_names": "Hans",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2455,
+      "unified_id": "gunther_horst",
+      "family_name": "Günther",
+      "given_names": "Horst",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2456,
+      "unified_id": "gunther_johannes",
+      "family_name": "Günther",
+      "given_names": "Johannes",
+      "name_particles": "von",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2457,
+      "unified_id": "gunther_linda_m",
+      "family_name": "Günther",
+      "given_names": "Linda-Marie",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

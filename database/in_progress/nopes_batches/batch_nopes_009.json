@@ -1,0 +1,760 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "eisenmayer, ernst",
+      "composite_id": [
+        "autographen_7_1_2"
+      ],
+      "family_name": "EISENMAYER",
+      "given_names": "Ernst",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "eisenmayer",
+      "first_norm": "ernst",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "eisler",
+      "composite_id": [
+        "signierte_91_4_10",
+        "wien_229_10_10"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Eisler",
+      "last_norm": "eisler",
+      "first_norm": "",
+      "single_norm": "eisler",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "eisler, alice",
+      "composite_id": [
+        "autographen_9_1_2"
+      ],
+      "family_name": "Eisler",
+      "given_names": "Alice",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "eisler",
+      "first_norm": "alice",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "eisler, lou",
+      "composite_id": [
+        "autographen_10_1_2"
+      ],
+      "family_name": "EISLER",
+      "given_names": "Lou",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "eisler",
+      "first_norm": "lou",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "emerson, r.w.",
+      "composite_id": [
+        "fremdsprachige_11_1_38",
+        "fremdsprachige_12_1_38",
+        "fremdsprachige_13_1_38"
+      ],
+      "family_name": "EMERSON",
+      "given_names": "R.W.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "emerson",
+      "first_norm": "r.w.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "endl, p. friedrich",
+      "composite_id": [
+        "reisen_14_1_13"
+      ],
+      "family_name": "ENDL",
+      "given_names": "P. Friedrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "endl",
+      "first_norm": "p. friedrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "enzenberg, carina",
+      "composite_id": [
+        "maerchen_26_2_3"
+      ],
+      "family_name": "Enzenberg",
+      "given_names": "Carina",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "enzenberg",
+      "first_norm": "carina",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "erben, walter",
+      "composite_id": [
+        "kunstbuecher_120_5_38"
+      ],
+      "family_name": "ERBEN",
+      "given_names": "Walter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "erben",
+      "first_norm": "walter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "erbstösser, martin",
+      "composite_id": [
+        "mittelalter_118_5_7",
+        "mittelalter_117_5_7",
+        "okkultismus_59_3_8"
+      ],
+      "family_name": "ERBSTÖSSER",
+      "given_names": "Martin",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "erbstösser",
+      "first_norm": "martin",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "erhardt, hm",
+      "composite_id": [
+        "illustrierte_336_14_14"
+      ],
+      "family_name": "Erhardt",
+      "given_names": "HM",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "erhardt",
+      "first_norm": "hm",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "eribon, didier",
+      "composite_id": [
+        "biographie_183_8_27"
+      ],
+      "family_name": "ERIBON",
+      "given_names": "Didier",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "eribon",
+      "first_norm": "didier",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "erlande-brandenburg, alain",
+      "composite_id": [
+        "reisen_46_2_13"
+      ],
+      "family_name": "Erlande-Brandenburg",
+      "given_names": "Alain",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "erlande-brandenburg",
+      "first_norm": "alain",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ernst, r.",
+      "composite_id": [
+        "wien_25_2_10",
+        "wien_24_1_10"
+      ],
+      "family_name": "ERNST",
+      "given_names": "R.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ernst",
+      "first_norm": "r.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "erste donau-dampfschiffahrts-gesellschaft",
+      "composite_id": [
+        "oesterreich_210_9_13"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Erste Donau-Dampfschiffahrts-Gesellschaft",
+      "last_norm": "erste donau-dampfschiffahrts-gesellschaft",
+      "first_norm": "",
+      "single_norm": "erste donau-dampfschiffahrts-gesellschaft",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ertl, harry",
+      "composite_id": [
+        "oesterreich_225_10_13"
+      ],
+      "family_name": "Ertl",
+      "given_names": "Harry",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ertl",
+      "first_norm": "harry",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "escher, jürgen",
+      "composite_id": [
+        "deutschland_52_3_4",
+        "sonstiges_3_1_4"
+      ],
+      "family_name": "Escher",
+      "given_names": "Jürgen",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "escher",
+      "first_norm": "jürgen",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "eugippius",
+      "composite_id": [
+        "antike_53_3_9"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Eugippius",
+      "last_norm": "eugippius",
+      "first_norm": "",
+      "single_norm": "eugippius",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "export, valie",
+      "composite_id": [
+        "kunstbuecher_524_21_38"
+      ],
+      "family_name": "EXPORT",
+      "given_names": "VALIE",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "export",
+      "first_norm": "valie",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "falke, o. von",
+      "composite_id": [
+        "kunstbuecher_241_10_38"
+      ],
+      "family_name": "Falke",
+      "given_names": "O. von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "falke",
+      "first_norm": "o. von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "faulkner, william",
+      "composite_id": [
+        "fremdsprachige_374_15_38",
+        "fremdsprachige_372_15_38",
+        "fremdsprachige_373_15_38"
+      ],
+      "family_name": "FAULKNER",
+      "given_names": "William",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "faulkner",
+      "first_norm": "william",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "feitknecht, thomas",
+      "composite_id": [
+        "erstausgaben_714_29_78"
+      ],
+      "family_name": "Feitknecht",
+      "given_names": "Thomas",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "feitknecht",
+      "first_norm": "thomas",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ferchl, irene",
+      "composite_id": [
+        "deutschland_62_3_4"
+      ],
+      "family_name": "Ferchl",
+      "given_names": "Irene",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ferchl",
+      "first_norm": "irene",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ferdausi, abul-quasem",
+      "composite_id": [
+        "islam_4_1_3"
+      ],
+      "family_name": "FERDAUSI",
+      "given_names": "Abul-Quasem",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ferdausi",
+      "first_norm": "abul-quasem",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ferenc, mitja",
+      "composite_id": [
+        "reisen_8_1_13"
+      ],
+      "family_name": "Ferenc",
+      "given_names": "Mitja",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ferenc",
+      "first_norm": "mitja",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ferino-pagden, sylvia",
+      "composite_id": [
+        "renaissance_28_2_4"
+      ],
+      "family_name": "Ferino-Pagden",
+      "given_names": "Sylvia",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ferino-pagden",
+      "first_norm": "sylvia",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "festspiele, berliner",
+      "composite_id": [
+        "judentum_96_4_9",
+        "judentum_200_9_9"
+      ],
+      "family_name": "Festspiele",
+      "given_names": "Berliner",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "festspiele",
+      "first_norm": "berliner",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "fiegl, johanna",
+      "composite_id": [
+        "wien_156_7_10"
+      ],
+      "family_name": "Fiegl",
+      "given_names": "Johanna",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "fiegl",
+      "first_norm": "johanna",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "stoob",
+      "composite_id": [
+        "oesterreich_147_6_13"
+      ],
+      "family_name": "Finta",
+      "given_names": "Ladislaus",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "finta",
+      "first_norm": "ladislaus",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "fischer",
+      "composite_id": [
+        "signierte_91_4_10"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Fischer",
+      "last_norm": "fischer",
+      "first_norm": "",
+      "single_norm": "fischer",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "fischer-seidel, therese",
+      "composite_id": [
+        "monographien_37_2_3"
+      ],
+      "family_name": "Fischer-Seidel",
+      "given_names": "Therese",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "fischer-seidel",
+      "first_norm": "therese",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 1680,
+      "unified_id": "escher_hans",
+      "family_name": "Escher",
+      "given_names": "Hans",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1681,
+      "unified_id": "escher_reinhard",
+      "family_name": "Escher",
+      "given_names": "Reinhard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1655,
+      "unified_id": "erben",
+      "family_name": null,
+      "given_names": null,
+      "name_particles": null,
+      "single_name": "Erben",
+      "is_organisation": false
+    },
+    {
+      "person_id": 1656,
+      "unified_id": "erben_geraldine",
+      "family_name": "Erben",
+      "given_names": "Geraldine",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1626,
+      "unified_id": "emerson_ralph_w",
+      "family_name": "Emerson",
+      "given_names": "Ralph Waldo",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1669,
+      "unified_id": "ernst_gustav",
+      "family_name": "Ernst",
+      "given_names": "Gustav",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1670,
+      "unified_id": "ernst_paul",
+      "family_name": "Ernst",
+      "given_names": "Paul",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1671,
+      "unified_id": "ernst_peter",
+      "family_name": "Ernst",
+      "given_names": "Peter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1815,
+      "unified_id": "fischer_andreas",
+      "family_name": "Fischer",
+      "given_names": "Andreas",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1816,
+      "unified_id": "fischer_carl",
+      "family_name": "Fischer",
+      "given_names": "Carl",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1819,
+      "unified_id": "fischer_e_w",
+      "family_name": "Fischer",
+      "given_names": "E.W.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1820,
+      "unified_id": "fischer_edwin",
+      "family_name": "Fischer",
+      "given_names": "Edwin",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1821,
+      "unified_id": "fischer_ernst",
+      "family_name": "Fischer",
+      "given_names": "Ernst",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1822,
+      "unified_id": "fischer_fritz",
+      "family_name": "Fischer",
+      "given_names": "Fritz",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1823,
+      "unified_id": "fischer_grete",
+      "family_name": "Fischer",
+      "given_names": "Grete",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1824,
+      "unified_id": "fischer_hanns",
+      "family_name": "Fischer",
+      "given_names": "Hanns",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1825,
+      "unified_id": "fischer_hans",
+      "family_name": "Fischer",
+      "given_names": "Hans",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1826,
+      "unified_id": "fischer_hans_c",
+      "family_name": "Fischer",
+      "given_names": "Hans Conrad",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1827,
+      "unified_id": "fischer_hans_w",
+      "family_name": "Fischer",
+      "given_names": "Hans W.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1828,
+      "unified_id": "fischer_heinrich",
+      "family_name": "Fischer",
+      "given_names": "Heinrich",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1829,
+      "unified_id": "fischer_helmut",
+      "family_name": "Fischer",
+      "given_names": "Helmut",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1830,
+      "unified_id": "fischer_jens_m",
+      "family_name": "Fischer",
+      "given_names": "Jens Malte",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1831,
+      "unified_id": "fischer_lisa",
+      "family_name": "Fischer",
+      "given_names": "Lisa",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1832,
+      "unified_id": "fischer_louis",
+      "family_name": "Fischer",
+      "given_names": "Louis",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1833,
+      "unified_id": "fischer_max",
+      "family_name": "Fischer",
+      "given_names": "Max",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1834,
+      "unified_id": "fischer_peter",
+      "family_name": "Fischer",
+      "given_names": "Peter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1835,
+      "unified_id": "fischer_roland",
+      "family_name": "Fischer",
+      "given_names": "Roland",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1837,
+      "unified_id": "fischer_willy",
+      "family_name": "Fischer",
+      "given_names": "Willy",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1838,
+      "unified_id": "fischer_wolfgang_g",
+      "family_name": "Fischer",
+      "given_names": "Wolfgang Georg",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1591,
+      "unified_id": "eisler_charlotte",
+      "family_name": "Eisler",
+      "given_names": "Charlotte",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1592,
+      "unified_id": "eisler_colin",
+      "family_name": "Eisler",
+      "given_names": "Colin",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1593,
+      "unified_id": "eisler_dieter",
+      "family_name": "Eisler",
+      "given_names": "Dieter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1595,
+      "unified_id": "eisler_georg",
+      "family_name": "Eisler",
+      "given_names": "Georg",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1596,
+      "unified_id": "eisler_hanns",
+      "family_name": "Eisler",
+      "given_names": "Hanns",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1597,
+      "unified_id": "eisler_max",
+      "family_name": "Eisler",
+      "given_names": "Max",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1598,
+      "unified_id": "eisler_rudolf",
+      "family_name": "Eisler",
+      "given_names": "Rudolf",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

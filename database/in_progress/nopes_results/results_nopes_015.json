@@ -1,0 +1,544 @@
+[
+  {
+    "display_norm": "heyse, karl wilhelm ludwig",
+    "composite_id": [
+      "literatur_42_2_12"
+    ],
+    "family_name": "Heyse",
+    "given_names": "Karl Wilhelm Ludwig",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "heyse_karl_w_l",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hiehl, heinz",
+    "composite_id": [
+      "oesterreich_135_6_13"
+    ],
+    "family_name": "Hiehl",
+    "given_names": "Heinz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hiehl_heinz",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hiesel, franz",
+    "composite_id": [
+      "de-lit-monographien_113_5_10",
+      "de-lit-texte_209_9_20"
+    ],
+    "family_name": "Hiesel",
+    "given_names": "Franz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hiesel_franz",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hilgemann, werner",
+    "composite_id": [
+      "aegypten_49_2_3"
+    ],
+    "family_name": "Hilgemann",
+    "given_names": "Werner",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hilgemann_werner",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hillebrandt, alfred",
+    "composite_id": [
+      "buddhismus_68_3_3"
+    ],
+    "family_name": "Hillebrandt",
+    "given_names": "Alfred",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hillebrandt_alfred",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hillen ziegfeld, arnold",
+    "composite_id": [
+      "reisen_16_1_13"
+    ],
+    "family_name": "Hillen Ziegfeld",
+    "given_names": "Arnold",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hillen_ziegfeld_arnold",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hiller von gaertringen, julia freifrau",
+    "composite_id": [
+      "erstausgaben_1053_43_78"
+    ],
+    "family_name": "Hiller von Gaertringen",
+    "given_names": "Julia",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": "Freifrau",
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "hiller_von_gaertringen_julia",
+    "matched_person_id": 2884,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hink, wolfgang",
+    "composite_id": [
+      "buch_65_3_8"
+    ],
+    "family_name": "Hink",
+    "given_names": "Wolfgang",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hink_wolfgang",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hipp, otto",
+    "composite_id": [
+      "wien_54_3_10"
+    ],
+    "family_name": "Hipp",
+    "given_names": "Otto",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hipp_otto",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hirhager, ulrike",
+    "composite_id": [
+      "kunstbuecher_196_8_38"
+    ],
+    "family_name": "Hirhager",
+    "given_names": "Ulrike",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hirhager_ulrike",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hirmer, albert",
+    "composite_id": [
+      "reisen_46_2_13"
+    ],
+    "family_name": "Hirmer",
+    "given_names": "Albert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hirmer_albert",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hittmair, rudolf",
+    "composite_id": [
+      "oesterreich_63_3_13"
+    ],
+    "family_name": "Hittmair",
+    "given_names": "Rudolf",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hittmair_rudolf",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hoberman, gerald",
+    "composite_id": [
+      "reisen_32_2_13"
+    ],
+    "family_name": "Hoberman",
+    "given_names": "Gerald",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hoberman_gerald",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hoberman, marc",
+    "composite_id": [
+      "reisen_32_2_13"
+    ],
+    "family_name": "Hoberman",
+    "given_names": "Marc",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hoberman_marc",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hochuli, jost",
+    "composite_id": [
+      "buch_86_4_8"
+    ],
+    "family_name": "Hochuli",
+    "given_names": "Jost",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hochuli_jost",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hoddis, jakob van",
+    "composite_id": [
+      "erstausgaben_723_29_78"
+    ],
+    "family_name": "Hoddis",
+    "given_names": "Jakob",
+    "name_prefix": null,
+    "name_particles": "van",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hoddis_jakob",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hodina",
+    "composite_id": [
+      "signierte_86_4_10"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Hodina",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hodina",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hofer, wolfgang",
+    "composite_id": [
+      "de-lit-monographien_54_3_10"
+    ],
+    "family_name": "Hofer",
+    "given_names": "Wolfgang",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hofer_wolfgang",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hoffer, eric",
+    "composite_id": [
+      "bibliophile_126_6_10"
+    ],
+    "family_name": "Hoffer",
+    "given_names": "Eric",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hoffer_eric",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hoffmann, adolf",
+    "composite_id": [
+      "briefe_45_2_15"
+    ],
+    "family_name": "Hoffmann",
+    "given_names": "Adolf",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hoffmann_adolf",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hofmann-montanus, hans",
+    "composite_id": [
+      "oesterreich_260_11_13",
+      "oesterreich_67_3_13"
+    ],
+    "family_name": "Hofmann-Montanus",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hofmann_montanus_hans",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "holbach",
+    "composite_id": [
+      "philosophie_478_20_24"
+    ],
+    "family_name": "Holbach",
+    "given_names": "Paul-Henri Thiry",
+    "name_prefix": null,
+    "name_particles": "d'",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "holbach_paulhenri_t",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "holländer, eugen",
+    "composite_id": [
+      "kunstbuecher_220_9_38"
+    ],
+    "family_name": "Holländer",
+    "given_names": "Eugen",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hollander_eugen",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "holm, erich",
+    "composite_id": [
+      "fremdsprachige_872_35_38"
+    ],
+    "family_name": "Holm",
+    "given_names": "Erich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "holm_erich",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "holub",
+    "composite_id": [
+      "suchliste_21_1_3"
+    ],
+    "family_name": "Holub",
+    "given_names": "Emil",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "holub_emil",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "holub, emil",
+    "composite_id": [
+      "reisen_33_2_13"
+    ],
+    "family_name": "Holub",
+    "given_names": "Emil",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "holub_emil",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "holzner, johann",
+    "composite_id": [
+      "oesterreich_305_13_13"
+    ],
+    "family_name": "Holzner",
+    "given_names": "Johann",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "holzner_johann",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "honan, park",
+    "composite_id": [
+      "biographie_83_4_27"
+    ],
+    "family_name": "Honan",
+    "given_names": "Park",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "honan_park",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "honegger, gitta",
+    "composite_id": [
+      "de-lit-monographien_116_5_10"
+    ],
+    "family_name": "Honegger",
+    "given_names": "Gitta",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "honegger_gitta",
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "hope, christopher",
+    "composite_id": [
+      "biographie_415_17_27"
+    ],
+    "family_name": "Hope",
+    "given_names": "Christopher",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hope_christopher",
+    "_source_custom_id": "batch_nopes_015"
+  }
+]

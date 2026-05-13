@@ -1,0 +1,542 @@
+[
+  {
+    "display_norm": "danz, d.j.t.l.",
+    "composite_id": [
+      "antike_44_2_9"
+    ],
+    "family_name": "Danz",
+    "given_names": "D. J. T. L.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "danz_d_j_t_l",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "daschkowa, fürstin",
+    "composite_id": [
+      "russland_83_4_17"
+    ],
+    "family_name": "Daschkowa",
+    "given_names": null,
+    "name_prefix": "Fürstin",
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "daschkowa_furstin",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "daub, sigrid",
+    "composite_id": [
+      "biographie_105_5_27"
+    ],
+    "family_name": "Daub",
+    "given_names": "Sigrid",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "daub_sigrid",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "davidov, dinko",
+    "composite_id": [
+      "sonstiges_51_3_4"
+    ],
+    "family_name": "Davidov",
+    "given_names": "Dinko",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "davidov_dinko",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "davies, martin",
+    "composite_id": [
+      "buch_52_3_8"
+    ],
+    "family_name": "Davies",
+    "given_names": "Martin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "davies_martin",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "de bruyn, günther",
+    "composite_id": [
+      "biographie_307_13_27"
+    ],
+    "family_name": "Bruyn",
+    "given_names": "Günther",
+    "name_prefix": null,
+    "name_particles": "de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bruyn_gunther",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "de keyser, eugenie",
+    "composite_id": [
+      "kunstbuecher_297_12_38"
+    ],
+    "family_name": "Keyser",
+    "given_names": "Eugenie",
+    "name_prefix": null,
+    "name_particles": "de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "keyser_eugenie",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "de rougemont, denis",
+    "composite_id": [
+      "biographie_165_7_27"
+    ],
+    "family_name": "Rougemont",
+    "given_names": "Denis",
+    "name_prefix": null,
+    "name_particles": "de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "rougemont_denis",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "decker, gunnar",
+    "composite_id": [
+      "biographie_281_12_27"
+    ],
+    "family_name": "Decker",
+    "given_names": "Gunnar",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "decker_gunnar",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "dedenbach-salazar-saenz, sabine",
+    "composite_id": [
+      "bibliophile_35_2_10"
+    ],
+    "family_name": "Dedenbach-Salazar-Saenz",
+    "given_names": "Sabine",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "dedenbachsalazarsaenz_sabine",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "defregger, hans peter",
+    "composite_id": [
+      "kunstbuecher_82_4_38"
+    ],
+    "family_name": "Defregger",
+    "given_names": "Hans Peter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "defregger_hans_p",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "dehio",
+    "composite_id": [
+      "oesterreich_189_8_13"
+    ],
+    "family_name": "Dehio",
+    "given_names": "Georg",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "dehio_georg",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "deissinger, hans",
+    "composite_id": [
+      "signierte_36_2_10"
+    ],
+    "family_name": "Deissinger",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "deissinger_hans",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "delevoy, robert l.",
+    "composite_id": [
+      "kunstbuecher_297_12_38"
+    ],
+    "family_name": "Delevoy",
+    "given_names": "Robert L.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "delevoy_robert_l",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "delitzsch, friedrich",
+    "composite_id": [
+      "aegypten_15_1_3"
+    ],
+    "family_name": "Delitzsch",
+    "given_names": "Friedrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "delitzsch_friedrich",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "delius, nicolaus",
+    "composite_id": [
+      "briefe_329_14_15"
+    ],
+    "family_name": "Delius",
+    "given_names": "Nicolaus",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "delius_nicolaus",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "delumeau, jean",
+    "composite_id": [
+      "fremdsprachige_323_13_38"
+    ],
+    "family_name": "Delumeau",
+    "given_names": "Jean",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "delumeau_jean",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "demus, jakob",
+    "composite_id": [
+      "autographen_6_1_2"
+    ],
+    "family_name": "Demus",
+    "given_names": "Jakob",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "demus_jakob",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "denninger, edgar",
+    "composite_id": [
+      "kunstbuecher_860_35_38"
+    ],
+    "family_name": "Denninger",
+    "given_names": "Edgar",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "denninger_edgar",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "deren, maya",
+    "composite_id": [
+      "mythologie_11_1_3"
+    ],
+    "family_name": "Deren",
+    "given_names": "Maya",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "deren_maya",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "dermutz, klaus",
+    "composite_id": [
+      "musik_173_7_11"
+    ],
+    "family_name": "Dermutz",
+    "given_names": "Klaus",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "dermutz_klaus",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "desch, kurt",
+    "composite_id": [
+      "buch_107_5_8"
+    ],
+    "family_name": "Desch",
+    "given_names": "Kurt",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "desch_kurt",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "detken, h.",
+    "composite_id": [
+      "reisen_125_6_13"
+    ],
+    "family_name": "Detken",
+    "given_names": "H.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "detken_h",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "deutscher buchgewerbeverein",
+    "composite_id": [
+      "buch_6_1_8"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Deutscher Buchgewerbeverein",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "deutscher_buchgewerbeverein",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "deutschmeisterbund",
+    "composite_id": [
+      "oesterreich_65_3_13"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Deutschmeisterbund",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "deutschmeisterbund",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "die deutsche bibliothek, leipzig, frankfurt am main und berlin und die stiftung buchkunst frankfurt am main und leipzig",
+    "composite_id": [
+      "buch_175_8_8"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Die Deutsche Bibliothek, Leipzig, Frankfurt am Main und Berlin und die Stiftung Buchkunst Frankfurt am Main und Leipzig",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "die_deutsche_bibliothek_leipzig_frankfurt_am_main_und_berlin_und_die_stiftung_buchkunst_frankfurt_am_main_und_leipzig",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "diebener, wilhelm",
+    "composite_id": [
+      "sonstiges_6_1_4"
+    ],
+    "family_name": "Diebener",
+    "given_names": "Wilhelm",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "diebener_wilhelm",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "dieckmann, friedrich",
+    "composite_id": [
+      "biographie_543_22_27"
+    ],
+    "family_name": "Dieckmann",
+    "given_names": "Friedrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "dieckmann_friedrich",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "dietrichs, hermann",
+    "composite_id": [
+      "bibliophile_15_1_10"
+    ],
+    "family_name": "Dietrichs",
+    "given_names": "Hermann",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "dietrichs_hermann",
+    "_source_custom_id": "batch_nopes_007"
+  },
+  {
+    "display_norm": "diller, hans",
+    "composite_id": [
+      "antike_65_3_9"
+    ],
+    "family_name": "Diller",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "diller_hans",
+    "_source_custom_id": "batch_nopes_007"
+  }
+]

@@ -1,0 +1,472 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "paulus, g.",
+      "composite_id": [
+        "kinder_45_2_4"
+      ],
+      "family_name": "Paulus",
+      "given_names": "G.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "paulus",
+      "first_norm": "g.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pe, li tai",
+      "composite_id": [
+        "insel_456_19_27"
+      ],
+      "family_name": "PE",
+      "given_names": "LI TAI",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pe",
+      "first_norm": "li tai",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pechmann, alexander",
+      "composite_id": [
+        "briefe_129_6_15"
+      ],
+      "family_name": "Pechmann",
+      "given_names": "Alexander",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pechmann",
+      "first_norm": "alexander",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pecho, brigitte",
+      "composite_id": [
+        "kunstbuecher_262_11_38"
+      ],
+      "family_name": "Pecho",
+      "given_names": "Brigitte",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pecho",
+      "first_norm": "brigitte",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "peege, emil",
+      "composite_id": [
+        "oesterreich_249_10_13"
+      ],
+      "family_name": "PEEGE",
+      "given_names": "Emil",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "peege",
+      "first_norm": "emil",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pelsaert, francois",
+      "composite_id": [
+        "reisen_240_10_13"
+      ],
+      "family_name": "PELSAERT",
+      "given_names": "Francois",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pelsaert",
+      "first_norm": "francois",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pereire, alfred",
+      "composite_id": [
+        "buch_108_5_8"
+      ],
+      "family_name": "Pereire",
+      "given_names": "Alfred",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pereire",
+      "first_norm": "alfred",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pernice, e.",
+      "composite_id": [
+        "kunstbuecher_241_10_38"
+      ],
+      "family_name": "Pernice",
+      "given_names": "E.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pernice",
+      "first_norm": "e.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "peter, m.",
+      "composite_id": [
+        "sonstiges_27_2_4"
+      ],
+      "family_name": "PETER",
+      "given_names": "M.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "peter",
+      "first_norm": "m.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "petermann, erwin",
+      "composite_id": [
+        "kunstbuecher_401_17_38"
+      ],
+      "family_name": "PETERMANN",
+      "given_names": "Erwin",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "petermann",
+      "first_norm": "erwin",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "petschar, hans",
+      "composite_id": [
+        "okkultismus_0_1_8",
+        "oesterreich_33_2_13"
+      ],
+      "family_name": "Petschar",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "petschar",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pezold, m. v.",
+      "composite_id": [
+        "russland_4_1_17"
+      ],
+      "family_name": "Pezold",
+      "given_names": "M. v.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pezold",
+      "first_norm": "m. v.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pfeuffer, hans",
+      "composite_id": [
+        "oesterreich_23_1_13"
+      ],
+      "family_name": "Pfeuffer",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pfeuffer",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "philippovich, eugen von",
+      "composite_id": [
+        "kunstbuecher_834_34_38"
+      ],
+      "family_name": "Philippovich",
+      "given_names": "Eugen von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "philippovich",
+      "first_norm": "eugen von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pieber, margit",
+      "composite_id": [
+        "kunstbuecher_71_3_38"
+      ],
+      "family_name": "Pieber",
+      "given_names": "Margit",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pieber",
+      "first_norm": "margit",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "piranesi, giovanni battista",
+      "composite_id": [
+        "kunstbuecher_847_34_38"
+      ],
+      "family_name": "PIRANESI",
+      "given_names": "Giovanni Battista",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "piranesi",
+      "first_norm": "giovanni battista",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pissarro, joachim",
+      "composite_id": [
+        "kunstbuecher_415_17_38"
+      ],
+      "family_name": "PISSARRO",
+      "given_names": "Joachim",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pissarro",
+      "first_norm": "joachim",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pleschinski, hans",
+      "composite_id": [
+        "briefe_66_3_15"
+      ],
+      "family_name": "Pleschinski",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pleschinski",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pletnjowa, swetlana alexandrowna",
+      "composite_id": [
+        "mittelalter_84_4_7"
+      ],
+      "family_name": "PLETNJOWA",
+      "given_names": "Swetlana Alexandrowna",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pletnjowa",
+      "first_norm": "swetlana alexandrowna",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "podewils, clemens graf",
+      "composite_id": [
+        "zeitschriften_3_1_1"
+      ],
+      "family_name": "Podewils",
+      "given_names": "Clemens Graf",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "podewils",
+      "first_norm": "clemens graf",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pohanka, reinhard",
+      "composite_id": [
+        "wien_91_4_10"
+      ],
+      "family_name": "POHANKA",
+      "given_names": "Reinhard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pohanka",
+      "first_norm": "reinhard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pohl, c. f.",
+      "composite_id": [
+        "musik_84_4_11"
+      ],
+      "family_name": "Pohl",
+      "given_names": "C. F.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pohl",
+      "first_norm": "c. f.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ponente, nello",
+      "composite_id": [
+        "kunstbuecher_297_12_38"
+      ],
+      "family_name": "Ponente",
+      "given_names": "Nello",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ponente",
+      "first_norm": "nello",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "port, frieda",
+      "composite_id": [
+        "antike_199_8_9"
+      ],
+      "family_name": "PORT",
+      "given_names": "Frieda",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "port",
+      "first_norm": "frieda",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "portisch, hugo",
+      "composite_id": [
+        "wien_91_4_10"
+      ],
+      "family_name": "Portisch",
+      "given_names": "Hugo",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "portisch",
+      "first_norm": "hugo",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "portmann",
+      "composite_id": [
+        "literatur_268_11_12"
+      ],
+      "family_name": "Portmann",
+      "given_names": "Raul R.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "portmann",
+      "first_norm": "raul r.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "portmann, adolf",
+      "composite_id": [
+        "okkultismus_151_7_8"
+      ],
+      "family_name": "PORTMANN",
+      "given_names": "Adolf",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "portmann",
+      "first_norm": "adolf",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "poschmann, henri",
+      "composite_id": [
+        "de-lit-texte_85_4_20"
+      ],
+      "family_name": "Poschmann",
+      "given_names": "Henri",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "poschmann",
+      "first_norm": "henri",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "posselt, ernst ludwig",
+      "composite_id": [
+        "deutschland_84_4_4"
+      ],
+      "family_name": "POSSELT",
+      "given_names": "Ernst Ludwig",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "posselt",
+      "first_norm": "ernst ludwig",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "prange, peter",
+      "composite_id": [
+        "kunstbuecher_424_17_38"
+      ],
+      "family_name": "PRANGE",
+      "given_names": "Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "prange",
+      "first_norm": "peter",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 5207,
+      "unified_id": "petermann_reinhard",
+      "family_name": "Petermann",
+      "given_names": "Reinhard E.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 5208,
+      "unified_id": "petermann_werner",
+      "family_name": "Petermann",
+      "given_names": "Werner",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 5338,
+      "unified_id": "pohl_alfred",
+      "family_name": "Pohl",
+      "given_names": "Alfred",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 5339,
+      "unified_id": "pohl_walter",
+      "family_name": "Pohl",
+      "given_names": "Walter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 5297,
+      "unified_id": "pissarro_camille",
+      "family_name": "Pissarro",
+      "given_names": "Camille",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

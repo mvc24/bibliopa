@@ -1,0 +1,653 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "meixner, manfred",
+      "composite_id": [
+        "erstausgaben_601_25_78"
+      ],
+      "family_name": "Meixner",
+      "given_names": "Manfred",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "meixner",
+      "first_norm": "manfred",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "meldemann",
+      "composite_id": [
+        "bibliophile_163_7_10"
+      ],
+      "family_name": "Meldemann",
+      "given_names": "Niklas",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "meldemann",
+      "first_norm": "niklas",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mellach, kurt",
+      "composite_id": [
+        "neuzeit_0_1_4"
+      ],
+      "family_name": "Mellach",
+      "given_names": "Kurt",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mellach",
+      "first_norm": "kurt",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "melzer",
+      "composite_id": [
+        "erstausgaben_1265_51_78"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "MELZER",
+      "last_norm": "melzer",
+      "first_norm": "",
+      "single_norm": "melzer",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "menar, august von löwis of",
+      "composite_id": [
+        "maerchen_47_2_3"
+      ],
+      "family_name": "Menar",
+      "given_names": "August von Löwis of",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "menar",
+      "first_norm": "august von löwis of",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "menuhim, yehudi",
+      "composite_id": [
+        "insel_400_17_27"
+      ],
+      "family_name": "Menuhim",
+      "given_names": "Yehudi",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "menuhim",
+      "first_norm": "yehudi",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "merian",
+      "composite_id": [
+        "oesterreich_99_4_13"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "MERIAN",
+      "last_norm": "merian",
+      "first_norm": "",
+      "single_norm": "merian",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "metz, karl h.",
+      "composite_id": [
+        "geschichte_32_2_3"
+      ],
+      "family_name": "Metz",
+      "given_names": "Karl H.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "metz",
+      "first_norm": "karl h.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "metzke, erwin",
+      "composite_id": [
+        "philosophie_326_14_24"
+      ],
+      "family_name": "Metzke",
+      "given_names": "Erwin",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "metzke",
+      "first_norm": "erwin",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "meurer, julius",
+      "composite_id": [
+        "oesterreich_214_9_13"
+      ],
+      "family_name": "Meurer",
+      "given_names": "Julius",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "meurer",
+      "first_norm": "julius",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "meyer, raimund",
+      "composite_id": [
+        "de-lit-monographien_215_9_10"
+      ],
+      "family_name": "Meyer",
+      "given_names": "Raimund",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "meyer",
+      "first_norm": "raimund",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "meßlinger, karin",
+      "composite_id": [
+        "musik_173_7_11"
+      ],
+      "family_name": "Meßlinger",
+      "given_names": "Karin",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "meßlinger",
+      "first_norm": "karin",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "michalek, nikolaus",
+      "composite_id": [
+        "oesterreich_274_11_13"
+      ],
+      "family_name": "Michalek",
+      "given_names": "Nikolaus",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "michalek",
+      "first_norm": "nikolaus",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "michel, christoph",
+      "composite_id": [
+        "biographie_20_1_27",
+        "biographie_232_10_27"
+      ],
+      "family_name": "Michel",
+      "given_names": "Christoph",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "michel",
+      "first_norm": "christoph",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "michels, ursula",
+      "composite_id": [
+        "briefe_29_2_15"
+      ],
+      "family_name": "Michels",
+      "given_names": "Ursula",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "michels",
+      "first_norm": "ursula",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mießner, wilhelm",
+      "composite_id": [
+        "fremdsprachige_11_1_38"
+      ],
+      "family_name": "Mießner",
+      "given_names": "Wilhelm",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mießner",
+      "first_norm": "wilhelm",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mießner, w.",
+      "composite_id": [
+        "fremdsprachige_13_1_38"
+      ],
+      "family_name": "Mießner",
+      "given_names": "W.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mießner",
+      "first_norm": "w.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "milcinovic, andreas",
+      "composite_id": [
+        "geschichte_43_2_3"
+      ],
+      "family_name": "Milcinovic",
+      "given_names": "Andreas",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "milcinovic",
+      "first_norm": "andreas",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "milger, peter",
+      "composite_id": [
+        "mittelalter_140_6_7"
+      ],
+      "family_name": "MILGER",
+      "given_names": "Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "milger",
+      "first_norm": "peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "miller, bonifaz",
+      "composite_id": [
+        "religion_86_4_4"
+      ],
+      "family_name": "Miller",
+      "given_names": "Bonifaz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "miller",
+      "first_norm": "bonifaz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "millöcker, carl",
+      "composite_id": [
+        "musik_77_4_11"
+      ],
+      "family_name": "MILLÖCKER",
+      "given_names": "Carl",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "millöcker",
+      "first_norm": "carl",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "minchwitz, johannes",
+      "composite_id": [
+        "mythologie_56_3_3"
+      ],
+      "family_name": "Minchwitz",
+      "given_names": "Johannes",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "minchwitz",
+      "first_norm": "johannes",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "mirandola, giovanni pico della",
+      "composite_id": [
+        "renaissance_22_1_4"
+      ],
+      "family_name": "MIRANDOLA",
+      "given_names": "GIOVANNI PICO DELLA",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "mirandola",
+      "first_norm": "giovanni pico della",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "modersohn-becker, paula",
+      "composite_id": [
+        "insel_529_22_27"
+      ],
+      "family_name": "MODERSOHN-BECKER",
+      "given_names": "PAULA",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "modersohn-becker",
+      "first_norm": "paula",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "moeller, bernd",
+      "composite_id": [
+        "deutschland_8_1_4"
+      ],
+      "family_name": "Moeller",
+      "given_names": "Bernd",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "moeller",
+      "first_norm": "bernd",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "moeller-bruck, arthur",
+      "composite_id": [
+        "kunstbuecher_911_37_38",
+        "musik_78_4_11"
+      ],
+      "family_name": "Moeller-Bruck",
+      "given_names": "Arthur",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "moeller-bruck",
+      "first_norm": "arthur",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "moortgat, anton",
+      "composite_id": [
+        "aegypten_62_3_3"
+      ],
+      "family_name": "MOORTGAT",
+      "given_names": "Anton",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "moortgat",
+      "first_norm": "anton",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "morais, fernando",
+      "composite_id": [
+        "biographie_148_6_27"
+      ],
+      "family_name": "Morais",
+      "given_names": "Fernando",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "morais",
+      "first_norm": "fernando",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "morizet, jacques",
+      "composite_id": [
+        "neuzeit_16_1_4"
+      ],
+      "family_name": "Morizet",
+      "given_names": "Jacques",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "morizet",
+      "first_norm": "jacques",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "morlang, werner",
+      "composite_id": [
+        "briefe_67_3_15"
+      ],
+      "family_name": "Morlang",
+      "given_names": "Werner",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "morlang",
+      "first_norm": "werner",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 4566,
+      "unified_id": "melzer_gerhard",
+      "family_name": "Melzer",
+      "given_names": "Gerhard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4567,
+      "unified_id": "melzer_helmut",
+      "family_name": "Melzer",
+      "given_names": "Helmut",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4591,
+      "unified_id": "merian_caspar",
+      "family_name": "Merian",
+      "given_names": "Caspar",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4593,
+      "unified_id": "merian_maria_s",
+      "family_name": "Merian",
+      "given_names": "Maria Sibylla",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4594,
+      "unified_id": "merian_matthaeus",
+      "family_name": "Merian",
+      "given_names": "Matthäus",
+      "name_particles": "d.Ä.",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4649,
+      "unified_id": "michels_volker",
+      "family_name": "Michels",
+      "given_names": "Volker",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4624,
+      "unified_id": "meyer_conrad_f",
+      "family_name": "Meyer",
+      "given_names": "Conrad Ferdinand",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4625,
+      "unified_id": "meyer_eduard",
+      "family_name": "Meyer",
+      "given_names": "Eduard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4626,
+      "unified_id": "meyer_ernst",
+      "family_name": "Meyer",
+      "given_names": "Ernst",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4627,
+      "unified_id": "meyer_frank",
+      "family_name": "Meyer",
+      "given_names": "Frank",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4628,
+      "unified_id": "meyer_hans",
+      "family_name": "Meyer",
+      "given_names": "Hans",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4629,
+      "unified_id": "meyer_j_j",
+      "family_name": "Meyer",
+      "given_names": "J. J.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4630,
+      "unified_id": "meyer_karl-heinz",
+      "family_name": "Meyer",
+      "given_names": "Karl-Heinz",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4631,
+      "unified_id": "meyer_martin",
+      "family_name": "Meyer",
+      "given_names": "Martin",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4632,
+      "unified_id": "meyer_peter",
+      "family_name": "Meyer",
+      "given_names": "Peter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4633,
+      "unified_id": "meyer_raphael",
+      "family_name": "Meyer",
+      "given_names": "Raphael",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4634,
+      "unified_id": "meyer_ursula_i",
+      "family_name": "Meyer",
+      "given_names": "Ursula I.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4643,
+      "unified_id": "michel_karl_m",
+      "family_name": "Michel",
+      "given_names": "Karl Markus",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4644,
+      "unified_id": "michel_odile",
+      "family_name": "Michel",
+      "given_names": "Odile",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4645,
+      "unified_id": "michel_otto",
+      "family_name": "Michel",
+      "given_names": "Otto",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4663,
+      "unified_id": "miller_alice",
+      "family_name": "Miller",
+      "given_names": "Alice",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4664,
+      "unified_id": "miller_arthur",
+      "family_name": "Miller",
+      "given_names": "Arthur",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4665,
+      "unified_id": "miller_henry",
+      "family_name": "Miller",
+      "given_names": "Henry",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4666,
+      "unified_id": "miller_norbert",
+      "family_name": "Miller",
+      "given_names": "Norbert",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4667,
+      "unified_id": "miller_rolf",
+      "family_name": "Miller",
+      "given_names": "Rolf",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

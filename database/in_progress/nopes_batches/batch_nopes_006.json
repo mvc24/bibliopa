@@ -1,0 +1,526 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "campbell, james w.p.",
+      "composite_id": [
+        "kunstbuecher_17_1_38"
+      ],
+      "family_name": "Campbell",
+      "given_names": "James W.P.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "campbell",
+      "first_norm": "james w.p.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "cancik-kirschbaum, eva",
+      "composite_id": [
+        "aegypten_47_2_3"
+      ],
+      "family_name": "CANCIK-KIRSCHBAUM",
+      "given_names": "Eva",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "cancik-kirschbaum",
+      "first_norm": "eva",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "carrere d'encausse, helene",
+      "composite_id": [
+        "biographie_132_6_27"
+      ],
+      "family_name": "Carrere d'Encausse",
+      "given_names": "Helene",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "carrere d'encausse",
+      "first_norm": "helene",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "castaneda, jorge g.",
+      "composite_id": [
+        "biographie_133_6_27"
+      ],
+      "family_name": "CASTANEDA",
+      "given_names": "Jorge G.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "castaneda",
+      "first_norm": "jorge g.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "cavell, stanley",
+      "composite_id": [
+        "philosophie_335_14_24"
+      ],
+      "family_name": "Cavell",
+      "given_names": "Stanley",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "cavell",
+      "first_norm": "stanley",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "caysa, volker",
+      "composite_id": [
+        "philosophie_551_23_24"
+      ],
+      "family_name": "Caysa",
+      "given_names": "Volker",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "caysa",
+      "first_norm": "volker",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "cetto, bruno",
+      "composite_id": [
+        "sonstiges_49_2_4"
+      ],
+      "family_name": "CETTO",
+      "given_names": "Bruno",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "cetto",
+      "first_norm": "bruno",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "chaimowicz, georg",
+      "composite_id": [
+        "kunstbuecher_71_3_38"
+      ],
+      "family_name": "CHAIMOWICZ",
+      "given_names": "Georg",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "chaimowicz",
+      "first_norm": "georg",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "chardin, teilhard de",
+      "composite_id": [
+        "suchliste_49_2_3"
+      ],
+      "family_name": "CHARDIN",
+      "given_names": "TEILHARD DE",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "chardin",
+      "first_norm": "teilhard de",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "charpentier, john",
+      "composite_id": [
+        "okkultismus_18_1_8"
+      ],
+      "family_name": "CHARPENTIER",
+      "given_names": "John",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "charpentier",
+      "first_norm": "john",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "chesterfield, philip dormer stanhope earl of",
+      "composite_id": [
+        "fremdsprachige_252_11_38"
+      ],
+      "family_name": "CHESTERFIELD",
+      "given_names": "Philip Dormer Stanhope Earl of",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "chesterfield",
+      "first_norm": "philip dormer stanhope earl of",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "chiavacci, vinzenz jun.",
+      "composite_id": [
+        "briefe_324_13_15"
+      ],
+      "family_name": "Chiavacci",
+      "given_names": "Vinzenz Jun.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "chiavacci",
+      "first_norm": "vinzenz jun.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "christian, curt",
+      "composite_id": [
+        "biographie_8_1_27"
+      ],
+      "family_name": "CHRISTIAN",
+      "given_names": "Curt",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "christian",
+      "first_norm": "curt",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "cioran",
+      "composite_id": [
+        "philosophie_410_17_24"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "CIORAN",
+      "last_norm": "cioran",
+      "first_norm": "",
+      "single_norm": "cioran",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "clausewitz, karl von",
+      "composite_id": [
+        "insel_277_12_27"
+      ],
+      "family_name": "CLAUSEWITZ",
+      "given_names": "Karl von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "clausewitz",
+      "first_norm": "karl von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "claussnitzer, gert",
+      "composite_id": [
+        "kunstbuecher_620_25_38"
+      ],
+      "family_name": "CLAUSSNITZER",
+      "given_names": "Gert",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "claussnitzer",
+      "first_norm": "gert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "clerici, fabrizio",
+      "composite_id": [
+        "kunstbuecher_338_14_38"
+      ],
+      "family_name": "Clerici",
+      "given_names": "Fabrizio",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "clerici",
+      "first_norm": "fabrizio",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "conan doyle, arthur",
+      "composite_id": [
+        "briefe_129_6_15"
+      ],
+      "family_name": "CONAN DOYLE",
+      "given_names": "Arthur",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "conan doyle",
+      "first_norm": "arthur",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "cook, edward",
+      "composite_id": [
+        "fruehes_95_4_4"
+      ],
+      "family_name": "Cook",
+      "given_names": "Edward",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "cook",
+      "first_norm": "edward",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "corbusier, le",
+      "composite_id": [
+        "kunstbuecher_308_13_38"
+      ],
+      "family_name": "CORBUSIER",
+      "given_names": "LE",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "corbusier",
+      "first_norm": "le",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "cordan, wolfgang",
+      "composite_id": [
+        "mythologie_9_1_3"
+      ],
+      "family_name": "CORDAN",
+      "given_names": "Wolfgang",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "cordan",
+      "first_norm": "wolfgang",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "corot, camille",
+      "composite_id": [
+        "kunstbuecher_623_25_38"
+      ],
+      "family_name": "COROT",
+      "given_names": "Camille",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "corot",
+      "first_norm": "camille",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "creuzberger, stefan",
+      "composite_id": [
+        "russland_314_13_17"
+      ],
+      "family_name": "Creuzberger",
+      "given_names": "Stefan",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "creuzberger",
+      "first_norm": "stefan",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "crusenstolpe",
+      "composite_id": [
+        "suchliste_7_1_3"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "CRUSENSTOLPE",
+      "last_norm": "crusenstolpe",
+      "first_norm": "",
+      "single_norm": "crusenstolpe",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "csokor",
+      "composite_id": [
+        "de-lit-monographien_70_3_10"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "CSOKOR",
+      "last_norm": "csokor",
+      "first_norm": "",
+      "single_norm": "csokor",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "curcio, giovanni",
+      "composite_id": [
+        "kunstbuecher_486_20_38"
+      ],
+      "family_name": "Curcio",
+      "given_names": "Giovanni",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "curcio",
+      "first_norm": "giovanni",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "czezik-müller",
+      "composite_id": [
+        "oesterreich_23_1_13"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Czezik-Müller",
+      "last_norm": "czezik-müller",
+      "first_norm": "",
+      "single_norm": "czezik-müller",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "daenert, r.",
+      "composite_id": [
+        "kinder_15_1_4"
+      ],
+      "family_name": "Daenert",
+      "given_names": "R.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "daenert",
+      "first_norm": "r.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "danielis, friedrich",
+      "composite_id": [
+        "kunstbuecher_78_4_38",
+        "kunstbuecher_79_4_38"
+      ],
+      "family_name": "DANIELIS",
+      "given_names": "Friedrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "danielis",
+      "first_norm": "friedrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "danszky, eduard paul",
+      "composite_id": [
+        "signierte_35_2_10"
+      ],
+      "family_name": "DANSZKY",
+      "given_names": "Eduard Paul",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "danszky",
+      "first_norm": "eduard paul",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 979,
+      "unified_id": "campbell_g_a",
+      "family_name": "Campbell",
+      "given_names": "G.A.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 980,
+      "unified_id": "campbell_joseph",
+      "family_name": "Campbell",
+      "given_names": "Joseph",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1194,
+      "unified_id": "crusenstolpe_magnus_j",
+      "family_name": "Crusenstolpe",
+      "given_names": "Magnus J.",
+      "name_particles": "von",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1065,
+      "unified_id": "chesterfield_lord",
+      "family_name": "Chesterfield",
+      "given_names": "Philip Dormer Stanhope",
+      "name_particles": "Earl of",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1058,
+      "unified_id": "charpentier_louis",
+      "family_name": "Charpentier",
+      "given_names": "Louis",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1096,
+      "unified_id": "cioran_e_m",
+      "family_name": "Cioran",
+      "given_names": "E.M.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1148,
+      "unified_id": "cook",
+      "family_name": null,
+      "given_names": null,
+      "name_particles": null,
+      "single_name": "Cook",
+      "is_organisation": false
+    },
+    {
+      "person_id": 1149,
+      "unified_id": "cook_james",
+      "family_name": "Cook",
+      "given_names": "James",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1106,
+      "unified_id": "clausewitz_karl",
+      "family_name": "Clausewitz",
+      "given_names": "Karl",
+      "name_particles": "von",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1196,
+      "unified_id": "csokor_franz_t",
+      "family_name": "Csokor",
+      "given_names": "Franz Theodor",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 1068,
+      "unified_id": "chiavacci_vinzenz",
+      "family_name": "Chiavacci",
+      "given_names": "Vinzenz",
+      "name_particles": "Jun.",
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

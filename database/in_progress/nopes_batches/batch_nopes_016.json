@@ -1,0 +1,501 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "huber, ferdinand ludwig",
+      "composite_id": [
+        "musik_90_4_11"
+      ],
+      "family_name": "HUBER",
+      "given_names": "Ferdinand Ludwig",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "huber",
+      "first_norm": "ferdinand ludwig",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "huber, martin",
+      "composite_id": [
+        "erstausgaben_238_10_78",
+        "erstausgaben_226_10_78"
+      ],
+      "family_name": "Huber",
+      "given_names": "Martin",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "huber",
+      "first_norm": "martin",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "humboldt, a. v.",
+      "composite_id": [
+        "reisen_258_11_13"
+      ],
+      "family_name": "Humboldt",
+      "given_names": "A. v.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "humboldt",
+      "first_norm": "a. v.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hurm, otto",
+      "composite_id": [
+        "erstausgaben_1440_58_78"
+      ],
+      "family_name": "Hurm",
+      "given_names": "Otto",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hurm",
+      "first_norm": "otto",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "husslein-arco, agnes",
+      "composite_id": [
+        "kunstbuecher_524_21_38"
+      ],
+      "family_name": "Husslein-Arco",
+      "given_names": "Agnes",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "husslein-arco",
+      "first_norm": "agnes",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hutter, heribert",
+      "composite_id": [
+        "kunstbuecher_188_8_38"
+      ],
+      "family_name": "Hutter",
+      "given_names": "Heribert",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hutter",
+      "first_norm": "heribert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hutter, wolfgang",
+      "composite_id": [
+        "kunstbuecher_240_10_38"
+      ],
+      "family_name": "HUTTER",
+      "given_names": "Wolfgang",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hutter",
+      "first_norm": "wolfgang",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "höch, hannah",
+      "composite_id": [
+        "kunstbuecher_209_9_38"
+      ],
+      "family_name": "HÖCH",
+      "given_names": "Hannah",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "höch",
+      "first_norm": "hannah",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "höhne, horst",
+      "composite_id": [
+        "briefe_336_14_15"
+      ],
+      "family_name": "Höhne",
+      "given_names": "Horst",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "höhne",
+      "first_norm": "horst",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hölbling, lothar",
+      "composite_id": [
+        "wien_51_3_10"
+      ],
+      "family_name": "Hölbling",
+      "given_names": "Lothar",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hölbling",
+      "first_norm": "lothar",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hölter, achim",
+      "composite_id": [
+        "monographien_55_3_3"
+      ],
+      "family_name": "Hölter",
+      "given_names": "Achim",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hölter",
+      "first_norm": "achim",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hörisch, jochen",
+      "composite_id": [
+        "literatur_141_6_12",
+        "de-lit-texte_8_1_20"
+      ],
+      "family_name": "HÖRISCH",
+      "given_names": "Jochen",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hörisch",
+      "first_norm": "jochen",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hörmann, werner",
+      "composite_id": [
+        "okkultismus_41_2_8"
+      ],
+      "family_name": "Hörmann",
+      "given_names": "Werner",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hörmann",
+      "first_norm": "werner",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "hüttenegger, bernhard",
+      "composite_id": [
+        "signierte_94_4_10"
+      ],
+      "family_name": "HÜTTENEGGER",
+      "given_names": "Bernhard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "hüttenegger",
+      "first_norm": "bernhard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ib, giovanni di boccaccio",
+      "composite_id": [
+        "insel_297_12_27"
+      ],
+      "family_name": "IB",
+      "given_names": "GIOVANNI DI BOCCACCIO",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ib",
+      "first_norm": "giovanni di boccaccio",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ib, paul hindemith",
+      "composite_id": [
+        "insel_523_21_27"
+      ],
+      "family_name": "IB",
+      "given_names": "PAUL HINDEMITH",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ib",
+      "first_norm": "paul hindemith",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ifflandt, august",
+      "composite_id": [
+        "musik_90_4_11"
+      ],
+      "family_name": "IFFLANDT",
+      "given_names": "August",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ifflandt",
+      "first_norm": "august",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ifrah, georges",
+      "composite_id": [
+        "sonstiges_19_1_4"
+      ],
+      "family_name": "IFRAH",
+      "given_names": "Georges",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ifrah",
+      "first_norm": "georges",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ingeborg",
+      "composite_id": [
+        "russland_283_12_17"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Ingeborg",
+      "last_norm": "ingeborg",
+      "first_norm": "",
+      "single_norm": "ingeborg",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ingrisch, lotte",
+      "composite_id": [
+        "oesterreich_72_3_13"
+      ],
+      "family_name": "Ingrisch",
+      "given_names": "Lotte",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ingrisch",
+      "first_norm": "lotte",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "innerhofer, roland",
+      "composite_id": [
+        "oesterreich_215_9_13"
+      ],
+      "family_name": "INNERHOFER",
+      "given_names": "Roland",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "innerhofer",
+      "first_norm": "roland",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "internationale stiftung mozarteum salzburg",
+      "composite_id": [
+        "musik_82_4_11"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Internationale Stiftung Mozarteum Salzburg",
+      "last_norm": "internationale stiftung mozarteum salzburg",
+      "first_norm": "",
+      "single_norm": "internationale stiftung mozarteum salzburg",
+      "is_organisation": true
+    },
+    {
+      "display_norm": "isaacs, reginald r.",
+      "composite_id": [
+        "biographie_301_13_27"
+      ],
+      "family_name": "ISAACS",
+      "given_names": "Reginald R.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "isaacs",
+      "first_norm": "reginald r.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ivanka, endre von",
+      "composite_id": [
+        "mittelalter_57_3_7"
+      ],
+      "family_name": "IVANKA",
+      "given_names": "Endre von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ivanka",
+      "first_norm": "endre von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jacobi, renate",
+      "composite_id": [
+        "islam_12_1_3"
+      ],
+      "family_name": "Jacobi",
+      "given_names": "Renate",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jacobi",
+      "first_norm": "renate",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jakubinski",
+      "composite_id": [
+        "russland_311_13_17"
+      ],
+      "family_name": "Jakubinski",
+      "given_names": "Lew",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jakubinski",
+      "first_norm": "lew",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jamblich",
+      "composite_id": [
+        "griechenland_69_3_10"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Jamblich",
+      "last_norm": "jamblich",
+      "first_norm": "",
+      "single_norm": "jamblich",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "janosch",
+      "composite_id": [
+        "illustrierte_178_8_14",
+        "kinder_37_2_4"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Janosch",
+      "last_norm": "janosch",
+      "first_norm": "",
+      "single_norm": "janosch",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jansen, elmar",
+      "composite_id": [
+        "insel_6_1_27"
+      ],
+      "family_name": "Jansen",
+      "given_names": "Elmar",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jansen",
+      "first_norm": "elmar",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "jansohn, christa",
+      "composite_id": [
+        "buch_40_2_8"
+      ],
+      "family_name": "Jansohn",
+      "given_names": "Christa",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "jansohn",
+      "first_norm": "christa",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 3132,
+      "unified_id": "innerhofer_franz",
+      "family_name": "Innerhofer",
+      "given_names": "Franz",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3062,
+      "unified_id": "huber_johannes",
+      "family_name": "Huber",
+      "given_names": "Johannes",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3063,
+      "unified_id": "huber_wolf",
+      "family_name": "Huber",
+      "given_names": "Wolf",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3088,
+      "unified_id": "humboldt_alexander_von",
+      "family_name": "Humboldt",
+      "given_names": "Alexander",
+      "name_particles": "von",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3089,
+      "unified_id": "humboldt_wilhelm_von",
+      "family_name": "Humboldt",
+      "given_names": "Wilhelm",
+      "name_particles": "von",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3161,
+      "unified_id": "jacobi",
+      "family_name": null,
+      "given_names": null,
+      "name_particles": null,
+      "single_name": "Jacobi",
+      "is_organisation": false
+    },
+    {
+      "person_id": 3162,
+      "unified_id": "jacobi_jolande",
+      "family_name": "Jacobi",
+      "given_names": "Jolande",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3163,
+      "unified_id": "jacobi_lucy_v",
+      "family_name": "Jacobi",
+      "given_names": "Lucy",
+      "name_particles": "v.",
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

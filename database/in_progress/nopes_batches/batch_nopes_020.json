@@ -1,0 +1,695 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "koschatzky",
+      "composite_id": [
+        "kunstbuecher_105_5_38"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Koschatzky",
+      "last_norm": "koschatzky",
+      "first_norm": "",
+      "single_norm": "koschatzky",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "koschel, christine",
+      "composite_id": [
+        "briefe_80_4_15",
+        "erstausgaben_171_7_78"
+      ],
+      "family_name": "Koschel",
+      "given_names": "Christine",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "koschel",
+      "first_norm": "christine",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kosssodo, helmut",
+      "composite_id": [
+        "fremdsprachige_458_19_38"
+      ],
+      "family_name": "Kosssodo",
+      "given_names": "Helmut",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kosssodo",
+      "first_norm": "helmut",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kotowski, elke-vera",
+      "composite_id": [
+        "judentum_89_4_9"
+      ],
+      "family_name": "Kotowski",
+      "given_names": "Elke-Vera",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kotowski",
+      "first_norm": "elke-vera",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "krabbo, hermann",
+      "composite_id": [
+        "oesterreich_85_4_13"
+      ],
+      "family_name": "KRABBO",
+      "given_names": "Hermann",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "krabbo",
+      "first_norm": "hermann",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kraus",
+      "composite_id": [
+        "suchliste_28_2_3"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "KRAUS",
+      "last_norm": "kraus",
+      "first_norm": "",
+      "single_norm": "kraus",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "krek, johann",
+      "composite_id": [
+        "geschichte_43_2_3"
+      ],
+      "family_name": "Krek",
+      "given_names": "Johann",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "krek",
+      "first_norm": "johann",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "krempien, rainer",
+      "composite_id": [
+        "musik_132_6_11"
+      ],
+      "family_name": "Krempien",
+      "given_names": "Rainer",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "krempien",
+      "first_norm": "rainer",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kriehuber, f.",
+      "composite_id": [
+        "wien_94_4_10"
+      ],
+      "family_name": "Kriehuber",
+      "given_names": "F.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kriehuber",
+      "first_norm": "f.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kristeva",
+      "composite_id": [
+        "literatur_273_11_12"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Kristeva",
+      "last_norm": "kristeva",
+      "first_norm": "",
+      "single_norm": "kristeva",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "krogt, peter van der",
+      "composite_id": [
+        "reisen_95_4_13"
+      ],
+      "family_name": "KROGT",
+      "given_names": "Peter van der",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "krogt",
+      "first_norm": "peter van der",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kropotkin, peter",
+      "composite_id": [
+        "signierte_112_5_10"
+      ],
+      "family_name": "KROPOTKIN",
+      "given_names": "Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kropotkin",
+      "first_norm": "peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "krotsch, franz",
+      "composite_id": [
+        "russland_180_8_17"
+      ],
+      "family_name": "KROTSCH",
+      "given_names": "Franz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "krotsch",
+      "first_norm": "franz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "krüger, gerhard",
+      "composite_id": [
+        "philosophie_205_9_24"
+      ],
+      "family_name": "Krüger",
+      "given_names": "Gerhard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "krüger",
+      "first_norm": "gerhard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kubelik, rafael",
+      "composite_id": [
+        "autographen_21_1_2"
+      ],
+      "family_name": "KUBELIK",
+      "given_names": "Rafael",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kubelik",
+      "first_norm": "rafael",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kubin",
+      "composite_id": [
+        "kunstbuecher_119_5_38"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Kubin",
+      "last_norm": "kubin",
+      "first_norm": "",
+      "single_norm": "kubin",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kugler, franz",
+      "composite_id": [
+        "deutschland_25_2_4"
+      ],
+      "family_name": "KUGLER",
+      "given_names": "Franz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kugler",
+      "first_norm": "franz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kuprejanov, nikolai nikolajevic",
+      "composite_id": [
+        "russland_10_1_17"
+      ],
+      "family_name": "KUPREJANOV",
+      "given_names": "Nikolai Nikolajevic",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kuprejanov",
+      "first_norm": "nikolai nikolajevic",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kurz, isolde",
+      "composite_id": [
+        "erstausgaben_782_32_78",
+        "erstausgaben_781_32_78",
+        "erstausgaben_783_32_78"
+      ],
+      "family_name": "KURZ",
+      "given_names": "Isolde",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kurz",
+      "first_norm": "isolde",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kuthy, sandor",
+      "composite_id": [
+        "kunstbuecher_204_9_38"
+      ],
+      "family_name": "Kuthy",
+      "given_names": "Sandor",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kuthy",
+      "first_norm": "sandor",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kutschera, rolf",
+      "composite_id": [
+        "signierte_179_8_10"
+      ],
+      "family_name": "Kutschera",
+      "given_names": "Rolf",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kutschera",
+      "first_norm": "rolf",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kutzner, j.g.",
+      "composite_id": [
+        "kinder_39_2_4"
+      ],
+      "family_name": "Kutzner",
+      "given_names": "J.G.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kutzner",
+      "first_norm": "j.g.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kuzmich, franz",
+      "composite_id": [
+        "kunstbuecher_908_37_38"
+      ],
+      "family_name": "Kuzmich",
+      "given_names": "Franz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kuzmich",
+      "first_norm": "franz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kyselak",
+      "composite_id": [
+        "oesterreich_89_4_13"
+      ],
+      "family_name": "Kyselak",
+      "given_names": "Josef",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kyselak",
+      "first_norm": "josef",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "köhler, walther",
+      "composite_id": [
+        "renaissance_16_1_4",
+        "renaissance_44_2_4"
+      ],
+      "family_name": "Köhler",
+      "given_names": "Walther",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "köhler",
+      "first_norm": "walther",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "köhler, erich",
+      "composite_id": [
+        "monographien_40_2_3"
+      ],
+      "family_name": "KÖHLER",
+      "given_names": "Erich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "köhler",
+      "first_norm": "erich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "köhler, bruno",
+      "composite_id": [
+        "kunstbuecher_758_31_38"
+      ],
+      "family_name": "KÖHLER",
+      "given_names": "Bruno",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "köhler",
+      "first_norm": "bruno",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "köller, ernst",
+      "composite_id": [
+        "kunstbuecher_109_5_38"
+      ],
+      "family_name": "Köller",
+      "given_names": "Ernst",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "köller",
+      "first_norm": "ernst",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "könig, roderich",
+      "composite_id": [
+        "antike_111_5_9"
+      ],
+      "family_name": "König",
+      "given_names": "Roderich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "könig",
+      "first_norm": "roderich",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 3635,
+      "unified_id": "konig_e_p",
+      "family_name": "König",
+      "given_names": "E.P.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3636,
+      "unified_id": "konig_eberhard",
+      "family_name": "König",
+      "given_names": "Eberhard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3637,
+      "unified_id": "konig_eva",
+      "family_name": "König",
+      "given_names": "Eva",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3638,
+      "unified_id": "konig_franz",
+      "family_name": "König",
+      "given_names": "Franz",
+      "name_particles": "Kardinal",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3639,
+      "unified_id": "konig_helmut",
+      "family_name": "König",
+      "given_names": "Helmut",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3640,
+      "unified_id": "konig_paul",
+      "family_name": "König",
+      "given_names": "Paul",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3641,
+      "unified_id": "konig_rene",
+      "family_name": "König",
+      "given_names": "Rene",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3642,
+      "unified_id": "konig_traugott",
+      "family_name": "König",
+      "given_names": "Traugott",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3643,
+      "unified_id": "konig_wilhelm",
+      "family_name": "König",
+      "given_names": "Wilhelm",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3671,
+      "unified_id": "koschatzky_walter",
+      "family_name": "Koschatzky",
+      "given_names": "Walter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3789,
+      "unified_id": "kubin_alfred",
+      "family_name": "Kubin",
+      "given_names": "Alfred",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3795,
+      "unified_id": "kugler_bernhard",
+      "family_name": "Kugler",
+      "given_names": "Bernhard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3796,
+      "unified_id": "kugler_walter",
+      "family_name": "Kugler",
+      "given_names": "Walter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3600,
+      "unified_id": "kohler_harry",
+      "family_name": "Köhler",
+      "given_names": "Harry",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3601,
+      "unified_id": "kohler_hartmut",
+      "family_name": "Köhler",
+      "given_names": "Hartmut",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3602,
+      "unified_id": "kohler_joachim",
+      "family_name": "Köhler",
+      "given_names": "Joachim",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3604,
+      "unified_id": "kohler_rolf",
+      "family_name": "Köhler",
+      "given_names": "Rolf",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3758,
+      "unified_id": "kristeva_julia",
+      "family_name": "Kristeva",
+      "given_names": "Julia",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3776,
+      "unified_id": "kruger_manfred",
+      "family_name": "Krüger",
+      "given_names": "Manfred",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3777,
+      "unified_id": "kruger_max",
+      "family_name": "Krüger",
+      "given_names": "Max",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3778,
+      "unified_id": "kruger_michael",
+      "family_name": "Krüger",
+      "given_names": "Michael",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3779,
+      "unified_id": "kruger_paul",
+      "family_name": "Krüger",
+      "given_names": "Paul",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3718,
+      "unified_id": "kraus_carl_von",
+      "family_name": "Kraus",
+      "given_names": "Carl",
+      "name_particles": "von",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3719,
+      "unified_id": "kraus_gottfried",
+      "family_name": "Kraus",
+      "given_names": "Gottfried",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3720,
+      "unified_id": "kraus_hans_p",
+      "family_name": "Kraus",
+      "given_names": "Hans Peter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3721,
+      "unified_id": "kraus_karl",
+      "family_name": "Kraus",
+      "given_names": "Karl",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3722,
+      "unified_id": "kraus_walther",
+      "family_name": "Kraus",
+      "given_names": "Walther",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3723,
+      "unified_id": "kraus_werner",
+      "family_name": "Kraus",
+      "given_names": "Werner",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3724,
+      "unified_id": "kraus_wolfgang",
+      "family_name": "Kraus",
+      "given_names": "Wolfgang",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3849,
+      "unified_id": "kurz_m",
+      "family_name": "Kurz",
+      "given_names": "M.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3850,
+      "unified_id": "kurz_ursula",
+      "family_name": "Kurz",
+      "given_names": "Ursula",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "biron, georg",
+      "composite_id": [
+        "biographie_45_2_27"
+      ],
+      "family_name": "Biron",
+      "given_names": "Georg",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "biron",
+      "first_norm": "georg",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bismarck, otto von",
+      "composite_id": [
+        "briefe_100_5_15"
+      ],
+      "family_name": "BISMARCK",
+      "given_names": "Otto von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bismarck",
+      "first_norm": "otto von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "blaeu, joan",
+      "composite_id": [
+        "reisen_95_4_13"
+      ],
+      "family_name": "BLAEU",
+      "given_names": "Joan",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "blaeu",
+      "first_norm": "joan",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bleichsteiner, robert",
+      "composite_id": [
+        "buddhismus_46_2_3"
+      ],
+      "family_name": "BLEICHSTEINER",
+      "given_names": "Robert",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bleichsteiner",
+      "first_norm": "robert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bligh, william",
+      "composite_id": [
+        "reisen_96_4_13"
+      ],
+      "family_name": "BLIGH",
+      "given_names": "William",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bligh",
+      "first_norm": "william",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "blixen, tanja",
+      "composite_id": [
+        "biographie_105_5_27"
+      ],
+      "family_name": "BLIXEN",
+      "given_names": "Tanja",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "blixen",
+      "first_norm": "tanja",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "blixen, tania",
+      "composite_id": [
+        "fremdsprachige_141_6_38"
+      ],
+      "family_name": "BLIXEN",
+      "given_names": "Tania",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "blixen",
+      "first_norm": "tania",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "block, w. paul",
+      "composite_id": [
+        "deutschland_9_1_4"
+      ],
+      "family_name": "Block",
+      "given_names": "W. Paul",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "block",
+      "first_norm": "w. paul",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "blockmans, wim",
+      "composite_id": [
+        "kunstbuecher_253_11_38"
+      ],
+      "family_name": "Blockmans",
+      "given_names": "Wim",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "blockmans",
+      "first_norm": "wim",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "blum, hans",
+      "composite_id": [
+        "deutschland_5_1_4"
+      ],
+      "family_name": "BLUM",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "blum",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bläu, johannes",
+      "composite_id": [
+        "sonstiges_1_1_4"
+      ],
+      "family_name": "Bläu",
+      "given_names": "Johannes",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bläu",
+      "first_norm": "johannes",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "blüthgen, victor",
+      "composite_id": [
+        "kinder_45_2_4"
+      ],
+      "family_name": "Blüthgen",
+      "given_names": "Victor",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "blüthgen",
+      "first_norm": "victor",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bobzin, hartmut",
+      "composite_id": [
+        "islam_2_1_3"
+      ],
+      "family_name": "BOBZIN",
+      "given_names": "Hartmut",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bobzin",
+      "first_norm": "hartmut",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bock, friedrich",
+      "composite_id": [
+        "insel_159_7_27"
+      ],
+      "family_name": "Bock",
+      "given_names": "Friedrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bock",
+      "first_norm": "friedrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bockelmann, manfred",
+      "composite_id": [
+        "kunstbuecher_200_9_38"
+      ],
+      "family_name": "Bockelmann",
+      "given_names": "Manfred",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bockelmann",
+      "first_norm": "manfred",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "boeck, wilhelm",
+      "composite_id": [
+        "insel_329_14_27"
+      ],
+      "family_name": "Boeck",
+      "given_names": "Wilhelm",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "boeck",
+      "first_norm": "wilhelm",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "boehlich, walter",
+      "composite_id": [
+        "erstausgaben_1498_60_78"
+      ],
+      "family_name": "Boehlich",
+      "given_names": "Walter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "boehlich",
+      "first_norm": "walter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bogner, dieter",
+      "composite_id": [
+        "kunstbuecher_263_11_38"
+      ],
+      "family_name": "Bogner",
+      "given_names": "Dieter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bogner",
+      "first_norm": "dieter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bolte, johannes",
+      "composite_id": [
+        "insel_27_2_27"
+      ],
+      "family_name": "Bolte",
+      "given_names": "Johannes",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bolte",
+      "first_norm": "johannes",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bonnet, joseph",
+      "composite_id": [
+        "erstausgaben_1352_55_78"
+      ],
+      "family_name": "Bonnet",
+      "given_names": "Joseph",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bonnet",
+      "first_norm": "joseph",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bonora, franz",
+      "composite_id": [
+        "reisen_97_4_13"
+      ],
+      "family_name": "BONORA",
+      "given_names": "Franz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bonora",
+      "first_norm": "franz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bontekoe van hoorn, willem ysbrantsz",
+      "composite_id": [
+        "reisen_98_4_13"
+      ],
+      "family_name": "BONTEKOE VAN HOORN",
+      "given_names": "Willem Ysbrantsz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bontekoe van hoorn",
+      "first_norm": "willem ysbrantsz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "borges, j.l.",
+      "composite_id": [
+        "fremdsprachige_253_11_38"
+      ],
+      "family_name": "Borges",
+      "given_names": "J.L.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "borges",
+      "first_norm": "j.l.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "borhek, august christian",
+      "composite_id": [
+        "antike_149_6_9"
+      ],
+      "family_name": "BORHEK",
+      "given_names": "August Christian",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "borhek",
+      "first_norm": "august christian",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bosch, hieronymus",
+      "composite_id": [
+        "kunstbuecher_601_25_38",
+        "kunstbuecher_43_2_38"
+      ],
+      "family_name": "BOSCH",
+      "given_names": "Hieronymus",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bosch",
+      "first_norm": "hieronymus",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "boström, jörg",
+      "composite_id": [
+        "deutschland_52_3_4",
+        "sonstiges_3_1_4"
+      ],
+      "family_name": "Boström",
+      "given_names": "Jörg",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "boström",
+      "first_norm": "jörg",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bougainville, louis antoine de",
+      "composite_id": [
+        "reisen_99_4_13"
+      ],
+      "family_name": "BOUGAINVILLE",
+      "given_names": "Louis Antoine de",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bougainville",
+      "first_norm": "louis antoine de",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bowen",
+      "composite_id": [
+        "bibliophile_83_4_10"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "BOWEN",
+      "last_norm": "bowen",
+      "first_norm": "",
+      "single_norm": "bowen",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "brackert, helmut",
+      "composite_id": [
+        "kinder_91_4_4"
+      ],
+      "family_name": "Brackert",
+      "given_names": "Helmut",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "brackert",
+      "first_norm": "helmut",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "braque, georges",
+      "composite_id": [
+        "kunstbuecher_47_2_38"
+      ],
+      "family_name": "BRAQUE",
+      "given_names": "Georges",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "braque",
+      "first_norm": "georges",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 626,
+      "unified_id": "blum_gerd",
+      "family_name": "Blum",
+      "given_names": "Gerd",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 627,
+      "unified_id": "blum_manfred",
+      "family_name": "Blum",
+      "given_names": "Manfred",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 705,
+      "unified_id": "borges_jorge_l",
+      "family_name": "Borges",
+      "given_names": "Jorge Luis",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 645,
+      "unified_id": "bock_gisela",
+      "family_name": "Bock",
+      "given_names": "Gisela",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 646,
+      "unified_id": "bock_monika",
+      "family_name": "Bock",
+      "given_names": "Monika",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 622,
+      "unified_id": "block_alexander",
+      "family_name": "Block",
+      "given_names": "Alexander",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 623,
+      "unified_id": "block_martin",
+      "family_name": "Block",
+      "given_names": "Martin",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 740,
+      "unified_id": "bowen_elizabeth",
+      "family_name": "Bowen",
+      "given_names": "Elizabeth",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 593,
+      "unified_id": "bismarck",
+      "family_name": null,
+      "given_names": null,
+      "name_particles": null,
+      "single_name": "Bismarck",
+      "is_organisation": false
+    },
+    {
+      "person_id": 594,
+      "unified_id": "bismarck_beatrice_v",
+      "family_name": "Bismarck",
+      "given_names": "Beatrice",
+      "name_particles": "von",
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

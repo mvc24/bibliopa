@@ -1,0 +1,544 @@
+[
+  {
+    "display_norm": "velde, henry van de",
+    "composite_id": [
+      "insel_345_14_27"
+    ],
+    "family_name": "Velde",
+    "given_names": "Henry",
+    "name_prefix": null,
+    "name_particles": "van de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "velde_henry",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "verein der freunde des wallraf-richartz-museums bibliophilen-gesellschaft in köln",
+    "composite_id": [
+      "bibliophile_219_9_10"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Verein der Freunde des Wallraf-Richartz-Museums Bibliophilen-Gesellschaft in Köln",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "verein_der_freunde_des_wallraf-richartz-museums_bibliophilen-gesellschaft_in_koln",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "verein freunde friedrich danielis salzburg museum",
+    "composite_id": [
+      "kunstbuecher_78_4_38"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Verein Freunde Friedrich Danielis Salzburg Museum",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "verein_freunde_friedrich_danielis_salzburg_museum",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "vermeer",
+    "composite_id": [
+      "kunstbuecher_530_22_38"
+    ],
+    "family_name": "Vermeer",
+    "given_names": "Jan",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "vermeer_jan",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "vetters",
+    "composite_id": [
+      "mittelalter_83_4_7"
+    ],
+    "family_name": "Vetters",
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "vetters",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "vielmetti, nikolaus",
+    "composite_id": [
+      "judentum_123_5_9"
+    ],
+    "family_name": "Vielmetti",
+    "given_names": "Nikolaus",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "vielmetti_nikolaus",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "vierhaus, rudolf",
+    "composite_id": [
+      "deutschland_8_1_4"
+    ],
+    "family_name": "Vierhaus",
+    "given_names": "Rudolf",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "vierhaus_rudolf",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "vierneisel-schlörb, barbara",
+    "composite_id": [
+      "fremdsprachige_360_15_38"
+    ],
+    "family_name": "Vierneisel-Schlörb",
+    "given_names": "Barbara",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "vierneisel-schlorb_barbara",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "vierthaler, f(ranz) m(ichael)",
+    "composite_id": [
+      "oesterreich_160_7_13",
+      "oesterreich_178_8_13"
+    ],
+    "family_name": "Vierthaler",
+    "given_names": "Franz Michael",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "vierthaler_franz_m",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "vierthaler, fr. m.",
+    "composite_id": [
+      "oesterreich_161_7_13"
+    ],
+    "family_name": "Vierthaler",
+    "given_names": "Fr. M.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "vierthaler_franz_m",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "vigny, alfred de",
+    "composite_id": [
+      "fremdsprachige_924_37_38"
+    ],
+    "family_name": "Vigny",
+    "given_names": "Alfred",
+    "name_prefix": null,
+    "name_particles": "de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "vigny_alfred",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "villard, andre",
+    "composite_id": [
+      "russland_35_2_17"
+    ],
+    "family_name": "Villard",
+    "given_names": "Andre",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "villard_andre",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "volkhamer von ehrenberg, johann nepomuk",
+    "composite_id": [
+      "wien_152_7_10"
+    ],
+    "family_name": "Volkhamer von Ehrenberg",
+    "given_names": "Johann Nepomuk",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "volkhamer_von_ehrenberg_johann_n",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "vollbach, dorothea",
+    "composite_id": [
+      "antike_9_1_9"
+    ],
+    "family_name": "Vollbach",
+    "given_names": "Dorothea",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "vollbach_dorothea",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "vollmer",
+    "composite_id": [
+      "mythologie_56_3_3"
+    ],
+    "family_name": "Vollmer",
+    "given_names": "Wilhelm",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "vollmer_wilhelm",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "von der mühl, peter",
+    "composite_id": [
+      "antike_146_6_9"
+    ],
+    "family_name": "Mühl",
+    "given_names": "Peter",
+    "name_prefix": null,
+    "name_particles": "von der",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "muhl_peter",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "von glasenapp, helmuth",
+    "composite_id": [
+      "buddhismus_35_2_3"
+    ],
+    "family_name": "Glasenapp",
+    "given_names": "Helmuth",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "glasenapp_helmuth",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "von guenther, johannes",
+    "composite_id": [
+      "russland_140_6_17"
+    ],
+    "family_name": "Guenther",
+    "given_names": "Johannes",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "guenther_johannes",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "von harbou, sophie",
+    "composite_id": [
+      "briefe_13_1_15"
+    ],
+    "family_name": "Harbou",
+    "given_names": "Sophie",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "harbou_sophie",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "von hofmann, ludwig",
+    "composite_id": [
+      "bibliophile_17_1_10"
+    ],
+    "family_name": "Hofmann",
+    "given_names": "Ludwig",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hofmann_ludwig",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "von lovenberg, felicitas",
+    "composite_id": [
+      "erstausgaben_590_24_78"
+    ],
+    "family_name": "Lovenberg",
+    "given_names": "Felicitas",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "lovenberg_felicitas",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "von osten, esther",
+    "composite_id": [
+      "reisen_100_5_13"
+    ],
+    "family_name": "Osten",
+    "given_names": "Esther",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "osten_esther",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "von stackelberg, jürgen",
+    "composite_id": [
+      "bibliophile_167_7_10"
+    ],
+    "family_name": "Stackelberg",
+    "given_names": "Jürgen",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "stackelberg_jurgen",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "von timroth, wilhelm",
+    "composite_id": [
+      "russland_276_12_17"
+    ],
+    "family_name": "Timroth",
+    "given_names": "Wilhelm",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "timroth_wilhelm",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "von weidenbaum, inge",
+    "composite_id": [
+      "briefe_80_4_15",
+      "erstausgaben_171_7_78"
+    ],
+    "family_name": "Weidenbaum",
+    "given_names": "Inge",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "weidenbaum_inge",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "voolen, edward von",
+    "composite_id": [
+      "bibliophile_39_2_10"
+    ],
+    "family_name": "Voolen",
+    "given_names": "Edward",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "voolen_edward",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "vorländer, karl",
+    "composite_id": [
+      "philosophie_326_14_24"
+    ],
+    "family_name": "Vorländer",
+    "given_names": "Karl",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "vorlander_karl",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "vostell, wolf",
+    "composite_id": [
+      "kunstbuecher_535_22_38"
+    ],
+    "family_name": "Vostell",
+    "given_names": "Wolf",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "vostell_wolf",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "vries, jan de",
+    "composite_id": [
+      "mythologie_57_3_3"
+    ],
+    "family_name": "Vries",
+    "given_names": "Jan",
+    "name_prefix": null,
+    "name_particles": "de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "vries_jan",
+    "_source_custom_id": "batch_nopes_038"
+  },
+  {
+    "display_norm": "völker, angela",
+    "composite_id": [
+      "russland_265_11_17"
+    ],
+    "family_name": "Völker",
+    "given_names": "Angela",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "volker_angela",
+    "_source_custom_id": "batch_nopes_038"
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "display_norm": "rasp, andreas",
+    "composite_id": [
+      "oesterreich_193_8_13"
+    ],
+    "family_name": "Rasp",
+    "given_names": "Andreas",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "rasp_andreas",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "ratz",
+    "composite_id": [
+      "musik_71_3_11"
+    ],
+    "family_name": "Ratz",
+    "given_names": "Erwin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "ratz_erwin",
+    "matched_person_id": 5522,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "reeiche, reimut",
+    "composite_id": [
+      "neuzeit_71_3_4"
+    ],
+    "family_name": "Reeiche",
+    "given_names": "Reimut",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "reeiche_reimut",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "reemtsma, friedrich",
+    "composite_id": [
+      "philosophie_145_6_24"
+    ],
+    "family_name": "Reemtsma",
+    "given_names": "Friedrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "reemtsma_friedrich",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "reifenberg, benno",
+    "composite_id": [
+      "fremdsprachige_288_12_38"
+    ],
+    "family_name": "Reifenberg",
+    "given_names": "Benno",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "reifenberg_benno",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "reinig, andere",
+    "composite_id": [
+      "russland_401_17_17"
+    ],
+    "family_name": "Reinig",
+    "given_names": "andere",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "reinig_andere",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "reischek, sohn",
+    "composite_id": [
+      "reisen_257_11_13"
+    ],
+    "family_name": "Reischek",
+    "given_names": "Karl",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "reischek_karl",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "reitzenstein, r.",
+    "composite_id": [
+      "aegypten_31_2_3"
+    ],
+    "family_name": "Reitzenstein",
+    "given_names": "R.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "reitzenstein_r",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "rembrandt",
+    "composite_id": [
+      "insel_557_23_27"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Rembrandt",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "rembrandt",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "renner, victor v.",
+    "composite_id": [
+      "wien_93_4_10"
+    ],
+    "family_name": "Renner",
+    "given_names": "Victor",
+    "name_prefix": null,
+    "name_particles": "v.",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "renner_victor",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "rennert, udo",
+    "composite_id": [
+      "biographie_133_6_27"
+    ],
+    "family_name": "Rennert",
+    "given_names": "Udo",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "rennert_udo",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "renolder, klemens",
+    "composite_id": [
+      "erstausgaben_1473_59_78"
+    ],
+    "family_name": "Renolder",
+    "given_names": "Klemens",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "renolder_klemens",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "reschauer, heinrich",
+    "composite_id": [
+      "wien_94_4_10"
+    ],
+    "family_name": "Reschauer",
+    "given_names": "Heinrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "reschauer_heinrich",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "reschke, renate",
+    "composite_id": [
+      "biographie_454_19_27"
+    ],
+    "family_name": "Reschke",
+    "given_names": "Renate",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "reschke_renate",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "restle, marcell",
+    "composite_id": [
+      "kunstbuecher_438_18_38"
+    ],
+    "family_name": "Restle",
+    "given_names": "Marcell",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "restle_marcell",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "retler, wolfgang",
+    "composite_id": [
+      "oesterreich_124_5_13"
+    ],
+    "family_name": "Retler",
+    "given_names": "Wolfgang",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "retler_wolfgang",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "reyes, aurelio de los",
+    "composite_id": [
+      "kunstbuecher_865_35_38"
+    ],
+    "family_name": "Reyes",
+    "given_names": "Aurelio",
+    "name_prefix": null,
+    "name_particles": "de los",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "reyes_aurelio",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "rhyn, rene van",
+    "composite_id": [
+      "biographie_56_3_27"
+    ],
+    "family_name": "Rhyn",
+    "given_names": "Rene",
+    "name_prefix": null,
+    "name_particles": "van",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "rhyn_rene",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "riba, carl theodor albert ritter von",
+    "composite_id": [
+      "illustrierte_102_5_14"
+    ],
+    "family_name": "Riba",
+    "given_names": "Carl Theodor Albert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": "Ritter von",
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "riba_carl_t",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "richartz, walter e.",
+    "composite_id": [
+      "fremdsprachige_372_15_38"
+    ],
+    "family_name": "Richartz",
+    "given_names": "Walter E.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "richartz_walter_e",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "richter, liselotte",
+    "composite_id": [
+      "philosophie_194_8_24"
+    ],
+    "family_name": "Richter",
+    "given_names": "Liselotte",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "richter_liselotte",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "riedl, joachim",
+    "composite_id": [
+      "judentum_168_7_9"
+    ],
+    "family_name": "Riedl",
+    "given_names": "Joachim",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "riedl_joachim",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "riefenstahl, leni",
+    "composite_id": [
+      "reisen_49_2_13"
+    ],
+    "family_name": "Riefenstahl",
+    "given_names": "Leni",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "riefenstahl_leni",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "ringel, erwin",
+    "composite_id": [
+      "signierte_162_7_10"
+    ],
+    "family_name": "Ringel",
+    "given_names": "Erwin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "ringel_erwin",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "rinne, olga",
+    "composite_id": [
+      "okkultismus_134_6_8"
+    ],
+    "family_name": "Rinne",
+    "given_names": "Olga",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "rinne_olga",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "ritz müller, ute",
+    "composite_id": [
+      "reisen_276_12_13"
+    ],
+    "family_name": "Ritz Müller",
+    "given_names": "Ute",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "ritz_muller_ute",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "rodtschenko, alexander",
+    "composite_id": [
+      "russland_265_11_17"
+    ],
+    "family_name": "Rodtschenko",
+    "given_names": "Alexander",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "rodtschenko_alexander",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "roeder, günther",
+    "composite_id": [
+      "aegypten_66_3_3"
+    ],
+    "family_name": "Roeder",
+    "given_names": "Günther",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "roeder_gunther",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "rollig, stella",
+    "composite_id": [
+      "kunstbuecher_524_21_38"
+    ],
+    "family_name": "Rollig",
+    "given_names": "Stella",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "rollig_stella",
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "rom, brigitte",
+    "composite_id": [
+      "okkultismus_0_1_8"
+    ],
+    "family_name": "Rom",
+    "given_names": "Brigitte",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "rom_brigitte",
+    "_source_custom_id": "batch_nopes_030"
+  }
+]

@@ -1,0 +1,544 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "werner, oskar",
+      "composite_id": [
+        "antike_1_1_9"
+      ],
+      "family_name": "Werner",
+      "given_names": "Oskar",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "werner",
+      "first_norm": "oskar",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "werner, ernst",
+      "composite_id": [
+        "okkultismus_59_3_8"
+      ],
+      "family_name": "Werner",
+      "given_names": "Ernst",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "werner",
+      "first_norm": "ernst",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "westermann, kurt-michael",
+      "composite_id": [
+        "reisen_40_2_13"
+      ],
+      "family_name": "Westermann",
+      "given_names": "Kurt-Michael",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "westermann",
+      "first_norm": "kurt-michael",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wichner, josef",
+      "composite_id": [
+        "oesterreich_53_3_13"
+      ],
+      "family_name": "Wichner",
+      "given_names": "Josef",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wichner",
+      "first_norm": "josef",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wie",
+      "composite_id": [
+        "de-lit-texte_465_19_20"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "WIE",
+      "last_norm": "wie",
+      "first_norm": "",
+      "single_norm": "wie",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wieck, michael",
+      "composite_id": [
+        "deutschland_95_4_4"
+      ],
+      "family_name": "WIECK",
+      "given_names": "Michael",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wieck",
+      "first_norm": "michael",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wiegend, klaus",
+      "composite_id": [
+        "fruehes_79_4_4"
+      ],
+      "family_name": "Wiegend",
+      "given_names": "Klaus",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wiegend",
+      "first_norm": "klaus",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wieland-archiv, biberach/riß",
+      "composite_id": [
+        "briefe_361_15_15"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Wieland-Archiv, Biberach/Riß",
+      "last_norm": "wieland-archiv, biberach/riß",
+      "first_norm": "",
+      "single_norm": "wieland-archiv, biberach/riß",
+      "is_organisation": true
+    },
+    {
+      "display_norm": "wien, künstlerhaus",
+      "composite_id": [
+        "wien_69_3_10"
+      ],
+      "family_name": "WIEN",
+      "given_names": "KÜNSTLERHAUS",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wien",
+      "first_norm": "künstlerhaus",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wiesemann, falk",
+      "composite_id": [
+        "bibliophile_39_2_10"
+      ],
+      "family_name": "WIESEMANN",
+      "given_names": "Falk",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wiesemann",
+      "first_norm": "falk",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wiesinger, felix",
+      "composite_id": [
+        "reisen_290_12_13"
+      ],
+      "family_name": "Wiesinger",
+      "given_names": "Felix",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wiesinger",
+      "first_norm": "felix",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wiesmann, siegrid",
+      "composite_id": [
+        "musik_40_2_11"
+      ],
+      "family_name": "Wiesmann",
+      "given_names": "Siegrid",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wiesmann",
+      "first_norm": "siegrid",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wiespointner, curt",
+      "composite_id": [
+        "kunstbuecher_299_12_38"
+      ],
+      "family_name": "Wiespointner",
+      "given_names": "Curt",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wiespointner",
+      "first_norm": "curt",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wilck, otto",
+      "composite_id": [
+        "briefe_336_14_15"
+      ],
+      "family_name": "Wilck",
+      "given_names": "Otto",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wilck",
+      "first_norm": "otto",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wilczek, bernd",
+      "composite_id": [
+        "philosophie_320_13_24"
+      ],
+      "family_name": "Wilczek",
+      "given_names": "Bernd",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wilczek",
+      "first_norm": "bernd",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "willi, urs",
+      "composite_id": [
+        "literatur_268_11_12"
+      ],
+      "family_name": "Willi",
+      "given_names": "Urs",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "willi",
+      "first_norm": "urs",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "willkomm, moritz",
+      "composite_id": [
+        "sonstiges_23_1_4"
+      ],
+      "family_name": "Willkomm",
+      "given_names": "Moritz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "willkomm",
+      "first_norm": "moritz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wilpert, gero von",
+      "composite_id": [
+        "literatur_37_2_12"
+      ],
+      "family_name": "WILPERT",
+      "given_names": "Gero von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wilpert",
+      "first_norm": "gero von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wimmer, gino",
+      "composite_id": [
+        "wien_49_2_10"
+      ],
+      "family_name": "Wimmer",
+      "given_names": "Gino",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wimmer",
+      "first_norm": "gino",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "winckler, josef",
+      "composite_id": [
+        "deutschland_9_1_4"
+      ],
+      "family_name": "Winckler",
+      "given_names": "Josef",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "winckler",
+      "first_norm": "josef",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "windhager, franz",
+      "composite_id": [
+        "illustrierte_130_6_14"
+      ],
+      "family_name": "Windhager",
+      "given_names": "Franz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "windhager",
+      "first_norm": "franz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "winkler, gerhard",
+      "composite_id": [
+        "antike_111_5_9"
+      ],
+      "family_name": "Winkler",
+      "given_names": "Gerhard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "winkler",
+      "first_norm": "gerhard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wirth, albrecht",
+      "composite_id": [
+        "reisen_55_3_13"
+      ],
+      "family_name": "WIRTH",
+      "given_names": "Albrecht",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wirth",
+      "first_norm": "albrecht",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wittke, anne-maria",
+      "composite_id": [
+        "griechenland_61_3_10"
+      ],
+      "family_name": "Wittke",
+      "given_names": "Anne-Maria",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wittke",
+      "first_norm": "anne-maria",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wohlers, heinz",
+      "composite_id": [
+        "philosophie_215_9_24"
+      ],
+      "family_name": "Wohlers",
+      "given_names": "Heinz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wohlers",
+      "first_norm": "heinz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wolf-schneider von arno, oskar freiherr",
+      "composite_id": [
+        "oesterreich_43_2_13"
+      ],
+      "family_name": "Wolf-Schneider von Arno",
+      "given_names": "Oskar Freiherr",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "wolf-schneider von arno",
+      "first_norm": "oskar freiherr",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "wolfram",
+      "composite_id": [
+        "suchliste_35_2_3",
+        "oesterreich_242_10_13"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Wolfram",
+      "last_norm": "wolfram",
+      "first_norm": "",
+      "single_norm": "wolfram",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "woll, dieter",
+      "composite_id": [
+        "maerchen_45_2_3"
+      ],
+      "family_name": "Woll",
+      "given_names": "Dieter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "woll",
+      "first_norm": "dieter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "woodroffe, sir john",
+      "composite_id": [
+        "buddhismus_33_2_3"
+      ],
+      "family_name": "Woodroffe",
+      "given_names": "Sir John",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "woodroffe",
+      "first_norm": "sir john",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "worringer, w.",
+      "composite_id": [
+        "kunstbuecher_1_1_38"
+      ],
+      "family_name": "Worringer",
+      "given_names": "W.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "worringer",
+      "first_norm": "w.",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 7579,
+      "unified_id": "wilpert_paul",
+      "family_name": "Wilpert",
+      "given_names": "Paul",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7658,
+      "unified_id": "wolfram_herwig",
+      "family_name": "Wolfram",
+      "given_names": "Herwig",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7606,
+      "unified_id": "wirth_gerhard",
+      "family_name": "Wirth",
+      "given_names": "Gerhard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7607,
+      "unified_id": "wirth_hermann",
+      "family_name": "Wirth",
+      "given_names": "Hermann",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7494,
+      "unified_id": "werner_r_m",
+      "family_name": "Werner",
+      "given_names": "R. M.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7495,
+      "unified_id": "werner_reinhold",
+      "family_name": "Werner",
+      "given_names": "Reinhold",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7496,
+      "unified_id": "werner_ulrich",
+      "family_name": "Werner",
+      "given_names": "Ulrich",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7582,
+      "unified_id": "wimmer_ch",
+      "family_name": "Wimmer",
+      "given_names": "Ch.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7583,
+      "unified_id": "wimmer_friedrich",
+      "family_name": "Wimmer",
+      "given_names": "Friedrich",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7593,
+      "unified_id": "winkler_eva",
+      "family_name": "Winkler",
+      "given_names": "Eva",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7594,
+      "unified_id": "winkler_heinrich_a",
+      "family_name": "Winkler",
+      "given_names": "Heinrich August",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7595,
+      "unified_id": "winkler_josef",
+      "family_name": "Winkler",
+      "given_names": "Josef",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7632,
+      "unified_id": "wohlers_christian",
+      "family_name": "Wohlers",
+      "given_names": "Christian",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

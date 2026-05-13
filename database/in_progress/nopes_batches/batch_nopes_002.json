@@ -1,0 +1,652 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "arsenals, von einem ehemaligen betriebsrat des",
+      "composite_id": [
+        "wien_66_3_10"
+      ],
+      "family_name": "Arsenals",
+      "given_names": "Von einem ehemaligen Betriebsrat des",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "arsenals",
+      "first_norm": "von einem ehemaligen betriebsrat des",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "arvatov, boris",
+      "composite_id": [
+        "russland_38_2_17"
+      ],
+      "family_name": "ARVATOV",
+      "given_names": "Boris",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "arvatov",
+      "first_norm": "boris",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "athanassiadiss",
+      "composite_id": [
+        "kunstbuecher_908_37_38"
+      ],
+      "family_name": "Athanassiadiss",
+      "given_names": "Michaeil",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "athanassiadis",
+      "first_norm": "michael",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "atik, anne",
+      "composite_id": [
+        "monographien_0_1_3"
+      ],
+      "family_name": "ATIK",
+      "given_names": "Anne",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "atik",
+      "first_norm": "anne",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "atze, marcel",
+      "composite_id": [
+        "de-lit-monographien_26_2_10",
+        "buch_26_2_8"
+      ],
+      "family_name": "Atze",
+      "given_names": "Marcel",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "atze",
+      "first_norm": "marcel",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "atzert, karl",
+      "composite_id": [
+        "antike_39_2_9"
+      ],
+      "family_name": "Atzert",
+      "given_names": "Karl",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "atzert",
+      "first_norm": "karl",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "auberrt, hans-joachim",
+      "composite_id": [
+        "reisen_233_10_13"
+      ],
+      "family_name": "Auberrt",
+      "given_names": "Hans-Joachim",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "auberrt",
+      "first_norm": "hans-joachim",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "augias, corrado",
+      "composite_id": [
+        "zeitgeschichte_4_1_4"
+      ],
+      "family_name": "AUGIAS",
+      "given_names": "Corrado",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "augias",
+      "first_norm": "corrado",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "avril, françois",
+      "composite_id": [
+        "kunstbuecher_799_32_38"
+      ],
+      "family_name": "Avril",
+      "given_names": "François",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "avril",
+      "first_norm": "françois",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "babelon, jean-pierre",
+      "composite_id": [
+        "reisen_46_2_13"
+      ],
+      "family_name": "Babelon",
+      "given_names": "Jean-Pierre",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "babelon",
+      "first_norm": "jean-pierre",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "babo, a.",
+      "composite_id": [
+        "sonstiges_57_3_4"
+      ],
+      "family_name": "Babo",
+      "given_names": "A.",
+      "name_particles": "Freiherr von",
+      "single_name": null,
+      "last_norm": "babo",
+      "first_norm": "a.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bachmann",
+      "composite_id": [
+        "de-lit-monographien_74_3_10"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Bachmann",
+      "last_norm": "bachmann",
+      "first_norm": "",
+      "single_norm": "bachmann",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bachtin",
+      "composite_id": [
+        "literatur_273_11_12"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Bachtin",
+      "last_norm": "bachtin",
+      "first_norm": "",
+      "single_norm": "bachtin",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "baldamus, m.k.",
+      "composite_id": [
+        "griechenland_1_1_10"
+      ],
+      "family_name": "BALDAMUS",
+      "given_names": "M.K.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "baldamus",
+      "first_norm": "m.k.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "balmes, hans jürgen",
+      "composite_id": [
+        "briefe_279_12_15"
+      ],
+      "family_name": "Balmes",
+      "given_names": "Hans Jürgen",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "balmes",
+      "first_norm": "hans jürgen",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "balthus",
+      "composite_id": [
+        "insel_246_10_27"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Balthus",
+      "last_norm": "balthus",
+      "first_norm": "",
+      "single_norm": "balthus",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bandion, wolfgang j.",
+      "composite_id": [
+        "kunstbuecher_230_10_38"
+      ],
+      "family_name": "Bandion",
+      "given_names": "Wolfgang J.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bandion",
+      "first_norm": "wolfgang j.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "banse, ewald",
+      "composite_id": [
+        "reisen_89_4_13"
+      ],
+      "family_name": "BANSE",
+      "given_names": "Ewald",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "banse",
+      "first_norm": "ewald",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "barckhausen, christiane",
+      "composite_id": [
+        "biographie_133_6_27"
+      ],
+      "family_name": "Barckhausen",
+      "given_names": "Christiane",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "barckhausen",
+      "first_norm": "christiane",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bardt, d. carl friedrich",
+      "composite_id": [
+        "antike_175_8_9"
+      ],
+      "family_name": "Bardt",
+      "given_names": "D. Carl Friedrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bardt",
+      "first_norm": "d. carl friedrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "barlow, nora",
+      "composite_id": [
+        "biographie_155_7_27"
+      ],
+      "family_name": "Barlow",
+      "given_names": "Nora",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "barlow",
+      "first_norm": "nora",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "baron, salo w.",
+      "composite_id": [
+        "deutschland_59_3_4"
+      ],
+      "family_name": "Baron",
+      "given_names": "Salo W.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "baron",
+      "first_norm": "salo w.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "barta fliedl, ilsebill",
+      "composite_id": [
+        "kunstbuecher_26_2_38"
+      ],
+      "family_name": "Barta Fliedl",
+      "given_names": "Ilsebill",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "barta fliedl",
+      "first_norm": "ilsebill",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "barth, heinrich",
+      "composite_id": [
+        "reisen_90_4_13"
+      ],
+      "family_name": "BARTH",
+      "given_names": "Heinrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "barth",
+      "first_norm": "heinrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bastl, beatrix",
+      "composite_id": [
+        "kunstbuecher_196_8_38"
+      ],
+      "family_name": "Bastl",
+      "given_names": "Beatrix",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bastl",
+      "first_norm": "beatrix",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "baudissin, wolf graf",
+      "composite_id": [
+        "briefe_329_14_15"
+      ],
+      "family_name": "BAUDISSIN",
+      "given_names": "Wolf Graf",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "baudissin",
+      "first_norm": "wolf graf",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "bauer, hermann",
+      "composite_id": [
+        "kunstbuecher_486_20_38"
+      ],
+      "family_name": "Bauer",
+      "given_names": "Hermann",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "bauer",
+      "first_norm": "hermann",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "baum, peter",
+      "composite_id": [
+        "kunstbuecher_570_23_38"
+      ],
+      "family_name": "Baum",
+      "given_names": "Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "baum",
+      "first_norm": "peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "becker, hartmut",
+      "composite_id": [
+        "musik_132_6_11"
+      ],
+      "family_name": "Becker",
+      "given_names": "Hartmut",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "becker",
+      "first_norm": "hartmut",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "beckett, james camlin",
+      "composite_id": [
+        "geschichte_32_2_3"
+      ],
+      "family_name": "BECKETT",
+      "given_names": "James Camlin",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "beckett",
+      "first_norm": "james camlin",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 330,
+      "unified_id": "bauer_eberhard",
+      "family_name": "Bauer",
+      "given_names": "Eberhard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 331,
+      "unified_id": "bauer_johann",
+      "family_name": "Bauer",
+      "given_names": "Johann",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 332,
+      "unified_id": "bauer_julius",
+      "family_name": "Bauer",
+      "given_names": "Julius",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 333,
+      "unified_id": "bauer_max",
+      "family_name": "Bauer",
+      "given_names": "Max",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 334,
+      "unified_id": "bauer_michael",
+      "family_name": "Bauer",
+      "given_names": "Michael",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 335,
+      "unified_id": "bauer_otto",
+      "family_name": "Bauer",
+      "given_names": "Otto",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 336,
+      "unified_id": "bauer_werner_m",
+      "family_name": "Bauer",
+      "given_names": "Werner M.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 337,
+      "unified_id": "bauer_wilhelm_a",
+      "family_name": "Bauer",
+      "given_names": "Wilhelm A.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 338,
+      "unified_id": "bauer_wolfgang",
+      "family_name": "Bauer",
+      "given_names": "Wolfgang",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 385,
+      "unified_id": "becker_heinz_dieter",
+      "family_name": "Becker",
+      "given_names": "Heinz Dieter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 386,
+      "unified_id": "becker_jurek",
+      "family_name": "Becker",
+      "given_names": "Jurek",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 387,
+      "unified_id": "becker_jurgen",
+      "family_name": "Becker",
+      "given_names": "Jürgen",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 388,
+      "unified_id": "becker_max",
+      "family_name": "Becker",
+      "given_names": "Max",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 389,
+      "unified_id": "becker_udo",
+      "family_name": "Becker",
+      "given_names": "Udo",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 390,
+      "unified_id": "becker_walter",
+      "family_name": "Becker",
+      "given_names": "Walter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 233,
+      "unified_id": "bachmann_heinz",
+      "family_name": "Bachmann",
+      "given_names": "Heinz",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 234,
+      "unified_id": "bachmann_ingeborg",
+      "family_name": "Bachmann",
+      "given_names": "Ingeborg",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 235,
+      "unified_id": "bachtin_michail",
+      "family_name": "Bachtin",
+      "given_names": "Michail",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 392,
+      "unified_id": "beckett_samuel",
+      "family_name": "Beckett",
+      "given_names": "Samuel",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 225,
+      "unified_id": "babo_a",
+      "family_name": "Babo",
+      "given_names": "A.",
+      "name_particles": "Frhr. von",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 294,
+      "unified_id": "barth_emil",
+      "family_name": "Barth",
+      "given_names": "Emil",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 295,
+      "unified_id": "barth_karl",
+      "family_name": "Barth",
+      "given_names": "Karl",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 297,
+      "unified_id": "barth_wolf",
+      "family_name": "Barth",
+      "given_names": "Wolf",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 341,
+      "unified_id": "baum_vicki",
+      "family_name": "Baum",
+      "given_names": "Vicki",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 342,
+      "unified_id": "baum_wilhelm",
+      "family_name": "Baum",
+      "given_names": "Wilhelm",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

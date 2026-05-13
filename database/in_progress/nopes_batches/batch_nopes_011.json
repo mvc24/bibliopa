@@ -1,0 +1,469 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "gasset, ortega y",
+      "composite_id": [
+        "fremdsprachige_692_28_38"
+      ],
+      "family_name": "GASSET",
+      "given_names": "ORTEGA Y",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gasset",
+      "first_norm": "ortega y",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "gasser",
+      "composite_id": [
+        "suchliste_35_2_3",
+        "oesterreich_242_10_13"
+      ],
+      "family_name": "null",
+      "given_names": "Verena",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gassner",
+      "first_norm": "verena",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "geary, patrick j.",
+      "composite_id": [
+        "mythologie_13_1_3"
+      ],
+      "family_name": "GEARY",
+      "given_names": "Patrick J.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "geary",
+      "first_norm": "patrick j.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "gebhart, hans",
+      "composite_id": [
+        "sonstiges_13_1_4"
+      ],
+      "family_name": "GEBHART",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gebhart",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "geck, martin",
+      "composite_id": [
+        "biographie_4_1_27"
+      ],
+      "family_name": "Geck",
+      "given_names": "Martin",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "geck",
+      "first_norm": "martin",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "geissmar, christoph",
+      "composite_id": [
+        "kunstbuecher_26_2_38"
+      ],
+      "family_name": "Geissmar",
+      "given_names": "Christoph",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "geissmar",
+      "first_norm": "christoph",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "gemeinde wien",
+      "composite_id": [
+        "wien_65_3_10"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Gemeinde Wien",
+      "last_norm": "gemeinde wien",
+      "first_norm": "",
+      "single_norm": "gemeinde wien",
+      "is_organisation": true
+    },
+    {
+      "display_norm": "gerigk, herbert",
+      "composite_id": [
+        "judentum_163_7_9"
+      ],
+      "family_name": "GERIGK",
+      "given_names": "Herbert",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gerigk",
+      "first_norm": "herbert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "gerstenmaier, eugen",
+      "composite_id": [
+        "deutschland_59_3_4"
+      ],
+      "family_name": "Gerstenmaier",
+      "given_names": "Eugen",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gerstenmaier",
+      "first_norm": "eugen",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "gerstinger, heinz",
+      "composite_id": [
+        "wien_37_2_10"
+      ],
+      "family_name": "GERSTINGER",
+      "given_names": "Heinz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gerstinger",
+      "first_norm": "heinz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "geyer, carl-friedrich",
+      "composite_id": [
+        "mythologie_14_1_3"
+      ],
+      "family_name": "GEYER",
+      "given_names": "Carl-Friedrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "geyer",
+      "first_norm": "carl-friedrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "giese/schweiger",
+      "composite_id": [
+        "kunstbuecher_684_28_38"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "GIESE/SCHWEIGER",
+      "last_norm": "giese/schweiger",
+      "first_norm": "",
+      "single_norm": "giese/schweiger",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "giselbrecht, ernst",
+      "composite_id": [
+        "kunstbuecher_495_20_38"
+      ],
+      "family_name": "Giselbrecht",
+      "given_names": "Ernst",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "giselbrecht",
+      "first_norm": "ernst",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "gleichmann, peter",
+      "composite_id": [
+        "ethnologie_204_9_13"
+      ],
+      "family_name": "Gleichmann",
+      "given_names": "Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gleichmann",
+      "first_norm": "peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "glorez, andreas von mährn",
+      "composite_id": [
+        "insel_644_26_27"
+      ],
+      "family_name": "Glorez",
+      "given_names": "Andreas von Mährn",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "glorez",
+      "first_norm": "andreas von mährn",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "glück, franz",
+      "composite_id": [
+        "kunstbuecher_318_13_38"
+      ],
+      "family_name": "Glück",
+      "given_names": "Franz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "glück",
+      "first_norm": "franz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "goebel, heinrich",
+      "composite_id": [
+        "fremdsprachige_867_35_38"
+      ],
+      "family_name": "Goebel",
+      "given_names": "Heinrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "goebel",
+      "first_norm": "heinrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "goffriller, gabriele",
+      "composite_id": [
+        "oesterreich_89_4_13"
+      ],
+      "family_name": "Goffriller",
+      "given_names": "Gabriele",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "goffriller",
+      "first_norm": "gabriele",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "golb, norman",
+      "composite_id": [
+        "judentum_82_4_9"
+      ],
+      "family_name": "GOLB",
+      "given_names": "Norman",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "golb",
+      "first_norm": "norman",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "goldammer, peter",
+      "composite_id": [
+        "biographie_20_1_27"
+      ],
+      "family_name": "Goldammer",
+      "given_names": "Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "goldammer",
+      "first_norm": "peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "goldenring, stefania",
+      "composite_id": [
+        "russland_36_2_17"
+      ],
+      "family_name": "Goldenring",
+      "given_names": "Stefania",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "goldenring",
+      "first_norm": "stefania",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "goldhagen",
+      "composite_id": [
+        "antike_169_7_9",
+        "briefe_174_7_15"
+      ],
+      "family_name": "Goldhagen",
+      "given_names": "Johann Eustachius",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "goldhagen",
+      "first_norm": "johann eustachius",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "goldhagen, daniel jonah",
+      "composite_id": [
+        "deutschland_18_1_4",
+        "deutschland_19_1_4"
+      ],
+      "family_name": "GOLDHAGEN",
+      "given_names": "Daniel Jonah",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "goldhagen",
+      "first_norm": "daniel jonah",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "goldinger, walter",
+      "composite_id": [
+        "oesterreich_9_1_13"
+      ],
+      "family_name": "Goldinger",
+      "given_names": "Walter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "goldinger",
+      "first_norm": "walter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "goldmann, nahum",
+      "composite_id": [
+        "deutschland_59_3_4"
+      ],
+      "family_name": "Goldmann",
+      "given_names": "Nahum",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "goldmann",
+      "first_norm": "nahum",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "goldschmit-jentner, rudolf k.",
+      "composite_id": [
+        "insel_212_9_27"
+      ],
+      "family_name": "Goldschmit-Jentner",
+      "given_names": "Rudolf K.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "goldschmit-jentner",
+      "first_norm": "rudolf k.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ludwig",
+      "composite_id": [
+        "erstausgaben_1070_43_78"
+      ],
+      "family_name": "Goldschneider",
+      "given_names": "Ludwig",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "goldschneider",
+      "first_norm": "ludwig",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "gombrich, e.h.",
+      "composite_id": [
+        "kunstbuecher_166_7_38"
+      ],
+      "family_name": "GOMBRICH",
+      "given_names": "E.H.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gombrich",
+      "first_norm": "e.h.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "gombrich, lisbeth",
+      "composite_id": [
+        "kunstbuecher_168_7_38"
+      ],
+      "family_name": "Gombrich",
+      "given_names": "Lisbeth",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "gombrich",
+      "first_norm": "lisbeth",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 2260,
+      "unified_id": "gombrich_ernst_h",
+      "family_name": "Gombrich",
+      "given_names": "Ernst H.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2261,
+      "unified_id": "gombrich_richard",
+      "family_name": "Gombrich",
+      "given_names": "Richard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2215,
+      "unified_id": "glueck_anselm",
+      "family_name": "Glück",
+      "given_names": "Anselm",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2227,
+      "unified_id": "goebel_gerhard",
+      "family_name": "Goebel",
+      "given_names": "Gerhard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2152,
+      "unified_id": "geyer_andreas",
+      "family_name": "Geyer",
+      "given_names": "Andreas",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 2131,
+      "unified_id": "gerigk_horst_j",
+      "family_name": "Gerigk",
+      "given_names": "Horst-Jürgen",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

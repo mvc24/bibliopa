@@ -1,0 +1,526 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "thies, harmen",
+      "composite_id": [
+        "kunstbuecher_512_21_38"
+      ],
+      "family_name": "THIES",
+      "given_names": "Harmen",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "thies",
+      "first_norm": "harmen",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "thudydides",
+      "composite_id": [
+        "antike_137_6_9"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Thukydides",
+      "last_norm": null,
+      "first_norm": "",
+      "single_norm": "thukydides",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "thürheim, gräfin lulu",
+      "composite_id": [
+        "biographie_56_3_27"
+      ],
+      "family_name": "THÜRHEIM",
+      "given_names": "Gräfin Lulu",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "thürheim",
+      "first_norm": "gräfin lulu",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "tieck, dorothea",
+      "composite_id": [
+        "erstausgaben_1112_45_78",
+        "briefe_329_14_15"
+      ],
+      "family_name": "Tieck",
+      "given_names": "Dorothea",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "tieck",
+      "first_norm": "dorothea",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "tischbein, johann heinrich d. ä.",
+      "composite_id": [
+        "insel_274_11_27"
+      ],
+      "family_name": "Tischbein",
+      "given_names": "Johann Heinrich d. Ä.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "tischbein",
+      "first_norm": "johann heinrich d. ä.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "tissot",
+      "composite_id": [
+        "bibliophile_209_9_10"
+      ],
+      "family_name": "Tissot",
+      "given_names": "Samuel Auguste André David",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "tissot",
+      "first_norm": "samuel auguste andré david",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "tobisch, lotte v.",
+      "composite_id": [
+        "biographie_127_6_27"
+      ],
+      "family_name": "Tobisch",
+      "given_names": "Lotte",
+      "name_particles": "von",
+      "single_name": null,
+      "last_norm": "tobisch",
+      "first_norm": "lotte",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "tornius, valerian",
+      "composite_id": [
+        "insel_504_21_27"
+      ],
+      "family_name": "Tornius",
+      "given_names": "Valerian",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "tornius",
+      "first_norm": "valerian",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "trungpa, chögyam",
+      "composite_id": [
+        "buddhismus_67_3_3"
+      ],
+      "family_name": "Trungpa",
+      "given_names": "Chögyam",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "trungpa",
+      "first_norm": "chögyam",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "tuchterhagen, ralph",
+      "composite_id": [
+        "neuzeit_94_4_4"
+      ],
+      "family_name": "TUCHTERHAGEN",
+      "given_names": "Ralph",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "tuchterhagen",
+      "first_norm": "ralph",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "tugendhat, ernst",
+      "composite_id": [
+        "christentum_70_3_6"
+      ],
+      "family_name": "TUGENDHAT",
+      "given_names": "Ernst",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "tugendhat",
+      "first_norm": "ernst",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "tumbült, georg",
+      "composite_id": [
+        "religion_58_3_4"
+      ],
+      "family_name": "TUMBÜLT",
+      "given_names": "Georg",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "tumbült",
+      "first_norm": "georg",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ujlaky, charlotte",
+      "composite_id": [
+        "fremdsprachige_9_1_38"
+      ],
+      "family_name": "Ujlaky",
+      "given_names": "Charlotte",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ujlaky",
+      "first_norm": "charlotte",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "unger, eckhard",
+      "composite_id": [
+        "aegypten_38_2_3"
+      ],
+      "family_name": "UNGER",
+      "given_names": "Eckhard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "unger",
+      "first_norm": "eckhard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "unger, corona",
+      "composite_id": [
+        "insel_529_22_27"
+      ],
+      "family_name": "Unger",
+      "given_names": "Corona",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "unger",
+      "first_norm": "corona",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ungewitter, g.g.",
+      "composite_id": [
+        "sonstiges_42_2_4"
+      ],
+      "family_name": "UNGEWITTER",
+      "given_names": "G.G.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ungewitter",
+      "first_norm": "g.g.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ungnad, arthur",
+      "composite_id": [
+        "aegypten_32_2_3"
+      ],
+      "family_name": "Ungnad",
+      "given_names": "Arthur",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ungnad",
+      "first_norm": "arthur",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "unser, jutta",
+      "composite_id": [
+        "russland_314_13_17"
+      ],
+      "family_name": "Unser",
+      "given_names": "Jutta",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "unser",
+      "first_norm": "jutta",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "urban, eberhard",
+      "composite_id": [
+        "kunstbuecher_240_10_38"
+      ],
+      "family_name": "Urban",
+      "given_names": "Eberhard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "urban",
+      "first_norm": "eberhard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "urban, martin",
+      "composite_id": [
+        "kunstbuecher_376_16_38"
+      ],
+      "family_name": "Urban",
+      "given_names": "Martin",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "urban",
+      "first_norm": "martin",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "v.holten, o.",
+      "composite_id": [
+        "bibliophile_17_1_10"
+      ],
+      "family_name": "v.Holten",
+      "given_names": "O.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "v.holten",
+      "first_norm": "o.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "vagt, sigrid",
+      "composite_id": [
+        "fremdsprachige_550_23_38"
+      ],
+      "family_name": "Vagt",
+      "given_names": "Sigrid",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "vagt",
+      "first_norm": "sigrid",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "valentin",
+      "composite_id": [
+        "musik_260_11_11"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "VALENTIN",
+      "last_norm": "valentin",
+      "first_norm": "",
+      "single_norm": "valentin",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "valery",
+      "composite_id": [
+        "suchliste_54_3_3"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "VALERY",
+      "last_norm": "valery",
+      "first_norm": "",
+      "single_norm": "valery",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "vallier, dora",
+      "composite_id": [
+        "kunstbuecher_47_2_38"
+      ],
+      "family_name": "Vallier",
+      "given_names": "Dora",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "vallier",
+      "first_norm": "dora",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "van swaaij, louise",
+      "composite_id": [
+        "sonstiges_0_1_4"
+      ],
+      "family_name": "van Swaaij",
+      "given_names": "Louise",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "van swaaij",
+      "first_norm": "louise",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "van voolen, edward",
+      "composite_id": [
+        "judentum_200_9_9"
+      ],
+      "family_name": "van Voolen",
+      "given_names": "Edward",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "van voolen",
+      "first_norm": "edward",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "vancsa, max",
+      "composite_id": [
+        "wien_134_6_10"
+      ],
+      "family_name": "VANCSA",
+      "given_names": "Max",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "vancsa",
+      "first_norm": "max",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "veiter, theodor",
+      "composite_id": [
+        "oesterreich_157_7_13"
+      ],
+      "family_name": "VEITER",
+      "given_names": "Theodor",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "veiter",
+      "first_norm": "theodor",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "velazquez",
+      "composite_id": [
+        "kunstbuecher_913_37_38"
+      ],
+      "family_name": "Vélazquez",
+      "given_names": "Diego",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "velazquez",
+      "first_norm": "diego",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 7004,
+      "unified_id": "tischbein_johann_h",
+      "family_name": "Tischbein",
+      "given_names": "Johann Heinrich",
+      "name_particles": "d. Ä.",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7148,
+      "unified_id": "urban_otto_h",
+      "family_name": "Urban",
+      "given_names": "Otto H.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7149,
+      "unified_id": "urban_peter",
+      "family_name": "Urban",
+      "given_names": "Peter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7150,
+      "unified_id": "urban_thomas",
+      "family_name": "Urban",
+      "given_names": "Thomas",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7137,
+      "unified_id": "unger_gunter",
+      "family_name": "Unger",
+      "given_names": "Günter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7138,
+      "unified_id": "unger_heinz_r",
+      "family_name": "Unger",
+      "given_names": "Heinz Rudolf",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7139,
+      "unified_id": "unger_helga",
+      "family_name": "Unger",
+      "given_names": "Helga",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 6988,
+      "unified_id": "tieck_ludwig",
+      "family_name": "Tieck",
+      "given_names": "Ludwig",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7161,
+      "unified_id": "valentin_erich",
+      "family_name": "Valentin",
+      "given_names": "Erich",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7162,
+      "unified_id": "valentin_karl",
+      "family_name": "Valentin",
+      "given_names": "Karl",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 7163,
+      "unified_id": "valery_paul",
+      "family_name": "Valery",
+      "given_names": "Paul",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

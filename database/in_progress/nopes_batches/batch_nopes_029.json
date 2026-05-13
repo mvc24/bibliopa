@@ -1,0 +1,474 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "pressler, christine",
+      "composite_id": [
+        "kinder_53_3_4"
+      ],
+      "family_name": "PRESSLER",
+      "given_names": "Christine",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pressler",
+      "first_norm": "christine",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "prestage, edgar",
+      "composite_id": [
+        "reisen_253_11_13"
+      ],
+      "family_name": "PRESTAGE",
+      "given_names": "Edgar",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "prestage",
+      "first_norm": "edgar",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pretre, j. c.",
+      "composite_id": [
+        "kunstbuecher_507_21_38"
+      ],
+      "family_name": "Pretre",
+      "given_names": "J. C.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pretre",
+      "first_norm": "j. c.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pretzel, ulrich",
+      "composite_id": [
+        "de-lit-texte_317_13_20"
+      ],
+      "family_name": "Pretzel",
+      "given_names": "Ulrich",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pretzel",
+      "first_norm": "ulrich",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "prischwin, michail m.",
+      "composite_id": [
+        "insel_492_20_27"
+      ],
+      "family_name": "PRISCHWIN",
+      "given_names": "Michail M.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "prischwin",
+      "first_norm": "michail m.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "proft, irmhild",
+      "composite_id": [
+        "erstausgaben_665_27_78"
+      ],
+      "family_name": "Proft",
+      "given_names": "Irmhild",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "proft",
+      "first_norm": "irmhild",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "proft, hilmar",
+      "composite_id": [
+        "erstausgaben_665_27_78"
+      ],
+      "family_name": "Proft",
+      "given_names": "Hilmar",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "proft",
+      "first_norm": "hilmar",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "projekt, bibel",
+      "composite_id": [
+        "religion_7_1_4"
+      ],
+      "family_name": "PROJEKT",
+      "given_names": "BIBEL",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "projekt",
+      "first_norm": "bibel",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "proksch, peter",
+      "composite_id": [
+        "kunstbuecher_426_18_38"
+      ],
+      "family_name": "PROKSCH",
+      "given_names": "Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "proksch",
+      "first_norm": "peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "prstojevic, miroslav",
+      "composite_id": [
+        "sonstiges_69_3_4"
+      ],
+      "family_name": "PRSTOJEVIC",
+      "given_names": "Miroslav",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "prstojevic",
+      "first_norm": "miroslav",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pruckner, hildegard",
+      "composite_id": [
+        "wien_106_5_10"
+      ],
+      "family_name": "Pruckner",
+      "given_names": "Hildegard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pruckner",
+      "first_norm": "hildegard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pryce, william",
+      "composite_id": [
+        "kunstbuecher_17_1_38"
+      ],
+      "family_name": "Pryce",
+      "given_names": "William",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pryce",
+      "first_norm": "william",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "przibram, ludwig ritter von",
+      "composite_id": [
+        "biographie_44_2_27"
+      ],
+      "family_name": "PRZIBRAM",
+      "given_names": "Ludwig Ritter von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "przibram",
+      "first_norm": "ludwig ritter von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pölitz, karl heinrich ludwig",
+      "composite_id": [
+        "deutschland_84_4_4"
+      ],
+      "family_name": "Pölitz",
+      "given_names": "Karl Heinrich Ludwig",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pölitz",
+      "first_norm": "karl heinrich ludwig",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "pötzl, eduard",
+      "composite_id": [
+        "autographen_26_2_2"
+      ],
+      "family_name": "PÖTZL",
+      "given_names": "Eduard",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "pötzl",
+      "first_norm": "eduard",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "quennell, peter",
+      "composite_id": [
+        "briefe_117_5_15"
+      ],
+      "family_name": "Quennell",
+      "given_names": "Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "quennell",
+      "first_norm": "peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "raab",
+      "composite_id": [
+        "briefe_298_12_15"
+      ],
+      "family_name": "Raab",
+      "given_names": "Harald",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "raab",
+      "first_norm": "harald",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "radecki, sigismund von",
+      "composite_id": [
+        "russland_137_6_17",
+        "russland_136_6_17",
+        "russland_135_6_17"
+      ],
+      "family_name": "Radecki",
+      "given_names": "Sigismund von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "radecki",
+      "first_norm": "sigismund von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "radetzkaja, olga",
+      "composite_id": [
+        "russland_343_14_17"
+      ],
+      "family_name": "Radetzkaja",
+      "given_names": "Olga",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "radetzkaja",
+      "first_norm": "olga",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "radhkrishnan, s.",
+      "composite_id": [
+        "buddhismus_1_1_3"
+      ],
+      "family_name": "Radhkrishnan",
+      "given_names": "S.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "radhkrishnan",
+      "first_norm": "s.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "radierwerkstatt kurt zein wien",
+      "composite_id": [
+        "kunstbuecher_428_18_38"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Radierwerkstatt Kurt Zein Wien",
+      "last_norm": "radierwerkstatt kurt zein wien",
+      "first_norm": "",
+      "single_norm": "radierwerkstatt kurt zein wien",
+      "is_organisation": true
+    },
+    {
+      "display_norm": "radspieler, hans",
+      "composite_id": [
+        "briefe_361_15_15"
+      ],
+      "family_name": "Radspieler",
+      "given_names": "Hans",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "radspieler",
+      "first_norm": "hans",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "raffet, auguste",
+      "composite_id": [
+        "okkultismus_163_7_8"
+      ],
+      "family_name": "Raffet",
+      "given_names": "Auguste",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "raffet",
+      "first_norm": "auguste",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "rainer",
+      "composite_id": [
+        "kunstbuecher_483_20_38",
+        "kunstbuecher_907_37_38"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "Rainer",
+      "last_norm": "rainer",
+      "first_norm": "",
+      "single_norm": "rainer",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "rakelmann, georgia a.",
+      "composite_id": [
+        "zeitgeschichte_14_1_4"
+      ],
+      "family_name": "RAKELMANN",
+      "given_names": "Georgia A.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "rakelmann",
+      "first_norm": "georgia a.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ramberg-berdyczewski, rahel",
+      "composite_id": [
+        "judentum_137_6_9"
+      ],
+      "family_name": "Ramberg-Berdyczewski",
+      "given_names": "Rahel",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ramberg-berdyczewski",
+      "first_norm": "rahel",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ramelli, agostino",
+      "composite_id": [
+        "sonstiges_71_3_4"
+      ],
+      "family_name": "RAMELLI",
+      "given_names": "Agostino",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ramelli",
+      "first_norm": "agostino",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ramsauer, august",
+      "composite_id": [
+        "russland_180_8_17"
+      ],
+      "family_name": "Ramsauer",
+      "given_names": "August",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ramsauer",
+      "first_norm": "august",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ramsauer, hertha",
+      "composite_id": [
+        "illustrierte_97_4_14"
+      ],
+      "family_name": "Ramsauer",
+      "given_names": "Hertha",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ramsauer",
+      "first_norm": "hertha",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "ramshorn, carl",
+      "composite_id": [
+        "oesterreich_117_5_13"
+      ],
+      "family_name": "RAMSHORN",
+      "given_names": "Carl",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "ramshorn",
+      "first_norm": "carl",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 5405,
+      "unified_id": "pressler_mirjam",
+      "family_name": "Pressler",
+      "given_names": "Mirjam",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 5460,
+      "unified_id": "raab_riki",
+      "family_name": "Raab",
+      "given_names": "Riki",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 5492,
+      "unified_id": "rainer_arnulf",
+      "family_name": "Rainer",
+      "given_names": "Arnulf",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 5493,
+      "unified_id": "rainer_norbert",
+      "family_name": "Rainer",
+      "given_names": "Norbert",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 5494,
+      "unified_id": "rainer_roland",
+      "family_name": "Rainer",
+      "given_names": "Roland",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}

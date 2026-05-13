@@ -1,0 +1,545 @@
+[
+  {
+    "display_norm": "hauff, hermann",
+    "composite_id": [
+      "reisen_258_11_13",
+      "reisen_185_8_13"
+    ],
+    "family_name": "Hauff",
+    "given_names": "Hermann",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hauff_hermann",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "hauptmann, tatjanna",
+    "composite_id": [
+      "fremdsprachige_794_32_38"
+    ],
+    "family_name": "Hauptmann",
+    "given_names": "Tatjanna",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hauptmann_tatjanna",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "hausner",
+    "composite_id": [
+      "kunstbuecher_200_9_38"
+    ],
+    "family_name": "Hausner",
+    "given_names": "Rudolf",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hausner_rudolf",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "hausner, rudolf",
+    "composite_id": [
+      "kunstbuecher_200_9_38"
+    ],
+    "family_name": "Hausner",
+    "given_names": "Rudolf",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hausner_rudolf",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "haybach, rudolf",
+    "composite_id": [
+      "illustrierte_161_7_14"
+    ],
+    "family_name": "Haybach",
+    "given_names": "Rudolf",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "haybach_rudolf",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "haydn",
+    "composite_id": [
+      "musik_196_8_11"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Haydn",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "haydn",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "hecht, gretel",
+    "composite_id": [
+      "de-lit-texte_110_5_20",
+      "kinder_91_4_4"
+    ],
+    "family_name": "Hecht",
+    "given_names": "Gretel",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hecht_gretel",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "hecht, wolfgang",
+    "composite_id": [
+      "de-lit-texte_110_5_20",
+      "kinder_91_4_4"
+    ],
+    "family_name": "Hecht",
+    "given_names": "Wolfgang",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hecht_wolfgang",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "heckel, martin",
+    "composite_id": [
+      "deutschland_8_1_4"
+    ],
+    "family_name": "Heckel",
+    "given_names": "Martin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "heckel_martin",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "hecker, karl",
+    "composite_id": [
+      "kinder_45_2_4"
+    ],
+    "family_name": "Hecker",
+    "given_names": "Karl",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hecker_karl",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "heilmann, joh. dav.",
+    "composite_id": [
+      "antike_137_6_9"
+    ],
+    "family_name": "Heilmann",
+    "given_names": "Joh. Dav.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "heilmann_joh_d",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "heimann-jelinek, felicitas",
+    "composite_id": [
+      "wien_51_3_10"
+    ],
+    "family_name": "Heimann-Jelinek",
+    "given_names": "Felicitas",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "heimannjelinek_felicitas",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "heimatkunde', arbeitsgemeinschaft 'währinger",
+    "composite_id": [
+      "wien_138_6_10"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Arbeitsgemeinschaft 'Währinger Heimatkunde'",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "arbeitsgemeinschaft_'wahringe_heimatkunde'",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "heine, th. th.",
+    "composite_id": [
+      "bibliophile_159_7_10"
+    ],
+    "family_name": "Heine",
+    "given_names": "Th. Th.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "heine_th_th",
+    "matched_person_id": 2721,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "heiss, gernot",
+    "composite_id": [
+      "oesterreich_101_5_13"
+    ],
+    "family_name": "Heiss",
+    "given_names": "Gernot",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "heiss_gernot",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "helm, clementine",
+    "composite_id": [
+      "kinder_45_2_4"
+    ],
+    "family_name": "Helm",
+    "given_names": "Clementine",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "helm_clementine",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "heltau, michael",
+    "composite_id": [
+      "signierte_179_8_10"
+    ],
+    "family_name": "Heltau",
+    "given_names": "Michael",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "heltau_michael",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "hempel, eberhard",
+    "composite_id": [
+      "oesterreich_189_8_13"
+    ],
+    "family_name": "Hempel",
+    "given_names": "Eberhard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hempel_eberhard",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "henking, karl h.",
+    "composite_id": [
+      "kunstbuecher_202_9_38"
+    ],
+    "family_name": "Henking",
+    "given_names": "Karl H.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "henking_karl_h",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "hensel, s.",
+    "composite_id": [
+      "musik_51_3_11"
+    ],
+    "family_name": "Hensel",
+    "given_names": "S.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hensel_s",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "hensel, paul",
+    "composite_id": [
+      "musik_51_3_11"
+    ],
+    "family_name": "Hensel",
+    "given_names": "Paul",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hensel_paul",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "hensel, wilhelm",
+    "composite_id": [
+      "musik_51_3_11"
+    ],
+    "family_name": "Hensel",
+    "given_names": "Wilhelm",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hensel_wilhelm",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "herget, anton",
+    "composite_id": [
+      "kinder_40_2_4"
+    ],
+    "family_name": "Herget",
+    "given_names": "Anton",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "herget_anton",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "herold, heinrich",
+    "composite_id": [
+      "kinder_28_2_4"
+    ],
+    "family_name": "Herold",
+    "given_names": "Heinrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "herold_heinrich",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "herrigel, eugen",
+    "composite_id": [
+      "buddhismus_11_1_3"
+    ],
+    "family_name": "Herrigel",
+    "given_names": "Eugen",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "herrigel_eugen",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "herwig, malte",
+    "composite_id": [
+      "de-lit-monographien_106_5_10"
+    ],
+    "family_name": "Herwig",
+    "given_names": "Malte",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "herwig_malte",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "herzen, alexander",
+    "composite_id": [
+      "russland_83_4_17"
+    ],
+    "family_name": "Herzen",
+    "given_names": "Alexander",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "herzen_alexander",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "herzog, elizabeth",
+    "composite_id": [
+      "judentum_186_8_9"
+    ],
+    "family_name": "Herzog",
+    "given_names": "Elizabeth",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "herzog_elizabeth",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "hesse, bruno",
+    "composite_id": [
+      "kunstbuecher_204_9_38"
+    ],
+    "family_name": "Hesse",
+    "given_names": "Bruno",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "hesse_bruno",
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "heuer, wolfgang",
+    "composite_id": [
+      "bibliophile_126_6_10"
+    ],
+    "family_name": "Heuer",
+    "given_names": "Wolfgang",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "heuer_wolfgang",
+    "_source_custom_id": "batch_nopes_014"
+  }
+]

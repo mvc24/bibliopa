@@ -1,0 +1,571 @@
+[
+  {
+    "display_norm": "marias, julian",
+    "composite_id": [
+      "fremdsprachige_692_28_38"
+    ],
+    "family_name": "Marias",
+    "given_names": "Julian",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "marias_julian",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "marino, giambattista",
+    "composite_id": [
+      "kunstbuecher_338_14_38"
+    ],
+    "family_name": "Marino",
+    "given_names": "Giambattista",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "marino_giambattista",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "marktgemeinde goisern",
+    "composite_id": [
+      "oesterreich_58_3_13"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Marktgemeinde Goisern",
+    "is_organisation": true,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "marktgemeinde_goisern",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "marsais, du",
+    "composite_id": [
+      "philosophie_478_20_24"
+    ],
+    "family_name": "Marsais",
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": "du",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "marsais_du",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "martin, walser",
+    "composite_id": [
+      "erstausgaben_1809_73_78"
+    ],
+    "family_name": "Martin",
+    "given_names": "Walser",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "martin_walser",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "martins, pina",
+    "composite_id": [
+      "renaissance_22_1_4"
+    ],
+    "family_name": "Martins",
+    "given_names": "Pina",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "martins_pina",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mary, geo t.",
+    "composite_id": [
+      "reisen_218_9_13"
+    ],
+    "family_name": "Mary",
+    "given_names": "Geo T.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mary_geo_t",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mattl, siegfried",
+    "composite_id": [
+      "oesterreich_79_4_13"
+    ],
+    "family_name": "Mattl",
+    "given_names": "Siegfried",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mattl_siegfried",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "maucy, christoph d.",
+    "composite_id": [
+      "bibliophile_126_6_10"
+    ],
+    "family_name": "Maucy",
+    "given_names": "Christoph D.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "maucy_christoph_d",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "may, ekkehard",
+    "composite_id": [
+      "insel_61_3_27"
+    ],
+    "family_name": "May",
+    "given_names": "Ekkehard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "may_ekkehard",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mayer",
+    "composite_id": [
+      "musik_71_3_11"
+    ],
+    "family_name": "Mayer",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayer_hans",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mayer, susanne",
+    "composite_id": [
+      "reisen_212_9_13"
+    ],
+    "family_name": "Mayer",
+    "given_names": "Susanne",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayer_susanne",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "myer, hans",
+    "composite_id": [
+      "biographie_377_16_27"
+    ],
+    "family_name": "Mayer",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayer_hans",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mayer, hans",
+    "composite_id": [
+      "erstausgaben_304_13_78",
+      "literatur_192_8_12",
+      "russland_186_8_17",
+      "literatur_201_9_12",
+      "literatur_181_8_12",
+      "literatur_191_8_12",
+      "de-lit-monographien_213_9_10",
+      "kunstbuecher_233_10_38",
+      "literatur_187_8_12",
+      "literatur_190_8_12",
+      "literatur_183_8_12",
+      "erstausgaben_1242_50_78",
+      "literatur_184_8_12",
+      "literatur_199_8_12",
+      "literatur_200_9_12",
+      "literatur_185_8_12",
+      "literatur_188_8_12",
+      "literatur_189_8_12",
+      "literatur_195_8_12",
+      "literatur_194_8_12",
+      "literatur_196_8_12",
+      "literatur_198_8_12",
+      "signierte_130_6_10",
+      "literatur_182_8_12",
+      "literatur_193_8_12",
+      "literatur_197_8_12",
+      "erstausgaben_976_40_78",
+      "de-lit-texte_85_4_20"
+    ],
+    "family_name": "Mayer",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayer_hans",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mayer, ludwig joseph",
+    "composite_id": [
+      "oesterreich_98_4_13"
+    ],
+    "family_name": "Mayer",
+    "given_names": "Ludwig Joseph",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayer_ludwig_j",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mayer, reinhold",
+    "composite_id": [
+      "judentum_8_1_9"
+    ],
+    "family_name": "Mayer",
+    "given_names": "Reinhold",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayer_reinhold",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mayer, verena",
+    "composite_id": [
+      "de-lit-monographien_123_5_10",
+      "de-lit-monographien_124_5_10"
+    ],
+    "family_name": "Mayer",
+    "given_names": "Verena",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayer_verena",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mayer, vera",
+    "composite_id": [
+      "kunstbuecher_344_14_38"
+    ],
+    "family_name": "Mayer",
+    "given_names": "Vera",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayer_vera",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mayer, franz",
+    "composite_id": [
+      "kunstbuecher_344_14_38"
+    ],
+    "family_name": "Mayer",
+    "given_names": "Franz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayer_franz",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mayer, kurt",
+    "composite_id": [
+      "kunstbuecher_411_17_38"
+    ],
+    "family_name": "Mayer",
+    "given_names": "Kurt",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayer_kurt",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mayer, franz martin mayer",
+    "composite_id": [
+      "oesterreich_230_10_13"
+    ],
+    "family_name": "Mayer",
+    "given_names": "Franz Martin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayer_franz_m",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mayer-beck, fritz",
+    "composite_id": [
+      "kunstbuecher_806_33_38",
+      "illustrierte_161_7_14"
+    ],
+    "family_name": "Mayer-Beck",
+    "given_names": "Fritz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayerbeck_fritz",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mayer-marton, georg",
+    "composite_id": [
+      "erstausgaben_771_31_78"
+    ],
+    "family_name": "Mayer-Marton",
+    "given_names": "Georg",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayermarton_georg",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mayr, ernst",
+    "composite_id": [
+      "biographie_155_7_27"
+    ],
+    "family_name": "Mayr",
+    "given_names": "Ernst",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mayr_ernst",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mc luhan, marshall",
+    "composite_id": [
+      "buch_124_5_8"
+    ],
+    "family_name": "McLuhan",
+    "given_names": "Marshall",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mcluhan_marshall",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mcintyre, joan",
+    "composite_id": [
+      "sonstiges_14_1_4"
+    ],
+    "family_name": "McIntyre",
+    "given_names": "Joan",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mcintyre_joan",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "mecklenburg, herzog zu",
+    "composite_id": [
+      "suchliste_19_1_3"
+    ],
+    "family_name": "Mecklenburg",
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": "Herzog zu Mecklenburg",
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "mecklenburg_herzog_zu",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "meehan, bernard",
+    "composite_id": [
+      "buch_12_1_8"
+    ],
+    "family_name": "Meehan",
+    "given_names": "Bernard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "meehan_bernard",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "meier, harri",
+    "composite_id": [
+      "maerchen_45_2_3"
+    ],
+    "family_name": "Meier",
+    "given_names": "Harri",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "meier_harri",
+    "_source_custom_id": "batch_nopes_023"
+  },
+  {
+    "display_norm": "meiller, andreas von",
+    "composite_id": [
+      "oesterreich_231_10_13"
+    ],
+    "family_name": "Meiller",
+    "given_names": "Andreas",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "meiller_andreas",
+    "_source_custom_id": "batch_nopes_023"
+  }
+]

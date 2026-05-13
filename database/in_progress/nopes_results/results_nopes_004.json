@@ -1,0 +1,544 @@
+[
+  {
+    "display_norm": "biron, georg",
+    "composite_id": [
+      "biographie_45_2_27"
+    ],
+    "family_name": "Biron",
+    "given_names": "Georg",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "biron_georg",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bismarck, otto von",
+    "composite_id": [
+      "briefe_100_5_15"
+    ],
+    "family_name": "Bismarck",
+    "given_names": "Otto",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bismarck_otto",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "blaeu, joan",
+    "composite_id": [
+      "reisen_95_4_13"
+    ],
+    "family_name": "Blaeu",
+    "given_names": "Joan",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "blaeu_joan",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bleichsteiner, robert",
+    "composite_id": [
+      "buddhismus_46_2_3"
+    ],
+    "family_name": "Bleichsteiner",
+    "given_names": "Robert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bleichsteiner_robert",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bligh, william",
+    "composite_id": [
+      "reisen_96_4_13"
+    ],
+    "family_name": "Bligh",
+    "given_names": "William",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bligh_william",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "blixen, tanja",
+    "composite_id": [
+      "biographie_105_5_27"
+    ],
+    "family_name": "Blixen",
+    "given_names": "Tanja",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "blixen_tanja",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "blixen, tania",
+    "composite_id": [
+      "fremdsprachige_141_6_38"
+    ],
+    "family_name": "Blixen",
+    "given_names": "Tania",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "blixen_tania",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "block, w. paul",
+    "composite_id": [
+      "deutschland_9_1_4"
+    ],
+    "family_name": "Block",
+    "given_names": "W. Paul",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "block_w_p",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "blockmans, wim",
+    "composite_id": [
+      "kunstbuecher_253_11_38"
+    ],
+    "family_name": "Blockmans",
+    "given_names": "Wim",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "blockmans_wim",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "blum, hans",
+    "composite_id": [
+      "deutschland_5_1_4"
+    ],
+    "family_name": "Blum",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "blum_hans",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bläu, johannes",
+    "composite_id": [
+      "sonstiges_1_1_4"
+    ],
+    "family_name": "Blaeu",
+    "given_names": "Johannes",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "blaeu_johannes",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "blüthgen, victor",
+    "composite_id": [
+      "kinder_45_2_4"
+    ],
+    "family_name": "Bluthgen",
+    "given_names": "Victor",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bluthgen_victor",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bobzin, hartmut",
+    "composite_id": [
+      "islam_2_1_3"
+    ],
+    "family_name": "Bobzin",
+    "given_names": "Hartmut",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bobzin_hartmut",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bock, friedrich",
+    "composite_id": [
+      "insel_159_7_27"
+    ],
+    "family_name": "Bock",
+    "given_names": "Friedrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bock_friedrich",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bockelmann, manfred",
+    "composite_id": [
+      "kunstbuecher_200_9_38"
+    ],
+    "family_name": "Bockelmann",
+    "given_names": "Manfred",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bockelmann_manfred",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "boeck, wilhelm",
+    "composite_id": [
+      "insel_329_14_27"
+    ],
+    "family_name": "Boeck",
+    "given_names": "Wilhelm",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "boeck_wilhelm",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "boehlich, walter",
+    "composite_id": [
+      "erstausgaben_1498_60_78"
+    ],
+    "family_name": "Boehlich",
+    "given_names": "Walter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "boehlich_walter",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bogner, dieter",
+    "composite_id": [
+      "kunstbuecher_263_11_38"
+    ],
+    "family_name": "Bogner",
+    "given_names": "Dieter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bogner_dieter",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bolte, johannes",
+    "composite_id": [
+      "insel_27_2_27"
+    ],
+    "family_name": "Bolte",
+    "given_names": "Johannes",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bolte_johannes",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bonnet, joseph",
+    "composite_id": [
+      "erstausgaben_1352_55_78"
+    ],
+    "family_name": "Bonnet",
+    "given_names": "Joseph",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bonnet_joseph",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bonora, franz",
+    "composite_id": [
+      "reisen_97_4_13"
+    ],
+    "family_name": "Bonora",
+    "given_names": "Franz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bonora_franz",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bontekoe van hoorn, willem ysbrantsz",
+    "composite_id": [
+      "reisen_98_4_13"
+    ],
+    "family_name": "Bontekoe van Hoorn",
+    "given_names": "Willem Ysbrantsz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bontekoe_van_hoorn_willem_y",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "borges, j.l.",
+    "composite_id": [
+      "fremdsprachige_253_11_38"
+    ],
+    "family_name": "Borges",
+    "given_names": "J. L.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "borges_jorge_l",
+    "matched_person_id": 705,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "borhek, august christian",
+    "composite_id": [
+      "antike_149_6_9"
+    ],
+    "family_name": "Borhek",
+    "given_names": "August Christian",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "borhek_august_c",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bosch, hieronymus",
+    "composite_id": [
+      "kunstbuecher_601_25_38",
+      "kunstbuecher_43_2_38"
+    ],
+    "family_name": "Bosch",
+    "given_names": "Hieronymus",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bosch_hieronymus",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "boström, jörg",
+    "composite_id": [
+      "deutschland_52_3_4",
+      "sonstiges_3_1_4"
+    ],
+    "family_name": "Bostrom",
+    "given_names": "Jorg",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bostrom_jorg",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bougainville, louis antoine de",
+    "composite_id": [
+      "reisen_99_4_13"
+    ],
+    "family_name": "Bougainville",
+    "given_names": "Louis Antoine",
+    "name_prefix": null,
+    "name_particles": "de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bougainville_louis_a",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "bowen",
+    "composite_id": [
+      "bibliophile_83_4_10"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Bowen",
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "bowen",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "brackert, helmut",
+    "composite_id": [
+      "kinder_91_4_4"
+    ],
+    "family_name": "Brackert",
+    "given_names": "Helmut",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "brackert_helmut",
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "braque, georges",
+    "composite_id": [
+      "kunstbuecher_47_2_38"
+    ],
+    "family_name": "Braque",
+    "given_names": "Georges",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": false,
+    "matched_unified_id": null,
+    "matched_person_id": null,
+    "unified_id": "braque_georges",
+    "_source_custom_id": "batch_nopes_004"
+  }
+]

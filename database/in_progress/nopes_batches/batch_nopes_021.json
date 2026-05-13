@@ -1,0 +1,636 @@
+{
+  "nopes_entries": [
+    {
+      "display_norm": "kümmel, otto",
+      "composite_id": [
+        "kunstbuecher_293_12_38"
+      ],
+      "family_name": "KÜMMEL",
+      "given_names": "Otto",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kümmel",
+      "first_norm": "otto",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "kümmel, o.",
+      "composite_id": [
+        "kunstbuecher_241_10_38"
+      ],
+      "family_name": "Kümmel",
+      "given_names": "O.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "kümmel",
+      "first_norm": "o.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "la rochefoucauld, françois de",
+      "composite_id": [
+        "insel_71_3_27"
+      ],
+      "family_name": "La Rochefoucauld",
+      "given_names": "François de",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "la rochefoucauld",
+      "first_norm": "françois de",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "la rochefoucauld, herzog von",
+      "composite_id": [
+        "insel_72_3_27"
+      ],
+      "family_name": "La Rochefoucauld",
+      "given_names": "Herzog von",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "la rochefoucauld",
+      "first_norm": "herzog von",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lachmann, karl",
+      "composite_id": [
+        "briefe_39_2_15"
+      ],
+      "family_name": "Lachmann",
+      "given_names": "Karl",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lachmann",
+      "first_norm": "karl",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lachmayer, herbert",
+      "composite_id": [
+        "musik_79_4_11",
+        "wien_163_7_10",
+        "kunstbuecher_411_17_38"
+      ],
+      "family_name": "Lachmayer",
+      "given_names": "Herbert",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lachmayer",
+      "first_norm": "herbert",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lamartine",
+      "composite_id": [
+        "okkultismus_163_7_8",
+        "neuzeit_35_2_4"
+      ],
+      "family_name": "Lamartine",
+      "given_names": "Alphonse",
+      "name_particles": "de",
+      "single_name": null,
+      "last_norm": "lamartine",
+      "first_norm": "alphonse",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "landesregierung, burgenländische",
+      "composite_id": [
+        "oesterreich_263_11_13"
+      ],
+      "family_name": "Landesregierung",
+      "given_names": "Burgenländische",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "landesregierung",
+      "first_norm": "burgenländische",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "landmann, georg peter",
+      "composite_id": [
+        "antike_146_6_9"
+      ],
+      "family_name": "Landmann",
+      "given_names": "Georg Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "landmann",
+      "first_norm": "georg peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lang, d.m.",
+      "composite_id": [
+        "aegypten_10_1_3"
+      ],
+      "family_name": "Lang",
+      "given_names": "D.M.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lang",
+      "first_norm": "d.m.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lang, lothar",
+      "composite_id": [
+        "insel_363_15_27"
+      ],
+      "family_name": "Lang",
+      "given_names": "Lothar",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lang",
+      "first_norm": "lothar",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "larsen, jens peter",
+      "composite_id": [
+        "musik_67_3_11"
+      ],
+      "family_name": "LARSEN",
+      "given_names": "Jens Peter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "larsen",
+      "first_norm": "jens peter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lausch, susanne",
+      "composite_id": [
+        "reisen_290_12_13"
+      ],
+      "family_name": "Lausch",
+      "given_names": "Susanne",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lausch",
+      "first_norm": "susanne",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lavrin, janko",
+      "composite_id": [
+        "russland_87_4_17"
+      ],
+      "family_name": "Lavrin",
+      "given_names": "Janko",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lavrin",
+      "first_norm": "janko",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lawrentjew, alexander n.",
+      "composite_id": [
+        "russland_265_11_17"
+      ],
+      "family_name": "Lawrentjew",
+      "given_names": "Alexander N.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lawrentjew",
+      "first_norm": "alexander n.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "layard, austen henry",
+      "composite_id": [
+        "aegypten_26_2_3"
+      ],
+      "family_name": "LAYARD",
+      "given_names": "Austen Henry",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "layard",
+      "first_norm": "austen henry",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lbus, anita",
+      "composite_id": [
+        "bibliophile_0_1_10"
+      ],
+      "family_name": "LBUS",
+      "given_names": "Anita",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lbus",
+      "first_norm": "anita",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "le povremoyne, jehan",
+      "composite_id": [
+        "bibliophile_144_6_10"
+      ],
+      "family_name": "LE POVREMOYNE",
+      "given_names": "Jehan",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "le povremoyne",
+      "first_norm": "jehan",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lebeer, louis",
+      "composite_id": [
+        "kunstbuecher_309_13_38"
+      ],
+      "family_name": "LEBEER",
+      "given_names": "Louis",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lebeer",
+      "first_norm": "louis",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lehner, ulrike",
+      "composite_id": [
+        "erstausgaben_1143_46_78"
+      ],
+      "family_name": "Lehner",
+      "given_names": "Ulrike",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lehner",
+      "first_norm": "ulrike",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lehnert, g.",
+      "composite_id": [
+        "kunstbuecher_241_10_38"
+      ],
+      "family_name": "Lehnert",
+      "given_names": "G.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lehnert",
+      "first_norm": "g.",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "leibniz",
+      "composite_id": [
+        "philosophie_205_9_24"
+      ],
+      "family_name": null,
+      "given_names": null,
+      "name_particles": "",
+      "single_name": "LEIBNIZ",
+      "last_norm": "leibniz",
+      "first_norm": "",
+      "single_norm": "leibniz",
+      "is_organisation": false
+    },
+    {
+      "display_norm": "leinfellner, heinz",
+      "composite_id": [
+        "kunstbuecher_313_13_38"
+      ],
+      "family_name": "LEINFELLNER",
+      "given_names": "Heinz",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "leinfellner",
+      "first_norm": "heinz",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lellenberg, jon",
+      "composite_id": [
+        "briefe_129_6_15"
+      ],
+      "family_name": "Lellenberg",
+      "given_names": "Jon",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lellenberg",
+      "first_norm": "jon",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lenk, rudolf",
+      "composite_id": [
+        "oesterreich_105_5_13"
+      ],
+      "family_name": "Lenk",
+      "given_names": "Rudolf",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lenk",
+      "first_norm": "rudolf",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lenz, werner",
+      "composite_id": [
+        "buch_112_5_8"
+      ],
+      "family_name": "LENZ",
+      "given_names": "Werner",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lenz",
+      "first_norm": "werner",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lepka, gregor",
+      "composite_id": [
+        "signierte_120_5_10"
+      ],
+      "family_name": "LEPKA",
+      "given_names": "Gregor",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lepka",
+      "first_norm": "gregor",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "leuschner, joachim",
+      "composite_id": [
+        "deutschland_8_1_4"
+      ],
+      "family_name": "Leuschner",
+      "given_names": "Joachim",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "leuschner",
+      "first_norm": "joachim",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "lewy, guenter",
+      "composite_id": [
+        "deutschland_26_2_4"
+      ],
+      "family_name": "LEWY",
+      "given_names": "Guenter",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "lewy",
+      "first_norm": "guenter",
+      "single_norm": null,
+      "is_organisation": false
+    },
+    {
+      "display_norm": "liebeskind, a. j.",
+      "composite_id": [
+        "de-lit-texte_320_13_20"
+      ],
+      "family_name": "Liebeskind",
+      "given_names": "A. J.",
+      "name_particles": "",
+      "single_name": null,
+      "last_norm": "liebeskind",
+      "first_norm": "a. j.",
+      "single_norm": null,
+      "is_organisation": false
+    }
+  ],
+  "existing_people_context": [
+    {
+      "person_id": 4047,
+      "unified_id": "leinfellner_elisabeth",
+      "family_name": "Leinfellner",
+      "given_names": "Elisabeth",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4048,
+      "unified_id": "leinfellner_werner",
+      "family_name": "Leinfellner",
+      "given_names": "Werner",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4074,
+      "unified_id": "lenk_elisabeth",
+      "family_name": "Lenk",
+      "given_names": "Elisabeth",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4037,
+      "unified_id": "leibniz_gottfried_w",
+      "family_name": "Leibniz",
+      "given_names": "Gottfried Wilhelm",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4126,
+      "unified_id": "lewy_rudolf",
+      "family_name": "Lewy",
+      "given_names": "Rudolf",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4078,
+      "unified_id": "lenz_felix",
+      "family_name": "Lenz",
+      "given_names": "Felix",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4079,
+      "unified_id": "lenz_hermann",
+      "family_name": "Lenz",
+      "given_names": "Hermann",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4080,
+      "unified_id": "lenz_jakob_m_r",
+      "family_name": "Lenz",
+      "given_names": "Jakob Michael Reinhold",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4081,
+      "unified_id": "lenz_siegfried",
+      "family_name": "Lenz",
+      "given_names": "Siegfried",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3913,
+      "unified_id": "landmann_salcia",
+      "family_name": "Landmann",
+      "given_names": "Salcia",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3878,
+      "unified_id": "lachmann_otto_f",
+      "family_name": "Lachmann",
+      "given_names": "Otto F.",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3920,
+      "unified_id": "lang_bernhard",
+      "family_name": "Lang",
+      "given_names": "Bernhard",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3921,
+      "unified_id": "lang_erwin",
+      "family_name": "Lang",
+      "given_names": "Erwin",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3922,
+      "unified_id": "lang_hans",
+      "family_name": "Lang",
+      "given_names": "Hans",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3923,
+      "unified_id": "lang_monique",
+      "family_name": "Lang",
+      "given_names": "Monique",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3924,
+      "unified_id": "lang_peter_c",
+      "family_name": "Lang",
+      "given_names": "Peter Christian",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4031,
+      "unified_id": "lehnert_christian",
+      "family_name": "Lehnert",
+      "given_names": "Christian",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4032,
+      "unified_id": "lehnert_herbert",
+      "family_name": "Lehnert",
+      "given_names": "Herbert",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 4033,
+      "unified_id": "lehnert_martin",
+      "family_name": "Lehnert",
+      "given_names": "Martin",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3868,
+      "unified_id": "la_rochefoucauld",
+      "family_name": "La Rochefoucauld",
+      "given_names": null,
+      "name_particles": "Herzog von",
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3948,
+      "unified_id": "larsen_egon",
+      "family_name": "Larsen",
+      "given_names": "Egon",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3949,
+      "unified_id": "larsen_j_a",
+      "family_name": "Larsen",
+      "given_names": "J. Anker",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    },
+    {
+      "person_id": 3950,
+      "unified_id": "larsen_werner_p",
+      "family_name": "Larsen",
+      "given_names": "Werner Peter",
+      "name_particles": null,
+      "single_name": null,
+      "is_organisation": false
+    }
+  ]
+}
