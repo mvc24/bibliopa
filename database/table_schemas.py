@@ -31,6 +31,7 @@ PEOPLE_SCHEMA = {
     "person_id": "SERIAL PRIMARY KEY",
     "unified_id": "TEXT UNIQUE",
     "family_name": "TEXT",
+    "given_names": "TEXT",
     "name_prefix": "TEXT",
     "name_particles": "TEXT",
     "name_suffix": "TEXT",

@@ -11,6 +11,12 @@ from alembic import op
 import sqlalchemy as sa
 
 
+# revision identifiers, used by Alembic.
+revision: str = '090f6e6b5219'
+down_revision: Union[str, Sequence[str], None] = 'edae66936413'
+branch_labels: Union[str, Sequence[str], None] = None
+depends_on: Union[str, Sequence[str], None] = None
+
 
 BOOKS2PEOPLE_SCHEMA = {
     "b2p_id": "SERIAL PRIMARY KEY",
@@ -38,6 +44,7 @@ PEOPLE_SCHEMA = {
     "person_id": "SERIAL PRIMARY KEY",
     "unified_id": "TEXT UNIQUE",
     "family_name": "TEXT",
+    "given_names": "TEXT",
     "name_prefix": "TEXT",
     "name_particles": "TEXT",
     "name_suffix": "TEXT",
@@ -47,13 +54,6 @@ PEOPLE_SCHEMA = {
     "updated_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
 }
 
-
-
-# revision identifiers, used by Alembic.
-revision: str = '090f6e6b5219'
-down_revision: Union[str, Sequence[str], None] = 'edae66936413'
-branch_labels: Union[str, Sequence[str], None] = None
-depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
