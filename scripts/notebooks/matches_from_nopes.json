@@ -1,0 +1,761 @@
+[
+  {
+    "display_norm": "stendhal, friedrich",
+    "composite_id": [
+      "fremdsprachige_857_35_38"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Stendhal",
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "stendhal",
+    "matched_person_id": 6717,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_035"
+  },
+  {
+    "display_norm": "hiller von gaertringen, julia freifrau",
+    "composite_id": [
+      "erstausgaben_1053_43_78"
+    ],
+    "family_name": "Hiller von Gaertringen",
+    "given_names": "Julia",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": "Freifrau",
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "hiller_von_gaertringen_julia",
+    "matched_person_id": 2884,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_015"
+  },
+  {
+    "display_norm": "heine, th. th.",
+    "composite_id": [
+      "bibliophile_159_7_10"
+    ],
+    "family_name": "Heine",
+    "given_names": "Th. Th.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "heine_th_th",
+    "matched_person_id": 2721,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_014"
+  },
+  {
+    "display_norm": "babo, a.",
+    "composite_id": [
+      "sonstiges_57_3_4"
+    ],
+    "family_name": "Babo",
+    "given_names": "A.",
+    "name_prefix": null,
+    "name_particles": "Freiherr von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "babo_a",
+    "matched_person_id": 225,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_002"
+  },
+  {
+    "display_norm": "lotman",
+    "composite_id": [
+      "literatur_273_11_12"
+    ],
+    "family_name": "Lotman",
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "lotman_juri",
+    "matched_person_id": 4227,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_022"
+  },
+  {
+    "display_norm": "kirsch, rainer",
+    "composite_id": [
+      "russland_165_7_17"
+    ],
+    "family_name": "Kirsch",
+    "given_names": "Rainer",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "kirsch_rainer",
+    "matched_person_id": 5153,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_018"
+  },
+  {
+    "display_norm": "breuningen, helga van",
+    "composite_id": [
+      "reisen_230_10_13"
+    ],
+    "family_name": "Breuningen",
+    "given_names": "Helga",
+    "name_prefix": null,
+    "name_particles": "van",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "van_breuningen_helga",
+    "matched_person_id": 7168,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "burney, c.",
+    "composite_id": [
+      "aegypten_10_1_3"
+    ],
+    "family_name": "Burney",
+    "given_names": "C.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "burney_c",
+    "matched_person_id": 932,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_005"
+  },
+  {
+    "display_norm": "halben, h. von",
+    "composite_id": [
+      "insel_81_4_27"
+    ],
+    "family_name": "Halben",
+    "given_names": "H.",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "halben_h",
+    "matched_person_id": 7828,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_013"
+  },
+  {
+    "display_norm": "emerson, r.w.",
+    "composite_id": [
+      "fremdsprachige_11_1_38",
+      "fremdsprachige_12_1_38",
+      "fremdsprachige_13_1_38"
+    ],
+    "family_name": "Emerson",
+    "given_names": "R.W.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "emerson_ralph_w",
+    "matched_person_id": 1626,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_009"
+  },
+  {
+    "display_norm": "schrijver, emile g.l.",
+    "composite_id": [
+      "bibliophile_39_2_10"
+    ],
+    "family_name": "Schrijver",
+    "given_names": "Emile G. L.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "schrijver_emile",
+    "matched_person_id": null,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_033"
+  },
+  {
+    "display_norm": "muschik",
+    "composite_id": [
+      "signierte_91_4_10"
+    ],
+    "family_name": "Muschik",
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "muschik_johann",
+    "matched_person_id": 4851,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_025"
+  },
+  {
+    "display_norm": "mießner, w.",
+    "composite_id": [
+      "fremdsprachige_13_1_38"
+    ],
+    "family_name": "Mießner",
+    "given_names": "W.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "miessner_wilhelm",
+    "matched_person_id": null,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_024"
+  },
+  {
+    "display_norm": "eichenbaum",
+    "composite_id": [
+      "russland_311_13_17"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Eichenbaum",
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "eichenbaum_boris",
+    "matched_person_id": 1573,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_008"
+  },
+  {
+    "display_norm": "eichenbaun, boris",
+    "composite_id": [
+      "russland_112_5_17"
+    ],
+    "family_name": "Eichenbaun",
+    "given_names": "Boris",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "eichenbaum_boris",
+    "matched_person_id": 1573,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_008"
+  },
+  {
+    "display_norm": "govinda, l. a.",
+    "composite_id": [
+      "buddhismus_34_2_3"
+    ],
+    "family_name": "Govinda",
+    "given_names": "L. A.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "govinda_lama_a",
+    "matched_person_id": 2297,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_012"
+  },
+  {
+    "display_norm": "graesse",
+    "composite_id": [
+      "mittelalter_39_2_7"
+    ],
+    "family_name": "Graesse",
+    "given_names": "Johann Georg Theodor",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "graesse_th",
+    "matched_person_id": 2312,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_012"
+  },
+  {
+    "display_norm": "gries, j. d.",
+    "composite_id": [
+      "fremdsprachige_883_36_38"
+    ],
+    "family_name": "Gries",
+    "given_names": "J. D.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "gries_johann_d",
+    "matched_person_id": 2365,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_012"
+  },
+  {
+    "display_norm": "borges, j.l.",
+    "composite_id": [
+      "fremdsprachige_253_11_38"
+    ],
+    "family_name": "Borges",
+    "given_names": "J. L.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "borges_jorge_l",
+    "matched_person_id": 705,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_004"
+  },
+  {
+    "display_norm": "gombrich, e.h.",
+    "composite_id": [
+      "kunstbuecher_166_7_38"
+    ],
+    "family_name": "Gombrich",
+    "given_names": "E.H.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "gombrich_ernst_h",
+    "matched_person_id": 2260,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_011"
+  },
+  {
+    "display_norm": "rudolf, kronprinz erzherzog",
+    "composite_id": [
+      "oesterreich_109_5_13"
+    ],
+    "family_name": "Rudolf",
+    "given_names": null,
+    "name_prefix": "Kronprinz",
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "rudolf_erzherzog",
+    "matched_person_id": 5828,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_031"
+  },
+  {
+    "display_norm": "rudolf, kronprinz erzherzog (anregung",
+    "composite_id": [
+      "suchliste_36_2_3"
+    ],
+    "family_name": "Rudolf",
+    "given_names": null,
+    "name_prefix": "Kronprinz",
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "rudolf_erzherzog",
+    "matched_person_id": 5828,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_031"
+  },
+  {
+    "display_norm": "rudolf, mitwirkung)",
+    "composite_id": [
+      "suchliste_36_2_3"
+    ],
+    "family_name": "Rudolf",
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "rudolf_erzherzog",
+    "matched_person_id": 5828,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_031"
+  },
+  {
+    "display_norm": "ratz",
+    "composite_id": [
+      "musik_71_3_11"
+    ],
+    "family_name": "Ratz",
+    "given_names": "Erwin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "ratz_erwin",
+    "matched_person_id": 5522,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_030"
+  },
+  {
+    "display_norm": "chesterfield, philip dormer stanhope earl of",
+    "composite_id": [
+      "fremdsprachige_252_11_38"
+    ],
+    "family_name": "Chesterfield",
+    "given_names": "Philip Dormer Stanhope",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": "Earl of",
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "chesterfield_lord",
+    "matched_person_id": 1065,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_006"
+  },
+  {
+    "display_norm": "chiavacci, vinzenz jun.",
+    "composite_id": [
+      "briefe_324_13_15"
+    ],
+    "family_name": "Chiavacci",
+    "given_names": "Vinzenz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": "Jr.",
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "chiavacci_vinzenz",
+    "matched_person_id": 1068,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_006"
+  },
+  {
+    "display_norm": "cioran",
+    "composite_id": [
+      "philosophie_410_17_24"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Cioran",
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "cioran_e_m",
+    "matched_person_id": 1096,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_006"
+  },
+  {
+    "display_norm": "clausewitz, karl von",
+    "composite_id": [
+      "insel_277_12_27"
+    ],
+    "family_name": "Clausewitz",
+    "given_names": "Karl",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "clausewitz_karl",
+    "matched_person_id": 1106,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_006"
+  },
+  {
+    "display_norm": "crusenstolpe",
+    "composite_id": [
+      "suchliste_7_1_3"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Crusenstolpe",
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "crusenstolpe_magnus_j",
+    "matched_person_id": 1194,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_006"
+  },
+  {
+    "display_norm": "csokor",
+    "composite_id": [
+      "de-lit-monographien_70_3_10"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Csokor",
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "csokor_franz_t",
+    "matched_person_id": 1196,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_006"
+  },
+  {
+    "display_norm": "garger, e.",
+    "composite_id": [
+      "wien_25_2_10",
+      "wien_24_1_10"
+    ],
+    "family_name": "Garger",
+    "given_names": "E.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "garger_ernst",
+    "matched_person_id": 2071,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_010"
+  },
+  {
+    "display_norm": "la rochefoucauld, françois de",
+    "composite_id": [
+      "insel_71_3_27"
+    ],
+    "family_name": "La Rochefoucauld",
+    "given_names": "François",
+    "name_prefix": null,
+    "name_particles": "de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "la_rochefoucauld",
+    "matched_person_id": 3868,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "la rochefoucauld, herzog von",
+    "composite_id": [
+      "insel_72_3_27"
+    ],
+    "family_name": "La Rochefoucauld",
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": "Herzog von",
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "la_rochefoucauld",
+    "matched_person_id": 3868,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "leibniz",
+    "composite_id": [
+      "philosophie_205_9_24"
+    ],
+    "family_name": "Leibniz",
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "leibniz_gottfried_w",
+    "matched_person_id": 4037,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_021"
+  },
+  {
+    "display_norm": "tischbein, johann heinrich d. ä.",
+    "composite_id": [
+      "insel_274_11_27"
+    ],
+    "family_name": "Tischbein",
+    "given_names": "Johann Heinrich",
+    "name_prefix": null,
+    "name_particles": "d. Ä.",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "tischbein_johann_h",
+    "matched_person_id": 7004,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_037"
+  },
+  {
+    "display_norm": "kalkreuth, christine von",
+    "composite_id": [
+      "bibliophile_152_7_10"
+    ],
+    "family_name": "Kalkreuth",
+    "given_names": "Christine",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "kalkreuth_christine",
+    "matched_person_id": 3312,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_017"
+  },
+  {
+    "display_norm": "arnim, gisela von",
+    "composite_id": [
+      "maerchen_4_1_3"
+    ],
+    "family_name": "Arnim",
+    "given_names": "Gisela",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "arnim_gisela",
+    "matched_person_id": 7823,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_001"
+  },
+  {
+    "display_norm": "humboldt, a. v.",
+    "composite_id": [
+      "reisen_258_11_13"
+    ],
+    "family_name": "Humboldt",
+    "given_names": "A.",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "humboldt_alexander_von",
+    "matched_person_id": 3088,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_016"
+  },
+  {
+    "display_norm": "zeylmans van emmichoven, f.w.",
+    "composite_id": [
+      "biographie_62_3_27"
+    ],
+    "family_name": "Zeylmans van Emmichoven",
+    "given_names": "F.W.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "zeylmans_van_emmichoven_f_w",
+    "matched_person_id": 7760,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_041"
+  },
+  {
+    "display_norm": "koschatzky",
+    "composite_id": [
+      "kunstbuecher_105_5_38"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Koschatzky",
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "koschatzky_walter",
+    "matched_person_id": 3671,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_020"
+  },
+  {
+    "display_norm": "kristeva",
+    "composite_id": [
+      "literatur_273_11_12"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Kristeva",
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "kristeva_julia",
+    "matched_person_id": 3758,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_020"
+  },
+  {
+    "display_norm": "kubin",
+    "composite_id": [
+      "kunstbuecher_119_5_38"
+    ],
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Kubin",
+    "is_organisation": false,
+    "match_found": true,
+    "matched_unified_id": "kubin_alfred",
+    "matched_person_id": 3789,
+    "unified_id": null,
+    "_source_custom_id": "batch_nopes_020"
+  }
+]

@@ -22,9 +22,7 @@ depends_on: Union[str, Sequence[str], None] = None
 
 def upgrade() -> None:
     """Upgrade schema."""
-    json_path = Path("data/people/people_clean.json")
-    with open(json_path, "r") as f:
-        people = json.load(f)
+    results_folder = Path("data/api_people/clean_results")
 
     insert_stmt = sa.text("""
         INSERT INTO people (unified_id, family_name, given_names, name_prefix, name_particles, name_suffix, single_name, is_organisation)
@@ -34,25 +32,37 @@ def upgrade() -> None:
     connection = op.get_bind()
     collisions = []
 
-    for person in people:
-        try:
-            with connection.begin_nested():
-                connection.execute(insert_stmt, {
-                    'unified_id': person['unified_id'],
-                    'family_name': person['family_name'],
-                    'given_names': person['given_names'],
-                    'name_prefix': person['name_prefix'],
-                    'name_particles': person['name_particles'],
-                    'name_suffix': person['name_suffix'],
-                    'single_name': person['single_name'],
-                    'is_organisation': person['is_organisation'],
+    files = sorted(results_folder.glob("*.json"))
+    total_files = len(files)
+
+    for file_idx, file in enumerate(files, start=1):
+        print(f"[{file_idx}/{total_files}] Starting {file.name}...")
+
+        with open(file, "r") as f:
+            people = json.load(f)
+
+        for person in people:
+            try:
+                with connection.begin_nested():
+                    connection.execute(insert_stmt, {
+                        'unified_id': person['unified_id'],
+                        'family_name': person.get('family_name'),
+                        'given_names': person.get('given_names'),
+                        'name_prefix': person.get('name_prefix'),
+                        'name_particles': person.get('name_particles'),
+                        'name_suffix': person.get('name_suffix'),
+                        'single_name': person.get('single_name'),
+                        'is_organisation': person.get('is_organisation', False),
+                    })
+            except IntegrityError as e:
+                collisions.append({
+                    'person': person,
+                    'error': str(e.orig).strip(),
                 })
-        except IntegrityError as e:
-            collisions.append({
-                'person': person,
-                'error': str(e.orig).strip(),
-            })
-            print(f"Skipped person_id {person['person_id']} ({person['unified_id']}): collision")
+                print(f"  Skipped {person.get('unified_id', '?')}: collision")
+
+        print(f"[{file_idx}/{total_files}] Finished {file.name} ({len(people)} entries)")
+
     if collisions:
         collisions_path = Path("data/people/insert_collisions.json")
         with open(collisions_path, "w") as f:
