@@ -78,6 +78,24 @@ Quick reference for "add a thing to a collection":
     new_singles = {k: v["info"] for k, v in singles_checked.items() if v["info"]["person_id"] is None}
     rprint(f"new_singles count: {len(new_singles)}")
 
+    The key to remember is: **in a dict comprehension, the left side of the `:` can be anything** — it doesn't have to be the original key.
+
+    The pattern is:
+
+    ```
+    {new_key_expression : value_expression for k, v in some_dict.items()}
+    ```
+
+    - `k` and `v` are just variables available to you — you don't have to use both
+    - `new_key_expression` can be `k`, `v`, `v["some_field"]`, a calculation, anything
+    - Same for the value side
+
+    So the question to ask yourself is: *"What do I want each key to be in my new dict?"* Then put that expression on the left.
+
+    `★ Insight ─────────────────────────────────────`
+    The `if` clause is only for **filtering** (deciding which items to include). If you're not throwing anything away — just reshaping or remapping — you don't need it.
+    `─────────────────────────────────────────────────`
+
 ## Help, which is the most up to date file
 
     from datetime import datetime
