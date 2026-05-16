@@ -482,14 +482,14 @@
       }
     ]
   },
-  "arbeitsgemeinschaft_'wahringe_heimatkunde'": {
-    "unified_id": "arbeitsgemeinschaft_'wahringe_heimatkunde'",
+  "ag_wahringer_heimatkunde'": {
+    "unified_id": "ag_wahringer_heimatkunde",
     "family_name": null,
     "given_names": null,
     "name_prefix": null,
     "name_particles": null,
     "name_suffix": null,
-    "single_name": "Arbeitsgemeinschaft 'Währinger Heimatkunde'",
+    "single_name": "Arbeitsgemeinschaft Währinger Heimatkunde",
     "is_organisation": true,
     "entries": [
       {
@@ -844,48 +844,6 @@
         "is_author": true,
         "is_editor": false,
         "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
-  "bachmann": {
-    "unified_id": "bachmann",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Bachmann",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "Bachmann",
-        "composite_id": "de-lit-monographien_74_3_10",
-        "sort_order": 3,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": true,
-        "is_translator": false
-      }
-    ]
-  },
-  "bachtin": {
-    "unified_id": "bachtin",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Bachtin",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "Bachtin",
-        "composite_id": "literatur_273_11_12",
-        "sort_order": 4,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": true,
         "is_translator": false
       }
     ]
@@ -2555,27 +2513,6 @@
       }
     ]
   },
-  "bowen": {
-    "unified_id": "bowen",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Bowen",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "BOWEN",
-        "composite_id": "bibliophile_83_4_10",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "brackert_helmut": {
     "unified_id": "brackert_helmut",
     "family_name": "Brackert",
@@ -2723,36 +2660,6 @@
       }
     ]
   },
-  "brecht": {
-    "unified_id": "brecht",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Brecht",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "BRECHT",
-        "composite_id": "erstausgaben_307_13_78",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      },
-      {
-        "display_name": "BRECHT",
-        "composite_id": "erstausgaben_306_13_78",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "brendel_walter": {
     "unified_id": "brendel_walter",
     "family_name": "Brendel",
@@ -2888,7 +2795,17 @@
     "name_suffix": null,
     "single_name": null,
     "is_organisation": false,
-    "entries": []
+    "entries": [
+      {
+        "display_name": "A. F. G. v. B. (Alois Friedrich Graf von Brühl)",
+        "composite_id": "musik_90_4_11",
+        "sort_order": 4,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
   },
   "brunmayr_hans": {
     "unified_id": "brunmayr_hans",
@@ -3125,12 +3042,21 @@
     "unified_id": "burton_richard",
     "family_name": "Burton",
     "given_names": "Richard",
-    "name_prefix": null,
+    "name_prefix": "Sir",
     "name_particles": null,
     "name_suffix": null,
     "single_name": null,
     "is_organisation": false,
     "entries": [
+      {
+        "display_name": "Burton, Sir Richard",
+        "composite_id": "buddhismus_15_1_3",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      },
       {
         "display_name": "BURTON, Richard",
         "composite_id": "reisen_6_1_13",
@@ -3218,27 +3144,6 @@
       {
         "display_name": "CANCIK-KIRSCHBAUM, Eva",
         "composite_id": "aegypten_47_2_3",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
-  "carrere_d_encausse_helene": {
-    "unified_id": "carrere_d_encausse_helene",
-    "family_name": "Carrere d'Encausse",
-    "given_names": "Helene",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "CARRERE d'ENCAUSSE, Helene",
-        "composite_id": "biographie_132_6_27",
         "sort_order": 1,
         "is_author": true,
         "is_editor": false,
@@ -4159,8 +4064,8 @@
       }
     ]
   },
-  "die_deutsche_bibliothek_leipzig_frankfurt_am_main_und_berlin_und_die_stiftung_buchkunst_frankfurt_am_main_und_leipzig": {
-    "unified_id": "die_deutsche_bibliothek_leipzig_frankfurt_am_main_und_berlin_und_die_stiftung_buchkunst_frankfurt_am_main_und_leipzig",
+  "deutsche_bibliothek_leipzig_frankfurt": {
+    "unified_id": "deutsche_bibliothek_leipzig_frankfurt",
     "family_name": null,
     "given_names": null,
     "name_prefix": null,
@@ -4677,27 +4582,6 @@
         "is_author": true,
         "is_editor": false,
         "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
-  "eco": {
-    "unified_id": "eco",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Eco",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "Eco",
-        "composite_id": "literatur_273_11_12",
-        "sort_order": 2,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": true,
         "is_translator": false
       }
     ]
@@ -5475,27 +5359,6 @@
         "is_author": true,
         "is_editor": false,
         "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
-  "fischer": {
-    "unified_id": "fischer",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Fischer",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "Fischer",
-        "composite_id": "signierte_91_4_10",
-        "sort_order": 5,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": true,
         "is_translator": false
       }
     ]
@@ -6295,27 +6158,6 @@
       }
     ]
   },
-  "gemeinde_wien": {
-    "unified_id": "gemeinde_wien",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Gemeinde Wien",
-    "is_organisation": true,
-    "entries": [
-      {
-        "display_name": "Gemeinde Wien",
-        "composite_id": "wien_65_3_10",
-        "sort_order": 1,
-        "is_author": false,
-        "is_editor": true,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "gerigk_herbert": {
     "unified_id": "gerigk_herbert",
     "family_name": "Gerigk",
@@ -6400,48 +6242,6 @@
       }
     ]
   },
-  "giese/schweiger": {
-    "unified_id": "giese/schweiger",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Giese/Schweiger",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "GIESE/SCHWEIGER",
-        "composite_id": "kunstbuecher_684_28_38",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
-  "giovanni_di_boccaccio": {
-    "unified_id": "giovanni_di_boccaccio",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Giovanni di Boccaccio",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "GIOVANNI DI BOCCACCIO IB",
-        "composite_id": "insel_297_12_27",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "giselbrecht_ernst": {
     "unified_id": "giselbrecht_ernst",
     "family_name": "Giselbrecht",
@@ -6455,27 +6255,6 @@
       {
         "display_name": "Giselbrecht, Ernst",
         "composite_id": "kunstbuecher_495_20_38",
-        "sort_order": 1,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": true,
-        "is_translator": false
-      }
-    ]
-  },
-  "glasenapp_helmuth": {
-    "unified_id": "glasenapp_helmuth",
-    "family_name": "Glasenapp",
-    "given_names": "Helmuth",
-    "name_prefix": null,
-    "name_particles": "von",
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "von Glasenapp, Helmuth",
-        "composite_id": "buddhismus_35_2_3",
         "sort_order": 1,
         "is_author": false,
         "is_editor": false,
@@ -7465,27 +7244,6 @@
       }
     ]
   },
-  "guenther_johannes": {
-    "unified_id": "guenther_johannes",
-    "family_name": "Guenther",
-    "given_names": "Johannes",
-    "name_prefix": null,
-    "name_particles": "von",
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "von Guenther, Johannes",
-        "composite_id": "russland_140_6_17",
-        "sort_order": 1,
-        "is_author": false,
-        "is_editor": true,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "gulich_gustav": {
     "unified_id": "gulich_gustav",
     "family_name": "Gülich",
@@ -7549,27 +7307,6 @@
       }
     ]
   },
-  "h.h.ewers": {
-    "unified_id": "h.h.ewers",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "H.H.Ewers",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "H.H.Ewers",
-        "composite_id": "illustrierte_25_2_14",
-        "sort_order": 1,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": true,
-        "is_translator": false
-      }
-    ]
-  },
   "haarmann_harald": {
     "unified_id": "haarmann_harald",
     "family_name": "Haarmann",
@@ -7580,6 +7317,15 @@
     "single_name": null,
     "is_organisation": false,
     "entries": [
+      {
+        "display_name": "HAARMANN, Harald",
+        "composite_id": "sonstiges_17_1_4",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
       {
         "display_name": "HAARMANN",
         "composite_id": "literatur_129_6_12",
@@ -7717,8 +7463,8 @@
       }
     ]
   },
-  "hamburger_stiftung_zur_forderung_von_wissenschaft_und_kultur": {
-    "unified_id": "hamburger_stiftung_zur_forderung_von_wissenschaft_und_kultur",
+  "hamburger_stiftung_wissenschaft_und_kultur": {
+    "unified_id": "hamburger_stiftung_wissenschaft_und_kultur",
     "family_name": null,
     "given_names": null,
     "name_prefix": null,
@@ -8031,12 +7777,12 @@
     "is_organisation": false,
     "entries": [
       {
-        "display_name": "HAUSNER",
+        "display_name": "Hausner, Rudolf",
         "composite_id": "kunstbuecher_200_9_38",
-        "sort_order": 1,
+        "sort_order": 3,
         "is_author": true,
         "is_editor": false,
-        "is_contributor": false,
+        "is_contributor": true,
         "is_translator": false
       }
     ]
@@ -8054,27 +7800,6 @@
       {
         "display_name": "HAYBACH, Rudolf",
         "composite_id": "illustrierte_161_7_14",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
-  "haydn": {
-    "unified_id": "haydn",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Haydn",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "HAYDN",
-        "composite_id": "musik_196_8_11",
         "sort_order": 1,
         "is_author": true,
         "is_editor": false,
@@ -8698,27 +8423,6 @@
       }
     ]
   },
-  "hindemith_paul": {
-    "unified_id": "hindemith_paul",
-    "family_name": "Hindemith",
-    "given_names": "Paul",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "PAUL HINDEMITH IB",
-        "composite_id": "insel_523_21_27",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "hink_wolfgang": {
     "unified_id": "hink_wolfgang",
     "family_name": "Hink",
@@ -8921,27 +8625,6 @@
       {
         "display_name": "HODDIS, Jakob van",
         "composite_id": "erstausgaben_723_29_78",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
-  "hodina": {
-    "unified_id": "hodina",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Hodina",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "HODINA",
-        "composite_id": "signierte_86_4_10",
         "sort_order": 1,
         "is_author": true,
         "is_editor": false,
@@ -9221,6 +8904,15 @@
     "single_name": null,
     "is_organisation": false,
     "entries": [
+      {
+        "display_name": "HOLUB, Emil",
+        "composite_id": "reisen_33_2_13",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
       {
         "display_name": "HOLUB",
         "composite_id": "suchliste_21_1_3",
@@ -9562,27 +9254,6 @@
         "is_editor": false,
         "is_contributor": false,
         "is_translator": false
-      }
-    ]
-  },
-  "ingeborg": {
-    "unified_id": "ingeborg",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Ingeborg",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "Ingeborg",
-        "composite_id": "russland_283_12_17",
-        "sort_order": 1,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": true
       }
     ]
   },
@@ -10007,27 +9678,6 @@
         "sort_order": 1,
         "is_author": false,
         "is_editor": true,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
-  "jelinek": {
-    "unified_id": "jelinek",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Jelinek",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "JELINEK",
-        "composite_id": "erstausgaben_1007_41_78",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
         "is_contributor": false,
         "is_translator": false
       }
@@ -10774,48 +10424,6 @@
       }
     ]
   },
-  "keller": {
-    "unified_id": "keller",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Keller",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "Keller",
-        "composite_id": "biographie_98_4_27",
-        "sort_order": 1,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": true,
-        "is_translator": false
-      }
-    ]
-  },
-  "kempowski": {
-    "unified_id": "kempowski",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Kempowski",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "KEMPOWSKI",
-        "composite_id": "suchliste_25_2_3",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "kennan_george": {
     "unified_id": "kennan_george",
     "family_name": "Kennan",
@@ -11275,27 +10883,6 @@
       }
     ]
   },
-  "klemperer": {
-    "unified_id": "klemperer",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Klemperer",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "Klemperer",
-        "composite_id": "musik_71_3_11",
-        "sort_order": 3,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": true,
-        "is_translator": false
-      }
-    ]
-  },
   "klemperer_hadwig": {
     "unified_id": "klemperer_hadwig",
     "family_name": "Klemperer",
@@ -11734,27 +11321,6 @@
       }
     ]
   },
-  "kolleritsch_alfred": {
-    "unified_id": "kolleritsch_alfred",
-    "family_name": "Kolleritsch",
-    "given_names": "Alfred",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "KOLLERITSCH Alfred",
-        "composite_id": "erstausgaben_1091_44_78",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "komorzynski_egon": {
     "unified_id": "komorzynski_egon",
     "family_name": "Komorzynski",
@@ -11987,27 +11553,6 @@
       {
         "display_name": "KRABBO, Hermann",
         "composite_id": "oesterreich_85_4_13",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
-  "kraus": {
-    "unified_id": "kraus",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Kraus",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "KRAUS",
-        "composite_id": "suchliste_28_2_3",
         "sort_order": 1,
         "is_author": true,
         "is_editor": false,
@@ -12943,27 +12488,6 @@
       }
     ]
   },
-  "lewy_rudolf": {
-    "unified_id": "lewy_rudolf",
-    "family_name": "Lewy",
-    "given_names": "Rudolf",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "Rudolf Lewy, bearbeitet von Elisabeth Schneider",
-        "composite_id": "fremdsprachige_855_35_38",
-        "sort_order": 1,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": true
-      }
-    ]
-  },
   "lichtenberg_g_c": {
     "unified_id": "lichtenberg_g_c",
     "family_name": "Lichtenberg",
@@ -13293,27 +12817,6 @@
         "display_name": "Losow, Irene von",
         "composite_id": "russland_83_4_17",
         "sort_order": 1,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": true,
-        "is_translator": false
-      }
-    ]
-  },
-  "lovenberg_felicitas": {
-    "unified_id": "lovenberg_felicitas",
-    "family_name": "Lovenberg",
-    "given_names": "Felicitas",
-    "name_prefix": null,
-    "name_particles": "von",
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "von Lovenberg, Felicitas",
-        "composite_id": "erstausgaben_590_24_78",
-        "sort_order": 2,
         "is_author": false,
         "is_editor": false,
         "is_contributor": true,
@@ -13894,6 +13397,267 @@
         "is_editor": false,
         "is_contributor": true,
         "is_translator": false
+      },
+      {
+        "display_name": "Mayer, Hans",
+        "composite_id": "biographie_377_16_27",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "Hans Mayer",
+        "composite_id": "erstausgaben_304_13_78",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_192_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "Mayer, Hans",
+        "composite_id": "russland_186_8_17",
+        "sort_order": 2,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_201_9_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_181_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_191_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "Mayer, Hans",
+        "composite_id": "de-lit-monographien_213_9_10",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "Mayer, Hans",
+        "composite_id": "kunstbuecher_233_10_38",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_187_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_190_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_183_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "erstausgaben_1242_50_78",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_184_8_12",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_199_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_200_9_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_185_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_188_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_189_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_195_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_194_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_196_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_198_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "signierte_130_6_10",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_182_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_193_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "MAYER, Hans",
+        "composite_id": "literatur_197_8_12",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "Hans Mayer",
+        "composite_id": "erstausgaben_976_40_78",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      },
+      {
+        "display_name": "Mayer, Hans",
+        "composite_id": "de-lit-texte_85_4_20",
+        "sort_order": 3,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
       }
     ]
   },
@@ -14293,27 +14057,6 @@
       }
     ]
   },
-  "melzer": {
-    "unified_id": "melzer",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Melzer",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "MELZER",
-        "composite_id": "erstausgaben_1265_51_78",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "menar_august": {
     "unified_id": "menar_august",
     "family_name": "Menar",
@@ -14352,27 +14095,6 @@
         "is_author": false,
         "is_editor": false,
         "is_contributor": true,
-        "is_translator": false
-      }
-    ]
-  },
-  "merian": {
-    "unified_id": "merian",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Merian",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "MERIAN",
-        "composite_id": "oesterreich_99_4_13",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
         "is_translator": false
       }
     ]
@@ -14909,6 +14631,15 @@
     "single_name": null,
     "is_organisation": false,
     "entries": [
+      {
+        "display_name": "Mrazek, Wilhelm",
+        "composite_id": "kunstbuecher_705_29_38",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
       {
         "display_name": "Mrazek",
         "composite_id": "kunstbuecher_119_5_38",
@@ -16624,27 +16355,6 @@
       }
     ]
   },
-  "oeser": {
-    "unified_id": "oeser",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Oeser",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "OESER",
-        "composite_id": "kunstbuecher_383_16_38",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "okudshawa_bulat": {
     "unified_id": "okudshawa_bulat",
     "family_name": "Okudshawa",
@@ -16810,27 +16520,6 @@
         "is_editor": false,
         "is_contributor": true,
         "is_translator": false
-      }
-    ]
-  },
-  "owlglass": {
-    "unified_id": "owlglass",
-    "family_name": "Owlglaß",
-    "given_names": null,
-    "name_prefix": "Dr.",
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "Dr. Owlglaß",
-        "composite_id": "kinder_82_4_4",
-        "sort_order": 1,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": true
       }
     ]
   },
@@ -18121,36 +17810,6 @@
       }
     ]
   },
-  "rainer": {
-    "unified_id": "rainer",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Rainer",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "Rainer",
-        "composite_id": "kunstbuecher_483_20_38",
-        "sort_order": 5,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": true,
-        "is_translator": false
-      },
-      {
-        "display_name": "Rainer",
-        "composite_id": "kunstbuecher_907_37_38",
-        "sort_order": 8,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": true,
-        "is_translator": false
-      }
-    ]
-  },
   "rakelmann_georgia_a": {
     "unified_id": "rakelmann_georgia_a",
     "family_name": "Rakelmann",
@@ -18426,10 +18085,10 @@
   },
   "rembrandt": {
     "unified_id": "rembrandt",
-    "family_name": null,
-    "given_names": null,
+    "family_name": "Rijn",
+    "given_names": "Rembrandt Harmenszoon",
     "name_prefix": null,
-    "name_particles": null,
+    "name_particles": "van",
     "name_suffix": null,
     "single_name": "Rembrandt",
     "is_organisation": false,
@@ -18884,6 +18543,15 @@
     "single_name": null,
     "is_organisation": false,
     "entries": [
+      {
+        "display_name": "Rölleke, Heinz",
+        "composite_id": "maerchen_37_2_3",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      },
       {
         "display_name": "Rölleke",
         "composite_id": "erstausgaben_315_13_78",
@@ -19789,48 +19457,6 @@
       }
     ]
   },
-  "schklowski": {
-    "unified_id": "schklowski",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Schklowski",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "Schklowski",
-        "composite_id": "russland_311_13_17",
-        "sort_order": 1,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": true,
-        "is_translator": false
-      }
-    ]
-  },
-  "schklowski_viktor": {
-    "unified_id": "schklowski_viktor",
-    "family_name": "Schklowski",
-    "given_names": "Viktor",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "SCHKLOWSKI, Viktor",
-        "composite_id": "russland_284_12_17",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "schlechta_karl": {
     "unified_id": "schlechta_karl",
     "family_name": "Schlechta",
@@ -20323,27 +19949,6 @@
       }
     ]
   },
-  "schonwald": {
-    "unified_id": "schonwald",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Schönwald",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "Schönwald",
-        "composite_id": "signierte_91_4_10",
-        "sort_order": 2,
-        "is_author": false,
-        "is_editor": false,
-        "is_contributor": true,
-        "is_translator": false
-      }
-    ]
-  },
   "schott_albert": {
     "unified_id": "schott_albert",
     "family_name": "Schott",
@@ -20801,27 +20406,6 @@
         "sort_order": 1,
         "is_author": false,
         "is_editor": true,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
-  "schwind": {
-    "unified_id": "schwind",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Schwind",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "SCHWIND",
-        "composite_id": "kunstbuecher_482_20_38",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
         "is_contributor": false,
         "is_translator": false
       }
@@ -21496,8 +21080,8 @@
       }
     ]
   },
-  "staatliche_akademie_fur_graphische_kunste_und_buchgewerbe_zu_leipzig": {
-    "unified_id": "staatliche_akademie_fur_graphische_kunste_und_buchgewerbe_zu_leipzig",
+  "staatl_akad_fur_graph_kunste_und_buchgewerbe_leipzig": {
+    "unified_id": "staatl_akad_fur_graph_kunste_und_buchgewerbe_leipzig",
     "family_name": null,
     "given_names": null,
     "name_prefix": null,
@@ -21635,36 +21219,6 @@
       {
         "display_name": "NOTKER DER STAMMLER",
         "composite_id": "de-lit-monographien_183_8_10",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
-  "stanley": {
-    "unified_id": "stanley",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Stanley",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "STANLEY",
-        "composite_id": "suchliste_48_2_3",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      },
-      {
-        "display_name": "STANLEY",
-        "composite_id": "reisen_283_12_13",
         "sort_order": 1,
         "is_author": true,
         "is_editor": false,
@@ -22400,27 +21954,6 @@
       {
         "display_name": "SUTTINGER, Johann Baptist",
         "composite_id": "oesterreich_150_7_13",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
-  "swaaij_louise": {
-    "unified_id": "swaaij_louise",
-    "family_name": "Swaaij",
-    "given_names": "Louise",
-    "name_prefix": null,
-    "name_particles": "van",
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "van Swaaij, Louise",
-        "composite_id": "sonstiges_0_1_4",
         "sort_order": 1,
         "is_author": true,
         "is_editor": false,
@@ -23173,48 +22706,6 @@
       }
     ]
   },
-  "valentin": {
-    "unified_id": "valentin",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Valentin",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "VALENTIN",
-        "composite_id": "musik_260_11_11",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
-  "valery": {
-    "unified_id": "valery",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Valery",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "VALERY",
-        "composite_id": "suchliste_54_3_3",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "vallier_dora": {
     "unified_id": "vallier_dora",
     "family_name": "Vallier",
@@ -23320,8 +22811,8 @@
       }
     ]
   },
-  "verein_der_freunde_des_wallraf-richartz-museums_bibliophilen-gesellschaft_in_koln": {
-    "unified_id": "verein_der_freunde_des_wallraf-richartz-museums_bibliophilen-gesellschaft_in_koln",
+  "wallraf-richartz-museum": {
+    "unified_id": "wallraf-richartz-museum",
     "family_name": null,
     "given_names": null,
     "name_prefix": null,
@@ -23341,8 +22832,8 @@
       }
     ]
   },
-  "verein_freunde_friedrich_danielis_salzburg_museum": {
-    "unified_id": "verein_freunde_friedrich_danielis_salzburg_museum",
+  "verein_freunde_friedrich_danielis": {
+    "unified_id": "verein_freunde_friedrich_danielis",
     "family_name": null,
     "given_names": null,
     "name_prefix": null,
@@ -23489,6 +22980,15 @@
       {
         "display_name": "VIERTHALER, F(ranz) M(ichael)",
         "composite_id": "oesterreich_178_8_13",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "VIERTHALER, Fr. M.",
+        "composite_id": "oesterreich_161_7_13",
         "sort_order": 1,
         "is_author": true,
         "is_editor": false,
@@ -23649,11 +23149,20 @@
     "family_name": "Voolen",
     "given_names": "Edward",
     "name_prefix": null,
-    "name_particles": "von",
+    "name_particles": "van",
     "name_suffix": null,
     "single_name": null,
     "is_organisation": false,
     "entries": [
+      {
+        "display_name": "van Voolen, Edward",
+        "composite_id": "judentum_200_9_9",
+        "sort_order": 3,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      },
       {
         "display_name": "Voolen, Edward von",
         "composite_id": "bibliophile_39_2_10",
@@ -24472,27 +23981,6 @@
       }
     ]
   },
-  "wie": {
-    "unified_id": "wie",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "WIE",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "WIE",
-        "composite_id": "de-lit-texte_465_19_20",
-        "sort_order": 1,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "wieck_michael": {
     "unified_id": "wieck_michael",
     "family_name": "Wieck",
@@ -24535,8 +24023,8 @@
       }
     ]
   },
-  "wieland-archiv,_biberach/riss": {
-    "unified_id": "wieland-archiv,_biberach/riss",
+  "wieland-archiv_biberach": {
+    "unified_id": "wieland-archiv_biberach",
     "family_name": null,
     "given_names": null,
     "name_prefix": null,
@@ -24913,36 +24401,6 @@
       }
     ]
   },
-  "wolfram": {
-    "unified_id": "wolfram",
-    "family_name": null,
-    "given_names": null,
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": "Wolfram",
-    "is_organisation": false,
-    "entries": [
-      {
-        "display_name": "Wolfram",
-        "composite_id": "suchliste_35_2_3",
-        "sort_order": 3,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      },
-      {
-        "display_name": "Wolfram",
-        "composite_id": "oesterreich_242_10_13",
-        "sort_order": 3,
-        "is_author": true,
-        "is_editor": false,
-        "is_contributor": false,
-        "is_translator": false
-      }
-    ]
-  },
   "woll_dieter": {
     "unified_id": "woll_dieter",
     "family_name": "Woll",
@@ -25261,13 +24719,22 @@
   "zimmermann_w_f_a": {
     "unified_id": "zimmermann_w_f_a",
     "family_name": "Zimmermann",
-    "given_names": "W.F.A.",
+    "given_names": "W. F. A.",
     "name_prefix": null,
     "name_particles": null,
     "name_suffix": null,
     "single_name": null,
     "is_organisation": false,
     "entries": [
+      {
+        "display_name": "ZIMMERMANN, W. F. A.",
+        "composite_id": "briefe_138_6_15",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
       {
         "display_name": "ZIMMERMANN, W.F.A.",
         "composite_id": "reisen_310_13_13",

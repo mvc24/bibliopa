@@ -1244,24 +1244,6 @@
     "_source_custom_id": "batch_nopes_023"
   },
   {
-    "display_norm": "mayer",
-    "composite_id": [
-      "musik_71_3_11"
-    ],
-    "family_name": "Mayer",
-    "given_names": "Hans",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "match_found": false,
-    "matched_unified_id": null,
-    "matched_person_id": null,
-    "unified_id": "mayer_hans",
-    "_source_custom_id": "batch_nopes_023"
-  },
-  {
     "display_norm": "mayer, susanne",
     "composite_id": [
       "reisen_212_9_13"
@@ -1280,26 +1262,10 @@
     "_source_custom_id": "batch_nopes_023"
   },
   {
-    "display_norm": "myer, hans",
-    "composite_id": [
-      "biographie_377_16_27"
-    ],
-    "family_name": "Mayer",
-    "given_names": "Hans",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "match_found": false,
-    "matched_unified_id": null,
-    "matched_person_id": null,
-    "unified_id": "mayer_hans",
-    "_source_custom_id": "batch_nopes_023"
-  },
-  {
     "display_norm": "mayer, hans",
     "composite_id": [
+      "musik_71_3_11",
+      "biographie_377_16_27",
       "erstausgaben_304_13_78",
       "literatur_192_8_12",
       "russland_186_8_17",
@@ -2589,27 +2555,10 @@
     "_source_custom_id": "batch_nopes_015"
   },
   {
-    "display_norm": "holub",
-    "composite_id": [
-      "suchliste_21_1_3"
-    ],
-    "family_name": "Holub",
-    "given_names": "Emil",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "match_found": false,
-    "matched_unified_id": null,
-    "matched_person_id": null,
-    "unified_id": "holub_emil",
-    "_source_custom_id": "batch_nopes_015"
-  },
-  {
     "display_norm": "holub, emil",
     "composite_id": [
-      "reisen_33_2_13"
+      "reisen_33_2_13",
+      "suchliste_21_1_3"
     ],
     "family_name": "Holub",
     "given_names": "Emil",
@@ -3366,28 +3315,11 @@
     "display_norm": "vierthaler, f(ranz) m(ichael)",
     "composite_id": [
       "oesterreich_160_7_13",
-      "oesterreich_178_8_13"
-    ],
-    "family_name": "Vierthaler",
-    "given_names": "Franz Michael",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "match_found": false,
-    "matched_unified_id": null,
-    "matched_person_id": null,
-    "unified_id": "vierthaler_franz_m",
-    "_source_custom_id": "batch_nopes_038"
-  },
-  {
-    "display_norm": "vierthaler, fr. m.",
-    "composite_id": [
+      "oesterreich_178_8_13",
       "oesterreich_161_7_13"
     ],
     "family_name": "Vierthaler",
-    "given_names": "Fr. M.",
+    "given_names": "Franz Michael",
     "name_prefix": null,
     "name_particles": null,
     "name_suffix": null,
@@ -3671,24 +3603,6 @@
     "_source_custom_id": "batch_nopes_038"
   },
   {
-    "display_norm": "voolen, edward von",
-    "composite_id": [
-      "bibliophile_39_2_10"
-    ],
-    "family_name": "Voolen",
-    "given_names": "Edward",
-    "name_prefix": null,
-    "name_particles": "von",
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "match_found": false,
-    "matched_unified_id": null,
-    "matched_person_id": null,
-    "unified_id": "voolen_edward",
-    "_source_custom_id": "batch_nopes_038"
-  },
-  {
     "display_norm": "vorländer, karl",
     "composite_id": [
       "philosophie_326_14_24"
@@ -3795,24 +3709,6 @@
     "matched_unified_id": null,
     "matched_person_id": null,
     "unified_id": "hauptmann_tatjanna",
-    "_source_custom_id": "batch_nopes_014"
-  },
-  {
-    "display_norm": "hausner",
-    "composite_id": [
-      "kunstbuecher_200_9_38"
-    ],
-    "family_name": "Hausner",
-    "given_names": "Rudolf",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "match_found": false,
-    "matched_unified_id": null,
-    "matched_person_id": null,
-    "unified_id": "hausner_rudolf",
     "_source_custom_id": "batch_nopes_014"
   },
   {
@@ -6777,27 +6673,10 @@
     "_source_custom_id": "batch_nopes_005"
   },
   {
-    "display_norm": "burton, richard",
-    "composite_id": [
-      "reisen_6_1_13"
-    ],
-    "family_name": "Burton",
-    "given_names": "Richard",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "match_found": false,
-    "matched_unified_id": null,
-    "matched_person_id": null,
-    "unified_id": "burton_richard",
-    "_source_custom_id": "batch_nopes_005"
-  },
-  {
     "display_norm": "burton, sir richard",
     "composite_id": [
-      "buddhismus_15_1_3"
+      "buddhismus_15_1_3",
+      "reisen_6_1_13"
     ],
     "family_name": "Burton",
     "given_names": "Richard",
@@ -7083,27 +6962,10 @@
     "_source_custom_id": "batch_nopes_013"
   },
   {
-    "display_norm": "haarmann",
-    "composite_id": [
-      "literatur_129_6_12"
-    ],
-    "family_name": "Haarmann",
-    "given_names": "Harald",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "match_found": false,
-    "matched_unified_id": null,
-    "matched_person_id": null,
-    "unified_id": "haarmann_harald",
-    "_source_custom_id": "batch_nopes_013"
-  },
-  {
     "display_norm": "haarmann, harald",
     "composite_id": [
-      "sonstiges_17_1_4"
+      "sonstiges_17_1_4",
+      "literatur_129_6_12"
     ],
     "family_name": "Haarmann",
     "given_names": "Harald",
@@ -9040,27 +8902,10 @@
     "_source_custom_id": "batch_nopes_025"
   },
   {
-    "display_norm": "mrazek",
-    "composite_id": [
-      "kunstbuecher_119_5_38"
-    ],
-    "family_name": "Mrazek",
-    "given_names": "Wilhelm",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "match_found": false,
-    "matched_unified_id": null,
-    "matched_person_id": null,
-    "unified_id": "mrazek_wilhelm",
-    "_source_custom_id": "batch_nopes_025"
-  },
-  {
     "display_norm": "mrazek, wilhelm",
     "composite_id": [
-      "kunstbuecher_705_29_38"
+      "kunstbuecher_705_29_38",
+      "kunstbuecher_119_5_38"
     ],
     "family_name": "Mrazek",
     "given_names": "Wilhelm",
@@ -14489,27 +14334,10 @@
     "_source_custom_id": "batch_nopes_031"
   },
   {
-    "display_norm": "rölleke",
-    "composite_id": [
-      "erstausgaben_315_13_78"
-    ],
-    "family_name": "Rölleke",
-    "given_names": "Heinz",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "match_found": false,
-    "matched_unified_id": null,
-    "matched_person_id": null,
-    "unified_id": "rolleke_heinz",
-    "_source_custom_id": "batch_nopes_031"
-  },
-  {
     "display_norm": "rölleke, heinz",
     "composite_id": [
-      "maerchen_37_2_3"
+      "maerchen_37_2_3",
+      "erstausgaben_315_13_78"
     ],
     "family_name": "Rölleke",
     "given_names": "Heinz",
@@ -17740,6 +17568,7 @@
   {
     "display_norm": "van voolen, edward",
     "composite_id": [
+      "bibliophile_39_2_10",
       "judentum_200_9_9"
     ],
     "family_name": "Voolen",
@@ -20140,24 +19969,6 @@
     "_source_custom_id": "batch_nopes_041"
   },
   {
-    "display_norm": "zimmermann, w.f.a.",
-    "composite_id": [
-      "reisen_310_13_13"
-    ],
-    "family_name": "Zimmermann",
-    "given_names": "W.F.A.",
-    "name_prefix": null,
-    "name_particles": null,
-    "name_suffix": null,
-    "single_name": null,
-    "is_organisation": false,
-    "match_found": false,
-    "matched_unified_id": null,
-    "matched_person_id": null,
-    "unified_id": "zimmermann_w_f_a",
-    "_source_custom_id": "batch_nopes_041"
-  },
-  {
     "display_norm": "zimmermann, werner g.",
     "composite_id": [
       "buch_117_5_8"
@@ -20178,10 +19989,11 @@
   {
     "display_norm": "zimmermann, w. f. a.",
     "composite_id": [
-      "briefe_138_6_15"
+      "briefe_138_6_15",
+      "reisen_310_13_13"
     ],
     "family_name": "Zimmermann",
-    "given_names": "W.F.A.",
+    "given_names": "W. F. A.",
     "name_prefix": null,
     "name_particles": null,
     "name_suffix": null,

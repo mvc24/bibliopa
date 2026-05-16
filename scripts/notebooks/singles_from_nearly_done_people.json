@@ -1,0 +1,1673 @@
+{
+  "abtei_gottweig": {
+    "unified_id": "abtei_gottweig",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Abtei Göttweig",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Abtei Göttweig",
+        "composite_id": "oesterreich_4_1_13",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "aratym": {
+    "unified_id": "aratym",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Aratym",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "ARATYM",
+        "composite_id": "kunstbuecher_579_24_38",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "arbeitsgemeinschaft_'wahringe_heimatkunde'": {
+    "unified_id": "arbeitsgemeinschaft_'wahringe_heimatkunde'",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Arbeitsgemeinschaft 'Währinger Heimatkunde'",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Arbeitsgemeinschaft 'Währinger Heimatkunde'",
+        "composite_id": "wien_138_6_10",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "arbeitsgemeinschaft_des_mariahilfer_heimatmuseums": {
+    "unified_id": "arbeitsgemeinschaft_des_mariahilfer_heimatmuseums",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Arbeitsgemeinschaft des Mariahilfer Heimatmuseums",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Arbeitsgemeinschaft des Mariahilfer Heimatmuseums",
+        "composite_id": "wien_75_4_10",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "arbeitskreis_osterreichischer_literaturproduzenten": {
+    "unified_id": "arbeitskreis_osterreichischer_literaturproduzenten",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Arbeitskreis österreichischer Literaturproduzenten",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Arbeitskreis österreichischer Literaturproduzenten",
+        "composite_id": "erstausgaben_406_17_78",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "art_club_internationaler_unabhangiger_kunstlerverband_osterreich": {
+    "unified_id": "art_club_internationaler_unabhangiger_kunstlerverband_osterreich",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "ART CLUB. Internationaler unabhängiger Künstlerverband Österreich",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "ART CLUB. Internationaler unabhängiger Künstlerverband Österreich",
+        "composite_id": "wien_4_1_10",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "bachmann": {
+    "unified_id": "bachmann",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Bachmann",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Bachmann",
+        "composite_id": "de-lit-monographien_74_3_10",
+        "sort_order": 3,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "bachtin": {
+    "unified_id": "bachtin",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Bachtin",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Bachtin",
+        "composite_id": "literatur_273_11_12",
+        "sort_order": 4,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "balthus": {
+    "unified_id": "balthus",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Balthus",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Balthus",
+        "composite_id": "insel_246_10_27",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "berliner_festspiele": {
+    "unified_id": "berliner_festspiele",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Berliner Festspiele",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Berliner Festspiele",
+        "composite_id": "judentum_96_4_9",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      },
+      {
+        "display_name": "Berliner Festspiele",
+        "composite_id": "judentum_200_9_9",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "berlinische_galerie": {
+    "unified_id": "berlinische_galerie",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Berlinische Galerie",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Berlinische Galerie",
+        "composite_id": "kunstbuecher_209_9_38",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "bibel_projekt": {
+    "unified_id": "bibel_projekt",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Bibel Projekt",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "BIBEL PROJEKT",
+        "composite_id": "religion_7_1_4",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "bowen": {
+    "unified_id": "bowen",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Bowen",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "BOWEN",
+        "composite_id": "bibliophile_83_4_10",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "brecht": {
+    "unified_id": "brecht",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Brecht",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "BRECHT",
+        "composite_id": "erstausgaben_307_13_78",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "BRECHT",
+        "composite_id": "erstausgaben_306_13_78",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "burgenlandische_landesregierung": {
+    "unified_id": "burgenlandische_landesregierung",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Burgenländische Landesregierung",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Burgenländische Landesregierung",
+        "composite_id": "oesterreich_263_11_13",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "czezik-muller": {
+    "unified_id": "czezik-muller",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Czezik-Müller",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "CZEZIK-MÜLLER",
+        "composite_id": "oesterreich_23_1_13",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "deutscher_buchgewerbeverein": {
+    "unified_id": "deutscher_buchgewerbeverein",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Deutscher Buchgewerbeverein",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Deutscher Buchgewerbeverein",
+        "composite_id": "buch_6_1_8",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "deutschmeisterbund": {
+    "unified_id": "deutschmeisterbund",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Deutschmeisterbund",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Deutschmeisterbund",
+        "composite_id": "oesterreich_65_3_13",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "die_deutsche_bibliothek_leipzig_frankfurt_am_main_und_berlin_und_die_stiftung_buchkunst_frankfurt_am_main_und_leipzig": {
+    "unified_id": "die_deutsche_bibliothek_leipzig_frankfurt_am_main_und_berlin_und_die_stiftung_buchkunst_frankfurt_am_main_und_leipzig",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Die Deutsche Bibliothek, Leipzig, Frankfurt am Main und Berlin und die Stiftung Buchkunst Frankfurt am Main und Leipzig",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Die Deutsche Bibliothek, Leipzig, Frankfurt am Main und Berlin und die Stiftung Buchkunst Frankfurt am Main und Leipzig",
+        "composite_id": "buch_175_8_8",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "eco": {
+    "unified_id": "eco",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Eco",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Eco",
+        "composite_id": "literatur_273_11_12",
+        "sort_order": 2,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "eisler": {
+    "unified_id": "eisler",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Eisler",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Eisler",
+        "composite_id": "signierte_91_4_10",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      },
+      {
+        "display_name": "Eisler",
+        "composite_id": "wien_229_10_10",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "erste_donau-dampfschiffahrts-gesellschaft": {
+    "unified_id": "erste_donau-dampfschiffahrts-gesellschaft",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Erste Donau-Dampfschiffahrts-Gesellschaft",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Erste Donau-Dampfschiffahrts-Gesellschaft",
+        "composite_id": "oesterreich_210_9_13",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "eugippius": {
+    "unified_id": "eugippius",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Eugippius",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "EUGIPPIUS",
+        "composite_id": "antike_53_3_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "fischer": {
+    "unified_id": "fischer",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Fischer",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Fischer",
+        "composite_id": "signierte_91_4_10",
+        "sort_order": 5,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "gauamt_fur_kommunalpolitik_gau_oberdonau": {
+    "unified_id": "gauamt_fur_kommunalpolitik_gau_oberdonau",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Gauamt für Kommunalpolitik Gau Oberdonau",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Gauamt für Kommunalpolitik Gau Oberdonau",
+        "composite_id": "oesterreich_105_5_13",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "gemeinde_wien": {
+    "unified_id": "gemeinde_wien",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Gemeinde Wien",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Gemeinde Wien",
+        "composite_id": "wien_65_3_10",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "giovanni_di_boccaccio": {
+    "unified_id": "giovanni_di_boccaccio",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Giovanni di Boccaccio",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "GIOVANNI DI BOCCACCIO IB",
+        "composite_id": "insel_297_12_27",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "hamburger_stiftung_zur_forderung_von_wissenschaft_und_kultur": {
+    "unified_id": "hamburger_stiftung_zur_forderung_von_wissenschaft_und_kultur",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Hamburger Stiftung zur Förderung von Wissenschaft und Kultur",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Hamburger Stiftung zur Förderung von Wissenschaft und Kultur",
+        "composite_id": "briefe_361_15_15",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "hans_blumenberg-archiv": {
+    "unified_id": "hans_blumenberg-archiv",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Hans Blumenberg-Archiv",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Hans Blumenberg-Archiv",
+        "composite_id": "philosophie_84_4_24",
+        "sort_order": 2,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "haydn": {
+    "unified_id": "haydn",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Haydn",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "HAYDN",
+        "composite_id": "musik_196_8_11",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "hodina": {
+    "unified_id": "hodina",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Hodina",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "HODINA",
+        "composite_id": "signierte_86_4_10",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "ingeborg": {
+    "unified_id": "ingeborg",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Ingeborg",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Ingeborg",
+        "composite_id": "russland_283_12_17",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "internationale_stiftung_mozarteum_salzburg": {
+    "unified_id": "internationale_stiftung_mozarteum_salzburg",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Internationale Stiftung Mozarteum Salzburg",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Internationale Stiftung Mozarteum Salzburg",
+        "composite_id": "musik_82_4_11",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "jamblich": {
+    "unified_id": "jamblich",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Jamblich",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "JAMBLICH",
+        "composite_id": "griechenland_69_3_10",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "janosch": {
+    "unified_id": "janosch",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Janosch",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "JANOSCH",
+        "composite_id": "illustrierte_178_8_14",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "JANOSCH",
+        "composite_id": "kinder_37_2_4",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "jelinek": {
+    "unified_id": "jelinek",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Jelinek",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "JELINEK",
+        "composite_id": "erstausgaben_1007_41_78",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "julian": {
+    "unified_id": "julian",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Julian",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "JULIAN",
+        "composite_id": "antike_78_4_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "juvenal": {
+    "unified_id": "juvenal",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Juvenal",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "JUVENAL",
+        "composite_id": "antike_175_8_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "keller": {
+    "unified_id": "keller",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Keller",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Keller",
+        "composite_id": "biographie_98_4_27",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "kempowski": {
+    "unified_id": "kempowski",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Kempowski",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "KEMPOWSKI",
+        "composite_id": "suchliste_25_2_3",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "klemperer": {
+    "unified_id": "klemperer",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Klemperer",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Klemperer",
+        "composite_id": "musik_71_3_11",
+        "sort_order": 3,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "kopenhagener_kierkegaard-gesellschaft": {
+    "unified_id": "kopenhagener_kierkegaard-gesellschaft",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Kopenhagener Kierkegaard-Gesellschaft",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Kopenhagener Kierkegaard-Gesellschaft",
+        "composite_id": "philosophie_198_8_24",
+        "sort_order": 2,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "kraus": {
+    "unified_id": "kraus",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Kraus",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "KRAUS",
+        "composite_id": "suchliste_28_2_3",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "kunstlerhaus_wien": {
+    "unified_id": "kunstlerhaus_wien",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Künstlerhaus Wien",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "KÜNSTLERHAUS WIEN",
+        "composite_id": "wien_69_3_10",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "livius": {
+    "unified_id": "livius",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Livius",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "LIVIUS",
+        "composite_id": "antike_177_8_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "marktgemeinde_goisern": {
+    "unified_id": "marktgemeinde_goisern",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Marktgemeinde Goisern",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Marktgemeinde Goisern",
+        "composite_id": "oesterreich_58_3_13",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "melzer": {
+    "unified_id": "melzer",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Melzer",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "MELZER",
+        "composite_id": "erstausgaben_1265_51_78",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "merian": {
+    "unified_id": "merian",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Merian",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "MERIAN",
+        "composite_id": "oesterreich_99_4_13",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "nonnos": {
+    "unified_id": "nonnos",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Nonnos",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "NONNOS",
+        "composite_id": "antike_90_4_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "NONNOS",
+        "composite_id": "antike_91_4_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "novalis": {
+    "unified_id": "novalis",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Novalis",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "NOVALIS",
+        "composite_id": "de-lit-texte_346_14_20",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "NOVALIS",
+        "composite_id": "briefe_280_12_15",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "NOVALIS",
+        "composite_id": "insel_505_21_27",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "NOVALIS",
+        "composite_id": "briefe_281_12_15",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "NOVALIS",
+        "composite_id": "illustrierte_248_10_14",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "NOVALIS",
+        "composite_id": "briefe_279_12_15",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "oeser": {
+    "unified_id": "oeser",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Oeser",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "OESER",
+        "composite_id": "kunstbuecher_383_16_38",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "palaiphatos": {
+    "unified_id": "palaiphatos",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Palaiphatos",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "PALAIPHATOS",
+        "composite_id": "antike_101_5_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "radierwerkstatt_kurt_zein_wien": {
+    "unified_id": "radierwerkstatt_kurt_zein_wien",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Radierwerkstatt Kurt Zein Wien",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "RADIERWERKSTATT KURT ZEIN WIEN",
+        "composite_id": "kunstbuecher_428_18_38",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "rainer": {
+    "unified_id": "rainer",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Rainer",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Rainer",
+        "composite_id": "kunstbuecher_483_20_38",
+        "sort_order": 5,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      },
+      {
+        "display_name": "Rainer",
+        "composite_id": "kunstbuecher_907_37_38",
+        "sort_order": 8,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "rembrandt": {
+    "unified_id": "rembrandt",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Rembrandt",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "REMBRANDT",
+        "composite_id": "insel_557_23_27",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "saki": {
+    "unified_id": "saki",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Saki",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "SAKI (d.i. Hector Hugh MUNRO)",
+        "composite_id": "fremdsprachige_794_32_38",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "salzburger_abtekonferenz": {
+    "unified_id": "salzburger_abtekonferenz",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Salzburger Äbtekonferenz",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Salzburger Äbtekonferenz",
+        "composite_id": "fruehes_85_4_4",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "schklowski": {
+    "unified_id": "schklowski",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Schklowski",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Schklowski",
+        "composite_id": "russland_311_13_17",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "schonwald": {
+    "unified_id": "schonwald",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Schönwald",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Schönwald",
+        "composite_id": "signierte_91_4_10",
+        "sort_order": 2,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "schwind": {
+    "unified_id": "schwind",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Schwind",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "SCHWIND",
+        "composite_id": "kunstbuecher_482_20_38",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "staatliche_akademie_fur_graphische_kunste_und_buchgewerbe_zu_leipzig": {
+    "unified_id": "staatliche_akademie_fur_graphische_kunste_und_buchgewerbe_zu_leipzig",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Staatliche Akademie für graphische Künste und Buchgewerbe zu Leipzig",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Staatliche Akademie für graphische Künste und Buchgewerbe zu Leipzig",
+        "composite_id": "buch_6_1_8",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "stadt_modling": {
+    "unified_id": "stadt_modling",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Stadt Mödling",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Stadt Mödling",
+        "composite_id": "erstausgaben_1458_59_78",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "stanley": {
+    "unified_id": "stanley",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Stanley",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "STANLEY",
+        "composite_id": "suchliste_48_2_3",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "STANLEY",
+        "composite_id": "reisen_283_12_13",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "thukydides": {
+    "unified_id": "thukydides",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Thukydides",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "THUDYDIDES",
+        "composite_id": "antike_137_6_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "valentin": {
+    "unified_id": "valentin",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Valentin",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "VALENTIN",
+        "composite_id": "musik_260_11_11",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "valery": {
+    "unified_id": "valery",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Valery",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "VALERY",
+        "composite_id": "suchliste_54_3_3",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "verein_der_freunde_des_wallraf-richartz-museums_bibliophilen-gesellschaft_in_koln": {
+    "unified_id": "verein_der_freunde_des_wallraf-richartz-museums_bibliophilen-gesellschaft_in_koln",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Verein der Freunde des Wallraf-Richartz-Museums Bibliophilen-Gesellschaft in Köln",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Verein der Freunde des Wallraf-Richartz-Museums Bibliophilen-Gesellschaft in Köln",
+        "composite_id": "bibliophile_219_9_10",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "verein_freunde_friedrich_danielis_salzburg_museum": {
+    "unified_id": "verein_freunde_friedrich_danielis_salzburg_museum",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Verein Freunde Friedrich Danielis Salzburg Museum",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Verein Freunde Friedrich Danielis Salzburg Museum",
+        "composite_id": "kunstbuecher_78_4_38",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "von_einem_ehemaligen_betriebsrat_des_arsenals": {
+    "unified_id": "von_einem_ehemaligen_betriebsrat_des_arsenals",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Von einem ehemaligen Betriebsrat des Arsenals",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Von einem ehemaligen Betriebsrat des Arsenals",
+        "composite_id": "wien_66_3_10",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "werkstatt_breitenbrunn_elfe_und_will_frenken": {
+    "unified_id": "werkstatt_breitenbrunn_elfe_und_will_frenken",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Werkstatt Breitenbrunn Elfe und Will Frenken",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Werkstatt Breitenbrunn Elfe und Will Frenken",
+        "composite_id": "oesterreich_1_1_13",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": true,
+        "is_translator": false
+      }
+    ]
+  },
+  "wie": {
+    "unified_id": "wie",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "WIE",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "WIE",
+        "composite_id": "de-lit-texte_465_19_20",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "wieland-archiv_biberach": {
+    "unified_id": "wieland-archiv_biberach",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Wieland-Archiv, Biberach/Riß",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Wieland-Archiv, Biberach/Riß",
+        "composite_id": "briefe_361_15_15",
+        "sort_order": 2,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "wolfram": {
+    "unified_id": "wolfram",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Wolfram",
+    "is_organisation": false,
+    "entries": [
+      {
+        "display_name": "Wolfram",
+        "composite_id": "suchliste_35_2_3",
+        "sort_order": 3,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "Wolfram",
+        "composite_id": "oesterreich_242_10_13",
+        "sort_order": 3,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "zentralburo_der_zionistischen_organisation": {
+    "unified_id": "zentralburo_der_zionistischen_organisation",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Zentralbüro der Zionistischen Organisation",
+    "is_organisation": true,
+    "entries": [
+      {
+        "display_name": "Zentralbüro der Zionistischen Organisation",
+        "composite_id": "judentum_59_3_9",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  }
+}
