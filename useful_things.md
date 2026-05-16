@@ -77,3 +77,16 @@ Quick reference for "add a thing to a collection":
 
     new_singles = {k: v["info"] for k, v in singles_checked.items() if v["info"]["person_id"] is None}
     rprint(f"new_singles count: {len(new_singles)}")
+
+## Help, which is the most up to date file
+
+    from datetime import datetime
+
+    for file in matched_folder.iterdir():
+
+    datetime.fromtimestamp(file.stat().st_mtime)
+    with open(file, "r") as f:
+       matched = json.load(f)
+
+    rprint(f"{file.stem} has {len(matched)} entries")
+    rprint(f"{file.stem} — {len(matched)} entries — last modified: {datetime.fromtimestamp(file.stat().st_mtime)}")
