@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 zzz_random_shit/
 data/
+data_reload/
 scripts/scratch.py
 api/batch_sample.py
 frontend/.env.local

@@ -96,6 +96,21 @@ Quick reference for "add a thing to a collection":
     The `if` clause is only for **filtering** (deciding which items to include). If you're not throwing anything away — just reshaping or remapping — you don't need it.
     `─────────────────────────────────────────────────`
 
+    SYNTAX:
+    [result for item in source if condition]
+
+    a compact “take-transform-collect” sentence with strict word order.
+
+**“Result first, then loop source.”**
+
+[name.upper() for name in names]
+| Part    | Meaning                                               |
+| ------- | ----------------------------------------------------- |
+| `names` | the existing collection you already have              |
+| `name`  | the temporary variable representing ONE thing from it |
+
+
+
 ## Help, which is the most up to date file
 
     from datetime import datetime

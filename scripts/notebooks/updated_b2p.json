@@ -1,0 +1,1658 @@
+{
+  "wilpert_paul": {
+    "count": 1,
+    "entry_old": {
+      "display_name": "Wilpert, Paul",
+      "composite_id": "philosophie_241_10_24",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 9875,
+      "unified_id": "wilpert_paul",
+      "display_name": "Wilpert, Paul",
+      "composite_id": "philosophie_241_10_24",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "wasmuth_ewald": {
+    "count": 3,
+    "entry_old": {
+      "display_name": "Wasmuth, Ewald",
+      "composite_id": "philosophie_540_22_24",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 9447,
+      "unified_id": "wasmuth_ewald",
+      "display_name": "Wasmuth, Ewald",
+      "composite_id": "philosophie_540_22_24",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "buggisch_christian": {
+    "count": 4,
+    "entry_old": {
+      "display_name": "Buggisch, Christian",
+      "composite_id": "reisen_215_9_13",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 2962,
+      "unified_id": "buggisch_christian",
+      "display_name": "Buggisch, Christian",
+      "composite_id": "reisen_215_9_13",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "fuhrmann-plemp_van_duiveland_m": {
+    "count": 5,
+    "entry_old": {
+      "display_name": "Fuhrmann-Plemp van Duiveland, M.R.C.",
+      "composite_id": "reisen_98_4_13",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 4490,
+      "unified_id": "fuhrmann-plemp_van_duiveland_m",
+      "display_name": "Fuhrmann-Plemp van Duiveland, M.R.C.",
+      "composite_id": "reisen_98_4_13",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "schalk_fritz": {
+    "count": 6,
+    "entry_old": {
+      "display_name": "Schalk, Fritz",
+      "composite_id": "philosophie_137_6_24",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 7744,
+      "unified_id": "schalk_fritz",
+      "display_name": "Schalk, Fritz",
+      "composite_id": "philosophie_137_6_24",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "gegenschatz_ernst": {
+    "count": 8,
+    "entry_old": {
+      "display_name": "Gegenschatz, Ernst",
+      "composite_id": "antike_30_2_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 4577,
+      "unified_id": "gegenschatz_ernst",
+      "display_name": "Gegenschatz, Ernst",
+      "composite_id": "antike_30_2_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "gigon_olof": {
+    "count": 12,
+    "entry_old": {
+      "display_name": "Gigon, Olof",
+      "composite_id": "antike_30_2_9",
+      "sort_order": 2,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 4468,
+      "unified_id": "gigon_olof",
+      "display_name": "Gigon, Olof",
+      "composite_id": "antike_30_2_9",
+      "sort_order": 2,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "dull_rudolf": {
+    "count": 13,
+    "entry_old": {
+      "display_name": "Düll, Rudolf",
+      "composite_id": "antike_42_2_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 3471,
+      "unified_id": "dull_rudolf",
+      "display_name": "Düll, Rudolf",
+      "composite_id": "antike_42_2_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "korner_christian": {
+    "count": 14,
+    "entry_old": {
+      "display_name": "Körner, Christian",
+      "composite_id": "russland_82_4_17",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 5755,
+      "unified_id": "korner_christian",
+      "display_name": "Körner, Christian",
+      "composite_id": "russland_82_4_17",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "daube_uwe": {
+    "count": 15,
+    "entry_old": {
+      "display_name": "Daube, Uwe",
+      "composite_id": "briefe_294_12_15",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 3280,
+      "unified_id": "daube_uwe",
+      "display_name": "Daube, Uwe",
+      "composite_id": "briefe_294_12_15",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "causemann_margret": {
+    "count": 16,
+    "entry_old": {
+      "display_name": "Causemann, Margret",
+      "composite_id": "insel_628_26_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 3242,
+      "unified_id": "causemann_margret",
+      "display_name": "Causemann, Margret",
+      "composite_id": "insel_628_26_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "botond_anneliese": {
+    "count": 17,
+    "entry_old": {
+      "display_name": "Botond, Anneliese",
+      "composite_id": "insel_640_26_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 2606,
+      "unified_id": "botond_anneliese",
+      "display_name": "Botond, Anneliese",
+      "composite_id": "insel_640_26_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "buhler_johannes": {
+    "count": 18,
+    "entry_old": {
+      "display_name": "Bühler, Johannes",
+      "composite_id": "insel_139_6_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 3000,
+      "unified_id": "buhler_johannes",
+      "display_name": "Bühler, Johannes",
+      "composite_id": "insel_139_6_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "schwarz_ernst": {
+    "count": 19,
+    "entry_old": {
+      "display_name": "Schwarz, Ernst",
+      "composite_id": "insel_459_19_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 8235,
+      "unified_id": "schwarz_ernst",
+      "display_name": "Schwarz, Ernst",
+      "composite_id": "insel_459_19_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "bernhart_joseph": {
+    "count": 20,
+    "entry_old": {
+      "display_name": "Bernhart, Joseph",
+      "composite_id": "religion_9_1_4",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 2632,
+      "unified_id": "bernhart_joseph",
+      "display_name": "Bernhart, Joseph",
+      "composite_id": "religion_9_1_4",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "schluter_wolfgang": {
+    "count": 21,
+    "entry_old": {
+      "display_name": "Schlüter, Wolfgang",
+      "composite_id": "fremdsprachige_21_1_38",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 8351,
+      "unified_id": "schluter_wolfgang",
+      "display_name": "Schlüter, Wolfgang",
+      "composite_id": "fremdsprachige_21_1_38",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "correns_dietrich": {
+    "count": 22,
+    "entry_old": {
+      "display_name": "Correns, Dietrich",
+      "composite_id": "judentum_118_5_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 3374,
+      "unified_id": "correns_dietrich",
+      "display_name": "Correns, Dietrich",
+      "composite_id": "judentum_118_5_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "stork_hans-walter": {
+    "count": 23,
+    "entry_old": {
+      "display_name": "Stork, Hans-Walter",
+      "composite_id": "bibliophile_74_3_10",
+      "sort_order": 2,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 8702,
+      "unified_id": "stork_hans-walter",
+      "display_name": "Stork, Hans-Walter",
+      "composite_id": "bibliophile_74_3_10",
+      "sort_order": 2,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "heinisch_klaus_j": {
+    "count": 26,
+    "entry_old": {
+      "display_name": "Heinisch, Klaus J.",
+      "composite_id": "biographie_214_9_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 5082,
+      "unified_id": "heinisch_klaus_j",
+      "display_name": "Heinisch, Klaus J.",
+      "composite_id": "biographie_214_9_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "maltzew_alexios_v": {
+    "count": 27,
+    "entry_old": {
+      "display_name": "MALTZEW, Alexios V.",
+      "composite_id": "russland_117_5_17",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 6283,
+      "unified_id": "maltzew_alexios_v",
+      "display_name": "MALTZEW, Alexios V.",
+      "composite_id": "russland_117_5_17",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "janik_allan": {
+    "count": 28,
+    "entry_old": {
+      "display_name": "Janik, Allan",
+      "composite_id": "philosophie_592_24_24",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": false
+    },
+    "existing_updated": {
+      "person_id": 5523,
+      "unified_id": "janik_allan",
+      "display_name": "Janik, Allan",
+      "composite_id": "philosophie_592_24_24",
+      "sort_order": 1,
+      "is_author": true,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": false
+    }
+  },
+  "schott_siegfried": {
+    "count": 30,
+    "entry_old": {
+      "display_name": "Schott, Siegfried",
+      "composite_id": "antike_151_7_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 8535,
+      "unified_id": "schott_siegfried",
+      "display_name": "Schott, Siegfried",
+      "composite_id": "antike_151_7_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "roesch_erich": {
+    "count": 31,
+    "entry_old": {
+      "display_name": "Rösch, Erich",
+      "composite_id": "antike_99_4_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 7733,
+      "unified_id": "roesch_erich",
+      "display_name": "Rösch, Erich",
+      "composite_id": "antike_99_4_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "engelsing_rolf": {
+    "count": 32,
+    "entry_old": {
+      "display_name": "Engelsing, Rolf",
+      "composite_id": "antike_176_8_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 3733,
+      "unified_id": "engelsing_rolf",
+      "display_name": "Engelsing, Rolf",
+      "composite_id": "antike_176_8_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "steindl_erwin": {
+    "count": 33,
+    "entry_old": {
+      "display_name": "Steindl, Erwin",
+      "composite_id": "antike_178_8_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 8853,
+      "unified_id": "steindl_erwin",
+      "display_name": "Steindl, Erwin",
+      "composite_id": "antike_178_8_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "lehman_leander_ernst_r": {
+    "count": 34,
+    "entry_old": {
+      "display_name": "Lehman-Leander, Ernst R.",
+      "composite_id": "antike_184_8_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 6323,
+      "unified_id": "lehman_leander_ernst_r",
+      "display_name": "Lehman-Leander, Ernst R.",
+      "composite_id": "antike_184_8_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "ax_wilhelm": {
+    "count": 37,
+    "entry_old": {
+      "display_name": "Ax, Wilhelm",
+      "composite_id": "antike_113_5_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 2246,
+      "unified_id": "ax_wilhelm",
+      "display_name": "Ax, Wilhelm",
+      "composite_id": "antike_113_5_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "herklots_c": {
+    "count": 38,
+    "entry_old": {
+      "display_name": "Herklots, C.",
+      "composite_id": "musik_112_5_11",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 4740,
+      "unified_id": "herklots_c",
+      "display_name": "Herklots, C.",
+      "composite_id": "musik_112_5_11",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "fries_albert": {
+    "count": 39,
+    "entry_old": {
+      "display_name": "Fries, Albert",
+      "composite_id": "christentum_0_1_6",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 3904,
+      "unified_id": "fries_albert",
+      "display_name": "Fries, Albert",
+      "composite_id": "christentum_0_1_6",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "klaiber_ludwig": {
+    "count": 40,
+    "entry_old": {
+      "display_name": "Klaiber, Ludwig",
+      "composite_id": "christentum_50_3_6",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 5138,
+      "unified_id": "klaiber_ludwig",
+      "display_name": "Klaiber, Ludwig",
+      "composite_id": "christentum_50_3_6",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "vretska_helmuth": {
+    "count": 41,
+    "entry_old": {
+      "display_name": "Vretska, Helmuth",
+      "composite_id": "antike_132_6_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 9137,
+      "unified_id": "vretska_helmuth",
+      "display_name": "Vretska, Helmuth",
+      "composite_id": "antike_132_6_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "naumann_heinrich": {
+    "count": 42,
+    "entry_old": {
+      "display_name": "Naumann, Heinrich",
+      "composite_id": "antike_138_6_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 6948,
+      "unified_id": "naumann_heinrich",
+      "display_name": "Naumann, Heinrich",
+      "composite_id": "antike_138_6_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "gotte_johannes": {
+    "count": 43,
+    "entry_old": {
+      "display_name": "Götte, Johannes",
+      "composite_id": "antike_140_6_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 4207,
+      "unified_id": "gotte_johannes",
+      "display_name": "Götte, Johannes",
+      "composite_id": "antike_140_6_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "capelle_wilhelm": {
+    "count": 45,
+    "entry_old": {
+      "display_name": "Capelle, Wilhelm",
+      "composite_id": "antike_160_7_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 3023,
+      "unified_id": "capelle_wilhelm",
+      "display_name": "Capelle, Wilhelm",
+      "composite_id": "antike_160_7_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "jaerisch_peter": {
+    "count": 46,
+    "entry_old": {
+      "display_name": "Jaerisch, Peter",
+      "composite_id": "antike_148_6_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 5271,
+      "unified_id": "jaerisch_peter",
+      "display_name": "Jaerisch, Peter",
+      "composite_id": "antike_148_6_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "metelmann_ernst": {
+    "count": 47,
+    "entry_old": {
+      "display_name": "Metelmann, Ernst",
+      "composite_id": "deutschland_55_3_4",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 6936,
+      "unified_id": "metelmann_ernst",
+      "display_name": "Metelmann, Ernst",
+      "composite_id": "deutschland_55_3_4",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "rosenzweig_franz": {
+    "count": 50,
+    "entry_old": {
+      "display_name": "Rosenzweig, Franz",
+      "composite_id": "philosophie_402_17_24",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 7678,
+      "unified_id": "rosenzweig_franz",
+      "display_name": "Rosenzweig, Franz",
+      "composite_id": "philosophie_402_17_24",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "gelpke_rudolf": {
+    "count": 51,
+    "entry_old": {
+      "display_name": "Gelpke, Rudolf",
+      "composite_id": "islam_50_3_3",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 4281,
+      "unified_id": "gelpke_rudolf",
+      "display_name": "Gelpke, Rudolf",
+      "composite_id": "islam_50_3_3",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "kreutel_richard_f": {
+    "count": 53,
+    "entry_old": {
+      "display_name": "KREUTEL, Richard F.",
+      "composite_id": "mittelalter_59_3_7",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 5608,
+      "unified_id": "kreutel_richard_f",
+      "display_name": "KREUTEL, Richard F.",
+      "composite_id": "mittelalter_59_3_7",
+      "sort_order": 1,
+      "is_author": true,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "goebel_gerhard": {
+    "count": 54,
+    "entry_old": {
+      "display_name": "Goebel, Gerhard",
+      "composite_id": "briefe_246_10_15",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 4252,
+      "unified_id": "goebel_gerhard",
+      "display_name": "Goebel, Gerhard",
+      "composite_id": "briefe_246_10_15",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "rommel_bettina": {
+    "count": 55,
+    "entry_old": {
+      "display_name": "Rommel, Bettina",
+      "composite_id": "briefe_246_10_15",
+      "sort_order": 2,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": false
+    },
+    "existing_updated": {
+      "person_id": 7946,
+      "unified_id": "rommel_bettina",
+      "display_name": "Rommel, Bettina",
+      "composite_id": "briefe_246_10_15",
+      "sort_order": 2,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": true,
+      "is_translator": false
+    }
+  },
+  "muller_ernst": {
+    "count": 56,
+    "entry_old": {
+      "display_name": "Müller, Ernst",
+      "composite_id": "okkultismus_116_5_8",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 7003,
+      "unified_id": "muller_ernst",
+      "display_name": "Müller, Ernst",
+      "composite_id": "okkultismus_116_5_8",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "saathen_friedrich": {
+    "count": 57,
+    "entry_old": {
+      "display_name": "Saathen, Friedrich",
+      "composite_id": "biographie_348_14_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 7847,
+      "unified_id": "saathen_friedrich",
+      "display_name": "Saathen, Friedrich",
+      "composite_id": "biographie_348_14_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "steinbrugge_lieselotte": {
+    "count": 58,
+    "entry_old": {
+      "display_name": "Steinbrügge, Lieselotte",
+      "composite_id": "philosophie_583_24_24",
+      "sort_order": 2,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 8859,
+      "unified_id": "steinbrugge_lieselotte",
+      "display_name": "Steinbrügge, Lieselotte",
+      "composite_id": "philosophie_583_24_24",
+      "sort_order": 2,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "buek_otto": {
+    "count": 59,
+    "entry_old": {
+      "display_name": "Buek, Otto",
+      "composite_id": "fremdsprachige_902_37_38",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 2720,
+      "unified_id": "buek_otto",
+      "display_name": "Buek, Otto",
+      "composite_id": "fremdsprachige_902_37_38",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "roellinghoff_k": {
+    "count": 60,
+    "entry_old": {
+      "display_name": "ROELLINGHOFF, K.",
+      "composite_id": "russland_266_11_17",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 7817,
+      "unified_id": "roellinghoff_k",
+      "display_name": "ROELLINGHOFF, K.",
+      "composite_id": "russland_266_11_17",
+      "sort_order": 1,
+      "is_author": true,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "bujnoch_josef": {
+    "count": 61,
+    "entry_old": {
+      "display_name": "Bujnoch, Josef",
+      "composite_id": "mittelalter_54_3_7",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 2774,
+      "unified_id": "bujnoch_josef",
+      "display_name": "Bujnoch, Josef",
+      "composite_id": "mittelalter_54_3_7",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "gindro_severine": {
+    "count": 62,
+    "entry_old": {
+      "display_name": "Gindro, Severine",
+      "composite_id": "antike_50_3_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 4582,
+      "unified_id": "gindro_severine",
+      "display_name": "Gindro, Severine",
+      "composite_id": "antike_50_3_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "vitali_david": {
+    "count": 63,
+    "entry_old": {
+      "display_name": "Vitali, David",
+      "composite_id": "antike_50_3_9",
+      "sort_order": 2,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 9122,
+      "unified_id": "vitali_david",
+      "display_name": "Vitali, David",
+      "composite_id": "antike_50_3_9",
+      "sort_order": 2,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "schnur_harry_c": {
+    "count": 64,
+    "entry_old": {
+      "display_name": "Schnur, Harry C.",
+      "composite_id": "antike_56_3_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 8200,
+      "unified_id": "schnur_harry_c",
+      "display_name": "Schnur, Harry C.",
+      "composite_id": "antike_56_3_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "voss_johann_h": {
+    "count": 65,
+    "entry_old": {
+      "display_name": "Voß, Johann Heinrich",
+      "composite_id": "antike_74_3_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 9533,
+      "unified_id": "voss_johann_h",
+      "display_name": "Voß, Johann Heinrich",
+      "composite_id": "antike_74_3_9",
+      "sort_order": 1,
+      "is_author": true,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "missenharter_hermann": {
+    "count": 66,
+    "entry_old": {
+      "display_name": "Missenharter, Hermann",
+      "composite_id": "briefe_351_15_15",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 6635,
+      "unified_id": "missenharter_hermann",
+      "display_name": "Missenharter, Hermann",
+      "composite_id": "briefe_351_15_15",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "aretz_paul": {
+    "count": 67,
+    "entry_old": {
+      "display_name": "Aretz, Paul",
+      "composite_id": "biographie_200_9_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 2121,
+      "unified_id": "aretz_paul",
+      "display_name": "Aretz, Paul",
+      "composite_id": "biographie_200_9_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "gunther_hans": {
+    "count": 68,
+    "entry_old": {
+      "display_name": "Hans Günther",
+      "composite_id": "russland_38_2_17",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 4134,
+      "unified_id": "gunther_hans",
+      "display_name": "Hans Günther",
+      "composite_id": "russland_38_2_17",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "hielscher_karla": {
+    "count": 69,
+    "entry_old": {
+      "display_name": "Karla Hielscher",
+      "composite_id": "russland_38_2_17",
+      "sort_order": 2,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 4877,
+      "unified_id": "hielscher_karla",
+      "display_name": "Karla Hielscher",
+      "composite_id": "russland_38_2_17",
+      "sort_order": 2,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "mader_ludwig": {
+    "count": 70,
+    "entry_old": {
+      "display_name": "Mader, Ludwig",
+      "composite_id": "antike_7_1_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 6540,
+      "unified_id": "mader_ludwig",
+      "display_name": "Mader, Ludwig",
+      "composite_id": "antike_7_1_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "maier_robert": {
+    "count": 71,
+    "entry_old": {
+      "display_name": "Maier, Robert",
+      "composite_id": "antike_8_1_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 6521,
+      "unified_id": "maier_robert",
+      "display_name": "Maier, Robert",
+      "composite_id": "antike_8_1_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "hessel_franz": {
+    "count": 72,
+    "entry_old": {
+      "display_name": "Hessel, Franz",
+      "composite_id": "fremdsprachige_227_10_38",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 4682,
+      "unified_id": "hessel_franz",
+      "display_name": "Hessel, Franz",
+      "composite_id": "fremdsprachige_227_10_38",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "luck_georg": {
+    "count": 73,
+    "entry_old": {
+      "display_name": "Luck, Georg",
+      "composite_id": "antike_119_5_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 6547,
+      "unified_id": "luck_georg",
+      "display_name": "Luck, Georg",
+      "composite_id": "antike_119_5_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "villain_jean": {
+    "count": 74,
+    "entry_old": {
+      "display_name": "Villain, Jean",
+      "composite_id": "fremdsprachige_628_26_38",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 9426,
+      "unified_id": "villain_jean",
+      "display_name": "Villain, Jean",
+      "composite_id": "fremdsprachige_628_26_38",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "bernt_alois": {
+    "count": 75,
+    "entry_old": {
+      "display_name": "Bernt, Alois",
+      "composite_id": "insel_488_20_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 2705,
+      "unified_id": "bernt_alois",
+      "display_name": "Bernt, Alois",
+      "composite_id": "insel_488_20_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "treu_ursula": {
+    "count": 77,
+    "entry_old": {
+      "display_name": "Treu, Ursula",
+      "composite_id": "fruehes_90_4_4",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 9176,
+      "unified_id": "treu_ursula",
+      "display_name": "Treu, Ursula",
+      "composite_id": "fruehes_90_4_4",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "grabler_franz": {
+    "count": 78,
+    "entry_old": {
+      "display_name": "Grabler, Franz",
+      "composite_id": "mittelalter_60_3_7",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 4171,
+      "unified_id": "grabler_franz",
+      "display_name": "Grabler, Franz",
+      "composite_id": "mittelalter_60_3_7",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "berthold_heinz": {
+    "count": 79,
+    "entry_old": {
+      "display_name": "Berthold, Heinz",
+      "composite_id": "antike_201_9_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 3088,
+      "unified_id": "berthold_heinz",
+      "display_name": "Berthold, Heinz",
+      "composite_id": "antike_201_9_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "ruttenauer_wolfgang": {
+    "count": 80,
+    "entry_old": {
+      "display_name": "Rüttenauer, Wolfgang",
+      "composite_id": "philosophie_541_22_24",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 7816,
+      "unified_id": "ruttenauer_wolfgang",
+      "display_name": "Rüttenauer, Wolfgang",
+      "composite_id": "philosophie_541_22_24",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "morgenroth_wolfgang": {
+    "count": 81,
+    "entry_old": {
+      "display_name": "Morgenroth, Wolfgang",
+      "composite_id": "griechenland_220_9_10",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 6963,
+      "unified_id": "morgenroth_wolfgang",
+      "display_name": "Morgenroth, Wolfgang",
+      "composite_id": "griechenland_220_9_10",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "roessler_arthur": {
+    "count": 82,
+    "entry_old": {
+      "display_name": "Rössler, Arthur",
+      "composite_id": "illustrierte_92_4_14",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 7873,
+      "unified_id": "roessler_arthur",
+      "display_name": "Rössler, Arthur",
+      "composite_id": "illustrierte_92_4_14",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "kytzler_bernhard": {
+    "count": 83,
+    "entry_old": {
+      "display_name": "Kytzler, Bernhard",
+      "composite_id": "griechenland_194_8_10",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": false
+    },
+    "existing_updated": {
+      "person_id": 5881,
+      "unified_id": "kytzler_bernhard",
+      "display_name": "Kytzler, Bernhard",
+      "composite_id": "griechenland_194_8_10",
+      "sort_order": 1,
+      "is_author": true,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": false
+    }
+  },
+  "falls_j_c_ewald": {
+    "count": 84,
+    "entry_old": {
+      "display_name": "Falls, J.C.Ewald",
+      "composite_id": "insel_62_3_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 3818,
+      "unified_id": "falls_j_c_ewald",
+      "display_name": "Falls, J.C.Ewald",
+      "composite_id": "insel_62_3_27",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  },
+  "kartschoke_dieter": {
+    "count": 85,
+    "entry_old": {
+      "display_name": "Kartschoke, Dieter",
+      "composite_id": "de-lit-texte_370_15_20",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 5296,
+      "unified_id": "kartschoke_dieter",
+      "display_name": "Kartschoke, Dieter",
+      "composite_id": "de-lit-texte_370_15_20",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "schoenberger_otto": {
+    "count": 87,
+    "entry_old": {
+      "display_name": "Schönberger, Otto",
+      "composite_id": "antike_171_7_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 8308,
+      "unified_id": "schoenberger_otto",
+      "display_name": "Schönberger, Otto",
+      "composite_id": "antike_171_7_9",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": true,
+      "is_contributor": false,
+      "is_translator": true
+    }
+  },
+  "friedensburg_walter": {
+    "count": 88,
+    "entry_old": {
+      "display_name": "Friedensburg, Walter",
+      "composite_id": "deutschland_70_3_4",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": false,
+      "is_translator": true
+    },
+    "existing_updated": {
+      "person_id": 4047,
+      "unified_id": "friedensburg_walter",
+      "display_name": "Friedensburg, Walter",
+      "composite_id": "deutschland_70_3_4",
+      "sort_order": 1,
+      "is_author": false,
+      "is_editor": false,
+      "is_contributor": true,
+      "is_translator": true
+    }
+  }
+}
