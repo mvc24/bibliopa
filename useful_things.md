@@ -123,3 +123,9 @@ Quick reference for "add a thing to a collection":
 
     rprint(f"{file.stem} has {len(matched)} entries")
     rprint(f"{file.stem} — {len(matched)} entries — last modified: {datetime.fromtimestamp(file.stat().st_mtime)}")
+
+
+###
+id check:
+2406 new = angelus silesius
+2406 old = gruber sabine

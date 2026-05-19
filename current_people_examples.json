@@ -1,0 +1,150 @@
+[
+    {
+        "file": "people_extracted.json",
+        "path": "bibliopa/data/backup/people/people_extracted.json",
+        "entries": 9060,
+        "modified": "2026-05-10 19:45",
+        "timestamp": 1778435101.728461,
+        "structure": "dict",
+        "first_entry": [
+            "löbl, emil",
+            [
+                {
+                    "display_name": "LÖBL, Emil",
+                    "composite_id": "wien_201_9_10",
+                    "sort_order": 1,
+                    "is_author": true,
+                    "is_editor": false,
+                    "is_contributor": false,
+                    "is_translator": false
+                },
+                {
+                    "display_name": "LÖBL, Emil",
+                    "composite_id": "erstausgaben_1204_49_78",
+                    "sort_order": 1,
+                    "is_author": true,
+                    "is_editor": false,
+                    "is_contributor": false,
+                    "is_translator": false
+                }
+            ]
+        ]
+    },
+    {
+        "file": "people_matched.json",
+        "path": "bibliopa/data/people/prepping4loading/people_matched.json",
+        "entries": 5595,
+        "modified": "2026-05-18 19:01",
+        "timestamp": 1779123712.423148,
+        "structure": "dict",
+        "first_entry": [
+            "löbl, emil",
+            {
+                "variant_id": 5359,
+                "person_id": 4181,
+                "unified_id": "lobl_emil",
+                "occurrences": [
+                    {
+                        "display_name": "LÖBL, Emil",
+                        "composite_id": "wien_201_9_10",
+                        "sort_order": 1,
+                        "is_author": true,
+                        "is_editor": false,
+                        "is_contributor": false,
+                        "is_translator": false
+                    },
+                    {
+                        "display_name": "LÖBL, Emil",
+                        "composite_id": "erstausgaben_1204_49_78",
+                        "sort_order": 1,
+                        "is_author": true,
+                        "is_editor": false,
+                        "is_contributor": false,
+                        "is_translator": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "file": "b2p_data.json",
+        "path": "bibliopa/data/people/fixing_ids/b2p_data.json",
+        "entries": 1976,
+        "modified": "2026-05-18 17:45",
+        "timestamp": 1779119143.6147473,
+        "structure": "dict",
+        "first_entry": [
+            "4292",
+            {
+                "person_id": 4292,
+                "person_id_old": 2203,
+                "unified_id": "glasenapp_helmuth",
+                "entries": [
+                    {
+                        "display_name": "von Glasenapp, Helmuth",
+                        "composite_id": "buddhismus_35_2_3",
+                        "sort_order": 1,
+                        "is_author": false,
+                        "is_editor": false,
+                        "is_contributor": false,
+                        "is_translator": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "file": "matches_ready.json",
+        "path": "bibliopa/data/people/fixing_ids/matches_ready.json",
+        "entries": 1976,
+        "modified": "2026-05-18 16:34",
+        "timestamp": 1779114889.3631094,
+        "structure": "dict",
+        "first_entry": [
+            "2203",
+            [
+                {
+                    "display_name": "von Glasenapp, Helmuth",
+                    "composite_id": "buddhismus_35_2_3",
+                    "sort_order": 1,
+                    "is_author": false,
+                    "is_editor": false,
+                    "is_contributor": false,
+                    "is_translator": false
+                }
+            ]
+        ]
+    },
+    {
+        "file": "NEW_people_complete_checked.json",
+        "path": "bibliopa/data/people/prepping4loading/NEW_people_complete_checked.json",
+        "entries": 1129,
+        "modified": "2026-05-16 12:41",
+        "timestamp": 1778928110.344779,
+        "structure": "dict",
+        "first_entry": [
+            "abegg_martin",
+            {
+                "unified_id": "abegg_martin",
+                "family_name": "Abegg",
+                "given_names": "Martin",
+                "name_prefix": null,
+                "name_particles": null,
+                "name_suffix": "Jr.",
+                "single_name": null,
+                "is_organisation": false,
+                "entries": [
+                    {
+                        "display_name": "Abegg, Martin Jr.",
+                        "composite_id": "fruehes_95_4_4",
+                        "sort_order": 2,
+                        "is_author": true,
+                        "is_editor": false,
+                        "is_contributor": false,
+                        "is_translator": false
+                    }
+                ]
+            }
+        ]
+    }
+]

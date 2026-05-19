@@ -1,22 +1,15 @@
-from pathlib import Path
 import json
-from scripts.data_prep_old import consolidate_entries
-from pprint import pp
 
-path = Path("data/file_groups.json")
+with open("data/people/matched/matches_extended.json") as f:
+    extended = json.load(f)
 
-# with open(path, "r") as f:
-#     file_groups = json.load(f)
+with open("data/people/fixing_ids/matches_ready.json") as f:
+    ready = json.load(f)
 
-# xl = file_groups["xl"]
-# # l = file_groups["l"]
-# # m = file_groups["m"]
-# # xs = file_groups["xs"]
-# # s = file_groups["s"]
+extended_person_ids = {str(v["person_id"]) for v in extended.values() if v.get("person_id")}
 
-# for file in xl:
-#     filename = file["filename"]
-#     consolidate_entries(filename)
+in_ready = extended_person_ids & set(ready.keys())
+not_in_ready = extended_person_ids - set(ready.keys())
 
-from scripts import normalise_text
-# consolidate_entries("ÄGYPTEN VORDERER ORIENT.docx")
+print("extended person_ids already in matches_ready:", len(in_ready))
+print("extended person_ids NOT in matches_ready:", len(not_in_ready))
