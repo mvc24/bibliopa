@@ -109,6 +109,15 @@ Quick reference for "add a thing to a collection":
 | `names` | the existing collection you already have              |
 | `name`  | the temporary variable representing ONE thing from it |
 
+## Batching dicts
+
+    for batch in batched(all_books.items(), 200):
+
+So book_batch would be assigned using dict(batch) rather than staying as the empty {} you initialised it with.
+
+★ Insight ─────────────────────────────────────
+dict() accepts any iterable of (key, value) pairs — that's exactly what .items() produces and what batched preserves. This round-trip pattern (dict → .items() → batched → dict()) is common when you need to chunk dictionaries.
+─────────────────────────────────────────────────
 
 
 ## Help, which is the most up to date file
