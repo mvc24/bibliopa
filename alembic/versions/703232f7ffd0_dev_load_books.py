@@ -9,7 +9,7 @@ from typing import Sequence, Union
 
 from alembic import op
 import sqlalchemy as sa
-from sqlalchemy.exc import IntegrityError
+from sqlalchemy.exc import IntegrityError, DataError
 
 import json
 import sys
@@ -110,6 +110,13 @@ books2volumes_insert = sa.text("""
     VALUES (:book_id, :volume_number, :volume_title, :pages, :notes)
 """)
 
+def to_int(val):
+    """Normalize integer-coercible fields: convert empty strings to None."""
+    if val == "":
+        return None
+    return val
+
+
 def upgrade() -> None:
     """Upgrade schema."""
 
@@ -118,10 +125,11 @@ def upgrade() -> None:
     if loading_log_file.exists():
         with open(loading_log_file, "r") as f:
             loading_log = json.load(f)
-        finished_batches = set(loading_log.get("finished", []))
     else:
-        loading_log = {"finished": [], "errors": []}
-        finished_batches = set()
+        loading_log = {}
+    loading_log.setdefault("finished", [])
+    loading_log.setdefault("errors", [])
+    finished_batches = set(loading_log["finished"])
 
     files = sorted(books_folder.glob("*.json"))
     total_files = len(files)
@@ -135,41 +143,41 @@ def upgrade() -> None:
         with open(file, "r") as f:
            books = json.load(f)
 
-        for composite_id, book in books.items():
+        for book_idx, (composite_id, book) in enumerate(books.items(), start=1):
             book_data = book[0]["books_data"]
             try:
                 with connection.begin_nested():
                     result = connection.execute(books_insert, {
                         'composite_id': composite_id,
-                        'is_active': book_data.get('is_active'),
+                        'is_active': to_int(book_data.get('is_active')),
                         'is_removed': book_data.get('is_removed', False),
                         'title': book_data.get('title'),
                         'subtitle': book_data.get('subtitle'),
                         'publisher': book_data.get('publisher'),
                         'place_of_publication': book_data.get('place_of_publication'),
-                        'publication_year': book_data.get('publication_year'),
+                        'publication_year': to_int(book_data.get('publication_year')),
                         'edition': book_data.get('edition'),
-                        'pages': book_data.get('pages'),
+                        'pages': to_int(book_data.get('pages')),
                         'format_original': book_data.get('format_original'),
                         'format_expanded': book_data.get('format_expanded'),
                         'condition': book_data.get('condition'),
-                        'copies': book_data.get('copies'),
+                        'copies': to_int(book_data.get('copies')),
                         'illustrations': book_data.get('illustrations'),
                         'packaging': book_data.get('packaging'),
-                        'topic_id': book_data.get('topic_id'),
+                        'topic_id': to_int(book_data.get('topic_id')),
                         'is_translation': book_data.get('is_translation'),
                         'original_language': book_data.get('original_language'),
                         'is_multivolume': book_data.get('is_multivolume'),
                         'series_title': book_data.get('series_title'),
-                        'total_volumes': book_data.get('total_volumes'),
+                        'total_volumes': to_int(book_data.get('total_volumes')),
                     })
                     book_id = result.scalar()
 
-                    price_data = book[0].get("price_data")
+                    price_data = book[0].get("price_data") or {}
                     if price_data:
                         connection.execute(prices_insert, {
                             'book_id': book_id,
-                            'amount': price_data.get('amount'),
+                            'amount': to_int(price_data.get('amount')),
                             'imported_price': price_data.get('imported_price', True),
                             'source': price_data.get('source'),
                         })
@@ -187,17 +195,17 @@ def upgrade() -> None:
                         'verification_notes': admin_data.get('verification_notes'),
                     })
 
-                    volumes = book[0].get("volumes_data", {}).get("volumes", [])
+                    volumes = (book[0].get("volumes_data") or {}).get("volumes") or []
                     for volume in volumes:
                         connection.execute(books2volumes_insert, {
                             'book_id': book_id,
-                            'volume_number': volume.get('volume_number'),
+                            'volume_number': to_int(volume.get('volume_number')),
                             'volume_title': volume.get('volume_title'),
-                            'pages': volume.get('pages'),
+                            'pages': to_int(volume.get('pages')),
                             'notes': volume.get('notes'),
                         })
 
-            except IntegrityError as e:
+            except (IntegrityError, DataError) as e:
                 error_entry = {
                     'file': filename,
                     'composite_id': composite_id,
@@ -206,6 +214,9 @@ def upgrade() -> None:
                 loading_log["errors"].append(error_entry)
                 with open(loading_log_file, "w") as f:
                     json.dump(loading_log, f, indent=2, ensure_ascii=False)
+            if book_idx % 10 == 0:
+                print("·", end="", flush=True)
+        print()
         rprint(f"[{file_idx}/{total_files}] Finished {filename} ({len(books)} entries)")
         finished_batches.add(filename)
         loading_log["finished"].append(filename)
