@@ -1,0 +1,97 @@
+{
+    "wien_165_7_10": [
+        {
+            "books_data": {
+                "composite_id": "wien_165_7_10",
+                "is_active": 0,
+                "title": null,
+                "subtitle": null,
+                "publisher": null,
+                "place_of_publication": null,
+                "publication_year": 1997,
+                "edition": null,
+                "pages": 39,
+                "format_original": "OBrosch.",
+                "format_expanded": "Originalbroschur",
+                "condition": null,
+                "copies": null,
+                "illustrations": null,
+                "packaging": null,
+                "topic_id": 36,
+                "is_translation": false,
+                "original_language": null,
+                "is_multivolume": true,
+                "series_title": null,
+                "total_volumes": null
+            },
+            "admin_data": {
+                "composite_id": "wien_165_7_10",
+                "original_entry": "Band 2: 1589 bis zur Auflassung 1993 und Nachträge, Kommentare. 1997. 39 S. OBrosch.",
+                "corrected_by_api": false,
+                "missing_person": false,
+                "multiple_editions": false,
+                "api_concerned": true,
+                "problematic_multi_volume": true,
+                "verification_notes": "This entry appears to be a standalone volume record (Band 2) without a parent title, author, or publisher. It cannot be fully identified without the main entry. The volume title '1589 bis zur Auflassung 1993 und Nachträge, Kommentare' suggests a historical/archival work related to Wien, but the main work title and author are missing. Flagged as api_concerned and problematic_multi_volume due to incomplete bibliographic context."
+            },
+            "price_data": {
+                "amount": null,
+                "imported_price": false
+            },
+            "volumes_data": {
+                "volumes": [
+                    {
+                        "volume_number": 2,
+                        "volume_title": "1589 bis zur Auflassung 1993 und Nachträge, Kommentare",
+                        "pages": 39,
+                        "notes": null
+                    }
+                ]
+            }
+        }
+    ],
+    "judentum_195_8_9": [
+        {
+            "books_data": {
+                "composite_id": "judentum_195_8_9",
+                "is_active": 0,
+                "title": null,
+                "subtitle": null,
+                "publisher": null,
+                "place_of_publication": null,
+                "publication_year": null,
+                "edition": null,
+                "pages": null,
+                "format_original": null,
+                "format_expanded": null,
+                "condition": null,
+                "copies": null,
+                "illustrations": null,
+                "packaging": null,
+                "topic_id": 20,
+                "is_translation": false,
+                "original_language": null,
+                "is_multivolume": false,
+                "series_title": null,
+                "total_volumes": null
+            },
+            "admin_data": {
+                "composite_id": "judentum_195_8_9",
+                "original_entry": "EHRMANN, Daniel",
+                "corrected_by_api": false,
+                "missing_person": false,
+                "multiple_editions": false,
+                "api_concerned": true,
+                "problematic_multi_volume": false,
+                "verification_notes": "The entry contains only a person's name with no title, publisher, year, or any other bibliographic information. It is unclear whether this is an incomplete entry, a stub, or a cataloging error. No work can be identified from this information alone."
+            },
+            "price_data": {
+                "amount": null,
+                "imported_price": false
+            },
+            "volumes_data": {
+                "volumes": []
+            }
+        }
+    ]
+}
