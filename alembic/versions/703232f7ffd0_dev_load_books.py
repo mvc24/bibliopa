@@ -127,9 +127,9 @@ def upgrade() -> None:
             loading_log = json.load(f)
     else:
         loading_log = {}
-        loading_log.setdefault("finished", [])
-        loading_log.setdefault("errors", [])
-        finished_batches = set(loading_log["finished"])
+    loading_log.setdefault("finished", [])
+    loading_log.setdefault("errors", [])
+    finished_batches = set(loading_log["finished"])
 
     files = sorted(books_folder.glob("*.json"))
     total_files = len(files)

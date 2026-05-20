@@ -1,0 +1,301 @@
+{
+  "gorres_joseph": {
+    "person_id_old": 2284,
+    "entries": [
+      {
+        "display_name": "Görres",
+        "composite_id": "bibliophile_48_2_10",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "weber_max": {
+    "person_id_old": 7397,
+    "entries": [
+      {
+        "display_name": "WEBER, Max",
+        "composite_id": "religion_60_3_4",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "WEBER, Max",
+        "composite_id": "philosophie_327_14_24",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "asop": {
+    "person_id_old": 181,
+    "entries": [
+      {
+        "display_name": "ÄSOP",
+        "composite_id": "illustrierte_45_2_14",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "silesius_angelus": {
+    "person_id_old": 6511,
+    "entries": [
+      {
+        "display_name": "SILESIUS, Angelus",
+        "composite_id": "de-lit-texte_404_17_20",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "hundertwasser": {
+    "person_id_old": 3092,
+    "entries": [
+      {
+        "display_name": "HUNDERTWASSER, Friedensreich",
+        "composite_id": "kunstbuecher_723_29_38",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "HUNDERTWASSER, Friedensreich",
+        "composite_id": "kunstbuecher_724_29_38",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "gotte_johannes_maria": {
+    "person_id_old": 2290,
+    "entries": [
+      {
+        "display_name": "Johannes und Maria Götte",
+        "composite_id": "antike_141_6_9",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "Johannes und Maria Götte",
+        "composite_id": "antike_141_6_9",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "xenophon": {
+    "person_id_old": 7704,
+    "entries": [
+      {
+        "display_name": "XENOPHON",
+        "composite_id": "antike_146_6_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "XENOPHON",
+        "composite_id": "antike_147_6_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "XENOPHON",
+        "composite_id": "antike_148_6_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "XENOPHON",
+        "composite_id": "antike_149_6_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "XENOPHON",
+        "composite_id": "briefe_367_15_15",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "XENOPHON",
+        "composite_id": "antike_210_9_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "XENOPHON",
+        "composite_id": "antike_211_9_9",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "stams_marianne_und_werner": {
+    "person_id_old": 6651,
+    "entries": [
+      {
+        "display_name": "Marianne und Werner Stams",
+        "composite_id": "reisen_238_10_13",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": true,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "grautoff_erna_und_otto": {
+    "person_id_old": 2338,
+    "entries": [
+      {
+        "display_name": "Erna und Otto Grautoff",
+        "composite_id": "insel_580_24_27",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "naumann_hans_ida": {
+    "person_id_old": 4878,
+    "entries": [
+      {
+        "display_name": "Naumann, Hans und Ida",
+        "composite_id": "maerchen_31_2_3",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      },
+      {
+        "display_name": "NAUMANN, Hans und Ida",
+        "composite_id": "maerchen_32_2_3",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "d'annunzio_gabriele": {
+    "person_id_old": 1219,
+    "entries": [
+      {
+        "display_name": "D'ANNUNZIO, Gabriele",
+        "composite_id": "fremdsprachige_282_12_38",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "D'ANNUNZIO, Gabriele",
+        "composite_id": "fremdsprachige_283_12_38",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      }
+    ]
+  },
+  "roda_roda": {
+    "person_id_old": 5711,
+    "entries": [
+      {
+        "display_name": "RODA RODA",
+        "composite_id": "erstausgaben_1357_55_78",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "RODA RODA",
+        "composite_id": "erstausgaben_1358_55_78",
+        "sort_order": 1,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false
+      },
+      {
+        "display_name": "RODA RODA",
+        "composite_id": "erstausgaben_1358_55_78",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  },
+  "bontjes_van_bee_roseli_s": {
+    "person_id_old": 696,
+    "entries": [
+      {
+        "display_name": "Roseli und Saskia Bontjes van Bee",
+        "composite_id": "fremdsprachige_851_35_38",
+        "sort_order": 1,
+        "is_author": false,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": true
+      }
+    ]
+  }
+}

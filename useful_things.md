@@ -109,6 +109,30 @@ Quick reference for "add a thing to a collection":
 | `names` | the existing collection you already have              |
 | `name`  | the temporary variable representing ONE thing from it |
 
+`★ Insight ─────────────────────────────────────`
+The `for x, y in ...` pattern only works when each item in the iterable is a 2-element tuple. `dict.items()` yields `(key, value)` tuples — that's why `k, v` works there. A list of dicts yields whole dicts, not tuples, so unpacking into two variables fails.
+`─────────────────────────────────────────────────`
+
+Your error makes sense: `for k, v in books_db` tries to unpack each full dict (25 fields) into exactly 2 variables.
+
+For a list, you just use one variable — it represents the whole dict:
+
+```python
+book_id_lookup = {b["composite_id"]: b["book_id"] for b in books_db}
+```
+
+**To your conceptual question:** Python doesn't "know" what the temporary variables mean — it's entirely determined by what the iterable yields per step:
+
+| Iterable | Yields per step | Pattern to use |
+|---|---|---|
+| `list of dicts` | one whole dict | `for b in list` |
+| `dict.items()` | `(key, value)` tuple | `for k, v in dict.items()` |
+| `list of tuples` like `[(1,2), (3,4)]` | one tuple of 2 | `for a, b in list` |
+
+The variable names (`b`, `k`, `v`, `item`) are completely arbitrary — Python only cares about how many variables you're unpacking into versus how many values each step produces.
+
+
+
 ## Batching dicts
 
     for batch in batched(all_books.items(), 200):
