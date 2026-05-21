@@ -131,6 +131,35 @@ book_id_lookup = {b["composite_id"]: b["book_id"] for b in books_db}
 
 The variable names (`b`, `k`, `v`, `item`) are completely arbitrary — Python only cares about how many variables you're unpacking into versus how many values each step produces.
 
+**even more ridiculousness**
+
+this comprehension is the SAME THING 
+        rows = [
+            (
+                person.get("unified_id"),
+                person.get("family_name"),
+                person.get("given_names"),
+                person.get("name_prefix"),
+                person.get("name_particles"),
+                person.get("name_suffix"),
+                person.get("single_name"),
+                person.get("is_organisation"),
+            )
+            for person in people
+        ]
+As this loop
+    rows = []
+    for person in people:
+        rows.append((
+            person.get("unified_id"),
+            person.get("family_name"),
+            person.get("given_names"),
+            person.get("name_prefix"),
+            person.get("name_particles"),
+            person.get("name_suffix"),
+            person.get("single_name"),
+            person.get("is_organisation"),
+        ))
 
 
 ## Batching dicts
