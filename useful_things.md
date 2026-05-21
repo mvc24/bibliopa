@@ -133,6 +133,9 @@ The variable names (`b`, `k`, `v`, `item`) are completely arbitrary — Python o
 
 **even more ridiculousness**
 
+this below got me just the books data dictionary
+    books_data = [v[0]["books_data"] for k, v in all_books.items()]
+
 this comprehension is the SAME THING 
         rows = [
             (
