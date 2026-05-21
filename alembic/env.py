@@ -68,7 +68,13 @@ def run_migrations_online() -> None:
         {"sqlalchemy.url": database_url},
         prefix="sqlalchemy.",
         poolclass=pool.NullPool,
-    )
+        connect_args={
+            "keepalives": 1,
+            "keepalives_idle": 30,
+            "keepalives_interval": 10,
+            "keepalives_count": 5,
+        }
+)
 
     with connectable.connect() as connection:
         context.configure(
