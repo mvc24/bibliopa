@@ -5,6 +5,7 @@ zzz_random_shit/
 data/
 data_reload/
 scripts/scratch.py
+scripts/notebooks/a_mess_of_notebooks
 api/batch_sample.py
 frontend/.env.local
 node_modules/
