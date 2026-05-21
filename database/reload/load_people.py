@@ -7,7 +7,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from database.connection import get_db_connection
 
-people_file = Path("data_reload/people/people_file.json")
+people_file = Path("data_reload/people/people_combined.json")
 
 def load_people_to_db():
     with open(people_file, "r") as f:

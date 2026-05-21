@@ -121,6 +121,14 @@ For a list, you just use one variable — it represents the whole dict:
 book_id_lookup = {b["composite_id"]: b["book_id"] for b in books_db}
 ```
 
+    matched_dict = {
+        v["person_id"]: {
+            "unified_id": v["unified_id"],
+            "entries": v["occurrences"]
+        }
+        for k, v in matched.items()
+    }
+
 **To your conceptual question:** Python doesn't "know" what the temporary variables mean — it's entirely determined by what the iterable yields per step:
 
 | Iterable | Yields per step | Pattern to use |
