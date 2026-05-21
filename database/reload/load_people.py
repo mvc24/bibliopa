@@ -1,6 +1,10 @@
 from rich import print
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
 from database.connection import get_db_connection
 
 people_file = Path("data_reload/people/people_file.json")
