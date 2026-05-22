@@ -13,7 +13,6 @@ import sys
 
 from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent.parent))
-from database.initial_load.load_people import load_people
 
 
 # revision identifiers, used by Alembic.
@@ -24,6 +23,7 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
+    from database.initial_load.load_people import load_people # type: ignore
 
     people_data, _ = load_people()
 

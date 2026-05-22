@@ -13,7 +13,7 @@ import sqlalchemy as sa
 from pathlib import Path
 import sys
 sys.path.append(str(Path(__file__).parent.parent.parent))
-from database.prep_related_tables import prep_related_tables
+
 
 
 # revision identifiers, used by Alembic.
@@ -24,6 +24,7 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
+    from database.prep_related_tables import prep_related_tables # type: ignore
     # Clear any partial data from previous failed runs
     op.execute("DELETE FROM books2volumes")
     op.execute("DELETE FROM books2people")

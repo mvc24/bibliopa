@@ -14,7 +14,6 @@ import sys
 
 from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent.parent))
-from database.prep_books import prepare_books4loading
 
 # revision identifiers, used by Alembic.
 revision: str = 'a5ab158c3eb5'
@@ -24,6 +23,7 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
+    from database.prep_books import prepare_books4loading # type: ignore
     books_data = prepare_books4loading()
 
     books_table = sa.table("books",

@@ -57,7 +57,11 @@ export async function GET(
       admin_data: {
         original_entry: admin.original_entry,
         verification_notes: admin.verification_notes,
-        topic_changed: admin.topic_changed,
+        corrected_by_api: admin.corrected_by_api,
+        missing_person: admin.missing_person,
+        multiple_editions: admin.multiple_editions,
+        api_concerned: admin.api_concerned,
+        problematic_multi_volume: admin.problematic_multi_volume,
       },
     };
 

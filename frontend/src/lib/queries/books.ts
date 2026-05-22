@@ -14,7 +14,14 @@ import {
  * Practice: Start with SELECT * FROM books
  */
 export async function getAllBooks() {
-  const result = await query<Book>(`SELECT * FROM books`, []);
+  const result = await query<Book>(
+    sql`
+    SELECT *
+    FROM books b
+    WHERE b.is_removed = FALSE AND b.is_active <> 0;
+    `,
+    [],
+  );
 
   return result.rows;
 }
@@ -37,7 +44,7 @@ export async function getBooksOverviewWithTopic(
     FROM books b
     LEFT JOIN topics t ON b.topic_id = t.topic_id
 
-    WHERE b.is_removed = FALSE
+    WHERE b.is_removed = FALSE AND b.is_active <> 0
       AND ($1::text IS NULL OR t.topic_normalised = $1)
 
     LIMIT $2 OFFSET $3
@@ -92,7 +99,7 @@ export async function getBookCount(
     FROM books b
     LEFT JOIN topics t ON b.topic_id = t.topic_id
     LEFT JOIN books2people b2p ON b.book_id = b2p.book_id AND b2p.is_author = TRUE
-    WHERE b.is_removed = FALSE
+    WHERE b.is_removed = FALSE AND b.is_active <> 0
       AND ($1::text IS NULL OR t.topic_normalised = $1)
       AND ($2::integer IS NULL OR b2p.person_id = $2)
     `,
@@ -138,7 +145,7 @@ export async function getBooksFilteredByAuthor(
     FROM books b
     LEFT JOIN topics t ON b.topic_id = t.topic_id
     LEFT JOIN books2people b2p ON b.book_id = b2p.book_id
-    WHERE b.is_removed = FALSE
+    WHERE b.is_removed = FALSE AND b.is_active <> 0
       AND b2p.person_id = $1
       AND b2p.is_author = TRUE
     ORDER BY b.title
@@ -159,7 +166,7 @@ export async function getSingleBook(bookId: number) {
       t.topic_normalised
     FROM books b
     LEFT JOIN topics t ON b.topic_id = t.topic_id
-    WHERE b.book_id = $1 AND b.is_removed = FALSE
+    WHERE b.book_id = $1 AND b.is_removed = FALSE AND b.is_active <> 0
     `,
     [bookId],
   );

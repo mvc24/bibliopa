@@ -13,7 +13,7 @@ import sys
 
 from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent.parent))
-from database.load_topics import load_topics
+
 
 
 # revision identifiers, used by Alembic.
@@ -24,6 +24,8 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
+
+    from database.load_topics import load_topics # type: ignore
     topics_table = sa.table('topics',
         sa.column('topic_id', sa.Integer),
         sa.column('topic_name', sa.String)

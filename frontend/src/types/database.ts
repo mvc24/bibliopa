@@ -33,7 +33,6 @@ export interface Book {
   publication_year?: number | null;
   edition?: string | null;
   pages?: number | null;
-  isbn?: string | null;
   format_original?: string | null;
   format_expanded?: string | null;
   condition?: string | null;
@@ -49,6 +48,7 @@ export interface Book {
   created_at: Date;
   updated_at: Date;
   is_removed: boolean;
+  is_active: number;
 }
 
 export interface BookWithTopic extends Book {
@@ -66,7 +66,6 @@ export interface BookOverview extends BookWithTopic {
 export interface BookOverviewWithAdmin extends BookOverview {
   original_entry: string;
   verification_notes?: string | null;
-  topic_changed: boolean;
 }
 
 // export interface Book
@@ -79,6 +78,8 @@ export interface Person {
   family_name?: string | null;
   given_names?: string | null;
   name_particles?: string | null;
+  name_prefix?: string | null;
+  name_suffix?: string | null;
   single_name?: string | null;
   is_organisation: boolean;
   created_at: Date;
@@ -95,6 +96,8 @@ export interface Books2People {
   family_name?: string | null;
   given_names?: string | null;
   name_particles?: string | null;
+  name_prefix?: string | null;
+  name_suffix?: string | null;
   single_name?: string | null;
   sort_order?: number | null;
   is_organisation: boolean;
@@ -161,12 +164,12 @@ export interface BookAdmin {
   book_id: number;
   composite_id: string;
   original_entry: string;
-  parsing_confidence?: string | null;
-  needs_review: boolean;
   verification_notes?: string | null;
-  topic_changed: boolean;
-  price_changed: boolean;
-  batch_id?: string | null;
+  corrected_by_api: boolean;
+  missing_person: boolean;
+  multiple_editions: boolean;
+  api_concerned: boolean;
+  problematic_multi_volume: boolean;
   created_at: Date;
 }
 
@@ -206,7 +209,6 @@ export interface CreateBookInput {
   publication_year?: number;
   edition?: string;
   pages?: number;
-  isbn?: string;
   format_original?: string;
   format_expanded?: string;
   condition?: string;
@@ -233,6 +235,8 @@ export interface CreatePersonInput {
   family_name?: string;
   given_names?: string;
   name_particles?: string;
+  name_prefix?: string;
+  name_suffix?: string;
   single_name?: string;
   is_organisation?: boolean;
 }
@@ -310,10 +314,12 @@ export interface BookDetail extends Book {
 
   admin_data?: {
     original_entry: string;
-    // needs_review: boolean;
-    // parsing_confidence?: string | null;
     verification_notes?: string | null;
-    topic_changed: boolean;
+    corrected_by_api?: boolean | null;
+    missing_person?: boolean | null;
+    multiple_editions?: boolean | null;
+    api_concerned?: boolean | null;
+    problematic_multi_volume?: boolean | null;
   };
 }
 
@@ -328,7 +334,6 @@ export interface BookDisplayRow {
   publication_year?: number | null;
   edition?: string | null;
   pages?: number | null;
-  isbn?: string | null;
   format_original?: string | null;
   format_expanded?: string | null;
   condition?: string | null;
@@ -341,17 +346,18 @@ export interface BookDisplayRow {
   is_multivolume: boolean;
   series_title?: string | null;
   total_volumes?: number | null;
+  is_active: number;
   book_created_at: Date;
   book_updated_at: Date;
 
   // From book_admin table (ba.*)
   original_entry?: string | null;
-  parsing_confidence?: string | null;
-  needs_review?: boolean | null;
   verification_notes?: string | null;
-  topic_changed?: boolean | null;
-  price_changed?: boolean | null;
-  batch_id?: string | null;
+  corrected_by_api?: boolean | null;
+  missing_person?: boolean | null;
+  multiple_editions?: boolean | null;
+  api_concerned?: boolean | null;
+  problematic_multi_volume?: boolean | null;
   admin_created_at?: Date | null;
 
   // From topics table (t.*)
