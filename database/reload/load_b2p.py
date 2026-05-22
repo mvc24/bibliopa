@@ -7,7 +7,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from database.connection import get_db_connection
 
-b2p_file = Path("data_reload/b2p_loading_file.json")
+b2p_file = Path("data_reload/db_files/books2people.json")
 
 def load_b2p_to_db():
     with open(b2p_file, "r") as f:
@@ -19,12 +19,13 @@ def load_b2p_to_db():
         return
 
     insert_sql = """
-    INSERT INTO books2people (book_id, composite_id, person_id, unified_id, display_name, family_name, given_names, name_prefix, name_particles, name_suffix, single_name, sort_order, is_author, is_editor, is_contributor, is_translator)
-    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    INSERT INTO books2people (b2p_id, book_id, composite_id, person_id, unified_id, display_name, family_name, given_names, name_prefix, name_particles, name_suffix, single_name, sort_order, is_author, is_editor, is_contributor, is_translator)
+    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     ON CONFLICT DO NOTHING
     """
     rows = [
         (
+            entry.get("b2p_id"),
             entry.get("book_id"),
             entry.get("composite_id"),
             entry.get("person_id"),
@@ -47,7 +48,16 @@ def load_b2p_to_db():
         cur.executemany(insert_sql, rows)
         conn.commit()
 
-    print(f"Done: attempted {len(rows)} rows")
+    with conn.cursor() as cur:
+        cur.execute("""
+            SELECT setval(
+                pg_get_serial_sequence('books2people', 'b2p_id'),
+                (SELECT COALESCE(MAX(b2p_id), 1) FROM books2people)
+            )
+        """)
+        conn.commit()
+
+    print(f"Done: loaded {len(rows)} rows")
     conn.close()
 if __name__ == "__main__":
     load_b2p_to_db()

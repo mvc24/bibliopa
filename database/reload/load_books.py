@@ -7,7 +7,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from database.connection import get_db_connection
 
-books_file = Path("data_reload/books/books_data_file.json")
+books_file = Path("data_reload/db_files/books.json")
 
 def load_books_to_db():
     with open(books_file, "r") as f:
@@ -19,12 +19,13 @@ def load_books_to_db():
         return
 
     insert_sql = """
-    INSERT INTO books (composite_id, is_active, is_removed, title, subtitle, publisher, place_of_publication, publication_year, edition, pages, format_original, format_expanded, condition, copies, illustrations, packaging, topic_id, is_translation, original_language, is_multivolume, series_title, total_volumes)
-        VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+    INSERT INTO books (book_id, composite_id, is_active, is_removed, title, subtitle, publisher, place_of_publication, publication_year, edition, pages, format_original, format_expanded, condition, copies, illustrations, packaging, topic_id, is_translation, original_language, is_multivolume, series_title, total_volumes)
+        VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
         ON CONFLICT (composite_id) DO NOTHING
     """
     rows = [
         (
+            book.get("book_id"),
             book.get("composite_id"),
             book.get("is_active"),
             book.get("is_removed", False),
@@ -49,10 +50,10 @@ def load_books_to_db():
             book.get("total_volumes") or None)
         for book in books]
 
-    attempted_ids = [row[0] for row in rows]
+    attempted_composite_ids = [row[1] for row in rows]
 
     with conn.cursor() as cur:
-        cur.execute("SELECT composite_id FROM books WHERE composite_id = ANY(%s)", [attempted_ids])
+        cur.execute("SELECT composite_id FROM books WHERE composite_id = ANY(%s)", [attempted_composite_ids])
         existing = {row[0] for row in cur.fetchall()}
 
     if existing:
@@ -64,9 +65,18 @@ def load_books_to_db():
         cur.executemany(insert_sql, rows)
         conn.commit()
 
+    with conn.cursor() as cur:
+        cur.execute("""
+            SELECT setval(
+                pg_get_serial_sequence('books', 'book_id'),
+                (SELECT COALESCE(MAX(book_id), 1) FROM books)
+            )
+        """)
+        conn.commit()
+
     rprint(f"found conflicts: {len(existing)}")
 
-    print(f"Done: attempted {len(rows)} rows")
+    print(f"Done: loaded {len(rows)} rows")
     conn.close()
 
 if __name__ == "__main__":

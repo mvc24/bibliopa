@@ -7,9 +7,9 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from database.connection import get_db_connection
 
-admin_file = Path("data_reload/admin_data.json")
-prices_file = Path("data_reload/prices_data.json")
-volumes_file = Path("data_reload/volumes_data.json")
+admin_file = Path("data_reload/db_files/book_admin.json")
+prices_file = Path("data_reload/db_files/prices.json")
+volumes_file = Path("data_reload/db_files/books2volumes.json")
 
 
 def load_book_admin():
@@ -56,8 +56,17 @@ def load_book_admin():
         cur.executemany(insert_sql, rows)
         conn.commit()
 
+    with conn.cursor() as cur:
+        cur.execute("""
+            SELECT setval(
+                pg_get_serial_sequence('book_admin', 'book_id'),
+                (SELECT COALESCE(MAX(book_id), 1) FROM book_admin)
+            )
+        """)
+        conn.commit()
+
     rprint(f"found conflicts: {len(existing)}")
-    print(f"Done: attempted {len(rows)} rows")
+    print(f"Done: loaded {len(rows)} admin rows")
     conn.close()
 
 
@@ -71,11 +80,12 @@ def load_prices():
         return
 
     insert_sql = """
-    INSERT INTO prices (book_id, amount, imported_price)
-        VALUES (%s, %s, %s)
+    INSERT INTO prices (price_id, book_id, amount, imported_price)
+        VALUES (%s, %s, %s, %s)
     """
     rows = [
         (
+            entry.get("price_id"),
             entry.get("book_id"),
             entry.get("amount"),
             entry.get("imported_price"),
@@ -87,7 +97,16 @@ def load_prices():
         cur.executemany(insert_sql, rows)
         conn.commit()
 
-    print(f"Done: attempted {len(rows)} rows")
+    with conn.cursor() as cur:
+        cur.execute("""
+            SELECT setval(
+                pg_get_serial_sequence('prices', 'price_id'),
+                (SELECT COALESCE(MAX(price_id), 1) FROM prices)
+            )
+        """)
+        conn.commit()
+
+    print(f"Done: loaded {len(rows)} price rows")
     conn.close()
 
 
@@ -101,11 +120,12 @@ def load_volumes():
         return
 
     insert_sql = """
-    INSERT INTO books2volumes (book_id, volume_number, volume_title, pages, notes)
-        VALUES (%s, %s, %s, %s, %s)
+    INSERT INTO books2volumes (volume_id, book_id, volume_number, volume_title, pages, notes)
+        VALUES (%s, %s, %s, %s, %s, %s)
     """
     rows = [
         (
+            entry.get("volume_id"),
             entry.get("book_id"),
             entry.get("volume_number"),
             entry.get("volume_title"),
@@ -119,7 +139,15 @@ def load_volumes():
         cur.executemany(insert_sql, rows)
         conn.commit()
 
-    print(f"Done: attempted {len(rows)} rows")
+    with conn.cursor() as cur:
+        cur.execute("""
+            SELECT setval(
+                pg_get_serial_sequence('books2volumes', 'volume_id'),
+                (SELECT COALESCE(MAX(volume_id), 1) FROM books2volumes)
+            )
+        """)
+        conn.commit()
+    print(f"Done: loaded {len(rows)} volume rows")
     conn.close()
 
 
