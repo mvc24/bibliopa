@@ -48,10 +48,12 @@ def prep_related_tables():
 
         book_id = id_dict.get(composite_id)
         books2people = entry["books2people"]
-        books2volumes = entry["books2volumes"]
+        books2volumes = entry[0]["volumes_data"]["volumes"]
 
         entry["admin"][0]["book_id"] = book_id
-        entry["prices"][0]["book_id"] = book_id
+
+        price = entry[0]["price_data"]
+        price["book_id"] = book_id
 
         for person in books2people:
             person["book_id"] = book_id
@@ -60,7 +62,7 @@ def prep_related_tables():
             volume["book_id"] = book_id
 
         books_admin_data.append(entry["admin"][0])
-        prices_data.append(entry["prices"][0])
+        prices_data.append(price)
         books2volumes_data.extend(books2volumes)
         books2people_data.extend(books2people)
         count += 1
