@@ -3,3 +3,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 print(os.getenv("DATABASE_URL"))
+
+"""
+dev - patient-water
+prod - frosty-surf
+
+places to change things:
+.env
+
+
+"""
