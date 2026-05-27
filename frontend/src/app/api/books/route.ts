@@ -8,9 +8,11 @@ import {
   Topic,
 } from '@/types/database';
 import {
-  getBookCount,
   getBooksFilteredByAuthor,
   getBooksOverviewWithTopic,
+  getCountByAuthor,
+  getCountForActiveBooks,
+  getCountForTopic,
   getPeopleForBooks,
   getPricesForBooks,
   markBookAsRemoved,
@@ -45,17 +47,28 @@ export async function GET(request: Request) {
     const canView = await canViewPrices();
     const canModifyBooks = await canModify();
 
-    const totalCount = await getBookCount(topicNormalised, authorPersonId);
+    // const totalCount = await getBookCount(topicNormalised, authorPersonId);
 
-    let books: BookWithTopic[] = [];
+    // let books: BookWithTopic[] = [];
+    // if (authorPersonId) {
+    //   books = await getBooksFilteredByAuthor(page, limit, authorPersonId);
+    // } else if (topicNormalised && topicNormalised !== 'all') {
+    //   books = await getBooksOverviewWithTopic(page, limit, topicNormalised);
+    // } else {
+    //   // When topic is 'all', pass undefined to get all books
+    //   books = await getBooksOverviewWithTopic(page, limit, undefined);
+    // }
+    const books = await getBooksOverviewWithTopic(page, limit, topicNormalised);
+    let totalCount: number;
+
     if (authorPersonId) {
-      books = await getBooksFilteredByAuthor(page, limit, authorPersonId);
-    } else if (topicNormalised && topicNormalised !== 'all') {
-      books = await getBooksOverviewWithTopic(page, limit, topicNormalised);
+      totalCount = await getCountByAuthor(authorPersonId);
+    } else if (topicNormalised) {
+      totalCount = await getCountForTopic(topicNormalised);
     } else {
-      // When topic is 'all', pass undefined to get all books
-      books = await getBooksOverviewWithTopic(page, limit, undefined);
+      totalCount = await getCountForActiveBooks();
     }
+
     console.log(
       'Total count:',
       totalCount,
@@ -69,6 +82,7 @@ export async function GET(request: Request) {
     const people = await getPeopleForBooks(bookIds);
 
     const prices = await getPricesForBooks(bookIds);
+    // CLAUDE THINKS THIS CALL CAN BE REMOVED, but if I do, the topics below break. I'll get back to this
     const topics = await getAllTopics();
 
     const booksWithPeople = books.map((book) => ({

@@ -63,7 +63,9 @@ export async function getPeopleForBooks(bookIds: number[]) {
       p.unified_id,
       p.family_name,
       p.given_names,
+      p.name_prefix,
       p.name_particles,
+      p.name_suffix,
       p.single_name,
       p.is_organisation
     FROM books2people b2p
@@ -89,24 +91,66 @@ export async function getPricesForBooks(bookIds: number[]) {
   return result.rows;
 }
 
-export async function getBookCount(
-  topic_normalised?: string,
-  authorPersonId?: number,
-) {
+export async function getCountByAuthor(authorPersonId: number) {
   const result = await query<{ count: number }>(
     sql`
-    SELECT COUNT(DISTINCT b.book_id) as count
+    SELECT COUNT(*)
     FROM books b
-    LEFT JOIN topics t ON b.topic_id = t.topic_id
     LEFT JOIN books2people b2p ON b.book_id = b2p.book_id AND b2p.is_author = TRUE
     WHERE b.is_removed = FALSE AND b.is_active <> 0
-      AND ($1::text IS NULL OR t.topic_normalised = $1)
-      AND ($2::integer IS NULL OR b2p.person_id = $2)
+        AND b2p.person_id = $1
     `,
-    [topic_normalised, authorPersonId],
+    [authorPersonId],
   );
+
   return result.rows[0].count;
 }
+
+export async function getCountForTopic(topic_normalised: string) {
+  const result = await query<{ count: number }>(
+    sql`
+    SELECT COUNT(*)
+    FROM books b
+    LEFT JOIN topics t ON b.topic_id = t.topic_id
+    WHERE b.is_removed = FALSE AND b.is_active <> 0 AND t.topic_normalised = $1
+    `,
+    [topic_normalised],
+  );
+
+  return result.rows[0].count;
+}
+
+export async function getCountForActiveBooks() {
+  const result = await query<{ count: number }>(
+    sql`
+    SELECT COUNT(*)
+    FROM books b
+    WHERE b.is_removed = FALSE AND b.is_active <> 0
+    `,
+    [],
+  );
+
+  return result.rows[0].count;
+}
+
+// export async function getBookCount(
+//   topic_normalised?: string,
+//   authorPersonId?: number,
+// ) {
+//   const result = await query<{ count: number }>(
+//     sql`
+//     SELECT COUNT(DISTINCT b.book_id) as count
+//     FROM books b
+//     LEFT JOIN topics t ON b.topic_id = t.topic_id
+//     LEFT JOIN books2people b2p ON b.book_id = b2p.book_id AND b2p.is_author = TRUE
+//     WHERE b.is_removed = FALSE AND b.is_active <> 0
+//       AND ($1::text IS NULL OR t.topic_normalised = $1)
+//       AND ($2::integer IS NULL OR b2p.person_id = $2)
+//     `,
+//     [topic_normalised, authorPersonId],
+//   );
+//   return result.rows[0].count;
+// }
 
 export async function getAllAuthors() {
   const result = await query<AuthorListItem[]>(

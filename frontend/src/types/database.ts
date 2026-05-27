@@ -236,8 +236,8 @@ export interface UpdateBookInput extends Partial<CreateBookInput> {
 export interface CreatePersonInput {
   family_name?: string;
   given_names?: string;
-  name_particles?: string;
   name_prefix?: string;
+  name_particles?: string;
   name_suffix?: string;
   single_name?: string;
   is_organisation?: boolean;

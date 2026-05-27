@@ -54,8 +54,8 @@ export async function query<T extends QueryResultRow = QueryResultRow>(
     const result = await pool.query<T>(text, params);
     const duration = Date.now() - start;
 
-    // Log slow queries (over 100ms) in development
-    if (process.env.NODE_ENV === 'development' && duration > 100) {
+    // Log slow queries (over 1000ms) in development
+    if (process.env.NODE_ENV === 'development' && duration > 1000) {
       console.log('Slow query executed:', {
         text,
         duration: `${duration}ms`,
