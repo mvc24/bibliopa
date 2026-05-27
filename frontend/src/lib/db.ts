@@ -43,7 +43,7 @@ export function getPool(): Pool {
  * @param params - Array of values to substitute into placeholders
  * @returns Query result
  */
-export async function query<T extends QueryResultRow = any>(
+export async function query<T extends QueryResultRow = QueryResultRow>(
   text: string,
   params?: any[],
 ): Promise<QueryResult<T>> {

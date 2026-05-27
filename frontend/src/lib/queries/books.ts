@@ -115,7 +115,9 @@ export async function getAllAuthors() {
         p.person_id,
         p.family_name,
         p.given_names,
+        p.name_prefix,
         p.name_particles,
+        p.name_suffix,
         p.single_name,
         p.is_organisation,
         COALESCE(p.family_name, p.single_name) AS sort_name

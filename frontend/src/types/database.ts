@@ -95,8 +95,8 @@ export interface Books2People {
   display_name?: string | null;
   family_name?: string | null;
   given_names?: string | null;
-  name_particles?: string | null;
   name_prefix?: string | null;
+  name_particles?: string | null;
   name_suffix?: string | null;
   single_name?: string | null;
   sort_order?: number | null;
@@ -118,7 +118,9 @@ export interface AuthorListItem {
   person_id: number;
   family_name?: string | null;
   given_names?: string | null;
+  name_prefix?: string | null;
   name_particles?: string | null;
+  name_suffix?: string | null;
   single_name?: string | null;
   is_organisation: boolean;
 }
