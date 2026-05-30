@@ -288,7 +288,9 @@ export interface BookDetail extends Book {
     display_name?: string | null;
     family_name?: string | null;
     given_names?: string | null;
+    name_prefix?: string | null;
     name_particles?: string | null;
+    name_suffix?: string | null;
     single_name?: string | null;
     is_organisation?: boolean | null;
     is_author: boolean;
@@ -371,7 +373,9 @@ export interface BookDisplayRow {
     person_id: number;
     family_name?: string | null;
     given_names?: string | null;
+    name_prefix?: string | null;
     name_particles?: string | null;
+    name_suffix?: string | null;
     single_name?: string | null;
     display_name?: string | null;
     is_author: boolean;
@@ -385,7 +389,9 @@ export interface BookDisplayRow {
   unified_id?: string | null;
   family_name?: string | null;
   given_names?: string | null;
+  name_prefix?: string | null;
   name_particles?: string | null;
+  name_suffix?: string | null;
   single_name?: string | null;
   is_organisation?: boolean | null;
   person_created_at?: Date | null;

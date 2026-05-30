@@ -31,7 +31,12 @@ export function formatPerson(
   ) {
     return person.given_names.toUpperCase();
   }
-  const afterComma = [person.given_names, person.name_particles]
+  const afterComma = [
+    person.name_prefix,
+    person.given_names,
+    person.name_particles,
+    person.name_suffix,
+  ]
     .filter(Boolean)
     .join(' ');
 

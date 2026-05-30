@@ -9,6 +9,7 @@ import {
 } from '@/types/database';
 import {
   getBooksFilteredByAuthor,
+  getAllBooksPaginated,
   getBooksOverviewWithTopic,
   getCountByAuthor,
   getCountForActiveBooks,
@@ -58,8 +59,11 @@ export async function GET(request: Request) {
     //   // When topic is 'all', pass undefined to get all books
     //   books = await getBooksOverviewWithTopic(page, limit, undefined);
     // }
-    const books = await getBooksOverviewWithTopic(page, limit, topicNormalised);
     let totalCount: number;
+
+    const books = topicNormalised
+      ? await getBooksOverviewWithTopic(page, limit, topicNormalised)
+      : await getAllBooksPaginated(page, limit);
 
     if (authorPersonId) {
       totalCount = await getCountByAuthor(authorPersonId);
