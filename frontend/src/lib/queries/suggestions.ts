@@ -15,6 +15,21 @@ export async function findPublishers(search: string) {
   return result.rows;
 }
 
+export async function findLanguages() {
+  const result = await query<{ original_language: string; count: number }>(
+    sql`
+    SELECT original_language, COUNT(*) AS count
+    FROM books
+    WHERE original_language IS NOT NULL
+    GROUP BY original_language
+    ORDER BY count DESC
+    LIMIT 100
+    `,
+    [],
+  );
+  return result.rows;
+}
+
 export async function findPlaces(publisher: string) {
   const result = await query<{ place_of_publication: string; count: number }>(
     sql`
