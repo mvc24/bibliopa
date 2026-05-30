@@ -46,7 +46,7 @@ export function AuthorFilter() {
         if (searchLower.length < 3) return [];
         return (options as AuthorComboboxItem[]).filter((option) => {
           const searchField = option.searchField.toLowerCase();
-          return searchField.includes(searchLower);
+          return searchField.startsWith(searchLower);
         });
       }}
       onChange={(value) => {

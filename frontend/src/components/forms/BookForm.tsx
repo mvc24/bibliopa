@@ -6,6 +6,8 @@ import {
   NumberInput,
   Checkbox,
   Select,
+  MultiSelect,
+  Autocomplete,
   Chip,
   Group,
   Stack,
@@ -13,8 +15,33 @@ import {
   Text,
   Divider,
 } from '@mantine/core';
-import { BookDetail, Topic, CreateBookInput } from '@/types/database';
+import {
+  BookDetail,
+  Topic,
+  CreateBookInput,
+  AuthorListItem,
+} from '@/types/database';
 import { FORMAT_BASE, FORMAT_EXTRAS } from '@/components/constants';
+import { startsWithFilter } from '@/lib/selectFilters';
+import { formatPerson } from '@/lib/formatters';
+
+// Flip this between 'A' and 'B' to show Opa each layout.
+// (A one-line switch instead of commenting blocks out — keeps both
+//  sets of fields wired so there are no "unused variable" warnings.)
+const PERSON_VARIANT: 'A' | 'B' = 'A';
+
+const ROLES = [
+  { value: 'author', label: 'Verfasser:in' },
+  { value: 'editor', label: 'Herausgeber:in' },
+  { value: 'contributor', label: 'Mitwirkende:r' },
+  { value: 'translator', label: 'Übersetzer:in' },
+];
+
+interface PersonRow {
+  personId: string | null;
+  roles: string[];
+  displayName: string;
+}
 
 interface BookFormProps {
   book?: BookDetail;
@@ -30,24 +57,6 @@ function parseFormatOriginal(formatOriginal: string | null | undefined) {
   ).map((e) => e.abbrev);
   return { base: base?.abbrev ?? null, extras };
 }
-
-const LANGUAGES = [
-  'Deutsch',
-  'Englisch',
-  'Französisch',
-  'Italienisch',
-  'Spanisch',
-  'Russisch',
-  'Latein',
-  'Griechisch',
-  'Niederländisch',
-  'Polnisch',
-  'Tschechisch',
-  'Schwedisch',
-  'Dänisch',
-  'Norwegisch',
-  'Ungarisch',
-];
 
 export function BookForm({ book, onCancel, onSave }: BookFormProps) {
   const parsed = parseFormatOriginal(book?.format_original);
@@ -80,6 +89,33 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
   );
   const [topics, setTopics] = useState<Topic[]>([]);
 
+  const [publisherOptions, setPublisherOptions] = useState<string[]>([]);
+  const [placeOptions, setPlaceOptions] = useState<string[]>([]);
+  const [languageOptions, setLanguageOptions] = useState<string[]>([]);
+
+  const [people, setPeople] = useState<AuthorListItem[]>([]);
+
+  // Variant A — person first, role beside it
+  const [personRows, setPersonRows] = useState<PersonRow[]>([
+    { personId: null, roles: [], displayName: '' },
+  ]);
+
+  // Variant B — one field per role
+  const [authorIds, setAuthorIds] = useState<string[]>([]);
+  const [editorIds, setEditorIds] = useState<string[]>([]);
+  const [contributorIds, setContributorIds] = useState<string[]>([]);
+  const [translatorId, setTranslatorId] = useState<string | null>(null);
+
+  // "neue Person anlegen" — shared by both variants
+  const [showNewPerson, setShowNewPerson] = useState(false);
+  const [newIsOrg, setNewIsOrg] = useState(false);
+  const [newGivenNames, setNewGivenNames] = useState('');
+  const [newFamilyName, setNewFamilyName] = useState('');
+  const [newSingleName, setNewSingleName] = useState('');
+  const [newParticles, setNewParticles] = useState('');
+  const [newPrefix, setNewPrefix] = useState('');
+  const [newSuffix, setNewSuffix] = useState('');
+
   useEffect(() => {
     fetch('/api/topics')
       .then((r) => r.json())
@@ -87,6 +123,62 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         if (result.data) setTopics(result.data);
       });
   }, []);
+
+  // language list: loaded once
+  useEffect(() => {
+    fetch('/api/suggestions?field=language')
+      .then((r) => r.json())
+      .then((result) => setLanguageOptions(result.data ?? []));
+  }, []);
+
+  // people list: loaded once, used by both person variants
+  useEffect(() => {
+    fetch('/api/people')
+      .then((r) => r.json())
+      .then((result) => setPeople(result.data ?? []));
+  }, []);
+
+  // publisher suggestions: refetch as he types
+  useEffect(() => {
+    if (publisher.trim().length < 2) {
+      setPublisherOptions([]);
+      return;
+    }
+    fetch(`/api/suggestions?field=publisher&q=${encodeURIComponent(publisher)}`)
+      .then((r) => r.json())
+      .then((result) => setPublisherOptions(result.data ?? []));
+  }, [publisher]);
+
+  // place suggestions: based on the chosen publisher
+  useEffect(() => {
+    if (!publisher) {
+      setPlaceOptions([]);
+      return;
+    }
+    fetch(
+      `/api/suggestions?field=place&publisher=${encodeURIComponent(publisher)}`,
+    )
+      .then((r) => r.json())
+      .then((result) => setPlaceOptions(result.data ?? []));
+  }, [publisher]);
+
+  const peopleData = people.map((p) => ({
+    value: p.person_id.toString(),
+    label: formatPerson(p),
+  }));
+
+  function updateRow(index: number, patch: Partial<PersonRow>) {
+    setPersonRows((rows) =>
+      rows.map((row, i) => (i === index ? { ...row, ...patch } : row)),
+    );
+  }
+
+  function addRow() {
+    setPersonRows((rows) => [
+      ...rows,
+      { personId: null, roles: [], displayName: '' },
+    ]);
+  }
 
   function assembleFormat() {
     const base = FORMAT_BASE.find((f) => f.abbrev === formatBase);
@@ -131,6 +223,18 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
 
   return (
     <Stack gap="md">
+      <Select
+        label="Thema"
+        data={topics.map((t) => ({
+          value: t.topic_id.toString(),
+          label: t.topic_name,
+        }))}
+        value={topicId}
+        onChange={setTopicId}
+        searchable
+        required
+        filter={startsWithFilter}
+      />
       <TextInput
         label="Titel"
         value={title}
@@ -150,25 +254,25 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         max={2100}
         hideControls
       />
-      <Select
-        label="Thema"
-        data={topics.map((t) => ({
-          value: t.topic_id.toString(),
-          label: t.topic_name,
-        }))}
-        value={topicId}
-        onChange={setTopicId}
-      />
-      <TextInput
-        label="Verlag"
-        value={publisher}
-        onChange={(e) => setPublisher(e.currentTarget.value)}
-      />
-      <TextInput
-        label="Erscheinungsort"
-        value={placeOfPublication}
-        onChange={(e) => setPlaceOfPublication(e.currentTarget.value)}
-      />
+      <Group
+        grow
+        align="flex-start"
+      >
+        <Autocomplete
+          label="Verlag"
+          value={publisher}
+          onChange={setPublisher}
+          data={publisherOptions}
+          filter={startsWithFilter}
+        />
+        <Autocomplete
+          label="Erscheinungsort"
+          value={placeOfPublication}
+          onChange={setPlaceOfPublication}
+          data={placeOptions}
+          filter={startsWithFilter}
+        />
+      </Group>
 
       <div>
         <Text
@@ -229,12 +333,12 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         onChange={(e) => setIsTranslation(e.currentTarget.checked)}
       />
       {isTranslation && (
-        <Select
+        <Autocomplete
           label="Originalsprache"
-          data={LANGUAGES}
-          value={originalLanguage}
+          data={languageOptions}
+          value={originalLanguage ?? ''}
           onChange={setOriginalLanguage}
-          searchable
+          filter={startsWithFilter}
         />
       )}
 
@@ -244,13 +348,152 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         onChange={(e) => setIsMultivolume(e.currentTarget.checked)}
       />
 
-      <Divider />
-      <Text
-        c="dimmed"
-        size="sm"
-      >
-        Beteiligte Personen – folgt noch
-      </Text>
+      <Divider
+        label="Beteiligte Personen"
+        labelPosition="left"
+      />
+
+      {/* VARIANT A — Person zuerst, Rolle daneben */}
+      {PERSON_VARIANT === 'A' && (
+        <Stack gap="sm">
+          {personRows.map((row, index) => (
+            <Group
+              key={index}
+              grow
+              align="flex-start"
+            >
+              <Select
+                label={index === 0 ? 'Person' : undefined}
+                placeholder="Person suchen"
+                data={peopleData}
+                value={row.personId}
+                onChange={(value) => updateRow(index, { personId: value })}
+                searchable
+                filter={startsWithFilter}
+              />
+              <MultiSelect
+                label={index === 0 ? 'Rolle' : undefined}
+                placeholder="Rolle wählen"
+                data={ROLES}
+                value={row.roles}
+                onChange={(value) => updateRow(index, { roles: value })}
+              />
+              <TextInput
+                label={index === 0 ? 'Abweichende Schreibweise' : undefined}
+                placeholder="wie im Buch gedruckt"
+                value={row.displayName}
+                onChange={(e) =>
+                  updateRow(index, { displayName: e.currentTarget.value })
+                }
+              />
+            </Group>
+          ))}
+          <Button
+            variant="light"
+            onClick={addRow}
+            style={{ alignSelf: 'flex-start' }}
+          >
+            + weitere Person
+          </Button>
+        </Stack>
+      )}
+
+      {/* VARIANT B — Rolle zuerst, Personen pro Rolle */}
+      {PERSON_VARIANT === 'B' && (
+        <Stack gap="sm">
+          <MultiSelect
+            label="Verfasser:in"
+            placeholder="Personen suchen"
+            data={peopleData}
+            value={authorIds}
+            onChange={setAuthorIds}
+            searchable
+            filter={startsWithFilter}
+          />
+          <MultiSelect
+            label="Herausgeber:in"
+            placeholder="Personen suchen"
+            data={peopleData}
+            value={editorIds}
+            onChange={setEditorIds}
+            searchable
+            filter={startsWithFilter}
+          />
+          <MultiSelect
+            label="Mitwirkende:r"
+            placeholder="Personen suchen"
+            data={peopleData}
+            value={contributorIds}
+            onChange={setContributorIds}
+            searchable
+            filter={startsWithFilter}
+          />
+          <Select
+            label="Übersetzer:in"
+            placeholder="Person suchen"
+            data={peopleData}
+            value={translatorId}
+            onChange={setTranslatorId}
+            searchable
+            clearable
+            filter={startsWithFilter}
+          />
+        </Stack>
+      )}
+
+      <Checkbox
+        label="Person nicht gefunden? Neue Person anlegen"
+        checked={showNewPerson}
+        onChange={(e) => setShowNewPerson(e.currentTarget.checked)}
+      />
+      {showNewPerson && (
+        <Stack gap="sm">
+          <Checkbox
+            label="Organisation (kein Personenname)"
+            checked={newIsOrg}
+            onChange={(e) => setNewIsOrg(e.currentTarget.checked)}
+          />
+          {newIsOrg ? (
+            <TextInput
+              label="Name"
+              value={newSingleName}
+              onChange={(e) => setNewSingleName(e.currentTarget.value)}
+            />
+          ) : (
+            <>
+              <Group grow>
+                <TextInput
+                  label="Vorname(n)"
+                  value={newGivenNames}
+                  onChange={(e) => setNewGivenNames(e.currentTarget.value)}
+                />
+                <TextInput
+                  label="Nachname"
+                  value={newFamilyName}
+                  onChange={(e) => setNewFamilyName(e.currentTarget.value)}
+                />
+              </Group>
+              <Group grow>
+                <TextInput
+                  label="Namenszusatz (von, de …)"
+                  value={newParticles}
+                  onChange={(e) => setNewParticles(e.currentTarget.value)}
+                />
+                <TextInput
+                  label="Präfix (Dr., Prof. …)"
+                  value={newPrefix}
+                  onChange={(e) => setNewPrefix(e.currentTarget.value)}
+                />
+                <TextInput
+                  label="Suffix (Jr., d. Ä. …)"
+                  value={newSuffix}
+                  onChange={(e) => setNewSuffix(e.currentTarget.value)}
+                />
+              </Group>
+            </>
+          )}
+        </Stack>
+      )}
 
       <Group>
         <Button onClick={handleSubmit}>Speichern</Button>

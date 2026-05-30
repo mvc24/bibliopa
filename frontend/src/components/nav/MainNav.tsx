@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Group, Anchor, Menu, Avatar } from '@mantine/core';
 import { useSession, signOut } from 'next-auth/react';
+import { UserRole } from '@/types/database';
 
 const links = [
   { href: '/books', label: 'Bibliographie' },
@@ -14,6 +15,8 @@ const links = [
 export function MainNav() {
   const pathname = usePathname();
   const { data: session, status } = useSession();
+  const role = (session?.user as { role?: UserRole })?.role;
+  const canAddBooks = role === 'admin' || role === 'family';
 
   const getInitial = () => {
     if (session?.user?.name) {
@@ -47,6 +50,15 @@ export function MainNav() {
           </Anchor>
         );
       })}
+      {canAddBooks && (
+        <Anchor
+          component={Link}
+          href="/books/new"
+          underline={pathname === '/books/new' ? 'always' : 'hover'}
+        >
+          Neues Buch
+        </Anchor>
+      )}
       {status === 'authenticated' ? (
         <Menu>
           <Menu.Target>

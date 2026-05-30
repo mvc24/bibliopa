@@ -18,6 +18,7 @@ import Link from 'next/link';
 import { formatPerson } from '@/lib/formatters';
 
 import { ConditionalTableFields } from '@/components/elements/ConditionalTableFields';
+import { BookForm } from '@/components/forms/BookForm';
 
 export default function SingleBookPage() {
   const params = useParams();
@@ -31,6 +32,7 @@ export default function SingleBookPage() {
   const [showPrices, setShowPrices] = useState(false);
   const [priceAmount, setPriceAmount] = useState<number | string>('');
   const [priceSource, setPriceSource] = useState('');
+  const [isEditing, setIsEditing] = useState(false);
 
   useEffect(() => {
     if (bookId) {
@@ -156,46 +158,56 @@ export default function SingleBookPage() {
         {/* <Title order={3}>{book?.title}</Title>
         <Text c="grape">Diese Seite ist noch nicht fertig.</Text>
         <Text size="md">{book?.admin_data?.original_entry}</Text> */}
-        <Grid>
-          <Grid.Col span={9}>
-            <Table
-              withRowBorders={false}
-              variant={'vertical'}
-              // layout={'fixed'}
-            >
-              <Table.Tbody>
-                <ConditionalTableFields
-                  label="Titel"
-                  value={
-                    book?.title && book?.subtitle
-                      ? `${book.title} : ${book.subtitle}`
-                      : book?.title
-                  }
-                />
-                <ConditionalTableFields
-                  label="Verfasser:in"
-                  value={authors}
-                />
+        {isEditing && book ? (
+          <BookForm
+            book={book}
+            onCancel={() => setIsEditing(false)}
+            onSave={(data) => {
+              console.log('Speichern:', data);
+              setIsEditing(false);
+            }}
+          />
+        ) : (
+          <Grid>
+            <Grid.Col span={9}>
+              <Table
+                withRowBorders={false}
+                variant={'vertical'}
+                // layout={'fixed'}
+              >
+                <Table.Tbody>
+                  <ConditionalTableFields
+                    label="Titel"
+                    value={
+                      book?.title && book?.subtitle
+                        ? `${book.title} : ${book.subtitle}`
+                        : book?.title
+                    }
+                  />
+                  <ConditionalTableFields
+                    label="Verfasser:in"
+                    value={authors}
+                  />
 
-                <ConditionalTableFields
-                  label="Ausgabe"
-                  value={book?.edition}
-                />
+                  <ConditionalTableFields
+                    label="Ausgabe"
+                    value={book?.edition}
+                  />
 
-                <ConditionalTableFields
-                  label="Erscheinungsjahr"
-                  value={book?.publication_year}
-                />
+                  <ConditionalTableFields
+                    label="Erscheinungsjahr"
+                    value={book?.publication_year}
+                  />
 
-                <ConditionalTableFields
-                  label="Ort/Verlag"
-                  value={
-                    book?.place_of_publication && book?.publisher
-                      ? `${book.place_of_publication} : ${book.publisher}`
-                      : book?.place_of_publication || book?.publisher
-                  }
-                />
-                {/* <ConditionalTableFields
+                  <ConditionalTableFields
+                    label="Ort/Verlag"
+                    value={
+                      book?.place_of_publication && book?.publisher
+                        ? `${book.place_of_publication} : ${book.publisher}`
+                        : book?.place_of_publication || book?.publisher
+                    }
+                  />
+                  {/* <ConditionalTableFields
                   label="Umfang/Format"
                   value={
                     pages && book?.format_original
@@ -204,49 +216,49 @@ export default function SingleBookPage() {
                   }
                 /> */}
 
-                <ConditionalTableFields
-                  label="Seitenanzahl"
-                  value={pages}
-                />
+                  <ConditionalTableFields
+                    label="Seitenanzahl"
+                    value={pages}
+                  />
 
-                <ConditionalTableFields
-                  label="Format"
-                  value={format}
-                />
+                  <ConditionalTableFields
+                    label="Format"
+                    value={format}
+                  />
 
-                <ConditionalTableFields
-                  label="Zustand"
-                  value={book?.condition}
-                />
-                <ConditionalTableFields
-                  label="Illustrationen"
-                  value={book?.illustrations}
-                />
+                  <ConditionalTableFields
+                    label="Zustand"
+                    value={book?.condition}
+                  />
+                  <ConditionalTableFields
+                    label="Illustrationen"
+                    value={book?.illustrations}
+                  />
 
-                <ConditionalTableFields
-                  label="Originalsprache"
-                  value={book?.original_language}
-                />
+                  <ConditionalTableFields
+                    label="Originalsprache"
+                    value={book?.original_language}
+                  />
 
-                <ConditionalTableFields
-                  label="Beteiligte"
-                  value={peopleWithRoles}
-                />
+                  <ConditionalTableFields
+                    label="Beteiligte"
+                    value={peopleWithRoles}
+                  />
 
-                <ConditionalTableFields
-                  label="Mehrbändiges Werk"
-                  value={showMultivolume}
-                />
-                <ConditionalTableFields
-                  label="Reihentitel"
-                  value={seriesTitle}
-                />
-                <ConditionalTableFields
-                  label="Anzahl Bände"
-                  value={volumeCount}
-                />
+                  <ConditionalTableFields
+                    label="Mehrbändiges Werk"
+                    value={showMultivolume}
+                  />
+                  <ConditionalTableFields
+                    label="Reihentitel"
+                    value={seriesTitle}
+                  />
+                  <ConditionalTableFields
+                    label="Anzahl Bände"
+                    value={volumeCount}
+                  />
 
-                {/* <ConditionalTableFields
+                  {/* <ConditionalTableFields
                   label="Titel"
                   value={book?.title}
                 />
@@ -255,82 +267,85 @@ export default function SingleBookPage() {
                   value={book?.admin_data?.original_entry}
                 />
                 */}
-                {showPrices && (
-                  <Table.Tr>
+                  {showPrices && (
+                    <Table.Tr>
+                      <Table.Th
+                        fw={700}
+                        w={120}
+                        style={{
+                          verticalAlign: 'top',
+                          lineBreak: 'strict',
+                          background: 'none',
+                        }}
+                        fz="lg"
+                      >
+                        Preise
+                      </Table.Th>
+                      <Table.Td
+                        fz="lg"
+                        style={{ whiteSpace: 'pre-line' }}
+                      >
+                        <Box>
+                          {book?.prices &&
+                          book.prices.filter((p) => p.amount).length > 0 ? (
+                            <Stack gap="xs">
+                              {book.prices
+                                .filter((p) => p.amount)
+                                .map((price) => (
+                                  <Text key={price.price_id}>
+                                    € {price.amount}
+                                    {price.source && ` - ${price.source}`}
+                                    {' - '}
+                                    {new Date(
+                                      price.date_added,
+                                    ).toLocaleDateString('de-DE')}
+                                  </Text>
+                                ))}
+                            </Stack>
+                          ) : (
+                            <Text size={'md'}>Keine Preise vorhanden</Text>
+                          )}
+                        </Box>
+                      </Table.Td>
+                    </Table.Tr>
+                  )}
+
+                  <Table.Tr style={{ paddingTop: '100px' }}>
                     <Table.Th
                       fw={700}
                       w={120}
                       style={{
                         verticalAlign: 'top',
                         lineBreak: 'strict',
-                        background: 'none',
                       }}
-                      fz="lg"
+                      fz="sm"
                     >
-                      Preise
+                      Datensatz Original
                     </Table.Th>
                     <Table.Td
-                      fz="lg"
+                      fz="sm"
                       style={{ whiteSpace: 'pre-line' }}
                     >
-                      <Box>
-                        {book?.prices &&
-                        book.prices.filter((p) => p.amount).length > 0 ? (
-                          <Stack gap="xs">
-                            {book.prices
-                              .filter((p) => p.amount)
-                              .map((price) => (
-                                <Text key={price.price_id}>
-                                  € {price.amount}
-                                  {price.source && ` - ${price.source}`}
-                                  {' - '}
-                                  {new Date(
-                                    price.date_added,
-                                  ).toLocaleDateString('de-DE')}
-                                </Text>
-                              ))}
-                          </Stack>
-                        ) : (
-                          <Text size={'md'}>Keine Preise vorhanden</Text>
-                        )}
-                      </Box>
+                      {book?.admin_data?.original_entry}
                     </Table.Td>
                   </Table.Tr>
-                )}
-
-                <Table.Tr style={{ paddingTop: '100px' }}>
-                  <Table.Th
-                    fw={700}
-                    w={120}
-                    style={{
-                      verticalAlign: 'top',
-                      lineBreak: 'strict',
-                    }}
-                    fz="sm"
-                  >
-                    Datensatz Original
-                  </Table.Th>
-                  <Table.Td
-                    fz="sm"
-                    style={{ whiteSpace: 'pre-line' }}
-                  >
-                    {book?.admin_data?.original_entry}
-                  </Table.Td>
-                </Table.Tr>
-              </Table.Tbody>
-            </Table>
-          </Grid.Col>
-
-          {canModifyBooks && (
-            <Grid.Col span={3}>
-              <Stack gap="md">
-                <Button>Preis hinzufügen</Button>
-                <Button>Daten bearbeiten</Button>
-                <Button>Abschreiben</Button>
-              </Stack>
+                </Table.Tbody>
+              </Table>
             </Grid.Col>
-          )}
-        </Grid>
+
+            {canModifyBooks && (
+              <Grid.Col span={3}>
+                <Stack gap="md">
+                  <Button>Preis hinzufügen</Button>
+                  <Button onClick={() => setIsEditing(true)}>
+                    Daten bearbeiten
+                  </Button>
+                  <Button>Abschreiben</Button>
+                </Stack>
+              </Grid.Col>
+            )}
+          </Grid>
+        )}
 
         {/* <Card
           shadow="sm"
