@@ -27,7 +27,7 @@ import { formatPerson } from '@/lib/formatters';
 // Flip this between 'A' and 'B' to show Opa each layout.
 // (A one-line switch instead of commenting blocks out — keeps both
 //  sets of fields wired so there are no "unused variable" warnings.)
-const PERSON_VARIANT: 'A' | 'B' = 'B';
+const PERSON_VARIANT: 'A' | 'B' = 'A';
 
 const ROLES = [
   { value: 'author', label: 'Verfasser:in' },
@@ -301,6 +301,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         required
         filter={startsWithFilter}
       />
+      <Divider labelPosition="left" />
       <TextInput
         label="Titel"
         value={title}
@@ -319,6 +320,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         min={1000}
         max={2100}
         hideControls
+        w={100}
       />
       <Group
         grow
@@ -428,15 +430,25 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
               grow
               align="flex-start"
             >
-              <Select
-                label={index === 0 ? 'Person' : undefined}
-                placeholder="Person suchen"
-                data={peopleData}
-                value={row.personId}
-                onChange={(value) => updateRow(index, { personId: value })}
-                searchable
-                filter={startsWithFilter}
-              />
+              <Stack gap="xs">
+                <Select
+                  label={index === 0 ? 'Person' : undefined}
+                  placeholder="Person suchen"
+                  data={peopleData}
+                  value={row.personId}
+                  onChange={(value) => updateRow(index, { personId: value })}
+                  searchable
+                  filter={startsWithFilter}
+                />
+                <TextInput
+                  label={index === 0 ? 'Abweichende Schreibweise' : undefined}
+                  placeholder="wie im Buch gedruckt"
+                  value={row.displayName}
+                  onChange={(e) =>
+                    updateRow(index, { displayName: e.currentTarget.value })
+                  }
+                />
+              </Stack>
               <div>
                 {index === 0 && (
                   <Text
@@ -452,7 +464,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
                   value={row.roles}
                   onChange={(value) => updateRow(index, { roles: value })}
                 >
-                  <Group gap="xs">
+                  <Stack gap="xs">
                     {ROLES.map((r) => (
                       <Chip
                         key={r.value}
@@ -462,17 +474,9 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
                         {r.label}
                       </Chip>
                     ))}
-                  </Group>
+                  </Stack>
                 </Chip.Group>
               </div>
-              <TextInput
-                label={index === 0 ? 'Abweichende Schreibweise' : undefined}
-                placeholder="wie im Buch gedruckt"
-                value={row.displayName}
-                onChange={(e) =>
-                  updateRow(index, { displayName: e.currentTarget.value })
-                }
-              />
             </Group>
           ))}
           <Button

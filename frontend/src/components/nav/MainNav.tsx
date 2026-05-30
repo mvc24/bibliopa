@@ -36,6 +36,15 @@ export function MainNav() {
       gap="md"
       role="navigation"
     >
+      {canAddBooks && (
+        <Anchor
+          component={Link}
+          href="/books/new"
+          underline={pathname === '/books/new' ? 'always' : 'hover'}
+        >
+          Katalogisieren
+        </Anchor>
+      )}
       {links.map((link) => {
         const active = pathname === link.href;
         return (
@@ -50,15 +59,6 @@ export function MainNav() {
           </Anchor>
         );
       })}
-      {canAddBooks && (
-        <Anchor
-          component={Link}
-          href="/books/new"
-          underline={pathname === '/books/new' ? 'always' : 'hover'}
-        >
-          Neues Buch
-        </Anchor>
-      )}
       {status === 'authenticated' ? (
         <Menu>
           <Menu.Target>
