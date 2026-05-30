@@ -6,7 +6,6 @@ import {
   NumberInput,
   Checkbox,
   Select,
-  MultiSelect,
   Autocomplete,
   Chip,
   Group,
@@ -41,6 +40,62 @@ interface PersonRow {
   personId: string | null;
   roles: string[];
   displayName: string;
+}
+
+// Variant B helper: one role field, each pick is its own single Select,
+// with an always-empty Select at the bottom to add another person.
+function PersonRolePicker({
+  label,
+  data,
+  selected,
+  onChange,
+}: {
+  label: string;
+  data: { value: string; label: string }[];
+  selected: string[];
+  onChange: (ids: string[]) => void;
+}) {
+  function setAt(index: number, value: string | null) {
+    const next = [...selected];
+    if (value) {
+      next[index] = value;
+    } else {
+      next.splice(index, 1); // cleared → drop this slot
+    }
+    onChange(next);
+  }
+
+  return (
+    <Stack gap="xs">
+      <Text
+        fw={500}
+        size="sm"
+      >
+        {label}
+      </Text>
+      {selected.map((id, index) => (
+        <Select
+          key={index}
+          placeholder="Person suchen"
+          data={data}
+          value={id}
+          onChange={(value) => setAt(index, value)}
+          searchable
+          clearable
+          filter={startsWithFilter}
+        />
+      ))}
+      <Select
+        key={`add-${selected.length}`}
+        placeholder="Person hinzufügen"
+        data={data}
+        value={null}
+        onChange={(value) => value && onChange([...selected, value])}
+        searchable
+        filter={startsWithFilter}
+      />
+    </Stack>
+  );
 }
 
 interface BookFormProps {
@@ -104,7 +159,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
   const [authorIds, setAuthorIds] = useState<string[]>([]);
   const [editorIds, setEditorIds] = useState<string[]>([]);
   const [contributorIds, setContributorIds] = useState<string[]>([]);
-  const [translatorId, setTranslatorId] = useState<string | null>(null);
+  const [translatorIds, setTranslatorIds] = useState<string[]>([]);
 
   // "neue Person anlegen" — shared by both variants
   const [showNewPerson, setShowNewPerson] = useState(false);
@@ -371,13 +426,34 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
                 searchable
                 filter={startsWithFilter}
               />
-              <MultiSelect
-                label={index === 0 ? 'Rolle' : undefined}
-                placeholder="Rolle wählen"
-                data={ROLES}
-                value={row.roles}
-                onChange={(value) => updateRow(index, { roles: value })}
-              />
+              <div>
+                {index === 0 && (
+                  <Text
+                    fw={500}
+                    size="sm"
+                    mb={4}
+                  >
+                    Rolle
+                  </Text>
+                )}
+                <Chip.Group
+                  multiple
+                  value={row.roles}
+                  onChange={(value) => updateRow(index, { roles: value })}
+                >
+                  <Group gap="xs">
+                    {ROLES.map((r) => (
+                      <Chip
+                        key={r.value}
+                        value={r.value}
+                        size="sm"
+                      >
+                        {r.label}
+                      </Chip>
+                    ))}
+                  </Group>
+                </Chip.Group>
+              </div>
               <TextInput
                 label={index === 0 ? 'Abweichende Schreibweise' : undefined}
                 placeholder="wie im Buch gedruckt"
@@ -400,43 +476,30 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
 
       {/* VARIANT B — Rolle zuerst, Personen pro Rolle */}
       {PERSON_VARIANT === 'B' && (
-        <Stack gap="sm">
-          <MultiSelect
+        <Stack gap="md">
+          <PersonRolePicker
             label="Verfasser:in"
-            placeholder="Personen suchen"
             data={peopleData}
-            value={authorIds}
+            selected={authorIds}
             onChange={setAuthorIds}
-            searchable
-            filter={startsWithFilter}
           />
-          <MultiSelect
+          <PersonRolePicker
             label="Herausgeber:in"
-            placeholder="Personen suchen"
             data={peopleData}
-            value={editorIds}
+            selected={editorIds}
             onChange={setEditorIds}
-            searchable
-            filter={startsWithFilter}
           />
-          <MultiSelect
+          <PersonRolePicker
             label="Mitwirkende:r"
-            placeholder="Personen suchen"
             data={peopleData}
-            value={contributorIds}
+            selected={contributorIds}
             onChange={setContributorIds}
-            searchable
-            filter={startsWithFilter}
           />
-          <Select
+          <PersonRolePicker
             label="Übersetzer:in"
-            placeholder="Person suchen"
             data={peopleData}
-            value={translatorId}
-            onChange={setTranslatorId}
-            searchable
-            clearable
-            filter={startsWithFilter}
+            selected={translatorIds}
+            onChange={setTranslatorIds}
           />
         </Stack>
       )}
@@ -449,13 +512,13 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
       {showNewPerson && (
         <Stack gap="sm">
           <Checkbox
-            label="Organisation (kein Personenname)"
+            label="Organisation (keine Einzelperson)"
             checked={newIsOrg}
             onChange={(e) => setNewIsOrg(e.currentTarget.checked)}
           />
           {newIsOrg ? (
             <TextInput
-              label="Name"
+              label="Bezeichnung"
               value={newSingleName}
               onChange={(e) => setNewSingleName(e.currentTarget.value)}
             />
@@ -490,6 +553,11 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
                   onChange={(e) => setNewSuffix(e.currentTarget.value)}
                 />
               </Group>
+              <TextInput
+                label="Einzelname (Platon, Sokrates, …)"
+                value={newSingleName}
+                onChange={(e) => setNewSingleName(e.currentTarget.value)}
+              />
             </>
           )}
         </Stack>
