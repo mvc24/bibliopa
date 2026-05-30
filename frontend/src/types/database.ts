@@ -227,6 +227,14 @@ export interface CreateBookInput {
   editors?: CreatePersonInput[];
   contributors?: CreatePersonInput[];
   translator?: CreatePersonInput;
+  // Existing people picked by id, with their role(s) for this book.
+  people?: BookPersonInput[];
+}
+
+export interface BookPersonInput {
+  person_id: number;
+  roles: string[];
+  display_name?: string;
 }
 
 export interface UpdateBookInput extends Partial<CreateBookInput> {

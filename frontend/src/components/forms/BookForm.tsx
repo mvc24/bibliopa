@@ -27,7 +27,7 @@ import { formatPerson } from '@/lib/formatters';
 // Flip this between 'A' and 'B' to show Opa each layout.
 // (A one-line switch instead of commenting blocks out — keeps both
 //  sets of fields wired so there are no "unused variable" warnings.)
-const PERSON_VARIANT: 'A' | 'B' = 'A';
+const PERSON_VARIANT: 'A' | 'B' = 'B';
 
 const ROLES = [
   { value: 'author', label: 'Verfasser:in' },
@@ -257,6 +257,16 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
   function handleSubmit() {
     const { format_original, format_expanded } = assembleFormat();
 
+    // Variant A: existing people picked by id, with their role(s).
+    // (Rows with no person or no role are skipped.)
+    const people = personRows
+      .filter((row) => row.personId && row.roles.length > 0)
+      .map((row) => ({
+        person_id: Number(row.personId),
+        roles: row.roles,
+        display_name: row.displayName || undefined,
+      }));
+
     onSave({
       title,
       subtitle: subtitle || undefined,
@@ -273,6 +283,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
       original_language: originalLanguage ?? undefined,
       is_multivolume: isMultivolume,
       topic_id: topicId ? Number(topicId) : undefined,
+      people,
     });
   }
 
