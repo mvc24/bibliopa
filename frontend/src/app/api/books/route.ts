@@ -61,9 +61,11 @@ export async function GET(request: Request) {
     // }
     let totalCount: number;
 
-    const books = topicNormalised
-      ? await getBooksOverviewWithTopic(page, limit, topicNormalised)
-      : await getAllBooksPaginated(page, limit);
+    const books = authorPersonId
+      ? await getBooksFilteredByAuthor(page, limit, authorPersonId)
+      : topicNormalised
+        ? await getBooksOverviewWithTopic(page, limit, topicNormalised)
+        : await getAllBooksPaginated(page, limit);
 
     if (authorPersonId) {
       totalCount = await getCountByAuthor(authorPersonId);

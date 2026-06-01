@@ -27,7 +27,7 @@ import { formatPerson } from '@/lib/formatters';
 // Flip this between 'A' and 'B' to show Opa each layout.
 // (A one-line switch instead of commenting blocks out — keeps both
 //  sets of fields wired so there are no "unused variable" warnings.)
-const PERSON_VARIANT: 'A' | 'B' = 'A';
+const PERSON_VARIANT: 'A' | 'B' = 'B';
 
 const ROLES = [
   { value: 'author', label: 'Verfasser:in' },
@@ -302,120 +302,6 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         filter={startsWithFilter}
       />
       <Divider labelPosition="left" />
-      <TextInput
-        label="Titel"
-        value={title}
-        onChange={(e) => setTitle(e.currentTarget.value)}
-        required
-      />
-      <TextInput
-        label="Untertitel"
-        value={subtitle}
-        onChange={(e) => setSubtitle(e.currentTarget.value)}
-      />
-      <NumberInput
-        label="Erscheinungsjahr"
-        value={publicationYear}
-        onChange={setPublicationYear}
-        min={1000}
-        max={2100}
-        hideControls
-        w={100}
-      />
-      <Group
-        grow
-        align="flex-start"
-      >
-        <Autocomplete
-          label="Verlag"
-          value={publisher}
-          onChange={setPublisher}
-          data={publisherOptions}
-          filter={startsWithFilter}
-        />
-        <Autocomplete
-          label="Erscheinungsort"
-          value={placeOfPublication}
-          onChange={setPlaceOfPublication}
-          data={placeOptions}
-          filter={startsWithFilter}
-        />
-      </Group>
-
-      <div>
-        <Text
-          fw={500}
-          size="sm"
-          mb={4}
-        >
-          Format
-        </Text>
-        <Select
-          placeholder="Format"
-          data={FORMAT_BASE.map((f) => ({
-            value: f.abbrev,
-            label: `${f.abbrev} – ${f.expanded}`,
-          }))}
-          value={formatBase}
-          onChange={setFormatBase}
-          mb="xs"
-        />
-        <Chip.Group
-          multiple
-          value={formatExtras}
-          onChange={setFormatExtras}
-        >
-          <Group gap="xs">
-            {FORMAT_EXTRAS.map((e) => (
-              <Chip
-                key={e.abbrev}
-                value={e.abbrev}
-                size="sm"
-              >
-                {e.label}
-              </Chip>
-            ))}
-          </Group>
-        </Chip.Group>
-      </div>
-
-      <TextInput
-        label="Zustand"
-        value={condition}
-        onChange={(e) => setCondition(e.currentTarget.value)}
-      />
-      <TextInput
-        label="Illustrationen"
-        value={illustrations}
-        onChange={(e) => setIllustrations(e.currentTarget.value)}
-      />
-      <TextInput
-        label="Beilagen, besondere Verpackungen, etc."
-        value={packaging}
-        onChange={(e) => setPackaging(e.currentTarget.value)}
-      />
-
-      <Checkbox
-        label="Übersetzung"
-        checked={isTranslation}
-        onChange={(e) => setIsTranslation(e.currentTarget.checked)}
-      />
-      {isTranslation && (
-        <Autocomplete
-          label="Originalsprache"
-          data={languageOptions}
-          value={originalLanguage ?? ''}
-          onChange={setOriginalLanguage}
-          filter={startsWithFilter}
-        />
-      )}
-
-      <Checkbox
-        label="Mehrbändiges Werk"
-        checked={isMultivolume}
-        onChange={(e) => setIsMultivolume(e.currentTarget.checked)}
-      />
-
       <Divider
         label="Beteiligte Personen"
         labelPosition="left"
@@ -577,6 +463,120 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
           )}
         </Stack>
       )}
+
+      <TextInput
+        label="Titel"
+        value={title}
+        onChange={(e) => setTitle(e.currentTarget.value)}
+        required
+      />
+      <TextInput
+        label="Untertitel"
+        value={subtitle}
+        onChange={(e) => setSubtitle(e.currentTarget.value)}
+      />
+      <NumberInput
+        label="Erscheinungsjahr"
+        value={publicationYear}
+        onChange={setPublicationYear}
+        min={1000}
+        max={2100}
+        hideControls
+        w={100}
+      />
+      <Group
+        grow
+        align="flex-start"
+      >
+        <Autocomplete
+          label="Verlag"
+          value={publisher}
+          onChange={setPublisher}
+          data={publisherOptions}
+          filter={startsWithFilter}
+        />
+        <Autocomplete
+          label="Erscheinungsort"
+          value={placeOfPublication}
+          onChange={setPlaceOfPublication}
+          data={placeOptions}
+          filter={startsWithFilter}
+        />
+      </Group>
+
+      <div>
+        <Text
+          fw={500}
+          size="sm"
+          mb={4}
+        >
+          Format
+        </Text>
+        <Select
+          placeholder="Format"
+          data={FORMAT_BASE.map((f) => ({
+            value: f.abbrev,
+            label: `${f.abbrev} – ${f.expanded}`,
+          }))}
+          value={formatBase}
+          onChange={setFormatBase}
+          mb="xs"
+        />
+        <Chip.Group
+          multiple
+          value={formatExtras}
+          onChange={setFormatExtras}
+        >
+          <Group gap="xs">
+            {FORMAT_EXTRAS.map((e) => (
+              <Chip
+                key={e.abbrev}
+                value={e.abbrev}
+                size="sm"
+              >
+                {e.label}
+              </Chip>
+            ))}
+          </Group>
+        </Chip.Group>
+      </div>
+
+      <TextInput
+        label="Zustand"
+        value={condition}
+        onChange={(e) => setCondition(e.currentTarget.value)}
+      />
+      <TextInput
+        label="Illustrationen"
+        value={illustrations}
+        onChange={(e) => setIllustrations(e.currentTarget.value)}
+      />
+      <TextInput
+        label="Beilagen, besondere Verpackungen, etc."
+        value={packaging}
+        onChange={(e) => setPackaging(e.currentTarget.value)}
+      />
+
+      <Checkbox
+        label="Übersetzung"
+        checked={isTranslation}
+        onChange={(e) => setIsTranslation(e.currentTarget.checked)}
+      />
+      {isTranslation && (
+        <Autocomplete
+          label="Originalsprache"
+          data={languageOptions}
+          value={originalLanguage ?? ''}
+          onChange={setOriginalLanguage}
+          filter={startsWithFilter}
+        />
+      )}
+
+      <Checkbox
+        label="Mehrbändiges Werk"
+        checked={isMultivolume}
+        onChange={(e) => setIsMultivolume(e.currentTarget.checked)}
+      />
 
       <Group>
         <Button onClick={handleSubmit}>Speichern</Button>
