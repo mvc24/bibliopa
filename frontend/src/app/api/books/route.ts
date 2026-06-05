@@ -12,9 +12,11 @@ import {
   getBooksFilteredByAuthor,
   getAllBooksPaginated,
   getBooksOverviewWithTopic,
+  searchBooks,
   getCountByAuthor,
   getCountForActiveBooks,
   getCountForTopic,
+  getCountForSearch,
   getPeopleForBooks,
   getPricesForBooks,
   markBookAsRemoved,
@@ -48,7 +50,7 @@ export async function GET(request: Request) {
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '100');
     const topicNormalised = searchParams.get('topic') || undefined;
-    // const search = searchParams.get('search') || undefined;
+    const search = searchParams.get('search') || undefined;
 
     const authorPersonId = searchParams.get('author')
       ? parseInt(searchParams.get('author')!)
@@ -58,13 +60,17 @@ export async function GET(request: Request) {
 
     let totalCount: number;
 
-    const books = authorPersonId
-      ? await getBooksFilteredByAuthor(page, limit, authorPersonId)
-      : topicNormalised
-        ? await getBooksOverviewWithTopic(page, limit, topicNormalised)
-        : await getAllBooksPaginated(page, limit);
+    const books = search
+      ? await searchBooks(page, limit, search)
+      : authorPersonId
+        ? await getBooksFilteredByAuthor(page, limit, authorPersonId)
+        : topicNormalised
+          ? await getBooksOverviewWithTopic(page, limit, topicNormalised)
+          : await getAllBooksPaginated(page, limit);
 
-    if (authorPersonId) {
+    if (search) {
+      totalCount = await getCountForSearch(search);
+    } else if (authorPersonId) {
       totalCount = await getCountByAuthor(authorPersonId);
     } else if (topicNormalised) {
       totalCount = await getCountForTopic(topicNormalised);

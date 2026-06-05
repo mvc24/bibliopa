@@ -73,6 +73,31 @@ export async function getBooksOverviewWithTopic(
   return result.rows;
 }
 
+export async function searchBooks(
+  page: number,
+  limit: number,
+  search: string,
+) {
+  const offset = (page - 1) * limit;
+  const result = await query<BookWithTopic>(
+    sql`
+    SELECT
+      b.*,
+      t.topic_id,
+      t.topic_name,
+      t.topic_normalised
+    FROM books b
+    LEFT JOIN topics t ON b.topic_id = t.topic_id
+    LEFT JOIN book_admin ba ON b.book_id = ba.book_id
+    WHERE b.is_removed = FALSE AND b.is_active <> 0
+      AND ba.original_entry ILIKE $1
+    LIMIT $2 OFFSET $3
+    `,
+    [`%${search}%`, limit, offset],
+  );
+  return result.rows;
+}
+
 export async function getPeopleForBooks(bookIds: number[]) {
   const result = await query<Books2People>(
     sql`
@@ -147,6 +172,21 @@ export async function getCountForActiveBooks() {
     WHERE b.is_removed = FALSE AND b.is_active <> 0
     `,
     [],
+  );
+
+  return result.rows[0].count;
+}
+
+export async function getCountForSearch(search: string) {
+  const result = await query<{ count: number }>(
+    sql`
+    SELECT COUNT(*)
+    FROM books b
+    LEFT JOIN book_admin ba ON b.book_id = ba.book_id
+    WHERE b.is_removed = FALSE AND b.is_active <> 0
+      AND ba.original_entry ILIKE $1
+    `,
+    [`%${search}%`],
   );
 
   return result.rows[0].count;
