@@ -162,8 +162,17 @@ export default function SingleBookPage() {
           <BookForm
             book={book}
             onCancel={() => setIsEditing(false)}
-            onSave={(data) => {
-              console.log('Speichern:', data);
+            onSave={async (data) => {
+              const response = await fetch(`/api/books/${bookId}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data),
+              });
+              const result = await response.json();
+              if (!response.ok) {
+                console.error('Speichern fehlgeschlagen:', result.message);
+                return;
+              }
               setIsEditing(false);
             }}
           />

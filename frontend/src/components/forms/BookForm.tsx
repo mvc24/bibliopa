@@ -19,6 +19,7 @@ import {
   Topic,
   CreateBookInput,
   AuthorListItem,
+  NewPersonInput,
 } from '@/types/database';
 import { TOPICS } from '../topics';
 import { FORMAT_BASE, FORMAT_EXTRAS } from '@/components/constants';
@@ -162,11 +163,16 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
 
   const [people, setPeople] = useState<AuthorListItem[]>([]);
 
+  const toEntries = (role: 'is_author' | 'is_editor' | 'is_contributor' | 'is_translator') =>
+    book?.people
+      .filter((p) => p[role])
+      .map((p) => ({ personId: p.person_id.toString(), displayName: p.display_name ?? '' })) ?? [];
+
   // one list per role; each entry is a person + their variant spelling
-  const [authors, setAuthors] = useState<PersonEntry[]>([]);
-  const [editors, setEditors] = useState<PersonEntry[]>([]);
-  const [contributors, setContributors] = useState<PersonEntry[]>([]);
-  const [translators, setTranslators] = useState<PersonEntry[]>([]);
+  const [authors, setAuthors] = useState<PersonEntry[]>(toEntries('is_author'));
+  const [editors, setEditors] = useState<PersonEntry[]>(toEntries('is_editor'));
+  const [contributors, setContributors] = useState<PersonEntry[]>(toEntries('is_contributor'));
+  const [translators, setTranslators] = useState<PersonEntry[]>(toEntries('is_translator'));
 
   // "neue Person anlegen" — shared by both variants
   const [showNewPerson, setShowNewPerson] = useState(false);
@@ -275,6 +281,28 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
     }
     const people = [...merged.values()];
 
+    const newPeople: NewPersonInput[] = [];
+    if (showNewPerson) {
+      const hasName = newIsOrg
+        ? newSingleName.trim()
+        : newFamilyName.trim() || newGivenNames.trim() || newSingleName.trim();
+      if (hasName) {
+        newPeople.push({
+          family_name: newFamilyName || undefined,
+          given_names: newGivenNames || undefined,
+          name_prefix: newPrefix || undefined,
+          name_particles: newParticles || undefined,
+          name_suffix: newSuffix || undefined,
+          single_name: newSingleName || undefined,
+          is_organisation: newIsOrg,
+          is_author: newIsAuthor,
+          is_editor: newIsEditor,
+          is_contributor: newIsContributor,
+          is_translator: newIsTranslator,
+        });
+      }
+    }
+
     onSave({
       title,
       subtitle: subtitle || undefined,
@@ -292,6 +320,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
       is_multivolume: isMultivolume,
       topic_id: topicId ? Number(topicId) : undefined,
       people,
+      newPeople: newPeople.length > 0 ? newPeople : undefined,
     });
   }
 

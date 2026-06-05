@@ -18,7 +18,15 @@ import {
   getPeopleForBooks,
   getPricesForBooks,
   markBookAsRemoved,
+  insertBook,
+  updateBookCompositeId,
+  getPersonUnifiedId,
+  findPersonByUnifiedId,
+  insertPerson,
+  insertBooks2Person,
 } from '@/lib/queries/books';
+import { transaction } from '@/lib/db';
+import { generateUnifiedId } from '@/lib/formatters';
 import { canModify, canViewPrices } from '@/lib/auth';
 
 /**
@@ -154,10 +162,53 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // ===== STEP 3: Call your create query function =====
+    // ===== STEP 3: Create book, people, and links in one transaction =====
 
-    // Temporary placeholder - replace this!
-    const newBook = { book_id: 1, ...body };
+    const newBook = await transaction(async (client) => {
+      const { book_id } = await insertBook(client, body);
+
+      const topic = TOPICS.find((t) => t.topic_id === body.topic_id);
+      const composite_id = `${topic?.topic_normalised ?? 'unknown'}_${book_id}`;
+      await updateBookCompositeId(client, book_id, composite_id);
+
+      let sortOrder = 1;
+
+      for (const person of body.people ?? []) {
+        const unified_id = await getPersonUnifiedId(client, person.person_id);
+        await insertBooks2Person(
+          client, book_id, composite_id, person.person_id, unified_id,
+          {
+            is_author: person.roles.includes('author'),
+            is_editor: person.roles.includes('editor'),
+            is_contributor: person.roles.includes('contributor'),
+            is_translator: person.roles.includes('translator'),
+          },
+          person.display_name,
+          sortOrder++,
+        );
+      }
+
+      for (const newPerson of body.newPeople ?? []) {
+        const unified_id = generateUnifiedId(newPerson);
+        const existing = await findPersonByUnifiedId(client, unified_id);
+        const person_id = existing
+          ? existing.person_id
+          : (await insertPerson(client, newPerson, unified_id)).person_id;
+        await insertBooks2Person(
+          client, book_id, composite_id, person_id, unified_id,
+          {
+            is_author: newPerson.is_author,
+            is_editor: newPerson.is_editor,
+            is_contributor: newPerson.is_contributor,
+            is_translator: newPerson.is_translator,
+          },
+          undefined,
+          sortOrder++,
+        );
+      }
+
+      return { book_id, composite_id };
+    });
 
     // ===== STEP 4: Return success response =====
     return NextResponse.json(

@@ -4,8 +4,16 @@ import {
   getPeopleForBooks,
   getPricesForBooks,
   getSingleBook,
+  updateBookFields,
+  deleteBooks2PeopleForBook,
+  getPersonUnifiedId,
+  findPersonByUnifiedId,
+  insertPerson,
+  insertBooks2Person,
 } from '@/lib/queries/books';
-import { BookDetail } from '@/types/database';
+import { BookDetail, CreateBookInput } from '@/types/database';
+import { transaction } from '@/lib/db';
+import { generateUnifiedId } from '@/lib/formatters';
 import { canModify, canViewPrices } from '@/lib/auth';
 
 export async function GET(
@@ -75,6 +83,82 @@ export async function GET(
     console.error('Error fetching book:', error);
     return NextResponse.json(
       { error: 'Failed to fetch book' },
+      { status: 500 },
+    );
+  }
+}
+
+export async function PUT(
+  request: NextRequest,
+  { params }: { params: Promise<{ id: string }> },
+) {
+  try {
+    const { id } = await params;
+    const bookId = parseInt(id);
+    const body: Partial<CreateBookInput> = await request.json();
+
+    if (!body.title) {
+      return NextResponse.json(
+        { error: 'Validation error', message: 'Title is required' },
+        { status: 400 },
+      );
+    }
+
+    await transaction(async (client) => {
+      await updateBookFields(client, bookId, body);
+      await deleteBooks2PeopleForBook(client, bookId);
+
+      const bookResult = await client.query(
+        `SELECT composite_id FROM books WHERE book_id = $1`,
+        [bookId],
+      );
+      const composite_id: string = bookResult.rows[0].composite_id;
+
+      let sortOrder = 1;
+
+      for (const person of body.people ?? []) {
+        const unified_id = await getPersonUnifiedId(client, person.person_id);
+        await insertBooks2Person(
+          client, bookId, composite_id, person.person_id, unified_id,
+          {
+            is_author: person.roles.includes('author'),
+            is_editor: person.roles.includes('editor'),
+            is_contributor: person.roles.includes('contributor'),
+            is_translator: person.roles.includes('translator'),
+          },
+          person.display_name,
+          sortOrder++,
+        );
+      }
+
+      for (const newPerson of body.newPeople ?? []) {
+        const unified_id = generateUnifiedId(newPerson);
+        const existing = await findPersonByUnifiedId(client, unified_id);
+        const person_id = existing
+          ? existing.person_id
+          : (await insertPerson(client, newPerson, unified_id)).person_id;
+        await insertBooks2Person(
+          client, bookId, composite_id, person_id, unified_id,
+          {
+            is_author: newPerson.is_author,
+            is_editor: newPerson.is_editor,
+            is_contributor: newPerson.is_contributor,
+            is_translator: newPerson.is_translator,
+          },
+          undefined,
+          sortOrder++,
+        );
+      }
+    });
+
+    return NextResponse.json({ success: true, data: { book_id: bookId } });
+  } catch (error) {
+    console.error('Error updating book:', error);
+    return NextResponse.json(
+      {
+        error: 'Failed to update book',
+        message: error instanceof Error ? error.message : 'Unknown error',
+      },
       { status: 500 },
     );
   }

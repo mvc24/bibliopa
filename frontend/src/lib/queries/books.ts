@@ -7,6 +7,8 @@ import {
   AuthorListItem,
   BookDetail,
   BookAdmin,
+  CreateBookInput,
+  NewPersonInput,
 } from '@/types/database';
 
 /**
@@ -282,6 +284,178 @@ export async function getAllRemovedBooks() {
   );
 
   return result.rows;
+}
+
+export async function insertBook(
+  client: any,
+  input: CreateBookInput,
+): Promise<{ book_id: number }> {
+  const result = await client.query(
+    `INSERT INTO books (
+      composite_id, title, subtitle, publisher, place_of_publication,
+      publication_year, format_original, format_expanded, condition,
+      illustrations, packaging, topic_id, is_translation, original_language,
+      is_multivolume
+    ) VALUES (
+      'pending', $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14
+    )
+    RETURNING book_id`,
+    [
+      input.title,
+      input.subtitle ?? null,
+      input.publisher ?? null,
+      input.place_of_publication ?? null,
+      input.publication_year ?? null,
+      input.format_original ?? null,
+      input.format_expanded ?? null,
+      input.condition ?? null,
+      input.illustrations ?? null,
+      input.packaging ?? null,
+      input.topic_id ?? null,
+      input.is_translation ?? false,
+      input.original_language ?? null,
+      input.is_multivolume ?? false,
+    ],
+  );
+  return result.rows[0];
+}
+
+export async function updateBookCompositeId(
+  client: any,
+  bookId: number,
+  compositeId: string,
+): Promise<void> {
+  await client.query(
+    `UPDATE books SET composite_id = $1 WHERE book_id = $2`,
+    [compositeId, bookId],
+  );
+}
+
+export async function getPersonUnifiedId(
+  client: any,
+  personId: number,
+): Promise<string> {
+  const result = await client.query(
+    `SELECT unified_id FROM people WHERE person_id = $1`,
+    [personId],
+  );
+  return result.rows[0].unified_id;
+}
+
+export async function findPersonByUnifiedId(
+  client: any,
+  unifiedId: string,
+): Promise<{ person_id: number } | null> {
+  const result = await client.query(
+    `SELECT person_id FROM people WHERE unified_id = $1`,
+    [unifiedId],
+  );
+  return result.rows[0] ?? null;
+}
+
+export async function insertPerson(
+  client: any,
+  input: NewPersonInput,
+  unifiedId: string,
+): Promise<{ person_id: number }> {
+  const result = await client.query(
+    `INSERT INTO people (
+      unified_id, family_name, given_names, name_prefix, name_particles,
+      name_suffix, single_name, is_organisation
+    ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+    RETURNING person_id`,
+    [
+      unifiedId,
+      input.family_name ?? null,
+      input.given_names ?? null,
+      input.name_prefix ?? null,
+      input.name_particles ?? null,
+      input.name_suffix ?? null,
+      input.single_name ?? null,
+      input.is_organisation ?? false,
+    ],
+  );
+  return result.rows[0];
+}
+
+export async function insertBooks2Person(
+  client: any,
+  bookId: number,
+  compositeId: string,
+  personId: number,
+  unifiedId: string,
+  roles: { is_author: boolean; is_editor: boolean; is_contributor: boolean; is_translator: boolean },
+  displayName: string | undefined,
+  sortOrder: number,
+): Promise<void> {
+  await client.query(
+    `INSERT INTO books2people (
+      book_id, composite_id, person_id, unified_id,
+      is_author, is_editor, is_contributor, is_translator,
+      display_name, sort_order
+    ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)`,
+    [
+      bookId,
+      compositeId,
+      personId,
+      unifiedId,
+      roles.is_author,
+      roles.is_editor,
+      roles.is_contributor,
+      roles.is_translator,
+      displayName ?? null,
+      sortOrder,
+    ],
+  );
+}
+
+export async function updateBookFields(
+  client: any,
+  bookId: number,
+  input: Partial<CreateBookInput>,
+): Promise<void> {
+  await client.query(
+    `UPDATE books SET
+      title = $1,
+      subtitle = $2,
+      publisher = $3,
+      place_of_publication = $4,
+      publication_year = $5,
+      format_original = $6,
+      format_expanded = $7,
+      condition = $8,
+      illustrations = $9,
+      packaging = $10,
+      topic_id = $11,
+      is_translation = $12,
+      original_language = $13,
+      is_multivolume = $14
+    WHERE book_id = $15`,
+    [
+      input.title ?? null,
+      input.subtitle ?? null,
+      input.publisher ?? null,
+      input.place_of_publication ?? null,
+      input.publication_year ?? null,
+      input.format_original ?? null,
+      input.format_expanded ?? null,
+      input.condition ?? null,
+      input.illustrations ?? null,
+      input.packaging ?? null,
+      input.topic_id ?? null,
+      input.is_translation ?? false,
+      input.original_language ?? null,
+      input.is_multivolume ?? false,
+      bookId,
+    ],
+  );
+}
+
+export async function deleteBooks2PeopleForBook(
+  client: any,
+  bookId: number,
+): Promise<void> {
+  await client.query(`DELETE FROM books2people WHERE book_id = $1`, [bookId]);
 }
 
 // old, way too complicated, VERY VERY SLOW
