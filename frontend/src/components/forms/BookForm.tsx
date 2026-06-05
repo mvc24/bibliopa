@@ -258,12 +258,25 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         display_name: entry.displayName || undefined,
       }));
 
-    const people = [
+    const flat = [
       ...byRole(authors, 'author'),
       ...byRole(editors, 'editor'),
       ...byRole(contributors, 'contributor'),
       ...byRole(translators, 'translator'),
     ];
+
+    // one row per person: union the roles, keep the first non-empty spelling
+    const merged = new Map<number, (typeof flat)[number]>();
+    for (const entry of flat) {
+      const existing = merged.get(entry.person_id);
+      if (existing) {
+        existing.roles.push(...entry.roles);
+        if (!existing.display_name) existing.display_name = entry.display_name;
+      } else {
+        merged.set(entry.person_id, { ...entry, roles: [...entry.roles] });
+      }
+    }
+    const people = [...merged.values()];
 
     onSave({
       title,
