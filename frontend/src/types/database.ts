@@ -222,12 +222,10 @@ export interface CreateBookInput {
   is_multivolume?: boolean;
   series_title?: string;
   total_volumes?: number;
-  authors?: CreatePersonInput[];
-  editors?: CreatePersonInput[];
-  contributors?: CreatePersonInput[];
-  translator?: CreatePersonInput;
   // Existing people picked by id, with their role(s) for this book.
   people?: BookPersonInput[];
+  // New people to create and link to this book.
+  newPeople?: NewPersonInput[];
 }
 
 export interface BookPersonInput {
@@ -248,6 +246,13 @@ export interface CreatePersonInput {
   name_suffix?: string;
   single_name?: string;
   is_organisation?: boolean;
+}
+
+export interface NewPersonInput extends CreatePersonInput {
+  is_author: boolean;
+  is_editor: boolean;
+  is_contributor: boolean;
+  is_translator: boolean;
 }
 
 export interface CreatePriceInput {

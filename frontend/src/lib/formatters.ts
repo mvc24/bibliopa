@@ -1,4 +1,9 @@
-import { Person, BookDetail, AuthorListItem } from '@/types/database';
+import {
+  Person,
+  BookDetail,
+  AuthorListItem,
+  CreatePersonInput,
+} from '@/types/database';
 
 export function formatPerson(
   person: Person | AuthorListItem | BookDetail['people'][0],
@@ -44,6 +49,42 @@ export function formatPerson(
     return `${familyName}, ${afterComma}`;
   }
   return familyName;
+}
+
+function removeDiacritics(str: string): string {
+  return str
+    .replace(/ä/g, 'a')
+    .replace(/Ä/g, 'A')
+    .replace(/ö/g, 'o')
+    .replace(/Ö/g, 'O')
+    .replace(/ü/g, 'u')
+    .replace(/Ü/g, 'U')
+    .replace(/ß/g, 'ss')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+}
+
+export function generateUnifiedId(person: CreatePersonInput): string {
+  const clean = (s: string) =>
+    removeDiacritics(s)
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^a-z-]/g, '');
+
+  let base: string;
+
+  if (person.single_name) {
+    base = removeDiacritics(person.single_name)
+      .toLowerCase()
+      .replace(/\s+/g, '_')
+      .replace(/[^a-z_]/g, '');
+  } else {
+    const family = clean(person.family_name ?? '');
+    const given = clean(person.given_names ?? '');
+    base = given ? `${family}_${given}` : family;
+  }
+
+  return `${base}_FE`;
 }
 
 export function formatDate(date: Date | string): string {

@@ -87,7 +87,7 @@ function PersonRolePicker({
             maw={320}
           />
           <TextInput
-            placeholder="Abweichende Schreibweise"
+            label="Alternative Schreibweise"
             value={entry.displayName}
             onChange={(e) => setNameAt(index, e.currentTarget.value)}
             maw={260}
@@ -177,6 +177,10 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
   const [newParticles, setNewParticles] = useState('');
   const [newPrefix, setNewPrefix] = useState('');
   const [newSuffix, setNewSuffix] = useState('');
+  const [newIsAuthor, setNewIsAuthor] = useState(false);
+  const [newIsEditor, setNewIsEditor] = useState(false);
+  const [newIsContributor, setNewIsContributor] = useState(false);
+  const [newIsTranslator, setNewIsTranslator] = useState(false);
 
   // language list: loaded once
   useEffect(() => {
@@ -394,6 +398,45 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
               />
             </>
           )}
+          <div>
+            <Text
+              fw={500}
+              size="sm"
+              mb={4}
+            >
+              Rolle(n)
+            </Text>
+            <Group gap="xs">
+              <Chip
+                checked={newIsAuthor}
+                onChange={(v) => setNewIsAuthor(v)}
+                size="sm"
+              >
+                Verfasser:in
+              </Chip>
+              <Chip
+                checked={newIsEditor}
+                onChange={(v) => setNewIsEditor(v)}
+                size="sm"
+              >
+                Herausgeber:in
+              </Chip>
+              <Chip
+                checked={newIsContributor}
+                onChange={(v) => setNewIsContributor(v)}
+                size="sm"
+              >
+                Mitwirkende:r
+              </Chip>
+              <Chip
+                checked={newIsTranslator}
+                onChange={(v) => setNewIsTranslator(v)}
+                size="sm"
+              >
+                Übersetzer:in
+              </Chip>
+            </Group>
+          </div>
         </Stack>
       )}
 

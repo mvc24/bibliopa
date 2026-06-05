@@ -48,17 +48,6 @@ export async function GET(request: Request) {
     const canView = await canViewPrices();
     const canModifyBooks = await canModify();
 
-    // const totalCount = await getBookCount(topicNormalised, authorPersonId);
-
-    // let books: BookWithTopic[] = [];
-    // if (authorPersonId) {
-    //   books = await getBooksFilteredByAuthor(page, limit, authorPersonId);
-    // } else if (topicNormalised && topicNormalised !== 'all') {
-    //   books = await getBooksOverviewWithTopic(page, limit, topicNormalised);
-    // } else {
-    //   // When topic is 'all', pass undefined to get all books
-    //   books = await getBooksOverviewWithTopic(page, limit, undefined);
-    // }
     let totalCount: number;
 
     const books = authorPersonId
