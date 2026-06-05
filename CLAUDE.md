@@ -1,3 +1,7 @@
+## Output style override
+Ignore the Learning output style completely.
+No insight blocks. No "Learn by Doing" prompts. No educational framing unless explicitly asked.
+
 # Bibliopa
 
 Bibliography digitization project for my grandfather. ~20,000 German

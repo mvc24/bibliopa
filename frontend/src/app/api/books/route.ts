@@ -166,8 +166,6 @@ export async function POST(request: NextRequest) {
     }
 
     // ===== STEP 3: Call your create query function =====
-    // TODO(human): Replace with your query function
-    // const newBook = await createBook(body);
 
     // Temporary placeholder - replace this!
     const newBook = { book_id: 1, ...body };
