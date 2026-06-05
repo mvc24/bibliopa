@@ -64,7 +64,7 @@ export async function GET(
         imported_price: pr.imported_price,
         date_added: pr.date_added,
       })),
-      admin_data: {
+      admin_data: admin ? {
         original_entry: admin.original_entry,
         verification_notes: admin.verification_notes,
         corrected_by_api: admin.corrected_by_api,
@@ -72,7 +72,7 @@ export async function GET(
         multiple_editions: admin.multiple_editions,
         api_concerned: admin.api_concerned,
         problematic_multi_volume: admin.problematic_multi_volume,
-      },
+      } : undefined,
     };
 
     return NextResponse.json({

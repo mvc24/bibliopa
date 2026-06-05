@@ -13,16 +13,16 @@
         "@emotion/react": "^11.14.0",
         "@emotion/styled": "^11.14.1",
         "@hookform/resolvers": "^5.4.0",
-        "@mantine/core": "^9.2.1",
-        "@mantine/hooks": "^9.2.1",
-        "@tanstack/react-query": "^5.100.11",
+        "@mantine/core": "^9.3.0",
+        "@mantine/hooks": "^9.3.0",
+        "@tanstack/react-query": "^5.101.0",
         "bcryptjs": "^3.0.3",
-        "next": "16.2.6",
+        "next": "16.2.7",
         "next-auth": "^4.24.14",
         "pg": "^8.21.0",
-        "react": "19.2.6",
-        "react-dom": "19.2.6",
-        "react-hook-form": "^7.76.0",
+        "react": "19.2.7",
+        "react-dom": "19.2.7",
+        "react-hook-form": "^7.77.0",
         "zod": "^4.4.3"
     },
     "devDependencies": {
@@ -34,7 +34,7 @@
         "@types/react": "^19",
         "@types/react-dom": "^19",
         "eslint": "^10",
-        "eslint-config-next": "16.2.6",
+        "eslint-config-next": "16.2.7",
         "tailwindcss": "^4",
         "typescript": "^6"
     }

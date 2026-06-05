@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import {
   TextInput,
   NumberInput,
@@ -163,16 +163,25 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
 
   const [people, setPeople] = useState<AuthorListItem[]>([]);
 
-  const toEntries = (role: 'is_author' | 'is_editor' | 'is_contributor' | 'is_translator') =>
+  const toEntries = (
+    role: 'is_author' | 'is_editor' | 'is_contributor' | 'is_translator',
+  ) =>
     book?.people
       .filter((p) => p[role])
-      .map((p) => ({ personId: p.person_id.toString(), displayName: p.display_name ?? '' })) ?? [];
+      .map((p) => ({
+        personId: p.person_id.toString(),
+        displayName: p.display_name ?? '',
+      })) ?? [];
 
   // one list per role; each entry is a person + their variant spelling
   const [authors, setAuthors] = useState<PersonEntry[]>(toEntries('is_author'));
   const [editors, setEditors] = useState<PersonEntry[]>(toEntries('is_editor'));
-  const [contributors, setContributors] = useState<PersonEntry[]>(toEntries('is_contributor'));
-  const [translators, setTranslators] = useState<PersonEntry[]>(toEntries('is_translator'));
+  const [contributors, setContributors] = useState<PersonEntry[]>(
+    toEntries('is_contributor'),
+  );
+  const [translators, setTranslators] = useState<PersonEntry[]>(
+    toEntries('is_translator'),
+  );
 
   // "neue Person anlegen" — shared by both variants
   const [showNewPerson, setShowNewPerson] = useState(false);
@@ -202,34 +211,40 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
       .then((result) => setPeople(result.data ?? []));
   }, []);
 
-  // publisher suggestions: refetch as he types
+  // publisher suggestions: debounced to avoid a fetch on every keystroke
   useEffect(() => {
     if (publisher.trim().length < 2) {
       setPublisherOptions([]);
       return;
     }
-    fetch(`/api/suggestions?field=publisher&q=${encodeURIComponent(publisher)}`)
-      .then((r) => r.json())
-      .then((result) => setPublisherOptions(result.data ?? []));
+    const timer = setTimeout(() => {
+      fetch(`/api/suggestions?field=publisher&q=${encodeURIComponent(publisher)}`)
+        .then((r) => r.json())
+        .then((result) => setPublisherOptions(result.data ?? []));
+    }, 300);
+    return () => clearTimeout(timer);
   }, [publisher]);
 
-  // place suggestions: based on the chosen publisher
+  // place suggestions: debounced, based on the chosen publisher
   useEffect(() => {
     if (!publisher) {
       setPlaceOptions([]);
       return;
     }
-    fetch(
-      `/api/suggestions?field=place&publisher=${encodeURIComponent(publisher)}`,
-    )
-      .then((r) => r.json())
-      .then((result) => setPlaceOptions(result.data ?? []));
+    const timer = setTimeout(() => {
+      fetch(
+        `/api/suggestions?field=place&publisher=${encodeURIComponent(publisher)}`,
+      )
+        .then((r) => r.json())
+        .then((result) => setPlaceOptions(result.data ?? []));
+    }, 300);
+    return () => clearTimeout(timer);
   }, [publisher]);
 
-  const peopleData = people.map((p) => ({
+  const peopleData = useMemo(() => people.map((p) => ({
     value: p.person_id.toString(),
     label: formatPerson(p),
-  }));
+  })), [people]);
 
   function assembleFormat() {
     const base = FORMAT_BASE.find((f) => f.abbrev === formatBase);
@@ -338,7 +353,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         required
         filter={startsWithFilter}
       />
-      <Divider labelPosition="left" />
+
       <Divider
         label="Beteiligte Personen"
         labelPosition="left"
@@ -469,6 +484,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         </Stack>
       )}
 
+      <Divider my="xl" />
       <TextInput
         label="Titel"
         value={title}

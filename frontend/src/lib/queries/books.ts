@@ -295,9 +295,9 @@ export async function insertBook(
       composite_id, title, subtitle, publisher, place_of_publication,
       publication_year, format_original, format_expanded, condition,
       illustrations, packaging, topic_id, is_translation, original_language,
-      is_multivolume
+      is_multivolume, is_active
     ) VALUES (
-      'pending', $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14
+      'pending', $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, 1
     )
     RETURNING book_id`,
     [
