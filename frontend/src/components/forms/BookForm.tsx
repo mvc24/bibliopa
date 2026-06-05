@@ -24,26 +24,14 @@ import { FORMAT_BASE, FORMAT_EXTRAS } from '@/components/constants';
 import { startsWithFilter } from '@/lib/selectFilters';
 import { formatPerson } from '@/lib/formatters';
 
-// Flip this between 'A' and 'B' to show Opa each layout.
-// (A one-line switch instead of commenting blocks out — keeps both
-//  sets of fields wired so there are no "unused variable" warnings.)
-const PERSON_VARIANT: 'A' | 'B' = 'B';
-
-const ROLES = [
-  { value: 'author', label: 'Verfasser:in' },
-  { value: 'editor', label: 'Herausgeber:in' },
-  { value: 'contributor', label: 'Mitwirkende:r' },
-  { value: 'translator', label: 'Übersetzer:in' },
-];
-
-interface PersonRow {
-  personId: string | null;
-  roles: string[];
+interface PersonEntry {
+  personId: string;
   displayName: string;
 }
 
-// Variant B helper: one role field, each pick is its own single Select,
-// with an always-empty Select at the bottom to add another person.
+// One field per person in a role: a Select for the person plus a free-text
+// "Abweichende Schreibweise" (books2people.display_name). An always-empty
+// Select at the bottom adds another person.
 function PersonRolePicker({
   label,
   data,
@@ -52,17 +40,25 @@ function PersonRolePicker({
 }: {
   label: string;
   data: { value: string; label: string }[];
-  selected: string[];
-  onChange: (ids: string[]) => void;
+  selected: PersonEntry[];
+  onChange: (entries: PersonEntry[]) => void;
 }) {
-  function setAt(index: number, value: string | null) {
+  function setPersonAt(index: number, value: string | null) {
     const next = [...selected];
     if (value) {
-      next[index] = value;
+      next[index] = { ...next[index], personId: value };
     } else {
       next.splice(index, 1); // cleared → drop this slot
     }
     onChange(next);
+  }
+
+  function setNameAt(index: number, value: string) {
+    onChange(
+      selected.map((entry, i) =>
+        i === index ? { ...entry, displayName: value } : entry,
+      ),
+    );
   }
 
   return (
@@ -73,26 +69,41 @@ function PersonRolePicker({
       >
         {label}
       </Text>
-      {selected.map((id, index) => (
-        <Select
+      {selected.map((entry, index) => (
+        <Group
           key={index}
-          placeholder="Person suchen"
-          data={data}
-          value={id}
-          onChange={(value) => setAt(index, value)}
-          searchable
-          clearable
-          filter={startsWithFilter}
-        />
+          align="flex-end"
+          gap="xs"
+        >
+          <Select
+            placeholder="Person suchen"
+            data={data}
+            value={entry.personId}
+            onChange={(value) => setPersonAt(index, value)}
+            searchable
+            clearable
+            filter={startsWithFilter}
+            maw={320}
+          />
+          <TextInput
+            placeholder="Abweichende Schreibweise"
+            value={entry.displayName}
+            onChange={(e) => setNameAt(index, e.currentTarget.value)}
+            maw={260}
+          />
+        </Group>
       ))}
       <Select
         key={`add-${selected.length}`}
         placeholder="Person hinzufügen"
         data={data}
         value={null}
-        onChange={(value) => value && onChange([...selected, value])}
+        onChange={(value) =>
+          value && onChange([...selected, { personId: value, displayName: '' }])
+        }
         searchable
         filter={startsWithFilter}
+        maw={320}
       />
     </Stack>
   );
@@ -150,16 +161,11 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
 
   const [people, setPeople] = useState<AuthorListItem[]>([]);
 
-  // Variant A — person first, role beside it
-  const [personRows, setPersonRows] = useState<PersonRow[]>([
-    { personId: null, roles: [], displayName: '' },
-  ]);
-
-  // Variant B — one field per role
-  const [authorIds, setAuthorIds] = useState<string[]>([]);
-  const [editorIds, setEditorIds] = useState<string[]>([]);
-  const [contributorIds, setContributorIds] = useState<string[]>([]);
-  const [translatorIds, setTranslatorIds] = useState<string[]>([]);
+  // one list per role; each entry is a person + their variant spelling
+  const [authors, setAuthors] = useState<PersonEntry[]>([]);
+  const [editors, setEditors] = useState<PersonEntry[]>([]);
+  const [contributors, setContributors] = useState<PersonEntry[]>([]);
+  const [translators, setTranslators] = useState<PersonEntry[]>([]);
 
   // "neue Person anlegen" — shared by both variants
   const [showNewPerson, setShowNewPerson] = useState(false);
@@ -222,19 +228,6 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
     label: formatPerson(p),
   }));
 
-  function updateRow(index: number, patch: Partial<PersonRow>) {
-    setPersonRows((rows) =>
-      rows.map((row, i) => (i === index ? { ...row, ...patch } : row)),
-    );
-  }
-
-  function addRow() {
-    setPersonRows((rows) => [
-      ...rows,
-      { personId: null, roles: [], displayName: '' },
-    ]);
-  }
-
   function assembleFormat() {
     const base = FORMAT_BASE.find((f) => f.abbrev === formatBase);
     if (!base) return { format_original: null, format_expanded: null };
@@ -257,15 +250,20 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
   function handleSubmit() {
     const { format_original, format_expanded } = assembleFormat();
 
-    // Variant A: existing people picked by id, with their role(s).
-    // (Rows with no person or no role are skipped.)
-    const people = personRows
-      .filter((row) => row.personId && row.roles.length > 0)
-      .map((row) => ({
-        person_id: Number(row.personId),
-        roles: row.roles,
-        display_name: row.displayName || undefined,
+    // one entry per person per role; variant spelling → display_name
+    const byRole = (entries: PersonEntry[], role: string) =>
+      entries.map((entry) => ({
+        person_id: Number(entry.personId),
+        roles: [role],
+        display_name: entry.displayName || undefined,
       }));
+
+    const people = [
+      ...byRole(authors, 'author'),
+      ...byRole(editors, 'editor'),
+      ...byRole(contributors, 'contributor'),
+      ...byRole(translators, 'translator'),
+    ];
 
     onSave({
       title,
@@ -307,103 +305,32 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         labelPosition="left"
       />
 
-      {/* VARIANT A — Person zuerst, Rolle daneben */}
-      {PERSON_VARIANT === 'A' && (
-        <Stack gap="sm">
-          {personRows.map((row, index) => (
-            <Group
-              key={index}
-              grow
-              align="flex-start"
-            >
-              <Stack gap="xs">
-                <Select
-                  label={index === 0 ? 'Person' : undefined}
-                  placeholder="Person suchen"
-                  data={peopleData}
-                  value={row.personId}
-                  onChange={(value) => updateRow(index, { personId: value })}
-                  searchable
-                  filter={startsWithFilter}
-                />
-                <TextInput
-                  label={index === 0 ? 'Abweichende Schreibweise' : undefined}
-                  placeholder="wie im Buch gedruckt"
-                  value={row.displayName}
-                  onChange={(e) =>
-                    updateRow(index, { displayName: e.currentTarget.value })
-                  }
-                />
-              </Stack>
-              <div>
-                {index === 0 && (
-                  <Text
-                    fw={500}
-                    size="sm"
-                    mb={4}
-                  >
-                    Rolle
-                  </Text>
-                )}
-                <Chip.Group
-                  multiple
-                  value={row.roles}
-                  onChange={(value) => updateRow(index, { roles: value })}
-                >
-                  <Stack gap="xs">
-                    {ROLES.map((r) => (
-                      <Chip
-                        key={r.value}
-                        value={r.value}
-                        size="sm"
-                      >
-                        {r.label}
-                      </Chip>
-                    ))}
-                  </Stack>
-                </Chip.Group>
-              </div>
-            </Group>
-          ))}
-          <Button
-            variant="light"
-            onClick={addRow}
-            style={{ alignSelf: 'flex-start' }}
-          >
-            + weitere Person
-          </Button>
-        </Stack>
-      )}
-
-      {/* VARIANT B — Rolle zuerst, Personen pro Rolle */}
-      {PERSON_VARIANT === 'B' && (
-        <Stack gap="md">
-          <PersonRolePicker
-            label="Verfasser:in"
-            data={peopleData}
-            selected={authorIds}
-            onChange={setAuthorIds}
-          />
-          <PersonRolePicker
-            label="Herausgeber:in"
-            data={peopleData}
-            selected={editorIds}
-            onChange={setEditorIds}
-          />
-          <PersonRolePicker
-            label="Mitwirkende:r"
-            data={peopleData}
-            selected={contributorIds}
-            onChange={setContributorIds}
-          />
-          <PersonRolePicker
-            label="Übersetzer:in"
-            data={peopleData}
-            selected={translatorIds}
-            onChange={setTranslatorIds}
-          />
-        </Stack>
-      )}
+      <Stack gap="md">
+        <PersonRolePicker
+          label="Verfasser:in"
+          data={peopleData}
+          selected={authors}
+          onChange={setAuthors}
+        />
+        <PersonRolePicker
+          label="Herausgeber:in"
+          data={peopleData}
+          selected={editors}
+          onChange={setEditors}
+        />
+        <PersonRolePicker
+          label="Mitwirkende:r"
+          data={peopleData}
+          selected={contributors}
+          onChange={setContributors}
+        />
+        <PersonRolePicker
+          label="Übersetzer:in"
+          data={peopleData}
+          selected={translators}
+          onChange={setTranslators}
+        />
+      </Stack>
 
       <Checkbox
         label="Person nicht gefunden? Neue Person anlegen"
@@ -413,7 +340,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
       {showNewPerson && (
         <Stack gap="sm">
           <Checkbox
-            label="Organisation (keine Einzelperson)"
+            label="Organisation"
             checked={newIsOrg}
             onChange={(e) => setNewIsOrg(e.currentTarget.checked)}
           />
@@ -510,10 +437,10 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
           size="sm"
           mb={4}
         >
-          Format
+          Erscheinungsform
         </Text>
         <Select
-          placeholder="Format"
+          placeholder="Erscheinungsform"
           data={FORMAT_BASE.map((f) => ({
             value: f.abbrev,
             label: `${f.abbrev} – ${f.expanded}`,
@@ -547,12 +474,12 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         onChange={(e) => setCondition(e.currentTarget.value)}
       />
       <TextInput
-        label="Illustrationen"
+        label="Illustrationen & Abbildungen"
         value={illustrations}
         onChange={(e) => setIllustrations(e.currentTarget.value)}
       />
       <TextInput
-        label="Beilagen, besondere Verpackungen, etc."
+        label="Beilagen"
         value={packaging}
         onChange={(e) => setPackaging(e.currentTarget.value)}
       />
