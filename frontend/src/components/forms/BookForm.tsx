@@ -20,6 +20,7 @@ import {
   CreateBookInput,
   AuthorListItem,
 } from '@/types/database';
+import { TOPICS } from '../topics';
 import { FORMAT_BASE, FORMAT_EXTRAS } from '@/components/constants';
 import { startsWithFilter } from '@/lib/selectFilters';
 import { formatPerson } from '@/lib/formatters';
@@ -177,14 +178,6 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
   const [newPrefix, setNewPrefix] = useState('');
   const [newSuffix, setNewSuffix] = useState('');
 
-  useEffect(() => {
-    fetch('/api/topics')
-      .then((r) => r.json())
-      .then((result) => {
-        if (result.data) setTopics(result.data);
-      });
-  }, []);
-
   // language list: loaded once
   useEffect(() => {
     fetch('/api/suggestions?field=language')
@@ -302,7 +295,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
     <Stack gap="md">
       <Select
         label="Thema"
-        data={topics.map((t) => ({
+        data={TOPICS.map((t) => ({
           value: t.topic_id.toString(),
           label: t.topic_name,
         }))}

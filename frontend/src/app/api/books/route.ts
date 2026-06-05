@@ -7,6 +7,7 @@ import {
   Price,
   Topic,
 } from '@/types/database';
+import { TOPICS } from '@/components/topics';
 import {
   getBooksFilteredByAuthor,
   getAllBooksPaginated,
@@ -19,7 +20,6 @@ import {
   markBookAsRemoved,
 } from '@/lib/queries/books';
 import { canModify, canViewPrices } from '@/lib/auth';
-import { getAllTopics } from '@/lib/queries/topics';
 
 /**
  * GET /api/books
@@ -88,8 +88,7 @@ export async function GET(request: Request) {
     const people = await getPeopleForBooks(bookIds);
 
     const prices = await getPricesForBooks(bookIds);
-    // CLAUDE THINKS THIS CALL CAN BE REMOVED, but if I do, the topics below break. I'll get back to this
-    const topics = await getAllTopics();
+    const topics = TOPICS;
 
     const booksWithPeople = books.map((book) => ({
       ...book,

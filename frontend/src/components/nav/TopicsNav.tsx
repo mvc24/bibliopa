@@ -3,25 +3,10 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { NavLink, Stack } from '@mantine/core';
-import { Topic } from '@/types/database';
-import { useEffect, useState } from 'react';
+import { TOPICS } from '../topics';
 
 export function TopicsNav() {
-  const [topics, setTopics] = useState<Topic[]>([]);
   const pathname = usePathname();
-
-  useEffect(() => {
-    fetch('/api/topics')
-      .then((response) => response.json())
-      .then((result) => {
-        if (result.data) {
-          setTopics(result.data);
-        }
-      })
-      .catch((error) => {
-        console.error('Failed to load topics:', error);
-      });
-  }, []);
 
   return (
     <Stack
@@ -38,7 +23,7 @@ export function TopicsNav() {
         variant="subtle"
         active={pathname === 'Alle Daten'}
       ></NavLink>
-      {topics.map((topic) => (
+      {TOPICS.map((topic) => (
         <NavLink
           key={topic.topic_id}
           component={Link}

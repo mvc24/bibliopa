@@ -5,6 +5,10 @@ import { getAllTopics } from '@/lib/queries/topics';
 /**
  * GET /api/topics
  * List all topics
+ *
+ * NOTE: currently unused. Topics are served from src/components/topics.ts
+ * to avoid a DB query on every page load. Kept here so the endpoint is
+ * available again if some API consumer ever needs it.
  */
 export async function GET() {
   try {

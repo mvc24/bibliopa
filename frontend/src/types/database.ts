@@ -130,7 +130,6 @@ export interface AuthorListItem {
 export interface Topic {
   topic_id: number;
   topic_name: string;
-  created_at: Date;
   topic_normalised: string;
 }
 

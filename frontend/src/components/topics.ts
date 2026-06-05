@@ -1,8 +1,4 @@
-export type Topic = {
-  topic_id: number;
-  topic_name: string;
-  topic_normalised: string;
-};
+import { Topic } from '@/types/database';
 
 export const TOPICS: Topic[] = [
   { topic_id: 11, topic_name: "Ägypten, Vorderer Orient", topic_normalised: "aegypten" },
