@@ -25,3 +25,78 @@ body {
     color: var(--foreground);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ── Layout / app shell ───────────────────────────────────────────────
+   Structure for the classless nav components (AppShell, MainNav,
+   TopicsNav). Visual theming (colours, real spacing, fonts) arrives in
+   the token pass; the borders and sizes here are placeholders, same
+   spirit as the form. */
+@layer components {
+    .app-shell {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    .app-topbar {
+        display: flex;
+        height: 4rem;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding-inline: 1rem;
+        border-bottom: 1px solid;
+    }
+
+    .app-topbar-start {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .app-burger {
+        border: 1px solid;
+        padding: 0.25rem 0.5rem;
+    }
+
+    .app-brand {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .app-body {
+        display: flex;
+        flex: 1;
+        min-height: 0;
+    }
+
+    .app-sidebar {
+        width: 16rem;
+        flex-shrink: 0;
+        overflow: auto;
+        border-right: 1px solid;
+    }
+
+    .app-main {
+        flex: 1;
+        min-width: 0;
+        overflow: auto;
+        padding: 1rem;
+    }
+
+    .main-nav {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .main-nav-avatar {
+        border: 1px solid;
+        padding: 0.25rem 0.5rem;
+    }
+
+    .topics-nav {
+        display: flex;
+        flex-direction: column;
+    }
+}

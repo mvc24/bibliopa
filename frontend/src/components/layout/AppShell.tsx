@@ -1,75 +1,47 @@
 'use client';
 
-import {
-  AppShell as MantineAppShell,
-  AppShellHeader,
-  AppShellMain,
-  AppShellNavbar,
-  Burger,
-  Group,
-  Title,
-  Box,
-} from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
+import { useState } from 'react';
+import Link from 'next/link';
+import { Button } from 'react-aria-components';
 import { MainNav } from '../nav/MainNav';
 import { TopicsNav } from '../nav/TopicsNav';
-import Link from 'next/link';
-// import { usePathname } from 'next/navigation';
 
+// Classless — styling lives in globals.css under the semantic hooks
+// (app-shell, app-topbar, app-sidebar, app-main, app-burger…). The sidebar
+// holds the ~50 topics (his data index): visible by default, collapsible
+// via the burger to give the catalogue full width; the same burger opens
+// it on mobile.
 export function AppShell({ children }: { children: React.ReactNode }) {
-  const [mobileOpened, { toggle: toggleMobile }] = useDisclosure();
-  const [desktopOpened] = useDisclosure(true);
-  // const pathname = usePathname();
-  // const isOnBooksPage = pathname.startsWith('/books');
+  const [navOpen, setNavOpen] = useState(true);
 
   return (
-    <MantineAppShell
-      header={{ height: 64 }}
-      navbar={{
-        width: 260,
-        breakpoint: 'sm',
-        collapsed: { mobile: !mobileOpened, desktop: !desktopOpened },
-      }}
-      padding="md"
-    >
-      <AppShellHeader>
-        <Group
-          h="100%"
-          px="md"
-          justify="space-between"
-        >
-          <Group>
-            <Burger
-              opened={mobileOpened}
-              onClick={toggleMobile}
-              hiddenFrom="sm"
-              size="sm"
-              aria-label="Toggle navigation"
-            />
-            <Link
-              href="/"
-              style={{ cursor: 'pointer' }}
-            >
-              <Title
-                order={2}
-                fw={700}
-              >
-                Bibliopa
-              </Title>
-            </Link>
-          </Group>
-          <Group visibleFrom="sm">
-            <MainNav />
-          </Group>
-        </Group>
-      </AppShellHeader>
-      <AppShellNavbar p="md">
-        <Box>
-          <TopicsNav />
-        </Box>
-      </AppShellNavbar>
+    <div className="app-shell">
+      <header className="app-topbar">
+        <div className="app-topbar-start">
+          <Button
+            onPress={() => setNavOpen((open) => !open)}
+            aria-label="Themen ein- oder ausblenden"
+            aria-expanded={navOpen}
+            aria-controls="topics-sidebar"
+            className="app-burger"
+          >
+            ☰
+          </Button>
+          <Link href="/" className="app-brand">
+            Bibliopa
+          </Link>
+        </div>
+        <MainNav />
+      </header>
 
-      <AppShellMain>{children}</AppShellMain>
-    </MantineAppShell>
+      <div className="app-body">
+        {navOpen && (
+          <nav id="topics-sidebar" aria-label="Themen" className="app-sidebar">
+            <TopicsNav />
+          </nav>
+        )}
+        <main className="app-main">{children}</main>
+      </div>
+    </div>
   );
 }

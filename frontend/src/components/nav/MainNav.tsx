@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Group, Anchor, Menu, Avatar } from '@mantine/core';
+import { MenuTrigger, Menu, MenuItem, Popover, Button } from 'react-aria-components';
 import { useSession, signOut } from 'next-auth/react';
 import { UserRole } from '@/types/database';
 
@@ -32,51 +32,46 @@ export function MainNav() {
   };
 
   return (
-    <Group
-      gap="md"
-      role="navigation"
-    >
+    <nav aria-label="Hauptmenü" className="main-nav">
       {canAddBooks && (
-        <Anchor
-          component={Link}
+        <Link
           href="/books/new"
-          underline={pathname === '/books/new' ? 'always' : 'hover'}
+          aria-current={pathname === '/books/new' ? 'page' : undefined}
         >
           Katalogisieren
-        </Anchor>
+        </Link>
       )}
       {links.map((link) => {
         const active = pathname === link.href;
         return (
-          <Anchor
+          <Link
             key={link.href}
-            component={Link}
             href={link.href}
-            underline={active ? 'always' : 'hover'}
             aria-current={active ? 'page' : undefined}
           >
             {link.label}
-          </Anchor>
+          </Link>
         );
       })}
       {status === 'authenticated' ? (
-        <Menu>
-          <Menu.Target>
-            <Avatar style={{ cursor: 'pointer' }}>{getInitial()}</Avatar>
-          </Menu.Target>
-          <Menu.Dropdown>
-            <Menu.Item onClick={handleLogout}>Logout</Menu.Item>
-          </Menu.Dropdown>
-        </Menu>
+        <MenuTrigger>
+          <Button aria-label="Konto" className="main-nav-avatar">
+            {getInitial()}
+          </Button>
+          <Popover>
+            <Menu>
+              <MenuItem onAction={handleLogout}>Logout</MenuItem>
+            </Menu>
+          </Popover>
+        </MenuTrigger>
       ) : (
-        <Anchor
-          component={Link}
+        <Link
           href="/login"
-          underline={pathname === '/login' ? 'always' : 'hover'}
+          aria-current={pathname === '/login' ? 'page' : undefined}
         >
           Login
-        </Anchor>
+        </Link>
       )}
-    </Group>
+    </nav>
   );
 }
