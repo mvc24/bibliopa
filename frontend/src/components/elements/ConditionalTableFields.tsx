@@ -1,5 +1,6 @@
-import { Table } from '@mantine/core';
-
+// One label/value pair in the book detail description list (<dl>). Renders
+// nothing when the value is empty. Arrays are joined with newlines (the
+// pre-line keeps those breaks).
 export function ConditionalTableFields({
   label,
   value,
@@ -10,21 +11,14 @@ export function ConditionalTableFields({
   if (!value || (Array.isArray(value) && value.length === 0)) return null;
 
   return (
-    <Table.Tr>
-      <Table.Td
-        fw={700}
-        w={120}
-        style={{ verticalAlign: 'top', lineBreak: 'strict' }}
-        fz="lg"
-      >
-        {label}
-      </Table.Td>
-      <Table.Td
-        fz="lg"
+    <div className="field-row">
+      <dt className="field-label">{label}</dt>
+      <dd
+        className="field-value"
         style={{ whiteSpace: 'pre-line' }}
       >
         {Array.isArray(value) ? value.join('\n') : value}
-      </Table.Td>
-    </Table.Tr>
+      </dd>
+    </div>
   );
 }

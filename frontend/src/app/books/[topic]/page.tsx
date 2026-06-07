@@ -3,28 +3,15 @@ import { useState, useEffect } from 'react';
 import { useParams, useSearchParams } from 'next/navigation';
 
 import { BookOverview, PaginationInfo } from '@/types/database';
-import { useRouter } from 'next/navigation';
 
 import { AppShell } from '../../../components/layout/AppShell';
-import {
-  Card,
-  Title,
-  Stack,
-  TextInput,
-  Button,
-  Group,
-  Modal,
-  NumberInput,
-  Text,
-  Pagination,
-  Box,
-  Kbd,
-} from '@mantine/core';
+import { Card, Stack, Group } from '@mantine/core';
+import { GridList, GridListItem, Button as AriaButton } from 'react-aria-components';
 import { formatPerson } from '@/lib/formatters';
-import { useDisclosure } from '@mantine/hooks';
 import { AuthorFilter } from '@/components/elements/AuthorFilter';
+import { SearchBox } from '@/components/elements/SearchBox';
 import { useRemoveBook } from '@/lib/hooks/useRemoveBook';
-import { useAddPrice } from '@/lib/hooks/useAddPrice';
+import { PriceDialog } from '@/components/elements/PriceDialog';
 
 export default function BibliographyPage() {
   const params = useParams();
@@ -40,19 +27,16 @@ export default function BibliographyPage() {
   const [showPrices, setShowPrices] = useState(false);
   const [canModify, setCanModify] = useState(false);
   const [selectedBookId, setselectedBookId] = useState<number | null>(null);
-  const [priceAmount, setPriceAmount] = useState<number | string>('');
-  const [priceSource, setPriceSource] = useState('');
-  const [opened, { open, close }] = useDisclosure(false);
-  const [searchTerm, setSearchTerm] = useState('');
+  const [priceOpen, setPriceOpen] = useState(false);
   const [activeSearch, setActiveSearch] = useState('');
-  const router = useRouter();
 
-  const handleSearch = () => {
-    if (searchTerm.trim()) {
-      setActiveSearch(searchTerm);
+  const handleSearch = (term: string) => {
+    if (term.trim()) {
+      setActiveSearch(term);
       setCurrentPage(1);
     } else {
       setActiveSearch('');
+      setCurrentPage(1);
     }
   };
 
@@ -79,10 +63,6 @@ export default function BibliographyPage() {
   };
 
   const { removeBook, isLoading } = useRemoveBook(fetchBooks);
-  const { addPrice, isLoadingPrice } = useAddPrice(() => {
-    fetchBooks();
-    close();
-  });
   useEffect(() => {
     fetchBooks();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -138,17 +118,7 @@ export default function BibliographyPage() {
         >
           <Stack gap="xs">
             <AuthorFilter />
-            <TextInput
-              label="Suche"
-              placeholder="Volltextsuche"
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.currentTarget.value)}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter') {
-                  handleSearch();
-                }
-              }}
-            />
+            <SearchBox onSearch={handleSearch} />
             <Group gap="m">
               {/* <Button variant="light">Advanced filters</Button> */}
               {/* <Button
@@ -177,159 +147,112 @@ export default function BibliographyPage() {
             </Group> */}
           </Stack>
         </Card>
-        <Stack>
-          {bookData.map((book) => (
-            <Card
-              key={book.book_id}
-              id={`book-${book.book_id}`}
-              onClick={() =>
-                router.push(
-                  `/books/${book.topic_normalised || 'all'}/${
-                    book.book_id
-                  }?page=${currentPage}${
-                    authorId ? `&author=${authorId}` : ''
-                  }#book-${book.book_id}`,
-                )
-              }
-              style={{ cursor: 'pointer' }}
-              shadow="sm"
-              padding="md"
-            >
-              <Group
-                justify="space-between"
-                align="flex-start"
+        <GridList
+          aria-label="Bücher"
+          className="book-list"
+        >
+          {bookData.map((book) => {
+            const href = `/books/${book.topic_normalised || 'all'}/${
+              book.book_id
+            }?page=${currentPage}${
+              authorId ? `&author=${authorId}` : ''
+            }#book-${book.book_id}`;
+            return (
+              <GridListItem
+                key={book.book_id}
+                id={book.book_id}
+                textValue={book.title}
+                href={href}
+                className="book-row"
               >
-                <Box style={{ flex: 2 }}>
-                  <Group>
-                    <Text size="md">{book.authors}</Text>
-                  </Group>
-                  <Title
-                    order={2}
-                    size="md"
-                    textWrap="balance"
-                    c="#264a46"
-                  >
-                    {book.title}
-                  </Title>
-                  <Text
-                    size="sm"
-                    c="dimmed"
-                  >
-                    {book.subtitle}
-                  </Text>
-                  {book.editors && (
-                    <Group>
-                      <Text size="sm">Herausgegeben von {book.editors}</Text>
-                    </Group>
+                {/* DOM id stays on an inner element so the detail page's
+                    return link (#book-<id>) can still scroll to it — RAC uses
+                    GridListItem's own id as the collection key, not a DOM id. */}
+                <div
+                  id={`book-${book.book_id}`}
+                  className="book-entry"
+                >
+                  <span className="book-authors">{book.authors}</span>
+                  <h2 className="book-title">{book.title}</h2>
+                  {book.subtitle && (
+                    <p className="book-subtitle">{book.subtitle}</p>
                   )}
-                  <Group>
-                    <Text size="sm">
-                      {book.publication_year && `${book.publication_year}. `}
-                      Verlag/Ort: {book.publisher} : {book.place_of_publication}
-                    </Text>
-                  </Group>
-                </Box>
+                  {book.editors && (
+                    <p className="book-editors">
+                      Herausgegeben von {book.editors}
+                    </p>
+                  )}
+                  <p className="book-publication">
+                    {book.publication_year && `${book.publication_year}. `}
+                    Verlag/Ort: {book.publisher} : {book.place_of_publication}
+                  </p>
+                </div>
 
                 {canModify && (
-                  <Box
-                    style={{
-                      flex: 1,
-                      display: 'flex',
-                      flexDirection: 'column',
-                      alignItems: 'flex-end',
-                      gap: '8px',
-                    }}
-                  >
+                  <div className="book-actions">
                     {book.mostRecentPrice ? (
-                      <Button
-                        variant="light"
-                        radius="xl"
-                        size="sm"
-                        onClick={(e) => {
-                          e.stopPropagation();
+                      <AriaButton
+                        onPress={() => {
                           setselectedBookId(book.book_id);
-                          open();
+                          setPriceOpen(true);
                         }}
                       >
                         € {book.mostRecentPrice.amount}
-                      </Button>
+                      </AriaButton>
                     ) : (
-                      <Button
-                        radius="xl"
-                        size="sm"
-                        onClick={(e) => {
-                          e.stopPropagation();
+                      <AriaButton
+                        onPress={() => {
                           setselectedBookId(book.book_id);
-                          open();
+                          setPriceOpen(true);
                         }}
                       >
                         Preis hinzufügen
-                      </Button>
+                      </AriaButton>
                     )}
-                    <Button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        removeBook(book.book_id);
-                      }}
-                      loading={isLoading}
+                    <AriaButton
+                      onPress={() => removeBook(book.book_id)}
+                      isDisabled={isLoading}
                     >
                       Abschreiben
-                    </Button>
-                  </Box>
+                    </AriaButton>
+                  </div>
                 )}
-              </Group>
-            </Card>
-          ))}
-        </Stack>
+              </GridListItem>
+            );
+          })}
+        </GridList>
 
-        <Modal
-          opened={opened}
-          onClose={close}
-        >
-          <NumberInput
-            label="Betrag"
-            placeholder="Euro"
-            value={priceAmount}
-            onChange={setPriceAmount}
-            // error="Bitte gib einen Betrag ein oder mach das Fenster mit 'ESC' (Taste links oben auf der Tastatur) zu."
-            required
-            hideControls
-          ></NumberInput>
-
-          <TextInput
-            label="Quelle"
-            placeholder="Quelle"
-            value={priceSource}
-            onChange={(e) => setPriceSource(e.currentTarget.value)}
-          ></TextInput>
-          <Text>
-            Hier kannst du mit <Kbd>Strg</Kbd> + <Kbd>C</Kbd> die Adresse der
-            Website kopieren, auf der du den Preis gefunden hast.
-          </Text>
-          <Text>
-            Du kannst aber auch nur eine Notiz hinzufügen, oder das Feld leer
-            lassen.
-          </Text>
-          <Button
-            onClick={(e) => {
-              e.stopPropagation();
-              if (selectedBookId === null) return;
-              addPrice(selectedBookId, priceAmount, priceSource);
-            }}
-            loading={isLoadingPrice}
-          >
-            Speichern
-          </Button>
-        </Modal>
-
-        <Pagination
-          total={pagination?.total_pages || 0}
-          value={currentPage}
-          onChange={setCurrentPage}
-          size="sm"
-          radius="md"
-          withEdges
+        <PriceDialog
+          bookId={selectedBookId}
+          isOpen={priceOpen}
+          onOpenChange={setPriceOpen}
+          onSaved={fetchBooks}
         />
+
+        {pagination && pagination.total_pages > 1 && (
+          <nav
+            className="pagination"
+            aria-label="Seiten"
+          >
+            <AriaButton
+              onPress={() => setCurrentPage((p) => Math.max(1, p - 1))}
+              isDisabled={currentPage <= 1}
+            >
+              ← Vorherige
+            </AriaButton>
+            <span className="pagination-status">
+              Seite {currentPage} von {pagination.total_pages}
+            </span>
+            <AriaButton
+              onPress={() =>
+                setCurrentPage((p) => Math.min(pagination.total_pages, p + 1))
+              }
+              isDisabled={currentPage >= pagination.total_pages}
+            >
+              Nächste →
+            </AriaButton>
+          </nav>
+        )}
       </Stack>
     </AppShell>
   );

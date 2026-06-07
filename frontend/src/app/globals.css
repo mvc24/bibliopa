@@ -34,7 +34,7 @@ body {
 @layer components {
     .app-shell {
         display: flex;
-        min-height: 100vh;
+        height: 100vh;
         flex-direction: column;
     }
 
@@ -98,5 +98,33 @@ body {
     .topics-nav {
         display: flex;
         flex-direction: column;
+    }
+
+    /* Modal / dialog — positioning so the (classless) RAC overlay is
+       actually visible. Applies to every modal app-wide; visual theming
+       refined in the token pass. */
+    .react-aria-ModalOverlay {
+        position: fixed;
+        inset: 0;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+    .react-aria-Modal {
+        max-height: 90vh;
+        overflow: auto;
+        padding: 1rem;
+        background: var(--background);
+        border: 1px solid;
+    }
+
+    .pagination {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
     }
 }

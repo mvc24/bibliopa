@@ -155,14 +155,18 @@ are the accessibility-critical ones.**
   short fixed lists, `input` for long/fetched ones.
 
 
-## Thoughts / upcoming needs
+- CSV
 
-- I don't like the current font and also the colour scheme isn't actually set yet - I'll need to ask you some specifics about that before we go ahead, but I might need other answers first.
-- I don't quite understand what RAC system means by "build your own components" - is this basically what we just did with the dropdown/select/combobox? And could this be applied to "missing" components like the "Card" that is the central part of the bibliography page, and really is just a type of styled div that will then loop over a Collection of data? 
-- a "show prices" toggle in the avatar popover that makes the page behave as if the user wasn't logged in (without actually changing the role or login status), only available for "family" and "admin" -> using "Switch" component
-- if not super complicated: a way to easily make the UI have larger text (Slider or Switch?)
-- I'll need a way to show/download a pdf version of a filtered list (but I'm not sure that this is the right place to put this thought)
-- is there a way to do something like an A/B test for different styles/versions (as in really big differences) where I can let him choose? That worked really well for the "add person" section. Not everywhere but in some instances this might be important.
-- current books page uses the Cards component from mantine, but that isn't that great either, because it doesn't allow for links to be opened in a separate tab, for instance, and also the two buttons to add a price and remove a book don't look great. But this list is absolutely central and the display needs to be as close to a "library catalogue" list as possible. The redesign of that page/components needs to be handled very carefully. I've just created a copy of the book list and single book page to make sure we have a working copy available. The current features that need to remain: displaying information from various sources vertically, not horizontally in cells. I don't want you to create complicated html styles for that just yet because it is really complicated, so let's see what the options are. The thing that also mustn't get lost is that the "return" link on the detail page gets you back to the exact entry you just came from.
-- For the detail page, my grandpa was wishing for something that looks more like one of the old library catalogue cards, not stacked in a table, but I'm personally not really a fan of that - but if possible that might be a case for A/B testing.
-- I'm not sure how to best do the navigation - the current solution is clunky and doesn't work properly on mobile (a bit on purpose because of the mantine's nav constraints). I feel like NOW is the only time where I can still make big changes because he hasn't really used the new system yet. Maybe having a kind drawer/popover menu he can open and close to make more space for the information on the page might be better, but have it a bit more prominent/accessible on the landing page (which is also still basically empty)
+0c2029,8a6c49,4c615a,493d2d
+
+- With #
+
+#0c2029, #8a6c49, #4c615a, #493d2d
+
+- Array
+
+["0c2029","8a6c49","4c615a","493d2d"]
+
+- Object
+
+{"Ink Black":"0c2029","Olive Wood":"8a6c49","Granite":"4c615a","Taupe":"493d2d"}

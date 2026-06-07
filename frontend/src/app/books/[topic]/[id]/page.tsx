@@ -1,24 +1,16 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { useParams, useSearchParams } from 'next/navigation';
+import { useParams, useSearchParams, useRouter } from 'next/navigation';
 import { AppShell } from '@/components/layout/AppShell';
-import {
-  Card,
-  Grid,
-  Stack,
-  Text,
-  Breadcrumbs,
-  Anchor,
-  Box,
-  Table,
-  Button,
-} from '@mantine/core';
+import { Button } from 'react-aria-components';
 import { BookDetail, BookOverview } from '@/types/database';
 import Link from 'next/link';
 import { formatPerson } from '@/lib/formatters';
 
 import { ConditionalTableFields } from '@/components/elements/ConditionalTableFields';
 import { BookForm } from '@/components/forms/BookForm';
+import { useRemoveBook } from '@/lib/hooks/useRemoveBook';
+import { PriceDialog } from '@/components/elements/PriceDialog';
 
 export default function SingleBookPage() {
   const params = useParams();
@@ -30,22 +22,33 @@ export default function SingleBookPage() {
   const [book, setBook] = useState<BookDetail | null>(null);
   const [canModifyBooks, setCanModify] = useState(false);
   const [showPrices, setShowPrices] = useState(false);
-  const [priceAmount, setPriceAmount] = useState<number | string>('');
-  const [priceSource, setPriceSource] = useState('');
   const [isEditing, setIsEditing] = useState(false);
+  const [priceOpen, setPriceOpen] = useState(false);
+  const router = useRouter();
+
+  const listHref = `/books/${topic}?page=${page}${
+    authorId ? `&author=${authorId}` : ''
+  }`;
+
+  const fetchBook = () => {
+    fetch(`/api/books/${bookId}`)
+      .then((response) => response.json())
+      .then((result) => {
+        setBook(result.data);
+        setShowPrices(result.permissions?.canViewPrices || false);
+        setCanModify(result.permissions?.canModifyBooks || false);
+      });
+  };
 
   useEffect(() => {
-    if (bookId) {
-      fetch(`/api/books/${bookId}`)
-        .then((response) => response.json())
-        .then((result) => {
-          setBook(result.data);
-          setShowPrices(result.permissions?.canViewPrices || false);
-          setCanModify(result.permissions?.canModifyBooks || false);
-          // console.log('detail permissions:', result.permissions);
-        });
-    }
+    if (bookId) fetchBook();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [bookId]);
+
+  // Same wiring as the bibliography list: Abschreiben removes the book — here
+  // we route back to the list afterwards, since this entry is now gone — and
+  // the price dialog refetches the book on success.
+  const { removeBook, isLoading } = useRemoveBook(() => router.push(listHref));
 
   const mostRecentPrice =
     book?.prices
@@ -130,7 +133,7 @@ export default function SingleBookPage() {
 
   return (
     <AppShell>
-      <Stack gap="md">
+      <div className="book-detail">
         {/* <Breadcrumbs>
           <Anchor
             component={Link}
@@ -146,15 +149,12 @@ export default function SingleBookPage() {
           </Anchor>
           <Text>{book?.title || 'Loading...'}</Text>
         </Breadcrumbs> */}
-        <Anchor
-          component={Link}
-          href={`/books/${topic}?page=${page}${
-            authorId ? `&author=${authorId}` : ''
-          }#book-${bookId}`}
-          style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+        <Link
+          href={`${listHref}#book-${bookId}`}
+          className="book-detail-back"
         >
           ← Zurück
-        </Anchor>
+        </Link>
         {/* <Title order={3}>{book?.title}</Title>
         <Text c="grape">Diese Seite ist noch nicht fertig.</Text>
         <Text size="md">{book?.admin_data?.original_entry}</Text> */}
@@ -177,14 +177,9 @@ export default function SingleBookPage() {
             }}
           />
         ) : (
-          <Grid>
-            <Grid.Col span={9}>
-              <Table
-                withRowBorders={false}
-                variant={'vertical'}
-                // layout={'fixed'}
-              >
-                <Table.Tbody>
+          <>
+            <div className="book-detail-body">
+            <dl className="book-fields">
                   <ConditionalTableFields
                     label="Titel"
                     value={
@@ -277,83 +272,66 @@ export default function SingleBookPage() {
                 />
                 */}
                   {showPrices && (
-                    <Table.Tr>
-                      <Table.Th
-                        fw={700}
-                        w={120}
-                        style={{
-                          verticalAlign: 'top',
-                          lineBreak: 'strict',
-                          background: 'none',
-                        }}
-                        fz="lg"
-                      >
-                        Preise
-                      </Table.Th>
-                      <Table.Td
-                        fz="lg"
-                        style={{ whiteSpace: 'pre-line' }}
-                      >
-                        <Box>
-                          {book?.prices &&
-                          book.prices.filter((p) => p.amount).length > 0 ? (
-                            <Stack gap="xs">
-                              {book.prices
-                                .filter((p) => p.amount)
-                                .map((price) => (
-                                  <Text key={price.price_id}>
-                                    € {price.amount}
-                                    {price.source && ` - ${price.source}`}
-                                    {' - '}
-                                    {new Date(
-                                      price.date_added,
-                                    ).toLocaleDateString('de-DE')}
-                                  </Text>
-                                ))}
-                            </Stack>
-                          ) : (
-                            <Text size={'md'}>Keine Preise vorhanden</Text>
-                          )}
-                        </Box>
-                      </Table.Td>
-                    </Table.Tr>
+                    <div className="field-row">
+                      <dt className="field-label">Preise</dt>
+                      <dd className="field-value">
+                        {book?.prices &&
+                        book.prices.filter((p) => p.amount).length > 0 ? (
+                          book.prices
+                            .filter((p) => p.amount)
+                            .map((price) => (
+                              <p key={price.price_id}>
+                                € {price.amount}
+                                {price.source && ` - ${price.source}`}
+                                {' - '}
+                                {new Date(
+                                  price.date_added,
+                                ).toLocaleDateString('de-DE')}
+                              </p>
+                            ))
+                        ) : (
+                          <p>Keine Preise vorhanden</p>
+                        )}
+                      </dd>
+                    </div>
                   )}
 
-                  <Table.Tr style={{ paddingTop: '100px' }}>
-                    <Table.Th
-                      fw={700}
-                      w={120}
-                      style={{
-                        verticalAlign: 'top',
-                        lineBreak: 'strict',
-                      }}
-                      fz="sm"
-                    >
-                      Datensatz Original
-                    </Table.Th>
-                    <Table.Td
-                      fz="sm"
+                  <div className="field-row">
+                    <dt className="field-label">Datensatz Original</dt>
+                    <dd
+                      className="field-value"
                       style={{ whiteSpace: 'pre-line' }}
                     >
                       {book?.admin_data?.original_entry}
-                    </Table.Td>
-                  </Table.Tr>
-                </Table.Tbody>
-              </Table>
-            </Grid.Col>
+                    </dd>
+                  </div>
+                </dl>
 
             {canModifyBooks && (
-              <Grid.Col span={3}>
-                <Stack gap="md">
-                  <Button>Preis hinzufügen</Button>
-                  <Button onClick={() => setIsEditing(true)}>
-                    Daten bearbeiten
-                  </Button>
-                  <Button>Abschreiben</Button>
-                </Stack>
-              </Grid.Col>
+              <aside className="book-detail-actions">
+                <Button onPress={() => setPriceOpen(true)}>
+                  Preis hinzufügen
+                </Button>
+                <Button onPress={() => setIsEditing(true)}>
+                  Daten bearbeiten
+                </Button>
+                <Button
+                  onPress={() => removeBook(Number(bookId))}
+                  isDisabled={isLoading}
+                >
+                  Abschreiben
+                </Button>
+              </aside>
             )}
-          </Grid>
+            </div>
+
+            <PriceDialog
+              bookId={Number(bookId)}
+              isOpen={priceOpen}
+              onOpenChange={setPriceOpen}
+              onSaved={fetchBook}
+            />
+          </>
         )}
 
         {/* <Card
@@ -370,7 +348,7 @@ export default function SingleBookPage() {
             {JSON.stringify(book, null, 2)}
           </pre>
         </Card> */}
-      </Stack>
+      </div>
     </AppShell>
   );
 }

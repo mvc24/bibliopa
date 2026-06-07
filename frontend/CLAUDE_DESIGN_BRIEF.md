@@ -32,10 +32,8 @@ screen (the catalogue list) at **Normal** and at **Larger** so we can check it
 still holds together.
 
 ## Aesthetic input needed from the design
-- **Font:** the current one isn't liked. Propose a highly legible choice (note
-  serif vs sans; a large x-height helps low vision). _[Maria: add your
-  preference here — serif/sans, warm/cool, any examples you like.]_
-- **Palette:** choose the colours, but they must satisfy the contrast rules above.
+- **Font:** I want you to use Adobe Jenson Pro, I've added it to a project <link rel="stylesheet" href="https://use.typekit.net/eiy0qlm.css">
+- **Palette:** here are some suggestions: #0c2029, #8a6c49, #4c615a, #493d2d
 
 ## Screens to mock (so the system is tested against real layouts)
 1. Top bar + a collapsible left sidebar listing ~50 topics (his data index).
