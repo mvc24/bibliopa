@@ -1,6 +1,6 @@
 'use client';
 
-import { type FormEvent, useState, useEffect, useMemo } from 'react';
+import { type SyntheticEvent, useState, useEffect, useMemo } from 'react';
 import {
   Form,
   TextField,
@@ -9,7 +9,8 @@ import {
   Input,
   Button,
   Checkbox,
-  CheckboxGroup,
+  ToggleButtonGroup,
+  ToggleButton,
 } from 'react-aria-components';
 import {
   BookDetail,
@@ -26,21 +27,6 @@ import { formatPerson } from '@/lib/formatters';
 interface PersonEntry {
   personId: string;
   displayName: string;
-}
-
-// Bare-minimum styling only: enough to see and use the controls.
-// border = currentColor in Tailwind v4 (no colour value). Real styling
-// happens in a later pass.
-const inputClass = 'border px-2 py-1';
-
-// A checkbox box + tick, visible without any colour. The tick shows when the
-// parent Checkbox is selected (group-data-[selected]).
-function CheckboxBox() {
-  return (
-    <span className="inline-flex w-4 h-4 border items-center justify-center">
-      <span className="hidden group-data-[selected]:block">✓</span>
-    </span>
-  );
 }
 
 // One field per person in a role: a ComboBox for the person plus a free-text
@@ -96,7 +82,7 @@ function PersonRolePicker({
             onChange={(v) => setNameAt(index, v)}
           >
             <Label>Alternative Schreibweise</Label>
-            <Input className={inputClass} />
+            <Input />
           </TextField>
         </div>
       ))}
@@ -269,7 +255,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
     return { format_original, format_expanded };
   }
 
-  function handleSubmit(e: FormEvent) {
+  function handleSubmit(e: SyntheticEvent) {
     e.preventDefault();
     const { format_original, format_expanded } = assembleFormat();
 
@@ -406,9 +392,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
       <Checkbox
         isSelected={showNewPerson}
         onChange={setShowNewPerson}
-        className="group flex items-center gap-2"
       >
-        <CheckboxBox />
         Person nicht gefunden? Neue Person anlegen
       </Checkbox>
 
@@ -417,9 +401,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
           <Checkbox
             isSelected={newIsOrg}
             onChange={setNewIsOrg}
-            className="group flex items-center gap-2"
           >
-            <CheckboxBox />
             Organisation
           </Checkbox>
 
@@ -429,7 +411,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
               onChange={setNewSingleName}
             >
               <Label>Bezeichnung</Label>
-              <Input className={inputClass} />
+              <Input />
             </TextField>
           ) : (
             <>
@@ -439,14 +421,14 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
                   onChange={setNewGivenNames}
                 >
                   <Label>Vorname(n)</Label>
-                  <Input className={inputClass} />
+                  <Input />
                 </TextField>
                 <TextField
                   value={newFamilyName}
                   onChange={setNewFamilyName}
                 >
                   <Label>Nachname</Label>
-                  <Input className={inputClass} />
+                  <Input />
                 </TextField>
               </div>
               <div className="flex gap-2">
@@ -455,21 +437,21 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
                   onChange={setNewParticles}
                 >
                   <Label>Namenszusatz (von, de …)</Label>
-                  <Input className={inputClass} />
+                  <Input />
                 </TextField>
                 <TextField
                   value={newPrefix}
                   onChange={setNewPrefix}
                 >
                   <Label>Präfix (Dr., Prof. …)</Label>
-                  <Input className={inputClass} />
+                  <Input />
                 </TextField>
                 <TextField
                   value={newSuffix}
                   onChange={setNewSuffix}
                 >
                   <Label>Suffix (Jr., d. Ä. …)</Label>
-                  <Input className={inputClass} />
+                  <Input />
                 </TextField>
               </div>
               <TextField
@@ -477,7 +459,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
                 onChange={setNewSingleName}
               >
                 <Label>Einzelname (Platon, Sokrates, …)</Label>
-                <Input className={inputClass} />
+                <Input />
               </TextField>
             </>
           )}
@@ -511,9 +493,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
                   key={label}
                   isSelected={value}
                   onChange={set}
-                  className="group flex items-center gap-1.5"
                 >
-                  <CheckboxBox />
                   {label}
                 </Checkbox>
               ))}
@@ -531,7 +511,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         isRequired
       >
         <Label>Titel *</Label>
-        <Input className={inputClass} />
+        <Input />
       </TextField>
 
       <TextField
@@ -539,7 +519,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         onChange={setSubtitle}
       >
         <Label>Untertitel</Label>
-        <Input className={inputClass} />
+        <Input />
       </TextField>
 
       <NumberField
@@ -549,7 +529,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         maxValue={2100}
       >
         <Label>Erscheinungsjahr</Label>
-        <Input className={inputClass} />
+        <Input />
       </NumberField>
 
       <div className="flex gap-2">
@@ -584,22 +564,21 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
           menuTrigger="focus"
         />
 
-        <CheckboxGroup
-          value={formatExtras}
-          onChange={setFormatExtras}
+        <ToggleButtonGroup
+          selectionMode="multiple"
+          selectedKeys={formatExtras}
+          onSelectionChange={(keys) => setFormatExtras([...keys].map(String))}
           className="flex flex-wrap gap-3"
         >
           {FORMAT_EXTRAS.map((e) => (
-            <Checkbox
+            <ToggleButton
               key={e.abbrev}
-              value={e.abbrev}
-              className="group flex items-center gap-1.5"
+              id={e.abbrev}
             >
-              <CheckboxBox />
               {e.label}
-            </Checkbox>
+            </ToggleButton>
           ))}
-        </CheckboxGroup>
+        </ToggleButtonGroup>
       </div>
 
       <TextField
@@ -607,7 +586,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         onChange={setCondition}
       >
         <Label>Zustand</Label>
-        <Input className={inputClass} />
+        <Input />
       </TextField>
 
       <TextField
@@ -615,7 +594,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         onChange={setIllustrations}
       >
         <Label>Illustrationen & Abbildungen</Label>
-        <Input className={inputClass} />
+        <Input />
       </TextField>
 
       <TextField
@@ -623,16 +602,14 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         onChange={setPackaging}
       >
         <Label>Beilagen</Label>
-        <Input className={inputClass} />
+        <Input />
       </TextField>
 
       {/* Translation */}
       <Checkbox
         isSelected={isTranslation}
         onChange={setIsTranslation}
-        className="group flex items-center gap-2"
       >
-        <CheckboxBox />
         Übersetzung
       </Checkbox>
 
@@ -650,24 +627,16 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
       <Checkbox
         isSelected={isMultivolume}
         onChange={setIsMultivolume}
-        className="group flex items-center gap-2"
       >
-        <CheckboxBox />
         Mehrbändiges Werk
       </Checkbox>
 
       {/* Actions */}
       <div className="flex gap-2">
-        <Button
-          type="submit"
-          className="border px-3 py-1"
-        >
-          Speichern
-        </Button>
+        <Button type="submit">Speichern</Button>
         <Button
           type="button"
           onPress={onCancel}
-          className="border px-3 py-1"
         >
           Abbrechen
         </Button>

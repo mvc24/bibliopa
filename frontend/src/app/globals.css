@@ -1,37 +1,345 @@
 @import "tailwindcss";
+@import url("https://use.typekit.net/eiy0qlm.css");
 @plugin "tailwindcss-react-aria-components";
 
 :root {
-    --background: #fdfdfb;
-    --foreground: #171717;
+    /* --- Colour ---------------------------------------------- */
+
+    /* Backgrounds */
+    --color-bg: #f4eede;
+    /* warm paper — page background        */
+    --color-surface: #fbf7ee;
+    /* cards, popovers, menus              */
+    --color-hover: #dde8e4;
+    /* row / item hover tint               */
+    --color-manila: #ede0c8;
+    /* original-entry card stock           */
+
+    /* Foreground */
+    --color-fg: #0c2029;
+    /* body text     contrast ~14:1 on bg  */
+    --color-muted: #425c53;
+    /* secondary text contrast ~6.2:1 ok   */
+
+    /* Borders (structural ≥3:1 vs bg) */
+    --color-border: #5b746c;
+    /* UI edges      contrast ~4.3:1 ✓     */
+    --color-border-str: #2e4d43;
+    /* strong border / focus-adjacent      */
+
+    /* Primary action (buttons, selected nav) */
+    --color-primary: #163a4b;
+    /* contrast ~8.1:1 vs bg — clearly teal */
+    --color-on-primary: #f4eede;
+    --color-primary-hov: #173d4f;
+
+    /* Selected state (sidebar, segmented controls) */
+    --color-selected: #163a4b;
+    --color-on-sel: #f4eede;
+
+    /* Focus ring */
+    --color-focus: #163a4b;
+    --color-focus-glow: rgba(22, 58, 75, .22);
+
+    /* Error / invalid */
+    --color-invalid: #8c2f22;
+    /* contrast ~6.4:1 on bg              */
+    --color-invalid-bg: #f6e7df;
+
+    /* --- Type ------------------------------------------------ */
+    --font-serif: "adobe-jenson-pro", Georgia, serif;
+    --font-sans: "zeitung", system-ui, sans-serif;
+    --font-mono: "zeitung-mono", "Courier New", monospace;
+
+    /* Scale (root = 18px at Normal) */
+    --text-sm: 0.889rem;
+    /* 16px — UI labels, captions              */
+    --text-base: 1rem;
+    /* 18px — body                             */
+    --text-lg: 1.222rem;
+    /* 22px — book titles in list              */
+    --text-xl: 1.556rem;
+    /* 28px — section headings                 */
+    --text-2xl: 2.111rem;
+    /* 38px — page / detail title              */
+
+    --w-normal: 400;
+    --w-bold: 700;
+
+    --lh-tight: 1.25;
+    /* display headings                            */
+    --lh-snug: 1.42;
+    /* list titles (lets display ink clear)        */
+    --lh-body: 1.65;
+    /* body / imprint text                         */
+
+    /* --- Spacing (6 steps, rem — scales with root) ----------- */
+    --sp-1: 0.333rem;
+    /*  6px */
+    --sp-2: 0.556rem;
+    /* 10px */
+    --sp-3: 0.889rem;
+    /* 16px */
+    --sp-4: 1.333rem;
+    /* 24px */
+    --sp-5: 2rem;
+    /* 36px */
+    --sp-6: 2.667rem;
+    /* 48px */
+
+    /* --- Sizing ---------------------------------------------- */
+    --target: 2.5rem;
+    /* 45px min tap/click area (≥44px)         */
+    --control-h: 3rem;
+    /* uniform height: inputs, selects, btns   */
+    --radius: 4px;
+    --border-w: 1px;
+    /* standard                                */
+    --border-w2: 2px;
+    /* inputs and emphasis                     */
+    --focus-w: 3px;
+    --focus-off: 2px;
+
+    --shadow: 0 1px 0 rgba(22, 58, 75, .07), 0 2px 6px rgba(22, 58, 75, .06);
+    --shadow-pop: 0 6px 24px rgba(14, 40, 55, .2);
 }
 
+/* Bridge the Tailwind colour utilities still used by a few not-yet-stripped
+   components (bg-background / text-foreground) to the palette tokens. */
 @theme inline {
-    --color-background: var(--background);
-    --color-foreground: var(--foreground);
-    --font-sans: var(--font-geist-sans);
-    --font-mono: var(--font-geist-mono);
+    --color-background: var(--color-bg);
+    --color-foreground: var(--color-fg);
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #0a0a0a;
-        --foreground: #ededed;
-    }
-}
-
+/* ── Foundation ──────────────────────────────────────────────────────── */
 body {
-    background: var(--background);
-    color: var(--foreground);
-    font-family: Arial, Helvetica, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-serif);
+    font-size: var(--text-base);
+    line-height: var(--lh-body);
+    -webkit-font-smoothing: antialiased;
 }
 
-/* ── Layout / app shell ───────────────────────────────────────────────
-   Structure for the classless nav components (AppShell, MainNav,
-   TopicsNav). Visual theming (colours, real spacing, fonts) arrives in
-   the token pass; the borders and sizes here are placeholders, same
-   spirit as the form. */
+:focus-visible {
+    outline: var(--focus-w) solid var(--color-focus);
+    outline-offset: var(--focus-off);
+    border-radius: var(--radius);
+    box-shadow: 0 0 0 6px var(--color-focus-glow);
+}
+
+::selection {
+    background: #c5d8d3;
+}
+
+/* ── Components (translated from the design; targets our classless hooks
+   + the react-aria-* defaults). Form controls that still carry placeholder
+   utility classes override these until they're stripped. ─────────────── */
 @layer components {
+
+    /* --- Shared RAC controls (classless usages) --- */
+    .react-aria-Button {
+        height: var(--control-h);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: var(--sp-2);
+        padding: 0 var(--sp-4);
+        font-family: var(--font-sans);
+        font-weight: var(--w-bold);
+        font-size: var(--text-base);
+        color: var(--color-fg);
+        background: var(--color-surface);
+        border: var(--border-w) solid var(--color-border-str);
+        border-radius: var(--radius);
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .react-aria-Button[data-hovered] {
+        background: var(--color-hover);
+    }
+
+    .react-aria-Button[data-disabled] {
+        opacity: .45;
+        cursor: not-allowed;
+    }
+
+    .react-aria-Input {
+        height: var(--control-h);
+        width: 100%;
+        font-family: var(--font-serif);
+        font-size: var(--text-base);
+        color: var(--color-fg);
+        background: var(--color-surface);
+        border: var(--border-w2) solid var(--color-border);
+        border-radius: var(--radius);
+        padding: 0 var(--sp-3);
+    }
+
+    .react-aria-Input::placeholder {
+        color: var(--color-muted);
+        opacity: .7;
+    }
+
+    .react-aria-Input[data-hovered] {
+        border-color: var(--color-border-str);
+    }
+
+    .react-aria-Input[data-focused] {
+        border-color: var(--color-border-str);
+    }
+
+    .react-aria-Input[data-invalid] {
+        border-color: var(--color-invalid);
+        background: var(--color-invalid-bg);
+    }
+
+    .react-aria-Label {
+        font-family: var(--font-sans);
+        font-weight: var(--w-bold);
+        font-size: var(--text-sm);
+        color: var(--color-fg);
+    }
+
+    .react-aria-Text[slot="description"] {
+        font-family: var(--font-sans);
+        font-size: var(--text-sm);
+        color: var(--color-muted);
+    }
+
+    .react-aria-Popover {
+        background: var(--color-surface);
+        border: var(--border-w2) solid var(--color-border-str);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow-pop);
+        max-height: 16rem;
+        overflow-y: auto;
+        padding: var(--sp-1);
+    }
+
+    .react-aria-ListBoxItem,
+    .react-aria-MenuItem {
+        display: block;
+        min-height: var(--target);
+        padding: var(--sp-2) var(--sp-3);
+        font-family: var(--font-serif);
+        font-size: var(--text-base);
+        color: var(--color-fg);
+        border-radius: var(--radius);
+        cursor: pointer;
+    }
+
+    .react-aria-ListBoxItem[data-focused],
+    .react-aria-ListBoxItem[data-hovered],
+    .react-aria-MenuItem[data-focused],
+    .react-aria-MenuItem[data-hovered] {
+        background: var(--color-hover);
+    }
+
+    .react-aria-ListBoxItem[data-selected] {
+        background: var(--color-selected);
+        color: var(--color-on-sel);
+    }
+
+    .react-aria-Dialog {
+        outline: none;
+    }
+
+    .react-aria-Heading {
+        font-family: var(--font-serif);
+        font-weight: var(--w-bold);
+        font-size: var(--text-xl);
+        line-height: var(--lh-tight);
+        margin: 0 0 var(--sp-3);
+    }
+
+    /* --- Form fields: label stacked above the control --- */
+    .react-aria-TextField,
+    .react-aria-NumberField,
+    .react-aria-ComboBox,
+    .react-aria-SearchField {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-1);
+    }
+
+    /* Primary action = the form's submit button */
+    .react-aria-Button[type="submit"] {
+        background: var(--color-primary);
+        color: var(--color-on-primary);
+        border-color: var(--color-primary);
+    }
+
+    .react-aria-Button[type="submit"][data-hovered] {
+        background: var(--color-primary-hov);
+        border-color: var(--color-primary-hov);
+    }
+
+    /* --- Toggle-button group (multi-select chips) --- */
+    .react-aria-ToggleButtonGroup {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--sp-3);
+    }
+
+    .react-aria-ToggleButton {
+        min-height: var(--target);
+        padding: 0 var(--sp-4);
+        display: inline-flex;
+        align-items: center;
+        gap: var(--sp-2);
+        background: var(--color-surface);
+        color: var(--color-fg);
+        border: var(--border-w) solid var(--color-border);
+        border-radius: 999px;
+        font-family: var(--font-sans);
+        font-size: var(--text-base);
+        cursor: pointer;
+    }
+
+    .react-aria-ToggleButton[data-hovered] {
+        background: var(--color-hover);
+    }
+
+    .react-aria-ToggleButton[data-selected] {
+        background: var(--color-selected);
+        color: var(--color-on-sel);
+        border-color: var(--color-selected);
+    }
+
+    /* --- Checkbox: the box is drawn here (no indicator in the component) --- */
+    .react-aria-Checkbox {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--sp-2);
+        font-family: var(--font-serif);
+        font-size: var(--text-base);
+        cursor: pointer;
+    }
+
+    .react-aria-Checkbox::before {
+        content: '';
+        width: 1.4rem;
+        height: 1.4rem;
+        flex-shrink: 0;
+        border: var(--border-w2) solid var(--color-border);
+        border-radius: var(--radius);
+        background: var(--color-surface) no-repeat center / 0.9rem;
+    }
+
+    .react-aria-Checkbox[data-selected]::before {
+        background-color: var(--color-primary);
+        border-color: var(--color-primary);
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23f4eede" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 6"/></svg>');
+    }
+
+    .react-aria-Checkbox[data-focus-visible]::before {
+        outline: var(--focus-w) solid var(--color-focus);
+        outline-offset: var(--focus-off);
+    }
+
+    /* --- App shell / top bar --- */
     .app-shell {
         display: flex;
         height: 100vh;
@@ -40,28 +348,44 @@ body {
 
     .app-topbar {
         display: flex;
-        height: 4rem;
         align-items: center;
         justify-content: space-between;
-        gap: 1rem;
-        padding-inline: 1rem;
-        border-bottom: 1px solid;
+        gap: var(--sp-3);
+        height: calc(var(--control-h) + var(--sp-3));
+        padding: 0 var(--sp-4);
+        background: var(--color-surface);
+        border-bottom: var(--border-w2) solid var(--color-border-str);
     }
 
     .app-topbar-start {
         display: flex;
         align-items: center;
-        gap: 0.75rem;
+        gap: var(--sp-3);
     }
 
     .app-burger {
-        border: 1px solid;
-        padding: 0.25rem 0.5rem;
+        min-width: var(--target);
+        min-height: var(--target);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        border: var(--border-w) solid var(--color-border);
+        border-radius: var(--radius);
+        font-size: var(--text-lg);
+        cursor: pointer;
+    }
+
+    .app-burger[data-hovered] {
+        background: var(--color-hover);
     }
 
     .app-brand {
-        font-size: 1.25rem;
-        font-weight: 700;
+        font-family: var(--font-serif);
+        font-size: var(--text-xl);
+        font-weight: var(--w-bold);
+        color: var(--color-fg);
+        text-decoration: none;
     }
 
     .app-body {
@@ -71,38 +395,257 @@ body {
     }
 
     .app-sidebar {
-        width: 16rem;
+        width: 20rem;
         flex-shrink: 0;
-        overflow: auto;
-        border-right: 1px solid;
+        overflow-y: auto;
+        background: var(--color-surface);
+        border-right: var(--border-w2) solid var(--color-border);
+        padding: var(--sp-1);
     }
 
     .app-main {
         flex: 1;
         min-width: 0;
-        overflow: auto;
-        padding: 1rem;
+        overflow-y: auto;
+        padding: var(--sp-5) var(--sp-5) var(--sp-6);
     }
 
+    /* --- Main nav (top-bar links + avatar menu) --- */
     .main-nav {
         display: flex;
         align-items: center;
-        gap: 1rem;
+        gap: var(--sp-1);
+    }
+
+    .main-nav a {
+        display: inline-flex;
+        align-items: center;
+        min-height: var(--target);
+        padding: 0 var(--sp-3);
+        font-family: var(--font-serif);
+        font-size: var(--text-base);
+        color: var(--color-fg);
+        text-decoration: none;
+        border-radius: var(--radius);
+    }
+
+    .main-nav a:hover {
+        background: var(--color-hover);
+    }
+
+    .main-nav a[aria-current="page"] {
+        font-weight: var(--w-bold);
     }
 
     .main-nav-avatar {
-        border: 1px solid;
-        padding: 0.25rem 0.5rem;
+        width: var(--target);
+        height: var(--target);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: var(--border-w) solid var(--color-border);
+        background: var(--color-surface);
+        font-family: var(--font-sans);
+        font-weight: var(--w-bold);
+        font-size: var(--text-sm);
+        cursor: pointer;
     }
 
+    .main-nav-avatar[data-hovered] {
+        background: var(--color-hover);
+    }
+
+    /* --- Topic index (sidebar) --- */
     .topics-nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
         display: flex;
         flex-direction: column;
     }
 
-    /* Modal / dialog — positioning so the (classless) RAC overlay is
-       actually visible. Applies to every modal app-wide; visual theming
-       refined in the token pass. */
+    .topics-nav a {
+        display: flex;
+        align-items: center;
+        min-height: var(--target);
+        padding: var(--sp-2) var(--sp-3);
+        font-family: var(--font-serif);
+        font-size: var(--text-base);
+        line-height: var(--lh-snug);
+        color: var(--color-fg);
+        text-decoration: none;
+        border-radius: var(--radius);
+    }
+
+    .topics-nav a:hover {
+        background: var(--color-hover);
+    }
+
+    .topics-nav a[aria-current="page"] {
+        background: var(--color-selected);
+        color: var(--color-on-sel);
+        font-weight: var(--w-bold);
+    }
+
+    /* --- Catalogue list (entry cards) --- */
+    .book-list {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-3);
+    }
+
+    .book-row {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-3);
+        padding: var(--sp-3) var(--sp-4);
+        background: var(--color-surface);
+        border: var(--border-w) solid var(--color-border);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        color: var(--color-fg);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .book-row[data-hovered] {
+        background: var(--color-hover);
+    }
+
+    .book-entry {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-2);
+        min-width: 0;
+    }
+
+    .book-authors {
+        font-family: var(--font-sans);
+        font-size: var(--text-sm);
+        color: var(--color-muted);
+    }
+
+    .book-title {
+        font-family: var(--font-serif);
+        font-size: var(--text-lg);
+        line-height: var(--lh-snug);
+        margin: 0;
+    }
+
+    .book-subtitle {
+        font-family: var(--font-serif);
+        font-style: italic;
+        color: var(--color-muted);
+        margin: 0;
+    }
+
+    .book-editors,
+    .book-publication {
+        font-family: var(--font-serif);
+        font-size: var(--text-base);
+        color: var(--color-fg);
+        margin: 0;
+    }
+
+    .book-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--sp-3);
+        padding-top: var(--sp-3);
+        border-top: var(--border-w) solid var(--color-hover);
+    }
+
+    /* Catalogue + detail actions are pill chips, not solid buttons */
+    .book-actions .react-aria-Button,
+    .book-detail-actions .react-aria-Button {
+        height: auto;
+        min-height: var(--target);
+        padding: 0 var(--sp-3);
+        background: transparent;
+        border: var(--border-w) solid var(--color-border);
+        border-radius: 999px;
+        font-family: var(--font-sans);
+        font-weight: var(--w-normal);
+        font-size: var(--text-sm);
+        color: var(--color-fg);
+    }
+
+    .book-actions .react-aria-Button[data-hovered],
+    .book-detail-actions .react-aria-Button[data-hovered] {
+        background: var(--color-hover);
+        border-color: var(--color-border-str);
+    }
+
+    /* --- Book detail --- */
+    .book-detail {
+        max-width: 58rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-4);
+    }
+
+    .book-detail-back {
+        font-family: var(--font-sans);
+        font-size: var(--text-sm);
+        color: var(--color-muted);
+        text-decoration: none;
+    }
+
+    .book-detail-back:hover {
+        text-decoration: underline;
+    }
+
+    .book-detail-body {
+        display: flex;
+        gap: var(--sp-5);
+        align-items: flex-start;
+        background: var(--color-surface);
+        border: var(--border-w2) solid var(--color-border);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: var(--sp-5);
+    }
+
+    .book-fields {
+        flex: 1;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .field-row {
+        display: grid;
+        grid-template-columns: 11rem 1fr;
+        gap: var(--sp-3) var(--sp-4);
+        padding: var(--sp-2) 0;
+        border-bottom: var(--border-w) solid var(--color-hover);
+    }
+
+    .field-label {
+        font-family: var(--font-sans);
+        font-weight: var(--w-bold);
+        font-size: var(--text-sm);
+        text-transform: uppercase;
+        letter-spacing: .06em;
+        color: var(--color-muted);
+    }
+
+    .field-value {
+        margin: 0;
+        font-family: var(--font-serif);
+        font-size: var(--text-lg);
+    }
+
+    .book-detail-actions {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-3);
+        flex-shrink: 0;
+    }
+
+    /* --- Modal / dialog --- */
     .react-aria-ModalOverlay {
         position: fixed;
         inset: 0;
@@ -110,21 +653,46 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 1rem;
-        background: rgba(0, 0, 0, 0.4);
+        padding: var(--sp-4);
+        background: rgba(12, 32, 41, 0.45);
     }
 
     .react-aria-Modal {
         max-height: 90vh;
         overflow: auto;
-        padding: 1rem;
-        background: var(--background);
-        border: 1px solid;
+        padding: var(--sp-5);
+        background: var(--color-surface);
+        border: var(--border-w2) solid var(--color-border-str);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow-pop);
     }
 
+    .price-dialog {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-3);
+        min-width: 22rem;
+    }
+
+    /* --- Pagination --- */
     .pagination {
         display: flex;
         align-items: center;
-        gap: 1rem;
+        gap: var(--sp-3);
+        padding: var(--sp-4) 0;
+    }
+
+    .pagination-status {
+        font-family: var(--font-sans);
+        font-size: var(--text-sm);
+        color: var(--color-muted);
+    }
+
+    /* --- Author filter empty state --- */
+    .author-filter-empty {
+        padding: var(--sp-2) var(--sp-3);
+        font-family: var(--font-sans);
+        font-size: var(--text-sm);
+        color: var(--color-muted);
     }
 }

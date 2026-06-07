@@ -17,13 +17,6 @@ interface Item {
   label: string;
 }
 
-// Placeholder styling — bare minimum to see and use the control. Real
-// styling happens in the later pass (see REACT_ARIA_MIGRATION.md).
-const inputClass = 'border px-2 py-1';
-const popoverClass = 'bg-background border overflow-auto';
-const listItemClass = 'px-2 py-1';
-const clearClass = 'border px-2';
-
 // Enter-to-select: when the typed text narrows the list to exactly one
 // match, Enter picks it (RAC ComboBox doesn't auto-highlight the first
 // match). Capture phase + stopPropagation so this runs before RAC's own
@@ -107,23 +100,21 @@ export function ComboBoxField({
       <Label>{label}</Label>
       <div className="flex items-center gap-1">
         <Input
-          className={inputClass}
           placeholder={placeholder}
           onKeyDownCapture={selectSingleMatch(items, select)}
         />
         {isClearable && hasValue && (
-          <Button aria-label="Feld leeren" onPress={clear} className={clearClass}>
+          <Button aria-label="Feld leeren" onPress={clear}>
             ×
           </Button>
         )}
       </div>
-      <Popover className={popoverClass}>
+      <Popover>
         <ListBox items={items}>
           {(item) => (
             <ListBoxItem
               id={item.value}
               textValue={item.label}
-              className={listItemClass}
             >
               {item.label}
             </ListBoxItem>
