@@ -1,17 +1,13 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { type FormEvent, useState, useEffect, useMemo } from 'react';
 import {
   Form,
   TextField,
   NumberField,
   Label,
   Input,
-  ComboBox,
   Button,
-  Popover,
-  ListBox,
-  ListBoxItem,
   Checkbox,
   CheckboxGroup,
 } from 'react-aria-components';
@@ -24,7 +20,7 @@ import {
 } from '@/types/database';
 import { TOPICS } from '../topics';
 import { FORMAT_BASE, FORMAT_EXTRAS } from '@/components/constants';
-import { startsWithFilterRA } from '@/lib/selectFilters';
+import { ComboBoxField } from '@/components/elements/ComboBoxField';
 import { formatPerson } from '@/lib/formatters';
 
 interface PersonEntry {
@@ -32,18 +28,19 @@ interface PersonEntry {
   displayName: string;
 }
 
-// Shared Tailwind classes for reuse across the form
-const inputClass =
-  'w-full border border-gray-400 rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500';
-const labelClass = 'block text-sm font-medium mb-1';
-const popoverClass =
-  'bg-white border border-gray-300 rounded shadow-lg z-50 overflow-auto max-h-60 w-[var(--trigger-width)]';
-const listItemClass =
-  'px-3 py-1.5 text-sm cursor-default outline-none data-[focused]:bg-blue-100 data-[selected]:font-medium';
+// Bare-minimum styling only: enough to see and use the controls.
+// border = currentColor in Tailwind v4 (no colour value). Real styling
+// happens in a later pass.
+const inputClass = 'border px-2 py-1';
 
-interface PersonEntry {
-  personId: string;
-  displayName: string;
+// A checkbox box + tick, visible without any colour. The tick shows when the
+// parent Checkbox is selected (group-data-[selected]).
+function CheckboxBox() {
+  return (
+    <span className="inline-flex w-4 h-4 border items-center justify-center">
+      <span className="hidden group-data-[selected]:block">✓</span>
+    </span>
+  );
 }
 
 // One field per person in a role: a ComboBox for the person plus a free-text
@@ -80,60 +77,40 @@ function PersonRolePicker({
 
   return (
     <div className="flex flex-col gap-2">
-      <span className="text-sm font-medium">{label}</span>
+      <span>{label}</span>
       {selected.map((entry, index) => (
-        <div key={index} className="flex gap-2 items-end">
-          <ComboBox
-            defaultFilter={startsWithFilterRA}
-            selectedKey={entry.personId}
-            onSelectionChange={(key) => setPersonAt(index, key ? String(key) : null)}
-            className="max-w-xs"
-          >
-            <Label className={labelClass}>Person</Label>
-            <div className="relative">
-              <Input className={inputClass} placeholder="Person suchen" />
-            </div>
-            <Popover className={popoverClass}>
-              <ListBox items={data}>
-                {(item) => (
-                  <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
-                    {item.label}
-                  </ListBoxItem>
-                )}
-              </ListBox>
-            </Popover>
-          </ComboBox>
+        <div
+          key={index}
+          className="flex gap-2"
+        >
+          <ComboBoxField
+            label="Person"
+            placeholder="Person suchen"
+            items={data}
+            value={entry.personId}
+            onChange={(v) => setPersonAt(index, v)}
+            menuTrigger="input"
+          />
           <TextField
             value={entry.displayName}
             onChange={(v) => setNameAt(index, v)}
-            className="max-w-xs"
           >
-            <Label className={labelClass}>Alternative Schreibweise</Label>
+            <Label>Alternative Schreibweise</Label>
             <Input className={inputClass} />
           </TextField>
         </div>
       ))}
-      <ComboBox
+      <ComboBoxField
         key={`add-${selected.length}`}
-        defaultFilter={startsWithFilterRA}
-        selectedKey={null}
-        onSelectionChange={(key) =>
-          key && onChange([...selected, { personId: String(key), displayName: '' }])
+        label="Person hinzufügen"
+        placeholder="Person hinzufügen"
+        items={data}
+        value={null}
+        onChange={(v) =>
+          v && onChange([...selected, { personId: v, displayName: '' }])
         }
-        className="max-w-xs"
-      >
-        <Label className={labelClass}>Person hinzufügen</Label>
-        <Input className={inputClass} placeholder="Person hinzufügen" />
-        <Popover className={popoverClass}>
-          <ListBox items={data}>
-            {(item) => (
-              <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
-                {item.label}
-              </ListBoxItem>
-            )}
-          </ListBox>
-        </Popover>
-      </ComboBox>
+        menuTrigger="input"
+      />
     </div>
   );
 }
@@ -170,11 +147,15 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
   );
   const [formatBase, setFormatBase] = useState<string | null>(parsed.base);
   const [formatExtras, setFormatExtras] = useState<string[]>(parsed.extras);
-  const [isTranslation, setIsTranslation] = useState(book?.is_translation ?? false);
+  const [isTranslation, setIsTranslation] = useState(
+    book?.is_translation ?? false,
+  );
   const [originalLanguage, setOriginalLanguage] = useState<string | null>(
     book?.original_language ?? null,
   );
-  const [isMultivolume, setIsMultivolume] = useState(book?.is_multivolume ?? false);
+  const [isMultivolume, setIsMultivolume] = useState(
+    book?.is_multivolume ?? false,
+  );
   const [topicId, setTopicId] = useState<string | null>(
     book?.topic_id?.toString() ?? null,
   );
@@ -236,7 +217,9 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
       return;
     }
     const timer = setTimeout(() => {
-      fetch(`/api/suggestions?field=publisher&q=${encodeURIComponent(publisher)}`)
+      fetch(
+        `/api/suggestions?field=publisher&q=${encodeURIComponent(publisher)}`,
+      )
         .then((r) => r.json())
         .then((result) => setPublisherOptions(result.data ?? []));
     }, 300);
@@ -286,7 +269,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
     return { format_original, format_expanded };
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  function handleSubmit(e: FormEvent) {
     e.preventDefault();
     const { format_original, format_expanded } = assembleFormat();
 
@@ -341,7 +324,8 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
     onSave({
       title,
       subtitle: subtitle || undefined,
-      publication_year: publicationYear !== '' ? Number(publicationYear) : undefined,
+      publication_year:
+        publicationYear !== '' ? Number(publicationYear) : undefined,
       condition: condition || undefined,
       illustrations: illustrations || undefined,
       packaging: packaging || undefined,
@@ -373,126 +357,163 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
   const placeItems = placeOptions.map((p) => ({ value: p, label: p }));
 
   return (
-    <Form onSubmit={handleSubmit} className="flex flex-col gap-4">
-
+    <Form
+      onSubmit={handleSubmit}
+      className="flex flex-col gap-3"
+    >
       {/* Topic */}
-      <ComboBox
-        defaultFilter={startsWithFilterRA}
-        selectedKey={topicId}
-        onSelectionChange={(key) => setTopicId(key ? String(key) : null)}
+      <ComboBoxField
+        label="Thema *"
+        items={topicItems}
+        value={topicId}
+        onChange={(v) => setTopicId(v)}
+        menuTrigger="focus"
         isRequired
-      >
-        <Label className={labelClass}>Thema *</Label>
-        <Input className={inputClass} />
-        <Popover className={popoverClass}>
-          <ListBox items={topicItems}>
-            {(item) => (
-              <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
-                {item.label}
-              </ListBoxItem>
-            )}
-          </ListBox>
-        </Popover>
-      </ComboBox>
+      />
 
       {/* People */}
-      <hr className="my-2" />
-      <span className="text-sm font-semibold">Beteiligte Personen</span>
+      <hr />
+      <span>Beteiligte Personen</span>
 
-      <div className="flex flex-col gap-4">
-        <PersonRolePicker label="Verfasser:in" data={peopleData} selected={authors} onChange={setAuthors} />
-        <PersonRolePicker label="Herausgeber:in" data={peopleData} selected={editors} onChange={setEditors} />
-        <PersonRolePicker label="Mitwirkende:r" data={peopleData} selected={contributors} onChange={setContributors} />
-        <PersonRolePicker label="Übersetzer:in" data={peopleData} selected={translators} onChange={setTranslators} />
+      <div className="flex flex-col gap-3">
+        <PersonRolePicker
+          label="Verfasser:in"
+          data={peopleData}
+          selected={authors}
+          onChange={setAuthors}
+        />
+        <PersonRolePicker
+          label="Herausgeber:in"
+          data={peopleData}
+          selected={editors}
+          onChange={setEditors}
+        />
+        <PersonRolePicker
+          label="Mitwirkende:r"
+          data={peopleData}
+          selected={contributors}
+          onChange={setContributors}
+        />
+        <PersonRolePicker
+          label="Übersetzer:in"
+          data={peopleData}
+          selected={translators}
+          onChange={setTranslators}
+        />
       </div>
 
       {/* New person toggle */}
       <Checkbox
         isSelected={showNewPerson}
         onChange={setShowNewPerson}
-        className="flex items-center gap-2 text-sm cursor-pointer"
+        className="group flex items-center gap-2"
       >
-        <div className="w-4 h-4 border border-gray-400 rounded flex items-center justify-center data-[selected]:bg-blue-600 data-[selected]:border-blue-600">
-          <svg className="hidden data-[selected]:block w-3 h-3 text-white" viewBox="0 0 12 12" fill="none">
-            <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </div>
+        <CheckboxBox />
         Person nicht gefunden? Neue Person anlegen
       </Checkbox>
 
       {showNewPerson && (
-        <div className="flex flex-col gap-3 pl-4 border-l border-gray-200">
+        <div className="flex flex-col gap-3">
           <Checkbox
             isSelected={newIsOrg}
             onChange={setNewIsOrg}
-            className="flex items-center gap-2 text-sm cursor-pointer"
+            className="group flex items-center gap-2"
           >
-            <div className="w-4 h-4 border border-gray-400 rounded flex items-center justify-center data-[selected]:bg-blue-600 data-[selected]:border-blue-600">
-              <svg className="hidden data-[selected]:block w-3 h-3 text-white" viewBox="0 0 12 12" fill="none">
-                <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </div>
+            <CheckboxBox />
             Organisation
           </Checkbox>
 
           {newIsOrg ? (
-            <TextField value={newSingleName} onChange={setNewSingleName}>
-              <Label className={labelClass}>Bezeichnung</Label>
+            <TextField
+              value={newSingleName}
+              onChange={setNewSingleName}
+            >
+              <Label>Bezeichnung</Label>
               <Input className={inputClass} />
             </TextField>
           ) : (
             <>
               <div className="flex gap-2">
-                <TextField value={newGivenNames} onChange={setNewGivenNames} className="flex-1">
-                  <Label className={labelClass}>Vorname(n)</Label>
+                <TextField
+                  value={newGivenNames}
+                  onChange={setNewGivenNames}
+                >
+                  <Label>Vorname(n)</Label>
                   <Input className={inputClass} />
                 </TextField>
-                <TextField value={newFamilyName} onChange={setNewFamilyName} className="flex-1">
-                  <Label className={labelClass}>Nachname</Label>
+                <TextField
+                  value={newFamilyName}
+                  onChange={setNewFamilyName}
+                >
+                  <Label>Nachname</Label>
                   <Input className={inputClass} />
                 </TextField>
               </div>
               <div className="flex gap-2">
-                <TextField value={newParticles} onChange={setNewParticles} className="flex-1">
-                  <Label className={labelClass}>Namenszusatz (von, de …)</Label>
+                <TextField
+                  value={newParticles}
+                  onChange={setNewParticles}
+                >
+                  <Label>Namenszusatz (von, de …)</Label>
                   <Input className={inputClass} />
                 </TextField>
-                <TextField value={newPrefix} onChange={setNewPrefix} className="flex-1">
-                  <Label className={labelClass}>Präfix (Dr., Prof. …)</Label>
+                <TextField
+                  value={newPrefix}
+                  onChange={setNewPrefix}
+                >
+                  <Label>Präfix (Dr., Prof. …)</Label>
                   <Input className={inputClass} />
                 </TextField>
-                <TextField value={newSuffix} onChange={setNewSuffix} className="flex-1">
-                  <Label className={labelClass}>Suffix (Jr., d. Ä. …)</Label>
+                <TextField
+                  value={newSuffix}
+                  onChange={setNewSuffix}
+                >
+                  <Label>Suffix (Jr., d. Ä. …)</Label>
                   <Input className={inputClass} />
                 </TextField>
               </div>
-              <TextField value={newSingleName} onChange={setNewSingleName}>
-                <Label className={labelClass}>Einzelname (Platon, Sokrates, …)</Label>
+              <TextField
+                value={newSingleName}
+                onChange={setNewSingleName}
+              >
+                <Label>Einzelname (Platon, Sokrates, …)</Label>
                 <Input className={inputClass} />
               </TextField>
             </>
           )}
 
           <div>
-            <span className="text-sm font-medium block mb-2">Rolle(n)</span>
+            <span>Rolle(n)</span>
             <div className="flex gap-3 flex-wrap">
               {[
-                { label: 'Verfasser:in', value: newIsAuthor, set: setNewIsAuthor },
-                { label: 'Herausgeber:in', value: newIsEditor, set: setNewIsEditor },
-                { label: 'Mitwirkende:r', value: newIsContributor, set: setNewIsContributor },
-                { label: 'Übersetzer:in', value: newIsTranslator, set: setNewIsTranslator },
+                {
+                  label: 'Verfasser:in',
+                  value: newIsAuthor,
+                  set: setNewIsAuthor,
+                },
+                {
+                  label: 'Herausgeber:in',
+                  value: newIsEditor,
+                  set: setNewIsEditor,
+                },
+                {
+                  label: 'Mitwirkende:r',
+                  value: newIsContributor,
+                  set: setNewIsContributor,
+                },
+                {
+                  label: 'Übersetzer:in',
+                  value: newIsTranslator,
+                  set: setNewIsTranslator,
+                },
               ].map(({ label, value, set }) => (
                 <Checkbox
                   key={label}
                   isSelected={value}
                   onChange={set}
-                  className="flex items-center gap-1.5 text-sm cursor-pointer"
+                  className="group flex items-center gap-1.5"
                 >
-                  <div className="w-4 h-4 border border-gray-400 rounded flex items-center justify-center data-[selected]:bg-blue-600 data-[selected]:border-blue-600">
-                    <svg className="hidden data-[selected]:block w-3 h-3 text-white" viewBox="0 0 12 12" fill="none">
-                      <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </div>
+                  <CheckboxBox />
                   {label}
                 </Checkbox>
               ))}
@@ -501,125 +522,107 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         </div>
       )}
 
-      <hr className="my-2" />
+      <hr />
 
       {/* Core book fields */}
-      <TextField value={title} onChange={setTitle} isRequired>
-        <Label className={labelClass}>Titel *</Label>
+      <TextField
+        value={title}
+        onChange={setTitle}
+        isRequired
+      >
+        <Label>Titel *</Label>
         <Input className={inputClass} />
       </TextField>
 
-      <TextField value={subtitle} onChange={setSubtitle}>
-        <Label className={labelClass}>Untertitel</Label>
+      <TextField
+        value={subtitle}
+        onChange={setSubtitle}
+      >
+        <Label>Untertitel</Label>
         <Input className={inputClass} />
       </TextField>
 
       <NumberField
-        value={publicationYear === '' ? undefined : Number(publicationYear)}
-        onChange={(v) => setPublicationYear(isNaN(v) ? '' : v)}
+        value={publicationYear === '' ? NaN : Number(publicationYear)}
+        onChange={(v) => setPublicationYear(Number.isNaN(v) ? '' : v)}
         minValue={1000}
         maxValue={2100}
-        className="w-28"
       >
-        <Label className={labelClass}>Erscheinungsjahr</Label>
+        <Label>Erscheinungsjahr</Label>
         <Input className={inputClass} />
       </NumberField>
 
       <div className="flex gap-2">
         {/* Publisher — free text allowed */}
-        <ComboBox
-          defaultFilter={startsWithFilterRA}
+        <ComboBoxField
+          label="Verlag"
+          items={publisherItems}
           inputValue={publisher}
           onInputChange={setPublisher}
           allowsCustomValue
-          className="flex-1"
-        >
-          <Label className={labelClass}>Verlag</Label>
-          <Input className={inputClass} />
-          <Popover className={popoverClass}>
-            <ListBox items={publisherItems}>
-              {(item) => (
-                <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
-                  {item.label}
-                </ListBoxItem>
-              )}
-            </ListBox>
-          </Popover>
-        </ComboBox>
+        />
 
         {/* Place — free text allowed */}
-        <ComboBox
-          defaultFilter={startsWithFilterRA}
+        <ComboBoxField
+          label="Erscheinungsort"
+          items={placeItems}
           inputValue={placeOfPublication}
           onInputChange={setPlaceOfPublication}
           allowsCustomValue
-          className="flex-1"
-        >
-          <Label className={labelClass}>Erscheinungsort</Label>
-          <Input className={inputClass} />
-          <Popover className={popoverClass}>
-            <ListBox items={placeItems}>
-              {(item) => (
-                <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
-                  {item.label}
-                </ListBoxItem>
-              )}
-            </ListBox>
-          </Popover>
-        </ComboBox>
+        />
       </div>
 
       {/* Format */}
-      <div>
-        <span className="text-sm font-medium block mb-2">Erscheinungsform</span>
-        <ComboBox
-          defaultFilter={startsWithFilterRA}
-          selectedKey={formatBase}
-          onSelectionChange={(key) => setFormatBase(key ? String(key) : null)}
-          className="mb-2"
-        >
-          <Label className={labelClass}>Erscheinungsform</Label>
-          <Input className={inputClass} placeholder="Erscheinungsform wählen" />
-          <Popover className={popoverClass}>
-            <ListBox items={formatBaseItems}>
-              {(item) => (
-                <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
-                  {item.label}
-                </ListBoxItem>
-              )}
-            </ListBox>
-          </Popover>
-        </ComboBox>
+      <div className="flex flex-col gap-2">
+        <span>Erscheinungsform</span>
+        <ComboBoxField
+          label="Erscheinungsform"
+          placeholder="Erscheinungsform wählen"
+          items={formatBaseItems}
+          value={formatBase}
+          onChange={(v) => setFormatBase(v)}
+          menuTrigger="focus"
+        />
 
         <CheckboxGroup
           value={formatExtras}
           onChange={setFormatExtras}
-          className="flex flex-wrap gap-2"
+          className="flex flex-wrap gap-3"
         >
           {FORMAT_EXTRAS.map((e) => (
             <Checkbox
               key={e.abbrev}
               value={e.abbrev}
-              className="flex items-center gap-1.5 text-sm cursor-pointer border border-gray-300 rounded px-2 py-1 data-[selected]:bg-blue-50 data-[selected]:border-blue-400"
+              className="group flex items-center gap-1.5"
             >
+              <CheckboxBox />
               {e.label}
             </Checkbox>
           ))}
         </CheckboxGroup>
       </div>
 
-      <TextField value={condition} onChange={setCondition}>
-        <Label className={labelClass}>Zustand</Label>
+      <TextField
+        value={condition}
+        onChange={setCondition}
+      >
+        <Label>Zustand</Label>
         <Input className={inputClass} />
       </TextField>
 
-      <TextField value={illustrations} onChange={setIllustrations}>
-        <Label className={labelClass}>Illustrationen & Abbildungen</Label>
+      <TextField
+        value={illustrations}
+        onChange={setIllustrations}
+      >
+        <Label>Illustrationen & Abbildungen</Label>
         <Input className={inputClass} />
       </TextField>
 
-      <TextField value={packaging} onChange={setPackaging}>
-        <Label className={labelClass}>Beilagen</Label>
+      <TextField
+        value={packaging}
+        onChange={setPackaging}
+      >
+        <Label>Beilagen</Label>
         <Input className={inputClass} />
       </TextField>
 
@@ -627,63 +630,44 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
       <Checkbox
         isSelected={isTranslation}
         onChange={setIsTranslation}
-        className="flex items-center gap-2 text-sm cursor-pointer"
+        className="group flex items-center gap-2"
       >
-        <div className="w-4 h-4 border border-gray-400 rounded flex items-center justify-center data-[selected]:bg-blue-600 data-[selected]:border-blue-600">
-          <svg className="hidden data-[selected]:block w-3 h-3 text-white" viewBox="0 0 12 12" fill="none">
-            <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </div>
+        <CheckboxBox />
         Übersetzung
       </Checkbox>
 
       {isTranslation && (
-        <ComboBox
-          defaultFilter={startsWithFilterRA}
+        <ComboBoxField
+          label="Originalsprache"
+          items={languageItems}
           inputValue={originalLanguage ?? ''}
           onInputChange={setOriginalLanguage}
           allowsCustomValue
-        >
-          <Label className={labelClass}>Originalsprache</Label>
-          <Input className={inputClass} />
-          <Popover className={popoverClass}>
-            <ListBox items={languageItems}>
-              {(item) => (
-                <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
-                  {item.label}
-                </ListBoxItem>
-              )}
-            </ListBox>
-          </Popover>
-        </ComboBox>
+        />
       )}
 
       {/* Multivolume */}
       <Checkbox
         isSelected={isMultivolume}
         onChange={setIsMultivolume}
-        className="flex items-center gap-2 text-sm cursor-pointer"
+        className="group flex items-center gap-2"
       >
-        <div className="w-4 h-4 border border-gray-400 rounded flex items-center justify-center data-[selected]:bg-blue-600 data-[selected]:border-blue-600">
-          <svg className="hidden data-[selected]:block w-3 h-3 text-white" viewBox="0 0 12 12" fill="none">
-            <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </div>
+        <CheckboxBox />
         Mehrbändiges Werk
       </Checkbox>
 
       {/* Actions */}
-      <div className="flex gap-2 pt-2">
+      <div className="flex gap-2">
         <Button
           type="submit"
-          className="px-4 py-2 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 cursor-pointer"
+          className="border px-3 py-1"
         >
           Speichern
         </Button>
         <Button
           type="button"
           onPress={onCancel}
-          className="px-4 py-2 text-sm text-gray-600 hover:underline cursor-pointer"
+          className="border px-3 py-1"
         >
           Abbrechen
         </Button>
