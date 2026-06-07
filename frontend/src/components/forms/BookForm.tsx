@@ -2,18 +2,19 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import {
-  TextInput,
-  NumberInput,
-  Checkbox,
-  Select,
-  Autocomplete,
-  Chip,
-  Group,
-  Stack,
+  Form,
+  TextField,
+  NumberField,
+  Label,
+  Input,
+  ComboBox,
   Button,
-  Text,
-  Divider,
-} from '@mantine/core';
+  Popover,
+  ListBox,
+  ListBoxItem,
+  Checkbox,
+  CheckboxGroup,
+} from 'react-aria-components';
 import {
   BookDetail,
   Topic,
@@ -23,7 +24,7 @@ import {
 } from '@/types/database';
 import { TOPICS } from '../topics';
 import { FORMAT_BASE, FORMAT_EXTRAS } from '@/components/constants';
-import { startsWithFilter } from '@/lib/selectFilters';
+import { startsWithFilterRA } from '@/lib/selectFilters';
 import { formatPerson } from '@/lib/formatters';
 
 interface PersonEntry {
@@ -31,9 +32,23 @@ interface PersonEntry {
   displayName: string;
 }
 
-// One field per person in a role: a Select for the person plus a free-text
+// Shared Tailwind classes for reuse across the form
+const inputClass =
+  'w-full border border-gray-400 rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500';
+const labelClass = 'block text-sm font-medium mb-1';
+const popoverClass =
+  'bg-white border border-gray-300 rounded shadow-lg z-50 overflow-auto max-h-60 w-[var(--trigger-width)]';
+const listItemClass =
+  'px-3 py-1.5 text-sm cursor-default outline-none data-[focused]:bg-blue-100 data-[selected]:font-medium';
+
+interface PersonEntry {
+  personId: string;
+  displayName: string;
+}
+
+// One field per person in a role: a ComboBox for the person plus a free-text
 // "Abweichende Schreibweise" (books2people.display_name). An always-empty
-// Select at the bottom adds another person.
+// ComboBox at the bottom adds another person.
 function PersonRolePicker({
   label,
   data,
@@ -50,7 +65,7 @@ function PersonRolePicker({
     if (value) {
       next[index] = { ...next[index], personId: value };
     } else {
-      next.splice(index, 1); // cleared → drop this slot
+      next.splice(index, 1);
     }
     onChange(next);
   }
@@ -64,50 +79,62 @@ function PersonRolePicker({
   }
 
   return (
-    <Stack gap="xs">
-      <Text
-        fw={500}
-        size="sm"
-      >
-        {label}
-      </Text>
+    <div className="flex flex-col gap-2">
+      <span className="text-sm font-medium">{label}</span>
       {selected.map((entry, index) => (
-        <Group
-          key={index}
-          align="flex-end"
-          gap="xs"
-        >
-          <Select
-            placeholder="Person suchen"
-            data={data}
-            value={entry.personId}
-            onChange={(value) => setPersonAt(index, value)}
-            searchable
-            clearable
-            filter={startsWithFilter}
-            maw={320}
-          />
-          <TextInput
-            label="Alternative Schreibweise"
+        <div key={index} className="flex gap-2 items-end">
+          <ComboBox
+            defaultFilter={startsWithFilterRA}
+            selectedKey={entry.personId}
+            onSelectionChange={(key) => setPersonAt(index, key ? String(key) : null)}
+            className="max-w-xs"
+          >
+            <Label className={labelClass}>Person</Label>
+            <div className="relative">
+              <Input className={inputClass} placeholder="Person suchen" />
+            </div>
+            <Popover className={popoverClass}>
+              <ListBox items={data}>
+                {(item) => (
+                  <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
+                    {item.label}
+                  </ListBoxItem>
+                )}
+              </ListBox>
+            </Popover>
+          </ComboBox>
+          <TextField
             value={entry.displayName}
-            onChange={(e) => setNameAt(index, e.currentTarget.value)}
-            maw={260}
-          />
-        </Group>
+            onChange={(v) => setNameAt(index, v)}
+            className="max-w-xs"
+          >
+            <Label className={labelClass}>Alternative Schreibweise</Label>
+            <Input className={inputClass} />
+          </TextField>
+        </div>
       ))}
-      <Select
+      <ComboBox
         key={`add-${selected.length}`}
-        placeholder="Person hinzufügen"
-        data={data}
-        value={null}
-        onChange={(value) =>
-          value && onChange([...selected, { personId: value, displayName: '' }])
+        defaultFilter={startsWithFilterRA}
+        selectedKey={null}
+        onSelectionChange={(key) =>
+          key && onChange([...selected, { personId: String(key), displayName: '' }])
         }
-        searchable
-        filter={startsWithFilter}
-        maw={320}
-      />
-    </Stack>
+        className="max-w-xs"
+      >
+        <Label className={labelClass}>Person hinzufügen</Label>
+        <Input className={inputClass} placeholder="Person hinzufügen" />
+        <Popover className={popoverClass}>
+          <ListBox items={data}>
+            {(item) => (
+              <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
+                {item.label}
+              </ListBoxItem>
+            )}
+          </ListBox>
+        </Popover>
+      </ComboBox>
+    </div>
   );
 }
 
@@ -143,15 +170,11 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
   );
   const [formatBase, setFormatBase] = useState<string | null>(parsed.base);
   const [formatExtras, setFormatExtras] = useState<string[]>(parsed.extras);
-  const [isTranslation, setIsTranslation] = useState(
-    book?.is_translation ?? false,
-  );
+  const [isTranslation, setIsTranslation] = useState(book?.is_translation ?? false);
   const [originalLanguage, setOriginalLanguage] = useState<string | null>(
     book?.original_language ?? null,
   );
-  const [isMultivolume, setIsMultivolume] = useState(
-    book?.is_multivolume ?? false,
-  );
+  const [isMultivolume, setIsMultivolume] = useState(book?.is_multivolume ?? false);
   const [topicId, setTopicId] = useState<string | null>(
     book?.topic_id?.toString() ?? null,
   );
@@ -173,7 +196,6 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
         displayName: p.display_name ?? '',
       })) ?? [];
 
-  // one list per role; each entry is a person + their variant spelling
   const [authors, setAuthors] = useState<PersonEntry[]>(toEntries('is_author'));
   const [editors, setEditors] = useState<PersonEntry[]>(toEntries('is_editor'));
   const [contributors, setContributors] = useState<PersonEntry[]>(
@@ -183,7 +205,6 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
     toEntries('is_translator'),
   );
 
-  // "neue Person anlegen" — shared by both variants
   const [showNewPerson, setShowNewPerson] = useState(false);
   const [newIsOrg, setNewIsOrg] = useState(false);
   const [newGivenNames, setNewGivenNames] = useState('');
@@ -197,21 +218,18 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
   const [newIsContributor, setNewIsContributor] = useState(false);
   const [newIsTranslator, setNewIsTranslator] = useState(false);
 
-  // language list: loaded once
   useEffect(() => {
     fetch('/api/suggestions?field=language')
       .then((r) => r.json())
       .then((result) => setLanguageOptions(result.data ?? []));
   }, []);
 
-  // people list: loaded once, used by both person variants
   useEffect(() => {
     fetch('/api/people')
       .then((r) => r.json())
       .then((result) => setPeople(result.data ?? []));
   }, []);
 
-  // publisher suggestions: debounced to avoid a fetch on every keystroke
   useEffect(() => {
     if (publisher.trim().length < 2) {
       setPublisherOptions([]);
@@ -225,7 +243,6 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
     return () => clearTimeout(timer);
   }, [publisher]);
 
-  // place suggestions: debounced, based on the chosen publisher
   useEffect(() => {
     if (!publisher) {
       setPlaceOptions([]);
@@ -241,10 +258,14 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
     return () => clearTimeout(timer);
   }, [publisher]);
 
-  const peopleData = useMemo(() => people.map((p) => ({
-    value: p.person_id.toString(),
-    label: formatPerson(p),
-  })), [people]);
+  const peopleData = useMemo(
+    () =>
+      people.map((p) => ({
+        value: p.person_id.toString(),
+        label: formatPerson(p),
+      })),
+    [people],
+  );
 
   function assembleFormat() {
     const base = FORMAT_BASE.find((f) => f.abbrev === formatBase);
@@ -265,10 +286,10 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
     return { format_original, format_expanded };
   }
 
-  function handleSubmit() {
+  function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
     const { format_original, format_expanded } = assembleFormat();
 
-    // one entry per person per role; variant spelling → display_name
     const byRole = (entries: PersonEntry[], role: string) =>
       entries.map((entry) => ({
         person_id: Number(entry.personId),
@@ -283,7 +304,6 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
       ...byRole(translators, 'translator'),
     ];
 
-    // one row per person: union the roles, keep the first non-empty spelling
     const merged = new Map<number, (typeof flat)[number]>();
     for (const entry of flat) {
       const existing = merged.get(entry.person_id);
@@ -321,8 +341,7 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
     onSave({
       title,
       subtitle: subtitle || undefined,
-      publication_year:
-        publicationYear !== '' ? Number(publicationYear) : undefined,
+      publication_year: publicationYear !== '' ? Number(publicationYear) : undefined,
       condition: condition || undefined,
       illustrations: illustrations || undefined,
       packaging: packaging || undefined,
@@ -339,275 +358,336 @@ export function BookForm({ book, onCancel, onSave }: BookFormProps) {
     });
   }
 
+  const topicItems = TOPICS.map((t) => ({
+    value: t.topic_id.toString(),
+    label: t.topic_name,
+  }));
+
+  const formatBaseItems = FORMAT_BASE.map((f) => ({
+    value: f.abbrev,
+    label: `${f.abbrev} – ${f.expanded}`,
+  }));
+
+  const languageItems = languageOptions.map((l) => ({ value: l, label: l }));
+  const publisherItems = publisherOptions.map((p) => ({ value: p, label: p }));
+  const placeItems = placeOptions.map((p) => ({ value: p, label: p }));
+
   return (
-    <Stack gap="md">
-      <Select
-        label="Thema"
-        data={TOPICS.map((t) => ({
-          value: t.topic_id.toString(),
-          label: t.topic_name,
-        }))}
-        value={topicId}
-        onChange={setTopicId}
-        searchable
-        required
-        filter={startsWithFilter}
-      />
+    <Form onSubmit={handleSubmit} className="flex flex-col gap-4">
 
-      <Divider
-        label="Beteiligte Personen"
-        labelPosition="left"
-      />
-
-      <Stack gap="md">
-        <PersonRolePicker
-          label="Verfasser:in"
-          data={peopleData}
-          selected={authors}
-          onChange={setAuthors}
-        />
-        <PersonRolePicker
-          label="Herausgeber:in"
-          data={peopleData}
-          selected={editors}
-          onChange={setEditors}
-        />
-        <PersonRolePicker
-          label="Mitwirkende:r"
-          data={peopleData}
-          selected={contributors}
-          onChange={setContributors}
-        />
-        <PersonRolePicker
-          label="Übersetzer:in"
-          data={peopleData}
-          selected={translators}
-          onChange={setTranslators}
-        />
-      </Stack>
-
-      <Checkbox
-        label="Person nicht gefunden? Neue Person anlegen"
-        checked={showNewPerson}
-        onChange={(e) => setShowNewPerson(e.currentTarget.checked)}
-      />
-      {showNewPerson && (
-        <Stack gap="sm">
-          <Checkbox
-            label="Organisation"
-            checked={newIsOrg}
-            onChange={(e) => setNewIsOrg(e.currentTarget.checked)}
-          />
-          {newIsOrg ? (
-            <TextInput
-              label="Bezeichnung"
-              value={newSingleName}
-              onChange={(e) => setNewSingleName(e.currentTarget.value)}
-            />
-          ) : (
-            <>
-              <Group grow>
-                <TextInput
-                  label="Vorname(n)"
-                  value={newGivenNames}
-                  onChange={(e) => setNewGivenNames(e.currentTarget.value)}
-                />
-                <TextInput
-                  label="Nachname"
-                  value={newFamilyName}
-                  onChange={(e) => setNewFamilyName(e.currentTarget.value)}
-                />
-              </Group>
-              <Group grow>
-                <TextInput
-                  label="Namenszusatz (von, de …)"
-                  value={newParticles}
-                  onChange={(e) => setNewParticles(e.currentTarget.value)}
-                />
-                <TextInput
-                  label="Präfix (Dr., Prof. …)"
-                  value={newPrefix}
-                  onChange={(e) => setNewPrefix(e.currentTarget.value)}
-                />
-                <TextInput
-                  label="Suffix (Jr., d. Ä. …)"
-                  value={newSuffix}
-                  onChange={(e) => setNewSuffix(e.currentTarget.value)}
-                />
-              </Group>
-              <TextInput
-                label="Einzelname (Platon, Sokrates, …)"
-                value={newSingleName}
-                onChange={(e) => setNewSingleName(e.currentTarget.value)}
-              />
-            </>
-          )}
-          <div>
-            <Text
-              fw={500}
-              size="sm"
-              mb={4}
-            >
-              Rolle(n)
-            </Text>
-            <Group gap="xs">
-              <Chip
-                checked={newIsAuthor}
-                onChange={(v) => setNewIsAuthor(v)}
-                size="sm"
-              >
-                Verfasser:in
-              </Chip>
-              <Chip
-                checked={newIsEditor}
-                onChange={(v) => setNewIsEditor(v)}
-                size="sm"
-              >
-                Herausgeber:in
-              </Chip>
-              <Chip
-                checked={newIsContributor}
-                onChange={(v) => setNewIsContributor(v)}
-                size="sm"
-              >
-                Mitwirkende:r
-              </Chip>
-              <Chip
-                checked={newIsTranslator}
-                onChange={(v) => setNewIsTranslator(v)}
-                size="sm"
-              >
-                Übersetzer:in
-              </Chip>
-            </Group>
-          </div>
-        </Stack>
-      )}
-
-      <Divider my="xl" />
-      <TextInput
-        label="Titel"
-        value={title}
-        onChange={(e) => setTitle(e.currentTarget.value)}
-        required
-      />
-      <TextInput
-        label="Untertitel"
-        value={subtitle}
-        onChange={(e) => setSubtitle(e.currentTarget.value)}
-      />
-      <NumberInput
-        label="Erscheinungsjahr"
-        value={publicationYear}
-        onChange={setPublicationYear}
-        min={1000}
-        max={2100}
-        hideControls
-        w={100}
-      />
-      <Group
-        grow
-        align="flex-start"
+      {/* Topic */}
+      <ComboBox
+        defaultFilter={startsWithFilterRA}
+        selectedKey={topicId}
+        onSelectionChange={(key) => setTopicId(key ? String(key) : null)}
+        isRequired
       >
-        <Autocomplete
-          label="Verlag"
-          value={publisher}
-          onChange={setPublisher}
-          data={publisherOptions}
-          filter={startsWithFilter}
-        />
-        <Autocomplete
-          label="Erscheinungsort"
-          value={placeOfPublication}
-          onChange={setPlaceOfPublication}
-          data={placeOptions}
-          filter={startsWithFilter}
-        />
-      </Group>
+        <Label className={labelClass}>Thema *</Label>
+        <Input className={inputClass} />
+        <Popover className={popoverClass}>
+          <ListBox items={topicItems}>
+            {(item) => (
+              <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
+                {item.label}
+              </ListBoxItem>
+            )}
+          </ListBox>
+        </Popover>
+      </ComboBox>
 
-      <div>
-        <Text
-          fw={500}
-          size="sm"
-          mb={4}
-        >
-          Erscheinungsform
-        </Text>
-        <Select
-          placeholder="Erscheinungsform"
-          data={FORMAT_BASE.map((f) => ({
-            value: f.abbrev,
-            label: `${f.abbrev} – ${f.expanded}`,
-          }))}
-          value={formatBase}
-          onChange={setFormatBase}
-          mb="xs"
-        />
-        <Chip.Group
-          multiple
-          value={formatExtras}
-          onChange={setFormatExtras}
-        >
-          <Group gap="xs">
-            {FORMAT_EXTRAS.map((e) => (
-              <Chip
-                key={e.abbrev}
-                value={e.abbrev}
-                size="sm"
-              >
-                {e.label}
-              </Chip>
-            ))}
-          </Group>
-        </Chip.Group>
+      {/* People */}
+      <hr className="my-2" />
+      <span className="text-sm font-semibold">Beteiligte Personen</span>
+
+      <div className="flex flex-col gap-4">
+        <PersonRolePicker label="Verfasser:in" data={peopleData} selected={authors} onChange={setAuthors} />
+        <PersonRolePicker label="Herausgeber:in" data={peopleData} selected={editors} onChange={setEditors} />
+        <PersonRolePicker label="Mitwirkende:r" data={peopleData} selected={contributors} onChange={setContributors} />
+        <PersonRolePicker label="Übersetzer:in" data={peopleData} selected={translators} onChange={setTranslators} />
       </div>
 
-      <TextInput
-        label="Zustand"
-        value={condition}
-        onChange={(e) => setCondition(e.currentTarget.value)}
-      />
-      <TextInput
-        label="Illustrationen & Abbildungen"
-        value={illustrations}
-        onChange={(e) => setIllustrations(e.currentTarget.value)}
-      />
-      <TextInput
-        label="Beilagen"
-        value={packaging}
-        onChange={(e) => setPackaging(e.currentTarget.value)}
-      />
-
+      {/* New person toggle */}
       <Checkbox
-        label="Übersetzung"
-        checked={isTranslation}
-        onChange={(e) => setIsTranslation(e.currentTarget.checked)}
-      />
-      {isTranslation && (
-        <Autocomplete
-          label="Originalsprache"
-          data={languageOptions}
-          value={originalLanguage ?? ''}
-          onChange={setOriginalLanguage}
-          filter={startsWithFilter}
-        />
+        isSelected={showNewPerson}
+        onChange={setShowNewPerson}
+        className="flex items-center gap-2 text-sm cursor-pointer"
+      >
+        <div className="w-4 h-4 border border-gray-400 rounded flex items-center justify-center data-[selected]:bg-blue-600 data-[selected]:border-blue-600">
+          <svg className="hidden data-[selected]:block w-3 h-3 text-white" viewBox="0 0 12 12" fill="none">
+            <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+        Person nicht gefunden? Neue Person anlegen
+      </Checkbox>
+
+      {showNewPerson && (
+        <div className="flex flex-col gap-3 pl-4 border-l border-gray-200">
+          <Checkbox
+            isSelected={newIsOrg}
+            onChange={setNewIsOrg}
+            className="flex items-center gap-2 text-sm cursor-pointer"
+          >
+            <div className="w-4 h-4 border border-gray-400 rounded flex items-center justify-center data-[selected]:bg-blue-600 data-[selected]:border-blue-600">
+              <svg className="hidden data-[selected]:block w-3 h-3 text-white" viewBox="0 0 12 12" fill="none">
+                <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            Organisation
+          </Checkbox>
+
+          {newIsOrg ? (
+            <TextField value={newSingleName} onChange={setNewSingleName}>
+              <Label className={labelClass}>Bezeichnung</Label>
+              <Input className={inputClass} />
+            </TextField>
+          ) : (
+            <>
+              <div className="flex gap-2">
+                <TextField value={newGivenNames} onChange={setNewGivenNames} className="flex-1">
+                  <Label className={labelClass}>Vorname(n)</Label>
+                  <Input className={inputClass} />
+                </TextField>
+                <TextField value={newFamilyName} onChange={setNewFamilyName} className="flex-1">
+                  <Label className={labelClass}>Nachname</Label>
+                  <Input className={inputClass} />
+                </TextField>
+              </div>
+              <div className="flex gap-2">
+                <TextField value={newParticles} onChange={setNewParticles} className="flex-1">
+                  <Label className={labelClass}>Namenszusatz (von, de …)</Label>
+                  <Input className={inputClass} />
+                </TextField>
+                <TextField value={newPrefix} onChange={setNewPrefix} className="flex-1">
+                  <Label className={labelClass}>Präfix (Dr., Prof. …)</Label>
+                  <Input className={inputClass} />
+                </TextField>
+                <TextField value={newSuffix} onChange={setNewSuffix} className="flex-1">
+                  <Label className={labelClass}>Suffix (Jr., d. Ä. …)</Label>
+                  <Input className={inputClass} />
+                </TextField>
+              </div>
+              <TextField value={newSingleName} onChange={setNewSingleName}>
+                <Label className={labelClass}>Einzelname (Platon, Sokrates, …)</Label>
+                <Input className={inputClass} />
+              </TextField>
+            </>
+          )}
+
+          <div>
+            <span className="text-sm font-medium block mb-2">Rolle(n)</span>
+            <div className="flex gap-3 flex-wrap">
+              {[
+                { label: 'Verfasser:in', value: newIsAuthor, set: setNewIsAuthor },
+                { label: 'Herausgeber:in', value: newIsEditor, set: setNewIsEditor },
+                { label: 'Mitwirkende:r', value: newIsContributor, set: setNewIsContributor },
+                { label: 'Übersetzer:in', value: newIsTranslator, set: setNewIsTranslator },
+              ].map(({ label, value, set }) => (
+                <Checkbox
+                  key={label}
+                  isSelected={value}
+                  onChange={set}
+                  className="flex items-center gap-1.5 text-sm cursor-pointer"
+                >
+                  <div className="w-4 h-4 border border-gray-400 rounded flex items-center justify-center data-[selected]:bg-blue-600 data-[selected]:border-blue-600">
+                    <svg className="hidden data-[selected]:block w-3 h-3 text-white" viewBox="0 0 12 12" fill="none">
+                      <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  {label}
+                </Checkbox>
+              ))}
+            </div>
+          </div>
+        </div>
       )}
 
-      <Checkbox
-        label="Mehrbändiges Werk"
-        checked={isMultivolume}
-        onChange={(e) => setIsMultivolume(e.currentTarget.checked)}
-      />
+      <hr className="my-2" />
 
-      <Group>
-        <Button onClick={handleSubmit}>Speichern</Button>
+      {/* Core book fields */}
+      <TextField value={title} onChange={setTitle} isRequired>
+        <Label className={labelClass}>Titel *</Label>
+        <Input className={inputClass} />
+      </TextField>
+
+      <TextField value={subtitle} onChange={setSubtitle}>
+        <Label className={labelClass}>Untertitel</Label>
+        <Input className={inputClass} />
+      </TextField>
+
+      <NumberField
+        value={publicationYear === '' ? undefined : Number(publicationYear)}
+        onChange={(v) => setPublicationYear(isNaN(v) ? '' : v)}
+        minValue={1000}
+        maxValue={2100}
+        className="w-28"
+      >
+        <Label className={labelClass}>Erscheinungsjahr</Label>
+        <Input className={inputClass} />
+      </NumberField>
+
+      <div className="flex gap-2">
+        {/* Publisher — free text allowed */}
+        <ComboBox
+          defaultFilter={startsWithFilterRA}
+          inputValue={publisher}
+          onInputChange={setPublisher}
+          allowsCustomValue
+          className="flex-1"
+        >
+          <Label className={labelClass}>Verlag</Label>
+          <Input className={inputClass} />
+          <Popover className={popoverClass}>
+            <ListBox items={publisherItems}>
+              {(item) => (
+                <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
+                  {item.label}
+                </ListBoxItem>
+              )}
+            </ListBox>
+          </Popover>
+        </ComboBox>
+
+        {/* Place — free text allowed */}
+        <ComboBox
+          defaultFilter={startsWithFilterRA}
+          inputValue={placeOfPublication}
+          onInputChange={setPlaceOfPublication}
+          allowsCustomValue
+          className="flex-1"
+        >
+          <Label className={labelClass}>Erscheinungsort</Label>
+          <Input className={inputClass} />
+          <Popover className={popoverClass}>
+            <ListBox items={placeItems}>
+              {(item) => (
+                <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
+                  {item.label}
+                </ListBoxItem>
+              )}
+            </ListBox>
+          </Popover>
+        </ComboBox>
+      </div>
+
+      {/* Format */}
+      <div>
+        <span className="text-sm font-medium block mb-2">Erscheinungsform</span>
+        <ComboBox
+          defaultFilter={startsWithFilterRA}
+          selectedKey={formatBase}
+          onSelectionChange={(key) => setFormatBase(key ? String(key) : null)}
+          className="mb-2"
+        >
+          <Label className={labelClass}>Erscheinungsform</Label>
+          <Input className={inputClass} placeholder="Erscheinungsform wählen" />
+          <Popover className={popoverClass}>
+            <ListBox items={formatBaseItems}>
+              {(item) => (
+                <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
+                  {item.label}
+                </ListBoxItem>
+              )}
+            </ListBox>
+          </Popover>
+        </ComboBox>
+
+        <CheckboxGroup
+          value={formatExtras}
+          onChange={setFormatExtras}
+          className="flex flex-wrap gap-2"
+        >
+          {FORMAT_EXTRAS.map((e) => (
+            <Checkbox
+              key={e.abbrev}
+              value={e.abbrev}
+              className="flex items-center gap-1.5 text-sm cursor-pointer border border-gray-300 rounded px-2 py-1 data-[selected]:bg-blue-50 data-[selected]:border-blue-400"
+            >
+              {e.label}
+            </Checkbox>
+          ))}
+        </CheckboxGroup>
+      </div>
+
+      <TextField value={condition} onChange={setCondition}>
+        <Label className={labelClass}>Zustand</Label>
+        <Input className={inputClass} />
+      </TextField>
+
+      <TextField value={illustrations} onChange={setIllustrations}>
+        <Label className={labelClass}>Illustrationen & Abbildungen</Label>
+        <Input className={inputClass} />
+      </TextField>
+
+      <TextField value={packaging} onChange={setPackaging}>
+        <Label className={labelClass}>Beilagen</Label>
+        <Input className={inputClass} />
+      </TextField>
+
+      {/* Translation */}
+      <Checkbox
+        isSelected={isTranslation}
+        onChange={setIsTranslation}
+        className="flex items-center gap-2 text-sm cursor-pointer"
+      >
+        <div className="w-4 h-4 border border-gray-400 rounded flex items-center justify-center data-[selected]:bg-blue-600 data-[selected]:border-blue-600">
+          <svg className="hidden data-[selected]:block w-3 h-3 text-white" viewBox="0 0 12 12" fill="none">
+            <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+        Übersetzung
+      </Checkbox>
+
+      {isTranslation && (
+        <ComboBox
+          defaultFilter={startsWithFilterRA}
+          inputValue={originalLanguage ?? ''}
+          onInputChange={setOriginalLanguage}
+          allowsCustomValue
+        >
+          <Label className={labelClass}>Originalsprache</Label>
+          <Input className={inputClass} />
+          <Popover className={popoverClass}>
+            <ListBox items={languageItems}>
+              {(item) => (
+                <ListBoxItem id={item.value} textValue={item.label} className={listItemClass}>
+                  {item.label}
+                </ListBoxItem>
+              )}
+            </ListBox>
+          </Popover>
+        </ComboBox>
+      )}
+
+      {/* Multivolume */}
+      <Checkbox
+        isSelected={isMultivolume}
+        onChange={setIsMultivolume}
+        className="flex items-center gap-2 text-sm cursor-pointer"
+      >
+        <div className="w-4 h-4 border border-gray-400 rounded flex items-center justify-center data-[selected]:bg-blue-600 data-[selected]:border-blue-600">
+          <svg className="hidden data-[selected]:block w-3 h-3 text-white" viewBox="0 0 12 12" fill="none">
+            <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+        Mehrbändiges Werk
+      </Checkbox>
+
+      {/* Actions */}
+      <div className="flex gap-2 pt-2">
         <Button
-          variant="subtle"
-          onClick={onCancel}
+          type="submit"
+          className="px-4 py-2 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 cursor-pointer"
+        >
+          Speichern
+        </Button>
+        <Button
+          type="button"
+          onPress={onCancel}
+          className="px-4 py-2 text-sm text-gray-600 hover:underline cursor-pointer"
         >
           Abbrechen
         </Button>
-      </Group>
-    </Stack>
+      </div>
+    </Form>
   );
 }
