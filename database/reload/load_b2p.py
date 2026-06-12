@@ -7,7 +7,11 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from database.connection import get_db_connection
 
-b2p_file = Path("data_reload/db_files/books2people.json")
+# original load, missing rows
+# b2p_file = Path("data_reload/db_files/books2people.json")
+
+# load 1 of more to add missing rows - 1441 rows loaded on 12 June
+b2p_file = Path("data_reload/fix_missing/b2p_found_list_01.json")
 
 def load_b2p_to_db():
     with open(b2p_file, "r") as f:
@@ -19,13 +23,12 @@ def load_b2p_to_db():
         return
 
     insert_sql = """
-    INSERT INTO books2people (b2p_id, book_id, composite_id, person_id, unified_id, display_name, family_name, given_names, name_prefix, name_particles, name_suffix, single_name, sort_order, is_author, is_editor, is_contributor, is_translator)
-    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    INSERT INTO books2people (book_id, composite_id, person_id, unified_id, display_name, family_name, given_names, name_prefix, name_particles, name_suffix, single_name, sort_order, is_author, is_editor, is_contributor, is_translator)
+    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     ON CONFLICT DO NOTHING
     """
     rows = [
         (
-            entry.get("b2p_id"),
             entry.get("book_id"),
             entry.get("composite_id"),
             entry.get("person_id"),
@@ -43,6 +46,33 @@ def load_b2p_to_db():
             entry.get("is_contributor"),
             entry.get("is_translator"),
         ) for entry in b2p]
+
+# ORIGINAL VERSION - contained b2p_id from dev data
+    # insert_sql = """
+    # INSERT INTO books2people (b2p_id, book_id, composite_id, person_id, unified_id, display_name, family_name, given_names, name_prefix, name_particles, name_suffix, single_name, sort_order, is_author, is_editor, is_contributor, is_translator)
+    # VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    # ON CONFLICT DO NOTHING
+    # """
+    # rows = [
+    #     (
+    #         entry.get("b2p_id"),
+    #         entry.get("book_id"),
+    #         entry.get("composite_id"),
+    #         entry.get("person_id"),
+    #         entry.get("unified_id"),
+    #         entry.get("display_name"),
+    #         entry.get("family_name"),
+    #         entry.get("given_names"),
+    #         entry.get("name_prefix"),
+    #         entry.get("name_particles"),
+    #         entry.get("name_suffix"),
+    #         entry.get("single_name"),
+    #         entry.get("sort_order"),
+    #         entry.get("is_author"),
+    #         entry.get("is_editor"),
+    #         entry.get("is_contributor"),
+    #         entry.get("is_translator"),
+    #     ) for entry in b2p]
 
     with conn.cursor() as cur:
         cur.executemany(insert_sql, rows)
