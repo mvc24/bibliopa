@@ -1,0 +1,3229 @@
+{
+  "wien_210_9_10": {
+    "title": "Ein Jahrhundert Alt-Wiener Parodie",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "ROMMEL, Otto"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "ROMMEL, Otto || Ein Jahrhundert Alt-Wiener Parodie. Herausgegeben von … Wien Österreichischer Bundesverlag 1930. 285 S. OLn.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry states 'Herausgegeben von …' but no editor name follows the ellipsis. missing_person flag set accordingly. Note: ROMMEL, Otto is listed as the main entry (author/compiler), but the 'Herausgegeben von …' suggests an editor role may be missing or that Rommel himself is the editor with the name omitted by the cataloger."
+  },
+  "griechenland_82_4_10": {
+    "title": "Pilger, Priester und Propheten",
+    "subtitle": "Alltag und Religionen im Römischen Reich",
+    "authors": [
+      {
+        "display_name": "KNAPP, Robert"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "KNAPP, Robert || Pilger, Priester und Propheten. Alltag und Religionen im Römischen Reich. A. d. Engl. Mit Abb. Stuttgart Klett-Cotta 2017. 348 S. OPbd. m. OU.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry indicates a translation from English ('A. d. Engl.') but no translator name is given."
+  },
+  "philosophie_230_10_24": {
+    "title": "Moses Mendelssohn und seine Familie",
+    "subtitle": "Eine Festschrift zum 100 jährigen Todestages von … am 4. Januar 1886",
+    "authors": [
+      {
+        "display_name": "Kohut, Adolph"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "MENDELSSOHN || Moses Mendelssohn und seine Familie. Eine Festschrift zum 100 jährigen Todestages von …am 4. Januar 1886. von Adolph Kohut. Dresden Pierson 1886. 149 S. Mit einem Porträt von Mendelssohn in Lichtdruck. OHln.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The subtitle contains an ellipsis ('von …am 4. Januar 1886') indicating an incomplete reference — the name 'Moses Mendelssohn' was likely intended to appear there but is missing in the original entry. The author Adolph Kohut is clearly stated later in the entry. missing_person flag set due to the ellipsis in the subtitle where a name was expected."
+  },
+  "bibliophile_35_2_10": {
+    "title": "Aus der Welt der Azteken",
+    "subtitle": "Die Chronik des …",
+    "authors": [
+      {
+        "display_name": "SAHAGUN, Fray Bernardino de"
+      }
+    ],
+    "editors": [
+      {
+        "display_name": "Litterscheid, Claus"
+      }
+    ],
+    "contributors": null,
+    "translator": {
+      "display_name": "Schultze Jena, Leonhard; Seler, Eduard; Dedenbach-Salazar-Saenz, Sabine"
+    },
+    "original_entry": "SAHAGUN, Fray Bernardino de || Aus der Welt der Azteken. Die Chronik des … Übersetzungen von Leonhard Schultze Jena, Eduard Seler und Sabine Dedenbach-Salazar-Saenz. Ausgewählt und mit einem Nachwort versehen von Claus Litterscheid. Mit farb. Abb. a. XXIV Taf. und zahlr. Abb. i. Text. Frankfurt Insel 1989. 296 S. OLn. m. OU. Verlagsfrisch.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The subtitle reads 'Die Chronik des …' with an ellipsis, suggesting a name or phrase was left incomplete in the entry — likely 'Die Chronik des Fray Bernardino de Sahagún' or similar. missing_person flag set because the subtitle contains an unresolved ellipsis indicating an incomplete reference. The original language of the translated texts is not stated but is presumed to be Nahuatl or Spanish; left null as it cannot be determined with certainty from the entry alone."
+  },
+  "reisen_205_9_13": {
+    "title": "Unter Menschenfressern am Amazonas",
+    "subtitle": "Brasilianisches Tagebuch 1556-1558",
+    "authors": [
+      {
+        "display_name": "LERY, Jean de"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "LERY, Jean de || Unter Menschenfressern am Amazonas. Brasilianisches Tagebuch 1556-1558. Mit achtund-dreissig Abbildungen. Tübingen Erdmann 1977 392 S. OLn.m.OU.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry is a translation (the original is a 16th-century French account by Jean de Léry about Brazil), but no translator is named. api_concerned: The original language is almost certainly French, but this cannot be confirmed from the entry alone. Additionally, the original work by Léry was about Brazil/the Tupinambá people, not specifically the Amazon; the subtitle 'Brasilianisches Tagebuch 1556-1558' aligns with the known work, but the main title differs from other known German editions — no correction applied."
+  },
+  "kunstbuecher_599_24_38": {
+    "title": "Der Auftrag",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "BÖHMER, Gunter"
+      }
+    ],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Fitzbauer, Erich"
+      }
+    ],
+    "translator": null,
+    "original_entry": "BÖHMER, Gunter || Der Auftrag von Erich Fitzbauer. Zeichnungen von …Edition Graphischer Zirkel 1981. Die Auflage enthält 812 vom Künstler und Autor signierte Exemplare. Ex. Nr 422. Folio",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry states 'Zeichnungen von …' with an ellipsis and no name following, indicating the illustrator's name is absent. The author of the text appears to be Erich Fitzbauer ('von Erich Fitzbauer'), while BÖHMER, Gunter is listed as the main entry — possibly the artist who made the drawings. The role assignment between Böhmer and Fitzbauer is ambiguous; Fitzbauer has been placed as contributor. The missing name after 'Zeichnungen von' may refer to Böhmer himself, but this cannot be confirmed."
+  },
+  "philosophie_136_6_24": {
+    "title": "Mit Platon in Palästina",
+    "subtitle": "Vom Nutzen der Philosophie in einer zerrissenen Welt",
+    "authors": [
+      {
+        "display_name": "FRAENKEL, Carlos"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "FRAENKEL, Carlos || Mit Platon in Palästina. Vom Nutzen der Philosophie in einer zerrissenen Welt. A.d.Engl. München Hanser 1915. 239 S. OPbd.m.OU.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Publication year corrected from 1915 to 2015: the book by Carlos Fraenkel was published in 2015, and 1915 is clearly a typo. Translator name is absent despite the entry indicating a translation from English ('A.d.Engl.'); missing_person flag set accordingly."
+  },
+  "mittelalter_78_4_7": {
+    "title": "Byzanz",
+    "subtitle": "Aufstieg und Fall eines Weltreiches",
+    "authors": [
+      {
+        "display_name": "NORWICH, John J."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "NORWICH, John J. || Byzanz. Aufstieg und Fall eines Weltreiches. A.d.Engl. Berlin List 2006 704 S. Mit zahlr. Abb. a.Taf. List TB",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from English indicated ('A.d.Engl.') but no translator name is given. missing_person flag set accordingly."
+  },
+  "briefe_298_12_15": {
+    "title": "Gesammelte Werke in sechs Bänden",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "PUSCHKIN, Alexander Sergejewitsch"
+      }
+    ],
+    "editors": [
+      {
+        "display_name": "Raab"
+      }
+    ],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "PUSCHKIN, Alexander Sergejewitsch || Gesammelte Werke in sechs Bänden. Herausgegeben von Raab. Berlin Aufbau 1973. 3. Auflage. || Gedichte. 494 S. || Poeme und Märchen. 416 S. || Eugen Onegin. Dramen. 469 S. || Romane und Novellen. 498 S. || Aufsätze und Tagebücher. 594 S. || Briefe. 560 S. || Originalleinenbände und OU. Sehr gut erhalten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The editor is listed only as 'Raab' without a given name. missing_person flag set accordingly."
+  },
+  "russland_391_16_17": {
+    "title": "Bahn der Parabel",
+    "subtitle": "Gedichte",
+    "authors": [
+      {
+        "display_name": "WOSNESSENSKI, Andrej"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "WOSNESSENSKI, Andrej || Bahn der Parabel. Gedichte. A.d.Russ. Frankfurt S. Fischer 1963. 111 S. Fischer doppelpunkt. OPbd. m.OU. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry indicates a translation from Russian ('A.d.Russ.') but no translator name is given."
+  },
+  "erstausgaben_794_32_78": {
+    "title": "Besuch in Weimar",
+    "subtitle": "Goethes achtzigster Geburtstag",
+    "authors": [
+      {
+        "display_name": "MELL, Max"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "MELL, Max || Besuch in Weimar. Goethes achtzigster Geburtstag. Neu herausgegeben von… Wien Pilgram 1949. 183 S. OLn. Sehr gut erhalten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'Neu herausgegeben von…' with an ellipsis but no editor name provided. missing_person flag set accordingly."
+  },
+  "erstausgaben_796_32_78": {
+    "title": "Österreichische Zeiten und Charaktere",
+    "subtitle": "Ausgewählte Bruchstücke aus österreichischen Selbst-biographien",
+    "authors": null,
+    "editors": [
+      {
+        "display_name": "MELL, Max"
+      }
+    ],
+    "contributors": null,
+    "translator": null,
+    "original_entry": "MELL, Max || Österreichische Zeiten und Charakrtere. Ausgewählte Bruchstücke aus österreichischen Selbst-biographien, herausgegeben von …Wien Deutsch-Österreichischer Verlag (1912). Zweites Tausend. 600 S. OLn.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Typo 'Charakrtere' corrected to 'Charaktere' (corrected_by_api). The entry reads 'herausgegeben von …' with an ellipsis and no name following; MELL, Max is listed as the heading name and is treated as the editor, but the ellipsis suggests the editor's name may have been left blank intentionally or was missing from the original cataloging (missing_person). MELL, Max is assigned as editor based on the entry heading."
+  },
+  "buddhismus_33_2_3": {
+    "title": "TIBETANISCHE TOTENBUCH",
+    "subtitle": "Oder Die Nachtod-Erfahrungen auf der Bardo-Stufe",
+    "authors": [],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Jung, C. G."
+      },
+      {
+        "display_name": "Woodroffe, Sir John"
+      }
+    ],
+    "translator": null,
+    "original_entry": "TIBETANISCHE TOTENBUCH || Oder Die Nachtod-Erfahrungen auf der Bardo-Stufe. A. d. Engl. Mit einem Geleitwort und einem psychologischen Kommentar von C. G. Jung und einer Abhandlung von Sir John Woodroffe. Freiburg Walter 1981. Mit Abb. 335 S. OBrosch.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry states 'A. d. Engl.' (translated from English) but no translator name is given. api_concerned: This entry likely refers to the Tibetan Book of the Dead (Bardo Thödol), originally edited/translated by W. Y. Evans-Wentz and/or Chogyam Trungpa/Francesca Fremantle in various editions. The Walter Verlag 1981 edition is likely the Evans-Wentz edition translated into German, but the German translator is not named in the entry. Human verification recommended to identify the translator and original editor."
+  },
+  "buddhismus_34_2_3": {
+    "title": "Tibetische Buch der Toten",
+    "subtitle": null,
+    "authors": null,
+    "editors": null,
+    "contributors": [
+      {
+        "display_name": "Govinda, L. A."
+      }
+    ],
+    "translator": null,
+    "original_entry": "TIBETISCHE BUCH DER TOTEN || Die erste Originalübertragung aus dem Tibetischen. Eingeleitet von L. A. Govinda. Gütersloh Buchgemeinschaft 215 S. OLn. m. OU. Barth Verlag. Bücher der Weisheit",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry states 'Die erste Originalübertragung aus dem Tibetischen' but no translator is named. api_concerned: The title appears to be 'Das Tibetische Buch der Toten' (article 'Das' missing from entry). Additionally, two publishers are mentioned — 'Buchgemeinschaft' (Gütersloh) and 'Barth Verlag' — which may indicate two different editions or a co-publication; the relationship is unclear. No publication year is given. L. A. Govinda wrote the introduction but is not the translator; the translator's identity cannot be determined from this entry alone."
+  },
+  "buddhismus_47_2_3": {
+    "title": "Indiens Religion. Der Santana-Dharma",
+    "subtitle": "Eine Darstellung des Hinduismus",
+    "authors": [
+      {
+        "display_name": "ABS. P, Jos."
+      }
+    ],
+    "editors": null,
+    "contributors": null,
+    "translator": null,
+    "original_entry": "ABS. P, Jos. || Indiens Religion. Der Santana-Dharma. Eine Darstellung des Hinduismus. Übersetzt und erläutert von …Mit Abb. Bonn und Leipzig Kurt Schroeder. 1923. XVII, 234 S. OHLn.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry states 'Übersetzt und erläutert von …' but no translator name follows the ellipsis. api_concerned: The author name 'ABS. P, Jos.' is highly unusual and may be an abbreviation, pseudonym, or cataloging error — possibly referring to a religious title (e.g., 'Abt P.' for 'Abt Pater') rather than a standard surname/given name combination. Human verification recommended."
+  },
+  "insel_641_26_27": {
+    "title": "Vom Glück der Freundschaft",
+    "subtitle": null,
+    "authors": [],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Alexandra Klobouk"
+      },
+      {
+        "display_name": "Eva Goncalves"
+      }
+    ],
+    "translator": null,
+    "original_entry": "Vom Glück der Freundschaft. Mit Illustrationen von Alexandra Klobouk und Eva Goncalves. Berlin Insel 2014. 95 S. OPbd. Kleinformat",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: No author or editor is named for this anthology/collection. The illustrators are listed but no compiler or editor is identified."
+  },
+  "oesterreich_111_5_13": {
+    "title": "Mürzzuschlag Semmeringgebiet Mürztal",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "PANHOFER, Peter"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "PANHOFER, Peter || Mürzzuschlag Semmeringgebiet Mürztal. Zusammengestellt von …Mit Fotos. Mürzzuschlag Waldheimat-Verlag 1926. 45 S. und 27 S. Werbung. OBrosch.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry states 'Zusammengestellt von …' with an ellipsis and no following name, indicating the compiler/author name is missing. PANHOFER, Peter is listed as the heading but the ellipsis after 'Zusammengestellt von' suggests the compiler name was not filled in. Additionally, the entry mentions 27 S. Werbung (advertising pages) beyond the main 45 pages; only the main page count is recorded."
+  },
+  "biographie_142_6_27": {
+    "title": "Bruce Chatwin. Eine Biographie",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "Bruce Shakespeare"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "CHATWIN, Bruce || Bruce Shakespeare: Bruce Chatwin. Eine Biographie. A. d. Engl. Reinbek Kindler 2000. 827 S. OPbd. m.OU. Mit Widmung auf Schmutzblatt. Lesebändchen. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The translator's name is not given, only the language of origin ('A. d. Engl.'). api_concerned: The author name 'Bruce Shakespeare' is unusual and may be a cataloging error or typo. The known biography of Bruce Chatwin was written by Nicholas Shakespeare (published by Harvill/Cape, 1999/2000). 'Bruce Shakespeare' does not appear to be a known author; the given name 'Bruce' may have been erroneously copied from the subject's name. Human verification recommended."
+  },
+  "biographie_148_6_27": {
+    "title": "Der Magier",
+    "subtitle": "Die Biographie des Paulo Coelho",
+    "authors": [
+      {
+        "display_name": "Morais, Fernando"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "COELHO, Paul || Fernando Morais: Der Magier. Die Biographie des Paulo Coelho. Zürich Diogenes A. d. Brasilian. 2010. 708 S. Mit 95 Fotos. Lesebändchen. Mängelexemplar. OLn. m. OU. Verlagsfrisch.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry indicates a translation from Brazilian Portuguese ('A. d. Brasilian.') but no translator name is given. missing_person flag set accordingly. The header 'COELHO, Paul' refers to the subject of the biography, not the author; the actual author is Fernando Morais."
+  },
+  "insel_468_19_27": {
+    "title": "MÄRCHEN UND FABELN IB 790",
+    "subtitle": null,
+    "authors": [],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "HEGENBARTH, Josef"
+      }
+    ],
+    "translator": null,
+    "original_entry": "MÄRCHEN UND FABELN IB 790 || Illustriert von Josef HEGENBARTH. 24 Blätter aus dem Nachlass. Mit einem Nachwort von Fritz Löffler. Frankfurt Insel 1964. 32 S. Bildeinband. EA Makellos2. Ex.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry has no named author for the collected Märchen und Fabeln. The illustrator (Hegenbarth) and the author of the afterword (Fritz Löffler) are named, but the compiler or author of the texts is absent. 'Makellos2. Ex.' appears to be a run-together of 'Makellos' (condition) and '2. Ex.' (copies: 2), parsed accordingly."
+  },
+  "kunstbuecher_57_3_38": {
+    "title": "Wolfgang Hutter",
+    "subtitle": null,
+    "authors": [],
+    "editors": [
+      {
+        "display_name": "BREICHA, Otto"
+      }
+    ],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "BREICHA, Otto (Hg.) || Wolfgang Hutter. Essay und Werkkatalog von …Vorwort von A. P. Gütersloh. Wien Jugend und Volk 1969. 206 S. OLn. m. OU und Schuber. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry states 'Essay und Werkkatalog von …' with an ellipsis, indicating the author of the essay and catalogue raisonné is missing. The editor Otto Breicha is listed, and A. P. Gütersloh is credited with the foreword, but the person responsible for the essay and Werkkatalog is not named."
+  },
+  "reisen_3_1_13": {
+    "title": "Die große Völkerkunde",
+    "subtitle": "Sitten, Gebräuche und Wesen fremder Völker",
+    "authors": [
+      {
+        "display_name": "BERNATZIK, Hugo"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "BERNATZIK, Hugo || Die große Völkerkunde. Sitten, Gebräuche und Wesen fremder Völker Herausgegeben von… || Band I. Europa Afrika. Mit 200 Abb., 3 Karten und 4 Tafeln 371 S. || Band II. Asien Mit 271 Abb., 21 Karten und 9 Tafeln 364 S. || Band III. Australien. Amerika. Mit 86 Abb., 4 Karten und 3 Tafeln.370 S. || Leipzig Bibliograph. Institut 1939.OLn. (3.Band mit OU). Sehr gut erhalten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry states 'Herausgegeben von…' with an ellipsis but no editor name is given. BERNATZIK, Hugo is listed as the primary author/editor of the work but the specific editor responsible for this edition is not named."
+  },
+  "reisen_6_1_13": {
+    "title": "Meine Wollfahrt nach Medina und Mekka",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "BURTON, Richard"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "BURTON, Richard || Meine Wollfahrt nach Medina und Mekka. Berlin Ullstein ca. 1925. 156 S. OHln.Mit Besitzervermerk Rolf Ehrenfels Lichtenau 1925.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The title 'Wollfahrt' appears to be a typo for 'Wallfahrt' (pilgrimage); corrected_by_api set true for this correction. The work is a translation of Burton's 'Personal Narrative of a Pilgrimage to Al-Madinah and Meccah' (English original); is_translation set true and original_language set to Englisch, but no translator is named in the entry, so missing_person is set true. Publication year given as 'ca. 1925' — recorded as 1925."
+  },
+  "erstausgaben_135_6_78": {
+    "title": "Detective. Magazine der 13",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "ARTMANN, H.C."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "ARTMANN, H.C. || Detective. Magazine der 13. Herausgegeben von … || Salzburg Residenz 1971. 206 S. OBrosch.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry states 'Herausgegeben von …' but no editor name follows. The editor of this anthology is absent."
+  },
+  "erstausgaben_140_6_78": {
+    "title": "Gedichte von der wollust des dichtens in worte gefasst von …",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "ARTMANN, H.C."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "ARTMANN, H.C. || Gedichte von der wollust des dichtens in worte gefasst von …Salzburg Residenz 1989. 76 S. OLn.m.OU. Umschlag im unteren Teil etwas beschmutzt.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The title ends with '…' (ellipsis), suggesting the author's name was intended to follow ('in worte gefasst von …') but is absent. Given that ARTMANN, H.C. is listed as the author and this appears to be a self-referential title, the ellipsis likely stands in for his own name. Missing person flag set due to the incomplete name reference in the title phrase."
+  },
+  "oesterreich_90_4_13": {
+    "title": "Die Ritterburgen Rauheneck, Scharfeneck und Rauhenstein",
+    "subtitle": "Mit geschichtlichen Andeutungen über die Vemgerichte und Turniere",
+    "authors": [
+      {
+        "display_name": "LEBER, Fr(iedrich Otto) von"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "LEBER, Fr(iedrich Otto) von || Die Ritterburgen Rauheneck, Scharfeneck und Rauhenstein. Mit geschichtlichen Andeutungen über die Vemgerichte und Turniere. Herausgegeben von… Mit zehn Steintafeln. Wien Braumüller 1844. XIV, 316 S. OHLn. Sehr gut erhaltenes Exemplar. Komplett. Erschien nur in einer Auflage. Vorsätze und erste Abb. stockfleckig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry contains 'Herausgegeben von…' with an ellipsis but no editor name is given. It is unclear whether LEBER is the author or the subject, and who the editor is. The author field has been populated with LEBER as listed at the head of the entry."
+  },
+  "mythologie_32_2_3": {
+    "title": "Die Umwertung des germanischen Brauchtums durch die Missionierung",
+    "subtitle": "Eine Feststellung von…",
+    "authors": [
+      {
+        "display_name": "SCHOLZ, Wilhelm"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "SCHOLZ, Wilhelm || Die Umwertung des germanischen Brauchtums durch die Missionierung. Eine Feststellung von… Verlag Deutsche Heimat 1974. 59 S. Mit Abb. OBrosch. Nazionalsozialistisch!.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The subtitle 'Eine Feststellung von…' trails off with an ellipsis, suggesting a person's name (likely the author or a contributor) was intended but not recorded. missing_person flag set accordingly."
+  },
+  "insel_662_27_27": {
+    "title": "Die Kickleburys am Rhein",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "WILLIAM MAKEPEACE THACKERAY"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "WILLIAM MAKEPEACE THACKERAY IB 551 || Die Kickleburys am Rhein. Mit Zeichnungen des Verfassers. Mit einem Vorwort und Anmerkungen des Übersetzers. Leipzig Insel 1965. 122 S.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "A translator is mentioned ('Mit einem Vorwort und Anmerkungen des Übersetzers') but no name is given. missing_person set to true."
+  },
+  "insel_446_18_27": {
+    "title": "Lanzelot und Sanderein",
+    "subtitle": null,
+    "authors": [],
+    "editors": [],
+    "contributors": [],
+    "translator": {
+      "display_name": "Buchner, Friedrich Markus"
+    },
+    "original_entry": "LANZELOT UND SANDEREIN IB-208 || A.d.Fläm. von Friedrich Markus Buchner. Leipzig Insel 16.-20.Tsd. 56 S.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: No author is listed for this work. The entry provides only the translator (Friedrich Markus Buchner) and notes it is translated from Flemish, but the original author's name is absent."
+  },
+  "neuzeit_80_4_4": {
+    "title": "Ungewöhnliche Menschen",
+    "subtitle": "Über Widerstand, Rebellion und Jazz",
+    "authors": [
+      {
+        "display_name": "HOBSBAWM, Eric"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "HOBSBAWM, Eric || Ungewöhnliche Menschen. Über Widerstand, Rebellion und Jazz. A.d.Engl. München Hanser 2001. 423 S. OLn.,m.OU. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from English indicated ('A.d.Engl.') but no translator name is given."
+  },
+  "signierte_119_5_10": {
+    "title": "Eine Minute der Menschheit",
+    "subtitle": "Eine Momentaufnahme. Aus Lems Bibliothek des 21. Jahrhunderts",
+    "authors": [
+      {
+        "display_name": "LEM, Stanislaw"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "LEM, Stanislaw || Eine Minute der Menschheit. Eine Momentaufnahme. Aus Lems Bibliothek des 21.Jahrhunderts. Frankfurt Suhrkamp 1983. 96 S. st 955. Vom Autor signiert",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry indicates a translation ('Aus dem' implied by Lem writing in Polish) but no translator is named. api_concerned: Stanislaw Lem wrote in Polish; the original language is likely Polish, but no explicit translation indicator ('A.d. Polnischen' etc.) is given in the entry, so original_language is left null. The series notation 'st 955' refers to Suhrkamp Taschenbuch Nr. 955."
+  },
+  "fremdsprachige_2_1_38": {
+    "title": "Die Lusiade des ...",
+    "subtitle": "Aus dem Portugiesischen in Deutsche Ottavereime übersetzt",
+    "authors": [
+      {
+        "display_name": "CAMOENS"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "CAMOENS || Die Lusiade des ... Aus dem Portugiesischen in Deutsche Ottavereime übersetzt. Mit einem Bildnis des Dichters. Wien Pichler 1816. XXVIII, 299 S. Magazin der ausländischen classischen Literatur zwölfter Band. Unbeschnittene OBrosch. Gut erhalten",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The title 'Die Lusiade des ...' contains an ellipsis where the translator's name would normally appear, suggesting the translator's name is missing from the entry. api_concerned: The author is listed as 'CAMOENS', the Portuguese poet Luís de Camões (c. 1524–1580), author of 'Os Lusíadas'. The translator is not named in the entry despite the ellipsis in the title suggesting a name should follow 'des'. The 1816 Pichler edition of a German verse translation of Os Lusíadas may be identifiable, but the translator cannot be confirmed from this entry alone."
+  },
+  "fremdsprachige_686_28_38": {
+    "title": "Der Buddha hinter dem Bretterzaun",
+    "subtitle": "Eine Erzählung",
+    "authors": [
+      {
+        "display_name": "NOOTEBOOM, Cees"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "NOOTEBOOM, Cees || Der Buddha hinter dem Bretterzaun. Eine Erzählung. A.d.Niederländ. Frankfurt Suhrkamp 1993. 84 S. OBrosch. Ungelesen. Dt. EA",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from Dutch indicated ('A.d.Niederländ.') but no translator name is given."
+  },
+  "fremdsprachige_689_28_38": {
+    "title": "Der Fang",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "OE, Kenzaburo"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "OE, Kenzaburo || Der Fang. A.d. Japan. Frankfurt Suhrkamp 1994. 82 S. Bibliothek Suhrkamp 1178.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry indicates a translation from Japanese ('A.d. Japan.') but no translator name is given."
+  },
+  "monographien_33_2_3": {
+    "title": "Joyce für Jedermann",
+    "subtitle": "Eine Einführung in das Werk von James Joyce für den einfachen Leser",
+    "authors": [
+      {
+        "display_name": "Burgess, Anthony"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "JOYCE || Anthony Burgess: Joyce für Jedermann. Eine Einführung in das Werk von James Joyce für den einfachen Leser. A.d.Engl. Frankfurt Suhrkamp 2004. 382 S. st 3608",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry indicates a translation ('A.d.Engl.') but no translator name is given. 'st 3608' refers to the Suhrkamp Taschenbuch series number 3608, recorded in series_title."
+  },
+  "philosophie_263_11_24": {
+    "title": "Wort und Gegenstand",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "QUINE, Willard van Orman"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "QUINE, Willard van Orman || Wort und Gegenstand (Word and Object). A.d.Engl. Stuttgart Reclam 1980. 504 S. UB 9987",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry indicates a translation from English ('A.d.Engl.') but no translator name is given."
+  },
+  "biographie_415_17_27": {
+    "title": "Lebensschule",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "MENUHIN, Jehudi"
+      }
+    ],
+    "editors": [
+      {
+        "display_name": "Christopher Hope"
+      }
+    ],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "MENUHIN, Jehudi || Lebensschule. Herausgegeben von Christopher Hope. A.d.Engl. München Piper 1987. 173 S. Mit 60 Abbildungen. OLn.m.OU. Verlagsfrisch",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "1) corrected_by_api: The author's first name 'Jehudi' is a known variant spelling of 'Yehudi' (Menuhin). The more standard spelling is 'Yehudi', but 'Jehudi' appears in some German-language publications. Flagged rather than corrected — see api_concerned. 2) api_concerned: 'Jehudi' vs 'Yehudi' Menuhin — the entry uses a German transliteration variant. Additionally, the role of Christopher Hope is listed as editor ('Herausgegeben von'), but world knowledge suggests Hope may have been the interviewer or compiler rather than a traditional editor; the exact nature of his contribution is uncertain. 3) missing_person: The translator is not named despite the work being identified as a translation from English ('A.d.Engl.')."
+  },
+  "ethnologie_94_4_13": {
+    "title": "Sehen Hören Lesen",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "LEVI-STRAUSS, Claude"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "LEVI-STRAUSS, Claude || Sehen Hören Lesen. A.d.Französ. München Hanser 1995. 183 S. OLn.m.OU. Mit Anstreichg",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: Translation from French is indicated ('A.d.Französ.') but no translator name is given."
+  },
+  "fremdsprachige_423_17_38": {
+    "title": "Die Falschmünzer",
+    "subtitle": "Roman",
+    "authors": [
+      {
+        "display_name": "GIDE, Andre"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "GIDE, Andre || Die Falschmünzer. Roman. A.d.Französ Reinbek Rowohlt 1957. 269 S. TB 2 Ex.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Author's name 'Andre' corrected to 'André' (Gide's standard name). Translator is indicated by 'A.d.Französ' (Aus dem Französischen) but no translator name is given — missing_person flag set."
+  },
+  "insel_109_5_27": {
+    "title": "Das Geheimnis des Lord Singelworth",
+    "subtitle": "Novellen",
+    "authors": [
+      {
+        "display_name": "CYPRIAN NORWID"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "CYPRIAN NORWID IB 704 || Das Geheimnis des Lord Singelworth. Novellen. Mit Illustrationen von Barbara Müller-Wolf. Leipzig Insel 1989. 137 S. Verlagfrisch",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: No translator is named, but the work is by Polish author Cyprian Norwid (1821–1883) and published in German, so a translator must exist. api_concerned: The original language is Polish (Norwid was a Polish poet and prose writer), but no translator is listed in the entry. Additionally, is_translation is set to true based on world knowledge that this is a Polish work published in German translation."
+  },
+  "oesterreich_134_6_13": {
+    "title": "Leben Kaiser Josephs des Zweiten",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "SCHNEIDAWIND"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "SCHNEIDAWIND || Leben Kaiser Josephs des Zweiten. Bearbeitet von … Mit dem getreuen Bildniß des Kaisers. Hamburg Berendsohn 1846. 112 S. OBrosch. gut erhalten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'Bearbeitet von …' indicating an editor or reviser whose name is missing (ellipsis in place of name). missing_person flag set accordingly."
+  },
+  "wien_59_3_10": {
+    "title": "Die alten Strassen und Plaetze von Wien's Vorstädten und ihre historisch interessanten Häuser",
+    "subtitle": "Ein Beitrag zur Culturgeschichte Wien's mit Rücksicht auf vaterländische Kunst, Architektur, Musik und Literatur",
+    "authors": [
+      {
+        "display_name": "KISCH, Wilhelm"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "KISCH, Wilhelm || Die alten Strassen und Plaetze von Wien´s Vorstädten und ihre historisch interessanten Häuser. Ein Beitrag zur Culturgeschichte Wien`s mit Rücksicht auf vaterländische Kunst, Architektur, Musik und Literatur. I. Band. Mit 201 Illustrationen. Wien Oskar Frank 1888. (4), IV, 576 S. Bunter OLn. Band mit schönen Vorsätzen und 3 fachem Goldschnitt. Sehr gut erhalten. || Band 2.: Die alten Strassen und Plätze Wiens und seine historisch interessantesten Häuser. Ein Beitrag zur Culturgschichte Wiens mit Rücksicht auf Vaterländische Kunst, Architektur, Musik, Literatur etc. In 20 Heften mit zahlreichen Illustrationen. Wien Selbstverlag des Verfassers 1879. XXXII S. Anschließend noch einmal das Titelblatt. Zusätzlich dazu: Mit einem Plane und 277 Illustrationen nach den Originalen von… Wien M. Gottlieb 1883. OLn. Band, sowie Band 1, ohne Goldschnitt. Einband vom Buchblock gelöst, durch Leinenstreifen leicht zu reparieren. Sonst neuwertig. Zus.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": true,
+    "api_concerned": true,
+    "problematic_multi_volume": true,
+    "verification_notes": "missing_person: In Band 2, the illustrator/original artist is referenced with 'nach den Originalen von…' but the name is cut off with an ellipsis — the person is absent. multiple_editions: Band 2 appears to have two distinct publication records: one from Wien Selbstverlag des Verfassers 1879 and one from Wien M. Gottlieb 1883, which may represent different editions or parts of the same volume; these cannot be cleanly separated. problematic_multi_volume: The structure of Band 2 is ambiguous — it is unclear whether the 1879 and 1883 publications are sub-volumes, separate editions, or supplementary material. The top-level fields reflect Band 1 (the first-described volume) as the main record. api_concerned: The title and subtitle differ between Band 1 and Band 2 (Band 1 refers to 'Vorstädten', Band 2 to 'Wiens' more broadly), and the publishers and years differ significantly (1888 vs. 1879/1883), suggesting these may not be a straightforward two-volume set but rather related but distinct publications. Human verification recommended."
+  },
+  "wien_66_3_10": {
+    "title": "KRIPPENWIRTSCHAFT IM WIENER ARSENAL",
+    "subtitle": "Ein Beitrag zum Bankrott der Sozialisierungsversuche",
+    "authors": [
+      {
+        "display_name": "Von einem ehemaligen Betriebsrat des Arsenals"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "KRIPPENWIRTSCHAFT IM WIENER ARSENAL || Ein Beitrag zum Bankrott der Sozialisierungsversuche. Von einem ehemaligen Betriebsrat des Arsenals. Wien Erste Wiener Vereins-Buchdruckerei 1925. 20 S. OBrosch. Selten!",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Author is given only as 'Von einem ehemaligen Betriebsrat des Arsenals' (anonymous pamphlet). No real name is provided; missing_person flag set accordingly. The anonymous designation has been placed in the authors field as the only available attribution."
+  },
+  "literatur_129_6_12": {
+    "title": "Universalgeschichte der Schrift",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "HAARMANN"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "HAARMANN, || Universalgeschichte der Schrift. Frankfurt Campus 1998. 576 S. Sonderausgabe Parkland. Verlag. Mit zahlreichen Abb. OPbd.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Author's given name is missing from the entry. The author is likely Harald Haarmann, a well-known German linguist who wrote 'Universalgeschichte der Schrift', but the given name has not been inserted to avoid incorrect attribution."
+  },
+  "literatur_141_6_12": {
+    "title": "Das Tier, das es nicht gibt",
+    "subtitle": "Eine Text- & Bild-Collage über das Einhorn",
+    "authors": [
+      {
+        "display_name": "HÖRISCH, Jochen"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "HÖRISCH, Jochen || Das Tier, das es nicht gibt. Eine Text- & Bild-Collage über das Einhorn. Herausgegeben von … Nördlingen Greno 1986. 236 S. Krater Bibliothek. Mit Abb. OLn.m.OU. und Lesebändchen.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'Herausgegeben von …' with no following editor name, indicating a missing person. HÖRISCH, Jochen is listed as the primary author but may also be the editor; the ellipsis suggests an additional or different editor whose name is absent."
+  },
+  "de-lit-monographien_95_4_10": {
+    "title": "Christian Dietrich Grabbe: Was ist mir näher als das Vaterland?",
+    "subtitle": null,
+    "authors": null,
+    "editors": [
+      {
+        "display_name": "Kindermann, Heinz"
+      }
+    ],
+    "contributors": null,
+    "translator": null,
+    "original_entry": "GRABBE || Christian Dietrich Grabbe: Was ist mir näher als das Vaterland? Herausgegeben von Heinz Kindermann. Berlin Büchergilde Gutenberg 1939. 451 S. OLn. || Paradebeispiel nationalsozialistischer Literaturgeschichtsschreibung!!!",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry lists GRABBE as the subject/heading but no author is given for the work itself — it is an anthology or selection edited by Heinz Kindermann. The subject of the work is Christian Dietrich Grabbe (the Romantic playwright), but no author of the surrounding text or compilation is named beyond the editor. The condition field has been used to capture the cataloger's critical annotation about the work's National Socialist ideological framing."
+  },
+  "russland_353_15_17": {
+    "title": "Tolstojs letzte Jahre",
+    "subtitle": null,
+    "authors": [],
+    "editors": [],
+    "contributors": [],
+    "translator": {
+      "display_name": "Drohla, Gisela"
+    },
+    "original_entry": "TOLSTOJS LETZTE JAHRE || Achtunddreißig Fotografien. Texte ausgewählt und übersetzt von Gisela Drohla. Frankfurt Insel 1972. 86 S. OLn.m.OU. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry states 'Texte ausgewählt und übersetzt von Gisela Drohla', indicating Drohla is both selector and translator. No author or editor is named for the work itself. The original language of the texts is not specified. Drohla is listed as translator since translation is explicitly mentioned; her role as selector/editor is noted here but not separately captured."
+  },
+  "russland_374_15_17": {
+    "title": "Frühlingsfluten",
+    "subtitle": "Erzählungen",
+    "authors": [
+      {
+        "display_name": "TURGENJEW, Iwan"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "TURGENJEW, Iwan || Frühlingsfluten. Erzählungen. A.d.Russ. Mit einem Nachwort von Gerhard Dudek. Berlin Aufbau-Verlag 1972. 482 S. OLn.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry indicates a translation from Russian ('A.d.Russ.') but no translator name is given. Gerhard Dudek is identified as the author of the afterword (Nachwort), not as translator."
+  },
+  "buch_104_5_8": {
+    "title": "Othmer's Vademecum des Buchhändlers und Bücherfreundes",
+    "subtitle": "Die wichtigsten Erscheinungen der schönwissenschaftlichen Literatur Deutschlands und des Auslandes mit biographischen und anderen Vermerken",
+    "authors": [
+      {
+        "display_name": "KLEEMEIER, Friedr. Joh."
+      }
+    ],
+    "editors": null,
+    "contributors": null,
+    "translator": null,
+    "original_entry": "KLEEMEIER, Friedr. Joh. || Othmer´s Vademecum des Buchhändlers und Bücherfreundes. Die wichtigsten Erscheinungen der schönwissenschaftlichen Literatur Deutschlands und des Auslandes mit biographischen und anderen Vermerken. Fünfte Auflage, vollständig neu bearbeitet von… Leipzig Hinrichs´sche Buchhandlung 1903. 770 S. Ln. der Zeit. Sehr gut erhalten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The edition statement reads 'vollständig neu bearbeitet von…' with an ellipsis, indicating the name of the revising editor is missing from the entry. The author KLEEMEIER, Friedr. Joh. appears to be the original compiler; the reviser of this fifth edition is unnamed. missing_person flag set accordingly."
+  },
+  "buch_124_5_8": {
+    "title": "Die Gutenberg Galaxis",
+    "subtitle": "Das Ende des Buchzeitalters",
+    "authors": [
+      {
+        "display_name": "MC LUHAN, Marshall"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "MC LUHAN, Marshall || Die Gutenberg Galaxis. Das Ende des Buchzeitalters. Düsseldorf Econ 1995. XVIII, 375 S. OPbd. OU Neu",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The work is a translation of McLuhan's 'The Gutenberg Galaxy' (originally English), but no translator is named in the entry. missing_person set to true accordingly."
+  },
+  "biographie_105_5_27": {
+    "title": "Mottos meines Lebens",
+    "subtitle": "Betrachtungen aus drei Jahrzehnten",
+    "authors": [
+      {
+        "display_name": "BLIXEN, Tanja"
+      }
+    ],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Sigrid Daub"
+      }
+    ],
+    "translator": null,
+    "original_entry": "BLIXEN, Tanja || Mottos meines Lebens. Betrachtungen aus drei Jahrzehnten. A .d. Amerikan. Mit einem Vorwort von Sigrid Daub. Stuttgart Deutsche Verlagsanstalt 1991. 335 S. OPbd. m. OU",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "1) The author's first name 'Tanja' is likely a typo or variant for 'Karen' (Karen Blixen, the Danish author). However, 'Tanja' is not a known variant of her name, so corrected_by_api is set true for this correction — though api_concerned is also flagged because the given name 'Tanja' is unusual and may warrant human verification. 2) The translator is not named in the entry despite the work being identified as a translation from American English ('A .d. Amerikan.'), so missing_person is set true. 3) The title 'Mottos meines Lebens' does not immediately correspond to a well-known Karen Blixen work, which raises further concern about the record's identity — api_concerned is set true."
+  },
+  "mittelalter_40_2_7": {
+    "title": "Die Ritter von Camelot",
+    "subtitle": "König Artus, der Gral und die Entschlüsselung einer Legende",
+    "authors": [
+      {
+        "display_name": "GOODRICH, Norma Lorre"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "GOODRICH, Norma Lorre || Die Ritter von Camelot. König Artus, der Gral und die Entschlüsselung einer Legende. A.d.Engl. München Beck 1994. Mit 10 Abb., 9 Karten und einer Stammtafel. 485 S. OLnbd.m.OU,.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from English is indicated ('A.d.Engl.') but no translator name is given."
+  },
+  "bibliophile_13_1_10": {
+    "title": "Schopenhauers Geliebte in Berlin",
+    "subtitle": "Urkundliches, gesammelt von…Mit vier Bildnissen und mit Nachbildungen von Briefen und Urkunden",
+    "authors": [
+      {
+        "display_name": "GRUBER, Robert"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "GRUBER, Robert || Schopenhauers Geliebte in Berlin. Urkundliches, gesammelt von…Mit vier Bildnissen und mit Nachbildungen von Briefen und Urkunden. Wien Österreichische Druck- und Verlags-gesellschaft 1934. OHLn. m. interessantem Exlibris. Sehr gut erhalten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The subtitle contains 'Urkundliches, gesammelt von…' with an ellipsis indicating a collector/editor name that is missing from the entry. The author GRUBER, Robert may be the compiler, but the trailing ellipsis suggests a name was omitted. missing_person flag set accordingly."
+  },
+  "antike_199_8_9": {
+    "title": "Lieder, Elegien und Epigramme der griechischen und römischen Dichter des klassischen Altertums in ausgewählten Übersetzungen",
+    "subtitle": null,
+    "authors": null,
+    "editors": [
+      {
+        "display_name": "PORT, Frieda"
+      }
+    ],
+    "contributors": null,
+    "translator": null,
+    "original_entry": "PORT, Frieda || Lieder, Elegien und Epigramme der griechischen und römischen Dichter des klassischen Altertums in ausgewählten Übersetzungen. Herausgegeben von …München Beck (1923). XVI, 226 S. OPbd. m. OU.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry contains 'Herausgegeben von …' followed by an ellipsis with no name given. PORT, Frieda has been assigned as editor based on the name at the top of the entry, but the ellipsis suggests the editor name was intentionally left blank or was unknown to the cataloger. Additionally, the work is an anthology of translations from Greek and Latin, so is_translation is set to true, though no specific translator or original language is named."
+  },
+  "kunstbuecher_427_18_38": {
+    "title": "Alfred Kubin. Leben. Werk. Wirkung.",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "RAABE, Paul"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "RAABE, Paul || Alfred Kubin. Leben. Werk. Wirkung. Im Auftrag von Dr. Kurt Otte Kubin-Archiv in Hamburg zusammengestellt von …Mit insgesamt 137 Bildern, davon 83 im Text, 50 auf Kunstdruckseiten und 4 Farbtafeln in vierfarbigem Buchdruck. Ferner mit 1 Brieffaksimile als Beilage. Hamburg Rowohlt 1957. 295 S. OHLn. Sehr gut erhalten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry states 'zusammengestellt von …' (compiled by …) with an ellipsis and no name following, indicating the compiler's name is missing. Paul Raabe is listed as the main author/responsible person, but the actual compiler is not named in the entry."
+  },
+  "geschichte_26_2_3": {
+    "title": "Das Tor des Himmlischen Friedens",
+    "subtitle": "Die Chinesen und ihre Revolution 1895-1980",
+    "authors": [
+      {
+        "display_name": "SPENCE, Jonathan D."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "SPENCE, Jonathan D. || Das Tor des Himmlischen Friedens. Die Chinesen und ihre Revolution 1895-1980. München Beck 1985. A.d.Engl. Mit 46 Abbildungen im Text. OLn.m.OU. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from English is indicated ('A.d.Engl.') but no translator name is given. missing_person flag set accordingly."
+  },
+  "biographie_357_15_27": {
+    "title": "Gefährliche Zeiten",
+    "subtitle": "Ein Leben im 20. Jahrhundert",
+    "authors": [
+      {
+        "display_name": "HOBSBAWM, Eric"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "LEIBNIZ || Siehe HOLZ, Hans Heinz || HOBSBAWM, Eric || Gefährliche Zeiten. Ein Leben im 20. Jahrhundert. A.d.Engl. München Hanser 2003. 499 S. OPbd.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains two separate records: (1) 'LEIBNIZ — Siehe HOLZ, Hans Heinz' is a cross-reference that has been ignored in favor of the second, more complete record. (2) The HOBSBAWM entry is parsed as the main record. The translator is not named ('A.d.Engl.' only), hence missing_person is set to true."
+  },
+  "judentum_1_1_9": {
+    "title": "Birobidschan, die Judenrepublik",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "ALBERTON, M."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "ALBERTON, M. || Birobidschan, die Judenrepublik. Leipzig E.PragerVerlag.1932. 286 S. A. d. Jiddischen. OLn. Tadellose Erhaltung. Sehr selten!",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from Yiddish is indicated ('A. d. Jiddischen') but no translator name is given. missing_person flag set accordingly."
+  },
+  "erstausgaben_1622_65_78": {
+    "title": "Die Wiener Gruppe. Achleitner Artmann Bayer Rühm Wiener. Texte Gemeinschaftsarbeiten Aktionen",
+    "subtitle": null,
+    "authors": null,
+    "editors": [
+      {
+        "display_name": "RÜHM, Gerhard"
+      }
+    ],
+    "contributors": null,
+    "translator": null,
+    "original_entry": "RÜHM, Gerhard (Hrsg.) || Die Wiener Gruppe. Achleitner Artmann Bayer Rühm Wiener. Texte Gemeinschaftsarbeiten Aktionen. Herausgegeben und mit einem Vorwort von…Reinbek Rowohlt 1967. 492 S. Mit vielen Abb. Erstausgabe. OPbd. Buchblock gebrochen. Sonst sehr gut erhalten.Erweiterte Neuausgabe. 1985. 599 S. OLn.m.OU. 4 Ex.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": true,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry reads 'Herausgegeben und mit einem Vorwort von…' followed by an ellipsis with no name given — the editor's name is missing from this phrase (though RÜHM, Gerhard is listed as Hrsg. in the heading). multiple_editions: A second, expanded edition ('Erweiterte Neuausgabe') is mentioned: Reinbek, Rowohlt, 1985, 599 S., OLn.m.OU., 4 Ex. The first-described edition (1967) is used as the main record per cataloging convention. The 4 Ex. notation appears to belong to the 1985 edition."
+  },
+  "islam_4_1_3": {
+    "title": "Rostam",
+    "subtitle": "Die Legenden aus dem Sahname",
+    "authors": [
+      {
+        "display_name": "FERDAUSI, Abul-Quasem"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "FERDAUSI, Abul-Quasem || Rostam. Die Legenden aus dem Sahname. A.d.Pers. Stuttgart Reclam 2002. 405 S. OLn. m. OU. und Lesebändchen. Reclam Tb.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from Persian is indicated ('A.d.Pers.') but no translator name is given. missing_person set to true."
+  },
+  "islam_9_1_3": {
+    "title": "Beiträge zur Arabistik, Semitistik und Islamwissenschaft",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "HARTMANN, Richard"
+      },
+      {
+        "display_name": "SCHEEL, Helmuth"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "HARTMANN, Richard || Und Helmuth SCHEEL: Beiträge zur Arabistik, Semitistik und Islamwissenschaft. Herausgegeben von … Leipzig Harrassowitz 1944. VIII, 530 S. Mit 8 Tafeln. OHLn.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry states 'Herausgegeben von …' with an ellipsis and no following name, indicating a missing editor or editors. Hartmann and Scheel appear to be the named editors/authors of the volume, but the 'Herausgegeben von …' phrase suggests an additional unnamed editor may be intended."
+  },
+  "islam_16_1_3": {
+    "title": "Die Schale von Saki",
+    "subtitle": "Gedanken für tägliche Meditation",
+    "authors": [
+      {
+        "display_name": "KHAN, Inayat"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "KHAN, Inayat || Die Schale von Saki. Gedanken für tägliche Meditation. Aus den Lehren von … Erlenbach Rotapfel-Verlag. 128 S. OBrosch. M. e. Widmung an Ehepaar Ehrenfels. Kleinformat.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The phrase 'Aus den Lehren von …' indicates a source person whose name is absent (ellipsis after 'von'). The text is drawn from the teachings of an unnamed individual. Additionally, no translator name is given despite the 'Aus den Lehren von' phrasing suggesting a compiled/translated work. No publication year is present in the entry."
+  },
+  "kunstbuecher_658_27_38": {
+    "title": "Vivat Vamp!",
+    "subtitle": "Ein Fotobuch zum Lob des Vamps",
+    "authors": [
+      {
+        "display_name": "FLORA, Paul"
+      }
+    ],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Gregor von Rezzori"
+      }
+    ],
+    "translator": null,
+    "original_entry": "FLORA, Paul || Vivat Vamp! Ein Fotobuch zum Lob des Vamps. Mit einem gezeichneten Kommentar von … und einer Einführung von Gregor von Rezzori. Zürich Diogenes 1974. 125 S. TB",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry states 'Mit einem gezeichneten Kommentar von …' — the name of the person providing the drawn commentary is missing (indicated by ellipsis). Paul Flora is listed as the main author/creator; Gregor von Rezzori provided the introduction and is listed as contributor."
+  },
+  "griechenland_127_6_10": {
+    "title": "Mythos und Gesellschaft im alten Griechenland",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "VERNANT, Jean-Pierre"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "VERNANT, Jean-Pierre || Mythos und Gesellschaft im alten Griechenland. A.d.Französ. Frankfurt Suhrkamp 1987. 258 S.es 1381, NF 381.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from French indicated ('A.d.Französ.') but no translator name is given. 'es 1381, NF 381' appears to be a series/edition number (Suhrkamp edition suhrkamp, Nr. 1381, Neue Folge 381)."
+  },
+  "griechenland_130_6_10": {
+    "title": "Glaubten die Griechen an ihre Mythen?",
+    "subtitle": "Ein Versuch über die konstitutive Einbildungskraft",
+    "authors": [
+      {
+        "display_name": "VEYNE, Paul"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "VEYNE, Paul || Glaubten die Griechen an ihre Mythen? Ein Versuch über die konstitutive Einbildungskraft. A.d.Französ. Frankfurt Suhrkamp 1987. 186 S. Edition Suhrkamp TB",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from French with no translator name given. missing_person set true. 'Edition Suhrkamp TB' indicates a Taschenbuch (paperback) edition in the Edition Suhrkamp series."
+  },
+  "erstausgaben_718_29_78": {
+    "title": "Der Zauberbrunnen",
+    "subtitle": "Die Lieder der deutschen Romantik",
+    "authors": [
+      {
+        "display_name": "HESSE, Hermann"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "HESSE, Hermann || Der Zauberbrunnen. Die Lieder der deutschen Romantik. Ausgewählt v…Gustav Kiepenheuer Weimar 1913. Erste Auflage. 216 S. OLn..",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'Ausgewählt v…' (selected by…) with the selector's name truncated or missing. The person who made the selection is not identifiable from the entry as given."
+  },
+  "erstausgaben_955_39_78": {
+    "title": "Deutsche Erzähler",
+    "subtitle": "Ausgewählt und eingeleitet von…",
+    "authors": [],
+    "editors": [
+      {
+        "display_name": "HOFMANNSTHAL, Hugo von"
+      }
+    ],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "HOFMANNSTHAL, Hugo von || Deutsche Erzähler. Ausgewählt und eingeleitet von…Leipzig Insel 1933. 1004 S. OLn. Berieben und vergilbt.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The subtitle 'Ausgewählt und eingeleitet von…' trails off with an ellipsis, indicating that the name of the selector/introducer is missing. Hofmannsthal is listed as editor/introducer but the ellipsis suggests the name was not fully recorded. missing_person flag set accordingly."
+  },
+  "deutschland_26_2_4": {
+    "title": "'Rückkehr nicht erwünscht'",
+    "subtitle": "Die Verfolgung der Zigeuner im Dritten Reich",
+    "authors": [
+      {
+        "display_name": "LEWY, Guenter"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "LEWY, Guenter || 'Rückkehr nicht erwünscht'. Die Verfolgung der Zigeuner im Dritten Reich. A.d.Amerikan. Mit Abb. München Propyläen 2001. 471 S. OPbd.m.OU. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry indicates a translation from American English ('A.d.Amerikan.') but no translator name is given. missing_person set to true."
+  },
+  "musik_87_4_11": {
+    "title": "W.A.Mozart Gesamtkatalog seiner Werke 'Köchel-Verzeichnis'",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "MÜLLER, Franz Karl"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "MÜLLER, Franz Karl || W.A.Mozart Gesamtkatalog seiner Werke 'Köchel-Verzeichnis'. Neubearbeitet und herausgegeben von … Wien Paul Kaltschmid 1951. 448 S. OLn. m. OU. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry states 'Neubearbeitet und herausgegeben von …' with an ellipsis, indicating the editor's name is absent. MÜLLER, Franz Karl is listed as the heading but may be the subject or compiler rather than the editor of this new edition. api_concerned: The Köchel-Verzeichnis is a well-known catalogue of Mozart's works. The standard editions were edited by Alfred Einstein (3rd ed., 1937) and later by Franz Giegling, Alexander Weinmann, and Gerd Sievers (6th ed., 1964). A 1951 Wien edition by Paul Kaltschmid is not readily identifiable in standard bibliographic sources, and the role of MÜLLER, Franz Karl in relation to this work is unclear. Human verification is recommended."
+  },
+  "okkultismus_89_4_8": {
+    "title": "Der Teufel",
+    "subtitle": "Wesen, Wirkung, Geschichte",
+    "authors": [
+      {
+        "display_name": "NOLA, Alfonso di"
+      }
+    ],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Karlinger, Felix"
+      }
+    ],
+    "translator": null,
+    "original_entry": "NOLA, Alfonso di || Der Teufel. Wesen, Wirkung, Geschichte. Mit einem Vorwort von Felix Karlinger. A.d.Ital. München DTV 1993. 460 S. dtv wissenschaft TB. Mit vielen Abb.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry indicates a translation from Italian ('A.d.Ital.') but no translator name is given."
+  },
+  "reisen_229_10_13": {
+    "title": "Nootebooms Hotel",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "NOOTEBOOM, Cees"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "NOOTEBOOM, Cees || Nootebooms Hotel. A.d.Niederländ. Frankfurt Suhrkamp 2000. 517 S. Mit zahlr. Abb. OLn.m.OU.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from Dutch indicated ('A.d.Niederländ.') but no translator name is given."
+  },
+  "reisen_231_10_13": {
+    "title": "Im Frühling der Tau",
+    "subtitle": "Östliche Reisen",
+    "authors": [
+      {
+        "display_name": "NOOTEBOOM, Cees"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "NOOTEBOOM, Cees || Im Frühling der Tau. Östliche Reisen. A.d.Niederländ. Frankfurt Suhrkamp 1995. 343 S. Dritte Auflage. OLn.m.OU.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from Dutch indicated ('A.d.Niederländ.') but no translator name is given."
+  },
+  "reisen_232_10_13": {
+    "title": "Die Insel, das Land",
+    "subtitle": "Geschichten über Spanien",
+    "authors": [
+      {
+        "display_name": "NOOTEBOOM, Cees"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "NOOTEBOOM, Cees || Die Insel, das Land. Geschichten über Spanien. A.d.Niederländ. Frankfurt Suhrkamp 2002. 115 S. Mit Abb. OLn.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from Dutch indicated ('A.d.Niederländ.') but no translator name is given. missing_person flag set."
+  },
+  "literatur_268_11_12": {
+    "title": "STUDIENBUCH LINGUISTIK",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "Linke"
+      },
+      {
+        "display_name": "Nussbaumer"
+      },
+      {
+        "display_name": "Portmann"
+      }
+    ],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Willi, Urs"
+      }
+    ],
+    "translator": null,
+    "original_entry": "STUDIENBUCH LINGUISTIK || Von Linke, Nussbaumer, Portmann. 2. Auflage, ergänzt um ein Kapitel 'Phonetik und Phonologie' von Urs Willi. Tübingen Niemeyer 1994. 472 S. OBrosch.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Authors are listed by surname only (Linke, Nussbaumer, Portmann) without given names. Full names are: Angelika Linke, Markus Nussbaumer, Paul R. Portmann — but since the entry does not provide given names, missing_person is flagged. Urs Willi is listed as contributor for the added chapter on Phonetik und Phonologie."
+  },
+  "fremdsprachige_783_32_38": {
+    "title": "Julie oder die Neue Heloise",
+    "subtitle": "Briefe zweier Liebenden aus einer kleinen Stadt am Fusse der Alpen",
+    "authors": [
+      {
+        "display_name": "ROUSSEAU, J.J."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "ROUSSEAU, J.J. || Julie oder die Neue Heloise. Briefe zweier Liebenden aus einer kleinen Stadt am Fusse der Alpen. Illustriert mit Holzschnitten nach Tony Johannot/ E. Wattier /E. Lepoitevin u.a. Berlin Propyläen-Verlag (1922). In zwei Bänden. 561, 537 S. OPbd. mit goldgeprägtem Rücken. Zwei sehr schöne Exemplare.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry is a translation but no translator is named."
+  },
+  "insel_90_4_27": {
+    "title": "Venezianische Vignetten",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "CEES NOOTEBOOM"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "CEES NOOTEBOOM IB 1386 || Venezianische Vignetten. A. d. Niederländ. Mit Fotografien von Simone Sassen. Berlin Insel 2013. 112 S. OPbd Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry indicates a translation from Dutch ('A. d. Niederländ.') but no translator name is given."
+  },
+  "insel_96_4_27": {
+    "title": "Die Silvesterglocken",
+    "subtitle": "Mit elf Federzeichnungen nach der Erstausgabe von 1841",
+    "authors": [
+      {
+        "display_name": "CHARLES DICKENS"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "CHARLES DICKENS IB 89 || Die Silvesterglocken. Mit elf Federzeichnungen nach der Erstausgabe von 1841.Frankfurt Insel 1989. 9. Auflage 132 S. Verlagsfrisch",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The subtitle mentions 'Erstausgabe von 1841', but Dickens's 'The Chimes' (Die Silvesterglocken) was first published in 1844, not 1841. However, this may be a note reproduced from the book itself and not a cataloger error, so it has been left as stated. No translator is named in the entry; missing_person set true. is_translation set true as this is a German edition of an English work by Dickens. corrected_by_api set true: the subtitle text references 1841 which appears to be an error (the work was published 1844), but since this may be the book's own subtitle text, it is left uncorrected and flagged instead — api_concerned not set as the concern is noted here."
+  },
+  "oesterreich_150_7_13": {
+    "title": "Consuetudines Austriacae ad stylus excelsi regiminis infra anasum olim accomodatae",
+    "subtitle": "Nunc vero accesserunt additiones praedictarum consuetudinum Austriacarum renovatae: Nec non hujus Juris Austriaci Tractatus",
+    "authors": [
+      {
+        "display_name": "SUTTINGER, Johann Baptist"
+      }
+    ],
+    "editors": null,
+    "contributors": [
+      {
+        "display_name": "WALTHER, Bernardo"
+      }
+    ],
+    "translator": null,
+    "original_entry": "SUTTINGER, Johann Baptist || Consuetudines Austriacae ad stylus excelsi regiminis infra anasum olim accomodatae par … Nunc vero vero accesserunt additiones praedictarum consuetudinum Austriacarum renovatae: Nec non hujus Juris Austriaci Tractatus, … Authore Der. Bernardo Walthero… Norimbergae, Sumptibus Martini Endteri 1718.1051 pp, 44 nn. Bll, Register und Inhaltsangabe, 104 p, 7 nn. Bll. Gestochenes Frontispiz Karl VI. Pergamentband der Zeit mit einigen Gebrauchsspuren am Rücken. Recht gut erhalten.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "1) The entry contains 'Nunc vero vero' — the duplicated 'vero' is an obvious typo; corrected to 'Nunc vero' in the subtitle field (corrected_by_api). 2) The entry uses 'par …' (likely 'par [autorem]') and 'Authore Der. Bernardo Walthero…' with ellipses indicating incomplete names or text; the primary author SUTTINGER is named in the heading, but the contributor Bernardo Walther's full name/title is truncated ('Der.' may be an abbreviation for a title or role). Missing person flag set for the incomplete name following 'par …'. 3) The abbreviation 'Der.' before 'Bernardo Walthero' is ambiguous — it may stand for a religious title (e.g., 'Derselbe', 'Decretorum', or a monastic designation). api_concerned flag set for this ambiguity. 4) Page structure is complex: '1051 pp, 44 nn. Bll, Register und Inhaltsangabe, 104 p, 7 nn. Bll' — these appear to be collation details of a single volume rather than multiple volumes; no single pages value was assigned to avoid misrepresentation. 5) 'anasum' in the title likely refers to 'Anasum' (the Enns river, Latin: Anasus), a known geographic reference in Austrian legal texts — retained as written."
+  },
+  "oesterreich_168_7_13": {
+    "title": "Urkunden des Cistercienser-Stiftes Heiligenkreuz im Wienerwalde",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "WEIS, Johann Nepomuk"
+      }
+    ],
+    "editors": [
+      {
+        "display_name": "WEIS, Johann Nepomuk"
+      }
+    ],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "WEIS, Johann Nepomuk || Urkunden des Cistercienser-Stiftes Heiligenkreuz im Wienerwalde. Herausgegeben von … I. und 2. Theil in einem Band. Wien K. u. k. Hof- und Staatsdruckerei || 1.1856. 323 S. || 2. 1859. VI, 521 S. || OHLdr. Sehr gut erhalten. Fontes rerum austriacarum. Österreichische Geschichtsquellen. Herausgegeben von der Historischen Commission der Kaiserlichen Akademie der Wissenschaften in Wien. Nur Reprints werden angeboten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry contains 'Herausgegeben von …' with an ellipsis and no following name. WEIS, Johann Nepomuk is listed as the main entry and is likely the editor, but the ellipsis suggests the editor name was intentionally left blank or was unknown to the cataloger. WEIS has been listed as both author and editor as a best-effort interpretation. The note 'Nur Reprints werden angeboten' indicates only reprints are available. The two parts (Theile) are bound in one volume but cataloged with separate years (1856 and 1859); no single publication year is given for the combined volume."
+  },
+  "russland_327_14_17": {
+    "title": "Eine Frage der Schuld",
+    "subtitle": "Anlässlich der Kreutzersonate von Lew Tolstoi",
+    "authors": [
+      {
+        "display_name": "TOLSTAJA, Sofja"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "TOLSTAJA, Sofja || Eine Frage der Schuld. Anlässlich der Kreutzersonate von Lew Tolstoi. Roman Kurze Autobiographie der Gräfin Sofja Andrejewna Tolstaja. A.d.Russ. Nachwort Ursula Keller. Berlin btb 1910. 314 S. TB",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry states 'A.d.Russ.' (translated from Russian) but no translator name is given. api_concerned: The publication year 1910 is almost certainly incorrect for a Berlin btb edition — btb (Bertelsmann Taschenbuch) did not exist in 1910. The likely year is 2010 or possibly another recent year. Additionally, the entry appears to contain two works: 'Eine Frage der Schuld' (a novel) and 'Kurze Autobiographie der Gräfin Sofja Andrejewna Tolstaja', which may be a combined volume. Human verification recommended."
+  },
+  "russland_347_14_17": {
+    "title": "Die schönsten Erzählungen",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "TOLSTOI, Lew N."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "TOLSTOI, Lew N. || Die schönsten Erzählungen. A.d.Russ. Frankfurt Insel 2002. 275 S. it 2790",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from Russian is indicated ('A.d.Russ.') but no translator name is given. missing_person flag set accordingly."
+  },
+  "zeitgeschichte_35_2_4": {
+    "title": "Engel und Dämonen der Peripherie",
+    "subtitle": "Essays",
+    "authors": [
+      {
+        "display_name": "ANDRUCHOWITSCH, Juri"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "ANDRUCHOWITSCH, Juri || Engel und Dämonen der Peripherie. Essays. A.d.Ukrain. Frankfurt Suhrkamp 2007. 217 S. es 2513.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from Ukrainian is indicated ('A.d.Ukrain.') but no translator name is given. missing_person flag set accordingly."
+  },
+  "neuzeit_48_2_4": {
+    "title": "Die Hugenotten",
+    "subtitle": null,
+    "authors": null,
+    "editors": [
+      {
+        "display_name": "THADDEN, R. von"
+      },
+      {
+        "display_name": "Magdelaine, M."
+      }
+    ],
+    "contributors": null,
+    "translator": null,
+    "original_entry": "THADDEN, R. von / M. Magdelaine || Die Hugenotten. Herausgegeben von…München Beck 1985. 243 S. Mit 25 Abb. und 6 Karten OLn.m.OU. Verlagsfrisch.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'Herausgegeben von…' followed by an ellipsis with no additional editor name(s) listed. THADDEN and Magdelaine are treated as editors based on the entry structure, but the ellipsis suggests further editor(s) may be missing."
+  },
+  "reisen_39_2_13": {
+    "title": "Jemen",
+    "subtitle": "Bilder aus dem <<Weihrauchland>>",
+    "authors": [
+      {
+        "display_name": "MARECHAUX, Pascal"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "MARECHAUX, Pascal || Jemen. Bilder aus dem 'Weihrauchland'. A.d.Französ. Fotoband. Köln DuMont 1979. OLn. m.OU.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from French is indicated ('A.d.Französ.') but no translator name is given. missing_person flag set accordingly."
+  },
+  "erstausgaben_730_30_78": {
+    "title": "Deutsches Lesebuch",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "HOFMANNSTHAL, Hugo von"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "HOFMANNSTHAL, Hugo von || Deutsches Lesebuch. Erster Teil. Herausgegeben von…München Verlag der Bremer Presse 1922. XIV, 205 S. OPbd.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'Herausgegeben von…' with an ellipsis and no following name, indicating a missing editor name. missing_person flag set accordingly."
+  },
+  "erstausgaben_733_30_78": {
+    "title": "Schillers Selbstcharakteristik aus seinen Schriften",
+    "subtitle": "Nach einem älteren Vorbilde neu herausgegeben von…",
+    "authors": [],
+    "editors": [
+      {
+        "display_name": "HOFMANNSTHAL, Hugo von"
+      }
+    ],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "HOFMANNSTHAL, Hugo von || Schillers Selbstcharakteristik aus seinen Schriften. Nach einem älteren Vorbilde neu herausgegeben von…München Bremer Presse 1926. 186 S. 5 Bll. Index. Schöner Originalleinenband. Pressendruck. Erstausgabe.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The subtitle/description reads 'neu herausgegeben von…' with an ellipsis and no following name, indicating the editor's name is incomplete or absent in the entry. Hofmannsthal is listed as the main entry person and is treated as editor. The 5 Bll. Index is noted as supplementary material."
+  },
+  "erstausgaben_734_30_78": {
+    "title": "Adalbert Stifter. Ein Gedenkbuch",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "HOFMANNSTHAL, Hugo von"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "HOFMANNSTHAL, Hugo von || Adalbert Stifter. Ein Gedenkbuch. Herausgegeben von der Adalbert Stifter-Gesellschaft mit Geleitwort von …Wien Grünfeld 1928. 95 S. Sehr schöner OLnbd. EA. 2. Ex. OBrosch.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": true,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry states 'mit Geleitwort von …' but the name of the person who wrote the foreword is missing (indicated by ellipsis). multiple_editions: The entry lists a first copy as 'Sehr schöner OLnbd. EA.' and a second copy ('2. Ex.') in 'OBrosch.' format, suggesting two copies with different bindings; the first-described (OLnbd.) is used as the main record. api_concerned: HOFMANNSTHAL, Hugo von is listed as the author, but the work is described as 'Herausgegeben von der Adalbert Stifter-Gesellschaft', suggesting Hofmannsthal may be the author of a contribution (e.g., the Geleitwort) rather than the primary author or editor of the volume. The relationship between Hofmannsthal and this publication requires verification."
+  },
+  "briefe_151_7_15": {
+    "title": "Tagebuch 1889 – 1939",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "GIDE, Andre"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "GIDE, Andre || Tagebuch 1889 – 1939. Stuttgart DVA || 1. 1889 – 1939. 1950. 503 S. || 2. 1914 – 1923. 1951. 503 S. || 1924 – 1939. 1954. 703 S. || 1939 – 1949. 1967. 467 S. || Originalleinenbände mit OU. Erste dt. Aufl.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": true,
+    "verification_notes": "corrected_by_api: Author name 'Andre' corrected to standard form; André Gide's first name carries an accent. missing_person: No translator named despite this being a German translation of a French work (is_translation set to true based on 'erste dt. Aufl.' and French author; original language assumed French but not stated). api_concerned: The overall series title in the entry is 'Tagebuch 1889–1939' but volumes 2–4 cover different date ranges (1914–1923, 1924–1939, 1939–1949), suggesting the series title may be a general label rather than a precise date range; the actual diary spans 1889–1949 across four volumes. problematic_multi_volume: Volume 3 and 4 lack explicit volume numbers in the entry (only volumes 1 and 2 are numbered); volume numbers 3 and 4 have been inferred from sequence. The title 'Tagebuch 1889–1939' used as main title may only apply to the first volume or the series as a whole."
+  },
+  "briefe_173_7_15": {
+    "title": "Sämmtliche Werke. Zur Religion und Theologie. Zur Philosophie und Geschichte.",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "HERDER, Johann Gottfried von"
+      }
+    ],
+    "editors": [
+      {
+        "display_name": "Müller, Johann von"
+      },
+      {
+        "display_name": "Müller, Johann Georg"
+      }
+    ],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "HERDER, Johann Gottfried von || Sämmtliche Werke. Zur Religion und Theologie. Zur Philosophie und Geschichte. Stuttgart und Tübingen Cotta 1827 – 1830. || Band 1 – 2. Vom Geist der Ebräischen Poesie. Erster Theil 1782. Erste Abtheilung 1827. XXII. 245 S. Erster Theil 1782. Zweite Abtheilung 1827. VI, 190 S. || Band 3 – 4. Präludien zur Philosophie der Geschichte der Menschheit. Herausgegeben von Johann von Müller. Zweite Abtheilung. III. Tithon und Aurora. Aus den zerstreuten Blättern 1792. 28 S. IV. Auch eine Philosophie der Geschichte zur Bildung der Menschheit. Beitrag zu vielen Beiträgen des Jahrhunderts 1774. 174 S. Ideen zur Geschichte der Menschheit. Erster Theil 1784. Herausgegeben durch Johann von Müller. 246 S. || Band 5 – 6. Älteste Urkunde des Menschengeschlechts. Eine nach Jahrhunderten enthüllte heilige Schrift. Erster Theil 1774. Herausgegeben durch Johann Georg Müller. 186 S. || Zweiter und dritter Theil 240 S. || Band 7 – 8. Älteste Urkunde des Menschengeschlechts. Vierter Theil 1776. Nebst den Zusätzen aus den Handschriften des Verfassers. Herausgegeben durch Johann Georg Müller. || Christliche Reden und Homilien. Erster Theil. Herausgegeben durch J. Georg Müller. 182 S. || Band 9 – 10. Christliche Reden und Homilien. Zweiter Theil. Herausgegeben von Johann Georg Müller. 245 S. Dritter Theil. Hg. v…311 S. || Band 11 – 12. Adrastea. Begebenheiten und Charaktere des achtzehnten Jahrhunderts. Erster Theil zwischen 1801 und 1803. Herausgegeben durch Johann von Müller. || Adrastea und das achtzehnte Jahrhundert. Neu herausgegeben durch Johann von Müller. 360 S. || Band 13 – 14. Briefe, das Studium der Theologie betreffend. Nach der zweiten verbesserten Ausgabe 1785. Herausgegeben durch Johann Georg Müller. Erster und zweiter Theil. 312 S. || Briefe, das Studium …Dritter und vierter Theil. 308 S. || Band 15 – 16. Nachlese historischer Schriften. Herausgegeben durch Johann von Müller. 432 S. || Verstand und Erfahrung, Vernunft und Sprache. Eine Metakritik zur Kritik der reinen Vernunft 1799. Erster Theil. Cotta 1830. 272 S. || Band 17 – 18. Verstand und Erfahrung …Mit einer Zugabe, betreffend ein kritisches Tribunal aller Fakultäten, Regierungen und Geschäfte. 1799. Zweiter Theil. 216 S. || Kalligone 1800. Erster Band. Cotta 1830. 224 S. || Band 19 – 20. Kalligone 1800. Zweiter Band 216 S. || Erinnerungen aus dem Leben Joh. Gottfried von Herder. Gesammelt und beschrieben von Maria Carolina von Herder, geb. Flachsland. Hg. durch Johann Georg Müller. Erster Theil. 272 S. || Band 21 – 22. Erinnerungen … Zweiter Theil. 324 S. || Erinnerungen … Dritter Theil. 280 S. || Nach allen Abteilungen gibt es Inhaltsangaben. || 11 OLn. mit reichlicher Rückenvergoldung und Lesebändchen. Klein 8°. Sehr gut erhalten. Teile unaufgeschnitten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": true,
+    "verification_notes": "missing_person: In Band 9–10, the editor of the Dritter Theil of 'Christliche Reden und Homilien' is given as 'Hg. v…' with the name cut off/incomplete. The entry also notes '11 OLn.' which has been interpreted as 11 volumes in Originalleinen binding, but the work spans 22 Bände (Bände 1–22), so it is unclear whether 11 refers to 11 physical volumes (each binding containing two Bände) or 11 copies — most likely 11 physical volumes each containing two Bände, which is consistent with the pairing structure throughout. api_concerned: The entry pairs Bände consistently (1–2, 3–4, etc.) but the content within each pair is sometimes complex and the assignment of specific texts to specific volume numbers is partly inferential. Band 7 has no page count for the 'Älteste Urkunde' Vierter Theil section. The 'copies' field has been set to 11 reflecting the 11 physical volumes noted, but this may require human verification. problematic_multi_volume: The volume structure is complex — multiple works are bound together within single Bände pairs, page counts are sometimes missing (Band 7–8 for 'Älteste Urkunde' Vierter Theil), and the assignment of content to individual volume numbers within pairs is ambiguous in several cases."
+  },
+  "philosophie_585_24_24": {
+    "title": "Foucault: Die Revolutionierung der Geschichte",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "VEYNE, Paul"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "VEYNE, Paul || Foucault: Die Revolutionierung der Geschichte. A.d.Französ. Frankfurt Suhrkamp 1992. 83 S. es 1702 NF 702",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from French indicated ('A.d.Französ.') but no translator name is given. missing_person flag set."
+  },
+  "philosophie_586_24_24": {
+    "title": "Foucault: Die Revolutionierung der Geschichte",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "VEYNE, Paul"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "VEYNE, Paul || Foucault: Die Revolutionierung der Geschichte. A.d.Französ. Frankfurt Suhrkamp 1992. 83 S. es 1702. Dt. EA",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from French indicated by 'A.d.Französ.' but no translator name is given. missing_person flag set accordingly."
+  },
+  "philosophie_593_24_24": {
+    "title": "WORT UND GEGENSTAND",
+    "subtitle": null,
+    "authors": [],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Dieter Birnbacher"
+      }
+    ],
+    "translator": {
+      "display_name": "Joachim Schulte"
+    },
+    "original_entry": "WORT UND GEGENSTAND (Word and Object). A.d.Engl von Joachim Schulte in Zusammenarbeit mit Dieter Birnbacher. Stuttgart Reclam 1980. 504 S. UB 9987. TB.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry lists no author. Based on world knowledge, 'Word and Object' (1960) is a major work by W.V.O. Quine — the author is almost certainly Quine, but no name appears in the entry, so it has not been inserted. api_concerned: The author should be verified and added; the likely candidate is QUINE, Willard Van Orman."
+  },
+  "illustrierte_137_6_14": {
+    "title": "Die Nase",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "GOGOL, Nikolai"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "GOGOL, Nikolai || Die Nase. Mit 12 Zeichnungen von Hans Fronius. München Piper 1954. 57 S. Piper – Bücherei. Sehr gut.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry indicates a translation (Gogol wrote in Russian) but no translator is named."
+  },
+  "biographie_8_1_27": {
+    "title": "Bernard Bolzano",
+    "subtitle": "Leben und Wirkung",
+    "authors": [],
+    "editors": [
+      {
+        "display_name": "CHRISTIAN, Curt"
+      }
+    ],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "CHRISTIAN, Curt || Bernard Bolzano. Leben und Wirkung. Herausgegeben von …Mit Abb. Wien Verlag der Österreichischen Akademie der Wissenschaften 1981. 147 S. OBrosch.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry states 'Herausgegeben von …' with an ellipsis and no following name, indicating a missing editor or co-editor name. CHRISTIAN, Curt is listed as the primary name and has been assigned as editor given the 'Herausgegeben von' phrasing; however, the ellipsis suggests at least one additional editor whose name is absent."
+  },
+  "mythologie_11_1_3": {
+    "title": "Der Tanz des Himmels mit der Erde",
+    "subtitle": "Die Götter des haitianischen Vaudou",
+    "authors": [
+      {
+        "display_name": "DEREN, Maya"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "DEREN, Maya || Der Tanz des Himmels mit der Erde. Die Götter des haitianischen Vaudou. A.d.Amerikan. Wien Pro Media 1992. 368 S. OPbd.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from American English indicated ('A.d.Amerikan.') but no translator name is given."
+  },
+  "mythologie_13_1_3": {
+    "title": "Am Anfang waren die Frauen",
+    "subtitle": "Ursprungsmythen von den Amazonen bis zur Jungfrau Maria",
+    "authors": [
+      {
+        "display_name": "GEARY, Patrick J."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "GEARY, Patrick J. || Am Anfang waren die Frauen. Ursprungsmythen von den Amazonen bis zur Jungfrau Maria. A.d.Engl. München Beck 2006. Mit 4 Abb. OPbd.m.OU. Neu.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from English is indicated ('A.d.Engl.') but no translator name is given."
+  },
+  "mythologie_22_1_3": {
+    "title": "Griechische Mythen",
+    "subtitle": "Ihre Bedeutung und Funktion",
+    "authors": [
+      {
+        "display_name": "KIRK, Geoffrey Stephen"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "KIRK, Geoffrey Stephen || Griechische Mthen. Ihre Bedeutung und Funktion. A.d.Engl. Hamburg Rowohlt 1987. 311 S. OPbd. RDE.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Title corrected: 'Mthen' → 'Mythen' (obvious typo). Translator name is absent despite 'A.d.Engl.' indicating a translation; missing_person set true. 'RDE.' likely refers to a Rowohlt series (Rowohlts Deutsche Enzyklopädie) but is retained verbatim in format_original as it is a series/format notation; expansion left as-is due to ambiguity between series and format designation."
+  },
+  "renaissance_28_2_4": {
+    "title": "Isabella d'Este",
+    "subtitle": "Fürstin und Mäzenatin der Renaissance",
+    "authors": [
+      {
+        "display_name": "Ferino-Pagden, Sylvia"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "ISABELLA D´ESTE || Fürstin und Mäzenatin der Renaissance. Sylvia Ferino-Pagden. Unter Mitarbeit von…Ausstellungskatalog Kunsthistorisches Museum Wien 1994. 446 S. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry states 'Unter Mitarbeit von…' (with the assistance of…) but the collaborator name(s) are absent, indicated by the ellipsis. missing_person flag set accordingly."
+  },
+  "russland_259_11_17": {
+    "title": "Pique-Dame und andere Erzählungen",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "PUSCHKIN, Alexander S."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "PUSCHKIN, Alexander S. || Pique-Dame und andere Erzählungen. Mit 16 Miniaturen russischer Lackmalerei der Meister von Fedoskino, Palech Mstiora und Kholui. Düsseldorf Artemis & Winkler 1997. 144 S. OHln. Kleine Bibliothek.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry is a translation from Russian but no translator is named. missing_person set to true."
+  },
+  "erstausgaben_868_35_78": {
+    "title": "Der gewöhnliche Schrecken",
+    "subtitle": "Neue Horrorgeschichten",
+    "authors": null,
+    "editors": [
+      {
+        "display_name": "HANDKE, Peter"
+      }
+    ],
+    "contributors": null,
+    "translator": null,
+    "original_entry": "HANDKE, Peter || (Hrsg-) Der gewöhnliche Schrecken. Neue Horrorgeschichten von …Salzburg Residenz Verlag 1969. 184 S. OPbd. Foliert, Gebrauchsspuren.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'von …' indicating a list of contributing authors that is incomplete or was not recorded. The role indicator '(Hrsg-)' confirms Handke as editor. Missing person flag set due to the ellipsis after 'von', suggesting contributor names were omitted."
+  },
+  "erstausgaben_315_13_78": {
+    "title": "Wiegen- und Kinderlieder gesammelt durch die…",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "BRÜDER GRIMM"
+      }
+    ],
+    "editors": [
+      {
+        "display_name": "Rölleke"
+      }
+    ],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "BRÜDER GRIMM || Wiegen- und Kinderlieder gesammelt durch die…Hrsg.u.komm.von Rölleke. Weimar Böhlau 1999. 160 S. mit Illustrationen. OPbd.m.OU. Erstveröffentlichung. Ungelesen",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The title is truncated with '…' suggesting the full title is incomplete. The editor's first name is missing — only 'Rölleke' is given; likely Heinz Rölleke, a well-known Grimm scholar, but the first name is not stated in the entry, so missing_person is set true."
+  },
+  "biographie_183_8_27": {
+    "title": "Michel Foucault. Eine Biographie",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "ERIBON, Didier"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "ERIBON, Diedier || Michel Foucault. Eine Biographie. A. d. Französ. Frankfurt Suhrkamp 1991. 516 S. Mit Abb. st 3086",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Author first name corrected: 'Diedier' → 'Didier' (Didier Eribon is the well-known author of this biography of Foucault; the typo is unambiguous). Translator name is absent despite the work being a translation from French ('A. d. Französ.'); missing_person flag set accordingly."
+  },
+  "fremdsprachige_252_11_38": {
+    "title": "Briefe an seinen Sohn Philip Stanhope über die anstrengende Kunst ein Gentleman zu werden",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "CHESTERFIELD, Philip Dormer Stanhope Earl of"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "CHESTERFIELD, Philip Dormer Stanhope Earl of || Briefe an seinen Sohn Philip Stanhope über die anstrengende Kunst ein Gentleman zu werden. Mit 24 zeitgenössischen Illustrationen. Leipzig Kiepenheuer 1983. 460 S. OLn.m.OU. 'Bibliothek des 18. Jahrhunderts' Verlagsfrisch",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry is marked as a translation (German title of originally English letters by Lord Chesterfield), but no translator is named."
+  },
+  "fremdsprachige_257_11_38": {
+    "title": "Verkündigung",
+    "subtitle": "Ein geistliches Stück in vier Ereignissen und einem Vorspiel",
+    "authors": [
+      {
+        "display_name": "CLAUDEL, Paul"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "CLAUDEL, Paul || Verkündigung. Ein geistliches Stück in vier Ereignissen und einem Vorspiel. Hellerau Verlag der Neuen Blätter 1912. A.d.Französ. 177 S. OBrosch. Sehr gut erhalten",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from French is indicated ('A.d.Französ.') but no translator name is given. missing_person flag set accordingly."
+  },
+  "wien_237_10_10": {
+    "title": "Wiener Schule",
+    "subtitle": "Zwischen Surrealismus und Manierismus",
+    "authors": [],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Schmied, Wieland"
+      }
+    ],
+    "translator": null,
+    "original_entry": "WIENER SCHULE || Zwischen Surrealismus und Manierismus. Vorwort von Wieland Schmied. Feldafing Buchheim 1964. 46 S. Mit 20 ganzs. Abb.a.Taf.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry has no stated author or editor. Wieland Schmied is listed only as the author of the foreword (Vorwort) and has been placed in contributors. The actual editor or author of the catalogue/publication is not named."
+  },
+  "griechenland_69_3_10": {
+    "title": "Pythagoras: Legende – Lehre – Lebensgestaltung",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "JAMBLICH"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "JAMBLICH || Pythagoras: Legende – Lehre – Lebensgestaltung. Eingeleitet, übersetzt von…Darmstadt Wiss. Buchgesellschaft 2002. 352 S. OPbd.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry states 'Eingeleitet, übersetzt von…' but the name of the introducer/translator is missing (indicated by the ellipsis). missing_person set to true. is_translation set to true since a translator is indicated even though unnamed."
+  },
+  "de-lit-texte_23_1_20": {
+    "title": "Deutsche Erzähler",
+    "subtitle": "Ausgewählt von …",
+    "authors": [
+      {
+        "display_name": "HOFMANNSTHAL, Hugo von"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "HOFMANNSTHAL, Hugo von || Deutsche Erzähler. Ausgewählt von …Leipzig Insel 1912. In vier Bänden. XV, 381; 539; 511; 441. OPbde. mit gold. Rückentitel und Lesebändchen. Rücken bei Band 1,2 und vier etwas aufgeplatzt. Inhaltlich sehr gut erhalten. Vorwort vom Autor in EA.4",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The subtitle reads 'Ausgewählt von …' with an ellipsis indicating the selector/editor name is missing. Hofmannsthal is listed as the author/editor of the anthology and wrote the foreword. The 'EA.4' at the end likely means 'Erstausgabe, 4 Exemplare' or is a copy/edition notation; interpreted as Erstausgabe with copies=1 since no explicit copy count is given. The XV pages preface is assigned to volume 1 as is conventional."
+  },
+  "erstausgaben_282_12_78": {
+    "title": "Dante deutsch von…Fegfeuer",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "BORCHARDT, Rudolf"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": {
+      "display_name": "BORCHARDT, Rudolf"
+    },
+    "original_entry": "BORCHARDT, Rudolf || Dante deutsch von…Fegfeuer. München Bremer Presse und Berlin Rowohlt 1923. S. 164-312 (erster Band Hölle fehlt). OPbd.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": true,
+    "verification_notes": "missing_person: The entry reads 'Dante deutsch von…' with an ellipsis indicating a name was not filled in; Borchardt is the known translator of Dante into German (Bremer Presse edition), so the translator is likely Borchardt himself, but the name is absent in the entry. api_concerned: The title 'Dante deutsch von…Fegfeuer' is incomplete; this appears to be the second volume (Purgatorio/Fegfeuer) of Borchardt's Dante translation; the first volume (Hölle/Inferno) is noted as missing from the copy. The page range S. 164-312 is unusual for a standalone volume and may reflect pagination within a larger work. problematic_multi_volume: Only the second volume (Fegfeuer) is present; the first volume (Hölle) is explicitly noted as missing; total volume count and structure cannot be fully determined from this entry."
+  },
+  "erstausgaben_1476_60_78": {
+    "title": "Ben Jonsons 'Volpone'",
+    "subtitle": "Eine lieblose Komödie in drei Akten",
+    "authors": [
+      {
+        "display_name": "ZWEIG, Stefan"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "ZWEIG, Stefan || Ben Jonsons 'Volpone'. Eine lieblose Komödie in drei Akten. Frei bearbeitet von …Mit 6 Bildern nach Aubrey Beardsley. Potsdam Kiepenheuer 1926. 148 S. OLn.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry reads 'Frei bearbeitet von …' with an ellipsis and no name following. The adapter/arranger is not named. Based on context (the entry is filed under ZWEIG, Stefan), Zweig is the adapter, but the phrasing suggests the name was intended to be filled in and was left blank."
+  },
+  "kunstbuecher_535_22_38": {
+    "title": "Aktionen. Happenings und Demonstrationen seit 1965",
+    "subtitle": "Eine Dokumentation",
+    "authors": [
+      {
+        "display_name": "VOSTELL, Wolf"
+      }
+    ],
+    "editors": [
+      {
+        "display_name": "VOSTELL, Wolf"
+      }
+    ],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "VOSTELL, Wolf || Aktionen. Happenings und Demonstrationen seit 1965. Eine Dokumentation. Visualisiert und herausgegeben von…Reinbek Rowohlt 1970. 248 nn. S. Ill. OBrosch. mit zahlr. Abb. Sehr gut erhalten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry states 'Visualisiert und herausgegeben von…' with an ellipsis and no following name, indicating a missing editor/visualizer name. Based on context and the heading author VOSTELL, Wolf, he is likely the editor, but the entry structure with the ellipsis suggests another person may have been intended. VOSTELL has been listed as editor based on the heading, but the missing_person flag is set due to the incomplete 'herausgegeben von…' phrase."
+  },
+  "bibliophile_75_4_10": {
+    "title": "St. Brandanus der irische Odysseus",
+    "subtitle": "62 Tafeln aus dem Krumauer Bildercodex. Codex 370 der Österreichischen Nationalbibliothek",
+    "authors": [
+      {
+        "display_name": "BIEDERMANN, Hans"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "BIEDERMANN, Hans || St. Brandanus der irische Odysseus. 62 Tafeln aus dem Krumauer Bildercodex. Codex 370 der Österreichischen Nationalbibliothek. Mit einer Einführung von…Graz ADEVA 1980. 19 S. und 62 ganzs. Abb. Quer-4°. OPbd. Neuwertig",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'Mit einer Einführung von…' with an ellipsis and no following name, indicating a missing person (the author of the introduction). missing_person flag set accordingly."
+  },
+  "bibliophile_98_4_10": {
+    "title": "DIE LIEDER DES MIRZA SCHAFFY",
+    "subtitle": null,
+    "authors": null,
+    "editors": null,
+    "contributors": [
+      {
+        "display_name": "Bodenstedt, Friedrich"
+      }
+    ],
+    "translator": null,
+    "original_entry": "DIE LIEDER DES MIRZA SCHAFFY || Mit einem Prolog von Friedrich Bodenstedt. 271. bis 280. Tausend. Berlin Decker`s Verlag G. Schenk 1922. Mit ganzs. farb. Bildern, mit schönen durchgehenden Randleisten. Berieben Rücken geklebt. OPbd. Kleinformat.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The work 'Die Lieder des Mirza Schaffy' is traditionally attributed to Friedrich Bodenstedt, who is listed here only as the author of the Prolog. The actual author/compiler is not explicitly stated in the entry. World knowledge suggests Bodenstedt is the primary author, but the entry structure is ambiguous — he may be listed only as prologue writer. api_concerned: The entry does not list a primary author; Bodenstedt is named only in connection with the Prolog. Human verification recommended to confirm authorship attribution."
+  },
+  "okkultismus_57_3_8": {
+    "title": "Kommune der Wiedertäufer",
+    "subtitle": "Bericht aus der befreiten und belagerten Stadt Münster 1534",
+    "authors": [
+      {
+        "display_name": "KARASEK, Horst"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "KARASEK, Horst || Kommune der Wiedertäufer. Bericht aus der befreiten und belagerten Stadt Münster 1534 herausgegeben von …Mit zahlr. Abb. Berlin Wagenbach 1983. 155 S. TB.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry states 'herausgegeben von …' with an ellipsis and no following name, indicating a missing editor. KARASEK, Horst is listed as the author/compiler of the entry, but the editor of the historical source material is unnamed."
+  },
+  "kinder_66_3_4": {
+    "title": "Mrs. Beestons Tierklinik",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "Nebehay, Renee"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "SCHMÖGNER, Walter || Mrs. Beestons Tierklinik von Renee Nebehay mit Bildern von... Wien Jugend und Volk 1971. 2. Auflage. 36 S. Sehr gut erhalten",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry is filed under SCHMÖGNER, Walter, who is the illustrator. The author is Renee Nebehay. The phrase 'mit Bildern von...' is followed by an ellipsis, suggesting the illustrator's name was left incomplete in the entry, though context (the filing name) makes clear it refers to Walter Schmögner. missing_person flag set because the illustrator name after 'mit Bildern von' is truncated/missing in the text itself."
+  },
+  "kinder_73_3_4": {
+    "title": "VIEILLES CHANSONS",
+    "subtitle": "Pour les Coeurs sensibles",
+    "authors": [],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Brissaud, Pierre"
+      }
+    ],
+    "translator": null,
+    "original_entry": "VIEILLES CHANSONS || Pour les Coeurs sensibles. Edition ornee de trente-deux images par Pierre Brissaud. Paris Plon-Nourrit (ca 1911). Original bunter Pappband, Ecken bestoßen, kleiner Schäden am Rücken, sonst gut erhaltenes Kinderbuch aus dem Besitz von Liesl Wellesz, Tochter von Egon Wellesz.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: No author is listed for this anthology of old songs (vieilles chansons). Pierre Brissaud is credited only as illustrator. The publication year is approximate ('ca 1911') as given in the entry. The provenance note indicates the book belonged to Liesl Wellesz, daughter of composer Egon Wellesz."
+  },
+  "signierte_26_2_10": {
+    "title": "Radium",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "BRUNNGRABER, Rudolf"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "BRUNNGRABER, Rudolf || Radium. Holländische Übersetzung. Amsterdam Nederlandsche Keurboekerij 1936. 361 S. OBrosch. Widmung des Autors 'Ditta Rosenberg zur Auffrischung der holländischen Kenntnisse und mit vielen guten Wünschen herzlichst Rudolf Brunngraber Wien, 31.März 1937.'",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry notes this is a Dutch translation ('Holländische Übersetzung') but no translator name is given. missing_person set true accordingly."
+  },
+  "musik_206_9_11": {
+    "title": "Hans Erich Apostel",
+    "subtitle": "Eine Studie",
+    "authors": [
+      {
+        "display_name": "KAUFMANN"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "KAUFMANN, || Hans Erich Apostel. Eine Studie von …Österreichische Komponisten des XX. Jahrhunderts Band 4. Wien Österreichischer Bundesverlag o.J. 79 S. Mit zahlr. Abb. OPbd. 2. Ex.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The author's given name appears to be missing — the entry reads 'KAUFMANN,' followed by a line break, then 'Hans Erich Apostel' which is the subject's name, not the author's. The phrase 'Eine Studie von …' indicates an author should follow but the name is absent. api_concerned: The entry lists 'Band 4' of the series 'Österreichische Komponisten des XX. Jahrhunderts', but the series volume number has not been captured in the volumes array since this does not appear to be a multi-volume work per se but rather a series entry. Additionally, the author's identity cannot be confirmed without the missing given name."
+  },
+  "insel_492_20_27": {
+    "title": "Shen-Schen",
+    "subtitle": "Die Wurzel des Lebens",
+    "authors": [
+      {
+        "display_name": "PRISCHWIN, Michail M."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "MICHAIL M. PRISCHWIN IB 598 || Shen-Schen. 'Die Wurzel des Lebens'. Erzählung Mit Illustrationen von Wladimir Faworski. Leipzig Insel 1962. 110 S. Vorsätze etwas gebräunt.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Author name reordered from 'MICHAIL M. PRISCHWIN' to 'PRISCHWIN, Michail M.' to match standard cataloging format. The work is a translation from Russian, but no translator is named in the entry (missing_person flag set). The subtitle 'Die Wurzel des Lebens' was enclosed in single quotes (used as apostrophes/quotation marks) in the original; rendered without quotes in the subtitle field."
+  },
+  "biographie_286_12_27": {
+    "title": "Gefährliche Zeiten",
+    "subtitle": "Ein Leben im 20. Jahrhundert",
+    "authors": [
+      {
+        "display_name": "HOBSBAWM, Eric"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "HOBSBAWM, Eric || Gefährliche Zeiten. Ein Leben im 20. Jahrhundert. A.d.Engl. München Hanser 2002. 499 S. Mit Abb. OPbd.m.OU.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from English indicated ('A.d.Engl.') but no translator name is given. missing_person flag set accordingly."
+  },
+  "signierte_210_9_10": {
+    "title": "Francisco de Goya Briefe an Martin Zapater",
+    "subtitle": null,
+    "authors": null,
+    "editors": [
+      {
+        "display_name": "ZENS, Herwig"
+      }
+    ],
+    "contributors": null,
+    "translator": {
+      "display_name": "Fritz, Eva und Binder, Otmar"
+    },
+    "original_entry": "ZENS, Herwig (Hg.) || Francisco de Goya Briefe an Martin Zapater. Übersetzt von Eva Fritz und Otmar Binder, herausgegeben und eingeleitet von… Mit Abb. Weitra Bibliothek der Provinz. 239 S. OPbd. Mit einer Widmung des Herausgebers.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry states 'herausgegeben und eingeleitet von…' with an ellipsis and no following name, suggesting a co-editor or introducer whose name is absent. The main editor ZENS, Herwig is given in the header. The original language is inferred as Spanish given that these are Goya's letters."
+  },
+  "fremdsprachige_277_12_38": {
+    "title": "Tanzai und Neadarne oder der Schaumlöffel",
+    "subtitle": "Eine japanische Geschichte",
+    "authors": [
+      {
+        "display_name": "CREBILLON, der Jüngere"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "CREBILLON, der Jüngere || Tanzai und Neadarne oder der Schaumlöffel. Eine japanische Geschichte. A.d.Französ. Berlin Verlag Die Schmiede XXIII, 374 S. Klassiker der erotischen Literatur. OLn. Sehr gut erhalten. .-",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: Translator is not named despite this being a translation from French. api_concerned: The publication year is missing. The Verlag Die Schmiede was active in Berlin in the 1920s; this edition likely dates from that period but cannot be confirmed without further information. The 'XXIII' before the page count likely refers to a Roman-numeral preface pagination (23 pages of front matter), not a year. Author's full name is Claude Prosper Jolyot de Crébillon (Crébillon fils); the entry uses the informal designation 'der Jüngere'."
+  },
+  "philosophie_35_2_24": {
+    "title": "Der heilige Eros",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "BATAILLE, Georges"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "BATAILLE, Georges || Der heilige Eros. Neuwied Luchterhand 1963. 366 S. OLn.m.OU. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The work is a German translation of Bataille's 'L'Érotisme' (French original). The translator is not named in the entry, hence missing_person is set to true."
+  },
+  "oesterreich_259_11_13": {
+    "title": "Eine Chance für Mitteleuropa",
+    "subtitle": "Bürgerliche Emanzipation und Staatsverfall in der Habsburgermonarchie",
+    "authors": [
+      {
+        "display_name": "RUMPLER, Helmut"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "RUMPLER, Helmut || Eine Chance für Mitteleuropa. Bürgerliche Emanzipation und Staatsverfall in der Habsburger-monarchie. Mit Abb. Wien Ueberreuter 1997. 672 S. OLn.m.OU und Lesebändchen. Österreichische Geschichte. Hg. von Wofram.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The series editor is listed as 'Hg. von Wofram.' — this appears to be an incomplete or truncated name (likely 'Wolfram' with a missing surname). The series 'Österreichische Geschichte' was edited by Herwig Wolfram, but the name as written is incomplete, so missing_person is set true. No correction applied."
+  },
+  "oesterreich_260_11_13": {
+    "title": "SALZBURG",
+    "subtitle": "Stadt und Land. Mit einem Anhang: <<Grossglockner-Hochalpenstrasse>> von Hans Hofmann-Montanus",
+    "authors": [],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Hofmann-Montanus, Hans"
+      }
+    ],
+    "translator": null,
+    "original_entry": "SALZBURG || Stadt und Land. Mit einem Anhang: 'Grossglockner-Hochalpenstrasse' von Hans Hofmann-Montanus. Wien-Leipzig Gerlach & Wiedling 1930. XIII, 221 S. m.212 Fotos auf Tafeln. Städte und Landschaften I. Band. OLn. Sehr gut erhalten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry has no stated author for the main work. Hans Hofmann-Montanus is credited only for the appended section on the Grossglockner-Hochalpenstrasse. The main author of the Salzburg volume is not given. 'Städte und Landschaften I. Band' indicates this is volume 1 of the series 'Städte und Landschaften'; is_multivolume is set to false as this is a single volume within a series, not a multi-volume work in itself."
+  },
+  "antike_123_5_9": {
+    "title": "Die Kyprien",
+    "subtitle": "Ein hellenisches Epos in zwölf Gesängen",
+    "authors": [
+      {
+        "display_name": "SCHEFFER, Thassilo von"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "SCHEFFER, Thassilo von || Die Kyprien. Ein hellenisches Epos in zwölf Gesängen. Neu geschaffen von…München Beck 1934. XIII, 258 S. OLn. m .OU. Sehr gut erhalten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The phrase 'Neu geschaffen von…' indicates a creative retelling/adaptation role, but the ellipsis suggests the name following it was not captured in the entry. Since SCHEFFER, Thassilo von is listed as the main entry and the phrase 'Neu geschaffen von…' likely refers to him, this is noted but the author field is populated from the header. The missing_person flag is set due to the trailing ellipsis after 'Neu geschaffen von', which may indicate an incomplete attribution."
+  },
+  "deutschland_19_1_4": {
+    "title": "Hitlers willige Vollstrecker",
+    "subtitle": "Ganz gewöhnliche Deutsche und der Holocaust",
+    "authors": [
+      {
+        "display_name": "GOLDHAGEN, Daniel Jonah"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "GOLDHAGEN, Daniel Jonah || Hitlers willige Vollstrecker. Ganz gewöhnliche Deutsche und der Holocaust. A.d.Amerikan. Berlin Siedler Verlag 1996. 728 S. Mit zahlr. Abb. OLn.m.OU. und Lesebändchen Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from American English indicated by 'A.d.Amerikan.' but no translator name is given — missing_person flag set."
+  },
+  "mittelalter_57_3_7": {
+    "title": "Die letzten Tage von Konstantinopel",
+    "subtitle": "Der auf den Fall Konstantinopels 1453 bezügliche Teil des dem Georgios Sphrantzes zugeschriebenen 'Chonicon Maius' übersetzt, eingeleitet und erklärt von …",
+    "authors": [],
+    "editors": [
+      {
+        "display_name": "IVANKA, Endre von"
+      }
+    ],
+    "contributors": [],
+    "translator": {
+      "display_name": "IVANKA, Endre von"
+    },
+    "original_entry": "IVANKA, Endre von (Hg. || Die letzten Tage von Konstantinopel. Der auf den Fall Konstantinopels 1453 bezügliche Teil des dem Georgios Sphrantzes zugeschriebenen 'Chonicon Maius' übersetzt, eingeleitet und erklärt von …Graz Styria 1954. 101 S. Byzantinische Geschichtsschreiber. OBrosch.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The subtitle contains 'Chonicon Maius' which is likely a typo for 'Chronicon Maius' (missing 'hr'); corrected_by_api set true for this correction. The entry lists IVANKA, Endre von as editor (Hg.) and the subtitle phrase 'übersetzt, eingeleitet und erklärt von …' trails off with an ellipsis and no name, indicating the translator/introducer name is missing; missing_person set true. Based on context (same person listed as Hg.), IVANKA is likely also the translator, but this cannot be confirmed from the entry alone. The original language is inferred as Greek given the source text (Georgios Sphrantzes, Byzantine chronicle)."
+  },
+  "literatur_184_8_12": {
+    "title": "Große deutsche Verrisse von Schiller bis Fontane",
+    "subtitle": null,
+    "authors": null,
+    "editors": [
+      {
+        "display_name": "MAYER, Hans"
+      }
+    ],
+    "contributors": null,
+    "translator": null,
+    "original_entry": "MAYER, Hans || Große deutsche Verrisse von Schiller bis Fontane. Herausgegeben und eingeleitet von …Frankfurt Insel 1967. 163 S. Sammlung Insel 25. OLn.m.OU.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry states 'Herausgegeben und eingeleitet von …' followed by an ellipsis, indicating the editor's name is missing or incomplete. However, the heading 'MAYER, Hans' strongly suggests he is the editor, and this has been used as such. The ellipsis may be a cataloging artifact indicating the name was to be filled in. Flag set for verification."
+  },
+  "philosophie_335_14_24": {
+    "title": "Über Ludwig Wittgenstein",
+    "subtitle": null,
+    "authors": [],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Malcolm, Norman"
+      },
+      {
+        "display_name": "Strawson, Peter Frederick"
+      },
+      {
+        "display_name": "Garver, Newton"
+      },
+      {
+        "display_name": "Cavell, Stanley"
+      }
+    ],
+    "translator": null,
+    "original_entry": "WITTGENSTEIN || Über Ludwig Wittgenstein Mit Beiträgen von Norman Malcolm, Peter Frederick Strawson, Newton Garver und Stanley Cavell. Frankfurt Suhrkamp 1968. 172 S. es 252",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry lists contributors but no editor or author is named for the volume as a whole. The heading 'WITTGENSTEIN' appears to be a subject heading rather than an author attribution."
+  },
+  "antike_210_9_9": {
+    "title": "Schriften über Sokrates",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "XENOPHON"
+      }
+    ],
+    "editors": null,
+    "contributors": null,
+    "translator": {
+      "display_name": "Wieland, C. M."
+    },
+    "original_entry": "XENOPHON || Schriften über Sokrates. Nach der Übersetzung von C. M. Wieland neu herausgegeben. München Georg Müller 1912. 250 S. OHLn.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry states 'neu herausgegeben' (newly edited) but no editor name is given. missing_person set true for the unnamed editor."
+  },
+  "erstausgaben_460_19_78": {
+    "title": "Fünf Lebensläufe überliefert von …",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "ENZENSBERGER, Hans Magnus"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "ENZENSBERGER; Hans Magnus || Fünf Lebensläufe überliefert von …Frankfurt Suhrkamp 1975. 115 S. edition suhrkamp 759. TB",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Semicolon after ENZENSBERGER corrected to comma (standard RAK name separator). The phrase 'überliefert von …' indicates a person (editor or compiler) whose name is missing from the entry — missing_person flag set."
+  },
+  "kunstbuecher_721_29_38": {
+    "title": "HUNDERTWASSER",
+    "subtitle": null,
+    "authors": [],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Schmied, Wieland"
+      }
+    ],
+    "translator": null,
+    "original_entry": "HUNDERTWASSER || Mit einem Vorwort von Wieland Schmied und Bilderläuterungen vom Maler selbst. Feldafing Buchheim 1964. 47 S. Mit 16 ganzs. Abb. OPbd.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry title 'HUNDERTWASSER' refers to the painter Friedensreich Hundertwasser as the subject. No author is explicitly named; the book appears to be a monograph on Hundertwasser with a preface by Wieland Schmied and image commentaries by the painter himself. The author/editor responsible for the overall publication is not stated — missing_person flag set accordingly."
+  },
+  "zeitgeschichte_10_1_4": {
+    "title": "Philosophie und Widerstand in der Krise",
+    "subtitle": "Griechenland und die Zukunft Europas",
+    "authors": [
+      {
+        "display_name": "DOUZINAS, Costas"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "DOUZINAS, Costas || Philosophie und Widerstand in der Krise. Griechenland und die Zukunft Europas. A.d..Engl. Hamburg Kaika 2014. 310 S. Obrosch. Verlagsfrisch.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translator is not named in the entry (missing_person). The publisher name 'Kaika' is likely a typo for 'Laika' (Laika Verlag, Hamburg), which published the German translation of this work — api_concerned flag set for human verification. corrected_by_api not applied to publisher name due to ambiguity; the original 'Kaika' is preserved."
+  },
+  "reisen_97_4_13": {
+    "title": "Deutsche Mittelmeerreise vom 1.August bis 1.September 1905",
+    "subtitle": "Unter Leitung der Professoren Miller – Stuttgart und Lorenz – Neapel",
+    "authors": [
+      {
+        "display_name": "BONORA, Franz"
+      }
+    ],
+    "editors": null,
+    "contributors": null,
+    "translator": null,
+    "original_entry": "BONORA, Franz || Deutsche Mittelmeerreise vom 1.August bis 1.September 1905. Unter Leitung der Professoren Miller – Stuttgart und Lorenz – Neapel. Redigiert von … Zweite, erweiterte Auflage. Mit zuahlr. Fotos. Stuttgart Selbstverlag der Reiseleitung 1906. 396 S. Buntes OLn.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'Redigiert von …' with no name following, indicating a missing editor/redactor — missing_person set true. The word 'zuahlr.' is an obvious transposition typo for 'zahlr.' (zahlreichen) — corrected in illustrations field, corrected_by_api set true."
+  },
+  "neuzeit_21_1_4": {
+    "title": "Die Moderne",
+    "subtitle": "Eine Geschichte des Aufbruchs",
+    "authors": [
+      {
+        "display_name": "GAY, Peter"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "GAY, Peter || Die Moderne. Eine Geschichte des Aufbruchs. A.d.Engl. Mit zahlreichen Abb. Frankfurt S.Fischer. 2008. 653 S. OPbd.m.OU und Lesebändchen. €",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry indicates a translation from English ('A.d.Engl.') but no translator name is given."
+  },
+  "neuzeit_22_1_4": {
+    "title": "<<Ein gottloser Jude>> Sigmund Freuds Atheismus und die Entwicklung der Psychoanalyse",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "GAY, Peter"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "GAY, Peter || 'Ein gottloser Jude' Sigmund Freuds Atheismus und die Entwicklung der Psychoanalyse. A.d.Amerikan. Frankfurt S. Fischer 1988. 215 S. OPbd.m.OU Sehr gut erhalten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translator is not named in the entry ('A.d.Amerikan.' indicates translation from American English, but no translator name is given). missing_person flag set accordingly."
+  },
+  "neuzeit_23_1_4": {
+    "title": "Freud entziffern",
+    "subtitle": "Essays",
+    "authors": [
+      {
+        "display_name": "GAY, Peter"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "GAY, Peter || Freud entziffern. Essays. A.d.Amerikan. Frankfurt S. Fischer 1992. 271 S. OPbd.m.OU. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from American English indicated by 'A.d.Amerikan.' but no translator name is given."
+  },
+  "neuzeit_24_1_4": {
+    "title": "Kult der Gewalt",
+    "subtitle": "Aggression im bürgerlichen Zeitalter",
+    "authors": [
+      {
+        "display_name": "GAY, Peter"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "GAY, Peter || Kult der Gewalt. Aggression im bürgerlichen Zeitalter. A..d.Engl. München Beck 1996. 861 S. OLn. m.OU Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translator not named in entry (indicated by 'A..d.Engl.' without a following name). missing_person flag set."
+  },
+  "oesterreich_23_1_13": {
+    "title": "Österreichs Post. Einst und jetzt",
+    "subtitle": "Eine Sammlung von Bildern aus der österreichischen Postgeschichte",
+    "authors": [
+      {
+        "display_name": "CZEZIK-MÜLLER"
+      }
+    ],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Pfeuffer, Hans"
+      }
+    ],
+    "translator": null,
+    "original_entry": "CZEZIK-MÜLLER || Österreichs Post. Einst und jetzt. Eine Sammlung von Bildern aus der österreichischen Postgeschichte. Mit erläuterndem Text von … Anhang: Überblick über die 'Telegraphie und Telephonie in Österreich' von Hans Pfeuffer. Mit zahlr. z.T. farbigen Abb. Herausgegeben im Einvernehmen mit der Generaldirektion für die Post- und Telegraphenverwaltung in Österreich. Wien um 1927. 131 S. Quer-4°. Mit einer 6 zeiligen Widmung des Generaldirektors Hoheisel. Bunter OLn. Band. Sehr gut erhalten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry contains 'Mit erläuterndem Text von …' with an ellipsis indicating the author's name is missing or incomplete. CZEZIK-MÜLLER is listed as the primary author but may be the editor or compiler; the exact role is unclear. The publication year is given as 'um 1927' (approximately 1927); 1927 has been used as the best estimate."
+  },
+  "insel_527_22_27": {
+    "title": "Gedichte",
+    "subtitle": "Eine Auswahl der besten Übertragungen",
+    "authors": [
+      {
+        "display_name": "VERLAINE, Paul"
+      }
+    ],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "ZWEIG, Stefan"
+      }
+    ],
+    "translator": null,
+    "original_entry": "PAUL VERLAINE IB 394 || Gedichte. Eine Auswahl der besten Übertragungen. Leipzig Insel 1927. 11.-15.Tsd. 71 S. Nachwort von Stefan Zweig. Neuwertig",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The entry states 'Eine Auswahl der besten Übertragungen', indicating translations by one or more translators, but no translator name is given. Stefan Zweig contributed a Nachwort (afterword) and is listed as a contributor, not a translator."
+  },
+  "insel_530_22_27": {
+    "title": "Der Dreispitz",
+    "subtitle": "Eine spanische Novelle",
+    "authors": [
+      {
+        "display_name": "PEDRO ANTONIO DE ALARCON"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "PEDRO ANTONIO DE ALARCON-IB 223 || Der Dreispitz. Eine spanische Novelle. Wiesbaden Insel 1956. 82 S. OPbd.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: The work is a translation from Spanish (original title: 'El sombrero de tres picos') but no translator is named in the entry."
+  },
+  "wien_93_4_10": {
+    "title": "Wien im Jahre 1683",
+    "subtitle": "Geschichte der zweiten Belagerung der Stadt durch die Türken im Rahmen der Zeitereignisse",
+    "authors": [
+      {
+        "display_name": "RENNER, Victor v."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "RENNER, Victor v. || Wien im Jahre 1683. Geschichte der zweiten Belagerung der Stadt durch die Türken im Rahmen der Zeitereignisse. Aus Anlaß der zweiten Säcularfeier verfaßt im Auftrag des Gemeinderates des k. k. Reichshaupt- und Residenzstadt Wien von … Mit zahlr. Abbildungen im Text und mehrfach gefalteten Tafeln. Wien Waldheim 1883. XVII, 487 S. OLn. m. goldgepr. Deckel und Rücken. Kleine Fehlstelle auf dem Deckel. Sonst makelloser Band.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'verfaßt im Auftrag des Gemeinderates … von …' followed by an ellipsis, indicating the author's name was left incomplete in the cataloging. However, the author 'RENNER, Victor v.' is given at the top of the entry and is consistent with the known historical work. The ellipsis likely refers to the author being named in the subtitle phrase but left out there; the main author field is populated from the heading. missing_person flag set due to the trailing ellipsis after 'von' in the subtitle description."
+  },
+  "erstausgaben_432_18_78": {
+    "title": "Museum der modernen Poesie",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "ENZENSBERGER, Hans Magnus"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "ENZENSBERGER, Hans Magnus || Museum der modernen Poesie eingeleitet von … Frankfurt Suhrkamp 1960. 421 S. OLn. Etwas benutzt.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'eingeleitet von …' with an ellipsis and no following name, indicating the introducer/editor's name is missing."
+  },
+  "erstausgaben_438_18_78": {
+    "title": "Diderots Schatten",
+    "subtitle": "Unterhaltungen, Szenen, Essays",
+    "authors": [
+      {
+        "display_name": "ENZENSBERGER, Hans Magnus"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": {
+      "display_name": "ENZENSBERGER, Hans Magnus"
+    },
+    "original_entry": "ENZENSBERGER, Hans Magnus || Diderots Schatten. Unterhaltungen, Szenen, Essays. Übersetzt, bearbeitet und erfunden von… Frankfurt Suhrkamp 1994. 397 S. OLn.m.OU. Sehr gut erhalten. 2 Ex.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The phrase 'Übersetzt, bearbeitet und erfunden von…' ends with an ellipsis and no name follows, indicating a missing person. However, given that Enzensberger is the listed author and the work is a collection he compiled and adapted, the translator/adapter is likely Enzensberger himself. The translator field has been tentatively populated with Enzensberger, but this should be verified. The original language is not stated."
+  },
+  "erstausgaben_441_18_78": {
+    "title": "Die schlimmsten Reisen der Welt",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "ENZENSBERGER, Hans Magnus"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "ENZENSBERGER, Hans Magnus || Die schlimmsten Reisen der Welt. Dargeboten von …Frankfurt Eichborn Verlag 1993. 349 S. OPbd. m. OU. Verlagsfrisch.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'Dargeboten von …' followed by an ellipsis with no name given. The person who presented/compiled the work is missing. Enzensberger is listed as the main entry but the role 'Dargeboten von' suggests he may be the editor/compiler rather than the author; however, since he is the named person in the entry, he has been placed in authors. The missing name after 'Dargeboten von' triggers the missing_person flag."
+  },
+  "sonstiges_41_2_4": {
+    "title": "Telephon Mikrophon und Radiophon",
+    "subtitle": "Mit besonderer Rücksicht auf ihre Anwendung in der Praxis bearbeitet von …",
+    "authors": [
+      {
+        "display_name": "SCHWARTZE, Theodor"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "SCHWARTZE, Theodor || Telephon Mikrophon und Radiophon. Mit besonderer Rücksicht auf ihre Anwendung in der Praxis bearbeitet von … Mit 119 Abbildungen. Wien Hartleben 1883. XVI, 232 S. OPbd. Kleines Eck vom Einband fehlt, sonst neuwertiges Ex. € !==:-",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The subtitle/description contains 'bearbeitet von …' with an ellipsis and no following name, indicating a missing person (likely an editor or adapter). The author SCHWARTZE, Theodor is listed as the main entry but the 'bearbeitet von …' phrase suggests an additional contributor whose name is absent."
+  },
+  "sonstiges_42_2_4": {
+    "title": "Vorlegeblätter für Ziegel- und Steinarbeiten",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "UNGEWITTER, G.G."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "UNGEWITTER, G.G. || Vorlegeblätter für Ziegel- und Steinarbeiten. Entworfen und gezeichnet von …3. Auflage. Glogau Flemming 1865. 44 S.Text und 48 gamzs. Taf. Gr-4° Original Kunstleder Neuwertig. Reprint aus 1983.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": true,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "1. missing_person: The entry reads 'Entworfen und gezeichnet von …' with an ellipsis and no following name, indicating a person was intended to be listed but is absent. 2. multiple_editions: The entry mentions a 'Reprint aus 1983' in addition to the main 1865 edition. The 1865 edition is treated as the main record per convention; the 1983 reprint is noted here only. 3. corrected_by_api: 'gamzs.' corrected to 'ganzs.' (ganzsei­tig); 'Gr-4°' corrected to 'Gr.-4°' (standard abbreviation for Großquart)."
+  },
+  "griechenland_198_8_10": {
+    "title": "Die Anfänge des abendländischen Wissens",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "LINDBERG, David C."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "LINDBERG, David C. || Die Anfänge des abendländischen Wissens. A. d. Amerikan. München DTV 1994. XII, 482 S.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from American English indicated by 'A. d. Amerikan.' but no translator name is given."
+  },
+  "reisen_104_5_13": {
+    "title": "Als Reisen eine Kunst war",
+    "subtitle": "Vom Beginn des modernen Tourismus: Die 'Grand Tour'",
+    "authors": [
+      {
+        "display_name": "BRILLI, Attilio"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "BRILLI, Attilio || Als Reisen eine Kunst war. Vom Beginn des modernen Tourismus: Die 'Grand Tour'. A.d.Italien. Berlin Wagenbach 1997. Originalausgabe. 222 S. Mit vielen Abb. WAT 274",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from Italian is indicated ('A.d.Italien') but no translator name is given. missing_person flag set accordingly."
+  },
+  "erstausgaben_1112_45_78": {
+    "title": "Timon von Athen",
+    "subtitle": "Trauerspiel in fünf Aufzügen von Shakespeare. Nach der Übersetzung von Dorothea Tieck für Rundfunk und Bühne bearbeitet und sprachlich erneuert",
+    "authors": [
+      {
+        "display_name": "KRAUS, Karl"
+      }
+    ],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Tieck, Dorothea"
+      }
+    ],
+    "translator": {
+      "display_name": "Tieck, Dorothea"
+    },
+    "original_entry": "KRAUS, Karl || Timon von Athen Trauerspiel in fünf Aufzügen von Shakespeare. Nach der Übersetzung von Dorothea Tieck für Rundfunk und Bühne bearbeitet und sprachlich erneuert von … Wien Lanyi 1930. 71 S. OBrosch. mit Bauchbinde 'Zur Aufführung im Berliner Rundfunk'. Sehr gut erhalten.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'bearbeitet und sprachlich erneuert von …' with an ellipsis indicating the adapter/arranger name (Karl Kraus, listed as the main author) is referenced but the phrasing trails off. The entry structure lists Kraus as the heading author and the work is his adaptation of Shakespeare's Timon of Athens based on Dorothea Tieck's translation. The ellipsis after 'von' in the subtitle suggests the name was intentionally omitted in the subtitle text, though Kraus is clearly the adapter per the entry heading. Dorothea Tieck is listed both as contributor (basis translator) and translator fields since she provided the underlying translation that Kraus reworked."
+  },
+  "neuzeit_72_3_4": {
+    "title": "Das Zeitalter des Doktor Arthur Schnitzler",
+    "subtitle": "Innenansichten des 19. Jahrhunderts",
+    "authors": [
+      {
+        "display_name": "GAY, Peter"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "GAY, Peter || Das Zeitalter des Doktor Arthur Schnitzler. Innenansichten des 19.Jahrhunderts. A.d.Amerikan. Frankfurt Fischer Taschenbuch 2012. 379 S.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from American English indicated by 'A.d.Amerikan.' but no translator name is given."
+  },
+  "insel_55_3_27": {
+    "title": "Schwanenweiß",
+    "subtitle": "Ein Märchenspiel",
+    "authors": [
+      {
+        "display_name": "AUGUST STRINDBERG"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "AUGUST STRINDBERG IB 290 || Schwanenweiß. Ein Märchenspiel. Leipzig Insel 1929. 21.-25.Tsd. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "missing_person: Strindberg wrote in Swedish; this is a German-language publication, so it is a translation, but no translator is named in the entry."
+  },
+  "kunstbuecher_415_17_38": {
+    "title": "Camille Pissarro",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "PISSARRO, Joachim"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "PISSARRO, Joachim || Camille Pissarro. A.d.Engl. München Hirmer 1993. 310 S. Mit zahlr. Abb. OLn. m. OU. Gr. 4°. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from English indicated ('A.d.Engl.') but no translator name is given. missing_person flag set accordingly."
+  },
+  "fremdsprachige_857_35_38": {
+    "title": "Von der Liebe",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "STENDHAL, Friedrich"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "STENDHAL, Friedrich || Von der Liebe. Leipzig Insel 1929. 518 S. OLn.m.OU Leseband. Etwas berieben.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": true,
+    "problematic_multi_volume": false,
+    "verification_notes": "The author is listed as 'STENDHAL, Friedrich', but Stendhal's given name was Marie-Henri Beyle; he had no given name 'Friedrich'. This is likely a cataloging error — possibly a confusion with another author or an erroneous first name. The name has been retained as written. Additionally, the translator is not named in the entry, though this is a German translation of the French original 'De l'amour'; missing_person is set true for the absent translator."
+  },
+  "fremdsprachige_865_35_38": {
+    "title": "Die Schatzinsel",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "STEVENSON, Robert Louis"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "STEVENSON, Robert Louis || Die Schatzinsel. A.d.Engl. Mit Illustrationen von Howard Pyle. Franlkfurt Insel 1999. 290 S. OLn. Insel Taschenbuch Jubiläumsausgabe.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Typo corrected: 'Franlkfurt' → 'Frankfurt'. Translator is not named in the entry despite the work being a translation from English (missing_person flag set)."
+  },
+  "zeitgeschichte_50_3_4": {
+    "title": "Ideen die Geschichte machten",
+    "subtitle": "Das große Buch der Erfindungen",
+    "authors": [
+      {
+        "display_name": "DULKEN, Stephen van"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "DULKEN, Stephen van || Ideen die Geschichte machten. Das große Buch der Erfindungen. A.d.Engl. Düsseldorf Artemis Winkler 2004. 283 S. Mit zahlr. Abb. OPbd.m.OU.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translator not named in entry despite translation being indicated (A.d.Engl.)."
+  },
+  "philosophie_70_3_24": {
+    "title": "Viele Kammern im Welthaus",
+    "subtitle": "Eine Auswahl aus dem Werk",
+    "authors": [
+      {
+        "display_name": "BLOCH, Ernst"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "BLOCH, Ernst || Viele Kammern im Welthaus Eine Auswahl aus dem Werk Hrsg. von…Frankfurt Suhrkamp 1994. 750 S. Erstausgabe. Edition suhrkamp 1827.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The editor is indicated by 'Hrsg. von…' but the name is absent (ellipsis follows with no name given). missing_person flag set."
+  },
+  "biographie_304_13_27": {
+    "title": "Alexis de Tocqueville. Leben und Werk",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "JARDIN, Andre"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "JARDIN, Andre || Alexis de Tocqueville. Leben und Werk. A.d.Franzos. Frankfurt Campus Verlag 1991. 522 S. OLn.m.OU und Lesebändchen. Verlagsfrisch.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Translation from French is indicated ('A.d.Franzos.') but no translator name is given. missing_person flag set accordingly."
+  },
+  "oesterreich_225_10_13": {
+    "title": "LESUNGSBILDER",
+    "subtitle": "Österreichische Schriftstellerinnen und Schriftsteller lesen vor",
+    "authors": [],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Ertl, Harry"
+      }
+    ],
+    "translator": null,
+    "original_entry": "LESUNGSBILDER || Österreichische Schriftstellerinnen und Schriftsteller lesen vor. Fotografien von Harry Ertl. Herausgegeben von . Wien Picus 1995. 156 S. Mit zahlreichen Abb. OLn.m.OU.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The entry contains 'Herausgegeben von .' with no name following — the editor's name is absent. missing_person flag set."
+  },
+  "oesterreich_231_10_13": {
+    "title": "Regesten zur Geschichte der Salzburger Erzbischöfe Conrad I., Eberhard I., Conrad II., Conrad III. und Eberhard II.",
+    "subtitle": "Regesta Archiepiscoporum Salisburgensium inde ab anno MCVI usque ad annum MCCXLVI",
+    "authors": [
+      {
+        "display_name": "MEILLER, Andreas von"
+      }
+    ],
+    "editors": null,
+    "contributors": null,
+    "translator": null,
+    "original_entry": "MEILLER, Andreas von || Regesten zur Geschichte der Salzburger Erzbischöfe Conrad I., Eberhard I., Conrad II., Conrad III. und Eberhard II. Gesammelt und erläutert von …. Wien Gerold 1866. VIII, 576 S. Regesta Archiepiscoporum Salisburgensium inde ab anno MCVI usque ad annum MCCXLVI. Leinenband. Neuwertig.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The phrase 'Gesammelt und erläutert von …' contains an ellipsis in place of a name, indicating a missing person (likely the compiler/editor). The author MEILLER, Andreas von is listed at the top and is the subject/compiler of the regesta, so the missing name may refer to an editor of this edition or may be a cataloging artifact. missing_person flag set accordingly."
+  },
+  "christentum_39_2_6": {
+    "title": "Die Vorläufer des Husitenthums in Böhmen",
+    "subtitle": "Aus den Quellen bearbeitet und herausgegeben von...",
+    "authors": [
+      {
+        "display_name": "JORDAN, J.P."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "JORDAN, J.P. || Die Vorläufer des Husitenthums in Böhmen. Aus den Quellen bearbeitet und herausgegeben von... Leipzig Ernst Keil 1846. 87 S. Mit Bibl.Stempel. OKart.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The subtitle phrase 'Aus den Quellen bearbeitet und herausgegeben von...' ends with an ellipsis, suggesting an editor or contributor name was intended but is absent from the entry. missing_person flag set accordingly."
+  },
+  "griechenland_1_1_10": {
+    "title": "Chronologisch geordneter Bildnis-Saal oder Portraits und Lebensbeschreibungen der berühmtesten Männer und Frauen seit Beginn der historischen Zeit bis zum Tode des Imperators Augustus",
+    "subtitle": null,
+    "authors": [
+      {
+        "display_name": "BALDAMUS, M.K."
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "BALDAMUS, M.K. || Chronologisch geordneter Bildnis-Saal oder Portraits und Lebensbeschreibungen der berühmtesten Männer und Frauen seit Beginn der historischen Zeit bis zum Tode des Imperators Augustus. In zwei Abtheilungen von …Zweite Abtheilung mit 80 Portraits. Wien Doll 1833. 209 – 503 S. Vorderer Deckel vom Buchblock gelöst, Rücken fehlt. 72 statt 80 Porträts. Sowohl Abbildungen als auch Text in einem sehr guten Zustand. OLn.",
+    "corrected_by_api": false,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": true,
+    "verification_notes": "missing_person: The entry contains 'In zwei Abtheilungen von …' with an ellipsis indicating the author's name was to follow but is absent — the name of the person responsible for the work (possibly editor or author) is missing after 'von'. The surname BALDAMUS, M.K. is given at the top but the ellipsis suggests a fuller attribution was intended. problematic_multi_volume: Only the second volume (Zweite Abtheilung, pp. 209–503) is physically present and described; the first volume is referenced in the title ('In zwei Abtheilungen') but not catalogued here. Page count for the second volume is given as a range (209–503) rather than a discrete page count and has not been entered in the pages field."
+  },
+  "literatur_219_9_12": {
+    "title": "Einführung in die neuere deutsche Literaturwissenschaft",
+    "subtitle": "Ein Arbeitsbuch",
+    "authors": [
+      {
+        "display_name": "PETERSEN, Jürgen H."
+      },
+      {
+        "display_name": "WAGNER-EGELHAAF"
+      }
+    ],
+    "editors": [],
+    "contributors": [],
+    "translator": null,
+    "original_entry": "PETERSEN, Jürgen H./WAGNER-EGELHAAF || Einführung in die neuere deutsche Literaturwissenschaft. Ein Arbeitsbuch. 8.neu-bearbeitete Auflage. Berli Erich Schmidt Verlag 2009. 289 S. OBrosch.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "Place of publication 'Berli' corrected to 'Berlin' (obvious typo). The second author 'WAGNER-EGELHAAF' appears without a given name; the full name is likely 'WAGNER-EGELHAAF, Martina', but this has not been inserted as it cannot be confirmed from the entry alone — missing_person flag set."
+  },
+  "bibliophile_153_7_10": {
+    "title": "Liebesnovellen des französischen Mittelalters",
+    "subtitle": null,
+    "authors": [],
+    "editors": [],
+    "contributors": [
+      {
+        "display_name": "Neu, Paul"
+      }
+    ],
+    "translator": {
+      "display_name": "Goyert, Georg"
+    },
+    "original_entry": "LIEBESNOVELLEN' || Des französischen Mittelalters. A. d. Altfranzös. von Georg Goyert. Mit Bildbeigaben von Paul Neu München Georg Müller 1919. 241 S. 4500 Exemplare. Buchausstattung von Paul Renner. OHLdr. m. gold. Rückenschild. Sehr gute Erhaltung.",
+    "corrected_by_api": true,
+    "missing_person": true,
+    "multiple_editions": false,
+    "api_concerned": false,
+    "problematic_multi_volume": false,
+    "verification_notes": "The title 'LIEBESNOVELLEN'' contains a stray apostrophe/quotation mark at the end, corrected to 'Liebesnovellen'. The subtitle 'Des französischen Mittelalters' was merged into the title field as it forms a single title unit. The entry mentions 4500 Exemplare as the print run (Auflage), not as copies owned — copies field set to 1 as default. No author is named for this anthology of medieval French novellas; missing_person flag set as the original authors of the medieval texts are absent. Paul Neu is listed as illustrator (Bildbeigaben) and Paul Renner as book designer (Buchausstattung); Neu listed as contributor."
+  }
+}
