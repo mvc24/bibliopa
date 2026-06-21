@@ -25,8 +25,10 @@ export function SearchBox({
       className="search-box"
     >
       <Label>{label}</Label>
-      <Input placeholder={placeholder} />
-      <Button>×</Button>
+      <div className="input-clear-wrap">
+        <Input placeholder={placeholder} />
+        <Button className="input-clear">×</Button>
+      </div>
     </SearchField>
   );
 }

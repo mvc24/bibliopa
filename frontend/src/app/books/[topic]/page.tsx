@@ -180,6 +180,7 @@ export default function BibliographyPage() {
                       </AriaButton>
                     )}
                     <AriaButton
+                      className="react-aria-Button book-action-danger"
                       onPress={() => removeBook(book.book_id)}
                       isDisabled={isLoading}
                     >

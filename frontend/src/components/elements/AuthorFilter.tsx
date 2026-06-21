@@ -14,6 +14,7 @@ import { useRouter } from 'next/navigation';
 import { AuthorListItem } from '@/types/database';
 import { formatPerson } from '@/lib/formatters';
 import { startsWithFilterRA } from '@/lib/selectFilters';
+import { selectSingleMatch } from './ComboBoxField';
 
 // Author search that filters on the surname (not the displayed label) and
 // only after 3 characters, since the author list is large. Selecting a name
@@ -58,7 +59,26 @@ export function AuthorFilter() {
       allowsEmptyCollection
     >
       <Label>Autor:in suchen</Label>
-      <Input placeholder="Gib mindestens 3 Buchstaben ein, um die Suche zu starten" />
+      <div className="input-clear-wrap">
+        <Input
+          placeholder="Gib mindestens 3 Buchstaben ein, um die Suche zu starten"
+          onKeyDownCapture={selectSingleMatch(items, (value) => {
+            const match = items.find((item) => item.value === value);
+            if (match) setQuery(match.label);
+            router.push(`/books/all?author=${value}`);
+          })}
+        />
+        {query && (
+          <button
+            type="button"
+            className="input-clear"
+            aria-label="Eingabe löschen"
+            onClick={() => setQuery('')}
+          >
+            ×
+          </button>
+        )}
+      </div>
       <Text slot="description">
         Sobald du einen Namen aus einer Liste anklickst, werden die Ergebnisse
         auf diese Person eingeschränkt.

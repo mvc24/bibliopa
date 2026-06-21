@@ -179,39 +179,39 @@ export default function SingleBookPage() {
         ) : (
           <>
             <div className="book-detail-body">
-            <dl className="book-fields">
-                  <ConditionalTableFields
-                    label="Titel"
-                    value={
-                      book?.title && book?.subtitle
-                        ? `${book.title} : ${book.subtitle}`
-                        : book?.title
-                    }
-                  />
-                  <ConditionalTableFields
-                    label="Verfasser:in"
-                    value={authors}
-                  />
+              <dl className="book-fields">
+                <ConditionalTableFields
+                  label="Titel"
+                  value={
+                    book?.title && book?.subtitle
+                      ? `${book.title} : ${book.subtitle}`
+                      : book?.title
+                  }
+                />
+                <ConditionalTableFields
+                  label="Verfasser:in"
+                  value={authors}
+                />
 
-                  <ConditionalTableFields
-                    label="Ausgabe"
-                    value={book?.edition}
-                  />
+                <ConditionalTableFields
+                  label="Ausgabe"
+                  value={book?.edition}
+                />
 
-                  <ConditionalTableFields
-                    label="Erscheinungsjahr"
-                    value={book?.publication_year}
-                  />
+                <ConditionalTableFields
+                  label="Erscheinungsjahr"
+                  value={book?.publication_year}
+                />
 
-                  <ConditionalTableFields
-                    label="Ort/Verlag"
-                    value={
-                      book?.place_of_publication && book?.publisher
-                        ? `${book.place_of_publication} : ${book.publisher}`
-                        : book?.place_of_publication || book?.publisher
-                    }
-                  />
-                  {/* <ConditionalTableFields
+                <ConditionalTableFields
+                  label="Ort/Verlag"
+                  value={
+                    book?.place_of_publication && book?.publisher
+                      ? `${book.place_of_publication} : ${book.publisher}`
+                      : book?.place_of_publication || book?.publisher
+                  }
+                />
+                {/* <ConditionalTableFields
                   label="Umfang/Format"
                   value={
                     pages && book?.format_original
@@ -220,49 +220,49 @@ export default function SingleBookPage() {
                   }
                 /> */}
 
-                  <ConditionalTableFields
-                    label="Seitenanzahl"
-                    value={pages}
-                  />
+                <ConditionalTableFields
+                  label="Seitenanzahl"
+                  value={pages}
+                />
 
-                  <ConditionalTableFields
-                    label="Format"
-                    value={format}
-                  />
+                <ConditionalTableFields
+                  label="Format"
+                  value={format}
+                />
 
-                  <ConditionalTableFields
-                    label="Zustand"
-                    value={book?.condition}
-                  />
-                  <ConditionalTableFields
-                    label="Illustrationen"
-                    value={book?.illustrations}
-                  />
+                <ConditionalTableFields
+                  label="Zustand"
+                  value={book?.condition}
+                />
+                <ConditionalTableFields
+                  label="Illustrationen"
+                  value={book?.illustrations}
+                />
 
-                  <ConditionalTableFields
-                    label="Originalsprache"
-                    value={book?.original_language}
-                  />
+                <ConditionalTableFields
+                  label="Originalsprache"
+                  value={book?.original_language}
+                />
 
-                  <ConditionalTableFields
-                    label="Beteiligte"
-                    value={peopleWithRoles}
-                  />
+                <ConditionalTableFields
+                  label="Beteiligte"
+                  value={peopleWithRoles}
+                />
 
-                  <ConditionalTableFields
-                    label="Mehrbändiges Werk"
-                    value={showMultivolume}
-                  />
-                  <ConditionalTableFields
-                    label="Reihentitel"
-                    value={seriesTitle}
-                  />
-                  <ConditionalTableFields
-                    label="Anzahl Bände"
-                    value={volumeCount}
-                  />
+                <ConditionalTableFields
+                  label="Mehrbändiges Werk"
+                  value={showMultivolume}
+                />
+                <ConditionalTableFields
+                  label="Reihentitel"
+                  value={seriesTitle}
+                />
+                <ConditionalTableFields
+                  label="Anzahl Bände"
+                  value={volumeCount}
+                />
 
-                  {/* <ConditionalTableFields
+                {/* <ConditionalTableFields
                   label="Titel"
                   value={book?.title}
                 />
@@ -271,58 +271,58 @@ export default function SingleBookPage() {
                   value={book?.admin_data?.original_entry}
                 />
                 */}
-                  {showPrices && (
-                    <div className="field-row">
-                      <dt className="field-label">Preise</dt>
-                      <dd className="field-value">
-                        {book?.prices &&
-                        book.prices.filter((p) => p.amount).length > 0 ? (
-                          book.prices
-                            .filter((p) => p.amount)
-                            .map((price) => (
-                              <p key={price.price_id}>
-                                € {price.amount}
-                                {price.source && ` - ${price.source}`}
-                                {' - '}
-                                {new Date(
-                                  price.date_added,
-                                ).toLocaleDateString('de-DE')}
-                              </p>
-                            ))
-                        ) : (
-                          <p>Keine Preise vorhanden</p>
-                        )}
-                      </dd>
-                    </div>
-                  )}
-
+                {showPrices && (
                   <div className="field-row">
-                    <dt className="field-label">Datensatz Original</dt>
-                    <dd
-                      className="field-value"
-                      style={{ whiteSpace: 'pre-line' }}
-                    >
-                      {book?.admin_data?.original_entry}
+                    <dt className="field-label">Preise</dt>
+                    <dd className="field-value">
+                      {book?.prices &&
+                      book.prices.filter((p) => p.amount).length > 0 ? (
+                        book.prices
+                          .filter((p) => p.amount)
+                          .map((price) => (
+                            <p key={price.price_id}>
+                              € {price.amount}
+                              {price.source && ` - ${price.source}`}
+                              {' - '}
+                              {new Date(price.date_added).toLocaleDateString(
+                                'de-DE',
+                              )}
+                            </p>
+                          ))
+                      ) : (
+                        <p>Keine Preise vorhanden</p>
+                      )}
                     </dd>
                   </div>
-                </dl>
+                )}
+              </dl>
 
-            {canModifyBooks && (
-              <aside className="book-detail-actions">
-                <Button onPress={() => setPriceOpen(true)}>
-                  Preis hinzufügen
-                </Button>
-                <Button onPress={() => setIsEditing(true)}>
-                  Daten bearbeiten
-                </Button>
-                <Button
-                  onPress={() => removeBook(Number(bookId))}
-                  isDisabled={isLoading}
-                >
-                  Abschreiben
-                </Button>
-              </aside>
-            )}
+              {canModifyBooks && (
+                <aside className="book-detail-actions">
+                  <Button onPress={() => setPriceOpen(true)}>
+                    Preis hinzufügen
+                  </Button>
+                  <Button onPress={() => setIsEditing(true)}>
+                    Daten bearbeiten
+                  </Button>
+                  <Button
+                    className="react-aria-Button book-action-danger"
+                    onPress={() => removeBook(Number(bookId))}
+                    isDisabled={isLoading}
+                  >
+                    Abschreiben
+                  </Button>
+                </aside>
+              )}
+
+              {book?.admin_data?.original_entry && (
+                <section className="original-entry">
+                  <h2 className="original-entry-heading">Datensatz Original</h2>
+                  <div className="original-entry-card">
+                    {book.admin_data.original_entry}
+                  </div>
+                </section>
+              )}
             </div>
 
             <PriceDialog

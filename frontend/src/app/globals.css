@@ -10,11 +10,8 @@
     /* warm paper — page background        */
     --color-surface: #fbf7ee;
     /* cards, popovers, menus              */
-    /* --color-hover: #dde8e4; */
 
-    /* --color-hover: #dde8e4;
-    --color-hover: #dde8e4; */
-    --color-hover: #cbcbc5;
+    --color-hover: #E8DCBA;
     /* row / item hover tint               */
     --color-divider: #dde8e4;
     /* divider lines (book-actions, field-row) — independent of hover, set this freely */
@@ -55,7 +52,8 @@
     /* --- Type ------------------------------------------------ */
     --font-serif: "adobe-jenson-pro", Georgia, serif;
     --font-sans: "zeitung", system-ui, sans-serif;
-    --font-mono: "zeitung-mono", "Courier New", monospace;
+    --font-mono: "zeitung-mono", monospace;
+    /* --font-mono: "zeitung-mono", "Courier New", monospace; */
 
     /* Scale (root = 18px at Normal) */
     --text-sm: 0.889rem;
@@ -579,8 +577,17 @@ body {
 
     .book-actions .react-aria-Button[data-hovered],
     .book-detail-actions .react-aria-Button[data-hovered] {
-        background: var(--color-hover);
-        border-color: var(--color-border-str);
+        background: var(--color-primary);
+        border-color: var(--color-primary);
+        color: var(--color-on-primary);
+    }
+
+    /* Abschreiben removes a book from the collection — warn on hover */
+    .book-actions .react-aria-Button.book-action-danger[data-hovered],
+    .book-detail-actions .react-aria-Button.book-action-danger[data-hovered] {
+        background: var(--color-invalid);
+        border-color: var(--color-invalid);
+        color: var(--color-on-primary);
     }
 
     /* --- Book detail --- */
@@ -605,6 +612,7 @@ body {
 
     .book-detail-body {
         display: flex;
+        flex-wrap: wrap;
         gap: var(--sp-5);
         align-items: flex-start;
         background: var(--color-surface);
@@ -624,6 +632,7 @@ body {
     .field-row {
         display: grid;
         grid-template-columns: 11rem 1fr;
+        align-items: baseline;
         gap: var(--sp-3) var(--sp-4);
         padding: var(--sp-2) 0;
         border-bottom: var(--border-w) solid var(--color-divider);
@@ -649,6 +658,35 @@ body {
         flex-direction: column;
         gap: var(--sp-3);
         flex-shrink: 0;
+    }
+
+    .original-entry {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-3);
+    }
+
+    .original-entry-heading {
+        margin: 0;
+        font-family: var(--font-sans);
+        font-weight: var(--w-bold);
+        font-size: var(--text-sm);
+        text-transform: uppercase;
+        letter-spacing: .06em;
+        color: var(--color-muted);
+    }
+
+    .original-entry-card {
+        background: var(--color-manila);
+        border: var(--border-w) solid var(--color-border);
+        border-radius: var(--radius);
+        padding: var(--sp-4);
+        font-family: var(--font-mono);
+        font-size: var(--text-sm);
+        line-height: 1.7;
+        white-space: pre-line;
+        color: var(--color-fg);
     }
 
     /* --- Modal / dialog --- */
@@ -700,6 +738,45 @@ body {
         font-family: var(--font-sans);
         font-size: var(--text-sm);
         color: var(--color-muted);
+    }
+
+    /* --- Inline clear (×) inside search inputs --- */
+    .input-clear-wrap {
+        position: relative;
+    }
+
+    .input-clear-wrap .react-aria-Input {
+        padding-right: var(--sp-6);
+        /* room for the × */
+    }
+
+    .input-clear {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: var(--sp-6);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        border: none;
+        border-radius: var(--radius);
+        color: var(--color-muted);
+        font-size: var(--text-lg);
+        line-height: 1;
+        cursor: pointer;
+    }
+
+    .input-clear[data-hovered],
+    .input-clear:hover {
+        color: var(--color-fg);
+    }
+
+    /* SearchField marks the root empty; hide its built-in × when blank.
+       AuthorFilter's button is conditionally rendered, so needs no hide rule. */
+    .search-box[data-empty] .input-clear {
+        display: none;
     }
 
     /* --- Reusable layout helpers (replace Mantine Card / Stack) --- */

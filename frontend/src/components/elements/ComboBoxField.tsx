@@ -22,7 +22,7 @@ interface Item {
 // match). Capture phase + stopPropagation so this runs before RAC's own
 // Enter handling — but only when there's a single match. For any other
 // count we do nothing and let RAC / the form handle Enter as usual.
-function selectSingleMatch(items: Item[], select: (value: string) => void) {
+export function selectSingleMatch(items: Item[], select: (value: string) => void) {
   return (e: KeyboardEvent<HTMLInputElement>) => {
     if (e.key !== 'Enter') return;
     const typed = e.currentTarget.value;
