@@ -10,8 +10,14 @@
     /* warm paper — page background        */
     --color-surface: #fbf7ee;
     /* cards, popovers, menus              */
-    --color-hover: #dde8e4;
+    /* --color-hover: #dde8e4; */
+
+    /* --color-hover: #dde8e4;
+    --color-hover: #dde8e4; */
+    --color-hover: #cbcbc5;
     /* row / item hover tint               */
+    --color-divider: #dde8e4;
+    /* divider lines (book-actions, field-row) — independent of hover, set this freely */
     --color-manila: #ede0c8;
     /* original-entry card stock           */
 
@@ -553,7 +559,7 @@ body {
         flex-wrap: wrap;
         gap: var(--sp-3);
         padding-top: var(--sp-3);
-        border-top: var(--border-w) solid var(--color-hover);
+        border-top: var(--border-w) solid var(--color-divider);
     }
 
     /* Catalogue + detail actions are pill chips, not solid buttons */
@@ -620,7 +626,7 @@ body {
         grid-template-columns: 11rem 1fr;
         gap: var(--sp-3) var(--sp-4);
         padding: var(--sp-2) 0;
-        border-bottom: var(--border-w) solid var(--color-hover);
+        border-bottom: var(--border-w) solid var(--color-divider);
     }
 
     .field-label {
