@@ -11,7 +11,7 @@
     --color-surface: #fbf7ee;
     /* cards, popovers, menus              */
 
-    --color-hover: #E8DCBA;
+    --color-hover: #EFE6CD;
     /* row / item hover tint               */
     --color-divider: #dde8e4;
     /* divider lines (book-actions, field-row) — independent of hover, set this freely */
@@ -50,15 +50,17 @@
     --color-invalid-bg: #f6e7df;
 
     /* --- Type ------------------------------------------------ */
-    --font-serif: "adobe-jenson-pro", Georgia, serif;
-    --font-sans: "zeitung", system-ui, sans-serif;
+    /* --font-serif: "adobe-jenson-pro-display", Georgia, serif; */
+    --font-serif: "adobe-jenson-pro", serif;
+    /* --font-serif: "adobe-jenson-pro-caption", Georgia, serif; */
+    --font-sans: "zeitung-micro", system-ui, sans-serif;
     --font-mono: "zeitung-mono", monospace;
     /* --font-mono: "zeitung-mono", "Courier New", monospace; */
 
     /* Scale (root = 18px at Normal) */
     --text-sm: 0.889rem;
     /* 16px — UI labels, captions              */
-    --text-base: 1rem;
+    --text-base: 1.1rem;
     /* 18px — body                             */
     --text-lg: 1.222rem;
     /* 22px — book titles in list              */
@@ -67,8 +69,11 @@
     --text-2xl: 2.111rem;
     /* 38px — page / detail title              */
 
+    --w-light: 300;
     --w-normal: 400;
+    --w-semibold: 600;
     --w-bold: 700;
+    --w-x-bold: 900;
 
     --lh-tight: 1.25;
     /* display headings                            */
@@ -97,7 +102,7 @@
     --control-h: 3rem;
     /* uniform height: inputs, selects, btns   */
     --radius: 4px;
-    --border-w: 1px;
+    --border-w: 0.3px;
     /* standard                                */
     --border-w2: 2px;
     /* inputs and emphasis                     */
@@ -392,6 +397,13 @@ body {
         text-decoration: none;
     }
 
+    .app-brand-logo {
+        height: var(--control-h);
+        width: auto;
+        display: block;
+        padding-top: 10px;
+    }
+
     .app-body {
         display: flex;
         flex: 1;
@@ -399,12 +411,40 @@ body {
     }
 
     .app-sidebar {
-        width: 20rem;
+        width: clamp(14rem, 22vw, 22rem);
         flex-shrink: 0;
         overflow-y: auto;
         background: var(--color-surface);
         border-right: var(--border-w2) solid var(--color-border);
         padding: var(--sp-1);
+    }
+
+    /* Backdrop behind the sidebar when it overlays on mobile (hidden on desktop) */
+    .app-scrim {
+        display: none;
+    }
+
+    /* Mobile: the sidebar overlays the catalogue instead of pushing it aside */
+    @media (max-width: 48rem) {
+        .app-sidebar {
+            position: fixed;
+            top: calc(var(--control-h) + var(--sp-3));
+            left: 0;
+            bottom: 0;
+            width: min(20rem, 80vw);
+            z-index: 50;
+            box-shadow: var(--shadow-pop);
+        }
+
+        .app-scrim {
+            display: block;
+            position: fixed;
+            top: calc(var(--control-h) + var(--sp-3));
+            inset-inline: 0;
+            bottom: 0;
+            z-index: 40;
+            background: rgba(12, 32, 41, 0.45);
+        }
     }
 
     .app-main {
@@ -532,7 +572,8 @@ body {
 
     .book-title {
         font-family: var(--font-serif);
-        font-size: var(--text-lg);
+        font-weight: var(--w-bold);
+        font-size: var(--text-xl);
         line-height: var(--lh-snug);
         margin: 0;
     }
@@ -540,6 +581,7 @@ body {
     .book-subtitle {
         font-family: var(--font-serif);
         font-style: italic;
+        font-size: var(--text-lg);
         color: var(--color-muted);
         margin: 0;
     }
@@ -640,7 +682,7 @@ body {
 
     .field-label {
         font-family: var(--font-sans);
-        font-weight: var(--w-bold);
+        font-weight: var(--w-semibold);
         font-size: var(--text-sm);
         text-transform: uppercase;
         letter-spacing: .06em;
@@ -650,6 +692,7 @@ body {
     .field-value {
         margin: 0;
         font-family: var(--font-serif);
+        font-weight: var(--w-semibold);
         font-size: var(--text-lg);
     }
 
@@ -683,7 +726,7 @@ body {
         border-radius: var(--radius);
         padding: var(--sp-4);
         font-family: var(--font-mono);
-        font-size: var(--text-sm);
+        font-size: var(--text-base);
         line-height: 1.7;
         white-space: pre-line;
         color: var(--color-fg);

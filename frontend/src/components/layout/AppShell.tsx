@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Button } from 'react-aria-components';
 import { MainNav } from '../nav/MainNav';
@@ -13,6 +13,14 @@ import { TopicsNav } from '../nav/TopicsNav';
 // it on mobile.
 export function AppShell({ children }: { children: React.ReactNode }) {
   const [navOpen, setNavOpen] = useState(true);
+
+  // Desktop stays open (the useState default). Only collapse on mobile, after
+  // hydration so the server/client first render still match.
+  useEffect(() => {
+    if (window.matchMedia('(max-width: 48rem)').matches) {
+      setNavOpen(false);
+    }
+  }, []);
 
   return (
     <div className="app-shell">
@@ -28,7 +36,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             ☰
           </Button>
           <Link href="/" className="app-brand">
-            Bibliopa
+            <img src="/bibliopa-logo.svg" alt="Bibliopa" className="app-brand-logo" />
           </Link>
         </div>
         <MainNav />
@@ -39,6 +47,13 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           <nav id="topics-sidebar" aria-label="Themen" className="app-sidebar">
             <TopicsNav />
           </nav>
+        )}
+        {navOpen && (
+          <div
+            className="app-scrim"
+            onClick={() => setNavOpen(false)}
+            aria-hidden="true"
+          />
         )}
         <main className="app-main">{children}</main>
       </div>

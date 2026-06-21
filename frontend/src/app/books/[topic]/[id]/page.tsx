@@ -99,7 +99,7 @@ export default function SingleBookPage() {
   let format_expanded = '';
 
   if (book?.format_original) {
-    format_original = ` ${book.format_original}`;
+    format_original = ` (${book.format_original})`;
   }
   if (book?.format_expanded) {
     format_expanded = book.format_expanded;
@@ -226,7 +226,7 @@ export default function SingleBookPage() {
                 />
 
                 <ConditionalTableFields
-                  label="Format"
+                  label="Erscheinungsform"
                   value={format}
                 />
 

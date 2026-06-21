@@ -1,17 +1,6 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { Providers } from '../components/providers';
-
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-});
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-});
 
 export const metadata: Metadata = {
   title: 'Bibliopa Admin',
@@ -25,9 +14,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://use.typekit.net/eiy0qlm.css"
+        />
+      </head>
+      <body className="antialiased">
         <Providers>{children}</Providers>
       </body>
     </html>
