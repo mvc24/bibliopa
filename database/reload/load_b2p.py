@@ -11,7 +11,11 @@ from database.connection import get_db_connection
 # b2p_file = Path("data_reload/db_files/books2people.json")
 
 # load 1 of more to add missing rows - 1441 rows loaded on 12 June
-b2p_file = Path("data_reload/fix_missing/b2p_found_list_01.json")
+# b2p_file = Path("data_reload/fix_missing/b2p_found_list_01.json")
+# load next batch
+b2p_file = Path("data_reload/fix_missing/b2p_found_list_02.json")
+
+
 
 def load_b2p_to_db():
     with open(b2p_file, "r") as f:

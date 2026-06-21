@@ -1,0 +1,5294 @@
+{
+  "antike_177_8_9": [
+    {
+      "unified_id": "livius",
+      "person_id": 8401,
+      "display_norm": "livius"
+    },
+    {
+      "unified_id": "dittrich_heinrich",
+      "person_id": 8014,
+      "display_norm": "dittrich, heinrich"
+    }
+  ],
+  "literatur_42_2_12": [
+    {
+      "unified_id": "heyse_karl_w_l",
+      "person_id": 8202,
+      "display_norm": "heyse, karl wilhelm ludwig"
+    }
+  ],
+  "buddhismus_46_2_3": [
+    {
+      "unified_id": "bleichsteiner_robert",
+      "person_id": 7911,
+      "display_norm": "bleichsteiner, robert"
+    }
+  ],
+  "wien_134_6_10": [
+    {
+      "unified_id": "vancsa_max",
+      "person_id": 8845,
+      "display_norm": "vancsa, max"
+    }
+  ],
+  "kunstbuecher_326_14_38": [
+    {
+      "unified_id": "friedlander_walter",
+      "person_id": 8080,
+      "display_norm": "friedländer, walter"
+    }
+  ],
+  "kunstbuecher_378_16_38": [
+    {
+      "unified_id": "novotny_fritz",
+      "person_id": 8539,
+      "display_norm": "novotny, fritz"
+    }
+  ],
+  "erstausgaben_781_32_78": [
+    {
+      "unified_id": "kurz_isolde",
+      "person_id": 8364,
+      "display_norm": "kurz, isolde"
+    }
+  ],
+  "aegypten_49_2_3": [
+    {
+      "unified_id": "hilgemann_werner",
+      "person_id": 8205,
+      "display_norm": "hilgemann, werner"
+    },
+    {
+      "unified_id": "kinder_hermann",
+      "person_id": 8309,
+      "display_norm": "kinder, hermann"
+    }
+  ],
+  "oesterreich_146_6_13": [
+    {
+      "unified_id": "stepan_eduard",
+      "person_id": 8783,
+      "display_norm": "stepan, eduard"
+    }
+  ],
+  "oesterreich_101_5_13": [
+    {
+      "unified_id": "heiss_gernot",
+      "person_id": 8186,
+      "display_norm": "heiss, gernot"
+    }
+  ],
+  "biographie_83_4_27": [
+    {
+      "unified_id": "honan_park",
+      "person_id": 8232,
+      "display_norm": "honan, park"
+    }
+  ],
+  "kunstbuecher_26_2_38": [
+    {
+      "unified_id": "barta_fliedl_ilsebill",
+      "person_id": 7866,
+      "display_norm": "barta fliedl, ilsebill"
+    },
+    {
+      "unified_id": "geissmar_christoph",
+      "person_id": 8103,
+      "display_norm": "geissmar, christoph"
+    }
+  ],
+  "kunstbuecher_202_9_38": [
+    {
+      "unified_id": "henking_karl_h",
+      "person_id": 8190,
+      "display_norm": "henking, karl h."
+    }
+  ],
+  "russland_314_13_17": [
+    {
+      "unified_id": "mannteufel_ingo",
+      "person_id": 8420,
+      "display_norm": "mannteufel, ingo"
+    },
+    {
+      "unified_id": "unser_jutta",
+      "person_id": 8840,
+      "display_norm": "unser, jutta"
+    },
+    {
+      "unified_id": "creuzberger_stefan",
+      "person_id": 7980,
+      "display_norm": "creuzberger, stefan"
+    },
+    {
+      "unified_id": "kaiser_maria",
+      "person_id": 8281,
+      "display_norm": "kaiser, maria"
+    }
+  ],
+  "okkultismus_0_1_8": [
+    {
+      "unified_id": "petschar_hans",
+      "person_id": 8574,
+      "display_norm": "petschar, hans"
+    },
+    {
+      "unified_id": "rom_brigitte",
+      "person_id": 8652,
+      "display_norm": "rom, brigitte"
+    }
+  ],
+  "kunstbuecher_401_17_38": [
+    {
+      "unified_id": "petermann_erwin",
+      "person_id": 8573,
+      "display_norm": "petermann, erwin"
+    }
+  ],
+  "kunstbuecher_865_35_38": [
+    {
+      "unified_id": "reyes_aurelio",
+      "person_id": 8637,
+      "display_norm": "reyes, aurelio de los"
+    }
+  ],
+  "okkultismus_18_1_8": [
+    {
+      "unified_id": "charpentier_john",
+      "person_id": 7971,
+      "display_norm": "charpentier, john"
+    }
+  ],
+  "briefe_307_13_15": [
+    {
+      "unified_id": "sieber-rilke_ruth",
+      "person_id": 8750,
+      "display_norm": "sieber-rilke, ruth"
+    },
+    {
+      "unified_id": "altheim_karl",
+      "person_id": 7828,
+      "display_norm": "altheim, karl"
+    }
+  ],
+  "literatur_101_5_12": [
+    {
+      "unified_id": "eis_gerhard",
+      "person_id": 8040,
+      "display_norm": "eis, gerhard"
+    }
+  ],
+  "insel_503_21_27": [
+    {
+      "unified_id": "notzel_karl",
+      "person_id": 8534,
+      "display_norm": "nötzel, karl"
+    }
+  ],
+  "maerchen_45_2_3": [
+    {
+      "unified_id": "meier_harri",
+      "person_id": 8449,
+      "display_norm": "meier, harri"
+    },
+    {
+      "unified_id": "woll_dieter",
+      "person_id": 8923,
+      "display_norm": "woll, dieter"
+    }
+  ],
+  "judentum_12_1_9": [
+    {
+      "unified_id": "beinart_haim",
+      "person_id": 7880,
+      "display_norm": "beinart, haim"
+    }
+  ],
+  "illustrierte_161_7_14": [
+    {
+      "unified_id": "haybach_rudolf",
+      "person_id": 8179,
+      "display_norm": "haybach, rudolf"
+    },
+    {
+      "unified_id": "mayerbeck_fritz",
+      "person_id": 8442,
+      "display_norm": "mayer-beck, fritz"
+    }
+  ],
+  "illustrierte_178_8_14": [
+    {
+      "unified_id": "janosch",
+      "person_id": 8255,
+      "display_norm": "janosch"
+    }
+  ],
+  "buddhismus_32_2_3": [
+    {
+      "unified_id": "schmidt_i_j",
+      "person_id": 8703,
+      "display_norm": "schmidt, i. j."
+    }
+  ],
+  "de-lit-texte_343_14_20": [
+    {
+      "unified_id": "nossack_hans_e",
+      "person_id": 8528,
+      "display_norm": "nossack, hans erich"
+    }
+  ],
+  "griechenland_69_3_10": [
+    {
+      "unified_id": "jamblich",
+      "person_id": 8254,
+      "display_norm": "jamblich"
+    }
+  ],
+  "musik_142_6_11": [
+    {
+      "unified_id": "wasielewski_wilh_j",
+      "person_id": 8878,
+      "display_norm": "wasielewski, wilh. jos. v."
+    },
+    {
+      "unified_id": "wasielewski_waldemar",
+      "person_id": 8877,
+      "display_norm": "wasielewski, waldemar von"
+    }
+  ],
+  "aegypten_10_1_3": [
+    {
+      "unified_id": "lang_d_m",
+      "person_id": 8374,
+      "display_norm": "lang, d.m."
+    }
+  ],
+  "erstausgaben_1498_60_78": [
+    {
+      "unified_id": "boehlich_walter",
+      "person_id": 7924,
+      "display_norm": "boehlich, walter"
+    },
+    {
+      "unified_id": "nossak_hans_e",
+      "person_id": 8529,
+      "display_norm": "nossak, hans erich"
+    }
+  ],
+  "oesterreich_245_10_13": [
+    {
+      "unified_id": "loew_hans_m",
+      "person_id": 8404,
+      "display_norm": "loew, hans m."
+    },
+    {
+      "unified_id": "jedlicka_ludwig_f",
+      "person_id": 8264,
+      "display_norm": "jedlicka, ludwig f."
+    },
+    {
+      "unified_id": "skalnik_kurt",
+      "person_id": 8757,
+      "display_norm": "skalnik, kurt"
+    }
+  ],
+  "oesterreich_215_9_13": [
+    {
+      "unified_id": "innerhofer_roland",
+      "person_id": 8247,
+      "display_norm": "innerhofer, roland"
+    }
+  ],
+  "judentum_168_7_9": [
+    {
+      "unified_id": "riedl_joachim",
+      "person_id": 8642,
+      "display_norm": "riedl, joachim"
+    }
+  ],
+  "oesterreich_150_7_13": [
+    {
+      "unified_id": "walther_bernardo",
+      "person_id": 8875,
+      "display_norm": "walther, bernardo"
+    },
+    {
+      "unified_id": "suttinger_johann_b",
+      "person_id": 8808,
+      "display_norm": "suttinger, johann baptist"
+    }
+  ],
+  "oesterreich_77_4_13": [
+    {
+      "unified_id": "johnston_william_m",
+      "person_id": 8270,
+      "display_norm": "johnston, william m."
+    }
+  ],
+  "oesterreich_152_7_13": [
+    {
+      "unified_id": "theuer_franz",
+      "person_id": 8822,
+      "display_norm": "theuer, franz"
+    }
+  ],
+  "de-lit-monographien_123_5_10": [
+    {
+      "unified_id": "mayer_verena",
+      "person_id": 8441,
+      "display_norm": "mayer, verena"
+    },
+    {
+      "unified_id": "koberg_roland",
+      "person_id": 8328,
+      "display_norm": "koberg, roland"
+    }
+  ],
+  "maerchen_26_2_3": [
+    {
+      "unified_id": "galeano_eduardo",
+      "person_id": 8088,
+      "display_norm": "galeano, eduardo"
+    },
+    {
+      "unified_id": "enzenberg_carina",
+      "person_id": 8046,
+      "display_norm": "enzenberg, carina"
+    }
+  ],
+  "deutschland_25_2_4": [
+    {
+      "unified_id": "kugler_franz",
+      "person_id": 8359,
+      "display_norm": "kugler, franz"
+    }
+  ],
+  "kunstbuecher_549_22_38": [
+    {
+      "unified_id": "weis_helmut",
+      "person_id": 8891,
+      "display_norm": "weis, helmut"
+    }
+  ],
+  "monographien_37_2_3": [
+    {
+      "unified_id": "fischer-seidel_therese",
+      "person_id": 8067,
+      "display_norm": "fischer-seidel, therese"
+    }
+  ],
+  "kunstbuecher_513_21_38": [
+    {
+      "unified_id": "novotny_fritz",
+      "person_id": 8539,
+      "display_norm": "novotny, fritz"
+    }
+  ],
+  "autographen_21_1_2": [
+    {
+      "unified_id": "kubelik_rafael",
+      "person_id": 8358,
+      "display_norm": "kubelik, rafael"
+    }
+  ],
+  "geschichte_26_2_3": [
+    {
+      "unified_id": "spence_jonathan_d",
+      "person_id": 8763,
+      "display_norm": "spence, jonathan d."
+    }
+  ],
+  "sonstiges_52_3_4": [
+    {
+      "unified_id": "durden_mark",
+      "person_id": 8028,
+      "display_norm": "durden, mark"
+    }
+  ],
+  "kunstbuecher_192_8_38": [
+    {
+      "unified_id": "schaedel_karl",
+      "person_id": 8679,
+      "display_norm": "schaedel, karl"
+    },
+    {
+      "unified_id": "hammerstiiel_robert",
+      "person_id": 8166,
+      "display_norm": "hammerstiiel, robert"
+    }
+  ],
+  "buddhismus_27_2_3": [
+    {
+      "unified_id": "oldenberg_hermann",
+      "person_id": 8549,
+      "display_norm": "oldenberg, hermann"
+    }
+  ],
+  "literatur_194_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "signierte_35_2_10": [
+    {
+      "unified_id": "danszky_eduard_p",
+      "person_id": 7985,
+      "display_norm": "danszky, eduard paul"
+    }
+  ],
+  "sonstiges_19_1_4": [
+    {
+      "unified_id": "ifrah_georges",
+      "person_id": 8245,
+      "display_norm": "ifrah, georges"
+    }
+  ],
+  "kinder_73_3_4": [
+    {
+      "unified_id": "brissaud_pierre",
+      "person_id": 7944,
+      "display_norm": "brissaud, pierre"
+    }
+  ],
+  "erstausgaben_782_32_78": [
+    {
+      "unified_id": "kurz_isolde",
+      "person_id": 8364,
+      "display_norm": "kurz, isolde"
+    }
+  ],
+  "sonstiges_27_2_4": [
+    {
+      "unified_id": "peter_m",
+      "person_id": 8572,
+      "display_norm": "peter, m."
+    }
+  ],
+  "oesterreich_33_2_13": [
+    {
+      "unified_id": "petschar_hans",
+      "person_id": 8574,
+      "display_norm": "petschar, hans"
+    },
+    {
+      "unified_id": "zeilinger_elisabeth",
+      "person_id": 8930,
+      "display_norm": "zeilinger, elisabeth"
+    }
+  ],
+  "erstausgaben_1495_60_78": [
+    {
+      "unified_id": "nossack_hans_e",
+      "person_id": 8528,
+      "display_norm": "nossack, hans erich"
+    }
+  ],
+  "oesterreich_168_7_13": [
+    {
+      "unified_id": "weis_johann_n",
+      "person_id": 8892,
+      "display_norm": "weis, johann nepomuk"
+    }
+  ],
+  "oesterreich_231_10_13": [
+    {
+      "unified_id": "meiller_andreas",
+      "person_id": 8450,
+      "display_norm": "meiller, andreas von"
+    }
+  ],
+  "antike_137_6_9": [
+    {
+      "unified_id": "thukydides",
+      "person_id": 8824,
+      "display_norm": "thudydides"
+    },
+    {
+      "unified_id": "heilmann_joh_d",
+      "person_id": 8184,
+      "display_norm": "heilmann, joh. dav."
+    }
+  ],
+  "kunstbuecher_248_10_38": [
+    {
+      "unified_id": "kalkschmidt_eugen",
+      "person_id": 8283,
+      "display_norm": "kalkschmidt, eugen"
+    }
+  ],
+  "literatur_193_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "buddhismus_60_3_3": [
+    {
+      "unified_id": "spiegelberg_frederic",
+      "person_id": 8765,
+      "display_norm": "spiegelberg, frederic"
+    }
+  ],
+  "russland_175_8_17": [
+    {
+      "unified_id": "kennan_george",
+      "person_id": 8299,
+      "display_norm": "kennan, george"
+    }
+  ],
+  "buch_108_5_8": [
+    {
+      "unified_id": "pereire_alfred",
+      "person_id": 8570,
+      "display_norm": "pereire, alfred"
+    }
+  ],
+  "oesterreich_260_11_13": [
+    {
+      "unified_id": "hofmann_montanus_hans",
+      "person_id": 8222,
+      "display_norm": "hofmann-montanus, hans"
+    }
+  ],
+  "kunstbuecher_379_16_38": [
+    {
+      "unified_id": "novotny_fritz",
+      "person_id": 8539,
+      "display_norm": "novotny, fritz"
+    }
+  ],
+  "signierte_36_2_10": [
+    {
+      "unified_id": "deissinger_hans",
+      "person_id": 7995,
+      "display_norm": "deissinger, hans"
+    }
+  ],
+  "literatur_190_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "mythologie_9_1_3": [
+    {
+      "unified_id": "cordan_wolfgang",
+      "person_id": 7978,
+      "display_norm": "cordan, wolfgang"
+    }
+  ],
+  "wien_94_4_10": [
+    {
+      "unified_id": "kriehuber_f",
+      "person_id": 8353,
+      "display_norm": "kriehuber, f."
+    },
+    {
+      "unified_id": "kahler_n",
+      "person_id": 8280,
+      "display_norm": "kahler, n."
+    },
+    {
+      "unified_id": "reschauer_heinrich",
+      "person_id": 8633,
+      "display_norm": "reschauer, heinrich"
+    },
+    {
+      "unified_id": "smets_moritz",
+      "person_id": 8758,
+      "display_norm": "smets, moritz"
+    }
+  ],
+  "briefe_165_7_15": [
+    {
+      "unified_id": "biba_otto",
+      "person_id": 7897,
+      "display_norm": "biba, otto"
+    },
+    {
+      "unified_id": "griesinger_georg_a",
+      "person_id": 8143,
+      "display_norm": "griesinger, georg august"
+    }
+  ],
+  "mittelalter_78_4_7": [
+    {
+      "unified_id": "norwich_john_j",
+      "person_id": 8526,
+      "display_norm": "norwich, john j."
+    }
+  ],
+  "insel_641_26_27": [
+    {
+      "unified_id": "klobouk_alexandra",
+      "person_id": 8322,
+      "display_norm": "klobouk, alexandra"
+    },
+    {
+      "unified_id": "goncalves_eva",
+      "person_id": 8127,
+      "display_norm": "goncalves, eva"
+    }
+  ],
+  "renaissance_28_2_4": [
+    {
+      "unified_id": "ferino-pagden_sylvia",
+      "person_id": 8064,
+      "display_norm": "ferino-pagden, sylvia"
+    }
+  ],
+  "biographie_454_19_27": [
+    {
+      "unified_id": "reschke_renate",
+      "person_id": 8634,
+      "display_norm": "reschke, renate"
+    },
+    {
+      "unified_id": "nossik_boris",
+      "person_id": 8530,
+      "display_norm": "nossik, boris"
+    },
+    {
+      "unified_id": "tappe_horst",
+      "person_id": 8812,
+      "display_norm": "tappe, horst"
+    }
+  ],
+  "philosophie_143_6_24": [
+    {
+      "unified_id": "rod_wolfgang",
+      "person_id": 8647,
+      "display_norm": "röd, wolfgang"
+    }
+  ],
+  "islam_60_3_3": [
+    {
+      "unified_id": "schweizer_gerhard",
+      "person_id": 8734,
+      "display_norm": "schweizer, gerhard"
+    }
+  ],
+  "philosophie_478_20_24": [
+    {
+      "unified_id": "holbach_paulhenri_t",
+      "person_id": 8224,
+      "display_norm": "holbach"
+    },
+    {
+      "unified_id": "marsais_du",
+      "person_id": 8426,
+      "display_norm": "marsais, du"
+    }
+  ],
+  "wien_141_6_10": [
+    {
+      "unified_id": "weihsmann_helmut",
+      "person_id": 8889,
+      "display_norm": "weihsmann, helmut"
+    }
+  ],
+  "biographie_15_1_27": [
+    {
+      "unified_id": "fleischer_wolfgang",
+      "person_id": 8071,
+      "display_norm": "fleischer, wolfgang"
+    }
+  ],
+  "oesterreich_160_7_13": [
+    {
+      "unified_id": "vierthaler_franz_m",
+      "person_id": 8856,
+      "display_norm": "vierthaler, f(ranz) m(ichael)"
+    }
+  ],
+  "kinder_86_4_4": [
+    {
+      "unified_id": "katzer_franz",
+      "person_id": 8294,
+      "display_norm": "katzer, franz"
+    },
+    {
+      "unified_id": "neurath_walter",
+      "person_id": 8506,
+      "display_norm": "neurath, walter"
+    }
+  ],
+  "aegypten_52_3_3": [
+    {
+      "unified_id": "soden_wolfram",
+      "person_id": 8759,
+      "display_norm": "soden, wolfram"
+    },
+    {
+      "unified_id": "schott_albert",
+      "person_id": 8714,
+      "display_norm": "schott, albert"
+    }
+  ],
+  "erstausgaben_1065_43_78": [
+    {
+      "unified_id": "kipphardt_heinar",
+      "person_id": 8311,
+      "display_norm": "kipphardt, heinar"
+    }
+  ],
+  "bibliophile_13_1_10": [
+    {
+      "unified_id": "gruber_robert",
+      "person_id": 8151,
+      "display_norm": "gruber, robert"
+    }
+  ],
+  "biographie_377_16_27": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "myer, hans"
+    }
+  ],
+  "wien_49_2_10": [
+    {
+      "unified_id": "wimmer_gino",
+      "person_id": 8915,
+      "display_norm": "wimmer, gino"
+    },
+    {
+      "unified_id": "hansen_traude",
+      "person_id": 8172,
+      "display_norm": "hansen, traude"
+    }
+  ],
+  "musik_87_4_11": [
+    {
+      "unified_id": "muller_franz_k",
+      "person_id": 8484,
+      "display_norm": "müller, franz karl"
+    }
+  ],
+  "literatur_183_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "buddhismus_15_1_3": [
+    {
+      "unified_id": "arbuthnot_f_f",
+      "person_id": 7843,
+      "display_norm": "arbuthnot, f.f."
+    },
+    {
+      "unified_id": "weltmann_julius",
+      "person_id": 8897,
+      "display_norm": "weltmann, julius"
+    },
+    {
+      "unified_id": "burton_richard",
+      "person_id": 7960,
+      "display_norm": "burton, sir richard"
+    },
+    {
+      "unified_id": "kolb_eduard",
+      "person_id": 8336,
+      "display_norm": "kolb, eduard"
+    },
+    {
+      "unified_id": "ziehlke_friedrich",
+      "person_id": 8933,
+      "display_norm": "ziehlke, friedrich"
+    }
+  ],
+  "literatur_200_9_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "literatur_197_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "judentum_96_4_9": [
+    {
+      "unified_id": "sievernich_gereon",
+      "person_id": 8753,
+      "display_norm": "sievernich, gereon"
+    },
+    {
+      "unified_id": "berliner_festspiele",
+      "person_id": 7887,
+      "display_norm": "festspiele, berliner"
+    },
+    {
+      "unified_id": "nachama_andreas",
+      "person_id": 8493,
+      "display_norm": "nachama, andreas"
+    }
+  ],
+  "oesterreich_240_10_13": [
+    {
+      "unified_id": "novotny_fritz",
+      "person_id": 8539,
+      "display_norm": "novotny, fritz"
+    }
+  ],
+  "fremdsprachige_689_28_38": [
+    {
+      "unified_id": "oe_kenzaburo",
+      "person_id": 8546,
+      "display_norm": "oe, kenzaburo"
+    }
+  ],
+  "oesterreich_63_3_13": [
+    {
+      "unified_id": "hittmair_rudolf",
+      "person_id": 8212,
+      "display_norm": "hittmair, rudolf"
+    }
+  ],
+  "reisen_290_12_13": [
+    {
+      "unified_id": "wiesinger_felix",
+      "person_id": 8907,
+      "display_norm": "wiesinger, felix"
+    },
+    {
+      "unified_id": "lausch_susanne",
+      "person_id": 8377,
+      "display_norm": "lausch, susanne"
+    },
+    {
+      "unified_id": "tavernier_jean_b",
+      "person_id": 8813,
+      "display_norm": "tavernier, jean baptiste"
+    }
+  ],
+  "islam_9_1_3": [
+    {
+      "unified_id": "scheel_helmuth",
+      "person_id": 8683,
+      "display_norm": "scheel, helmuth"
+    },
+    {
+      "unified_id": "hartmann_richard",
+      "person_id": 8175,
+      "display_norm": "hartmann, richard"
+    }
+  ],
+  "neuzeit_74_3_4": [
+    {
+      "unified_id": "gould_stephen_j",
+      "person_id": 8134,
+      "display_norm": "gould, stephen jay"
+    }
+  ],
+  "de-lit-texte_317_13_20": [
+    {
+      "unified_id": "pretzel_ulrich",
+      "person_id": 8599,
+      "display_norm": "pretzel, ulrich"
+    }
+  ],
+  "zeitgeschichte_30_2_4": [
+    {
+      "unified_id": "keil_hermann",
+      "person_id": 8297,
+      "display_norm": "keil, hermann"
+    }
+  ],
+  "kinder_8_1_4": [
+    {
+      "unified_id": "braun_isabella",
+      "person_id": 7938,
+      "display_norm": "braun, isabella"
+    }
+  ],
+  "signierte_162_7_10": [
+    {
+      "unified_id": "ringel_erwin",
+      "person_id": 8644,
+      "display_norm": "ringel, erwin"
+    }
+  ],
+  "islam_2_1_3": [
+    {
+      "unified_id": "bobzin_hartmut",
+      "person_id": 7919,
+      "display_norm": "bobzin, hartmut"
+    }
+  ],
+  "briefe_328_14_15": [
+    {
+      "unified_id": "sevigne_madame",
+      "person_id": 8746,
+      "display_norm": "sevigne, madame de"
+    },
+    {
+      "unified_id": "muhl_theodora",
+      "person_id": 8483,
+      "display_norm": "mühl, theodora von der"
+    }
+  ],
+  "russland_83_4_17": [
+    {
+      "unified_id": "losow_irene",
+      "person_id": 8408,
+      "display_norm": "losow, irene von"
+    },
+    {
+      "unified_id": "herzen_alexander",
+      "person_id": 8198,
+      "display_norm": "herzen, alexander"
+    },
+    {
+      "unified_id": "daschkowa_furstin",
+      "person_id": 7987,
+      "display_norm": "daschkowa, fürstin"
+    }
+  ],
+  "literatur_20_1_12": [
+    {
+      "unified_id": "jesina_josef_p",
+      "person_id": 8267,
+      "display_norm": "jesina, josef p."
+    }
+  ],
+  "russland_35_2_17": [
+    {
+      "unified_id": "bugow_s",
+      "person_id": 7954,
+      "display_norm": "bugow, s."
+    },
+    {
+      "unified_id": "villard_andre",
+      "person_id": 8858,
+      "display_norm": "villard, andre"
+    }
+  ],
+  "biographie_301_13_27": [
+    {
+      "unified_id": "isaacs_reginald_r",
+      "person_id": 8249,
+      "display_norm": "isaacs, reginald r."
+    }
+  ],
+  "musik_132_6_11": [
+    {
+      "unified_id": "krempien_rainer",
+      "person_id": 8352,
+      "display_norm": "krempien, rainer"
+    },
+    {
+      "unified_id": "becker_hartmut",
+      "person_id": 7872,
+      "display_norm": "becker, hartmut"
+    }
+  ],
+  "literatur_196_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "mittelalter_77_4_7": [
+    {
+      "unified_id": "sweeney_james_r",
+      "person_id": 8810,
+      "display_norm": "sweeney, james r."
+    },
+    {
+      "unified_id": "gockenjan_hansgerd",
+      "person_id": 8112,
+      "display_norm": "göckenjan, hansgerd"
+    }
+  ],
+  "fruehes_75_4_4": [
+    {
+      "unified_id": "nyssen_wilhelm",
+      "person_id": 8545,
+      "display_norm": "nyssen, wilhelm"
+    }
+  ],
+  "reisen_94_4_13": [
+    {
+      "unified_id": "bernatzik_emmy",
+      "person_id": 7892,
+      "display_norm": "bernatzik, emmy"
+    }
+  ],
+  "signierte_179_8_10": [
+    {
+      "unified_id": "kutschera_rolf",
+      "person_id": 8366,
+      "display_norm": "kutschera, rolf"
+    },
+    {
+      "unified_id": "heltau_michael",
+      "person_id": 8188,
+      "display_norm": "heltau, michael"
+    },
+    {
+      "unified_id": "schikaneder_emanuel",
+      "person_id": 8689,
+      "display_norm": "schikaneder, emanuel"
+    }
+  ],
+  "literatur_198_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "symbolkunde_25_2_2": [
+    {
+      "unified_id": "schmidt_heinrich",
+      "person_id": 8701,
+      "display_norm": "schmidt, heinrich"
+    }
+  ],
+  "oesterreich_134_6_13": [
+    {
+      "unified_id": "schneidawind_franz_j",
+      "person_id": 8708,
+      "display_norm": "schneidawind"
+    }
+  ],
+  "fremdsprachige_355_15_38": [
+    {
+      "unified_id": "schmitz_elio",
+      "person_id": 8705,
+      "display_norm": "schmitz, elio"
+    },
+    {
+      "unified_id": "schwend_regni_m",
+      "person_id": 8735,
+      "display_norm": "schwend, regni maria"
+    }
+  ],
+  "erstausgaben_1499_60_78": [
+    {
+      "unified_id": "novak_helga_m",
+      "person_id": 8535,
+      "display_norm": "novak, helga m."
+    }
+  ],
+  "reisen_33_2_13": [
+    {
+      "unified_id": "holub_emil",
+      "person_id": 8230,
+      "display_norm": "holub, emil"
+    }
+  ],
+  "antike_78_4_9": [
+    {
+      "unified_id": "julian",
+      "person_id": 8272,
+      "display_norm": "julian"
+    },
+    {
+      "unified_id": "weis_berthold_k",
+      "person_id": 8890,
+      "display_norm": "weis, berthold k."
+    }
+  ],
+  "deutschland_18_1_4": [
+    {
+      "unified_id": "goldhagen_daniel_j",
+      "person_id": 8118,
+      "display_norm": "goldhagen, daniel jonah"
+    }
+  ],
+  "oesterreich_85_4_13": [
+    {
+      "unified_id": "krabbo_hermann",
+      "person_id": 8350,
+      "display_norm": "krabbo, hermann"
+    }
+  ],
+  "de-lit-monographien_54_3_10": [
+    {
+      "unified_id": "mack_karin",
+      "person_id": 8411,
+      "display_norm": "mack, karin"
+    },
+    {
+      "unified_id": "hofer_wolfgang",
+      "person_id": 8218,
+      "display_norm": "hofer, wolfgang"
+    }
+  ],
+  "briefe_173_7_15": [
+    {
+      "unified_id": "muller_von_johann",
+      "person_id": 8488,
+      "display_norm": "müller, johann von"
+    },
+    {
+      "unified_id": "muller_johann_g",
+      "person_id": 8485,
+      "display_norm": "müller, johann georg"
+    }
+  ],
+  "kunstbuecher_196_8_38": [
+    {
+      "unified_id": "hirhager_ulrike",
+      "person_id": 8210,
+      "display_norm": "hirhager, ulrike"
+    },
+    {
+      "unified_id": "bastl_beatrix",
+      "person_id": 7868,
+      "display_norm": "bastl, beatrix"
+    },
+    {
+      "unified_id": "schober_eva",
+      "person_id": 8711,
+      "display_norm": "schober, eva"
+    }
+  ],
+  "kunstbuecher_623_25_38": [
+    {
+      "unified_id": "corot_camille",
+      "person_id": 7979,
+      "display_norm": "corot, camille"
+    }
+  ],
+  "sonstiges_13_1_4": [
+    {
+      "unified_id": "gebhart_hans",
+      "person_id": 8101,
+      "display_norm": "gebhart, hans"
+    }
+  ],
+  "autographen_30_2_2": [
+    {
+      "unified_id": "servaes_franz",
+      "person_id": 8743,
+      "display_norm": "servaes, franz"
+    }
+  ],
+  "buch_40_2_8": [
+    {
+      "unified_id": "jansohn_christa",
+      "person_id": 8257,
+      "display_norm": "jansohn, christa"
+    }
+  ],
+  "judentum_186_8_9": [
+    {
+      "unified_id": "herzog_elizabeth",
+      "person_id": 8199,
+      "display_norm": "herzog, elizabeth"
+    },
+    {
+      "unified_id": "zborowski_mark",
+      "person_id": 8928,
+      "display_norm": "zborowski, mark"
+    }
+  ],
+  "reisen_232_10_13": [
+    {
+      "unified_id": "nooteboom_cees",
+      "person_id": 8522,
+      "display_norm": "nooteboom, cees"
+    }
+  ],
+  "antike_58_3_9": [
+    {
+      "unified_id": "jurss_fritz",
+      "person_id": 8275,
+      "display_norm": "jürss, fritz"
+    },
+    {
+      "unified_id": "schmidt_ernst_g",
+      "person_id": 8700,
+      "display_norm": "schmidt, ernst günther"
+    },
+    {
+      "unified_id": "muller_reimar",
+      "person_id": 8487,
+      "display_norm": "müller, reimar"
+    }
+  ],
+  "autographen_0_1_2": [
+    {
+      "unified_id": "adler_oskar",
+      "person_id": 7823,
+      "display_norm": "adler, oskar"
+    },
+    {
+      "unified_id": "adler_paula",
+      "person_id": 7824,
+      "display_norm": "adler, paula geb. freud"
+    },
+    {
+      "unified_id": "buxbaum_friedrich",
+      "person_id": 7962,
+      "display_norm": "buxbaum, friedrich"
+    }
+  ],
+  "maerchen_47_2_3": [
+    {
+      "unified_id": "menar_august",
+      "person_id": 8454,
+      "display_norm": "menar, august von löwis of"
+    }
+  ],
+  "signierte_108_5_10": [
+    {
+      "unified_id": "konrad_karel",
+      "person_id": 8342,
+      "display_norm": "konrad, karel"
+    }
+  ],
+  "de-lit-monographien_149_6_10": [
+    {
+      "unified_id": "andreas-grisebach_manon",
+      "person_id": 7834,
+      "display_norm": "andreas-grisebach, manon"
+    },
+    {
+      "unified_id": "teuffenbach_ingeborg",
+      "person_id": 8818,
+      "display_norm": "teuffenbach, ingeborg"
+    }
+  ],
+  "literatur_199_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "insel_27_2_27": [
+    {
+      "unified_id": "bolte_johannes",
+      "person_id": 7927,
+      "display_norm": "bolte, johannes"
+    }
+  ],
+  "okkultismus_54_3_8": [
+    {
+      "unified_id": "jennings_h",
+      "person_id": 8266,
+      "display_norm": "jennings, h."
+    }
+  ],
+  "biographie_469_19_27": [
+    {
+      "unified_id": "siebauer_ulrike",
+      "person_id": 8749,
+      "display_norm": "siebauer, ulrike"
+    }
+  ],
+  "philosophie_306_13_24": [
+    {
+      "unified_id": "sorgo_gabriele",
+      "person_id": 8762,
+      "display_norm": "sorgo, gabriele"
+    }
+  ],
+  "reisen_24_1_13": [
+    {
+      "unified_id": "gsell-fels_th",
+      "person_id": 8153,
+      "display_norm": "gsell-fels, th."
+    }
+  ],
+  "literatur_182_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "reisen_155_7_13": [
+    {
+      "unified_id": "frank_josef_m",
+      "person_id": 8077,
+      "display_norm": "frank, josef maria"
+    }
+  ],
+  "griechenland_117_5_10": [
+    {
+      "unified_id": "sokolow_gleb",
+      "person_id": 8760,
+      "display_norm": "sokolow, gleb"
+    }
+  ],
+  "biographie_148_6_27": [
+    {
+      "unified_id": "morais_fernando",
+      "person_id": 8476,
+      "display_norm": "morais, fernando"
+    }
+  ],
+  "sonstiges_41_2_4": [
+    {
+      "unified_id": "schwartze_theodor",
+      "person_id": 8731,
+      "display_norm": "schwartze, theodor"
+    }
+  ],
+  "erstausgaben_1569_63_78": [
+    {
+      "unified_id": "rosegger_peter",
+      "person_id": 8656,
+      "display_norm": "rosegger, peter"
+    }
+  ],
+  "okkultismus_41_2_8": [
+    {
+      "unified_id": "hormann_werner",
+      "person_id": 8236,
+      "display_norm": "hörmann, werner"
+    }
+  ],
+  "illustrierte_110_5_14": [
+    {
+      "unified_id": "arndt_erwin",
+      "person_id": 7846,
+      "display_norm": "arndt, erwin"
+    },
+    {
+      "unified_id": "schneider_gerhard",
+      "person_id": 8709,
+      "display_norm": "schneider, gerhard"
+    }
+  ],
+  "kunstbuecher_424_17_38": [
+    {
+      "unified_id": "prange_peter",
+      "person_id": 8595,
+      "display_norm": "prange, peter"
+    }
+  ],
+  "monographien_33_2_3": [
+    {
+      "unified_id": "burgess_anthony",
+      "person_id": 7958,
+      "display_norm": "burgess, anthony"
+    }
+  ],
+  "kunstbuecher_263_11_38": [
+    {
+      "unified_id": "bogner_dieter",
+      "person_id": 7925,
+      "display_norm": "bogner, dieter"
+    }
+  ],
+  "christentum_70_3_6": [
+    {
+      "unified_id": "tugendhat_ernst",
+      "person_id": 8833,
+      "display_norm": "tugendhat, ernst"
+    }
+  ],
+  "griechenland_61_3_10": [
+    {
+      "unified_id": "olshausen_eckart",
+      "person_id": 8552,
+      "display_norm": "olshausen, eckart"
+    },
+    {
+      "unified_id": "wittke_anne-maria",
+      "person_id": 8920,
+      "display_norm": "wittke, anne-maria"
+    },
+    {
+      "unified_id": "szydlak_richard",
+      "person_id": 8811,
+      "display_norm": "szydlak, richard"
+    }
+  ],
+  "kunstbuecher_193_8_38": [
+    {
+      "unified_id": "hanak_anton",
+      "person_id": 8167,
+      "display_norm": "hanak, anton"
+    }
+  ],
+  "kunstbuecher_293_12_38": [
+    {
+      "unified_id": "kummel_otto",
+      "person_id": 8361,
+      "display_norm": "kümmel, otto"
+    }
+  ],
+  "oesterreich_23_1_13": [
+    {
+      "unified_id": "czezik-muller",
+      "person_id": 7982,
+      "display_norm": "czezik-müller"
+    },
+    {
+      "unified_id": "pfeuffer_hans",
+      "person_id": 8576,
+      "display_norm": "pfeuffer, hans"
+    }
+  ],
+  "kunstbuecher_377_16_38": [
+    {
+      "unified_id": "novotny_fritz",
+      "person_id": 8539,
+      "display_norm": "novotny, fritz"
+    }
+  ],
+  "de-lit-monographien_124_5_10": [
+    {
+      "unified_id": "mayer_verena",
+      "person_id": 8441,
+      "display_norm": "mayer, verena"
+    },
+    {
+      "unified_id": "koberg_roland",
+      "person_id": 8328,
+      "display_norm": "koberg, roland"
+    }
+  ],
+  "wien_152_7_10": [
+    {
+      "unified_id": "volkhamer_von_ehrenberg_johann_n",
+      "person_id": 8860,
+      "display_norm": "volkhamer von ehrenberg, johann nepomuk"
+    }
+  ],
+  "kunstbuecher_9_1_38": [
+    {
+      "unified_id": "jager_gottfried",
+      "person_id": 8252,
+      "display_norm": "jäger, gottfried"
+    }
+  ],
+  "briefe_298_12_15": [
+    {
+      "unified_id": "raab_harald",
+      "person_id": 8609,
+      "display_norm": "raab"
+    }
+  ],
+  "literatur_122_5_12": [
+    {
+      "unified_id": "gurlitt_cornelius",
+      "person_id": 8156,
+      "display_norm": "gurlitt, cornelius"
+    }
+  ],
+  "wien_66_3_10": [
+    {
+      "unified_id": "von_einem_ehemaligen_betriebsrat_des_arsenals",
+      "person_id": 8863,
+      "display_norm": "arsenals, von einem ehemaligen betriebsrat des"
+    }
+  ],
+  "judentum_155_7_9": [
+    {
+      "unified_id": "segev_tom",
+      "person_id": 8738,
+      "display_norm": "segev, tom"
+    }
+  ],
+  "griechenland_222_9_10": [
+    {
+      "unified_id": "schmid-glintzer_helwig",
+      "person_id": 8697,
+      "display_norm": "schmid-glintzer, helwig"
+    }
+  ],
+  "oesterreich_58_3_13": [
+    {
+      "unified_id": "marktgemeinde_goisern",
+      "person_id": 8425,
+      "display_norm": "marktgemeinde goisern"
+    }
+  ],
+  "insel_529_22_27": [
+    {
+      "unified_id": "unger_corona",
+      "person_id": 8836,
+      "display_norm": "unger, corona"
+    },
+    {
+      "unified_id": "modersohnbecker_paula",
+      "person_id": 8471,
+      "display_norm": "modersohn-becker, paula"
+    }
+  ],
+  "briefe_129_6_15": [
+    {
+      "unified_id": "stahower_daniel",
+      "person_id": 8772,
+      "display_norm": "stahower, daniel"
+    },
+    {
+      "unified_id": "conan_doyle_arthur",
+      "person_id": 7975,
+      "display_norm": "conan doyle, arthur"
+    },
+    {
+      "unified_id": "pechmann_alexander",
+      "person_id": 8566,
+      "display_norm": "pechmann, alexander"
+    },
+    {
+      "unified_id": "lellenberg_jon",
+      "person_id": 8387,
+      "display_norm": "lellenberg, jon"
+    }
+  ],
+  "insel_505_21_27": [
+    {
+      "unified_id": "novalis",
+      "person_id": 8538,
+      "display_norm": "novalis"
+    }
+  ],
+  "de-lit-texte_346_14_20": [
+    {
+      "unified_id": "novalis",
+      "person_id": 8538,
+      "display_norm": "novalis"
+    }
+  ],
+  "sonstiges_71_3_4": [
+    {
+      "unified_id": "ramelli_agostino",
+      "person_id": 8618,
+      "display_norm": "ramelli, agostino"
+    }
+  ],
+  "reisen_14_1_13": [
+    {
+      "unified_id": "endl_p_f",
+      "person_id": 8045,
+      "display_norm": "endl, p. friedrich"
+    }
+  ],
+  "wien_25_2_10": [
+    {
+      "unified_id": "ernst_r",
+      "person_id": 8052,
+      "display_norm": "ernst, r."
+    }
+  ],
+  "russland_136_6_17": [
+    {
+      "unified_id": "radecki_sigismund",
+      "person_id": 8610,
+      "display_norm": "radecki, sigismund von"
+    }
+  ],
+  "oesterreich_79_4_13": [
+    {
+      "unified_id": "maimann_helene",
+      "person_id": 8416,
+      "display_norm": "maimann, helene"
+    },
+    {
+      "unified_id": "mattl_siegfried",
+      "person_id": 8430,
+      "display_norm": "mattl, siegfried"
+    }
+  ],
+  "literatur_191_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "literatur_141_6_12": [
+    {
+      "unified_id": "horisch_jochen",
+      "person_id": 8235,
+      "display_norm": "hörisch, jochen"
+    }
+  ],
+  "kunstbuecher_47_2_38": [
+    {
+      "unified_id": "braque_georges",
+      "person_id": 7936,
+      "display_norm": "braque, georges"
+    },
+    {
+      "unified_id": "vallier_dora",
+      "person_id": 8844,
+      "display_norm": "vallier, dora"
+    }
+  ],
+  "autographen_6_1_2": [
+    {
+      "unified_id": "demus_jakob",
+      "person_id": 8000,
+      "display_norm": "demus, jakob"
+    }
+  ],
+  "de-lit-texte_334_14_20": [
+    {
+      "unified_id": "muller_johann_g2",
+      "person_id": 8486,
+      "display_norm": "müller, johann gottwerth"
+    }
+  ],
+  "kunstbuecher_78_4_38": [
+    {
+      "unified_id": "danielis_friedrich",
+      "person_id": 7984,
+      "display_norm": "danielis, friedrich"
+    }
+  ],
+  "bibliophile_209_9_10": [
+    {
+      "unified_id": "tissot_samuel_a",
+      "person_id": 8828,
+      "display_norm": "tissot"
+    }
+  ],
+  "mittelalter_140_6_7": [
+    {
+      "unified_id": "milger_peter",
+      "person_id": 8466,
+      "display_norm": "milger, peter"
+    }
+  ],
+  "deutschland_19_1_4": [
+    {
+      "unified_id": "goldhagen_daniel_j",
+      "person_id": 8118,
+      "display_norm": "goldhagen, daniel jonah"
+    }
+  ],
+  "oesterreich_169_7_13": [
+    {
+      "unified_id": "weiss_john",
+      "person_id": 8895,
+      "display_norm": "weiss, john"
+    }
+  ],
+  "oesterreich_147_6_13": [
+    {
+      "unified_id": "finta_ladislaus",
+      "person_id": 8066,
+      "display_norm": "stoob"
+    }
+  ],
+  "musik_86_4_11": [
+    {
+      "unified_id": "kapst_erich",
+      "person_id": 8288,
+      "display_norm": "kapst, erich"
+    },
+    {
+      "unified_id": "abert_hermann",
+      "person_id": 7819,
+      "display_norm": "abert, hermann"
+    }
+  ],
+  "oesterreich_259_11_13": [
+    {
+      "unified_id": "rumpler_helmut",
+      "person_id": 8664,
+      "display_norm": "rumpler, helmut"
+    }
+  ],
+  "mittelalter_1_1_7": [
+    {
+      "unified_id": "andermann_kurt",
+      "person_id": 7832,
+      "display_norm": "andermann, kurt"
+    }
+  ],
+  "reisen_235_10_13": [
+    {
+      "unified_id": "olearius_adam",
+      "person_id": 8550,
+      "display_norm": "olearius, adam"
+    },
+    {
+      "unified_id": "haberland_detlef",
+      "person_id": 8159,
+      "display_norm": "haberland, detlef"
+    }
+  ],
+  "reisen_40_2_13": [
+    {
+      "unified_id": "westermann_kurt-michael",
+      "person_id": 8901,
+      "display_norm": "westermann, kurt-michael"
+    }
+  ],
+  "religion_86_4_4": [
+    {
+      "unified_id": "nyssen_wilhelm",
+      "person_id": 8545,
+      "display_norm": "nyssen, wilhelm"
+    },
+    {
+      "unified_id": "miller_bonifaz",
+      "person_id": 8467,
+      "display_norm": "miller, bonifaz"
+    }
+  ],
+  "kunstbuecher_309_13_38": [
+    {
+      "unified_id": "lebeer_louis",
+      "person_id": 8383,
+      "display_norm": "lebeer, louis"
+    }
+  ],
+  "oesterreich_4_1_13": [
+    {
+      "unified_id": "abtei_gottweig",
+      "person_id": 7821,
+      "display_norm": "göttweig, abtei"
+    }
+  ],
+  "wien_91_4_10": [
+    {
+      "unified_id": "pohanka_reinhard",
+      "person_id": 8584,
+      "display_norm": "pohanka, reinhard"
+    },
+    {
+      "unified_id": "portisch_hugo",
+      "person_id": 8589,
+      "display_norm": "portisch, hugo"
+    },
+    {
+      "unified_id": "apfel_kurt",
+      "person_id": 7837,
+      "display_norm": "apfel, kurt"
+    }
+  ],
+  "insel_504_21_27": [
+    {
+      "unified_id": "tornius_valerian",
+      "person_id": 8830,
+      "display_norm": "tornius, valerian"
+    }
+  ],
+  "geschichte_32_2_3": [
+    {
+      "unified_id": "beckett_james_c",
+      "person_id": 7873,
+      "display_norm": "beckett, james camlin"
+    },
+    {
+      "unified_id": "metz_karl_h",
+      "person_id": 8457,
+      "display_norm": "metz, karl h."
+    }
+  ],
+  "wien_163_7_10": [
+    {
+      "unified_id": "lachmayer_herbert",
+      "person_id": 8371,
+      "display_norm": "lachmayer, herbert"
+    }
+  ],
+  "literatur_189_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "de-lit-monographien_234_10_10": [
+    {
+      "unified_id": "brunmayr_hans",
+      "person_id": 7949,
+      "display_norm": "brunmayr, hans"
+    },
+    {
+      "unified_id": "zernatto_guido",
+      "person_id": 8932,
+      "display_norm": "zernatto, guido"
+    }
+  ],
+  "okkultismus_59_3_8": [
+    {
+      "unified_id": "werner_ernst",
+      "person_id": 8899,
+      "display_norm": "werner, ernst"
+    },
+    {
+      "unified_id": "erbstosser_martin",
+      "person_id": 8048,
+      "display_norm": "erbstösser, martin"
+    }
+  ],
+  "oesterreich_161_7_13": [
+    {
+      "unified_id": "vierthaler_franz_m",
+      "person_id": 8856,
+      "display_norm": "vierthaler, fr. m."
+    }
+  ],
+  "okkultismus_15_1_8": [
+    {
+      "unified_id": "birkhan_helmut",
+      "person_id": 7905,
+      "display_norm": "birkhan, helmut"
+    }
+  ],
+  "kunstbuecher_260_11_38": [
+    {
+      "unified_id": "gallwitz_klaus",
+      "person_id": 8090,
+      "display_norm": "gallwitz, klaus"
+    },
+    {
+      "unified_id": "kiefer_anselm",
+      "person_id": 8306,
+      "display_norm": "kiefer, anselm"
+    }
+  ],
+  "biographie_412_17_27": [
+    {
+      "unified_id": "ruttenauer_benno",
+      "person_id": 8667,
+      "display_norm": "rüttenauer, benno"
+    }
+  ],
+  "wien_51_3_10": [
+    {
+      "unified_id": "heimannjelinek_felicitas",
+      "person_id": 8185,
+      "display_norm": "heimann-jelinek, felicitas"
+    },
+    {
+      "unified_id": "holbling_lothar",
+      "person_id": 8225,
+      "display_norm": "hölbling, lothar"
+    },
+    {
+      "unified_id": "zechner_ingo",
+      "person_id": 8929,
+      "display_norm": "zechner, ingo"
+    }
+  ],
+  "kunstbuecher_729_30_38": [
+    {
+      "unified_id": "janssen_horst",
+      "person_id": 8258,
+      "display_norm": "janssen, horst"
+    },
+    {
+      "unified_id": "schack_gerhard",
+      "person_id": 8678,
+      "display_norm": "schack, gerhard"
+    }
+  ],
+  "biographie_636_26_27": [
+    {
+      "unified_id": "schenkel_elmar",
+      "person_id": 8685,
+      "display_norm": "schenkel, elmar"
+    }
+  ],
+  "oesterreich_67_3_13": [
+    {
+      "unified_id": "hofmann_montanus_hans",
+      "person_id": 8222,
+      "display_norm": "hofmann-montanus, hans"
+    }
+  ],
+  "autographen_26_2_2": [
+    {
+      "unified_id": "potzl_eduard",
+      "person_id": 8594,
+      "display_norm": "pötzl, eduard"
+    }
+  ],
+  "biographie_44_2_27": [
+    {
+      "unified_id": "przibram_ludwig",
+      "person_id": 8607,
+      "display_norm": "przibram, ludwig ritter von"
+    }
+  ],
+  "buch_52_3_8": [
+    {
+      "unified_id": "davies_martin",
+      "person_id": 7990,
+      "display_norm": "davies, martin"
+    }
+  ],
+  "kunstbuecher_730_30_38": [
+    {
+      "unified_id": "gronert_stefan",
+      "person_id": 8146,
+      "display_norm": "gronert, stefan"
+    }
+  ],
+  "literatur_188_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "bibliophile_43_2_10": [
+    {
+      "unified_id": "stark_johann",
+      "person_id": 8775,
+      "display_norm": "stark, johann"
+    }
+  ],
+  "insel_109_5_27": [
+    {
+      "unified_id": "norwid_cyprian",
+      "person_id": 8527,
+      "display_norm": "norwid, cyprian"
+    }
+  ],
+  "suchliste_49_2_3": [
+    {
+      "unified_id": "chardin_teilhard",
+      "person_id": 7970,
+      "display_norm": "chardin, teilhard de"
+    }
+  ],
+  "kunstbuecher_438_18_38": [
+    {
+      "unified_id": "restle_marcell",
+      "person_id": 8635,
+      "display_norm": "restle, marcell"
+    }
+  ],
+  "russland_36_2_17": [
+    {
+      "unified_id": "goldenring_stefania",
+      "person_id": 8117,
+      "display_norm": "goldenring, stefania"
+    }
+  ],
+  "oesterreich_249_10_13": [
+    {
+      "unified_id": "peege_emil",
+      "person_id": 8568,
+      "display_norm": "peege, emil"
+    }
+  ],
+  "philosophie_242_10_24": [
+    {
+      "unified_id": "noll_peter",
+      "person_id": 8516,
+      "display_norm": "noll, peter"
+    }
+  ],
+  "reisen_4_1_13": [
+    {
+      "unified_id": "bernatzik_hugo_a",
+      "person_id": 7894,
+      "display_norm": "bernatzik, hugo adolf"
+    }
+  ],
+  "biographie_631_26_27": [
+    {
+      "unified_id": "weidermann_volker",
+      "person_id": 8885,
+      "display_norm": "weidermann, volker"
+    }
+  ],
+  "griechenland_51_3_10": [
+    {
+      "unified_id": "gomperz_theodor",
+      "person_id": 8126,
+      "display_norm": "gomperz, theodor"
+    },
+    {
+      "unified_id": "gomperz_h",
+      "person_id": 8125,
+      "display_norm": "gomperz, h."
+    }
+  ],
+  "renaissance_35_2_4": [
+    {
+      "unified_id": "origo_iris",
+      "person_id": 8553,
+      "display_norm": "origo, iris"
+    }
+  ],
+  "kunstbuecher_911_37_38": [
+    {
+      "unified_id": "moellerbruck_arthur",
+      "person_id": 8473,
+      "display_norm": "moeller-bruck, arthur"
+    }
+  ],
+  "aegypten_36_2_3": [
+    {
+      "unified_id": "stadelmann_rainer",
+      "person_id": 8770,
+      "display_norm": "stadelmann, rainer"
+    }
+  ],
+  "okkultismus_2_1_8": [
+    {
+      "unified_id": "andreae_johann_v",
+      "person_id": 7833,
+      "display_norm": "andreae, johann valentin"
+    }
+  ],
+  "wien_75_4_10": [
+    {
+      "unified_id": "arbeitsgemeinschaft_des_mariahilfer_heimatmuseums",
+      "person_id": 7841,
+      "display_norm": "arbeitsgemeinschaft des mariahilfer heimatmuseums"
+    }
+  ],
+  "literatur_245_10_12": [
+    {
+      "unified_id": "schiwy_gunther",
+      "person_id": 8690,
+      "display_norm": "schiwy, günther"
+    }
+  ],
+  "signierte_145_6_10": [
+    {
+      "unified_id": "nabias_s",
+      "person_id": 8492,
+      "display_norm": "nabias, s. de"
+    }
+  ],
+  "antike_53_3_9": [
+    {
+      "unified_id": "noll_rudolf",
+      "person_id": 8517,
+      "display_norm": "noll, rudolf"
+    },
+    {
+      "unified_id": "eugippius",
+      "person_id": 8056,
+      "display_norm": "eugippius"
+    }
+  ],
+  "kunstbuecher_120_5_38": [
+    {
+      "unified_id": "erben_walter",
+      "person_id": 8047,
+      "display_norm": "erben, walter"
+    }
+  ],
+  "mythologie_14_1_3": [
+    {
+      "unified_id": "geyer_carlfriedrich",
+      "person_id": 8107,
+      "display_norm": "geyer, carl-friedrich"
+    }
+  ],
+  "buch_107_5_8": [
+    {
+      "unified_id": "desch_kurt",
+      "person_id": 8004,
+      "display_norm": "desch, kurt"
+    }
+  ],
+  "biographie_105_5_27": [
+    {
+      "unified_id": "blixen_tanja",
+      "person_id": 7914,
+      "display_norm": "blixen, tanja"
+    },
+    {
+      "unified_id": "daub_sigrid",
+      "person_id": 7988,
+      "display_norm": "daub, sigrid"
+    }
+  ],
+  "buch_6_1_8": [
+    {
+      "unified_id": "deutscher_buchgewerbeverein",
+      "person_id": 8007,
+      "display_norm": "deutscher buchgewerbeverein"
+    }
+  ],
+  "biographie_183_8_27": [
+    {
+      "unified_id": "eribon_didier",
+      "person_id": 8050,
+      "display_norm": "eribon, didier"
+    }
+  ],
+  "musik_15_1_11": [
+    {
+      "unified_id": "brendel_walter",
+      "person_id": 7942,
+      "display_norm": "brendel, walter"
+    }
+  ],
+  "signierte_120_5_10": [
+    {
+      "unified_id": "lepka_gregor",
+      "person_id": 8390,
+      "display_norm": "lepka, gregor"
+    }
+  ],
+  "judentum_80_4_9": [
+    {
+      "unified_id": "bensasson_haim_h",
+      "person_id": 7883,
+      "display_norm": "ben-sasson, haim hillel"
+    }
+  ],
+  "aegypten_26_2_3": [
+    {
+      "unified_id": "schmokel_hartmut",
+      "person_id": 8706,
+      "display_norm": "schmökel, hartmut"
+    },
+    {
+      "unified_id": "layard_austen_h",
+      "person_id": 8380,
+      "display_norm": "layard, austen henry"
+    }
+  ],
+  "literatur_62_3_12": [
+    {
+      "unified_id": "noyer-weidner_alfred",
+      "person_id": 8543,
+      "display_norm": "noyer-weidner, alfred"
+    }
+  ],
+  "insel_492_20_27": [
+    {
+      "unified_id": "prischwin_michail_m",
+      "person_id": 8600,
+      "display_norm": "prischwin, michail m."
+    }
+  ],
+  "sonstiges_36_2_4": [
+    {
+      "unified_id": "schmid_georg",
+      "person_id": 8699,
+      "display_norm": "schmid, georg"
+    }
+  ],
+  "kunstbuecher_601_25_38": [
+    {
+      "unified_id": "bosch_hieronymus",
+      "person_id": 7932,
+      "display_norm": "bosch, hieronymus"
+    },
+    {
+      "unified_id": "rothe_hans",
+      "person_id": 8660,
+      "display_norm": "rothe, hans"
+    }
+  ],
+  "islam_4_1_3": [
+    {
+      "unified_id": "ferdausi_abul-quasem",
+      "person_id": 8062,
+      "display_norm": "ferdausi, abul-quasem"
+    }
+  ],
+  "judentum_11_1_9": [
+    {
+      "unified_id": "bein_alex",
+      "person_id": 7879,
+      "display_norm": "bein, alex"
+    }
+  ],
+  "wien_59_3_10": [
+    {
+      "unified_id": "kisch_wilhelm",
+      "person_id": 8313,
+      "display_norm": "kisch, wilhelm"
+    }
+  ],
+  "erstausgaben_558_23_78": [
+    {
+      "unified_id": "fuchs_gerhard",
+      "person_id": 8085,
+      "display_norm": "fuchs, gerhard"
+    }
+  ],
+  "biographie_449_18_27": [
+    {
+      "unified_id": "janz_curt_p",
+      "person_id": 8259,
+      "display_norm": "janz, curt paul"
+    }
+  ],
+  "antike_44_2_9": [
+    {
+      "unified_id": "danz_d_j_t_l",
+      "person_id": 7986,
+      "display_norm": "danz, d.j.t.l."
+    }
+  ],
+  "judentum_1_1_9": [
+    {
+      "unified_id": "alberton_m",
+      "person_id": 7827,
+      "display_norm": "alberton, m."
+    }
+  ],
+  "kinder_66_3_4": [
+    {
+      "unified_id": "nebehay_renee",
+      "person_id": 8498,
+      "display_norm": "nebehay, renee"
+    }
+  ],
+  "erstausgaben_723_29_78": [
+    {
+      "unified_id": "hoddis_jakob",
+      "person_id": 8217,
+      "display_norm": "hoddis, jakob van"
+    }
+  ],
+  "christentum_56_3_6": [
+    {
+      "unified_id": "nowak_kurt",
+      "person_id": 8541,
+      "display_norm": "nowak, kurt"
+    }
+  ],
+  "oesterreich_43_2_13": [
+    {
+      "unified_id": "wolf-schneider_von_arno_oskar",
+      "person_id": 8922,
+      "display_norm": "wolf-schneider von arno, oskar freiherr"
+    }
+  ],
+  "briefe_138_6_15": [
+    {
+      "unified_id": "zimmermann_w_f_a",
+      "person_id": 8938,
+      "display_norm": "zimmermann, w. f. a."
+    }
+  ],
+  "kunstbuecher_415_17_38": [
+    {
+      "unified_id": "pissarro_joachim",
+      "person_id": 8580,
+      "display_norm": "pissarro, joachim"
+    }
+  ],
+  "monographien_40_2_3": [
+    {
+      "unified_id": "kohler_erich",
+      "person_id": 8332,
+      "display_norm": "köhler, erich"
+    }
+  ],
+  "russland_180_8_17": [
+    {
+      "unified_id": "krotsch_franz",
+      "person_id": 8356,
+      "display_norm": "krotsch, franz"
+    },
+    {
+      "unified_id": "ramsauer_august",
+      "person_id": 8619,
+      "display_norm": "ramsauer, august"
+    }
+  ],
+  "biographie_32_2_27": [
+    {
+      "unified_id": "kaesler_dirk",
+      "person_id": 8279,
+      "display_norm": "kaesler, dirk"
+    }
+  ],
+  "biographie_112_5_27": [
+    {
+      "unified_id": "kesting_marianne",
+      "person_id": 8302,
+      "display_norm": "kesting, marianne"
+    }
+  ],
+  "de-lit-monographien_213_9_10": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "literatur_37_2_12": [
+    {
+      "unified_id": "wilpert_gero",
+      "person_id": 8914,
+      "display_norm": "wilpert, gero von"
+    }
+  ],
+  "literatur_181_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "russland_10_1_17": [
+    {
+      "unified_id": "kuprejanov_nikolai_n",
+      "person_id": 8363,
+      "display_norm": "kuprejanov, nikolai nikolajevic"
+    }
+  ],
+  "biographie_281_12_27": [
+    {
+      "unified_id": "decker_gunnar",
+      "person_id": 7991,
+      "display_norm": "decker, gunnar"
+    }
+  ],
+  "wien_24_1_10": [
+    {
+      "unified_id": "ernst_r",
+      "person_id": 8052,
+      "display_norm": "ernst, r."
+    }
+  ],
+  "sonstiges_42_2_4": [
+    {
+      "unified_id": "ungewitter_g_g",
+      "person_id": 8838,
+      "display_norm": "ungewitter, g.g."
+    }
+  ],
+  "reisen_8_1_13": [
+    {
+      "unified_id": "dolinar_frnce_m",
+      "person_id": 8015,
+      "display_norm": "dolinar, frnce m."
+    },
+    {
+      "unified_id": "ferenc_mitja",
+      "person_id": 8063,
+      "display_norm": "ferenc, mitja"
+    },
+    {
+      "unified_id": "zupan_gojko",
+      "person_id": 8945,
+      "display_norm": "zupan, gojko"
+    }
+  ],
+  "sonstiges_17_1_4": [
+    {
+      "unified_id": "haarmann_harald",
+      "person_id": 8157,
+      "display_norm": "haarmann, harald"
+    }
+  ],
+  "signierte_130_6_10": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "bibliophile_35_2_10": [
+    {
+      "unified_id": "litterscheid_claus",
+      "person_id": 8400,
+      "display_norm": "litterscheid, claus"
+    },
+    {
+      "unified_id": "seler_eduard",
+      "person_id": 8741,
+      "display_norm": "seler, eduard"
+    },
+    {
+      "unified_id": "dedenbachsalazarsaenz_sabine",
+      "person_id": 7992,
+      "display_norm": "dedenbach-salazar-saenz, sabine"
+    },
+    {
+      "unified_id": "sahagun_bernardino",
+      "person_id": 8671,
+      "display_norm": "sahagun, fray bernardino de"
+    },
+    {
+      "unified_id": "schultze_jena_leonhard",
+      "person_id": 8725,
+      "display_norm": "schultze jena, leonhard"
+    }
+  ],
+  "reisen_6_1_13": [
+    {
+      "unified_id": "burton_richard",
+      "person_id": 7960,
+      "display_norm": "burton, richard"
+    }
+  ],
+  "reisen_99_4_13": [
+    {
+      "unified_id": "bougainville_louis_a",
+      "person_id": 7934,
+      "display_norm": "bougainville, louis antoine de"
+    }
+  ],
+  "insel_223_9_27": [
+    {
+      "unified_id": "arndt_ernst_m",
+      "person_id": 7845,
+      "display_norm": "arndt, ernst moritz"
+    }
+  ],
+  "reisen_55_3_13": [
+    {
+      "unified_id": "wirth_albrecht",
+      "person_id": 8919,
+      "display_norm": "wirth, albrecht"
+    }
+  ],
+  "biographie_8_1_27": [
+    {
+      "unified_id": "christian_curt",
+      "person_id": 7972,
+      "display_norm": "christian, curt"
+    }
+  ],
+  "kunstbuecher_7_1_38": [
+    {
+      "unified_id": "anthing_johann_f",
+      "person_id": 7836,
+      "display_norm": "anthing, johann friedrich"
+    }
+  ],
+  "erstausgaben_1493_60_78": [
+    {
+      "unified_id": "nossack_hans_e",
+      "person_id": 8528,
+      "display_norm": "nossack, hans erich"
+    }
+  ],
+  "mittelalter_117_5_7": [
+    {
+      "unified_id": "erbstosser_martin",
+      "person_id": 8048,
+      "display_norm": "erbstösser, martin"
+    }
+  ],
+  "zeitgeschichte_50_3_4": [
+    {
+      "unified_id": "dulken_stephen",
+      "person_id": 8024,
+      "display_norm": "dulken, stephen van"
+    }
+  ],
+  "buddhismus_11_1_3": [
+    {
+      "unified_id": "herrigel_eugen",
+      "person_id": 8196,
+      "display_norm": "herrigel, eugen"
+    }
+  ],
+  "mythologie_13_1_3": [
+    {
+      "unified_id": "geary_patrick_j",
+      "person_id": 8100,
+      "display_norm": "geary, patrick j."
+    }
+  ],
+  "zeitgeschichte_4_1_4": [
+    {
+      "unified_id": "augias_corrado",
+      "person_id": 7854,
+      "display_norm": "augias, corrado"
+    }
+  ],
+  "musik_79_4_11": [
+    {
+      "unified_id": "lachmayer_herbert",
+      "person_id": 8371,
+      "display_norm": "lachmayer, herbert"
+    }
+  ],
+  "biographie_203_9_27": [
+    {
+      "unified_id": "ehlers_joachim",
+      "person_id": 8034,
+      "display_norm": "ehlers, joachim"
+    },
+    {
+      "unified_id": "schneidmuller_bernd",
+      "person_id": 8710,
+      "display_norm": "schneidmüller, bernd"
+    }
+  ],
+  "deutschland_5_1_4": [
+    {
+      "unified_id": "blum_hans",
+      "person_id": 7917,
+      "display_norm": "blum, hans"
+    }
+  ],
+  "insel_220_9_27": [
+    {
+      "unified_id": "niedergall_ernst_e",
+      "person_id": 8507,
+      "display_norm": "niedergall, ernst elias"
+    }
+  ],
+  "erstausgaben_406_17_78": [
+    {
+      "unified_id": "arbeitskreis_osterreichischer_literaturproduzenten",
+      "person_id": 7842,
+      "display_norm": "literaturproduzenten, arbeitskreis österreichischer"
+    }
+  ],
+  "musik_51_3_11": [
+    {
+      "unified_id": "hensel_s",
+      "person_id": 8192,
+      "display_norm": "hensel, s."
+    },
+    {
+      "unified_id": "hensel_paul",
+      "person_id": 8191,
+      "display_norm": "hensel, paul"
+    },
+    {
+      "unified_id": "hensel_wilhelm",
+      "person_id": 8193,
+      "display_norm": "hensel, wilhelm"
+    }
+  ],
+  "signierte_151_7_10": [
+    {
+      "unified_id": "beuningen_helga",
+      "person_id": 7896,
+      "display_norm": "beuningen, helga"
+    },
+    {
+      "unified_id": "nooteboom_cees",
+      "person_id": 8522,
+      "display_norm": "nooteboom, cees"
+    }
+  ],
+  "fremdsprachige_11_1_38": [
+    {
+      "unified_id": "schumacher_fritz",
+      "person_id": 8726,
+      "display_norm": "schumacher, fritz"
+    },
+    {
+      "unified_id": "miessner_wilhelm",
+      "person_id": 8464,
+      "display_norm": "mießner, wilhelm"
+    }
+  ],
+  "russland_229_10_17": [
+    {
+      "unified_id": "juraschitz_norbert",
+      "person_id": 8274,
+      "display_norm": "juraschitz, norbert"
+    },
+    {
+      "unified_id": "gravert_rita",
+      "person_id": 8140,
+      "display_norm": "gravert, rita"
+    },
+    {
+      "unified_id": "schuler_karin",
+      "person_id": 8723,
+      "display_norm": "schuler, karin"
+    },
+    {
+      "unified_id": "nawalny_alexej",
+      "person_id": 8497,
+      "display_norm": "nawalny, alexej"
+    }
+  ],
+  "neuzeit_16_1_4": [
+    {
+      "unified_id": "moller_horst",
+      "person_id": 8474,
+      "display_norm": "möller, horst"
+    },
+    {
+      "unified_id": "morizet_jacques",
+      "person_id": 8477,
+      "display_norm": "morizet, jacques"
+    }
+  ],
+  "biographie_543_22_27": [
+    {
+      "unified_id": "dieckmann_friedrich",
+      "person_id": 8011,
+      "display_norm": "dieckmann, friedrich"
+    }
+  ],
+  "insel_363_15_27": [
+    {
+      "unified_id": "lang_lothar",
+      "person_id": 8375,
+      "display_norm": "lang, lothar"
+    },
+    {
+      "unified_id": "sagert_horst",
+      "person_id": 8670,
+      "display_norm": "sagert, horst"
+    }
+  ],
+  "literatur_184_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "kunstbuecher_71_3_38": [
+    {
+      "unified_id": "chaimowicz_georg",
+      "person_id": 7969,
+      "display_norm": "chaimowicz, georg"
+    },
+    {
+      "unified_id": "pieber_margit",
+      "person_id": 8578,
+      "display_norm": "pieber, margit"
+    }
+  ],
+  "kunstbuecher_547_22_38": [
+    {
+      "unified_id": "weidle_wladimir",
+      "person_id": 8887,
+      "display_norm": "weidle, wladimir"
+    }
+  ],
+  "literatur_192_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "musik_78_4_11": [
+    {
+      "unified_id": "moellerbruck_arthur",
+      "person_id": 8473,
+      "display_norm": "moeller-bruck, arthur"
+    }
+  ],
+  "oesterreich_135_6_13": [
+    {
+      "unified_id": "hiehl_heinz",
+      "person_id": 8203,
+      "display_norm": "hiehl, heinz"
+    },
+    {
+      "unified_id": "schreiner_gustav",
+      "person_id": 8716,
+      "display_norm": "schreiner, gustav"
+    }
+  ],
+  "geschichte_43_2_3": [
+    {
+      "unified_id": "notzel_karl",
+      "person_id": 8534,
+      "display_norm": "nötzel, karl"
+    },
+    {
+      "unified_id": "krek_johann",
+      "person_id": 8351,
+      "display_norm": "krek, johann"
+    },
+    {
+      "unified_id": "milcinovic_andreas",
+      "person_id": 8465,
+      "display_norm": "milcinovic, andreas"
+    }
+  ],
+  "kinder_37_2_4": [
+    {
+      "unified_id": "janosch",
+      "person_id": 8255,
+      "display_norm": "janosch"
+    }
+  ],
+  "kunstbuecher_247_10_38": [
+    {
+      "unified_id": "janssen_horst",
+      "person_id": 8258,
+      "display_norm": "janssen, horst"
+    }
+  ],
+  "deutschland_7_1_4": [
+    {
+      "unified_id": "butler_rupert",
+      "person_id": 7961,
+      "display_norm": "butler, rupert"
+    }
+  ],
+  "reisen_1_1_13": [
+    {
+      "unified_id": "anoreska_jiri",
+      "person_id": 7835,
+      "display_norm": "anoreska, jiri"
+    }
+  ],
+  "kunstbuecher_82_4_38": [
+    {
+      "unified_id": "defregger_hans_p",
+      "person_id": 7993,
+      "display_norm": "defregger, hans peter"
+    }
+  ],
+  "biographie_455_19_27": [
+    {
+      "unified_id": "nottelmann_nicole",
+      "person_id": 8533,
+      "display_norm": "nottelmann, nicole"
+    }
+  ],
+  "oesterreich_105_5_13": [
+    {
+      "unified_id": "dunzendorfer_albrecht",
+      "person_id": 8026,
+      "display_norm": "dunzendorfer, albrecht"
+    },
+    {
+      "unified_id": "gauamt_fur_kommunalpolitik_gau_oberdonau",
+      "person_id": 8099,
+      "display_norm": "oberdonau, gauamt für kommunalpolitik gau"
+    },
+    {
+      "unified_id": "lenk_rudolf",
+      "person_id": 8388,
+      "display_norm": "lenk, rudolf"
+    }
+  ],
+  "biographie_415_17_27": [
+    {
+      "unified_id": "hope_christopher",
+      "person_id": 8234,
+      "display_norm": "hope, christopher"
+    }
+  ],
+  "religion_58_3_4": [
+    {
+      "unified_id": "tumbult_georg",
+      "person_id": 8834,
+      "display_norm": "tumbült, georg"
+    }
+  ],
+  "zeitgeschichte_1_1_4": [
+    {
+      "unified_id": "amonn_alfred",
+      "person_id": 7830,
+      "display_norm": "amonn, alfred"
+    }
+  ],
+  "musik_93_4_11": [
+    {
+      "unified_id": "nohl_ludwig",
+      "person_id": 8511,
+      "display_norm": "nohl, ludwig"
+    }
+  ],
+  "reisen_51_3_13": [
+    {
+      "unified_id": "drege_jeanpierre",
+      "person_id": 8020,
+      "display_norm": "drege, jean-pierre"
+    },
+    {
+      "unified_id": "buhrer_emil_m",
+      "person_id": 7955,
+      "display_norm": "bührer, emil m."
+    }
+  ],
+  "okkultismus_57_3_8": [
+    {
+      "unified_id": "karasek_horst",
+      "person_id": 8289,
+      "display_norm": "karasek, horst"
+    }
+  ],
+  "insel_230_10_27": [
+    {
+      "unified_id": "zobel_victor",
+      "person_id": 8940,
+      "display_norm": "zobel, victor"
+    }
+  ],
+  "buddhismus_16_1_3": [
+    {
+      "unified_id": "kat_angelino_p",
+      "person_id": 8293,
+      "display_norm": "kat angelino, p. de"
+    },
+    {
+      "unified_id": "kleen_tyra",
+      "person_id": 8315,
+      "display_norm": "kleen, tyra de"
+    }
+  ],
+  "insel_446_18_27": [
+    {
+      "unified_id": "buchner_friedrich_m",
+      "person_id": 7953,
+      "display_norm": "buchner, friedrich markus"
+    }
+  ],
+  "fruehes_85_4_4": [
+    {
+      "unified_id": "salzburger_abtekonferenz",
+      "person_id": 8673,
+      "display_norm": "äbtekonferenz, salzburger"
+    },
+    {
+      "unified_id": "grosse_gregor",
+      "person_id": 8148,
+      "display_norm": "grosse, gregor der"
+    }
+  ],
+  "biographie_441_18_27": [
+    {
+      "unified_id": "mack_smith_denis",
+      "person_id": 8412,
+      "display_norm": "mack smith, denis"
+    }
+  ],
+  "bibliophile_163_7_10": [
+    {
+      "unified_id": "meldemann_niklas",
+      "person_id": 8452,
+      "display_norm": "meldemann"
+    }
+  ],
+  "insel_90_4_27": [
+    {
+      "unified_id": "nooteboom_cees",
+      "person_id": 8522,
+      "display_norm": "nooteboom, cees"
+    }
+  ],
+  "sonstiges_1_1_4": [
+    {
+      "unified_id": "blaeu_johannes",
+      "person_id": 7910,
+      "display_norm": "bläu, johannes"
+    }
+  ],
+  "oesterreich_98_4_13": [
+    {
+      "unified_id": "mayer_ludwig_j",
+      "person_id": 8437,
+      "display_norm": "mayer, ludwig joseph"
+    }
+  ],
+  "kunstbuecher_705_29_38": [
+    {
+      "unified_id": "mrazek_wilhelm",
+      "person_id": 8480,
+      "display_norm": "mrazek, wilhelm"
+    }
+  ],
+  "mittelalter_118_5_7": [
+    {
+      "unified_id": "erbstosser_martin",
+      "person_id": 8048,
+      "display_norm": "erbstösser, martin"
+    }
+  ],
+  "de-lit-monographien_106_5_10": [
+    {
+      "unified_id": "herwig_malte",
+      "person_id": 8197,
+      "display_norm": "herwig, malte"
+    }
+  ],
+  "russland_276_12_17": [
+    {
+      "unified_id": "manzella_anton",
+      "person_id": 8421,
+      "display_norm": "manzella, anton"
+    },
+    {
+      "unified_id": "nitschke_annelore",
+      "person_id": 8510,
+      "display_norm": "nitschke, annelore"
+    },
+    {
+      "unified_id": "sacharow_andrej",
+      "person_id": 8669,
+      "display_norm": "sacharow, andrej"
+    },
+    {
+      "unified_id": "timroth_wilhelm",
+      "person_id": 8827,
+      "display_norm": "von timroth, wilhelm"
+    }
+  ],
+  "mythologie_28_2_3": [
+    {
+      "unified_id": "panikkar_raimundo",
+      "person_id": 8558,
+      "display_norm": "panikkar, raimundo"
+    }
+  ],
+  "fremdsprachige_692_28_38": [
+    {
+      "unified_id": "gasset_ortega_y",
+      "person_id": 8097,
+      "display_norm": "gasset, ortega y"
+    },
+    {
+      "unified_id": "marias_julian",
+      "person_id": 8423,
+      "display_norm": "marias, julian"
+    },
+    {
+      "unified_id": "weber_ulrich",
+      "person_id": 8879,
+      "display_norm": "weber, ulrich"
+    }
+  ],
+  "de-lit-monographien_131_6_10": [
+    {
+      "unified_id": "koch_hans-gerd",
+      "person_id": 8329,
+      "display_norm": "koch, hans-gerd"
+    }
+  ],
+  "briefe_58_3_15": [
+    {
+      "unified_id": "novak_johann_f",
+      "person_id": 8536,
+      "display_norm": "novak, johann friedrich"
+    },
+    {
+      "unified_id": "schwarzenberg_karl_p",
+      "person_id": 8732,
+      "display_norm": "schwarzenberg"
+    }
+  ],
+  "judentum_82_4_9": [
+    {
+      "unified_id": "golb_norman",
+      "person_id": 8115,
+      "display_norm": "golb, norman"
+    }
+  ],
+  "kunstbuecher_272_11_38": [
+    {
+      "unified_id": "klotz_heinrich",
+      "person_id": 8325,
+      "display_norm": "klotz, heinrich"
+    }
+  ],
+  "zeitgeschichte_10_1_4": [
+    {
+      "unified_id": "douzinas_costas",
+      "person_id": 8018,
+      "display_norm": "douzinas, costas"
+    }
+  ],
+  "de-lit-monographien_156_7_10": [
+    {
+      "unified_id": "hamburger_kathe",
+      "person_id": 8163,
+      "display_norm": "hamburger, käthe"
+    }
+  ],
+  "judentum_8_1_9": [
+    {
+      "unified_id": "mayer_reinhold",
+      "person_id": 8438,
+      "display_norm": "mayer, reinhold"
+    }
+  ],
+  "neuzeit_94_4_4": [
+    {
+      "unified_id": "tuchterhagen_ralph",
+      "person_id": 8832,
+      "display_norm": "tuchterhagen, ralph"
+    }
+  ],
+  "mythologie_22_1_3": [
+    {
+      "unified_id": "kirk_geoffrey_s",
+      "person_id": 8312,
+      "display_norm": "kirk, geoffrey stephen"
+    }
+  ],
+  "literatur_219_9_12": [
+    {
+      "unified_id": "wagneregelhaaf_martina",
+      "person_id": 8870,
+      "display_norm": "wagner-egelhaaf"
+    }
+  ],
+  "kunstbuecher_163_7_38": [
+    {
+      "unified_id": "settis_salvatore",
+      "person_id": 8745,
+      "display_norm": "settis, salvatore"
+    }
+  ],
+  "sonstiges_30_2_4": [
+    {
+      "unified_id": "nader_helen",
+      "person_id": 8494,
+      "display_norm": "nader, helen"
+    }
+  ],
+  "bibliophile_165_7_10": [
+    {
+      "unified_id": "buonaroti_michelagniolo",
+      "person_id": 7956,
+      "display_norm": "buonaroti, michelagniolo"
+    },
+    {
+      "unified_id": "nelson_heinrich",
+      "person_id": 8499,
+      "display_norm": "nelson, heinrich"
+    }
+  ],
+  "erstausgaben_1809_73_78": [
+    {
+      "unified_id": "martin_walser",
+      "person_id": 8427,
+      "display_norm": "martin, walser"
+    }
+  ],
+  "erstausgaben_1497_60_78": [
+    {
+      "unified_id": "schmid_christof",
+      "person_id": 8698,
+      "display_norm": "schmid, christof"
+    },
+    {
+      "unified_id": "nossack_hans_e",
+      "person_id": 8528,
+      "display_norm": "nossack, hans erich"
+    }
+  ],
+  "kunstbuecher_310_13_38": [
+    {
+      "unified_id": "dowski_lee",
+      "person_id": 8019,
+      "display_norm": "dowski, lee van"
+    }
+  ],
+  "kinder_45_2_4": [
+    {
+      "unified_id": "bluthgen_victor",
+      "person_id": 7918,
+      "display_norm": "blüthgen, victor"
+    },
+    {
+      "unified_id": "hecker_karl",
+      "person_id": 8183,
+      "display_norm": "hecker, karl"
+    },
+    {
+      "unified_id": "helm_clementine",
+      "person_id": 8187,
+      "display_norm": "helm, clementine"
+    },
+    {
+      "unified_id": "paulus_g",
+      "person_id": 8564,
+      "display_norm": "paulus, g."
+    },
+    {
+      "unified_id": "grief_martin",
+      "person_id": 8142,
+      "display_norm": "grief, martin"
+    }
+  ],
+  "kunstbuecher_420_17_38": [
+    {
+      "unified_id": "bertsch_christoph",
+      "person_id": 7895,
+      "display_norm": "bertsch, christoph"
+    }
+  ],
+  "reisen_96_4_13": [
+    {
+      "unified_id": "bligh_william",
+      "person_id": 7912,
+      "display_norm": "bligh, william"
+    }
+  ],
+  "musik_67_3_11": [
+    {
+      "unified_id": "larsen_jens_p",
+      "person_id": 8376,
+      "display_norm": "larsen, jens peter"
+    }
+  ],
+  "kunstbuecher_860_35_38": [
+    {
+      "unified_id": "gall_gunter",
+      "person_id": 8089,
+      "display_norm": "gall, günter"
+    },
+    {
+      "unified_id": "stratmann-dohler_rosemarie",
+      "person_id": 8796,
+      "display_norm": "stratmann-döhler, rosemarie"
+    },
+    {
+      "unified_id": "strasser_edith_m_h",
+      "person_id": 8795,
+      "display_norm": "sträßer, edith m. h."
+    },
+    {
+      "unified_id": "denninger_edgar",
+      "person_id": 8001,
+      "display_norm": "denninger, edgar"
+    }
+  ],
+  "reisen_2_1_13": [
+    {
+      "unified_id": "bermann_richard_a",
+      "person_id": 7889,
+      "display_norm": "bermann, richard a."
+    }
+  ],
+  "bibliophile_15_1_10": [
+    {
+      "unified_id": "hamerling_robert",
+      "person_id": 8165,
+      "display_norm": "hamerling, robert"
+    },
+    {
+      "unified_id": "dietrichs_hermann",
+      "person_id": 8012,
+      "display_norm": "dietrichs, hermann"
+    },
+    {
+      "unified_id": "rossler_adalbert",
+      "person_id": 8658,
+      "display_norm": "rößler, adalbert von"
+    }
+  ],
+  "suchliste_21_1_3": [
+    {
+      "unified_id": "holub_emil",
+      "person_id": 8230,
+      "display_norm": "holub"
+    }
+  ],
+  "de-lit-monographien_61_3_10": [
+    {
+      "unified_id": "kiefer_klaus_h",
+      "person_id": 8307,
+      "display_norm": "kiefer, klaus h."
+    }
+  ],
+  "kinder_91_4_4": [
+    {
+      "unified_id": "brackert_helmut",
+      "person_id": 7935,
+      "display_norm": "brackert, helmut"
+    },
+    {
+      "unified_id": "keim_franz",
+      "person_id": 8298,
+      "display_norm": "keim, franz"
+    },
+    {
+      "unified_id": "hecht_gretel",
+      "person_id": 8180,
+      "display_norm": "hecht, gretel"
+    },
+    {
+      "unified_id": "hecht_wolfgang",
+      "person_id": 8181,
+      "display_norm": "hecht, wolfgang"
+    }
+  ],
+  "fremdsprachige_686_28_38": [
+    {
+      "unified_id": "nooteboom_cees",
+      "person_id": 8522,
+      "display_norm": "nooteboom, cees"
+    }
+  ],
+  "russland_244_10_17": [
+    {
+      "unified_id": "schlozer_karl_sen",
+      "person_id": 8693,
+      "display_norm": "schlözer, karl sen. von"
+    },
+    {
+      "unified_id": "schlozer_kurd",
+      "person_id": 8694,
+      "display_norm": "schlözer, kurd von"
+    },
+    {
+      "unified_id": "schlozer_karl_jun",
+      "person_id": 8692,
+      "display_norm": "schlözer, karl jun. von"
+    },
+    {
+      "unified_id": "rothe_hans",
+      "person_id": 8660,
+      "display_norm": "rothe, hans"
+    }
+  ],
+  "briefe_281_12_15": [
+    {
+      "unified_id": "novalis",
+      "person_id": 8538,
+      "display_norm": "novalis"
+    }
+  ],
+  "antike_199_8_9": [
+    {
+      "unified_id": "port_frieda",
+      "person_id": 8588,
+      "display_norm": "port, frieda"
+    }
+  ],
+  "okkultismus_64_3_8": [
+    {
+      "unified_id": "kloft_hans",
+      "person_id": 8323,
+      "display_norm": "kloft, hans"
+    }
+  ],
+  "mythologie_56_3_3": [
+    {
+      "unified_id": "binder_w",
+      "person_id": 7904,
+      "display_norm": "binder, w."
+    },
+    {
+      "unified_id": "vollmer_wilhelm",
+      "person_id": 8862,
+      "display_norm": "vollmer"
+    },
+    {
+      "unified_id": "minchwitz_johannes",
+      "person_id": 8469,
+      "display_norm": "minchwitz, johannes"
+    }
+  ],
+  "literatur_201_9_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "reisen_104_5_13": [
+    {
+      "unified_id": "brilli_attilio",
+      "person_id": 7943,
+      "display_norm": "brilli, attilio"
+    }
+  ],
+  "insel_61_3_27": [
+    {
+      "unified_id": "may_ekkehard",
+      "person_id": 8432,
+      "display_norm": "may, ekkehard"
+    },
+    {
+      "unified_id": "waltermann_claudia",
+      "person_id": 8874,
+      "display_norm": "waltermann, claudia"
+    }
+  ],
+  "reisen_231_10_13": [
+    {
+      "unified_id": "nooteboom_cees",
+      "person_id": 8522,
+      "display_norm": "nooteboom, cees"
+    }
+  ],
+  "de-lit-monographien_116_5_10": [
+    {
+      "unified_id": "honegger_gitta",
+      "person_id": 8233,
+      "display_norm": "honegger, gitta"
+    }
+  ],
+  "kunstbuecher_620_25_38": [
+    {
+      "unified_id": "claussnitzer_gert",
+      "person_id": 7973,
+      "display_norm": "claussnitzer, gert"
+    }
+  ],
+  "renaissance_22_1_4": [
+    {
+      "unified_id": "martins_pina",
+      "person_id": 8428,
+      "display_norm": "martins, pina"
+    },
+    {
+      "unified_id": "mirandola_giovanni_p",
+      "person_id": 8470,
+      "display_norm": "mirandola, giovanni pico della"
+    }
+  ],
+  "wien_144_6_10": [
+    {
+      "unified_id": "haasbauer_anton",
+      "person_id": 8158,
+      "display_norm": "haasbauer, anton"
+    }
+  ],
+  "wien_210_9_10": [
+    {
+      "unified_id": "rommel_otto",
+      "person_id": 8653,
+      "display_norm": "rommel, otto"
+    }
+  ],
+  "reisen_93_4_13": [
+    {
+      "unified_id": "bell_gertrude",
+      "person_id": 7881,
+      "display_norm": "bell, gertrude"
+    },
+    {
+      "unified_id": "habinger_gabriele",
+      "person_id": 8160,
+      "display_norm": "habinger, gabriele"
+    }
+  ],
+  "reisen_39_2_13": [
+    {
+      "unified_id": "marechaux_pascal",
+      "person_id": 8422,
+      "display_norm": "marechaux, pascal"
+    }
+  ],
+  "signierte_126_6_10": [
+    {
+      "unified_id": "lucas_eduard",
+      "person_id": 8409,
+      "display_norm": "lucas, ed.(uard)"
+    }
+  ],
+  "russland_87_4_17": [
+    {
+      "unified_id": "lavrin_janko",
+      "person_id": 8378,
+      "display_norm": "lavrin, janko"
+    }
+  ],
+  "suchliste_31_2_3": [
+    {
+      "unified_id": "malory_thomas",
+      "person_id": 8418,
+      "display_norm": "malory, sir thomas"
+    }
+  ],
+  "philosophie_230_10_24": [
+    {
+      "unified_id": "kohut_adolph",
+      "person_id": 8335,
+      "display_norm": "kohut, adolph"
+    }
+  ],
+  "religion_7_1_4": [
+    {
+      "unified_id": "bibel_projekt",
+      "person_id": 7899,
+      "display_norm": "projekt, bibel"
+    }
+  ],
+  "maerchen_37_2_3": [
+    {
+      "unified_id": "rolleke_heinz",
+      "person_id": 8650,
+      "display_norm": "rölleke, heinz"
+    }
+  ],
+  "okkultismus_121_5_8": [
+    {
+      "unified_id": "strohm_harald",
+      "person_id": 8802,
+      "display_norm": "strohm, harald"
+    }
+  ],
+  "kunstbuecher_428_18_38": [
+    {
+      "unified_id": "radierwerkstatt_kurt_zein_wien",
+      "person_id": 8613,
+      "display_norm": "radierwerkstatt kurt zein wien"
+    }
+  ],
+  "griechenland_198_8_10": [
+    {
+      "unified_id": "lindberg_david_c",
+      "person_id": 8396,
+      "display_norm": "lindberg, david c."
+    }
+  ],
+  "russland_135_6_17": [
+    {
+      "unified_id": "radecki_sigismund",
+      "person_id": 8610,
+      "display_norm": "radecki, sigismund von"
+    }
+  ],
+  "fremdsprachige_374_15_38": [
+    {
+      "unified_id": "faulkner_william",
+      "person_id": 8059,
+      "display_norm": "faulkner, william"
+    }
+  ],
+  "insel_644_26_27": [
+    {
+      "unified_id": "glorez_andreas",
+      "person_id": 8110,
+      "display_norm": "glorez, andreas von mährn"
+    }
+  ],
+  "biographie_453_19_27": [
+    {
+      "unified_id": "nordau_max",
+      "person_id": 8523,
+      "display_norm": "nordau, max"
+    }
+  ],
+  "illustrierte_97_4_14": [
+    {
+      "unified_id": "ramsauer_hertha",
+      "person_id": 8620,
+      "display_norm": "ramsauer, hertha"
+    }
+  ],
+  "oesterreich_89_4_13": [
+    {
+      "unified_id": "kyselak_josef",
+      "person_id": 8369,
+      "display_norm": "kyselak"
+    },
+    {
+      "unified_id": "goffriller_gabriele",
+      "person_id": 8114,
+      "display_norm": "goffriller, gabriele"
+    },
+    {
+      "unified_id": "klein_chico",
+      "person_id": 8316,
+      "display_norm": "klein, chico"
+    }
+  ],
+  "sonstiges_77_4_4": [
+    {
+      "unified_id": "eddelbuttel_herbert_f",
+      "person_id": 8033,
+      "display_norm": "eddelbüttel, herbert f. r."
+    }
+  ],
+  "biographie_472_19_27": [
+    {
+      "unified_id": "stassinopoulos_huffington_arianna",
+      "person_id": 8776,
+      "display_norm": "stassinopoulos huffington, arianna"
+    }
+  ],
+  "kunstbuecher_254_11_38": [
+    {
+      "unified_id": "karpfen_fritz",
+      "person_id": 8291,
+      "display_norm": "karpfen, fritz"
+    }
+  ],
+  "erstausgaben_1242_50_78": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "islam_28_2_3": [
+    {
+      "unified_id": "spuler_bertold",
+      "person_id": 8766,
+      "display_norm": "spuler, bertold"
+    }
+  ],
+  "musik_77_4_11": [
+    {
+      "unified_id": "millocker_carl",
+      "person_id": 8468,
+      "display_norm": "millöcker, carl"
+    }
+  ],
+  "erstausgaben_1494_60_78": [
+    {
+      "unified_id": "nossack_hans_e",
+      "person_id": 8528,
+      "display_norm": "nossack, hans erich"
+    }
+  ],
+  "kunstbuecher_17_1_38": [
+    {
+      "unified_id": "campbell_james_w",
+      "person_id": 7963,
+      "display_norm": "campbell, james w.p."
+    },
+    {
+      "unified_id": "pryce_william",
+      "person_id": 8606,
+      "display_norm": "pryce, william"
+    }
+  ],
+  "sonstiges_3_1_4": [
+    {
+      "unified_id": "dresing_uschi",
+      "person_id": 8022,
+      "display_norm": "dresing, uschi"
+    },
+    {
+      "unified_id": "bostrom_jorg",
+      "person_id": 7933,
+      "display_norm": "boström, jörg"
+    },
+    {
+      "unified_id": "escher_jurgen",
+      "person_id": 8055,
+      "display_norm": "escher, jürgen"
+    },
+    {
+      "unified_id": "rose_romani",
+      "person_id": 8655,
+      "display_norm": "rose, romani"
+    },
+    {
+      "unified_id": "grunewald_axel",
+      "person_id": 8152,
+      "display_norm": "grünewald, axel"
+    }
+  ],
+  "reisen_258_11_13": [
+    {
+      "unified_id": "hauff_hermann",
+      "person_id": 8176,
+      "display_norm": "hauff, hermann"
+    }
+  ],
+  "judentum_123_5_9": [
+    {
+      "unified_id": "vielmetti_nikolaus",
+      "person_id": 8853,
+      "display_norm": "vielmetti, nikolaus"
+    }
+  ],
+  "de-lit-texte_8_1_20": [
+    {
+      "unified_id": "horisch_jochen",
+      "person_id": 8235,
+      "display_norm": "hörisch, jochen"
+    }
+  ],
+  "okkultismus_151_7_8": [
+    {
+      "unified_id": "frobekapteyn_olga",
+      "person_id": 8083,
+      "display_norm": "fröbe-kapteyn, olga"
+    },
+    {
+      "unified_id": "portmann_adolf",
+      "person_id": 8590,
+      "display_norm": "portmann, adolf"
+    }
+  ],
+  "signierte_104_5_10": [
+    {
+      "unified_id": "knepler_georg",
+      "person_id": 8327,
+      "display_norm": "knepler, georg"
+    }
+  ],
+  "reisen_310_13_13": [
+    {
+      "unified_id": "zimmermann_w_f_a",
+      "person_id": 8938,
+      "display_norm": "zimmermann, w.f.a."
+    }
+  ],
+  "oesterreich_225_10_13": [
+    {
+      "unified_id": "ertl_harry",
+      "person_id": 8054,
+      "display_norm": "ertl, harry"
+    }
+  ],
+  "autographen_7_1_2": [
+    {
+      "unified_id": "eisenmayer_ernst",
+      "person_id": 8041,
+      "display_norm": "eisenmayer, ernst"
+    }
+  ],
+  "christentum_39_2_6": [
+    {
+      "unified_id": "jordan_j_p",
+      "person_id": 8271,
+      "display_norm": "jordan, j.p."
+    }
+  ],
+  "musik_19_1_11": [
+    {
+      "unified_id": "buchner_alexander",
+      "person_id": 7952,
+      "display_norm": "buchner, alexander"
+    }
+  ],
+  "reisen_125_6_13": [
+    {
+      "unified_id": "detken_h",
+      "person_id": 8006,
+      "display_norm": "detken, h."
+    }
+  ],
+  "kunstbuecher_543_22_38": [
+    {
+      "unified_id": "weber_wilhelm",
+      "person_id": 8880,
+      "display_norm": "weber, wilhelm"
+    }
+  ],
+  "buch_12_1_8": [
+    {
+      "unified_id": "meehan_bernard",
+      "person_id": 8448,
+      "display_norm": "meehan, bernard"
+    }
+  ],
+  "fremdsprachige_794_32_38": [
+    {
+      "unified_id": "hauptmann_tatjanna",
+      "person_id": 8177,
+      "display_norm": "hauptmann, tatjanna"
+    },
+    {
+      "unified_id": "saki",
+      "person_id": 8672,
+      "display_norm": "saki"
+    }
+  ],
+  "neuzeit_48_2_4": [
+    {
+      "unified_id": "magdelaine_m",
+      "person_id": 8415,
+      "display_norm": "magdelaine, m."
+    },
+    {
+      "unified_id": "thadden_r",
+      "person_id": 8819,
+      "display_norm": "thadden, r. von"
+    }
+  ],
+  "literatur_129_6_12": [
+    {
+      "unified_id": "haarmann_harald",
+      "person_id": 8157,
+      "display_norm": "haarmann"
+    }
+  ],
+  "deutschland_26_2_4": [
+    {
+      "unified_id": "lewy_guenter",
+      "person_id": 8392,
+      "display_norm": "lewy, guenter"
+    }
+  ],
+  "wien_174_7_10": [
+    {
+      "unified_id": "gottschalk_friedrich",
+      "person_id": 8132,
+      "display_norm": "gottschalk, friedrich"
+    }
+  ],
+  "sonstiges_6_1_4": [
+    {
+      "unified_id": "diebener_wilhelm",
+      "person_id": 8010,
+      "display_norm": "diebener, wilhelm"
+    }
+  ],
+  "aegypten_47_2_3": [
+    {
+      "unified_id": "cancik-kirschbaum_eva",
+      "person_id": 7964,
+      "display_norm": "cancik-kirschbaum, eva"
+    }
+  ],
+  "judentum_59_3_9": [
+    {
+      "unified_id": "zentralburo_der_zionistischen_organisation",
+      "person_id": 8931,
+      "display_norm": "zentralbüro der zionistischen organisation"
+    }
+  ],
+  "aegypten_15_1_3": [
+    {
+      "unified_id": "delitzsch_friedrich",
+      "person_id": 7997,
+      "display_norm": "delitzsch, friedrich"
+    }
+  ],
+  "de-lit-texte_411_17_20": [
+    {
+      "unified_id": "stifer_adalbert",
+      "person_id": 8787,
+      "display_norm": "stifer, adalbert"
+    }
+  ],
+  "signierte_94_4_10": [
+    {
+      "unified_id": "huttenegger_bernhard",
+      "person_id": 8241,
+      "display_norm": "hüttenegger, bernhard"
+    }
+  ],
+  "mythologie_57_3_3": [
+    {
+      "unified_id": "vries_jan",
+      "person_id": 8867,
+      "display_norm": "vries, jan de"
+    }
+  ],
+  "reisen_32_2_13": [
+    {
+      "unified_id": "hoberman_gerald",
+      "person_id": 8213,
+      "display_norm": "hoberman, gerald"
+    },
+    {
+      "unified_id": "hoberman_marc",
+      "person_id": 8214,
+      "display_norm": "hoberman, marc"
+    }
+  ],
+  "musik_173_7_11": [
+    {
+      "unified_id": "dermutz_klaus",
+      "person_id": 8003,
+      "display_norm": "dermutz, klaus"
+    },
+    {
+      "unified_id": "messlinger_karin",
+      "person_id": 8456,
+      "display_norm": "meßlinger, karin"
+    }
+  ],
+  "wien_37_2_10": [
+    {
+      "unified_id": "gerstinger_heinz",
+      "person_id": 8106,
+      "display_norm": "gerstinger, heinz"
+    }
+  ],
+  "aegypten_48_2_3": [
+    {
+      "unified_id": "neret_gilles",
+      "person_id": 8500,
+      "display_norm": "neret, gilles"
+    }
+  ],
+  "buddhismus_47_2_3": [
+    {
+      "unified_id": "abs_josef_m",
+      "person_id": 7820,
+      "display_norm": "abs. p, jos."
+    }
+  ],
+  "judentum_169_7_9": [
+    {
+      "unified_id": "gunther_bernd",
+      "person_id": 8155,
+      "display_norm": "günther, bernd"
+    },
+    {
+      "unified_id": "wachter_ludwig",
+      "person_id": 8868,
+      "display_norm": "wächter, ludwig"
+    }
+  ],
+  "deutschland_52_3_4": [
+    {
+      "unified_id": "dresing_uschi",
+      "person_id": 8022,
+      "display_norm": "dresing, uschi"
+    },
+    {
+      "unified_id": "bostrom_jorg",
+      "person_id": 7933,
+      "display_norm": "boström, jörg"
+    },
+    {
+      "unified_id": "escher_jurgen",
+      "person_id": 8055,
+      "display_norm": "escher, jürgen"
+    },
+    {
+      "unified_id": "rose_romani",
+      "person_id": 8655,
+      "display_norm": "rose, romani"
+    },
+    {
+      "unified_id": "grunewald_axel",
+      "person_id": 8152,
+      "display_norm": "grünewald, axel"
+    }
+  ],
+  "judentum_163_7_9": [
+    {
+      "unified_id": "stengel_theo",
+      "person_id": 8782,
+      "display_norm": "stengel, theo"
+    },
+    {
+      "unified_id": "gerigk_herbert",
+      "person_id": 8104,
+      "display_norm": "gerigk, herbert"
+    }
+  ],
+  "judentum_214_9_9": [
+    {
+      "unified_id": "stade_bernhard",
+      "person_id": 8769,
+      "display_norm": "stade, bernhard"
+    }
+  ],
+  "philosophie_215_9_24": [
+    {
+      "unified_id": "locke_david",
+      "person_id": 8402,
+      "display_norm": "locke, david"
+    },
+    {
+      "unified_id": "wohlers_heinz",
+      "person_id": 8921,
+      "display_norm": "wohlers, heinz"
+    }
+  ],
+  "oesterreich_178_8_13": [
+    {
+      "unified_id": "vierthaler_franz_m",
+      "person_id": 8856,
+      "display_norm": "vierthaler, f(ranz) m(ichael)"
+    }
+  ],
+  "buch_124_5_8": [
+    {
+      "unified_id": "mcluhan_marshall",
+      "person_id": 8446,
+      "display_norm": "mc luhan, marshall"
+    }
+  ],
+  "reisen_95_4_13": [
+    {
+      "unified_id": "blaeu_joan",
+      "person_id": 7909,
+      "display_norm": "blaeu, joan"
+    },
+    {
+      "unified_id": "krogt_peter",
+      "person_id": 8354,
+      "display_norm": "krogt, peter van der"
+    }
+  ],
+  "reisen_90_4_13": [
+    {
+      "unified_id": "barth_heinrich",
+      "person_id": 7867,
+      "display_norm": "barth, heinrich"
+    }
+  ],
+  "de-lit-texte_110_5_20": [
+    {
+      "unified_id": "hecht_gretel",
+      "person_id": 8180,
+      "display_norm": "hecht, gretel"
+    },
+    {
+      "unified_id": "hecht_wolfgang",
+      "person_id": 8181,
+      "display_norm": "hecht, wolfgang"
+    }
+  ],
+  "erstausgaben_1064_43_78": [
+    {
+      "unified_id": "kipphardt_heinar",
+      "person_id": 8311,
+      "display_norm": "kipphardt, heinar"
+    }
+  ],
+  "oesterreich_201_9_13": [
+    {
+      "unified_id": "fuchs_gerhard",
+      "person_id": 8085,
+      "display_norm": "fuchs, gerhard"
+    }
+  ],
+  "literatur_21_1_12": [
+    {
+      "unified_id": "kosack_wolfgang",
+      "person_id": 8346,
+      "display_norm": "kosack, wolfgang"
+    }
+  ],
+  "islam_12_1_3": [
+    {
+      "unified_id": "al-farid_ibn",
+      "person_id": 7826,
+      "display_norm": "al-farid, ibn"
+    },
+    {
+      "unified_id": "jacobi_renate",
+      "person_id": 8251,
+      "display_norm": "jacobi, renate"
+    }
+  ],
+  "kinder_52_3_4": [
+    {
+      "unified_id": "nostlinger_christine",
+      "person_id": 8532,
+      "display_norm": "nöstlinger, christine"
+    }
+  ],
+  "signierte_232_10_10": [
+    {
+      "unified_id": "nowak_ernst",
+      "person_id": 8540,
+      "display_norm": "nowak, ernst"
+    }
+  ],
+  "kunstbuecher_376_16_38": [
+    {
+      "unified_id": "urban_martin",
+      "person_id": 8842,
+      "display_norm": "urban, martin"
+    },
+    {
+      "unified_id": "nolde_emil",
+      "person_id": 8513,
+      "display_norm": "nolde, emil"
+    }
+  ],
+  "de-lit-monographien_95_4_10": [
+    {
+      "unified_id": "kindermann_heinz",
+      "person_id": 8310,
+      "display_norm": "kindermann, heinz"
+    }
+  ],
+  "biographie_384_16_27": [
+    {
+      "unified_id": "malory_thomas",
+      "person_id": 8418,
+      "display_norm": "malory, sir thomas"
+    }
+  ],
+  "fremdsprachige_319_13_38": [
+    {
+      "unified_id": "dylan_bob",
+      "person_id": 8030,
+      "display_norm": "dylan, bob"
+    },
+    {
+      "unified_id": "passig_kathrin",
+      "person_id": 8562,
+      "display_norm": "passig, kathrin"
+    }
+  ],
+  "biographie_56_3_27": [
+    {
+      "unified_id": "thurheim_lulu",
+      "person_id": 8825,
+      "display_norm": "thürheim, gräfin lulu"
+    },
+    {
+      "unified_id": "rhyn_rene",
+      "person_id": 8638,
+      "display_norm": "rhyn, rene van"
+    }
+  ],
+  "suchliste_40_2_3": [
+    {
+      "unified_id": "rod_wolfgang",
+      "person_id": 8647,
+      "display_norm": "röd, wolfgang"
+    }
+  ],
+  "christentum_115_5_6": [
+    {
+      "unified_id": "novak_kurt",
+      "person_id": 8537,
+      "display_norm": "novak, kurt"
+    }
+  ],
+  "biographie_562_23_27": [
+    {
+      "unified_id": "sittner_hans",
+      "person_id": 8756,
+      "display_norm": "sittner, hans"
+    }
+  ],
+  "biographie_307_13_27": [
+    {
+      "unified_id": "bruyn_gunther",
+      "person_id": 7951,
+      "display_norm": "de bruyn, günther"
+    }
+  ],
+  "deutschland_84_4_4": [
+    {
+      "unified_id": "posselt_ernst_l",
+      "person_id": 8593,
+      "display_norm": "posselt, ernst ludwig"
+    },
+    {
+      "unified_id": "politz_karl_h_l",
+      "person_id": 8586,
+      "display_norm": "pölitz, karl heinrich ludwig"
+    }
+  ],
+  "oesterreich_153_7_13": [
+    {
+      "unified_id": "shrotter_franz_f",
+      "person_id": 8748,
+      "display_norm": "schrötter, franz ferdinand von"
+    }
+  ],
+  "kunstbuecher_220_9_38": [
+    {
+      "unified_id": "hollander_eugen",
+      "person_id": 8226,
+      "display_norm": "holländer, eugen"
+    }
+  ],
+  "musik_62_3_11": [
+    {
+      "unified_id": "komorzynski_egon",
+      "person_id": 8340,
+      "display_norm": "komorzynski, egon v."
+    }
+  ],
+  "erstausgaben_566_23_78": [
+    {
+      "unified_id": "fusseneggera_fertrud",
+      "person_id": 8087,
+      "display_norm": "fusseneggera, fertrud"
+    }
+  ],
+  "neuzeit_71_3_4": [
+    {
+      "unified_id": "reeiche_reimut",
+      "person_id": 8623,
+      "display_norm": "reeiche, reimut"
+    },
+    {
+      "unified_id": "gang_peter",
+      "person_id": 8091,
+      "display_norm": "gäng, peter"
+    }
+  ],
+  "griechenland_1_1_10": [
+    {
+      "unified_id": "baldamus_m_k",
+      "person_id": 7857,
+      "display_norm": "baldamus, m.k."
+    }
+  ],
+  "ethnologie_66_3_13": [
+    {
+      "unified_id": "gulich_gustav",
+      "person_id": 8154,
+      "display_norm": "gülich, gustav von"
+    }
+  ],
+  "griechenland_82_4_10": [
+    {
+      "unified_id": "knapp_robert",
+      "person_id": 8326,
+      "display_norm": "knapp, robert"
+    }
+  ],
+  "insel_159_7_27": [
+    {
+      "unified_id": "bock_friedrich",
+      "person_id": 7920,
+      "display_norm": "bock, friedrich"
+    }
+  ],
+  "wien_69_3_10": [
+    {
+      "unified_id": "kunstlerhaus_wien",
+      "person_id": 8362,
+      "display_norm": "wien, künstlerhaus"
+    }
+  ],
+  "sonstiges_69_3_4": [
+    {
+      "unified_id": "prstojevic_miroslav",
+      "person_id": 8604,
+      "display_norm": "prstojevic, miroslav"
+    }
+  ],
+  "mythologie_11_1_3": [
+    {
+      "unified_id": "deren_maya",
+      "person_id": 8002,
+      "display_norm": "deren, maya"
+    }
+  ],
+  "erstausgaben_1646_66_78": [
+    {
+      "unified_id": "schlund_joern",
+      "person_id": 8695,
+      "display_norm": "schlund, joern"
+    }
+  ],
+  "fremdsprachige_838_34_38": [
+    {
+      "unified_id": "shelly_mary",
+      "person_id": 8747,
+      "display_norm": "shelly, mary"
+    }
+  ],
+  "mittelalter_40_2_7": [
+    {
+      "unified_id": "goodrich_norma_l",
+      "person_id": 8128,
+      "display_norm": "goodrich, norma lorre"
+    }
+  ],
+  "antike_175_8_9": [
+    {
+      "unified_id": "flaccus_aulus_p",
+      "person_id": 8069,
+      "display_norm": "flaccus, aulus persius"
+    },
+    {
+      "unified_id": "bardt_carl_f",
+      "person_id": 7863,
+      "display_norm": "bardt, d. carl friedrich"
+    },
+    {
+      "unified_id": "juvenal",
+      "person_id": 8277,
+      "display_norm": "juvenal"
+    }
+  ],
+  "mythologie_26_2_3": [
+    {
+      "unified_id": "mader_elke",
+      "person_id": 8414,
+      "display_norm": "mader, elke"
+    }
+  ],
+  "illustrierte_102_5_14": [
+    {
+      "unified_id": "riba_carl_t",
+      "person_id": 8639,
+      "display_norm": "riba, carl theodor albert ritter von"
+    }
+  ],
+  "briefe_1_1_15": [
+    {
+      "unified_id": "schlechta_karl",
+      "person_id": 8691,
+      "display_norm": "schlechta, karl"
+    }
+  ],
+  "buch_112_5_8": [
+    {
+      "unified_id": "lenz_werner",
+      "person_id": 8389,
+      "display_norm": "lenz, werner"
+    }
+  ],
+  "sonstiges_14_1_4": [
+    {
+      "unified_id": "mcintyre_joan",
+      "person_id": 8445,
+      "display_norm": "mcintyre, joan"
+    }
+  ],
+  "mittelalter_57_3_7": [
+    {
+      "unified_id": "ivanka_endre",
+      "person_id": 8250,
+      "display_norm": "ivanka, endre von"
+    }
+  ],
+  "aegypten_31_2_3": [
+    {
+      "unified_id": "reitzenstein_r",
+      "person_id": 8628,
+      "display_norm": "reitzenstein, r."
+    }
+  ],
+  "sonstiges_35_2_4": [
+    {
+      "unified_id": "schmerz_leopold",
+      "person_id": 8696,
+      "display_norm": "schmerz, leopold"
+    }
+  ],
+  "kunstbuecher_641_26_38": [
+    {
+      "unified_id": "simons_katrin",
+      "person_id": 8755,
+      "display_norm": "simons, katrin"
+    }
+  ],
+  "wien_12_1_10": [
+    {
+      "unified_id": "groothuis_rainer",
+      "person_id": 8147,
+      "display_norm": "groothuis"
+    }
+  ],
+  "kunstbuecher_758_31_38": [
+    {
+      "unified_id": "kohler_bruno",
+      "person_id": 8331,
+      "display_norm": "köhler, bruno"
+    }
+  ],
+  "autographen_10_1_2": [
+    {
+      "unified_id": "eisler_lou",
+      "person_id": 8044,
+      "display_norm": "eisler, lou"
+    }
+  ],
+  "reisen_233_10_13": [
+    {
+      "unified_id": "auberrt_hansjoachim",
+      "person_id": 7853,
+      "display_norm": "auberrt, hans-joachim"
+    },
+    {
+      "unified_id": "nordenskiold_adolf_e",
+      "person_id": 8524,
+      "display_norm": "nordenskiöld, adolf erik"
+    }
+  ],
+  "musik_206_9_11": [
+    {
+      "unified_id": "kaufmann_harald",
+      "person_id": 8295,
+      "display_norm": "kaufmann"
+    }
+  ],
+  "reisen_91_4_13": [
+    {
+      "unified_id": "fisher_angela",
+      "person_id": 8068,
+      "display_norm": "fisher, angela"
+    },
+    {
+      "unified_id": "beckwith_carol",
+      "person_id": 7874,
+      "display_norm": "beckwith, carol"
+    }
+  ],
+  "biographie_593_24_27": [
+    {
+      "unified_id": "schiwy_gunther",
+      "person_id": 8690,
+      "display_norm": "schiwy, günther"
+    }
+  ],
+  "reisen_34_2_13": [
+    {
+      "unified_id": "kohl_engelbert",
+      "person_id": 8330,
+      "display_norm": "kohl, engelbert"
+    }
+  ],
+  "signierte_125_6_10": [
+    {
+      "unified_id": "lissauer_ernst",
+      "person_id": 8399,
+      "display_norm": "lissauer, ernst"
+    }
+  ],
+  "insel_212_9_27": [
+    {
+      "unified_id": "goldschmitjentner_rudolf_k",
+      "person_id": 8122,
+      "display_norm": "goldschmit-jentner, rudolf k."
+    }
+  ],
+  "aegypten_38_2_3": [
+    {
+      "unified_id": "unger_eckhard",
+      "person_id": 8837,
+      "display_norm": "unger, eckhard"
+    }
+  ],
+  "buddhismus_67_3_3": [
+    {
+      "unified_id": "trungpa_chogyam",
+      "person_id": 8831,
+      "display_norm": "trungpa, chögyam"
+    },
+    {
+      "unified_id": "fremantle_francesca",
+      "person_id": 8078,
+      "display_norm": "fremantle, francesca"
+    }
+  ],
+  "religion_41_2_4": [
+    {
+      "unified_id": "kienzler_klaus",
+      "person_id": 8308,
+      "display_norm": "kienzler, klaus"
+    }
+  ],
+  "kunstbuecher_313_13_38": [
+    {
+      "unified_id": "leinfellner_heinz",
+      "person_id": 8386,
+      "display_norm": "leinfellner, heinz"
+    }
+  ],
+  "russland_137_6_17": [
+    {
+      "unified_id": "radecki_sigismund",
+      "person_id": 8610,
+      "display_norm": "radecki, sigismund von"
+    }
+  ],
+  "musik_245_10_11": [
+    {
+      "unified_id": "schuhenn_reiner",
+      "person_id": 8721,
+      "display_norm": "schuhenn, reiner"
+    }
+  ],
+  "reisen_229_10_13": [
+    {
+      "unified_id": "nooteboom_cees",
+      "person_id": 8522,
+      "display_norm": "nooteboom, cees"
+    }
+  ],
+  "aegypten_62_3_3": [
+    {
+      "unified_id": "moortgat_anton",
+      "person_id": 8475,
+      "display_norm": "moortgat, anton"
+    }
+  ],
+  "literatur_207_9_12": [
+    {
+      "unified_id": "muschg_walter",
+      "person_id": 8491,
+      "display_norm": "muschg, walter"
+    }
+  ],
+  "philosophie_266_11_24": [
+    {
+      "unified_id": "rommeslspacher_birgit",
+      "person_id": 8654,
+      "display_norm": "rommeslspacher, birgit"
+    }
+  ],
+  "literatur_185_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "wien_4_1_10": [
+    {
+      "unified_id": "art_club_internationaler_unabhangiger_kunstlerverband_osterreich",
+      "person_id": 7847,
+      "display_norm": "österreich, art club. internationaler unabhängiger künstlerverband"
+    }
+  ],
+  "mythologie_32_2_3": [
+    {
+      "unified_id": "scholz_wilhelm",
+      "person_id": 8712,
+      "display_norm": "scholz, wilhelm"
+    }
+  ],
+  "kunstbuecher_380_16_38": [
+    {
+      "unified_id": "novotny_fritz",
+      "person_id": 8539,
+      "display_norm": "novotny, fritz"
+    }
+  ],
+  "reisen_49_2_13": [
+    {
+      "unified_id": "riefenstahl_leni",
+      "person_id": 8643,
+      "display_norm": "riefenstahl, leni"
+    }
+  ],
+  "musik_84_4_11": [
+    {
+      "unified_id": "pohl_c_f",
+      "person_id": 8585,
+      "display_norm": "pohl, c. f."
+    }
+  ],
+  "buch_86_4_8": [
+    {
+      "unified_id": "hochuli_jost",
+      "person_id": 8216,
+      "display_norm": "hochuli, jost"
+    }
+  ],
+  "de-lit-monographien_155_7_10": [
+    {
+      "unified_id": "mann_hans_m",
+      "person_id": 8419,
+      "display_norm": "mann, hans mayer"
+    }
+  ],
+  "sonstiges_49_2_4": [
+    {
+      "unified_id": "cetto_bruno",
+      "person_id": 7968,
+      "display_norm": "cetto, bruno"
+    }
+  ],
+  "biographie_133_6_27": [
+    {
+      "unified_id": "dorper_sven",
+      "person_id": 8017,
+      "display_norm": "dörper, sven"
+    },
+    {
+      "unified_id": "barckhausen_christiane",
+      "person_id": 7862,
+      "display_norm": "barckhausen, christiane"
+    },
+    {
+      "unified_id": "castaneda_jorge_g",
+      "person_id": 7965,
+      "display_norm": "castaneda, jorge g."
+    },
+    {
+      "unified_id": "rennert_udo",
+      "person_id": 8631,
+      "display_norm": "rennert, udo"
+    },
+    {
+      "unified_id": "grafe_ursula",
+      "person_id": 8137,
+      "display_norm": "gräfe, ursula"
+    }
+  ],
+  "kunstbuecher_240_10_38": [
+    {
+      "unified_id": "urban_eberhard",
+      "person_id": 8841,
+      "display_norm": "urban, eberhard"
+    },
+    {
+      "unified_id": "hutter_wolfgang",
+      "person_id": 8243,
+      "display_norm": "hutter, wolfgang"
+    }
+  ],
+  "briefe_100_5_15": [
+    {
+      "unified_id": "bismarck_otto",
+      "person_id": 7908,
+      "display_norm": "bismarck, otto von"
+    }
+  ],
+  "wien_93_4_10": [
+    {
+      "unified_id": "renner_victor",
+      "person_id": 8630,
+      "display_norm": "renner, victor v."
+    }
+  ],
+  "kunstbuecher_188_8_38": [
+    {
+      "unified_id": "hutter_heribert",
+      "person_id": 8242,
+      "display_norm": "hutter, heribert"
+    }
+  ],
+  "autographen_19_1_2": [
+    {
+      "unified_id": "haffner_sarah",
+      "person_id": 8161,
+      "display_norm": "haffner, sarah"
+    }
+  ],
+  "reisen_253_11_13": [
+    {
+      "unified_id": "prestage_edgar",
+      "person_id": 8597,
+      "display_norm": "prestage, edgar"
+    }
+  ],
+  "okkultismus_89_4_8": [
+    {
+      "unified_id": "karlinger_felix",
+      "person_id": 8290,
+      "display_norm": "karlinger, felix"
+    },
+    {
+      "unified_id": "nola_alfonso",
+      "person_id": 8512,
+      "display_norm": "nola, alfonso di"
+    }
+  ],
+  "kunstbuecher_512_21_38": [
+    {
+      "unified_id": "thies_harmen",
+      "person_id": 8823,
+      "display_norm": "thies, harmen"
+    }
+  ],
+  "de-lit-texte_344_14_20": [
+    {
+      "unified_id": "nossack_hans_e",
+      "person_id": 8528,
+      "display_norm": "nossack, hans erich"
+    }
+  ],
+  "wien_54_3_10": [
+    {
+      "unified_id": "hipp_otto",
+      "person_id": 8209,
+      "display_norm": "hipp, otto"
+    }
+  ],
+  "neuzeit_35_2_4": [
+    {
+      "unified_id": "lamartine_alphonse",
+      "person_id": 8372,
+      "display_norm": "lamartine"
+    },
+    {
+      "unified_id": "neumann_alfred",
+      "person_id": 8505,
+      "display_norm": "neumann, alfred"
+    }
+  ],
+  "reisen_3_1_13": [
+    {
+      "unified_id": "bernatzik_hugo",
+      "person_id": 7893,
+      "display_norm": "bernatzik, hugo"
+    }
+  ],
+  "signierte_48_2_10": [
+    {
+      "unified_id": "ebster_manfred",
+      "person_id": 8032,
+      "display_norm": "ebster, manfred"
+    }
+  ],
+  "briefe_36_2_15": [
+    {
+      "unified_id": "kleist_ewald_c",
+      "person_id": 8319,
+      "display_norm": "kleist, ewald christian"
+    }
+  ],
+  "bibliophile_126_6_10": [
+    {
+      "unified_id": "hoffer_eric",
+      "person_id": 8219,
+      "display_norm": "hoffer, eric"
+    },
+    {
+      "unified_id": "heuer_wolfgang",
+      "person_id": 8201,
+      "display_norm": "heuer, wolfgang"
+    },
+    {
+      "unified_id": "maucy_christoph_d",
+      "person_id": 8431,
+      "display_norm": "maucy, christoph d."
+    },
+    {
+      "unified_id": "wagmuth_wolfram",
+      "person_id": 8869,
+      "display_norm": "wagmuth, wolfram"
+    }
+  ],
+  "kunstbuecher_806_33_38": [
+    {
+      "unified_id": "mayerbeck_fritz",
+      "person_id": 8442,
+      "display_norm": "mayer-beck, fritz"
+    }
+  ],
+  "neuzeit_85_4_4": [
+    {
+      "unified_id": "kaplan_robert",
+      "person_id": 8287,
+      "display_norm": "kaplan, robert"
+    },
+    {
+      "unified_id": "kaplan_ellen",
+      "person_id": 8286,
+      "display_norm": "kaplan, ellen"
+    }
+  ],
+  "kunstbuecher_535_22_38": [
+    {
+      "unified_id": "vostell_wolf",
+      "person_id": 8866,
+      "display_norm": "vostell, wolf"
+    }
+  ],
+  "oesterreich_117_5_13": [
+    {
+      "unified_id": "ramshorn_carl",
+      "person_id": 8621,
+      "display_norm": "ramshorn, carl"
+    }
+  ],
+  "insel_345_14_27": [
+    {
+      "unified_id": "velde_henry",
+      "person_id": 8848,
+      "display_norm": "velde, henry van de"
+    }
+  ],
+  "biographie_4_1_27": [
+    {
+      "unified_id": "geck_martin",
+      "person_id": 8102,
+      "display_norm": "geck, martin"
+    }
+  ],
+  "erstausgaben_1619_65_78": [
+    {
+      "unified_id": "eipeldauer_heike",
+      "person_id": 8039,
+      "display_norm": "eipeldauer, heike"
+    },
+    {
+      "unified_id": "brugger_ingrid",
+      "person_id": 7947,
+      "display_norm": "brugger, ingrid"
+    }
+  ],
+  "sonstiges_51_3_4": [
+    {
+      "unified_id": "davidov_dinko",
+      "person_id": 7989,
+      "display_norm": "davidov, dinko"
+    }
+  ],
+  "philosophie_335_14_24": [
+    {
+      "unified_id": "malcolm_norman",
+      "person_id": 8417,
+      "display_norm": "malcolm, norman"
+    },
+    {
+      "unified_id": "garver_newton",
+      "person_id": 8095,
+      "display_norm": "garver, newton"
+    },
+    {
+      "unified_id": "cavell_stanley",
+      "person_id": 7966,
+      "display_norm": "cavell, stanley"
+    },
+    {
+      "unified_id": "strawson_peter_f",
+      "person_id": 8798,
+      "display_norm": "strawson, peter frederick"
+    }
+  ],
+  "christentum_16_1_6": [
+    {
+      "unified_id": "braun_joseph",
+      "person_id": 7939,
+      "display_norm": "braun, joseph"
+    }
+  ],
+  "literatur_187_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "reisen_97_4_13": [
+    {
+      "unified_id": "bonora_franz",
+      "person_id": 7929,
+      "display_norm": "bonora, franz"
+    }
+  ],
+  "fremdsprachige_372_15_38": [
+    {
+      "unified_id": "richartz_walter_e",
+      "person_id": 8640,
+      "display_norm": "richartz, walter e."
+    },
+    {
+      "unified_id": "faulkner_william",
+      "person_id": 8059,
+      "display_norm": "faulkner, william"
+    }
+  ],
+  "erstausgaben_783_32_78": [
+    {
+      "unified_id": "kurz_isolde",
+      "person_id": 8364,
+      "display_norm": "kurz, isolde"
+    }
+  ],
+  "aegypten_11_1_3": [
+    {
+      "unified_id": "bibby_geoffrey",
+      "person_id": 7898,
+      "display_norm": "bibby, geoffrey"
+    }
+  ],
+  "philosophie_136_6_24": [
+    {
+      "unified_id": "fraenkel_carlos",
+      "person_id": 8074,
+      "display_norm": "fraenkel, carlos"
+    }
+  ],
+  "mittelalter_84_4_7": [
+    {
+      "unified_id": "pletnjowa_swetlana_a",
+      "person_id": 8582,
+      "display_norm": "pletnjowa, swetlana alexandrowna"
+    }
+  ],
+  "okkultismus_134_6_8": [
+    {
+      "unified_id": "rinne_olga",
+      "person_id": 8645,
+      "display_norm": "rinne, olga"
+    }
+  ],
+  "okkultismus_163_7_8": [
+    {
+      "unified_id": "lamartine_alphonse",
+      "person_id": 8372,
+      "display_norm": "lamartine"
+    },
+    {
+      "unified_id": "neumann_alfred",
+      "person_id": 8505,
+      "display_norm": "neumann, alfred"
+    },
+    {
+      "unified_id": "raffet_auguste",
+      "person_id": 8615,
+      "display_norm": "raffet, auguste"
+    }
+  ],
+  "reisen_230_10_13": [
+    {
+      "unified_id": "nooteboom_cees",
+      "person_id": 8522,
+      "display_norm": "nooteboom, cees"
+    }
+  ],
+  "maerchen_48_2_3": [
+    {
+      "unified_id": "karlinger_felix",
+      "person_id": 8290,
+      "display_norm": "karlinger, felix"
+    },
+    {
+      "unified_id": "zacherl_elisabeth",
+      "person_id": 8927,
+      "display_norm": "zacherl, elisabeth"
+    }
+  ],
+  "suchliste_19_1_3": [
+    {
+      "unified_id": "mecklenburg_herzog_zu",
+      "person_id": 8447,
+      "display_norm": "mecklenburg, herzog zu"
+    }
+  ],
+  "kunstbuecher_35_2_38": [
+    {
+      "unified_id": "biermann_georg",
+      "person_id": 7901,
+      "display_norm": "biermann, georg"
+    }
+  ],
+  "biographie_43_2_27": [
+    {
+      "unified_id": "nono-schoenberg_nuria",
+      "person_id": 8521,
+      "display_norm": "nono-schoenberg, nuria"
+    }
+  ],
+  "kunstbuecher_209_9_38": [
+    {
+      "unified_id": "berlinische_galerie",
+      "person_id": 7888,
+      "display_norm": "galerie, berlinische"
+    },
+    {
+      "unified_id": "hoch_hannah",
+      "person_id": 8215,
+      "display_norm": "höch, hannah"
+    },
+    {
+      "unified_id": "thater-schulz_cornelia",
+      "person_id": 8821,
+      "display_norm": "thater-schulz, cornelia"
+    }
+  ],
+  "kunstbuecher_338_14_38": [
+    {
+      "unified_id": "clerici_fabrizio",
+      "person_id": 7974,
+      "display_norm": "clerici, fabrizio"
+    },
+    {
+      "unified_id": "marino_giambattista",
+      "person_id": 8424,
+      "display_norm": "marino, giambattista"
+    }
+  ],
+  "kunstbuecher_343_14_38": [
+    {
+      "unified_id": "garas_klara",
+      "person_id": 8092,
+      "display_norm": "garas, klara"
+    }
+  ],
+  "fremdsprachige_141_6_38": [
+    {
+      "unified_id": "blixen_tania",
+      "person_id": 7913,
+      "display_norm": "blixen, tania"
+    },
+    {
+      "unified_id": "suskind_w_e",
+      "person_id": 8807,
+      "display_norm": "süskind, w. e."
+    }
+  ],
+  "mittelalter_0_1_7": [
+    {
+      "unified_id": "abelard_peter",
+      "person_id": 7818,
+      "display_norm": "abaelard"
+    }
+  ],
+  "oesterreich_111_5_13": [
+    {
+      "unified_id": "panhofer_peter",
+      "person_id": 8557,
+      "display_norm": "panhofer, peter"
+    }
+  ],
+  "reisen_92_4_13": [
+    {
+      "unified_id": "beebe_william",
+      "person_id": 7876,
+      "display_norm": "beebe, william"
+    }
+  ],
+  "kunstbuecher_550_23_38": [
+    {
+      "unified_id": "weiservon_inffeld_josepha",
+      "person_id": 8894,
+      "display_norm": "weiser-von inffeld, josepha"
+    }
+  ],
+  "oesterreich_230_10_13": [
+    {
+      "unified_id": "mayer_franz_m",
+      "person_id": 8434,
+      "display_norm": "mayer, franz martin mayer"
+    }
+  ],
+  "kinder_39_2_4": [
+    {
+      "unified_id": "kane_elisha_k",
+      "person_id": 8285,
+      "display_norm": "kane, elisha kent"
+    },
+    {
+      "unified_id": "kutzner_j_g",
+      "person_id": 8367,
+      "display_norm": "kutzner, j.g."
+    }
+  ],
+  "literatur_268_11_12": [
+    {
+      "unified_id": "linke_angelika",
+      "person_id": 8398,
+      "display_norm": "linke"
+    },
+    {
+      "unified_id": "nussbaumer_markus",
+      "person_id": 8544,
+      "display_norm": "nussbaumer"
+    },
+    {
+      "unified_id": "portmann_raul_r",
+      "person_id": 8591,
+      "display_norm": "portmann"
+    },
+    {
+      "unified_id": "willi_urs",
+      "person_id": 8912,
+      "display_norm": "willi, urs"
+    }
+  ],
+  "literatur_195_8_12": [
+    {
+      "unified_id": "mayer_hans",
+      "person_id": 8435,
+      "display_norm": "mayer, hans"
+    }
+  ],
+  "esoterik_60_3_3": [
+    {
+      "unified_id": "tedlock_dennis",
+      "person_id": 8815,
+      "display_norm": "tedlock, dennis"
+    },
+    {
+      "unified_id": "tedlock_barbara",
+      "person_id": 8814,
+      "display_norm": "tedlock, barbara"
+    }
+  ],
+  "signierte_112_5_10": [
+    {
+      "unified_id": "kropotkin_peter",
+      "person_id": 8355,
+      "display_norm": "kropotkin, peter"
+    },
+    {
+      "unified_id": "kampffmeyer_bernh",
+      "person_id": 8284,
+      "display_norm": "kampffmeyer, bernh."
+    }
+  ],
+  "reisen_89_4_13": [
+    {
+      "unified_id": "banse_ewald",
+      "person_id": 7861,
+      "display_norm": "banse, ewald"
+    }
+  ],
+  "islam_16_1_3": [
+    {
+      "unified_id": "khan_inayat",
+      "person_id": 8305,
+      "display_norm": "khan, inayat"
+    }
+  ],
+  "neuzeit_44_2_4": [
+    {
+      "unified_id": "spengler_oswald",
+      "person_id": 8764,
+      "display_norm": "spengler, oswald"
+    }
+  ],
+  "kunstbuecher_524_21_38": [
+    {
+      "unified_id": "rollig_stella",
+      "person_id": 8651,
+      "display_norm": "rollig, stella"
+    },
+    {
+      "unified_id": "husslein-arco_agnes",
+      "person_id": 8240,
+      "display_norm": "husslein-arco, agnes"
+    },
+    {
+      "unified_id": "nollert_angelika",
+      "person_id": 8518,
+      "display_norm": "nollert, angelika"
+    },
+    {
+      "unified_id": "export_valie",
+      "person_id": 8057,
+      "display_norm": "export, valie"
+    }
+  ],
+  "kinder_53_3_4": [
+    {
+      "unified_id": "pressler_christine",
+      "person_id": 8596,
+      "display_norm": "pressler, christine"
+    }
+  ],
+  "philosophie_216_9_24": [
+    {
+      "unified_id": "locke_john",
+      "person_id": 8403,
+      "display_norm": "locke, john"
+    },
+    {
+      "unified_id": "starck_seb_g",
+      "person_id": 8774,
+      "display_norm": "starck, seb. gottfr."
+    }
+  ],
+  "oesterreich_42_2_13": [
+    {
+      "unified_id": "jung_peter",
+      "person_id": 8273,
+      "display_norm": "jung, peter"
+    },
+    {
+      "unified_id": "aichelburg_wladimir",
+      "person_id": 7825,
+      "display_norm": "aichelburg, wladimir"
+    },
+    {
+      "unified_id": "schaumann_walther",
+      "person_id": 8681,
+      "display_norm": "schaumann, walther"
+    },
+    {
+      "unified_id": "schubert_peter",
+      "person_id": 8720,
+      "display_norm": "schubert, peter"
+    }
+  ],
+  "kunstbuecher_499_20_38": [
+    {
+      "unified_id": "stelzl_ulrike",
+      "person_id": 8781,
+      "display_norm": "stelzl, ulrike"
+    }
+  ],
+  "sonstiges_63_3_4": [
+    {
+      "unified_id": "luers_heinrich",
+      "person_id": 8410,
+      "display_norm": "luers, heinrich"
+    }
+  ],
+  "reisen_240_10_13": [
+    {
+      "unified_id": "pelsaert_francois",
+      "person_id": 8569,
+      "display_norm": "pelsaert, francois"
+    }
+  ],
+  "musik_44_2_11": [
+    {
+      "unified_id": "harich-schneider_eta",
+      "person_id": 8174,
+      "display_norm": "harich-schneider, eta"
+    }
+  ],
+  "kunstbuecher_916_37_38": [
+    {
+      "unified_id": "schutz_karl",
+      "person_id": 8729,
+      "display_norm": "schütz, karl"
+    }
+  ],
+  "sonstiges_23_1_4": [
+    {
+      "unified_id": "willkomm_moritz",
+      "person_id": 8913,
+      "display_norm": "willkomm, moritz"
+    },
+    {
+      "unified_id": "schubert_g_h",
+      "person_id": 8719,
+      "display_norm": "schubert, g. h."
+    }
+  ],
+  "reisen_100_5_13": [
+    {
+      "unified_id": "brazza_pierre_s",
+      "person_id": 7941,
+      "display_norm": "brazza, pierre savorgnan de"
+    },
+    {
+      "unified_id": "streiter_anja",
+      "person_id": 8801,
+      "display_norm": "streiter, anja"
+    },
+    {
+      "unified_id": "osten_esther",
+      "person_id": 8554,
+      "display_norm": "von osten, esther"
+    }
+  ],
+  "reisen_218_9_13": [
+    {
+      "unified_id": "mary_geo_t",
+      "person_id": 8429,
+      "display_norm": "mary, geo t."
+    }
+  ],
+  "esoterik_35_2_3": [
+    {
+      "unified_id": "stuart_micheline",
+      "person_id": 8803,
+      "display_norm": "stuart, micheline"
+    }
+  ],
+  "kinder_28_2_4": [
+    {
+      "unified_id": "herold_heinrich",
+      "person_id": 8195,
+      "display_norm": "herold, heinrich"
+    }
+  ],
+  "signierte_26_2_10": [
+    {
+      "unified_id": "brunngraber_rudolf",
+      "person_id": 7950,
+      "display_norm": "brunngraber, rudolf"
+    }
+  ],
+  "zeitgeschichte_14_1_4": [
+    {
+      "unified_id": "gronemeyer_reimer",
+      "person_id": 8145,
+      "display_norm": "gronemeyer, reimer"
+    },
+    {
+      "unified_id": "rakelmann_georgia_a",
+      "person_id": 8616,
+      "display_norm": "rakelmann, georgia a."
+    }
+  ],
+  "oesterreich_157_7_13": [
+    {
+      "unified_id": "veiter_theodor",
+      "person_id": 8846,
+      "display_norm": "veiter, theodor"
+    }
+  ],
+  "bibliophile_0_1_10": [
+    {
+      "unified_id": "lbus_anita",
+      "person_id": 8381,
+      "display_norm": "lbus, anita"
+    }
+  ],
+  "erstausgaben_1496_60_78": [
+    {
+      "unified_id": "nossack_hans_e",
+      "person_id": 8528,
+      "display_norm": "nossack, hans erich"
+    }
+  ],
+  "biographie_304_13_27": [
+    {
+      "unified_id": "jardin_andre",
+      "person_id": 8262,
+      "display_norm": "jardin, andre"
+    }
+  ],
+  "autographen_34_2_2": [
+    {
+      "unified_id": "ziehrer_carl_m",
+      "person_id": 8934,
+      "display_norm": "ziehrer, carl michael"
+    },
+    {
+      "unified_id": "ziehrer_marianne",
+      "person_id": 8935,
+      "display_norm": "ziehrer, marianne"
+    }
+  ],
+  "autographen_14_1_2": [
+    {
+      "unified_id": "franck_martine",
+      "person_id": 8075,
+      "display_norm": "franck, martine"
+    }
+  ],
+  "erstausgaben_1458_59_78": [
+    {
+      "unified_id": "stadt_modling",
+      "person_id": 8771,
+      "display_norm": "stadt mödling"
+    }
+  ],
+  "russland_4_1_17": [
+    {
+      "unified_id": "pezold_m",
+      "person_id": 8575,
+      "display_norm": "pezold, m. v."
+    },
+    {
+      "unified_id": "bilbassoff_b",
+      "person_id": 7902,
+      "display_norm": "bilbassoff, b. von"
+    }
+  ],
+  "buddhismus_1_1_3": [
+    {
+      "unified_id": "radhkrishnan_s",
+      "person_id": 8612,
+      "display_norm": "radhkrishnan, s."
+    }
+  ],
+  "deutschland_62_3_4": [
+    {
+      "unified_id": "ferchl_irene",
+      "person_id": 8061,
+      "display_norm": "ferchl, irene"
+    }
+  ],
+  "kunstbuecher_847_34_38": [
+    {
+      "unified_id": "piranesi_giovanni_b",
+      "person_id": 8579,
+      "display_norm": "piranesi, giovanni battista"
+    }
+  ],
+  "kunstbuecher_36_2_38": [
+    {
+      "unified_id": "schmidt_hugo",
+      "person_id": 8702,
+      "display_norm": "schmidt, hugo"
+    }
+  ],
+  "erstausgaben_601_25_78": [
+    {
+      "unified_id": "meixner_manfred",
+      "person_id": 8451,
+      "display_norm": "meixner, manfred"
+    }
+  ],
+  "kunstbuecher_344_14_38": [
+    {
+      "unified_id": "mayer_vera",
+      "person_id": 8440,
+      "display_norm": "mayer, vera"
+    },
+    {
+      "unified_id": "mayer_franz",
+      "person_id": 8433,
+      "display_norm": "mayer, franz"
+    }
+  ]
+}
