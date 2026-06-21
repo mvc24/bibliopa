@@ -12,7 +12,7 @@ from database.connection import get_db_connection
 
 # load 1 of more to add missing rows - 1441 rows loaded on 12 June
 # b2p_file = Path("data_reload/fix_missing/b2p_found_list_01.json")
-# load next batch
+# 21 june load next batch, 734 rows
 b2p_file = Path("data_reload/fix_missing/b2p_found_list_02.json")
 
 

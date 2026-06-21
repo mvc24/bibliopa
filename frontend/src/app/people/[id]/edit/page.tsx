@@ -1,33 +1,31 @@
 'use client';
 import { AppShell } from '../../../../components/layout/AppShell';
-import { Card, Title, Stack, TextInput, Button, Textarea } from '@mantine/core';
+import { TextField, Label, Input, TextArea, Button } from 'react-aria-components';
 
 export default function EditPersonPage() {
   return (
     <AppShell>
-      <Card
-        shadow="sm"
-        padding="lg"
-      >
-        <Stack gap="md">
-          <Title order={2}>Edit Person</Title>
-          <TextInput
-            label="Name"
-            placeholder="Full name"
-            required
-          />
-          <TextInput
-            label="Authority record"
-            placeholder="Authority ID or URL"
-          />
-          <Textarea
-            label="Notes"
-            placeholder="Notes"
-            minRows={2}
-          />
-          <Button>Save person</Button>
-        </Stack>
-      </Card>
+      <div className="panel">
+        <div className="stack">
+          <h2 className="page-title">Edit Person</h2>
+          <TextField isRequired>
+            <Label>Name</Label>
+            <Input placeholder="Full name" />
+          </TextField>
+          <TextField>
+            <Label>Authority record</Label>
+            <Input placeholder="Authority ID or URL" />
+          </TextField>
+          <TextField>
+            <Label>Notes</Label>
+            <TextArea
+              placeholder="Notes"
+              rows={2}
+            />
+          </TextField>
+          <Button type="submit">Save person</Button>
+        </div>
+      </div>
     </AppShell>
   );
 }

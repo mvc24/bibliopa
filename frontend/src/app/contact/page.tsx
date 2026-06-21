@@ -1,50 +1,46 @@
 'use client';
 import { AppShell } from '../../components/layout/AppShell';
-import {
-  Card,
-  Title,
-  Stack,
-  TextInput,
-  Textarea,
-  Button,
-  Text,
-} from '@mantine/core';
+import { TextField, Label, Input, TextArea, Button } from 'react-aria-components';
 
 export default function ContactPage() {
   return (
     <AppShell>
-      <Card
-        shadow="sm"
-        padding="lg"
-        maw={540}
+      <div
+        className="panel"
+        style={{ maxWidth: 540 }}
       >
-        <Stack gap="md">
-          <Title order={2}>Impressum / Contact</Title>
-          <TextInput
-            label="Your name"
-            placeholder="Name"
-            required
-          />
-          <TextInput
-            label="Your email"
-            placeholder="you@example.com"
-            required
-          />
-          <Textarea
-            label="Message"
-            placeholder="How can we help?"
-            minRows={4}
-            required
-          />
+        <div className="stack">
+          <h2 className="page-title">Impressum / Contact</h2>
+          <TextField isRequired>
+            <Label>Your name</Label>
+            <Input placeholder="Name" />
+          </TextField>
+          <TextField isRequired>
+            <Label>Your email</Label>
+            <Input
+              type="email"
+              placeholder="you@example.com"
+            />
+          </TextField>
+          <TextField isRequired>
+            <Label>Message</Label>
+            <TextArea
+              placeholder="How can we help?"
+              rows={4}
+            />
+          </TextField>
           <Button type="submit">Send</Button>
-          <Text
-            size="sm"
-            c="dimmed"
+          <p
+            style={{
+              fontFamily: 'var(--font-sans)',
+              fontSize: 'var(--text-sm)',
+              color: 'var(--color-muted)',
+            }}
           >
             Quick flag button for grandpa will live here as well.
-          </Text>
-        </Stack>
-      </Card>
+          </p>
+        </div>
+      </div>
     </AppShell>
   );
 }

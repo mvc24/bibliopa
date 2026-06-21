@@ -701,4 +701,50 @@ body {
         font-size: var(--text-sm);
         color: var(--color-muted);
     }
+
+    /* --- Reusable layout helpers (replace Mantine Card / Stack) --- */
+    .panel {
+        background: var(--color-surface);
+        border: var(--border-w) solid var(--color-border);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: var(--sp-4);
+    }
+
+    .stack {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-3);
+    }
+
+    .page-title {
+        font-family: var(--font-serif);
+        font-weight: var(--w-bold);
+        font-size: var(--text-xl);
+        line-height: var(--lh-tight);
+        margin: 0;
+    }
+
+    /* Multi-line text input — mirrors .react-aria-Input but grows vertically */
+    .react-aria-TextArea {
+        width: 100%;
+        font-family: var(--font-serif);
+        font-size: var(--text-base);
+        color: var(--color-fg);
+        background: var(--color-surface);
+        border: var(--border-w2) solid var(--color-border);
+        border-radius: var(--radius);
+        padding: var(--sp-3);
+        resize: vertical;
+    }
+
+    .react-aria-TextArea::placeholder {
+        color: var(--color-muted);
+        opacity: .7;
+    }
+
+    .react-aria-TextArea[data-hovered],
+    .react-aria-TextArea[data-focused] {
+        border-color: var(--color-border-str);
+    }
 }

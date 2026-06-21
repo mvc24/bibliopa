@@ -1,13 +1,6 @@
 'use client';
 import { AppShell } from '../../components/layout/AppShell';
-import {
-  Card,
-  Title,
-  Stack,
-  Button,
-  PasswordInput,
-  TextInput,
-} from '@mantine/core';
+import { TextField, Label, Input, Button } from 'react-aria-components';
 
 import { signIn } from 'next-auth/react';
 import { useState } from 'react';
@@ -26,31 +19,43 @@ export default function LoginPage() {
 
   return (
     <AppShell>
-      <Card
-        shadow="sm"
-        padding="lg"
-        maw={480}
+      <div
+        className="panel"
+        style={{ maxWidth: 480 }}
       >
-        <Stack gap="md">
-          <Title order={2}>Login</Title>
-          <TextInput
-            label="Benutzername oder E-Mail"
-            placeholder="Dein Benutzername ist opa"
-            name="username"
+        <form
+          className="stack"
+          onSubmit={(e) => {
+            e.preventDefault();
+            handleLogin();
+          }}
+        >
+          <h2 className="page-title">Login</h2>
+          <TextField
             value={username}
-            onChange={(e) => setUsername(e.currentTarget.value)}
-            required
-          />
-          <PasswordInput
-            label="Passwort"
-            placeholder="Gib dein Passwort ein"
+            onChange={setUsername}
+            isRequired
+          >
+            <Label>Benutzername oder E-Mail</Label>
+            <Input
+              name="username"
+              placeholder="Dein Benutzername ist opa"
+            />
+          </TextField>
+          <TextField
             value={password}
-            onChange={(e) => setPassword(e.currentTarget.value)}
-            required
-          />
-          <Button onClick={handleLogin}>Einloggen</Button>
-        </Stack>
-      </Card>
+            onChange={setPassword}
+            isRequired
+          >
+            <Label>Passwort</Label>
+            <Input
+              type="password"
+              placeholder="Gib dein Passwort ein"
+            />
+          </TextField>
+          <Button type="submit">Einloggen</Button>
+        </form>
+      </div>
     </AppShell>
   );
 }

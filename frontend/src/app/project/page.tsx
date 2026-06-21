@@ -1,43 +1,28 @@
 'use client';
 import { AppShell } from '../../components/layout/AppShell';
-import { Card, Title, Stack, Text, List } from '@mantine/core';
 
 export default function ProjectPage() {
   return (
     <AppShell>
-      <Card
-        shadow="sm"
-        padding="lg"
-      >
-        <Stack gap="sm">
-          <Title order={2}>Project Overview</Title>
-          <Text>
+      <div className="panel">
+        <div className="stack">
+          <h2 className="page-title">Project Overview</h2>
+          <p>
             Portfolio-friendly overview of the tech stack, pipelines, and data
             quality processes behind Bibliopa.
-          </Text>
-          <List
-            type="unordered"
-            spacing="xs"
-          >
-            <List.Item>
-              Backend: FastAPI, PostgreSQL, Alembic migrations
-            </List.Item>
-            <List.Item>
+          </p>
+          <ul>
+            <li>Backend: FastAPI, PostgreSQL, Alembic migrations</li>
+            <li>
               ETL & data quality: validation, people normalization, discrepancy
               review flows
-            </List.Item>
-            <List.Item>
-              Frontend: Next.js 15, Mantine, Refine for CRUD and data grids
-            </List.Item>
-            <List.Item>
-              Auth: NextAuth sessions with role-based UI states
-            </List.Item>
-            <List.Item>
-              Exports: PDF/CSV for search results and single entries
-            </List.Item>
-          </List>
-        </Stack>
-      </Card>
+            </li>
+            <li>Frontend: Next.js 15, Mantine, Refine for CRUD and data grids</li>
+            <li>Auth: NextAuth sessions with role-based UI states</li>
+            <li>Exports: PDF/CSV for search results and single entries</li>
+          </ul>
+        </div>
+      </div>
     </AppShell>
   );
 }

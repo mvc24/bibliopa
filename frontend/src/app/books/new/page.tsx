@@ -2,7 +2,6 @@
 
 import { useRouter } from 'next/navigation';
 import { AppShell } from '@/components/layout/AppShell';
-import { Box, Stack, Title } from '@mantine/core';
 import { BookForm } from '@/components/forms/BookForm';
 import { TOPICS } from '@/components/topics';
 
@@ -11,9 +10,9 @@ export default function NewBookPage() {
 
   return (
     <AppShell>
-      <Stack gap="md">
-        <Title order={3}>Buch katalogisieren</Title>
-        <Box maw="80%">
+      <div className="stack">
+        <h2 className="page-title">Buch katalogisieren</h2>
+        <div style={{ maxWidth: '80%' }}>
           <BookForm
             onCancel={() => router.back()}
             onSave={async (data) => {
@@ -33,8 +32,8 @@ export default function NewBookPage() {
               );
             }}
           />
-        </Box>
-      </Stack>
+        </div>
+      </div>
     </AppShell>
   );
 }

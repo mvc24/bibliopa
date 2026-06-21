@@ -1,16 +1,12 @@
 import { AuthorFilter } from '@/components/elements/AuthorFilter';
 import { AppShell } from '../components/layout/AppShell';
-import { Card, Stack, Title, Text, Button, Group } from '@mantine/core';
 
 export default function LandingPage() {
   return (
     <AppShell>
-      <Stack gap="lg">
-        <Card
-          shadow="sm"
-          padding="lg"
-        >
-          <Stack gap="sm">
+      <div className="stack">
+        <div className="panel">
+          <div className="stack">
             <AuthorFilter />
 
             {/* <Group>
@@ -21,8 +17,8 @@ export default function LandingPage() {
                 Login / Create Account
               </Button>
             </Group> */}
-          </Stack>
-        </Card>
+          </div>
+        </div>
 
         {/* <Card
           shadow="sm"
@@ -38,7 +34,7 @@ export default function LandingPage() {
             <Text>- Flag issues for review and manage authority records.</Text>
           </Stack>
         </Card> */}
-      </Stack>
+      </div>
     </AppShell>
   );
 }

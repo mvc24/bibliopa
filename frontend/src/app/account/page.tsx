@@ -1,49 +1,46 @@
 'use client';
 import { AppShell } from '../../components/layout/AppShell';
-import {
-  Card,
-  Title,
-  Stack,
-  TextInput,
-  PasswordInput,
-  Button,
-  Text,
-} from '@mantine/core';
+import { TextField, Label, Input, Button } from 'react-aria-components';
 
 export default function AccountCreatePage() {
   return (
     <AppShell>
-      <Card
-        shadow="sm"
-        padding="lg"
-        maw={520}
+      <div
+        className="panel"
+        style={{ maxWidth: 520 }}
       >
-        <Stack gap="md">
-          <Title order={2}>Create Guest Account</Title>
-          <TextInput
-            label="Full name"
-            placeholder="Your name"
-            required
-          />
-          <TextInput
-            label="Email"
-            placeholder="you@example.com"
-            required
-          />
-          <PasswordInput
-            label="Password"
-            placeholder="Choose a strong password"
-            required
-          />
+        <div className="stack">
+          <h2 className="page-title">Create Guest Account</h2>
+          <TextField isRequired>
+            <Label>Full name</Label>
+            <Input placeholder="Your name" />
+          </TextField>
+          <TextField isRequired>
+            <Label>Email</Label>
+            <Input
+              type="email"
+              placeholder="you@example.com"
+            />
+          </TextField>
+          <TextField isRequired>
+            <Label>Password</Label>
+            <Input
+              type="password"
+              placeholder="Choose a strong password"
+            />
+          </TextField>
           <Button type="submit">Create account</Button>
-          <Text
-            size="sm"
-            c="dimmed"
+          <p
+            style={{
+              fontFamily: 'var(--font-sans)',
+              fontSize: 'var(--text-sm)',
+              color: 'var(--color-muted)',
+            }}
           >
             Special/family accounts are created by admin only.
-          </Text>
-        </Stack>
-      </Card>
+          </p>
+        </div>
+      </div>
     </AppShell>
   );
 }

@@ -5,7 +5,6 @@ import { useParams, useSearchParams } from 'next/navigation';
 import { BookOverview, PaginationInfo } from '@/types/database';
 
 import { AppShell } from '../../../components/layout/AppShell';
-import { Card, Stack, Group } from '@mantine/core';
 import { GridList, GridListItem, Button as AriaButton } from 'react-aria-components';
 import { formatPerson } from '@/lib/formatters';
 import { AuthorFilter } from '@/components/elements/AuthorFilter';
@@ -111,42 +110,13 @@ export default function BibliographyPage() {
 
   return (
     <AppShell>
-      <Stack gap="md">
-        <Card
-          shadow="sm"
-          padding="lg"
-        >
-          <Stack gap="xs">
+      <div className="stack">
+        <div className="panel">
+          <div className="stack">
             <AuthorFilter />
             <SearchBox onSearch={handleSearch} />
-            <Group gap="m">
-              {/* <Button variant="light">Advanced filters</Button> */}
-              {/* <Button
-                size="sm"
-                onClick={handleSearch}
-              >
-                Suchen
-              </Button>
-              {activeSearch && (
-                <Button
-                  variant="subtle"
-                  onClick={() => {
-                    setActiveSearch('');
-                    setSearchTerm('');
-                    setCurrentPage(1);
-                  }}
-                >
-                  Clear search
-                </Button>
-              )} */}
-            </Group>
-
-            {/* <Group gap="m">
-              <Button variant="default">Download CSV</Button>
-              <Button variant="default">Download PDF</Button>
-            </Group> */}
-          </Stack>
-        </Card>
+          </div>
+        </div>
         <GridList
           aria-label="Bücher"
           className="book-list"
@@ -253,7 +223,7 @@ export default function BibliographyPage() {
             </AriaButton>
           </nav>
         )}
-      </Stack>
+      </div>
     </AppShell>
   );
 }
