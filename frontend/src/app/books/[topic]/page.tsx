@@ -190,6 +190,13 @@ export default function BibliographyPage() {
                     </AriaButton>
                   </div>
                 )}
+                {showPrices && !canModify && book.mostRecentPrice && (
+                  <div className="book-actions">
+                    <span className="book-price-badge">
+                      € {book.mostRecentPrice.amount}
+                    </span>
+                  </div>
+                )}
               </GridListItem>
             );
           })}
