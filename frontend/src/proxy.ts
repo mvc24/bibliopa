@@ -128,6 +128,6 @@ export const config = {
      * - favicon.ico (favicon file)
      * - public folder
      */
-    '/((?!_next/static|_next/image|favicon.ico|apple-touch-icon|public).*)',
+    '/((?!_next/static|_next/image|favicon.ico|apple-touch-icon|.*\\..*).*)',
   ],
 };
