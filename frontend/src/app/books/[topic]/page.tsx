@@ -46,7 +46,9 @@ export default function BibliographyPage() {
         )}`
       : authorId
       ? `/api/books?page=${currentPage}&author=${authorId}`
-      : `/api/books?page=${currentPage}&topic=${topic}`;
+      : topic !== 'all'
+      ? `/api/books?page=${currentPage}&topic=${topic}`
+      : `/api/books?page=${currentPage}`;
 
     fetch(url)
       .then((response) => response.json())
