@@ -4,6 +4,7 @@ import { TextField, Label, Input, Button } from 'react-aria-components';
 
 import { signIn } from 'next-auth/react';
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function LoginPage() {
   const [username, setUsername] = useState<string>('');
@@ -54,6 +55,12 @@ export default function LoginPage() {
             />
           </TextField>
           <Button type="submit">Einloggen</Button>
+          <p style={{ fontSize: 14 }}>
+            <Link href="/forgot-password">Passwort vergessen?</Link>
+          </p>
+          <p style={{ fontSize: 14 }}>
+            Noch kein Konto? <Link href="/signup">Konto erstellen</Link>
+          </p>
         </form>
       </div>
     </AppShell>

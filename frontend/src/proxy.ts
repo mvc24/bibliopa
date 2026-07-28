@@ -10,6 +10,13 @@ export default withAuth(
     const token = req.nextauth.token;
     const path = req.nextUrl.pathname;
 
+    // Public auth endpoints (signup, verify-email, forgot/reset password) and
+    // NextAuth's own routes must work without a session. Each of these routes
+    // does its own session check where one is needed (e.g. change-password).
+    if (path.startsWith('/api/auth')) {
+      return NextResponse.next();
+    }
+
     if (path === '/books') {
       return NextResponse.redirect(new URL('/books/all', req.url));
     }
@@ -90,6 +97,10 @@ export default withAuth(
         const publicPaths = [
           '/',
           '/login',
+          '/signup',
+          '/verify-email',
+          '/forgot-password',
+          '/reset-password',
           '/bibliography',
           '/books',
           '/project',
