@@ -1,0 +1,62 @@
+[
+  {
+    "book_id": 4592,
+    "composite_id": "insel_644_26_27",
+    "title": "Von der Gestalt Natur/ Krafft und Würckung…",
+    "subtitle": "Auszug aus der Vollständigen Hauß- und Landbibliothek",
+    "copies": 1,
+    "amount": 30,
+    "original_entry": "VON DER GESTALT NATUR/ KRAFFT UND WÜRCKUNG…IB 948\nAuszug aus der Vollständigen Hauß- und Landbibliothek Andreas Glorez von Mährn Regenspurg zu Statt am Hof Anno 1702. Mit 31 Kupfern. Frankfurt 1971. 111 S. Sehr schöner Band.",
+    "person_id": 8110,
+    "unified_id": "glorez_andreas",
+    "family_name": "Glorez",
+    "given_names": "Andreas",
+    "display_name": "Glorez, Andreas von Mährn",
+    "ib_nr": "948"
+  },
+  {
+    "book_id": 4901,
+    "composite_id": "insel_505_21_27",
+    "title": "Hymnen an die Nacht. Die Christenheit oder Europa",
+    "subtitle": null,
+    "copies": null,
+    "amount": 8,
+    "original_entry": "NOVALIS IB 21\nHymnen an die Nacht. Die Christenheit oder Europa. Wiesbaden 56.-65. Tsd. 1951. 69 S.",
+    "person_id": 8538,
+    "unified_id": "novalis",
+    "family_name": null,
+    "given_names": null,
+    "display_name": "NOVALIS",
+    "ib_nr": "21"
+  },
+  {
+    "book_id": 5035,
+    "composite_id": "insel_492_20_27",
+    "title": "Shen-Schen",
+    "subtitle": "Die Wurzel des Lebens",
+    "copies": 1,
+    "amount": 8,
+    "original_entry": "MICHAIL M. PRISCHWIN IB 598\nShen-Schen. 'Die Wurzel des Lebens'. Erzählung Mit Illustrationen von Wladimir Faworski. Leipzig Insel 1962. 110 S. Vorsätze etwas gebräunt.",
+    "person_id": 8600,
+    "unified_id": "prischwin_michail_m",
+    "family_name": "Prischwin",
+    "given_names": "Michail M.",
+    "display_name": "PRISCHWIN, Michail M.",
+    "ib_nr": "598"
+  },
+  {
+    "book_id": 5181,
+    "composite_id": "insel_363_15_27",
+    "title": "Bühnenbilder und Figurinen zu Jewgeni Schwarz' <<Der Drache>>",
+    "subtitle": null,
+    "copies": 2,
+    "amount": 10,
+    "original_entry": "HORST SAGERT IB 953\nBühnenbilder und Figurinen zu Jewgeni Schwarz'Der Drache'. Mit 21 Abbildungen auf 22 Farbtafeln. Nachwort Lothar Lang. Leipzig Insel 1971. 41 S. Sehr gut erhalten. 2 Ex.",
+    "person_id": 8670,
+    "unified_id": "sagert_horst",
+    "family_name": "Sagert",
+    "given_names": "Horst",
+    "display_name": "SAGERT, Horst",
+    "ib_nr": "953"
+  }
+]

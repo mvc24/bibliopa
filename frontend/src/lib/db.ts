@@ -19,13 +19,21 @@ export function getPool(): Pool {
   if (!pool) {
     pool = new Pool({
       connectionString: process.env.DATABASE_URL,
-      max: 1, // ← CHANGE: Only 1 connection per function
-      idleTimeoutMillis: 30000, // Keep this
-      connectionTimeoutMillis: 10000, // ← CHANGE: Give it more time to connect
-      ssl: {
-        rejectUnauthorized: false, // ← ADD: Required for Neon on Vercel
-      },
+      max: 1,
+      idleTimeoutMillis: 30000,
+      connectionTimeoutMillis: 10000,
+      ssl: true, // verify the cert — honors verify-full; replaces rejectUnauthorized:false
     });
+
+    // pool = new Pool({
+    //   connectionString: process.env.DATABASE_URL,
+    //   max: 1, // ← CHANGE: Only 1 connection per function
+    //   idleTimeoutMillis: 30000, // Keep this
+    //   connectionTimeoutMillis: 10000, // ← CHANGE: Give it more time to connect
+    //   ssl: {
+    //     rejectUnauthorized: false, // ← ADD: Required for Neon on Vercel
+    //   },
+    // });
 
     // Log pool errors
     pool.on('error', (err) => {

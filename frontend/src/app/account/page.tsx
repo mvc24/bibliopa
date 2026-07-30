@@ -49,7 +49,7 @@ export default function AccountPage() {
             handleSubmit();
           }}
         >
-          <h2 className="page-title">Passwort ändern</h2>
+          <h2 className="page-title">Profil</h2>
           <TextField
             value={currentPassword}
             onChange={setCurrentPassword}

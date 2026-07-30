@@ -1,0 +1,90 @@
+[
+    {
+        "composite_id": "esoterik_6_1_3",
+        "source_filename": "batch_esoterik_1-3.json",
+        "unified_id": "blavatsky_helena_p",
+        "display_name": "Blavatsky, H.P.",
+        "family_name": "Blavatsky",
+        "given_names": "H.P.",
+        "name_particles": null,
+        "single_name": null,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false,
+        "sort_order": 0
+    },
+    {
+        "composite_id": "esoterik_7_1_3",
+        "source_filename": "batch_esoterik_1-3.json",
+        "unified_id": "blavatsky_helena_p",
+        "display_name": "BLAVATSKY, Helena P.",
+        "family_name": "Blavatsky",
+        "given_names": "Helena P.",
+        "name_particles": null,
+        "single_name": null,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false,
+        "sort_order": 0
+    },
+    {
+        "composite_id": "esoterik_8_1_3",
+        "source_filename": "batch_esoterik_1-3.json",
+        "unified_id": "blavatsky_helena_p",
+        "display_name": "BLAVATSKY, Helena Petrowna",
+        "family_name": "Blavatsky",
+        "given_names": "Helena Petrowna",
+        "name_particles": null,
+        "single_name": null,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false,
+        "sort_order": 0
+    },
+    {
+        "composite_id": "esoterik_9_1_3",
+        "source_filename": "really_clean_now.json",
+        "unified_id": "blavatsky_helena_p",
+        "display_name": "Blavatsky, Helena Petrowna",
+        "family_name": "Blavatsky",
+        "given_names": "Helena Petrowna",
+        "name_particles": null,
+        "single_name": null,
+        "is_author": true,
+        "is_editor": false,
+        "is_contributor": false,
+        "is_translator": false,
+        "sort_order": 0
+    },
+    {
+        "text": "BLAVATSKY, H.P || Die Geheimlehre. Die Vereinigung von Wissenschaft Religion und Philosophie. (In vier Bänden) || Band I. Kosmogenesis. Kosmische Evolution XXVI, 740 S. || Band II. Anthropogenesis. Zwölf Strophen aus dem Buche des DZYAN. XVII, 842 S. || Band III. Esoterik. XX, 594 S. || Band IV. Index. 313 S. || Den Haag Verlag J. J. Couvreur o.J. A.d.Engl. der dritten Auflage übersetzt von Robert Froebe. Makellose goldgeprägte Leinenbände.",
+        "source": "ESOTERIK.docx",
+        "price": 120,
+        "topic": "ESOTERIK",
+        "topic_normalised": "esoterik"
+    },
+    {
+        "text": "BLAVATSKY, Helena P. || Die Geheimlehre. Mit einem Essay von Rudolf Kurtz. Berlin Verlag Etthofen 1932. 1.-10.Tausend. XV, 344 S. OLn.",
+        "source": "ESOTERIK.docx",
+        "price": 30,
+        "topic": "ESOTERIK",
+        "topic_normalised": "esoterik"
+    },
+    {
+        "text": "BLAVATSKY, Helena Petrowna || Isis entschleiert. Band I. Wissenschaft. 668 S. Band II. Theologie 860 S. A.d.Engl. Hannover Verlag Esoterische Philosophie 2005. Jubiläumsausgabe mit stark erweitertem Index und ausführlichem Literaturverzeichnis. OPbd. m. Lesebändchen. Verlagsfrisch.",
+        "source": "ESOTERIK.docx",
+        "price": 100,
+        "topic": "ESOTERIK",
+        "topic_normalised": "esoterik"
+    },
+    {
+        "text": "BLAVATSKY, Helena Petrowna || Die Stimme der Stille und andere ausgewählte Bruchstücke aus dem 'Buch der Goldenen Lehren'. Graz Adyar-Verlag 1959. 141 S. OLn.",
+        "source": "ESOTERIK.docx",
+        "price": null,
+        "topic": "ESOTERIK",
+        "topic_normalised": "esoterik"
+    }
+]

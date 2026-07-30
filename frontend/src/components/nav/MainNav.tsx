@@ -60,6 +60,7 @@ export function MainNav() {
           </Button>
           <Popover>
             <Menu>
+              <MenuItem href="/account">Profil</MenuItem>
               <MenuItem onAction={handleLogout}>Logout</MenuItem>
             </Menu>
           </Popover>
