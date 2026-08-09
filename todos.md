@@ -10,6 +10,27 @@
 - abfrage nach preis
 - 
 
+## fixing missing books
+
+- [x] get data from db
+- [ ] create set of cids from books
+- [ ] combine parsed files, create 
+
+
+
+
+---
+
+wtf is this? 
+
+  {
+    "text": "A || || || || || || || || || || || || LBUS, Anita || Von seltenen Vögeln. Mit zahlreichen Abbildungen und zwei Farbtafeln. Frankfurt. S. Fischer 2005. 296 S. Buntes OLn. mit Klarsichtfolie und Lesebändchen. Neuwertig.",
+    "source": "BIBLIOPHILE BÜCHER.docx",
+    "price": 40,
+    "topic": "BIBLIOPHILE BÜCHER",
+    "topic_normalised": "bibliophile"
+  },
+
 
 https://bibliopa.vercel.app/books/briefe/9319?page=1&author=232#book-9319
 
