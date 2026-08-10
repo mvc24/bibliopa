@@ -4,19 +4,44 @@ from pathlib import Path
 from datetime import datetime
 from parse_single_batch import submit_batch
 
-def find_batch_files():
-    """Find all batch files in the flat batched folder"""
-    batch_dir = Path("data_reload/reparse_missing/batched")
+def get_available_topics():
+    """Auto-discover topics that have batch files ready for processing"""
+    batch_dir = Path("data/raw/batched")
+    available_topics = []
+
     if not batch_dir.exists():
         print(f"Warning: Batch directory {batch_dir} does not exist")
-        return []
+        return available_topics
 
-    return sorted(batch_dir.glob("*.json"))
+    # Scan subdirectories in data/batched/
+    for topic_dir in batch_dir.iterdir():
+        if topic_dir.is_dir():
+            # Check if directory contains .json batch files
+            json_files = list(topic_dir.glob("*.json"))
+            if json_files:
+                available_topics.append(topic_dir.name)
+                print(f"Found {len(json_files)} batch files for topic: {topic_dir.name}")
+
+    available_topics.sort()  # Keep consistent ordering
+    return available_topics
+
+def find_batch_files():
+    """Find all batch files for available topics"""
+    # batch_dir = Path("data/raw/batched")
+    batch_dir = Path("data_reload/reparse_missing/batched")
+    files = []
+    available_topics = get_available_topics()
+
+    for topic in available_topics:
+        topic_files = list(batch_dir.glob(f"{topic}/*.json"))
+        files.extend(topic_files)
+
+    return files
 
 def load_log():
     """Load existing progress log"""
     # log_file = Path("data/logs/batch_progress.json")
-    log_file = Path("data_reload/reparse_missing/logs/reparse_missing_log.json")
+    log_file = Path("data_reload/logs/find_missing_books.json")
     if log_file.exists():
         with open(log_file, 'r') as f:
             return json.load(f)
@@ -25,7 +50,7 @@ def load_log():
 def save_log(log_data):
     """Save progress log"""
     # log_file = Path("data/logs/batch_progress.json")
-    log_file = Path("data_reload/reparse_missing/logs/reparse_missing_log.json")
+    log_file = Path("data_reload/logs/find_missing_books.json")
     log_file.parent.mkdir(exist_ok=True)
     with open(log_file, 'w') as f:
         json.dump(log_data, f, indent=2)
@@ -37,13 +62,18 @@ def run_batch_processor(max_submit=15):
     print("Starting batch processor...")
     timestamp = datetime.now().strftime("%Y%m%d-%H%M")
 
+    # Discover available topics
+    print("\n=== AUTO-DISCOVERING AVAILABLE TOPICS ===")
+    available_topics = get_available_topics()
+    print(f"Available topics ready for processing: {len(available_topics)}")
+
+    if not available_topics:
+        print("No topics found with batch files. Run data_prep.py first to create batch files.")
+        return
+
     # Find files and load progress
     batch_files = find_batch_files()
     log_data = load_log()
-
-    if not batch_files:
-        print("No batch files found in data_reload/reparse_missing/batched/")
-        return
 
     print(f"\nTotal batch files ready for submission: {len(batch_files)}")
 
@@ -111,22 +141,23 @@ def main():
         help='Maximum number of batches to submit in this run (default: 15)'
     )
     parser.add_argument(
-        '--list-files',
+        '--list-topics',
         action='store_true',
-        help='List batch files found and exit (no submission)'
+        help='List available topics and exit (no submission)'
     )
 
     args = parser.parse_args()
 
-    if args.list_files:
-        files = find_batch_files()
-        if not files:
-            print("No batch files found.")
+    if args.list_topics:
+        print("Available topics with batch files:")
+        topics = get_available_topics()
+        if not topics:
+            print("No topics found with batch files.")
             return
 
-        print(f"Batch files found: {len(files)}")
-        for f in files:
-            print(f"  {f.name}")
+        for topic in topics:
+            batch_count = len(list(Path(f"data/raw/batched/{topic}").glob("*.json")))
+            print(f"  {topic}: {batch_count} batch files")
         return
 
     print(f"Batch Processor - Max submissions: {args.max_submit}")

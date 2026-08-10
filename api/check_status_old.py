@@ -16,7 +16,7 @@ client = anthropic.Anthropic()
 
 def load_log():
     """Load existing progress log."""
-    log_file = Path("data_reload/reparse_missing/logs/reparse_missing_log.json")
+    log_file = Path("data/logs/batch_progress.json")
     if log_file.exists():
         with open(log_file, "r") as f:
             return json.load(f)
@@ -25,25 +25,29 @@ def load_log():
 
 def save_log(log_data):
     """Save progress log."""
-    log_file = Path("data_reload/reparse_missing/logs/reparse_missing_log.json")
+    log_file = Path("data/logs/batch_progress.json")
     log_file.parent.mkdir(exist_ok=True)
     with open(log_file, "w") as f:
         json.dump(log_data, f, indent=2)
 
 
 def find_batch_files():
-    """Find all batch files in the flat batched folder."""
-    batch_dir = Path("data_reload/reparse_missing/batched")
+    """Find all batch files in data/raw/batched/<topic>/*.json."""
+    batch_dir = Path("data/raw/batched")
     if not batch_dir.exists():
         return []
 
-    return sorted(batch_dir.glob("*.json"))
+    files = []
+    for topic_dir in batch_dir.iterdir():
+        if topic_dir.is_dir():
+            files.extend(topic_dir.glob("*.json"))
+    return sorted(files)
 
 
 def parsed_file_for(batch_file_path):
     """Return the expected parsed-output path for a given batch file."""
     stem = Path(batch_file_path).stem
-    return Path(f"data_reload/reparse_missing/reparsed/{stem}.json")
+    return Path(f"data/parsed/batch_{stem}.json")
 
 
 # ============================================================
