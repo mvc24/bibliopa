@@ -17,6 +17,16 @@
 - [ ] combine parsed files, create 
 
 
+## FOUND THEM!
+
+- [ ] set of complete cids from batched
+- [ ] minus set of reference cids from parsed
+- [ ] minus set of existing cids from database
+- [ ] create batched data from missing in separate folder
+- [ ] reparse
+- [ ] worry about people later
+- [ ]
+
 
 
 ---
