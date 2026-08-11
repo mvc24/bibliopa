@@ -1,0 +1,562 @@
+{
+  "5760": {
+    "uid_parts": [
+      "richter"
+    ],
+    "is_single": false,
+    "unified_id": "richter",
+    "person_id": 5760,
+    "display_name": "RICHTER",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Richter",
+    "is_organisation": false
+  },
+  "2829": {
+    "uid_parts": [
+      "boborykin"
+    ],
+    "is_single": false,
+    "unified_id": "boborykin",
+    "person_id": 2829,
+    "display_name": "BOBORYKIN",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Boborykin",
+    "is_organisation": false
+  },
+  "2886": {
+    "uid_parts": [
+      "brauer"
+    ],
+    "is_single": false,
+    "unified_id": "brauer",
+    "person_id": 2886,
+    "display_name": "Brauer",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Brauer",
+    "is_organisation": false
+  },
+  "3061": {
+    "uid_parts": [
+      "brinckmann"
+    ],
+    "is_single": false,
+    "unified_id": "brinckmann",
+    "person_id": 3061,
+    "display_name": "Brinckmann",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Brinckmann",
+    "is_organisation": false
+  },
+  "4455": {
+    "uid_parts": [
+      "doring"
+    ],
+    "is_single": false,
+    "unified_id": "doring",
+    "person_id": 4455,
+    "display_name": "Döring",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Döring",
+    "is_organisation": false
+  },
+  "1971": {
+    "uid_parts": [
+      "puelz"
+    ],
+    "is_single": false,
+    "unified_id": "puelz",
+    "person_id": 1971,
+    "display_name": "PÜLZ",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Pülz",
+    "is_organisation": false
+  },
+  "1901": {
+    "uid_parts": [
+      "prokop"
+    ],
+    "is_single": false,
+    "unified_id": "prokop",
+    "person_id": 1901,
+    "display_name": "PROKOP",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Prokop",
+    "is_organisation": false
+  },
+  "688": {
+    "uid_parts": [
+      "heynemann"
+    ],
+    "is_single": false,
+    "unified_id": "heynemann",
+    "person_id": 688,
+    "display_name": "Heynemann",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Heynemann",
+    "is_organisation": false
+  },
+  "5496": {
+    "uid_parts": [
+      "rivarol"
+    ],
+    "is_single": false,
+    "unified_id": "rivarol",
+    "person_id": 5496,
+    "display_name": "Rivarol",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Rivarol",
+    "is_organisation": false
+  },
+  "2865": {
+    "uid_parts": [
+      "bottger"
+    ],
+    "is_single": false,
+    "unified_id": "bottger",
+    "person_id": 2865,
+    "display_name": "Böttger",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Böttger",
+    "is_organisation": false
+  },
+  "2199": {
+    "uid_parts": [
+      "zetner"
+    ],
+    "is_single": false,
+    "unified_id": "zetner",
+    "person_id": 2199,
+    "display_name": "Zetner",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Zetner",
+    "is_organisation": false
+  },
+  "6134": {
+    "uid_parts": [
+      "kuchar"
+    ],
+    "is_single": false,
+    "unified_id": "kuchar",
+    "person_id": 6134,
+    "display_name": "Kuchar",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Kuchar",
+    "is_organisation": false
+  },
+  "4049": {
+    "uid_parts": [
+      "vauvenargues"
+    ],
+    "is_single": false,
+    "unified_id": "vauvenargues",
+    "person_id": 4049,
+    "display_name": "Vauvenargues",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Vauvenargues",
+    "is_organisation": false
+  },
+  "5028": {
+    "uid_parts": [
+      "frohner"
+    ],
+    "is_single": false,
+    "unified_id": "frohner",
+    "person_id": 5028,
+    "display_name": "Frohner",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Frohner",
+    "is_organisation": false
+  },
+  "269": {
+    "uid_parts": [
+      "merz"
+    ],
+    "is_single": false,
+    "unified_id": "merz",
+    "person_id": 269,
+    "display_name": "MERZ",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Merz",
+    "is_organisation": false
+  },
+  "4665": {
+    "uid_parts": [
+      "deml"
+    ],
+    "is_single": false,
+    "unified_id": "deml",
+    "person_id": 4665,
+    "display_name": "Deml",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Deml",
+    "is_organisation": false
+  },
+  "6477": {
+    "uid_parts": [
+      "marx"
+    ],
+    "is_single": false,
+    "unified_id": "marx",
+    "person_id": 6477,
+    "display_name": "MARX",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Marx",
+    "is_organisation": false
+  },
+  "4889": {
+    "uid_parts": [
+      "erben"
+    ],
+    "is_single": false,
+    "unified_id": "erben",
+    "person_id": 4889,
+    "display_name": "Erben",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Erben",
+    "is_organisation": false
+  },
+  "878": {
+    "uid_parts": [
+      "hlavsa"
+    ],
+    "is_single": false,
+    "unified_id": "hlavsa",
+    "person_id": 878,
+    "display_name": "Hlavsa",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Hlavsa",
+    "is_organisation": false
+  },
+  "5761": {
+    "uid_parts": [
+      "riou"
+    ],
+    "is_single": false,
+    "unified_id": "riou",
+    "person_id": 5761,
+    "display_name": "Riou",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Riou",
+    "is_organisation": false
+  },
+  "5324": {
+    "uid_parts": [
+      "rosegger"
+    ],
+    "is_single": false,
+    "unified_id": "rosegger",
+    "person_id": 5324,
+    "display_name": "Rosegger",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Rosegger",
+    "is_organisation": false
+  },
+  "2433": {
+    "uid_parts": [
+      "bardenhewer"
+    ],
+    "is_single": false,
+    "unified_id": "bardenhewer",
+    "person_id": 2433,
+    "display_name": "Bardenhewer",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Bardenhewer",
+    "is_organisation": false
+  },
+  "1235": {
+    "uid_parts": [
+      "kiblitsky"
+    ],
+    "is_single": false,
+    "unified_id": "kiblitsky",
+    "person_id": 1235,
+    "display_name": "KIBLITSKY",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Kiblitsky",
+    "is_organisation": false
+  },
+  "5247": {
+    "uid_parts": [
+      "einhard"
+    ],
+    "is_single": false,
+    "unified_id": "einhard",
+    "person_id": 5247,
+    "display_name": "Einhard",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Einhard",
+    "is_organisation": false
+  },
+  "549": {
+    "uid_parts": [
+      "hepfer"
+    ],
+    "is_single": false,
+    "unified_id": "hepfer",
+    "person_id": 549,
+    "display_name": "Hepfer",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Hepfer",
+    "is_organisation": false
+  },
+  "5253": {
+    "uid_parts": [
+      "falkenhorst"
+    ],
+    "is_single": false,
+    "unified_id": "falkenhorst",
+    "person_id": 5253,
+    "display_name": "FALKENHORST",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Falkenhorst",
+    "is_organisation": false
+  },
+  "2324": {
+    "uid_parts": [
+      "alain"
+    ],
+    "is_single": false,
+    "unified_id": "alain",
+    "person_id": 2324,
+    "display_name": "ALAIN",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Alain",
+    "is_organisation": false
+  },
+  "1430": {
+    "uid_parts": [
+      "hviezdoslav"
+    ],
+    "is_single": false,
+    "unified_id": "hviezdoslav",
+    "person_id": 1430,
+    "display_name": "HVIEZDOSLAV",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Hviezdoslav",
+    "is_organisation": false
+  },
+  "8254": {
+    "uid_parts": [
+      "jamblich"
+    ],
+    "is_single": false,
+    "unified_id": "jamblich",
+    "person_id": 8254,
+    "display_name": "JAMBLICH",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Jamblich",
+    "is_organisation": false
+  },
+  "7546": {
+    "uid_parts": [
+      "goncourt"
+    ],
+    "is_single": false,
+    "unified_id": "goncourt",
+    "person_id": 7546,
+    "display_name": "GONCOURT",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Goncourt",
+    "is_organisation": false
+  },
+  "21": {
+    "uid_parts": [
+      "mirabeau"
+    ],
+    "is_single": false,
+    "unified_id": "mirabeau",
+    "person_id": 21,
+    "display_name": "MIRABEAU",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Mirabeau",
+    "is_organisation": false
+  },
+  "4288": {
+    "uid_parts": [
+      "vocke"
+    ],
+    "is_single": false,
+    "unified_id": "vocke",
+    "person_id": 4288,
+    "display_name": "Vocke",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Vocke",
+    "is_organisation": false
+  },
+  "476": {
+    "uid_parts": [
+      "melcher"
+    ],
+    "is_single": false,
+    "unified_id": "melcher",
+    "person_id": 476,
+    "display_name": "Melcher",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Melcher",
+    "is_organisation": false
+  },
+  "3466": {
+    "uid_parts": [
+      "strabo"
+    ],
+    "is_single": false,
+    "unified_id": "strabo",
+    "person_id": 3466,
+    "display_name": "STRABO",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Strabo",
+    "is_organisation": false
+  },
+  "1724": {
+    "uid_parts": [
+      "properz"
+    ],
+    "is_single": false,
+    "unified_id": "properz",
+    "person_id": 1724,
+    "display_name": "PROPERZ",
+    "family_name": null,
+    "given_names": null,
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": "Properz",
+    "is_organisation": false
+  }
+}

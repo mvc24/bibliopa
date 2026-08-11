@@ -1,0 +1,3455 @@
+[
+  {
+    "uid_parts": [
+      "heinz",
+      "mohr",
+      "gerd"
+    ],
+    "unified_id": "heinz_mohr_gerd",
+    "person_id": 727,
+    "display_name": "Heinz-Mohr, Gerd",
+    "family_name": "Heinz-Mohr",
+    "given_names": "Gerd",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "bukowska",
+      "grosse",
+      "ewa"
+    ],
+    "unified_id": "bukowska_grosse_ewa",
+    "person_id": 2917,
+    "display_name": "Bukowska-Grosse, Ewa",
+    "family_name": "Bukowska-Grosse",
+    "given_names": "Ewa",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "fischer",
+      "dieskau",
+      "dietrich"
+    ],
+    "unified_id": "fischer_dieskau_dietrich",
+    "person_id": 5002,
+    "display_name": "Dietrich Fischer-Dieskau",
+    "family_name": "Fischer-Dieskau",
+    "given_names": "Dietrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "schmidt",
+      "dengler",
+      "wendelin"
+    ],
+    "unified_id": "schmidt_dengler_wendelin",
+    "person_id": 6921,
+    "display_name": "Schmidt-Dengler, Wendelin",
+    "family_name": "Schmidt-Dengler",
+    "given_names": "Wendelin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "rot"
+    ],
+    "unified_id": "rot",
+    "person_id": 5602,
+    "display_name": "Rot",
+    "family_name": "Rot",
+    "given_names": "D.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "kaas"
+    ],
+    "unified_id": "kaas",
+    "person_id": 1268,
+    "display_name": "Kaas",
+    "family_name": "Kaas",
+    "given_names": "Harald",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "engel",
+      "janosi",
+      "friedrich"
+    ],
+    "unified_id": "engel_janosi_friedrich",
+    "person_id": 5265,
+    "display_name": "ENGEL-JANOSI, Friedrich",
+    "family_name": "Engel-Janosi",
+    "given_names": "Friedrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "oelscher",
+      "obermaier",
+      "hans",
+      "p"
+    ],
+    "unified_id": "oelscher_obermaier_hans_p",
+    "person_id": 42,
+    "display_name": "Oelscher-Obermaier, Hans-Peter",
+    "family_name": "Oelscher-Obermaier",
+    "given_names": "Hans-Peter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "ricker",
+      "abderhalden",
+      "judith"
+    ],
+    "unified_id": "ricker_abderhalden_judith",
+    "person_id": 5558,
+    "display_name": "Ricker-Abderhalden, Judith",
+    "family_name": "Ricker-Abderhalden",
+    "given_names": "Judith",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "goeppert",
+      "frank",
+      "herma",
+      "c"
+    ],
+    "unified_id": "goeppert_frank_herma_c",
+    "person_id": 7467,
+    "display_name": "Goeppert-Frank, Herma C.",
+    "family_name": "Goeppert-Frank",
+    "given_names": "Herma C.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "rode",
+      "breymann",
+      "susanne"
+    ],
+    "unified_id": "rode_breymann_susanne",
+    "person_id": 5415,
+    "display_name": "Rode-Breymann, Susanne",
+    "family_name": "Rode-Breymann",
+    "given_names": "Susanne",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "saint",
+      "exupery",
+      "antoine",
+      "de"
+    ],
+    "unified_id": "saint_exupery_antoine_de",
+    "person_id": 5668,
+    "display_name": "SAINT-EXUPERY, Antoine de",
+    "family_name": "Saint-Exupéry",
+    "given_names": "Antoine",
+    "name_prefix": null,
+    "name_particles": "de",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "vergil"
+    ],
+    "unified_id": "vergil",
+    "person_id": 3920,
+    "display_name": "VERGILIUS MARO, Publius",
+    "family_name": "Vergilius Maro",
+    "given_names": "Publius",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "motte",
+      "fouque",
+      "friedrich"
+    ],
+    "unified_id": "motte_fouque_friedrich",
+    "person_id": 139,
+    "display_name": "MOTTE-FOUQUE, Friedrich Baron de la",
+    "family_name": "Motte-Fouqué",
+    "given_names": "Friedrich",
+    "name_prefix": null,
+    "name_particles": "de la",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "brunner",
+      "taut",
+      "emma"
+    ],
+    "unified_id": "brunner_taut_emma",
+    "person_id": 3178,
+    "display_name": "BRUNNER-TAUT, Emma",
+    "family_name": "Brunner-Taut",
+    "given_names": "Emma",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "puff",
+      "trojan",
+      "andreas"
+    ],
+    "unified_id": "puff_trojan_andreas",
+    "person_id": 1828,
+    "display_name": "Puff-Trojan, Andreas",
+    "family_name": "Puff-Trojan",
+    "given_names": "Andreas",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "wagner",
+      "jauregg",
+      "theodor"
+    ],
+    "unified_id": "wagner_jauregg_theodor",
+    "person_id": 3829,
+    "display_name": "Wagner-Jauregg, Theodor",
+    "family_name": "Wagner-Jauregg",
+    "given_names": "Theodor",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "schreker",
+      "bures",
+      "haidy"
+    ],
+    "unified_id": "schreker_bures_haidy",
+    "person_id": 7016,
+    "display_name": "Schreker-Bures, Haidy",
+    "family_name": "Schreker-Bures",
+    "given_names": "Haidy",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "wagner",
+      "rieger",
+      "renate"
+    ],
+    "unified_id": "wagner_rieger_renate",
+    "person_id": 4071,
+    "display_name": "WAGNER-RIEGER, Renate",
+    "family_name": "Wagner-Rieger",
+    "given_names": "Renate",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "rosenstrauch",
+      "koenigsberg",
+      "edith"
+    ],
+    "unified_id": "rosenstrauch_koenigsberg_edith",
+    "person_id": 5657,
+    "display_name": "ROSENSTRAUCH-KÖNIGSBERG, Edith",
+    "family_name": "Rosenstrauch-Königsberg",
+    "given_names": "Edith",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "walwei",
+      "wiegelmann",
+      "hedwig"
+    ],
+    "unified_id": "walwei_wiegelmann_hedwig",
+    "person_id": 4177,
+    "display_name": "Walwei-Wiegelmann, Hedwig",
+    "family_name": "Walwei-Wiegelmann",
+    "given_names": "Hedwig",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "beer",
+      "hofmann",
+      "richard"
+    ],
+    "unified_id": "beer_hofmann_richard",
+    "person_id": 2656,
+    "display_name": "BEER-HOFMANN, Richard",
+    "family_name": "Beer-Hofmann",
+    "given_names": "Richard",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "read"
+    ],
+    "unified_id": "read",
+    "person_id": 5805,
+    "display_name": "READ, Herbert",
+    "family_name": "Read",
+    "given_names": "Herbert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "sieber",
+      "rilke",
+      "hella"
+    ],
+    "unified_id": "sieber_rilke_hella",
+    "person_id": 6901,
+    "display_name": "Hella Sieber-Rilke",
+    "family_name": "Sieber-Rilke",
+    "given_names": "Hella",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "schmidt",
+      "hellerau",
+      "cornelia"
+    ],
+    "unified_id": "schmidt_hellerau_cornelia",
+    "person_id": 7048,
+    "display_name": "Schmidt-Hellerau, Cornelia",
+    "family_name": "Schmidt-Hellerau",
+    "given_names": "Cornelia",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "reich",
+      "ranicki",
+      "marcel"
+    ],
+    "unified_id": "reich_ranicki_marcel",
+    "person_id": 5410,
+    "display_name": "Reich-Ranicki, Marcel",
+    "family_name": "Reich-Ranicki",
+    "given_names": "Marcel",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "gregor",
+      "dellin",
+      "martin"
+    ],
+    "unified_id": "gregor_dellin_martin",
+    "person_id": 7503,
+    "display_name": "GREGOR-DELLIN, Martin",
+    "family_name": "Gregor-Dellin",
+    "given_names": "Martin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "pillinger"
+    ],
+    "unified_id": "pillinger",
+    "person_id": 1814,
+    "display_name": "PILLINGER",
+    "family_name": "Pillinger",
+    "given_names": "Renate",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "wagner",
+      "jauregg",
+      "julius"
+    ],
+    "unified_id": "wagner_jauregg_julius",
+    "person_id": 4317,
+    "display_name": "WAGNER-JAUREGG, Julius",
+    "family_name": "Wagner-Jauregg",
+    "given_names": "Julius",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "roger",
+      "marx",
+      "claude"
+    ],
+    "unified_id": "roger_marx_claude",
+    "person_id": 5331,
+    "display_name": "Roger-Marx, Claude",
+    "family_name": "Roger-Marx",
+    "given_names": "Claude",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "frederichs"
+    ],
+    "unified_id": "frederichs",
+    "person_id": 4925,
+    "display_name": "Frederichs",
+    "family_name": "Frederichs",
+    "given_names": null,
+    "name_prefix": "Dr.",
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "rechel",
+      "mertens",
+      "eva"
+    ],
+    "unified_id": "rechel_mertens_eva",
+    "person_id": 5729,
+    "display_name": "Eva Rechel-Mertens",
+    "family_name": "Rechel-Mertens",
+    "given_names": "Eva",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "oppeln",
+      "bronikowski",
+      "friedrich"
+    ],
+    "unified_id": "oppeln_bronikowski_friedrich",
+    "person_id": 1545,
+    "display_name": "F.v.Oppeln-Bronikowski",
+    "family_name": "Oppeln-Bronikowski",
+    "given_names": "Friedrich",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "crepieux",
+      "jamin",
+      "j"
+    ],
+    "unified_id": "crepieux_jamin_j",
+    "person_id": 4530,
+    "display_name": "CREPIEUX-JAMIN, J.",
+    "family_name": "Crepieux-Jamin",
+    "given_names": "J.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "pfoser",
+      "schewig",
+      "kristina"
+    ],
+    "unified_id": "pfoser_schewig_kristina",
+    "person_id": 1580,
+    "display_name": "Pfoser-Schewig, Kristina",
+    "family_name": "Pfoser-Schewig",
+    "given_names": "Kristina",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "orth",
+      "guttmann",
+      "renate"
+    ],
+    "unified_id": "orth_guttmann_renate",
+    "person_id": 1798,
+    "display_name": "Orth-Guttmann, Renate",
+    "family_name": "Orth-Guttmann",
+    "given_names": "Renate",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "gregor",
+      "dellin",
+      "martin"
+    ],
+    "unified_id": "gregor_dellin_martin",
+    "person_id": 7503,
+    "display_name": "Gregor-Dellin, Martin",
+    "family_name": "Gregor-Dellin",
+    "given_names": "Martin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "lernet",
+      "holenia",
+      "alexander"
+    ],
+    "unified_id": "lernet_holenia_alexander",
+    "person_id": 6802,
+    "display_name": "LERNET-HOLENIA, Alexander",
+    "family_name": "Lernet-Holenia",
+    "given_names": "Alexander",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "streitler",
+      "kastberger",
+      "nicole"
+    ],
+    "unified_id": "streitler_kastberger_nicole",
+    "person_id": 3799,
+    "display_name": "STREITLER-KASTBERGER, Nicole",
+    "family_name": "Streitler-Kastberger",
+    "given_names": "Nicole",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "owlglass"
+    ],
+    "unified_id": "owlglass",
+    "person_id": 1600,
+    "display_name": "Owlglass",
+    "family_name": "Owlglass",
+    "given_names": null,
+    "name_prefix": "Dr.",
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "brugger"
+    ],
+    "unified_id": "brugger",
+    "person_id": 3131,
+    "display_name": "BRUGGER",
+    "family_name": "Brugger",
+    "given_names": "Ingried",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "scholz",
+      "hansel",
+      "michael"
+    ],
+    "unified_id": "scholz_hansel_michael",
+    "person_id": 7101,
+    "display_name": "Scholz-Hänsel, Michael",
+    "family_name": "Scholz-Hänsel",
+    "given_names": "Michael",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "stein",
+      "holkeskamp",
+      "elke"
+    ],
+    "unified_id": "stein_holkeskamp_elke",
+    "person_id": 3406,
+    "display_name": "Stein-Hölkeskamp, Elke",
+    "family_name": "Stein-Hölkeskamp",
+    "given_names": "Elke",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "heyden",
+      "rynsch",
+      "verena"
+    ],
+    "unified_id": "heyden_rynsch_verena",
+    "person_id": 926,
+    "display_name": "Heyden-Rynsch, Verena von der",
+    "family_name": "Heyden-Rynsch",
+    "given_names": "Verena",
+    "name_prefix": null,
+    "name_particles": "von der",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "muller",
+      "pohl",
+      "erika"
+    ],
+    "unified_id": "muller_pohl_erika",
+    "person_id": 227,
+    "display_name": "Erika Müller-Pöhl",
+    "family_name": "Müller-Pöhl",
+    "given_names": "Erika",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "schmidt",
+      "rottluff",
+      "karl"
+    ],
+    "unified_id": "schmidt_rottluff_karl",
+    "person_id": 7122,
+    "display_name": "Schmidt-Rottluff, Karl",
+    "family_name": "Schmidt-Rottluff",
+    "given_names": "Karl",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "barth",
+      "scalmani",
+      "gunda"
+    ],
+    "unified_id": "barth_scalmani_gunda",
+    "person_id": 2536,
+    "display_name": "Barth-Scalmani, Gunda",
+    "family_name": "Barth-Scalmani",
+    "given_names": "Gunda",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "wasner",
+      "peter",
+      "isabella"
+    ],
+    "unified_id": "wasner_peter_isabella",
+    "person_id": 3877,
+    "display_name": "Wasner-Peter, Isabella",
+    "family_name": "Wasner-Peter",
+    "given_names": "Isabella",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "ben",
+      "chorin",
+      "schalom"
+    ],
+    "unified_id": "ben_chorin_schalom",
+    "person_id": 2710,
+    "display_name": "BEN-CHORIM, Schalom",
+    "family_name": "Ben-Chorin",
+    "given_names": "Schalom",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "niehues",
+      "probsting",
+      "heinrich"
+    ],
+    "unified_id": "niehues_probsting_heinrich",
+    "person_id": 452,
+    "display_name": "NIEHUES-PRÖBSTING, Heinrich",
+    "family_name": "Niehues-Pröbsting",
+    "given_names": "Heinrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "bashir",
+      "hecht",
+      "herma"
+    ],
+    "unified_id": "bashir_hecht_herma",
+    "person_id": 2760,
+    "display_name": "BASHIR-HECHT, Herma",
+    "family_name": "Bashir-Hecht",
+    "given_names": "Herma",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "catull"
+    ],
+    "unified_id": "catull",
+    "person_id": 4763,
+    "display_name": "CATULLUS, C. Valerius",
+    "family_name": "Catullus",
+    "given_names": "C. Valerius",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "wagner",
+      "martin",
+      "linda"
+    ],
+    "unified_id": "wagner_martin_linda",
+    "person_id": 4213,
+    "display_name": "Wagner-Martin, Linda",
+    "family_name": "Wagner-Martin",
+    "given_names": "Linda",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "levi",
+      "strauss",
+      "claude"
+    ],
+    "unified_id": "levi_strauss_claude",
+    "person_id": 6774,
+    "display_name": "LEVI-STRAUSS, Claude",
+    "family_name": "Levi-Strauss",
+    "given_names": "Claude",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "droste",
+      "hulshoff",
+      "annette",
+      "von"
+    ],
+    "unified_id": "droste_hulshoff_annette_von",
+    "person_id": 4542,
+    "display_name": "DROSTE-HÜLSHOFF, Annette von",
+    "family_name": "Droste-Hülshoff",
+    "given_names": "Annette",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "jung",
+      "stilling",
+      "johann",
+      "h"
+    ],
+    "unified_id": "jung_stilling_johann_h",
+    "person_id": 1104,
+    "display_name": "JUNG-STILLING, Johann Heinrich",
+    "family_name": "Jung-Stilling",
+    "given_names": "Johann Heinrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "heidelberger",
+      "leonard",
+      "irene"
+    ],
+    "unified_id": "heidelberger_leonard_irene",
+    "person_id": 554,
+    "display_name": "Heidelberger-Leonard, Irene",
+    "family_name": "Heidelberger-Leonard",
+    "given_names": "Irene",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "owlglass"
+    ],
+    "unified_id": "owlglass",
+    "person_id": 1600,
+    "display_name": "Dr. Owlglaß",
+    "family_name": "Owlglass",
+    "given_names": null,
+    "name_prefix": "Dr.",
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "dlamini",
+      "mandela",
+      "zamaswazi"
+    ],
+    "unified_id": "dlamini_mandela_zamaswazi",
+    "person_id": 4645,
+    "display_name": "Dlamini-Mandela, Zamaswazi",
+    "family_name": "Dlamini-Mandela",
+    "given_names": "Zamaswazi",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "meier",
+      "graefe",
+      "julius"
+    ],
+    "unified_id": "meier_graefe_julius",
+    "person_id": 237,
+    "display_name": "MEIER-GRAEFE, Julius",
+    "family_name": "Meier-Gräfe",
+    "given_names": "Julius",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "mazek",
+      "fiala",
+      "k"
+    ],
+    "unified_id": "mazek_fiala_k",
+    "person_id": 439,
+    "display_name": "K. Mazek-Fiala",
+    "family_name": "Mazek-Fiala",
+    "given_names": "K.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "dupuis",
+      "labbe",
+      "dominique"
+    ],
+    "unified_id": "dupuis_labbe_dominique",
+    "person_id": 4440,
+    "display_name": "Dupuis-Labbe, Dominique",
+    "family_name": "Dupuis-Labbe",
+    "given_names": "Dominique",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "gottner",
+      "abendroth",
+      "heide"
+    ],
+    "unified_id": "gottner_abendroth_heide",
+    "person_id": 7702,
+    "display_name": "GÖTTNER-ABENDROTH, Heide",
+    "family_name": "Göttner-Abendroth",
+    "given_names": "Heide",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "brude",
+      "firnau",
+      "gisela"
+    ],
+    "unified_id": "brude_firnau_gisela",
+    "person_id": 3014,
+    "display_name": "Brude-Firnau, Gisela",
+    "family_name": "Brude-Firnau",
+    "given_names": "Gisela",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "gerold",
+      "tucholsky",
+      "mary"
+    ],
+    "unified_id": "gerold_tucholsky_mary",
+    "person_id": 7608,
+    "display_name": "Gerold-Tucholsky, Mary",
+    "family_name": "Gerold-Tucholsky",
+    "given_names": "Mary",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "ranke",
+      "graves",
+      "robert"
+    ],
+    "unified_id": "ranke_graves_robert",
+    "person_id": 1514,
+    "display_name": "RANKE-GRAVES, Robert von",
+    "family_name": "Ranke-Graves",
+    "given_names": "Robert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "heinz",
+      "mohr",
+      "gerd"
+    ],
+    "unified_id": "heinz_mohr_gerd",
+    "person_id": 727,
+    "display_name": "HEINZ-MOHR, Gerd",
+    "family_name": "Heinz-Mohr",
+    "given_names": "Gerd",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "thurn",
+      "und",
+      "taxis",
+      "hohenlohe",
+      "marie"
+    ],
+    "unified_id": "thurn_und_taxis_hohenlohe_marie",
+    "person_id": 3554,
+    "display_name": "THURN UND TAXIS-HOHENLOHE, Fürstin Marie von",
+    "family_name": "Thurn und Taxis-Hohenlohe",
+    "given_names": "Marie",
+    "name_prefix": "Fürstin",
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "goldschmitjentner",
+      "rudolf",
+      "k"
+    ],
+    "unified_id": "goldschmitjentner_rudolf_k",
+    "person_id": 8122,
+    "display_name": "Goldschmit-Jentner, Rudolf K.",
+    "family_name": "Goldschmit-Jentner",
+    "given_names": "Rudolf K.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "weber",
+      "kellermann",
+      "ingeborg"
+    ],
+    "unified_id": "weber_kellermann_ingeborg",
+    "person_id": 4252,
+    "display_name": "Weber-Kellermann, Ingeborg",
+    "family_name": "Weber-Kellermann",
+    "given_names": "Ingeborg",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "wolf-schneider",
+      "von",
+      "arno",
+      "oskar"
+    ],
+    "unified_id": "wolf-schneider_von_arno_oskar",
+    "person_id": 8922,
+    "display_name": "Wolf-Schneider von Arno, Oskar Freiherr",
+    "family_name": "Wolf-Schneider von Arno",
+    "given_names": "Oskar",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": "Freiherr",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "bermann",
+      "fischer",
+      "gottfried"
+    ],
+    "unified_id": "bermann_fischer_gottfried",
+    "person_id": 2544,
+    "display_name": "BERMANN-FISCHER, Gottfried",
+    "family_name": "Bermann-Fischer",
+    "given_names": "Gottfried",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "levi",
+      "strauss",
+      "claude"
+    ],
+    "unified_id": "levi_strauss_claude",
+    "person_id": 6774,
+    "display_name": "Claude Levi-Strauss",
+    "family_name": "Levi-Strauss",
+    "given_names": "Claude",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "giedion",
+      "welcker",
+      "c"
+    ],
+    "unified_id": "giedion_welcker_c",
+    "person_id": 7433,
+    "display_name": "GIEDION-WELCKER, C.",
+    "family_name": "Giedion-Welcker",
+    "given_names": "Carola",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "uhde",
+      "bernays",
+      "hermann"
+    ],
+    "unified_id": "uhde_bernays_hermann",
+    "person_id": 4227,
+    "display_name": "UHDE-BERNAYS, Hermann",
+    "family_name": "Uhde-Bernays",
+    "given_names": "Hermann",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "hart",
+      "davis",
+      "rupert"
+    ],
+    "unified_id": "hart_davis_rupert",
+    "person_id": 511,
+    "display_name": "Hart-Davis, Rupert",
+    "family_name": "Hart-Davis",
+    "given_names": "Rupert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "hackel"
+    ],
+    "unified_id": "hackel",
+    "person_id": 7337,
+    "display_name": "Hackel",
+    "family_name": "Hackel",
+    "given_names": "Franz-Heinrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "ben",
+      "chorin",
+      "schalom"
+    ],
+    "unified_id": "ben_chorin_schalom",
+    "person_id": 2710,
+    "display_name": "BEN CHORIM, Schalom",
+    "family_name": "Ben-Chorin",
+    "given_names": "Schalom",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "kopp",
+      "marx",
+      "michaela"
+    ],
+    "unified_id": "kopp_marx_michaela",
+    "person_id": 5876,
+    "display_name": "Kopp-Marx, Michaela",
+    "family_name": "Kopp-Marx",
+    "given_names": "Michaela",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "lernet",
+      "holenia",
+      "alexander"
+    ],
+    "unified_id": "lernet_holenia_alexander",
+    "person_id": 6802,
+    "display_name": "Lernet-Holenia, Alexander",
+    "family_name": "Lernet-Holenia",
+    "given_names": "Alexander",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "schulze",
+      "maizier",
+      "friedrich"
+    ],
+    "unified_id": "schulze_maizier_friedrich",
+    "person_id": 7000,
+    "display_name": "Schulze-Maizier, Friedrich",
+    "family_name": "Schulze-Maizier",
+    "given_names": "Friedrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "fulop",
+      "miller",
+      "rene"
+    ],
+    "unified_id": "fulop_miller_rene",
+    "person_id": 7366,
+    "display_name": "FÜLÖP-MILLER, René",
+    "family_name": "Fülöp-Miller",
+    "given_names": "René",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "ledig",
+      "rowohlt",
+      "heinrich",
+      "m"
+    ],
+    "unified_id": "ledig_rowohlt_heinrich_m",
+    "person_id": 6040,
+    "display_name": "Ledig-Rowohlt, Heinrich Maria",
+    "family_name": "Ledig-Rowohlt",
+    "given_names": "Heinrich Maria",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "badura",
+      "triska",
+      "eva"
+    ],
+    "unified_id": "badura_triska_eva",
+    "person_id": 2438,
+    "display_name": "Badura-Triska, Eva",
+    "family_name": "Badura-Triska",
+    "given_names": "Eva",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "brook",
+      "shepherd",
+      "gordon"
+    ],
+    "unified_id": "brook_shepherd_gordon",
+    "person_id": 3252,
+    "display_name": "BROOK-SHEPHERD, Gordon",
+    "family_name": "Brook-Shepherd",
+    "given_names": "Gordon",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "muller",
+      "seidel",
+      "walter"
+    ],
+    "unified_id": "muller_seidel_walter",
+    "person_id": 167,
+    "display_name": "Müller-Seidel, Walter",
+    "family_name": "Müller-Seidel",
+    "given_names": "Walter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "wagner",
+      "rieger",
+      "renate"
+    ],
+    "unified_id": "wagner_rieger_renate",
+    "person_id": 4071,
+    "display_name": "Wagner-Rieger, Renate",
+    "family_name": "Wagner-Rieger",
+    "given_names": "Renate",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "mazohl",
+      "wallnig",
+      "brigitte"
+    ],
+    "unified_id": "mazohl_wallnig_brigitte",
+    "person_id": 272,
+    "display_name": "Mazohl-Wallnig, Brigitte",
+    "family_name": "Mazohl-Wallnig",
+    "given_names": "Brigitte",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "bouchentouf",
+      "siagh",
+      "zohra"
+    ],
+    "unified_id": "bouchentouf_siagh_zohra",
+    "person_id": 3149,
+    "display_name": "Bouchentouf-Siagh, Zohra",
+    "family_name": "Bouchentouf-Siagh",
+    "given_names": "Zohra",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "patzelt",
+      "menne",
+      "anna"
+    ],
+    "unified_id": "patzelt_menne_anna",
+    "person_id": 1627,
+    "display_name": "PATZELT-MENNE, Anna",
+    "family_name": "Patzelt-Menne",
+    "given_names": "Anna",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "schaefer",
+      "ast",
+      "albert"
+    ],
+    "unified_id": "schaefer_ast_albert",
+    "person_id": 5777,
+    "display_name": "ALBERT SCHAEFER-AST",
+    "family_name": "Schaefer-Ast",
+    "given_names": "Albert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "sacher",
+      "masoch",
+      "alexander"
+    ],
+    "unified_id": "sacher_masoch_alexander",
+    "person_id": 5444,
+    "display_name": "SACHER-MASOCH, Alexander",
+    "family_name": "Sacher-Masoch",
+    "given_names": "Alexander",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "mainberger",
+      "ruh",
+      "elisabeth"
+    ],
+    "unified_id": "mainberger_ruh_elisabeth",
+    "person_id": 6373,
+    "display_name": "Mainberger-Ruh, Elisabeth",
+    "family_name": "Mainberger-Ruh",
+    "given_names": "Elisabeth",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "weiservon",
+      "inffeld",
+      "josepha"
+    ],
+    "unified_id": "weiservon_inffeld_josepha",
+    "person_id": 8894,
+    "display_name": "WEISER-VON INFFELD, Josepha",
+    "family_name": "Weiser-von Inffeld",
+    "given_names": "Josepha",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "wimmer",
+      "webhofer",
+      "erika"
+    ],
+    "unified_id": "wimmer_webhofer_erika",
+    "person_id": 2314,
+    "display_name": "Wimmer-Webhofer, Erika",
+    "family_name": "Wimmer-Webhofer",
+    "given_names": "Erika",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "gleichen",
+      "russwurm",
+      "alexander"
+    ],
+    "unified_id": "gleichen_russwurm_alexander",
+    "person_id": 7530,
+    "display_name": "GLEICHEN-RUSSWURM, Alexander von",
+    "family_name": "Gleichen-Rußwurm",
+    "given_names": "Alexander",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "zeltner",
+      "neukomm",
+      "gerda"
+    ],
+    "unified_id": "zeltner_neukomm_gerda",
+    "person_id": 2286,
+    "display_name": "ZELTNER-NEUKOMM, Gerda",
+    "family_name": "Zeltner-Neukomm",
+    "given_names": "Gerda",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "pross",
+      "weerth",
+      "heddy"
+    ],
+    "unified_id": "pross_weerth_heddy",
+    "person_id": 1699,
+    "display_name": "Heddy Pross-Weerth",
+    "family_name": "Proß-Weerth",
+    "given_names": "Heddy",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "evans",
+      "pritchard",
+      "edward",
+      "e"
+    ],
+    "unified_id": "evans_pritchard_edward_e",
+    "person_id": 5100,
+    "display_name": "EVANS-PRITCHARD, Edward E.",
+    "family_name": "Evans-Pritchard",
+    "given_names": "Edward E.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "sallis",
+      "freudenthal",
+      "margarete"
+    ],
+    "unified_id": "sallis_freudenthal_margarete",
+    "person_id": 5687,
+    "display_name": "SALLIS-FREUDENTHAL, Margarete",
+    "family_name": "Sallis-Freudenthal",
+    "given_names": "Margarete",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "pueckler",
+      "muskau",
+      "hermann"
+    ],
+    "unified_id": "pueckler_muskau_hermann",
+    "person_id": 1973,
+    "display_name": "PÜCKLER-MUSKAU, Fürst Hermann von",
+    "family_name": "Pückler-Muskau",
+    "given_names": "Hermann",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": "Fürst",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "voigt",
+      "diederichs",
+      "helene"
+    ],
+    "unified_id": "voigt_diederichs_helene",
+    "person_id": 4194,
+    "display_name": "HELENE VOIGT-DIEDERICHS",
+    "family_name": "Voigt-Diederichs",
+    "given_names": "Helene",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "engels"
+    ],
+    "unified_id": "engels",
+    "person_id": 5097,
+    "display_name": "ENGELS",
+    "family_name": "Engels",
+    "given_names": "Friedrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "thomas",
+      "san",
+      "galli",
+      "w",
+      "a"
+    ],
+    "unified_id": "thomas_san_galli_w_a",
+    "person_id": 3441,
+    "display_name": "THOMAS-SAN-GALLI, W.A.",
+    "family_name": "Thomas-San-Galli",
+    "given_names": "W.A.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "meier",
+      "rogan",
+      "patricia"
+    ],
+    "unified_id": "meier_rogan_patricia",
+    "person_id": 200,
+    "display_name": "Meier-Rogan, Patricia",
+    "family_name": "Meier-Rogan",
+    "given_names": "Patricia",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "kiegler",
+      "griensteidl",
+      "monika"
+    ],
+    "unified_id": "kiegler_griensteidl_monika",
+    "person_id": 1435,
+    "display_name": "Kiegler-Griensteidl, Monika",
+    "family_name": "Kiegler-Griensteidl",
+    "given_names": "Monika",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "uhde",
+      "bernays",
+      "hermann"
+    ],
+    "unified_id": "uhde_bernays_hermann",
+    "person_id": 4227,
+    "display_name": "Uhde-Bernays, Hermann",
+    "family_name": "Uhde-Bernays",
+    "given_names": "Hermann",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "gruetzmacher",
+      "tabori",
+      "ursula"
+    ],
+    "unified_id": "gruetzmacher_tabori_ursula",
+    "person_id": 7367,
+    "display_name": "Grützmacher-Tabori, Ursula",
+    "family_name": "Grützmacher-Tabori",
+    "given_names": "Ursula",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "bassermann",
+      "jordan",
+      "ernst"
+    ],
+    "unified_id": "bassermann_jordan_ernst",
+    "person_id": 2690,
+    "display_name": "BASSERMANN-JORDAN, Ernst",
+    "family_name": "Bassermann-Jordan",
+    "given_names": "Ernst",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "siegmund",
+      "schulze",
+      "walther"
+    ],
+    "unified_id": "siegmund_schulze_walther",
+    "person_id": 6859,
+    "display_name": "SIEGMUND-SCHULZE, Walther",
+    "family_name": "Siegmund-Schulze",
+    "given_names": "Walther",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "pross",
+      "weerth",
+      "heddy"
+    ],
+    "unified_id": "pross_weerth_heddy",
+    "person_id": 1699,
+    "display_name": "Proß-Weerth, Heddy",
+    "family_name": "Proß-Weerth",
+    "given_names": "Heddy",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "pfister",
+      "burkhalter",
+      "margarete"
+    ],
+    "unified_id": "pfister_burkhalter_margarete",
+    "person_id": 1612,
+    "display_name": "Pfister-Burkhalter, Margarete",
+    "family_name": "Pfister-Burkhalter",
+    "given_names": "Margarete",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "keil",
+      "budischowsky",
+      "verena"
+    ],
+    "unified_id": "keil_budischowsky_verena",
+    "person_id": 1463,
+    "display_name": "KEIL-BUDISCHOWSKY, Verena",
+    "family_name": "Keil-Budischowsky",
+    "given_names": "Verena",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "lasker",
+      "schueler",
+      "else"
+    ],
+    "unified_id": "lasker_schueler_else",
+    "person_id": 6191,
+    "display_name": "LASKER-SCHÜLER, Else",
+    "family_name": "Lasker-Schüler",
+    "given_names": "Else",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "sternheim",
+      "peters",
+      "eva"
+    ],
+    "unified_id": "sternheim_peters_eva",
+    "person_id": 3551,
+    "display_name": "STERNHEIM-PETERS, Eva",
+    "family_name": "Sternheim-Peters",
+    "given_names": "Eva",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "reich",
+      "ranicki",
+      "marcel"
+    ],
+    "unified_id": "reich_ranicki_marcel",
+    "person_id": 5410,
+    "display_name": "REICH-RANICKI, Marcel",
+    "family_name": "Reich-Ranicki",
+    "given_names": "Marcel",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "vomes",
+      "liebenstein",
+      "ursula"
+    ],
+    "unified_id": "vomes_liebenstein_ursula",
+    "person_id": 4209,
+    "display_name": "Vomes-Liebenstein, Ursula",
+    "family_name": "Vomes-Liebenstein",
+    "given_names": "Ursula",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "schultze",
+      "naumburg",
+      "paul"
+    ],
+    "unified_id": "schultze_naumburg_paul",
+    "person_id": 7197,
+    "display_name": "SCHULTZE-NAUMBURG, Paul",
+    "family_name": "Schultze-Naumburg",
+    "given_names": "Paul",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "sacher",
+      "masoch",
+      "wanda"
+    ],
+    "unified_id": "sacher_masoch_wanda",
+    "person_id": 5510,
+    "display_name": "SACHER-MASOCH, Wanda von",
+    "family_name": "Sacher-Masoch",
+    "given_names": "Wanda",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "niederkorn",
+      "bruck",
+      "meta"
+    ],
+    "unified_id": "niederkorn_bruck_meta",
+    "person_id": 393,
+    "display_name": "Niederkorn-Bruck, Meta",
+    "family_name": "Niederkorn-Bruck",
+    "given_names": "Meta",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "reich",
+      "ranicki",
+      "marcel"
+    ],
+    "unified_id": "reich_ranicki_marcel",
+    "person_id": 5410,
+    "display_name": "Marcel Reich-Ranicki",
+    "family_name": "Reich-Ranicki",
+    "given_names": "Marcel",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "mackworth",
+      "praed",
+      "ben"
+    ],
+    "unified_id": "mackworth_praed_ben",
+    "person_id": 6616,
+    "display_name": "Mackworth-Praed, Ben",
+    "family_name": "Mackworth-Praed",
+    "given_names": "Ben",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "schaarschmidt",
+      "richter",
+      "irmtraud"
+    ],
+    "unified_id": "schaarschmidt_richter_irmtraud",
+    "person_id": 5778,
+    "display_name": "Schaarschmidt-Richter, Irmtraud",
+    "family_name": "Schaarschmidt-Richter",
+    "given_names": "Irmtraud",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "berg"
+    ],
+    "unified_id": "berg",
+    "person_id": 2603,
+    "display_name": "BERG",
+    "family_name": "Berg",
+    "given_names": "Alban",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "leinz",
+      "von",
+      "dessauer",
+      "antonie"
+    ],
+    "unified_id": "leinz_von_dessauer_antonie",
+    "person_id": 6617,
+    "display_name": "LEINZ- VON DESSAUER, Antonie",
+    "family_name": "Leinz-von Dessauer",
+    "given_names": "Antonie",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "robbe",
+      "grillet",
+      "alain"
+    ],
+    "unified_id": "robbe_grillet_alain",
+    "person_id": 5630,
+    "display_name": "ROBBE-GRILLET, Alain",
+    "family_name": "Robbe-Grillet",
+    "given_names": "Alain",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "bensasson",
+      "haim",
+      "h"
+    ],
+    "unified_id": "bensasson_haim_h",
+    "person_id": 7883,
+    "display_name": "Ben-Sasson, Haim Hillel",
+    "family_name": "Ben-Sasson",
+    "given_names": "Haim Hillel",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "kaltwasser"
+    ],
+    "unified_id": "kaltwasser",
+    "person_id": 1418,
+    "display_name": "Kaltwasser",
+    "family_name": "Kaltwasser",
+    "given_names": "Joh. Friedr. Salomon",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "lehman",
+      "leander",
+      "ernst",
+      "r"
+    ],
+    "unified_id": "lehman_leander_ernst_r",
+    "person_id": 6539,
+    "display_name": "Lehman-Leander, Ernst R.",
+    "family_name": "Lehman-Leander",
+    "given_names": "Ernst R.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "glaser",
+      "gerhard",
+      "ernst"
+    ],
+    "unified_id": "glaser_gerhard_ernst",
+    "person_id": 7534,
+    "display_name": "Glaser-Gerhard, Ernst",
+    "family_name": "Glaser-Gerhard",
+    "given_names": "Ernst",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "fulop",
+      "miller",
+      "rene"
+    ],
+    "unified_id": "fulop_miller_rene",
+    "person_id": 7366,
+    "display_name": "FÜLÖP-MILLER, Rene",
+    "family_name": "Fülöp-Miller",
+    "given_names": "René",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "rosenstrauch",
+      "koenigsberg",
+      "edith"
+    ],
+    "unified_id": "rosenstrauch_koenigsberg_edith",
+    "person_id": 5657,
+    "display_name": "Rosenstrauch-Königsberg, Edith",
+    "family_name": "Rosenstrauch-Königsberg",
+    "given_names": "Edith",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "barrett",
+      "browning",
+      "elisabeth"
+    ],
+    "unified_id": "barrett_browning_elisabeth",
+    "person_id": 2550,
+    "display_name": "BARRETT-BROWNING, Elisabeth",
+    "family_name": "Barrett-Browning",
+    "given_names": "Elisabeth",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "sachsen",
+      "coburg",
+      "mathilde"
+    ],
+    "unified_id": "sachsen_coburg_mathilde",
+    "person_id": 5774,
+    "display_name": "Mathilde, Prinzessin von Sachsen-Coburg",
+    "family_name": "Sachsen-Coburg",
+    "given_names": "Mathilde",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "heyden",
+      "rynsch",
+      "verena"
+    ],
+    "unified_id": "heyden_rynsch_verena",
+    "person_id": 926,
+    "display_name": "HEYDEN-RYNSCH, Verena von der",
+    "family_name": "Heyden-Rynsch",
+    "given_names": "Verena",
+    "name_prefix": null,
+    "name_particles": "von der",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "leinz",
+      "von",
+      "dessauer",
+      "antonie"
+    ],
+    "unified_id": "leinz_von_dessauer_antonie",
+    "person_id": 6617,
+    "display_name": "Leinz-von Dessauer, Antonie",
+    "family_name": "Leinz-von Dessauer",
+    "given_names": "Antonie",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "meier",
+      "graefe",
+      "julius"
+    ],
+    "unified_id": "meier_graefe_julius",
+    "person_id": 237,
+    "display_name": "Meier-Graefe, Julius",
+    "family_name": "Meier-Gräfe",
+    "given_names": "Julius",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "ave",
+      "lallement",
+      "friedrich",
+      "c"
+    ],
+    "unified_id": "ave_lallement_friedrich_c",
+    "person_id": 2534,
+    "display_name": "AVE-LALLEMENT, Friedrich Christian Benedikt",
+    "family_name": "Ave-Lallement",
+    "given_names": "Friedrich Christian Benedikt",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "fried",
+      "boswell",
+      "catherine"
+    ],
+    "unified_id": "fried_boswell_catherine",
+    "person_id": 4860,
+    "display_name": "Catherine Fried-Boswell",
+    "family_name": "Fried-Boswell",
+    "given_names": "Catherine",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "seneca"
+    ],
+    "unified_id": "seneca",
+    "person_id": 6986,
+    "display_name": "SENECA",
+    "family_name": "Seneca",
+    "given_names": "Lucius Annaeus",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "grom",
+      "rottmayer",
+      "hermann"
+    ],
+    "unified_id": "grom_rottmayer_hermann",
+    "person_id": 7520,
+    "display_name": "Gröm-Rottmayer, Hermann",
+    "family_name": "Gröm-Rottmayer",
+    "given_names": "Hermann",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "corbineau",
+      "hoffmann",
+      "angelika"
+    ],
+    "unified_id": "corbineau_hoffmann_angelika",
+    "person_id": 4399,
+    "display_name": "Corbineau-Hoffmann, Angelika",
+    "family_name": "Corbineau-Hoffmann",
+    "given_names": "Angelika",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "bille",
+      "de",
+      "mot",
+      "eleonore"
+    ],
+    "unified_id": "bille_de_mot_eleonore",
+    "person_id": 3087,
+    "display_name": "BILLE-DE MOT, Eleonore",
+    "family_name": "Bille-De Mot",
+    "given_names": "Eleonore",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "bennent",
+      "vahle",
+      "heidemarie"
+    ],
+    "unified_id": "bennent_vahle_heidemarie",
+    "person_id": 2699,
+    "display_name": "Bennent-Vahle, Heidemarie",
+    "family_name": "Bennent-Vahle",
+    "given_names": "Heidemarie",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "leroi",
+      "gourhan",
+      "andre"
+    ],
+    "unified_id": "leroi_gourhan_andre",
+    "person_id": 6788,
+    "display_name": "LEROI-GOURHAN, Andre",
+    "family_name": "Leroi-Gourhan",
+    "given_names": "Andre",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "muller",
+      "kamp",
+      "erich"
+    ],
+    "unified_id": "muller_kamp_erich",
+    "person_id": 358,
+    "display_name": "Müller-Kamp, Erich",
+    "family_name": "Müller-Kamp",
+    "given_names": "Erich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "schmidt",
+      "dengler",
+      "wendelin"
+    ],
+    "unified_id": "schmidt_dengler_wendelin",
+    "person_id": 6921,
+    "display_name": "SCHMIDT-DENGLER, Wendelin",
+    "family_name": "Schmidt-Dengler",
+    "given_names": "Wendelin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "kohlbauer",
+      "fritz",
+      "gabriele"
+    ],
+    "unified_id": "kohlbauer_fritz_gabriele",
+    "person_id": 6299,
+    "display_name": "KOHLBAUER-FRITZ, Gabriele",
+    "family_name": "Kohlbauer-Fritz",
+    "given_names": "Gabriele",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "muller",
+      "guttenbrunn",
+      "adam"
+    ],
+    "unified_id": "muller_guttenbrunn_adam",
+    "person_id": 109,
+    "display_name": "MÜLLER-GUTTENBRUNN, Adam",
+    "family_name": "Müller-Guttenbrunn",
+    "given_names": "Adam",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "sagner",
+      "duchting",
+      "karin"
+    ],
+    "unified_id": "sagner_duchting_karin",
+    "person_id": 5769,
+    "display_name": "SAGNER-DÜCHTING, Karin",
+    "family_name": "Sagner-Düchting",
+    "given_names": "Karin",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "riley",
+      "smith",
+      "jonathan"
+    ],
+    "unified_id": "riley_smith_jonathan",
+    "person_id": 5520,
+    "display_name": "Riley-Smith, Jonathan",
+    "family_name": "Riley-Smith",
+    "given_names": "Jonathan",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "mendelssohn",
+      "bartholdy",
+      "felix"
+    ],
+    "unified_id": "mendelssohn_bartholdy_felix",
+    "person_id": 414,
+    "display_name": "MENDELSSOHN BARTHOLDY, Felix",
+    "family_name": "Mendelssohn-Bartholdy",
+    "given_names": "Felix",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "sacher",
+      "masoch",
+      "alexander"
+    ],
+    "unified_id": "sacher_masoch_alexander",
+    "person_id": 5444,
+    "display_name": "Alexander von Sacher-Masoch",
+    "family_name": "Sacher-Masoch",
+    "given_names": "Alexander",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "geigy",
+      "hagenbach",
+      "k"
+    ],
+    "unified_id": "geigy_hagenbach_k",
+    "person_id": 7351,
+    "display_name": "GEIGY-HAGENBACH, K.",
+    "family_name": "Geigy-Hagenbach",
+    "given_names": "K.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "schorn",
+      "schutte",
+      "luise"
+    ],
+    "unified_id": "schorn_schutte_luise",
+    "person_id": 7120,
+    "display_name": "Schorn-Schütte, Luise",
+    "family_name": "Schorn-Schütte",
+    "given_names": "Luise",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "albrecht",
+      "weinberger",
+      "karl"
+    ],
+    "unified_id": "albrecht_weinberger_karl",
+    "person_id": 2766,
+    "display_name": "Karl Albrecht-Weinberger",
+    "family_name": "Albrecht-Weinberger",
+    "given_names": "Karl",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "siegmund",
+      "schulze",
+      "walther"
+    ],
+    "unified_id": "siegmund_schulze_walther",
+    "person_id": 6859,
+    "display_name": "SIEGMUND-SCHULTE, Walther",
+    "family_name": "Siegmund-Schulze",
+    "given_names": "Walther",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "ebner",
+      "eschenbach",
+      "marie",
+      "v"
+    ],
+    "unified_id": "ebner_eschenbach_marie_v",
+    "person_id": 5140,
+    "display_name": "MARIE VON EBNER-SCHENBACH",
+    "family_name": "Ebner-Eschenbach",
+    "given_names": "Marie",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "herzmonovsky",
+      "orlando",
+      "fritz",
+      "von"
+    ],
+    "unified_id": "herzmonovsky_orlando_fritz_von",
+    "person_id": 610,
+    "display_name": "HERZMONOVSKY-ORLANDO, Fritz von",
+    "family_name": "Herzmonovsky-Orlando",
+    "given_names": "Fritz",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "hofmann",
+      "montanus",
+      "hans"
+    ],
+    "unified_id": "hofmann_montanus_hans",
+    "person_id": 8222,
+    "display_name": "HOFMANN-MONTANUS, Hans",
+    "family_name": "Hofmann-Montanus",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "meier",
+      "jager",
+      "dora"
+    ],
+    "unified_id": "meier_jager_dora",
+    "person_id": 229,
+    "display_name": "Meier-Jäger, Dora",
+    "family_name": "Meier-Jäger",
+    "given_names": "Dora",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "zeppel",
+      "sperl",
+      "robert"
+    ],
+    "unified_id": "zeppel_sperl_robert",
+    "person_id": 2088,
+    "display_name": "ZEPPEL-SPERL, Robert",
+    "family_name": "Zeppel-Sperl",
+    "given_names": "Robert",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "braun",
+      "prager",
+      "kaethe"
+    ],
+    "unified_id": "braun_prager_kaethe",
+    "person_id": 3101,
+    "display_name": "Käthe Braun-Prager",
+    "family_name": "Braun-Prager",
+    "given_names": "Käthe",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "bermann",
+      "fischer",
+      "brigitte"
+    ],
+    "unified_id": "bermann_fischer_brigitte",
+    "person_id": 2614,
+    "display_name": "BERMANN FISCHER, Brigitte",
+    "family_name": "Bermann-Fischer",
+    "given_names": "Brigitte",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "schoell",
+      "glass",
+      "charlotte"
+    ],
+    "unified_id": "schoell_glass_charlotte",
+    "person_id": 7053,
+    "display_name": "SCHOELL-GLASS, Charlotte",
+    "family_name": "Schoell-Glass",
+    "given_names": "Charlotte",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "ben",
+      "chorin",
+      "schalom"
+    ],
+    "unified_id": "ben_chorin_schalom",
+    "person_id": 2710,
+    "display_name": "BEN-CHORIN, Schalom",
+    "family_name": "Ben-Chorin",
+    "given_names": "Schalom",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "hofmann",
+      "montanus",
+      "hans"
+    ],
+    "unified_id": "hofmann_montanus_hans",
+    "person_id": 8222,
+    "display_name": "Hofmann-Montanus, Hans",
+    "family_name": "Hofmann-Montanus",
+    "given_names": "Hans",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "pueckler",
+      "muskau",
+      "hermann"
+    ],
+    "unified_id": "pueckler_muskau_hermann",
+    "person_id": 1973,
+    "display_name": "PÜCKLER-MUSKAU, Fürst von",
+    "family_name": "Pückler-Muskau",
+    "given_names": "Hermann",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": "Fürst",
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "meier",
+      "graefe",
+      "julius"
+    ],
+    "unified_id": "meier_graefe_julius",
+    "person_id": 237,
+    "display_name": "MEIER-GRÄFE, Julius",
+    "family_name": "Meier-Gräfe",
+    "given_names": "Julius",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "hadas",
+      "lebel",
+      "mireille"
+    ],
+    "unified_id": "hadas_lebel_mireille",
+    "person_id": 954,
+    "display_name": "HADAS-LEBEL, Mireille",
+    "family_name": "Hadas-Lebel",
+    "given_names": "Mireille",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "hermann",
+      "fichtenau",
+      "elisabeth"
+    ],
+    "unified_id": "hermann_fichtenau_elisabeth",
+    "person_id": 513,
+    "display_name": "Hermann-Fichtenau, Elisabeth",
+    "family_name": "Hermann-Fichtenau",
+    "given_names": "Elisabeth",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "chaussinand",
+      "nogaret",
+      "guy"
+    ],
+    "unified_id": "chaussinand_nogaret_guy",
+    "person_id": 4806,
+    "display_name": "Chaussinand-Nogaret, Guy",
+    "family_name": "Chaussinand-Nogaret",
+    "given_names": "Guy",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "hoffmann",
+      "erbrecht",
+      "lothar"
+    ],
+    "unified_id": "hoffmann_erbrecht_lothar",
+    "person_id": 859,
+    "display_name": "HOFFMANN-ERBRECHT, Lothar",
+    "family_name": "Hoffmann-Erbrecht",
+    "given_names": "Lothar",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "motte",
+      "fouque",
+      "friedrich"
+    ],
+    "unified_id": "motte_fouque_friedrich",
+    "person_id": 139,
+    "display_name": "MOTTE FOUQUE, Friedrich de la",
+    "family_name": "Motte-Fouqué",
+    "given_names": "Friedrich",
+    "name_prefix": null,
+    "name_particles": "de la",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "wächter",
+      "böhm",
+      "liesbeth"
+    ],
+    "unified_id": "wächter_böhm_liesbeth",
+    "person_id": 2308,
+    "display_name": "WÄCHTER-BÖHM, Liesbeth",
+    "family_name": "Wächter-Böhm",
+    "given_names": "Liesbeth",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "valles",
+      "bled",
+      "maithe"
+    ],
+    "unified_id": "valles_bled_maithe",
+    "person_id": 4173,
+    "display_name": "VALLES-BLED, Maithe",
+    "family_name": "Valles-Bled",
+    "given_names": "Maithe",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "herzmanovsky",
+      "orlando",
+      "fritz",
+      "von"
+    ],
+    "unified_id": "herzmanovsky_orlando_fritz_von",
+    "person_id": 917,
+    "display_name": "HERZMANOVSKY-ORLANDO, Fritz von",
+    "family_name": "Herzmanovsky-Orlando",
+    "given_names": "Fritz",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "kohlbauer",
+      "fritz",
+      "gabriele"
+    ],
+    "unified_id": "kohlbauer_fritz_gabriele",
+    "person_id": 6299,
+    "display_name": "Kohlbauer-Fritz, Gabriele",
+    "family_name": "Kohlbauer-Fritz",
+    "given_names": "Gabriele",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "brandauer"
+    ],
+    "unified_id": "brandauer",
+    "person_id": 3066,
+    "display_name": "Brandauer",
+    "family_name": "Brandauer",
+    "given_names": "Klaus Maria",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "prachensky"
+    ],
+    "unified_id": "prachensky",
+    "person_id": 1741,
+    "display_name": "Prachensky",
+    "family_name": "Prachensky",
+    "given_names": "Markus",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "muller",
+      "kamp",
+      "erich"
+    ],
+    "unified_id": "muller_kamp_erich",
+    "person_id": 358,
+    "display_name": "Erich Müller-Kamp",
+    "family_name": "Müller-Kamp",
+    "given_names": "Erich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "catull"
+    ],
+    "unified_id": "catull",
+    "person_id": 4763,
+    "display_name": "CATULL",
+    "family_name": "Catullus",
+    "given_names": "C. Valerius",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "weber",
+      "schafer",
+      "peter"
+    ],
+    "unified_id": "weber_schafer_peter",
+    "person_id": 4267,
+    "display_name": "Weber-Schäfer, Peter",
+    "family_name": "Weber-Schäfer",
+    "given_names": "Peter",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "voigt",
+      "diederichs",
+      "helene"
+    ],
+    "unified_id": "voigt_diederichs_helene",
+    "person_id": 4194,
+    "display_name": "Voigt-Diederichs, Helene",
+    "family_name": "Voigt-Diederichs",
+    "given_names": "Helene",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "ebner",
+      "eschenbach",
+      "marie",
+      "v"
+    ],
+    "unified_id": "ebner_eschenbach_marie_v",
+    "person_id": 5140,
+    "display_name": "MARIE VON EBNER-ESCHENBACH",
+    "family_name": "Ebner-Eschenbach",
+    "given_names": "Marie",
+    "name_prefix": null,
+    "name_particles": "von",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "saltykow",
+      "schtschedrin",
+      "michail"
+    ],
+    "unified_id": "saltykow_schtschedrin_michail",
+    "person_id": 5482,
+    "display_name": "SALTYKOW-SCHTSCHEDRIN, Michail",
+    "family_name": "Saltykow-Schtschedrin",
+    "given_names": "Michail",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "hartung"
+    ],
+    "unified_id": "hartung",
+    "person_id": 638,
+    "display_name": "Hartung",
+    "family_name": "Hartung",
+    "given_names": "Harald",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "robbe",
+      "grillet",
+      "alain"
+    ],
+    "unified_id": "robbe_grillet_alain",
+    "person_id": 5630,
+    "display_name": "Robbe-Grillet, Alain",
+    "family_name": "Robbe-Grillet",
+    "given_names": "Alain",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "nir",
+      "bleimling",
+      "naomi"
+    ],
+    "unified_id": "nir_bleimling_naomi",
+    "person_id": 342,
+    "display_name": "Naomi Nir-Bleimling",
+    "family_name": "Nir-Bleimling",
+    "given_names": "Naomi",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "wilton",
+      "ely",
+      "john"
+    ],
+    "unified_id": "wilton_ely_john",
+    "person_id": 2036,
+    "display_name": "WILTON-ELY, John",
+    "family_name": "Wilton-Ely",
+    "given_names": "John",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "el",
+      "kaim",
+      "sartre",
+      "arlette"
+    ],
+    "unified_id": "el_kaim_sartre_arlette",
+    "person_id": 5110,
+    "display_name": "El Kaim-Sartre, Arlette",
+    "family_name": "El Kaim-Sartre",
+    "given_names": "Arlette",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "merian",
+      "genast",
+      "ernst"
+    ],
+    "unified_id": "merian_genast_ernst",
+    "person_id": 457,
+    "display_name": "Merian-Genast, Ernst",
+    "family_name": "Merian-Genast",
+    "given_names": "Ernst",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "thomas",
+      "san",
+      "galli",
+      "w",
+      "a"
+    ],
+    "unified_id": "thomas_san_galli_w_a",
+    "person_id": 3441,
+    "display_name": "Thomas-San-Galli, W.A.",
+    "family_name": "Thomas-San-Galli",
+    "given_names": "W.A.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "grubrich",
+      "simitis",
+      "ilse"
+    ],
+    "unified_id": "grubrich_simitis_ilse",
+    "person_id": 7637,
+    "display_name": "Grubrich-Simitis, Ilse",
+    "family_name": "Grubrich-Simitis",
+    "given_names": "Ilse",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "fink",
+      "eitel",
+      "hinrich"
+    ],
+    "unified_id": "fink_eitel_hinrich",
+    "person_id": 5007,
+    "display_name": "FINK-EITEL, Hinrich",
+    "family_name": "Fink-Eitel",
+    "given_names": "Hinrich",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "straube",
+      "mann",
+      "rotraut"
+    ],
+    "unified_id": "straube_mann_rotraut",
+    "person_id": 3523,
+    "display_name": "Straube-Mann, Rotraut",
+    "family_name": "Straube-Mann",
+    "given_names": "Rotraut",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "wiesinger",
+      "stock",
+      "sandra"
+    ],
+    "unified_id": "wiesinger_stock_sandra",
+    "person_id": 2070,
+    "display_name": "Wiesinger-Stock, Sandra",
+    "family_name": "Wiesinger-Stock",
+    "given_names": "Sandra",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "vergil"
+    ],
+    "unified_id": "vergil",
+    "person_id": 3920,
+    "display_name": "VERGIL",
+    "family_name": "Vergilius Maro",
+    "given_names": "Publius",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "eisler",
+      "fischer",
+      "louise"
+    ],
+    "unified_id": "eisler_fischer_louise",
+    "person_id": 5181,
+    "display_name": "Eisler-Fischer, Louise",
+    "family_name": "Eisler-Fischer",
+    "given_names": "Louise",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "rechel",
+      "mertens",
+      "eva"
+    ],
+    "unified_id": "rechel_mertens_eva",
+    "person_id": 5729,
+    "display_name": "Rechel-Mertens, Eva",
+    "family_name": "Rechel-Mertens",
+    "given_names": "Eva",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "fuhrmann-plemp",
+      "van",
+      "duiveland",
+      "m"
+    ],
+    "unified_id": "fuhrmann-plemp_van_duiveland_m",
+    "person_id": 7706,
+    "display_name": "Fuhrmann-Plemp van Duiveland, M.R.C.",
+    "family_name": "Fuhrmann-Plemp van Duiveland",
+    "given_names": "M.R.C.",
+    "name_prefix": null,
+    "name_particles": "van",
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "diettrich",
+      "kalkhoff",
+      "franz"
+    ],
+    "unified_id": "diettrich_kalkhoff_franz",
+    "person_id": 4501,
+    "display_name": "DIETTRICH-KALKHOFF, Franz",
+    "family_name": "Diettrich-Kalkhoff",
+    "given_names": "Franz",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "schwarz",
+      "winklhofer",
+      "i"
+    ],
+    "unified_id": "schwarz_winklhofer_i",
+    "person_id": 7189,
+    "display_name": "Schwarz-Winklhofer, I.",
+    "family_name": "Schwarz-Winklhofer",
+    "given_names": "I.",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  },
+  {
+    "uid_parts": [
+      "wiesinger",
+      "stock",
+      "sandra"
+    ],
+    "unified_id": "wiesinger_stock_sandra",
+    "person_id": 2070,
+    "display_name": "WIESINGER-STOCK, Sandra",
+    "family_name": "Wiesinger-Stock",
+    "given_names": "Sandra",
+    "name_prefix": null,
+    "name_particles": null,
+    "name_suffix": null,
+    "single_name": null,
+    "is_organisation": false
+  }
+]

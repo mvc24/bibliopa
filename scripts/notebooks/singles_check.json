@@ -1,0 +1,2338 @@
+[
+    {
+        "uid_parts": [
+            "heraklit"
+        ],
+        "is_single": true,
+        "unified_id": "heraklit",
+        "person_id": 731,
+        "display_name": "HERAKLIT",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Heraklit",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "longos"
+        ],
+        "is_single": true,
+        "unified_id": "longos",
+        "person_id": 6406,
+        "display_name": "LONGOS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Longos",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "buddha"
+        ],
+        "is_single": true,
+        "unified_id": "buddha",
+        "person_id": 2945,
+        "display_name": "BUDDHA",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Buddha",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "sophokles"
+        ],
+        "is_single": true,
+        "unified_id": "sophokles",
+        "person_id": 3656,
+        "display_name": "SOPHOKLES",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Sophokles",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "ironimus"
+        ],
+        "is_single": true,
+        "unified_id": "ironimus",
+        "person_id": 1135,
+        "display_name": "Ironimus",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Ironimus",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "aesop"
+        ],
+        "is_single": true,
+        "unified_id": "aesop",
+        "person_id": 2483,
+        "display_name": "Aesop",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Äsop",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "richter"
+        ],
+        "is_single": false,
+        "unified_id": "richter",
+        "person_id": 5760,
+        "display_name": "RICHTER",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Richter",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "apollodor"
+        ],
+        "is_single": true,
+        "unified_id": "apollodor",
+        "person_id": 2330,
+        "display_name": "APOLLODOR",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Apollodor",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "boborykin"
+        ],
+        "is_single": false,
+        "unified_id": "boborykin",
+        "person_id": 2829,
+        "display_name": "BOBORYKIN",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Boborykin",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "brauer"
+        ],
+        "is_single": false,
+        "unified_id": "brauer",
+        "person_id": 2886,
+        "display_name": "Brauer",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Brauer",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "xenophon"
+        ],
+        "is_single": true,
+        "unified_id": "xenophon",
+        "person_id": 2165,
+        "display_name": "XENOPHON VON EPHESOS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Xenophon von Ephesos",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "brinckmann"
+        ],
+        "is_single": false,
+        "unified_id": "brinckmann",
+        "person_id": 3061,
+        "display_name": "Brinckmann",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Brinckmann",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "martial"
+        ],
+        "is_single": true,
+        "unified_id": "martial",
+        "person_id": 6554,
+        "display_name": "MARTIAL, M.V.",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Martial",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "doring"
+        ],
+        "is_single": false,
+        "unified_id": "doring",
+        "person_id": 4455,
+        "display_name": "Döring",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Döring",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "puelz"
+        ],
+        "is_single": false,
+        "unified_id": "puelz",
+        "person_id": 1971,
+        "display_name": "PÜLZ",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Pülz",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "prokop"
+        ],
+        "is_single": false,
+        "unified_id": "prokop",
+        "person_id": 1901,
+        "display_name": "PROKOP",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Prokop",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "lukrez"
+        ],
+        "is_single": true,
+        "unified_id": "lukrez",
+        "person_id": 6427,
+        "display_name": "LUKREZ",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Lukrez",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "hippokrates"
+        ],
+        "is_single": true,
+        "unified_id": "hippokrates",
+        "person_id": 960,
+        "display_name": "HIPPOKRATES",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Hippokrates",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "xenophon"
+        ],
+        "is_single": true,
+        "unified_id": "xenophon",
+        "person_id": 2165,
+        "display_name": "XENOPHON",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Xenophon von Ephesos",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "observator"
+        ],
+        "is_single": true,
+        "unified_id": "observator",
+        "person_id": 278,
+        "display_name": "OBSERVATOR",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Observator",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "ovid"
+        ],
+        "is_single": true,
+        "unified_id": "ovid",
+        "person_id": 1715,
+        "display_name": "OVID",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Ovid",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "heynemann"
+        ],
+        "is_single": false,
+        "unified_id": "heynemann",
+        "person_id": 688,
+        "display_name": "Heynemann",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Heynemann",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "kungfutse"
+        ],
+        "is_single": true,
+        "unified_id": "kungfutse",
+        "person_id": 5929,
+        "display_name": "KUNG-FUTSE",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Kung-Futse",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "rivarol"
+        ],
+        "is_single": false,
+        "unified_id": "rivarol",
+        "person_id": 5496,
+        "display_name": "Rivarol",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Rivarol",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "bottger"
+        ],
+        "is_single": false,
+        "unified_id": "bottger",
+        "person_id": 2865,
+        "display_name": "Böttger",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Böttger",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "zetner"
+        ],
+        "is_single": false,
+        "unified_id": "zetner",
+        "person_id": 2199,
+        "display_name": "Zetner",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Zetner",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "aristophanes"
+        ],
+        "is_single": true,
+        "unified_id": "aristophanes",
+        "person_id": 2447,
+        "display_name": "Aristophanes",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Aristophanes",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "augustus"
+        ],
+        "is_single": true,
+        "unified_id": "augustus",
+        "person_id": 2355,
+        "display_name": "AUGUSTUS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Augustus",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "nennius"
+        ],
+        "is_single": true,
+        "unified_id": "nennius",
+        "person_id": 44,
+        "display_name": "NENNIUS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Nennius",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "pausanias"
+        ],
+        "is_single": true,
+        "unified_id": "pausanias",
+        "person_id": 1848,
+        "display_name": "PAUSANIAS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Pausanias",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "sallust"
+        ],
+        "is_single": true,
+        "unified_id": "sallust",
+        "person_id": 5758,
+        "display_name": "SALLUST",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Sallust",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "hafis"
+        ],
+        "is_single": true,
+        "unified_id": "hafis",
+        "person_id": 896,
+        "display_name": "HAFIS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Hafis",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "aesop"
+        ],
+        "is_single": true,
+        "unified_id": "aesop",
+        "person_id": 2483,
+        "display_name": "ÄSOP",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Äsop",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "orpheus"
+        ],
+        "is_single": true,
+        "unified_id": "orpheus",
+        "person_id": 1784,
+        "display_name": "ORPHEUS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Orpheus",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "lafontaine"
+        ],
+        "is_single": true,
+        "unified_id": "lafontaine",
+        "person_id": 5947,
+        "display_name": "LAFONTAINE",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Lafontaine",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "julian"
+        ],
+        "is_single": true,
+        "unified_id": "julian",
+        "person_id": 8272,
+        "display_name": "JULIAN",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Julian",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "lehrergemeinschaft"
+        ],
+        "is_single": true,
+        "unified_id": "lehrergemeinschaft",
+        "person_id": 6382,
+        "display_name": "Lehrergemeinschaft",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Lehrergemeinschaft",
+        "is_organisation": true
+    },
+    {
+        "uid_parts": [
+            "arrian"
+        ],
+        "is_single": true,
+        "unified_id": "arrian",
+        "person_id": 2515,
+        "display_name": "ARRIAN",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Arrian",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "chamfort"
+        ],
+        "is_single": true,
+        "unified_id": "chamfort",
+        "person_id": 4624,
+        "display_name": "Chamfort",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Chamfort",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "plutarch"
+        ],
+        "is_single": true,
+        "unified_id": "plutarch",
+        "person_id": 1766,
+        "display_name": "PLUTARCH",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Plutarch",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "tibull"
+        ],
+        "is_single": true,
+        "unified_id": "tibull",
+        "person_id": 3804,
+        "display_name": "TIBULL",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Tibull",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "kuchar"
+        ],
+        "is_single": false,
+        "unified_id": "kuchar",
+        "person_id": 6134,
+        "display_name": "Kuchar",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Kuchar",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "euripides"
+        ],
+        "is_single": true,
+        "unified_id": "euripides",
+        "person_id": 5040,
+        "display_name": "EURIPIDES",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Euripides",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "kungfutse"
+        ],
+        "is_single": true,
+        "unified_id": "kungfutse",
+        "person_id": 5929,
+        "display_name": "KUNGFUTSE",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Kung-Futse",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "shankara"
+        ],
+        "is_single": true,
+        "unified_id": "shankara",
+        "person_id": 7113,
+        "display_name": "SHANKARA",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Shankara",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "vauvenargues"
+        ],
+        "is_single": false,
+        "unified_id": "vauvenargues",
+        "person_id": 4049,
+        "display_name": "Vauvenargues",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Vauvenargues",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "apuleius"
+        ],
+        "is_single": true,
+        "unified_id": "apuleius",
+        "person_id": 2396,
+        "display_name": "APULEIUS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Apuleius of Madaura",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "frohner"
+        ],
+        "is_single": false,
+        "unified_id": "frohner",
+        "person_id": 5028,
+        "display_name": "Frohner",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Frohner",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "merz"
+        ],
+        "is_single": false,
+        "unified_id": "merz",
+        "person_id": 269,
+        "display_name": "MERZ",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Merz",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "sempe"
+        ],
+        "is_single": true,
+        "unified_id": "sempe",
+        "person_id": 7240,
+        "display_name": "SEMPE",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Sempé",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "laotse"
+        ],
+        "is_single": true,
+        "unified_id": "laotse",
+        "person_id": 6085,
+        "display_name": "LAOTSE",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Laozi",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "hesiod"
+        ],
+        "is_single": true,
+        "unified_id": "hesiod",
+        "person_id": 604,
+        "display_name": "HESIOD",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Hesiod",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "livius"
+        ],
+        "is_single": true,
+        "unified_id": "livius",
+        "person_id": 8401,
+        "display_name": "LIVIUS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Livius",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "jordanis"
+        ],
+        "is_single": true,
+        "unified_id": "jordanis",
+        "person_id": 1197,
+        "display_name": "JORDANIS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Jordanis",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "czezik-muller"
+        ],
+        "is_single": true,
+        "unified_id": "czezik-muller",
+        "person_id": 7982,
+        "display_name": "CZEZIK-MÜLLER",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Czezik-Müller",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "michelangelo"
+        ],
+        "is_single": true,
+        "unified_id": "michelangelo",
+        "person_id": 451,
+        "display_name": "MICHELANGELO",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Michelangelo",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "augustinus"
+        ],
+        "is_single": true,
+        "unified_id": "augustinus",
+        "person_id": 2480,
+        "display_name": "AUGUSTINUS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Augustinus",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "zellinger"
+        ],
+        "is_single": true,
+        "unified_id": "zellinger",
+        "person_id": 2171,
+        "display_name": "Zellinger",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Zellinger",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "demosthenes"
+        ],
+        "is_single": true,
+        "unified_id": "demosthenes",
+        "person_id": 4403,
+        "display_name": "DEMOSTHENES",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Demosthenes",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "turgot"
+        ],
+        "is_single": true,
+        "unified_id": "turgot",
+        "person_id": 3847,
+        "display_name": "TURGOT",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Turgot",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "deml"
+        ],
+        "is_single": false,
+        "unified_id": "deml",
+        "person_id": 4665,
+        "display_name": "Deml",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Deml",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "marx"
+        ],
+        "is_single": false,
+        "unified_id": "marx",
+        "person_id": 6477,
+        "display_name": "MARX",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Marx",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "aristophanes"
+        ],
+        "is_single": true,
+        "unified_id": "aristophanes",
+        "person_id": 2447,
+        "display_name": "ARISTOPHANES",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Aristophanes",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "philostratos"
+        ],
+        "is_single": true,
+        "unified_id": "philostratos",
+        "person_id": 1639,
+        "display_name": "PHILOSTRATOS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Philostratos",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "epikur"
+        ],
+        "is_single": true,
+        "unified_id": "epikur",
+        "person_id": 4823,
+        "display_name": "EPIKUR",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Epikur",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "aristainetos"
+        ],
+        "is_single": true,
+        "unified_id": "aristainetos",
+        "person_id": 2762,
+        "display_name": "Aristainetos",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Aristainetos",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "erben"
+        ],
+        "is_single": false,
+        "unified_id": "erben",
+        "person_id": 4889,
+        "display_name": "Erben",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Erben",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "alleycat"
+        ],
+        "is_single": true,
+        "unified_id": "alleycat",
+        "person_id": 2634,
+        "display_name": "Alleycat",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Alleycat",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "hlavsa"
+        ],
+        "is_single": false,
+        "unified_id": "hlavsa",
+        "person_id": 878,
+        "display_name": "Hlavsa",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Hlavsa",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "dante"
+        ],
+        "is_single": true,
+        "unified_id": "dante",
+        "person_id": 4472,
+        "display_name": "DANTE",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Dante Alighieri",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "riou"
+        ],
+        "is_single": false,
+        "unified_id": "riou",
+        "person_id": 5761,
+        "display_name": "Riou",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Riou",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "plotin"
+        ],
+        "is_single": true,
+        "unified_id": "plotin",
+        "person_id": 1840,
+        "display_name": "PLOTIN",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Plotin",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "rosegger"
+        ],
+        "is_single": false,
+        "unified_id": "rosegger",
+        "person_id": 5324,
+        "display_name": "Rosegger",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Rosegger",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "bardenhewer"
+        ],
+        "is_single": false,
+        "unified_id": "bardenhewer",
+        "person_id": 2433,
+        "display_name": "Bardenhewer",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Bardenhewer",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "ossian"
+        ],
+        "is_single": true,
+        "unified_id": "ossian",
+        "person_id": 1522,
+        "display_name": "OSSIAN",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Ossian",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "trilussa"
+        ],
+        "is_single": true,
+        "unified_id": "trilussa",
+        "person_id": 4074,
+        "display_name": "TRILUSSA",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Trilussa",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "alkiphron"
+        ],
+        "is_single": true,
+        "unified_id": "alkiphron",
+        "person_id": 2621,
+        "display_name": "Alkiphron",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Alkiphron",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "beaumarchais"
+        ],
+        "is_single": true,
+        "unified_id": "beaumarchais",
+        "person_id": 2405,
+        "display_name": "BEAUMARCHAIS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Beaumarchais",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "heliodor"
+        ],
+        "is_single": true,
+        "unified_id": "heliodor",
+        "person_id": 811,
+        "display_name": "HELIODOR",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Heliodor",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "polybios"
+        ],
+        "is_single": true,
+        "unified_id": "polybios",
+        "person_id": 1744,
+        "display_name": "POLYBIOS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Polybios",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "menander"
+        ],
+        "is_single": true,
+        "unified_id": "menander",
+        "person_id": 202,
+        "display_name": "Menander",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Menander",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "kiblitsky"
+        ],
+        "is_single": false,
+        "unified_id": "kiblitsky",
+        "person_id": 1235,
+        "display_name": "KIBLITSKY",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Kiblitsky",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "horaz"
+        ],
+        "is_single": true,
+        "unified_id": "horaz",
+        "person_id": 1497,
+        "display_name": "HORAZ",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Horaz",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "menander"
+        ],
+        "is_single": true,
+        "unified_id": "menander",
+        "person_id": 202,
+        "display_name": "MENANDER",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Menander",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "loriot"
+        ],
+        "is_single": true,
+        "unified_id": "loriot",
+        "person_id": 6422,
+        "display_name": "LORIOT",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Loriot",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "einhard"
+        ],
+        "is_single": false,
+        "unified_id": "einhard",
+        "person_id": 5247,
+        "display_name": "Einhard",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Einhard",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "roubik"
+        ],
+        "is_single": true,
+        "unified_id": "roubik",
+        "person_id": 5458,
+        "display_name": "Roubik",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Roubik",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "franzobel"
+        ],
+        "is_single": true,
+        "unified_id": "franzobel",
+        "person_id": 4945,
+        "display_name": "FRANZOBEL",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Franzobel",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "wangdjal"
+        ],
+        "is_single": true,
+        "unified_id": "wangdjal",
+        "person_id": 3912,
+        "display_name": "Wangdjal",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Wangdjal",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "hepfer"
+        ],
+        "is_single": false,
+        "unified_id": "hepfer",
+        "person_id": 549,
+        "display_name": "Hepfer",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Hepfer",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "thukydides"
+        ],
+        "is_single": true,
+        "unified_id": "thukydides",
+        "person_id": 8824,
+        "display_name": "THUDYDIDES",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Thukydides",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "homer"
+        ],
+        "is_single": true,
+        "unified_id": "homer",
+        "person_id": 904,
+        "display_name": "Homer",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Homer",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "aischylos"
+        ],
+        "is_single": true,
+        "unified_id": "aischylos",
+        "person_id": 2652,
+        "display_name": "AISCHYLOS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Aischylos",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "juvenal"
+        ],
+        "is_single": true,
+        "unified_id": "juvenal",
+        "person_id": 8277,
+        "display_name": "JUVENAL",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Juvenal",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "lukian"
+        ],
+        "is_single": true,
+        "unified_id": "lukian",
+        "person_id": 6405,
+        "display_name": "Lukian",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Lukian",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "napoleon"
+        ],
+        "is_single": true,
+        "unified_id": "napoleon",
+        "person_id": 161,
+        "display_name": "NAPOLEON",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Napoleon",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "homer"
+        ],
+        "is_single": true,
+        "unified_id": "homer",
+        "person_id": 904,
+        "display_name": "HOMER",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Homer",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "persius"
+        ],
+        "is_single": true,
+        "unified_id": "persius",
+        "person_id": 1571,
+        "display_name": "PERSIUS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Persius",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "hesiod"
+        ],
+        "is_single": true,
+        "unified_id": "hesiod",
+        "person_id": 604,
+        "display_name": "HESIOD(I)",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Hesiod",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "eugippius"
+        ],
+        "is_single": true,
+        "unified_id": "eugippius",
+        "person_id": 8056,
+        "display_name": "EUGIPPIUS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Eugippius",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "herodot"
+        ],
+        "is_single": true,
+        "unified_id": "herodot",
+        "person_id": 810,
+        "display_name": "HERODOT",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Herodot",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "bonaventura"
+        ],
+        "is_single": true,
+        "unified_id": "bonaventura",
+        "person_id": 2958,
+        "display_name": "BONAVENTURA",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Bonaventura",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "aristoteles"
+        ],
+        "is_single": true,
+        "unified_id": "aristoteles",
+        "person_id": 2476,
+        "display_name": "ARISTOTELES",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Aristoteles",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "falkenhorst"
+        ],
+        "is_single": false,
+        "unified_id": "falkenhorst",
+        "person_id": 5253,
+        "display_name": "FALKENHORST",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Falkenhorst",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "alain"
+        ],
+        "is_single": false,
+        "unified_id": "alain",
+        "person_id": 2324,
+        "display_name": "ALAIN",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Alain",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "demoustiere"
+        ],
+        "is_single": true,
+        "unified_id": "demoustiere",
+        "person_id": 4771,
+        "display_name": "DEMOUSTIERE",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Demoustiere",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "joubert"
+        ],
+        "is_single": true,
+        "unified_id": "joubert",
+        "person_id": 1296,
+        "display_name": "Joubert",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Joubert",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "isokrates"
+        ],
+        "is_single": true,
+        "unified_id": "isokrates",
+        "person_id": 1471,
+        "display_name": "Isokrates",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Isokrates",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "janosch"
+        ],
+        "is_single": true,
+        "unified_id": "janosch",
+        "person_id": 8255,
+        "display_name": "JANOSCH",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Janosch",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "voltaire"
+        ],
+        "is_single": true,
+        "unified_id": "voltaire",
+        "person_id": 3908,
+        "display_name": "VOLTAIRE",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Voltaire",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "hviezdoslav"
+        ],
+        "is_single": false,
+        "unified_id": "hviezdoslav",
+        "person_id": 1430,
+        "display_name": "HVIEZDOSLAV",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Hviezdoslav",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "jamblich"
+        ],
+        "is_single": false,
+        "unified_id": "jamblich",
+        "person_id": 8254,
+        "display_name": "JAMBLICH",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Jamblich",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "platon"
+        ],
+        "is_single": true,
+        "unified_id": "platon",
+        "person_id": 1915,
+        "display_name": "PLATON",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Platon",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "aristainetos"
+        ],
+        "is_single": true,
+        "unified_id": "aristainetos",
+        "person_id": 2762,
+        "display_name": "ARISTAINETOS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Aristainetos",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "curatorium"
+        ],
+        "is_single": true,
+        "unified_id": "curatorium",
+        "person_id": 4598,
+        "display_name": "Curatorium",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Curatorium",
+        "is_organisation": true
+    },
+    {
+        "uid_parts": [
+            "dryander"
+        ],
+        "is_single": true,
+        "unified_id": "dryander",
+        "person_id": 4664,
+        "display_name": "DRYANDER",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Dryander",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "stendhal"
+        ],
+        "is_single": true,
+        "unified_id": "stendhal",
+        "person_id": 3623,
+        "display_name": "STENDHAL",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Stendhal",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "origenes"
+        ],
+        "is_single": true,
+        "unified_id": "origenes",
+        "person_id": 1614,
+        "display_name": "ORIGENES",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Origenes",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "epiktet"
+        ],
+        "is_single": true,
+        "unified_id": "epiktet",
+        "person_id": 5003,
+        "display_name": "EPIKTET",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Epiktet",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "apuleius"
+        ],
+        "is_single": true,
+        "unified_id": "apuleius",
+        "person_id": 2396,
+        "display_name": "APULEJUS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Apuleius of Madaura",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "klabund"
+        ],
+        "is_single": true,
+        "unified_id": "klabund",
+        "person_id": 1455,
+        "display_name": "Klabund",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Klabund",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "theokrit"
+        ],
+        "is_single": true,
+        "unified_id": "theokrit",
+        "person_id": 3467,
+        "display_name": "THEOKRITOS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Theokritos",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "kalidasa"
+        ],
+        "is_single": true,
+        "unified_id": "kalidasa",
+        "person_id": 1300,
+        "display_name": "KALIDASA",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Kalidasa",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "theophrast"
+        ],
+        "is_single": true,
+        "unified_id": "theophrast",
+        "person_id": 3633,
+        "display_name": "THEOPHRAST",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Theophrast",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "goncourt"
+        ],
+        "is_single": false,
+        "unified_id": "goncourt",
+        "person_id": 7546,
+        "display_name": "GONCOURT",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Goncourt",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "mirabeau"
+        ],
+        "is_single": false,
+        "unified_id": "mirabeau",
+        "person_id": 21,
+        "display_name": "MIRABEAU",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Mirabeau",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "herodot"
+        ],
+        "is_single": true,
+        "unified_id": "herodot",
+        "person_id": 810,
+        "display_name": "HERODOTUS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Herodot",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "terenz"
+        ],
+        "is_single": true,
+        "unified_id": "terenz",
+        "person_id": 3342,
+        "display_name": "TERENZ",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Terenz",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "vocke"
+        ],
+        "is_single": false,
+        "unified_id": "vocke",
+        "person_id": 4288,
+        "display_name": "Vocke",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Vocke",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "paracelsus"
+        ],
+        "is_single": true,
+        "unified_id": "paracelsus",
+        "person_id": 1997,
+        "display_name": "THEOPHRASTUS PARACELSUS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Paracelsus",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "patanjali"
+        ],
+        "is_single": true,
+        "unified_id": "patanjali",
+        "person_id": 1938,
+        "display_name": "PATANJALI",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Patanjali",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "boethius"
+        ],
+        "is_single": true,
+        "unified_id": "boethius",
+        "person_id": 2927,
+        "display_name": "BOETHIUS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Boethius",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "melcher"
+        ],
+        "is_single": false,
+        "unified_id": "melcher",
+        "person_id": 476,
+        "display_name": "Melcher",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Melcher",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "nizami"
+        ],
+        "is_single": true,
+        "unified_id": "nizami",
+        "person_id": 346,
+        "display_name": "NIZAMI",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Nizami",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "laotse"
+        ],
+        "is_single": true,
+        "unified_id": "laotse",
+        "person_id": 6085,
+        "display_name": "LAO-TSE",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Laozi",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "klabund"
+        ],
+        "is_single": true,
+        "unified_id": "klabund",
+        "person_id": 1455,
+        "display_name": "KLABUND",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Klabund",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "sinclair"
+        ],
+        "is_single": true,
+        "unified_id": "sinclair",
+        "person_id": 3532,
+        "display_name": "SINCLAIR",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Sinclair",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "augustinus"
+        ],
+        "is_single": true,
+        "unified_id": "augustinus",
+        "person_id": 2480,
+        "display_name": "AUGUSTINUS, Aurelius",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Augustinus",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "novalis"
+        ],
+        "is_single": true,
+        "unified_id": "novalis",
+        "person_id": 8538,
+        "display_name": "NOVALIS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Novalis",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "strabo"
+        ],
+        "is_single": false,
+        "unified_id": "strabo",
+        "person_id": 3466,
+        "display_name": "STRABO",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Strabo",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "pindar"
+        ],
+        "is_single": true,
+        "unified_id": "pindar",
+        "person_id": 1759,
+        "display_name": "PINDAR",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Pindar",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "plato"
+        ],
+        "is_single": true,
+        "unified_id": "plato",
+        "person_id": 1622,
+        "display_name": "PLATO",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Plato",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "lukian"
+        ],
+        "is_single": true,
+        "unified_id": "lukian",
+        "person_id": 6405,
+        "display_name": "LUKIAN",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Lukian",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "pontormo"
+        ],
+        "is_single": true,
+        "unified_id": "pontormo",
+        "person_id": 1700,
+        "display_name": "PONTORMO",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Pontormo",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "justinus"
+        ],
+        "is_single": true,
+        "unified_id": "justinus",
+        "person_id": 1022,
+        "display_name": "JUSTINUS",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Justinus",
+        "is_organisation": false
+    },
+    {
+        "uid_parts": [
+            "properz"
+        ],
+        "is_single": false,
+        "unified_id": "properz",
+        "person_id": 1724,
+        "display_name": "PROPERZ",
+        "family_name": null,
+        "given_names": null,
+        "name_prefix": null,
+        "name_particles": null,
+        "name_suffix": null,
+        "single_name": "Properz",
+        "is_organisation": false
+    }
+]
