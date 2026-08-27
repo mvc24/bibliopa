@@ -868,4 +868,57 @@ body {
     .react-aria-TextArea[data-focused] {
         border-color: var(--color-border-str);
     }
+
+    /* --- Project page ---------------------------------------- */
+    .project-title {
+        font-family: var(--font-serif);
+        font-weight: var(--w-bold);
+        font-size: var(--text-2xl);
+        line-height: var(--lh-tight);
+        margin: 0;
+    }
+
+    .project-subtitle {
+        font-family: var(--font-sans);
+        font-weight: var(--w-normal);
+        font-size: var(--text-base);
+        color: var(--color-muted);
+        margin: 0;
+    }
+
+    .lang-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: var(--sp-4);
+    }
+
+    .lang-card .section-heading {
+        font-family: var(--font-sans);
+        font-weight: var(--w-bold);
+        font-size: var(--text-lg);
+        line-height: var(--lh-snug);
+        color: var(--color-fg);
+        margin: var(--sp-2) 0 0;
+    }
+
+    .lang-card .flow-line {
+        font-family: var(--font-mono);
+        font-weight: var(--w-normal);
+        font-size: var(--text-sm);
+        line-height: var(--lh-snug);
+        color: var(--color-primary);
+        margin: 0;
+    }
+
+    .lang-card p {
+        font-size: var(--text-sm);
+        line-height: var(--lh-snug);
+        margin: 0;
+    }
+
+    .lang-card .meta {
+        font-family: var(--font-sans);
+        font-size: var(--text-sm);
+        color: var(--color-muted);
+    }
 }

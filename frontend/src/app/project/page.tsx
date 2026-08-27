@@ -4,20 +4,23 @@ import { AppShell } from '../../components/layout/AppShell';
 export default function ProjectPage() {
   return (
     <AppShell>
-      <div className="panel">
+      <div className="stack project-page">
         <div className="stack">
-          <h1 className="page-title">bibliopa</h1>
+          <h1 className="project-title">bibliopa – die Bibliographie vom Opa</h1>
+          <h2 className="project-subtitle">
+            bibliopa – bibliography + Opa (German: grandfather)
+          </h2>
+        </div>
 
+        <div className="lang-grid">
           {/* Deutsch */}
-          <section className="stack">
-            <h2>Deutsch</h2>
-
-            <h3>bibliopa – vom Zettelkatalog zur Datenbank</h3>
-            <p>
+          <section className="panel stack lang-card">
+            <h2 className="section-heading">Vom Zettelkatalog zur Datenbank</h2>
+            <p className="meta">
               <strong>Selbstständiges Datenprojekt | 09/2025–aktuell</strong>
             </p>
 
-            <h3>Das Projekt</h3>
+            <h3 className="section-heading">Das Projekt</h3>
             <p>
               bibliopa ist ein selbst initiiertes Projekt, um die über
               Jahrzehnte gewachsene Büchersammlung meines Großvaters – eines
@@ -32,19 +35,17 @@ export default function ProjectPage() {
               im Laufe der Zeit entstanden mehrere unterschiedliche Datenstände.
             </p>
             <p>
-              Ich habe mir die dafür notwendigen Kenntnisse selbst erarbeitet und
-              den gesamten Prozess von der Rohdatenaufbereitung über die
+              Ich habe mir die dafür notwendigen Kenntnisse selbst erarbeitet
+              und den gesamten Prozess von der Rohdatenaufbereitung über die
               Datenverarbeitung und Datenbank bis zur Webanwendung eigenständig
               aufgebaut.
             </p>
 
-            <h3>Von Word zur Datenbank</h3>
-            <p>
-              <strong>
-                Word-Dokumente → Extraktion &amp; Bereinigung → strukturiertes
-                Parsing → Abgleich &amp; Zusammenführung → Entity Resolution →
-                PostgreSQL → Webanwendung
-              </strong>
+            <h3 className="section-heading">Von Word zur Datenbank</h3>
+            <p className="flow-line">
+              Word-Dokumente → Extraktion &amp; Bereinigung → strukturiertes
+              Parsing → Abgleich &amp; Zusammenführung → Entity Resolution →
+              PostgreSQL → Webanwendung
             </p>
             <p>
               Der Schwerpunkt des Projekts liegt auf der Datenpipeline. Sie
@@ -55,31 +56,31 @@ export default function ProjectPage() {
             <p>
               Der Prozess wird iterativ weiterentwickelt: Die Ergebnisse eines
               Verarbeitungsschritts dienen dazu, Probleme in den Quelldaten und
-              im eigenen Vorgehen zu erkennen und die nächsten Durchläufe gezielt
-              zu verbessern.
+              im eigenen Vorgehen zu erkennen und die nächsten Durchläufe
+              gezielt zu verbessern.
             </p>
 
-            <h3>Arbeiten mit gewachsenen Daten</h3>
+            <h3 className="section-heading">Arbeiten mit gewachsenen Daten</h3>
             <p>
               Eine besondere Herausforderung ist die Zusammenführung mehrerer
               Datenstände und die Rückverfolgbarkeit einzelner Datensätze zu
               ihrer ursprünglichen Quelle.
             </p>
             <p>
-              Für rund 13.000 bibliografische Datensätze wurden daher sprechende,
-              deterministische IDs entwickelt. Beim erneuten Einlesen eines
-              aktualisierten Datenstands konnten neue und bereits verarbeitete
-              Datensätze miteinander abgeglichen und vorhandene Arbeit soweit wie
-              möglich weiterverwendet werden.
+              Für rund 13.000 bibliografische Datensätze wurden daher
+              sprechende, deterministische IDs entwickelt. Beim erneuten
+              Einlesen eines aktualisierten Datenstands konnten neue und bereits
+              verarbeitete Datensätze miteinander abgeglichen und vorhandene
+              Arbeit soweit wie möglich weiterverwendet werden.
             </p>
 
-            <h3>Entity Resolution</h3>
+            <h3 className="section-heading">Entity Resolution</h3>
             <p>
               Ein großer Teil der Arbeit entfällt auf die Bereinigung und
               Zusammenführung von Personenangaben. Unterschiedliche
               Schreibweisen, nicht standardisierte Transliteration, fehlende
-              Vornamen und uneindeutige Angaben machen es notwendig, verschiedene
-              Verfahren miteinander zu kombinieren.
+              Vornamen und uneindeutige Angaben machen es notwendig,
+              verschiedene Verfahren miteinander zu kombinieren.
             </p>
             <p>
               Der Matching-Prozess wurde schrittweise erweitert – von manueller
@@ -94,7 +95,7 @@ export default function ProjectPage() {
               mehrere Personen, die in einem Datensatz zusammengefasst waren.
             </p>
 
-            <h3>Technischer Schwerpunkt</h3>
+            <h3 className="section-heading">Technischer Schwerpunkt</h3>
             <p>
               <strong>Daten:</strong> Python · PostgreSQL · ETL ·
               Datenbereinigung · Datenmodellierung · Entity Resolution · Record
@@ -112,28 +113,26 @@ export default function ProjectPage() {
               Aria
             </p>
 
-            <h3>Aktueller Stand</h3>
+            <h3 className="section-heading">Aktueller Stand</h3>
             <p>
               bibliopa ist ein laufendes Projekt. Die Datenbank und die
-              Webanwendung sind funktional; gleichzeitig werden Datenpipeline und
-              Entity-Resolution-Prozesse weiter verfeinert, da die Arbeit mit den
-              gewachsenen Quelldaten fortlaufend neue Datenqualitätsprobleme
-              sichtbar macht.
+              Webanwendung sind funktional; gleichzeitig werden Datenpipeline
+              und Entity-Resolution-Prozesse weiter verfeinert, da die Arbeit
+              mit den gewachsenen Quelldaten fortlaufend neue
+              Datenqualitätsprobleme sichtbar macht.
             </p>
           </section>
 
-          <hr />
-
           {/* English */}
-          <section className="stack">
-            <h2>English</h2>
-
-            <h3>bibliopa – from a card catalogue to a database</h3>
-            <p>
+          <section className="panel stack lang-card">
+            <h2 className="section-heading">
+              From a card catalogue to a database
+            </h2>
+            <p className="meta">
               <strong>Self-directed data project | 09/2025–present</strong>
             </p>
 
-            <h3>The project</h3>
+            <h3 className="section-heading">The project</h3>
             <p>
               bibliopa is a self-initiated project to turn my grandfather&apos;s
               decades-old catalogue of his private library – he is a retired
@@ -152,13 +151,11 @@ export default function ProjectPage() {
               it through to the database and web application.
             </p>
 
-            <h3>From Word to database</h3>
-            <p>
-              <strong>
-                Word documents → extraction &amp; cleaning → structured parsing →
-                reconciliation &amp; merging → entity resolution → PostgreSQL →
-                web application
-              </strong>
+            <h3 className="section-heading">From Word to database</h3>
+            <p className="flow-line">
+              Word documents → extraction &amp; cleaning → structured parsing →
+              reconciliation &amp; merging → entity resolution → PostgreSQL →
+              web application
             </p>
             <p>
               The core of the project is the data pipeline. It extracts
@@ -172,7 +169,7 @@ export default function ProjectPage() {
               approach, which then informs the next iteration.
             </p>
 
-            <h3>Working with evolving source data</h3>
+            <h3 className="section-heading">Working with evolving source data</h3>
             <p>
               A significant challenge has been reconciling multiple versions of
               the source data while maintaining traceability back to the original
@@ -185,7 +182,7 @@ export default function ProjectPage() {
               compared and existing work reused wherever possible.
             </p>
 
-            <h3>Entity resolution</h3>
+            <h3 className="section-heading">Entity resolution</h3>
             <p>
               A substantial part of the project involves cleaning and
               consolidating person data. Different spellings, inconsistent
@@ -205,7 +202,7 @@ export default function ProjectPage() {
               combined into a single record.
             </p>
 
-            <h3>Technical focus</h3>
+            <h3 className="section-heading">Technical focus</h3>
             <p>
               <strong>Data:</strong> Python · PostgreSQL · ETL · data cleaning ·
               data modelling · entity resolution · record linkage
@@ -222,7 +219,7 @@ export default function ProjectPage() {
               Aria
             </p>
 
-            <h3>Current status</h3>
+            <h3 className="section-heading">Current status</h3>
             <p>
               bibliopa is an ongoing project. The database and web application
               are functional, while the data pipeline and entity-resolution
