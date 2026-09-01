@@ -5,7 +5,7 @@
     "retain_intermediate_calculation_columns": true,
     "additional_columns_to_retain": [],
     "sql_dialect": "duckdb",
-    "linker_uid": "jlrmg3jk",
+    "linker_uid": "ko90332c",
     "em_convergence": 0.0001,
     "max_iterations": 25,
     "bayes_factor_column_prefix": "bf_",
@@ -37,9 +37,9 @@
                 {
                     "sql_condition": "\"family_name_l\" = \"family_name_r\"",
                     "label_for_charts": "Exact match on family_name",
-                    "m_probability": 3.203317493793744e-08,
+                    "m_probability": 0.9,
                     "u_probability": 0.00013424866514111366,
-                    "fix_m_probability": false,
+                    "fix_m_probability": true,
                     "fix_u_probability": false,
                     "tf_adjustment_column": "family_name",
                     "tf_adjustment_weight": 1.0
@@ -47,7 +47,7 @@
                 {
                     "sql_condition": "jaro_winkler_similarity(\"family_name_l\", \"family_name_r\") >= 0.92",
                     "label_for_charts": "Jaro-Winkler distance of family_name >= 0.92",
-                    "m_probability": 0.10448013093515103,
+                    "m_probability": 0.10054626577202769,
                     "u_probability": 0.0001718834531262076,
                     "fix_m_probability": false,
                     "fix_u_probability": false
@@ -55,7 +55,7 @@
                 {
                     "sql_condition": "jaro_winkler_similarity(\"family_name_l\", \"family_name_r\") >= 0.88",
                     "label_for_charts": "Jaro-Winkler distance of family_name >= 0.88",
-                    "m_probability": 0.04576200955400813,
+                    "m_probability": 0.0440502268364002,
                     "u_probability": 0.00035559498247630185,
                     "fix_m_probability": false,
                     "fix_u_probability": false
@@ -63,7 +63,7 @@
                 {
                     "sql_condition": "jaro_winkler_similarity(\"family_name_l\", \"family_name_r\") >= 0.7",
                     "label_for_charts": "Jaro-Winkler distance of family_name >= 0.7",
-                    "m_probability": 0.835380955679522,
+                    "m_probability": 0.8074064222625423,
                     "u_probability": 0.013002711720884283,
                     "fix_m_probability": false,
                     "fix_u_probability": false
@@ -71,13 +71,13 @@
                 {
                     "sql_condition": "ELSE",
                     "label_for_charts": "All other comparisons",
-                    "m_probability": 0.014376871798143996,
+                    "m_probability": 0.01441132211804849,
                     "u_probability": 0.9863355611783721,
                     "fix_m_probability": false,
                     "fix_u_probability": false
                 }
             ],
-            "comparison_description": "NameComparison"
+            "comparison_description": "CustomComparison"
         },
         {
             "output_column_name": "given_names",
@@ -92,7 +92,7 @@
                 {
                     "sql_condition": "\"given_names_l\" = \"given_names_r\"",
                     "label_for_charts": "Exact match on given_names",
-                    "m_probability": 0.09378987732353884,
+                    "m_probability": 0.09736927536293374,
                     "u_probability": 0.003351537619608559,
                     "fix_m_probability": false,
                     "fix_u_probability": false,
@@ -102,7 +102,7 @@
                 {
                     "sql_condition": "jaro_winkler_similarity(\"given_names_l\", \"given_names_r\") >= 0.92",
                     "label_for_charts": "Jaro-Winkler distance of given_names >= 0.92",
-                    "m_probability": 0.1049689872279448,
+                    "m_probability": 0.10897485223197925,
                     "u_probability": 0.0010939676003505936,
                     "fix_m_probability": false,
                     "fix_u_probability": false
@@ -110,7 +110,7 @@
                 {
                     "sql_condition": "jaro_winkler_similarity(\"given_names_l\", \"given_names_r\") >= 0.88",
                     "label_for_charts": "Jaro-Winkler distance of given_names >= 0.88",
-                    "m_probability": 0.0766255657355683,
+                    "m_probability": 0.07952722611996374,
                     "u_probability": 0.0013860928360683786,
                     "fix_m_probability": false,
                     "fix_u_probability": false
@@ -118,7 +118,7 @@
                 {
                     "sql_condition": "jaro_winkler_similarity(\"given_names_l\", \"given_names_r\") >= 0.7",
                     "label_for_charts": "Jaro-Winkler distance of given_names >= 0.7",
-                    "m_probability": 0.015561334125603702,
+                    "m_probability": 0.015940529078530538,
                     "u_probability": 0.012086498948062277,
                     "fix_m_probability": false,
                     "fix_u_probability": false
@@ -126,7 +126,7 @@
                 {
                     "sql_condition": "ELSE",
                     "label_for_charts": "All other comparisons",
-                    "m_probability": 0.7090542355873444,
+                    "m_probability": 0.6981881172065927,
                     "u_probability": 0.9820819029959101,
                     "fix_m_probability": false,
                     "fix_u_probability": false
