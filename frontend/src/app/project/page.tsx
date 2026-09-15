@@ -10,6 +10,16 @@ export default function ProjectPage() {
           <h2 className="project-subtitle">
             bibliopa – bibliography + Opa (German: grandfather)
           </h2>
+          <p>
+            <a
+              className="project-repo-link"
+              href="https://github.com/mvc24/bibliopa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View on GitHub
+            </a>
+          </p>
         </div>
 
         <div className="lang-grid">

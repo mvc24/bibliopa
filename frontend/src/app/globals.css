@@ -886,6 +886,18 @@ body {
         margin: 0;
     }
 
+    .project-repo-link {
+        font-family: var(--font-sans);
+        font-weight: var(--w-semibold);
+        font-size: var(--text-sm);
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+
+    .project-repo-link:hover {
+        text-decoration: underline;
+    }
+
     .lang-grid {
         display: grid;
         grid-template-columns: 1fr;
