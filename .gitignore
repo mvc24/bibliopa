@@ -10,6 +10,7 @@ api/batch_sample.py
 frontend/.env.local
 node_modules/
 .ipynb_checkpoints/
+scripts/notebooks
 database/in_progress/*.json
 database/in_progress/pass2_results
 database/in_progress/pass2_batches
