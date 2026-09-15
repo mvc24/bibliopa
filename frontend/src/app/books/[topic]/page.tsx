@@ -1,6 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { useParams, useSearchParams } from 'next/navigation';
+import { useParams, useSearchParams, useRouter } from 'next/navigation';
 
 import { BookOverview, PaginationInfo } from '@/types/database';
 
@@ -15,6 +15,8 @@ import { PriceDialog } from '@/components/elements/PriceDialog';
 export default function BibliographyPage() {
   const params = useParams();
   const searchParams = useSearchParams();
+  const router = useRouter();
+  const searchParam = searchParams.get('search') || '';
   const authorParam = searchParams.get('author');
   const authorId = authorParam ? parseInt(authorParam) : null;
   const pageParam = searchParams.get('page');
@@ -27,16 +29,19 @@ export default function BibliographyPage() {
   const [canModify, setCanModify] = useState(false);
   const [selectedBookId, setselectedBookId] = useState<number | null>(null);
   const [priceOpen, setPriceOpen] = useState(false);
-  const [activeSearch, setActiveSearch] = useState('');
+  const [activeSearch, setActiveSearch] = useState(searchParam);
 
+  // Search lives in the URL (?search=) like page does, so a reload and the
+  // detail page's Zurück link land on the same list.
   const handleSearch = (term: string) => {
-    if (term.trim()) {
-      setActiveSearch(term);
-      setCurrentPage(1);
-    } else {
-      setActiveSearch('');
-      setCurrentPage(1);
-    }
+    const search = term.trim();
+    setActiveSearch(search);
+    setCurrentPage(1);
+    router.replace(
+      search
+        ? `/books/${topic}?search=${encodeURIComponent(search)}`
+        : `/books/${topic}`,
+    );
   };
 
   const fetchBooks = async () => {
@@ -116,7 +121,10 @@ export default function BibliographyPage() {
         <div className="panel">
           <div className="stack">
             <AuthorFilter />
-            <SearchBox onSearch={handleSearch} />
+            <SearchBox
+              onSearch={handleSearch}
+              defaultValue={activeSearch}
+            />
           </div>
         </div>
         <GridList
@@ -128,6 +136,10 @@ export default function BibliographyPage() {
               book.book_id
             }?page=${currentPage}${
               authorId ? `&author=${authorId}` : ''
+            }${
+              activeSearch
+                ? `&search=${encodeURIComponent(activeSearch)}`
+                : ''
             }#book-${book.book_id}`;
             return (
               <GridListItem

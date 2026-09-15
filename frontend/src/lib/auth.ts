@@ -107,7 +107,11 @@ export async function canDownload(): Promise<boolean> {
 }
 
 export async function canModify(): Promise<boolean> {
-  if (process.env.NEXT_PUBLIC_DEV_MODE === 'true') return true;
+  if (
+    process.env.NODE_ENV !== 'production' &&
+    process.env.NEXT_PUBLIC_DEV_MODE === 'true'
+  )
+    return true;
   const role = await getUserRole();
 
   return role === 'admin' || role === 'family';
@@ -119,7 +123,11 @@ export async function canModify(): Promise<boolean> {
 
 */
 export async function canViewPrices(): Promise<boolean> {
-  if (process.env.NEXT_PUBLIC_DEV_MODE === 'true') return true;
+  if (
+    process.env.NODE_ENV !== 'production' &&
+    process.env.NEXT_PUBLIC_DEV_MODE === 'true'
+  )
+    return true;
   const role = await getUserRole();
   return role === 'admin' || role === 'family' || role === 'researcher';
 }
@@ -129,7 +137,11 @@ export async function canViewPrices(): Promise<boolean> {
  * Only admin can see composite_ids, unified_ids, and parsing metadata
  */
 export async function canViewDebugInfo(): Promise<boolean> {
-  if (process.env.NEXT_PUBLIC_DEV_MODE === 'true') return true;
+  if (
+    process.env.NODE_ENV !== 'production' &&
+    process.env.NEXT_PUBLIC_DEV_MODE === 'true'
+  )
+    return true;
 
   const role = await getUserRole();
   return role === 'admin';

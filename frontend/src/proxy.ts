@@ -45,8 +45,8 @@ export default withAuth(
 
     // API routes protection
     if (path.startsWith('/api/')) {
-      // POST, PUT, DELETE require authentication
-      if (['POST', 'PUT', 'DELETE'].includes(req.method)) {
+      // POST, PUT, PATCH, DELETE require authentication
+      if (['POST', 'PUT', 'PATCH', 'DELETE'].includes(req.method)) {
         if (!token) {
           return NextResponse.json(
             { error: 'Unauthorized', message: 'Authentication required' },

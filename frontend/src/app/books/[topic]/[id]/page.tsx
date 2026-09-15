@@ -19,6 +19,7 @@ export default function SingleBookPage() {
   const topic = params.topic as string;
   const page = searchParams.get('page') || '1';
   const authorId = searchParams.get('author');
+  const search = searchParams.get('search');
   const [book, setBook] = useState<BookDetail | null>(null);
   const [canModifyBooks, setCanModify] = useState(false);
   const [showPrices, setShowPrices] = useState(false);
@@ -28,7 +29,7 @@ export default function SingleBookPage() {
 
   const listHref = `/books/${topic}?page=${page}${
     authorId ? `&author=${authorId}` : ''
-  }`;
+  }${search ? `&search=${encodeURIComponent(search)}` : ''}`;
 
   const fetchBook = () => {
     fetch(`/api/books/${bookId}`)

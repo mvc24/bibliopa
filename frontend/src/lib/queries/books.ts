@@ -39,6 +39,7 @@ export async function getAllBooksPaginated(page: number, limit: number) {
     FROM books b
     LEFT JOIN topics t ON b.topic_id = t.topic_id
     WHERE b.is_removed = FALSE AND b.is_active <> 0
+    ORDER BY regexp_replace(b.title, '^(der|die|das|ein|eine)\s+', '', 'i'), b.title
     LIMIT $1 OFFSET $2
     `,
     [limit, offset],
@@ -65,7 +66,7 @@ export async function getBooksOverviewWithTopic(
 
     WHERE b.is_removed = FALSE AND b.is_active <> 0
       AND t.topic_normalised = $1
-
+    ORDER BY regexp_replace(b.title, '^(der|die|das|ein|eine)\s+', '', 'i'), b.title
     LIMIT $2 OFFSET $3
     `,
     [topic_normalised, limit, offset],
@@ -91,6 +92,7 @@ export async function searchBooks(
     LEFT JOIN book_admin ba ON b.book_id = ba.book_id
     WHERE b.is_removed = FALSE AND b.is_active <> 0
       AND ba.original_entry ILIKE $1
+    ORDER BY regexp_replace(b.title, '^(der|die|das|ein|eine)\s+', '', 'i'), b.title
     LIMIT $2 OFFSET $3
     `,
     [`%${search}%`, limit, offset],
@@ -253,7 +255,7 @@ export async function getBooksFilteredByAuthor(
     WHERE b.is_removed = FALSE AND b.is_active <> 0
       AND b2p.person_id = $1
       AND b2p.is_author = TRUE
-    ORDER BY b.title
+    ORDER BY regexp_replace(b.title, '^(der|die|das|ein|eine)\s+', '', 'i'), b.title
     LIMIT $2 OFFSET $3
     `,
     [authorPersonId, limit, offset],
