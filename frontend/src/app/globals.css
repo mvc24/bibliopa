@@ -823,7 +823,7 @@ body {
         display: none;
     }
 
-    /* --- Reusable layout helpers (replace Mantine Card / Stack) --- */
+    /* --- Reusable layout helpers --- */
     .panel {
         background: var(--color-surface);
         border: var(--border-w) solid var(--color-border);

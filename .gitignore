@@ -11,10 +11,9 @@ frontend/.env.local
 node_modules/
 .ipynb_checkpoints/
 scripts/notebooks/
-database/in_progress/*.json
-database/in_progress/pass2_results
-database/in_progress/pass2_batches
-database/in_progress/pass1_results
-database/in_progress/pass1_batches
 .venv
 .next/
+.DS_Store
+.agents/skills/
+.claude/skills/
+skills-lock.json

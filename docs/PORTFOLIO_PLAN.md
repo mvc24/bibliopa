@@ -184,6 +184,20 @@ the two-iteration story with counts; `docs/trace.md` follows one book;
 `alembic upgrade head` builds an empty schema; live app search and paging
 behave; guests cannot write.
 
+## Deferred, deliberately
+
+Worth doing eventually, but not part of getting the project
+portfolio-ready, and not where her focus is:
+
+- Remove or disable the signup route. It exists so potential buyers could
+  log in and download lists; that never happened and the collection is
+  sold. Noted 2026-09-15 while tidying the tree.
+- Upgrade `nodemailer` past the four open advisories. The fix is
+  `nodemailer@10`, a breaking change that also touches `next-auth`'s own
+  pinned range. Two of the four advisories (RFC 5322 comment mis-parsing,
+  addressparser DoS) are reachable through the signup address, so removing
+  signup settles this one too.
+
 ## Out of scope, deliberately
 
 Separate portfolio frontend. Making the migration rerunnable. Sample runs.
