@@ -148,6 +148,9 @@ HARD STOP: she picks the book.
   why, numbers table, three decisions and their cost, status with the real
   ending (delivered, in use, collection sold), how the app is run. Sources:
   `PROJECT_LOG_updated.md`, `beschreibung.md`, `/project` page.
+  Include a "known limitations" section: the author filter needs 3
+  letters, so two-letter surnames ("Ku") cannot be filtered; the full-text
+  search is a substring match, so "Ku" also hits Kunst, Kultur, etc.
 - `docs/data-quality.md`: the missing-books hunt (994 rows, set logic on
   composite ids, 122 cross-references) with the count table.
 - `docs/entity-resolution.md`: two passes, surname blocking, nopes context
