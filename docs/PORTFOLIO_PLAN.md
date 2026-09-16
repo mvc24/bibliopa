@@ -89,7 +89,7 @@ Every move is `git mv` into `archive/` unless she says delete.
 
 HARD STOP: she reviews the move list before any `git mv`.
 
-## Step 3 — The migration as a readable archive (1–2 sessions)
+## DONE! Step 3 — The migration as a readable archive (1–2 sessions)
 
 Create `migration/` in the repo. Not a package, not runnable end to end,
 no path fixes beyond what is needed to read it. Two iterations, shown as
