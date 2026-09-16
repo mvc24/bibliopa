@@ -22,17 +22,12 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
-    json_path = Path("topic_slugs.json")
-    with open(json_path) as f:
-        mappings = json.load(f)
+    """Data migration, run once in January 2026. Now a no-op.
 
-    # Update each topic
-    for mapping in mappings:
-        op.execute(f"""
-            UPDATE topics
-            SET topic_name ='{mapping['topic_name']}', topic_normalised = '{mapping['topic_normalised']}'
-            WHERE topic_id = {mapping['topic_id']}
-        """)
+    It corrected topic names and slugs from topic_slugs.json, which is not
+    in the repo. The revision id stays so the chain is intact.
+    """
+    pass
 
 
 def downgrade() -> None:

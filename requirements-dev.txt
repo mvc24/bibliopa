@@ -1,0 +1,10 @@
+# Development only: notebooks and data exploration.
+-r requirements.txt
+
+jupyter==1.1.1
+jupyterlab==4.6.2
+ipywidgets==8.1.8
+pandas==3.0.5
+numpy==2.5.1
+openpyxl==3.1.5
+pip-review==1.3.0

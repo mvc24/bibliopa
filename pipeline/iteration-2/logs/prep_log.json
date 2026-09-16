@@ -1,0 +1,194 @@
+{
+  "critical": {},
+  "report": {
+    "wien": {
+      "entries": 244,
+      "people": 356
+    },
+    "de-lit-texte": {
+      "entries": 479,
+      "people": 689
+    },
+    "erstausgaben": {
+      "entries": 1934,
+      "people": 2282
+    },
+    "musik": {
+      "entries": 271,
+      "people": 376
+    },
+    "fremdsprachige": {
+      "entries": 451,
+      "people": 851
+    },
+    "griechenland": {
+      "entries": 200,
+      "people": 228
+    },
+    "philosophie": {
+      "entries": 595,
+      "people": 826
+    },
+    "maerchen": {
+      "entries": 54,
+      "people": 89
+    },
+    "bibliophile": {
+      "entries": 227,
+      "people": 356
+    },
+    "reisen": {
+      "entries": 311,
+      "people": 434
+    },
+    "judentum": {
+      "entries": 220,
+      "people": 292
+    },
+    "illustrierte": {
+      "entries": 232,
+      "people": 259
+    },
+    "kunstbuecher": {
+      "entries": 930,
+      "people": 1341
+    },
+    "ethnologie": {
+      "entries": 76,
+      "people": 102
+    },
+    "antike": {
+      "entries": 213,
+      "people": 487
+    },
+    "mittelalter": {
+      "entries": 151,
+      "people": 190
+    },
+    "insel": {
+      "entries": 648,
+      "people": 890
+    },
+    "biographie": {
+      "entries": 655,
+      "people": 708
+    },
+    "aegypten": {
+      "entries": 73,
+      "people": 85
+    },
+    "russland": {
+      "entries": 409,
+      "people": 706
+    },
+    "fruehes": {
+      "entries": 96,
+      "people": 124
+    },
+    "briefe": {
+      "entries": 371,
+      "people": 757
+    },
+    "religion": {
+      "entries": 89,
+      "people": 111
+    },
+    "de-lit-monographien": {
+      "entries": 238,
+      "people": 309
+    },
+    "buddhismus": {
+      "entries": 72,
+      "people": 110
+    },
+    "buch": {
+      "entries": 195,
+      "people": 197
+    },
+    "literatur": {
+      "entries": 287,
+      "people": 363
+    },
+    "oesterreich": {
+      "entries": 307,
+      "people": 483
+    },
+    "renaissance": {
+      "entries": 89,
+      "people": 129
+    },
+    "signierte": {
+      "entries": 240,
+      "people": 291
+    },
+    "mythologie": {
+      "entries": 58,
+      "people": 69
+    },
+    "neuzeit": {
+      "entries": 98,
+      "people": 122
+    },
+    "zeitgeschichte": {
+      "entries": 76,
+      "people": 101
+    },
+    "okkultismus": {
+      "entries": 179,
+      "people": 214
+    },
+    "monographien": {
+      "entries": 69,
+      "people": 89
+    },
+    "kinder": {
+      "entries": 98,
+      "people": 141
+    },
+    "christentum": {
+      "entries": 134,
+      "people": 186
+    },
+    "deutschland": {
+      "entries": 97,
+      "people": 145
+    },
+    "suchliste": {
+      "entries": 59,
+      "people": 58
+    },
+    "symbolkunde": {
+      "entries": 31,
+      "people": 35
+    },
+    "sonstiges": {
+      "entries": 79,
+      "people": 106
+    },
+    "geschichte": {
+      "entries": 32,
+      "people": 44
+    },
+    "islam": {
+      "entries": 66,
+      "people": 93
+    },
+    "esoterik": {
+      "entries": 10,
+      "people": 11
+    },
+    "autographen": {
+      "entries": 35,
+      "people": 40
+    },
+    "zeitschriften": {
+      "entries": 20,
+      "people": 17
+    }
+  },
+  "totals": {
+    "entries": 11498,
+    "unique_people": 9060,
+    "people_occurrences": 15892
+  }
+}

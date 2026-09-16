@@ -24,15 +24,15 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
+    """Data migration, run once in January 2026. Now a no-op.
 
-    from database.load_topics import load_topics # type: ignore
-    topics_table = sa.table('topics',
-        sa.column('topic_id', sa.Integer),
-        sa.column('topic_name', sa.String)
-    )
-    topics_data = load_topics()
-    op.bulk_insert(topics_table, topics_data)
+    It inserted the topics derived from the Word document names. The code it
+    imported is archived in pipeline/iteration-1/07_load/initial_load/
+    (load_topics.py, get_topics.py). The revision id stays so the chain is
+    intact and `alembic upgrade head` builds an empty schema.
+    """
+    pass
 
 
 def downgrade() -> None:
-    op.execute("DELETE FROM topics")
+    pass

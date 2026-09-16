@@ -23,27 +23,16 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
-    from database.initial_load.load_people import load_people # type: ignore
+    """Data migration, run once in January 2026. Now a no-op.
 
-    people_data, _ = load_people()
-
-    people_table = sa.table('people',
-        sa.column('person_id', sa.Integer),
-        sa.column('unified_id', sa.Text),
-        sa.column('family_name', sa.Text),
-        sa.column('given_names', sa.Text),
-        sa.column('name_particles', sa.Text),
-        sa.column('single_name', sa.Text),
-        sa.column('is_organisation', sa.Boolean)
-)
-
-    op.bulk_insert(people_table, people_data)
-
-    op.execute("""
-        SELECT setval('people_person_id_seq', (SELECT MAX(person_id) FROM people));
-    """)
+    It bulk-inserted the validated people records and reset the id sequence.
+    The code it imported is archived in
+    pipeline/iteration-1/07_load/initial_load/load_people.py. The revision id
+    stays so the chain is intact and `alembic upgrade head` builds an empty
+    schema.
+    """
+    pass
 
 
 def downgrade() -> None:
-    """Downgrade schema."""
-    op.execute("DELETE FROM people")
+    pass

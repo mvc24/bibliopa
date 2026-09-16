@@ -12,6 +12,6 @@ def get_db_connection():
         conn = psycopg.connect(f"dbname={os.getenv("DB_NAME")} user={os.getenv("DB_USER")} password={os.getenv("DB_PW")} host={os.getenv("DB_HOST")} port={os.getenv("DB_PORT")} sslmode=require")
         return conn
 
-    except:
-        # print("Connection failed!")
-        return None
+    except psycopg.Error as e:
+        print(f"Database connection failed: {e}")
+        raise

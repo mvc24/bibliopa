@@ -19,8 +19,14 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
-    """Prepare removing variants table"""
-    op.execute("ALTER TABLE books2people DROP CONSTRAINT books2people_variant_id_fkey;")
+    """Prepare removing variants table.
+
+    IF EXISTS added afterwards: the variant_id column this constraint belonged
+    to was created by an earlier version of 46891a539b3e that was edited
+    before it was committed, so on a replay from empty the constraint is
+    never there.
+    """
+    op.execute("ALTER TABLE books2people DROP CONSTRAINT IF EXISTS books2people_variant_id_fkey;")
 
 
 def downgrade() -> None:

@@ -1,3 +1,18 @@
+"""
+CAREFUL WITH THIS FILE.
+
+books2people has no unique constraint. `ON CONFLICT DO NOTHING` below
+therefore protects nothing: running this script twice on the same JSON
+inserts every row twice.
+
+The intended rule is one row per person per book, with all applicable role
+flags set on that one row. As of 2026-09-16 the live table breaks that rule
+for 20 books (the same person as two rows, e.g. editor + translator), and a
+few hundred books have no people rows at all because person matching failed.
+Both are known and deliberately left for the Splink / missing-entries work.
+Do not add a UNIQUE (book_id, person_id) constraint before those 20 pairs
+are merged; the migration would fail.
+"""
 from rich import print
 import json
 import sys

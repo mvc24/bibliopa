@@ -1,0 +1,913 @@
+[
+  {
+    "filename": "batch_symbolkunde_20250911-2246.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 5,
+    "people_logged": 6,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:36.838954",
+    "timestamp_loading": "2025-09-24 15:58:36.851896"
+  },
+  {
+    "filename": "batch_sonstiges_20250912-1057.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 4,
+    "people_logged": 10,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:36.876119",
+    "timestamp_loading": "2025-09-24 15:58:36.882528"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:36.907068"
+  },
+  {
+    "filename": "batch_bibliophile_20250917-1410.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 20,
+    "people_logged": 42,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:36.963736",
+    "timestamp_loading": "2025-09-24 15:58:36.973956"
+  },
+  {
+    "filename": "batch_autographen_20250911-2246.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 14,
+    "people_logged": 15,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 15:58:37.019477",
+    "timestamp_loading": "2025-09-24 15:58:37.027141"
+  },
+  {
+    "filename": "batch_buch_20250917-1410.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 24,
+    "people_logged": 29,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:37.092744",
+    "timestamp_loading": "2025-09-24 15:58:37.103700"
+  },
+  {
+    "filename": "batch_islam_20250912-0648.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 14,
+    "people_logged": 19,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 15:58:37.148100",
+    "timestamp_loading": "2025-09-24 15:58:37.154705"
+  },
+  {
+    "filename": "batch_deutschland_20250917-1440.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 21,
+    "people_logged": 39,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 15:58:37.222012",
+    "timestamp_loading": "2025-09-24 15:58:37.231515"
+  },
+  {
+    "filename": "batch_suchliste_20250911-2254.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 5,
+    "people_logged": 8,
+    "corrupt_entries_found": 2,
+    "timestamp": "2025-09-24 15:58:37.257350",
+    "timestamp_loading": "2025-09-24 15:58:37.264569"
+  },
+  {
+    "filename": "batch_bibliophile_20250917-1400.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 21,
+    "people_logged": 35,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 15:58:37.328970",
+    "timestamp_loading": "2025-09-24 15:58:37.338911"
+  },
+  {
+    "filename": "batch_maerchen_20250911-2251.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 22,
+    "people_logged": 43,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:37.404323",
+    "timestamp_loading": "2025-09-24 15:58:37.414801"
+  },
+  {
+    "filename": "batch_aegypten_20250911-2255.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 21,
+    "people_logged": 23,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:37.476662",
+    "timestamp_loading": "2025-09-24 15:58:37.487333"
+  },
+  {
+    "filename": "batch_mythologie_20250912-0648.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 13,
+    "people_logged": 16,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 15:58:37.532999",
+    "timestamp_loading": "2025-09-24 15:58:37.542855"
+  },
+  {
+    "filename": "batch_zeitgeschichte_20250912-1057.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 24,
+    "people_logged": 36,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:37.612380",
+    "timestamp_loading": "2025-09-24 15:58:37.623391"
+  },
+  {
+    "filename": "batch_antike_20250917-1359.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 24,
+    "people_logged": 62,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:37.692832",
+    "timestamp_loading": "2025-09-24 15:58:37.701910"
+  },
+  {
+    "filename": "batch_deutschland_20250917-1446.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 5,
+    "people_logged": 6,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 15:58:37.767127",
+    "timestamp_loading": "2025-09-24 15:58:37.772942"
+  },
+  {
+    "filename": "batch_griechenland_20250917-1448.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 25,
+    "people_logged": 32,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:37.843686",
+    "timestamp_loading": "2025-09-24 15:58:37.853773"
+  },
+  {
+    "filename": "batch_antike_20250917-1400.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 22,
+    "people_logged": 56,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 15:58:37.921624",
+    "timestamp_loading": "2025-09-24 15:58:37.932059"
+  },
+  {
+    "filename": "batch_mittelalter_20250917-1448.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 25,
+    "people_logged": 33,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:38.006807",
+    "timestamp_loading": "2025-09-24 15:58:38.017888"
+  },
+  {
+    "filename": "batch_christentum_20250917-1440.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 13,
+    "people_logged": 22,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:38.063084",
+    "timestamp_loading": "2025-09-24 15:58:38.071572"
+  },
+  {
+    "filename": "batch_aegypten_20250911-2257.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 25,
+    "people_logged": 29,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:38.145100",
+    "timestamp_loading": "2025-09-24 15:58:38.156808"
+  },
+  {
+    "filename": "batch_zeitschriften_20250911-2255.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 16,
+    "people_logged": 16,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:38.213600",
+    "timestamp_loading": "2025-09-24 15:58:38.229239"
+  },
+  {
+    "filename": "batch_briefe_20250924-1556.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 55,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 15:58:38.302065",
+    "timestamp_loading": "2025-09-24 15:58:38.315011"
+  },
+  {
+    "filename": "batch_griechenland_20250917-1446.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 20,
+    "people_logged": 22,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:38.380054",
+    "timestamp_loading": "2025-09-24 15:58:38.389612"
+  },
+  {
+    "filename": "batch_fruehes_20250917-1446.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 25,
+    "people_logged": 30,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:38.462772",
+    "timestamp_loading": "2025-09-24 15:58:38.475030"
+  },
+  {
+    "filename": "batch_geschichte_20250911-2251.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 39,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 15:58:38.549795",
+    "timestamp_loading": "2025-09-24 15:58:38.562420"
+  },
+  {
+    "filename": "batch_monographien_20250912-0648.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 12,
+    "people_logged": 25,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:38.610834",
+    "timestamp_loading": "2025-09-24 15:58:38.618222"
+  },
+  {
+    "filename": "batch_renaissance_20250912-0648.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 20,
+    "people_logged": 39,
+    "corrupt_entries_found": 2,
+    "timestamp": "2025-09-24 15:58:38.684476",
+    "timestamp_loading": "2025-09-24 15:58:38.695005"
+  },
+  {
+    "filename": "batch_kinder_20250912-0648.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 21,
+    "people_logged": 38,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 15:58:38.765024",
+    "timestamp_loading": "2025-09-24 15:58:38.775200"
+  },
+  {
+    "filename": "batch_judentum_20250917-1448.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 20,
+    "people_logged": 33,
+    "corrupt_entries_found": 3,
+    "timestamp": "2025-09-24 15:58:38.846200",
+    "timestamp_loading": "2025-09-24 15:58:38.856318"
+  },
+  {
+    "filename": "batch_buddhismus_20250911-2309.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 35,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 15:58:38.932052",
+    "timestamp_loading": "2025-09-24 15:58:38.943691"
+  },
+  {
+    "filename": "batch_sonstiges_20250912-0901.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 21,
+    "people_logged": 31,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 15:58:39.012859",
+    "timestamp_loading": "2025-09-24 15:58:39.023757"
+  },
+  {
+    "filename": "batch_renaissance_20250912-0901.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 20,
+    "people_logged": 36,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:39.090865",
+    "timestamp_loading": "2025-09-24 15:58:39.100504"
+  },
+  {
+    "filename": "batch_buddhismus_20250911-2257.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 45,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:39.174501",
+    "timestamp_loading": "2025-09-24 15:58:39.185985"
+  },
+  {
+    "filename": "batch_de-lit-monographien_20250917-1440.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 21,
+    "people_logged": 37,
+    "corrupt_entries_found": 2,
+    "timestamp": "2025-09-24 15:58:39.259266",
+    "timestamp_loading": "2025-09-24 15:58:39.270122"
+  },
+  {
+    "filename": "batch_geschichte_20250911-2246.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 22,
+    "people_logged": 31,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 15:58:39.343692",
+    "timestamp_loading": "2025-09-24 15:58:39.357004"
+  },
+  {
+    "filename": "batch_christentum_20250917-1410.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 22,
+    "people_logged": 32,
+    "corrupt_entries_found": 2,
+    "timestamp": "2025-09-24 15:58:39.430305",
+    "timestamp_loading": "2025-09-24 15:58:39.441300"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:02:20.132651"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:19:43.094516"
+  },
+  {
+    "filename": "batch_biographien_20250924-1619.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 22,
+    "people_logged": 29,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:19:43.170344",
+    "timestamp_loading": "2025-09-24 16:19:43.180286"
+  },
+  {
+    "filename": "batch_de-lit-texte_20250924-1619.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 32,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:19:43.257450",
+    "timestamp_loading": "2025-09-24 16:19:43.269942"
+  },
+  {
+    "filename": "batch_biographien_20250924-1628.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 21,
+    "people_logged": 28,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:29:34.647800",
+    "timestamp_loading": "2025-09-24 16:29:34.659268"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:29:34.680115"
+  },
+  {
+    "filename": "batch_biographien_20250924-1629.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 19,
+    "people_logged": 22,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 16:29:34.747518",
+    "timestamp_loading": "2025-09-24 16:29:34.756761"
+  },
+  {
+    "filename": "batch_de-lit-texte_20250924-1629.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 24,
+    "people_logged": 31,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 16:29:34.831577",
+    "timestamp_loading": "2025-09-24 16:29:34.843618"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:35:39.645962"
+  },
+  {
+    "filename": "batch_erstausgaben3_20250924-1634.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 25,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 16:35:39.729956",
+    "timestamp_loading": "2025-09-24 16:35:39.741152"
+  },
+  {
+    "filename": "batch_de-lit-texte_20250924-1634.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 39,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:35:39.817954",
+    "timestamp_loading": "2025-09-24 16:35:39.829271"
+  },
+  {
+    "filename": "batch_erstausgaben3_20250924-1638.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 22,
+    "people_logged": 28,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 16:46:14.171385",
+    "timestamp_loading": "2025-09-24 16:46:14.182585"
+  },
+  {
+    "filename": "batch_erstausgaben3_20250924-1643.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 24,
+    "people_logged": 26,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:46:14.268784",
+    "timestamp_loading": "2025-09-24 16:46:14.281092"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:46:14.303970"
+  },
+  {
+    "filename": "batch_erstausgaben3_20250924-1644.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 24,
+    "people_logged": 28,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:46:14.387486",
+    "timestamp_loading": "2025-09-24 16:46:14.397498"
+  },
+  {
+    "filename": "batch_fremdsprachige_20250924-1644.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 24,
+    "people_logged": 52,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:46:14.482097",
+    "timestamp_loading": "2025-09-24 16:46:14.493061"
+  },
+  {
+    "filename": "batch_ethnologie_20250924-1644.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 22,
+    "people_logged": 31,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 16:46:14.572401",
+    "timestamp_loading": "2025-09-24 16:46:14.582488"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:51:32.593400"
+  },
+  {
+    "filename": "batch_fremdsprachige_20250924-1651.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 25,
+    "people_logged": 56,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:51:32.675752",
+    "timestamp_loading": "2025-09-24 16:51:32.687998"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:58:52.560933"
+  },
+  {
+    "filename": "batch_fremdsprachige_20250924-1658.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 21,
+    "people_logged": 48,
+    "corrupt_entries_found": 2,
+    "timestamp": "2025-09-24 16:58:52.644891",
+    "timestamp_loading": "2025-09-24 16:58:52.658760"
+  },
+  {
+    "filename": "batch_illustrierte_20250924-1658.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 19,
+    "people_logged": 39,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 16:58:52.733384",
+    "timestamp_loading": "2025-09-24 16:58:52.743155"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:13:36.895388"
+  },
+  {
+    "filename": "batch_insel_20250924-1708.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 21,
+    "people_logged": 36,
+    "corrupt_entries_found": 2,
+    "timestamp": "2025-09-24 17:13:36.978813",
+    "timestamp_loading": "2025-09-24 17:13:36.990177"
+  },
+  {
+    "filename": "batch_illustrierte_20250924-1708.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 17,
+    "people_logged": 29,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:13:37.060929",
+    "timestamp_loading": "2025-09-24 17:13:37.070580"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:13:43.361178"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:15:10.448287"
+  },
+  {
+    "filename": "batch_insel_20250924-1716.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 40,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-24 17:19:14.136643",
+    "timestamp_loading": "2025-09-24 17:19:14.148533"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:19:14.170256"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:23:46.191634"
+  },
+  {
+    "filename": "batch_kunstbuecher_20250924-1723.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 19,
+    "people_logged": 27,
+    "corrupt_entries_found": 2,
+    "timestamp": "2025-09-24 17:23:46.278589",
+    "timestamp_loading": "2025-09-24 17:23:46.290290"
+  },
+  {
+    "filename": "batch_insel_20250924-1723.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 24,
+    "people_logged": 41,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:23:46.383556",
+    "timestamp_loading": "2025-09-24 17:23:46.394561"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:29:17.637089"
+  },
+  {
+    "filename": "batch_kunstbuecher_20250924-1729.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 22,
+    "people_logged": 36,
+    "corrupt_entries_found": 3,
+    "timestamp": "2025-09-24 17:29:17.725719",
+    "timestamp_loading": "2025-09-24 17:29:17.738437"
+  },
+  {
+    "filename": "batch_insel_20250924-1729.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 24,
+    "people_logged": 35,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:29:17.830897",
+    "timestamp_loading": "2025-09-24 17:29:17.842555"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:29:29.802166"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:33:53.943408"
+  },
+  {
+    "filename": "batch_kunstbuecher_20250924-1734.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 20,
+    "people_logged": 39,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:44:34.075950",
+    "timestamp_loading": "2025-09-24 17:44:34.086918"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:44:34.110236"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-24 17:45:04.225394"
+  },
+  {
+    "filename": "batch_esoterik_20250911-2309.json",
+    "processing_done": false,
+    "loading_done": false,
+    "entry_count": 0,
+    "people_logged": 9,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-25 12:16:49.600489"
+  },
+  {
+    "filename": "batch_philosophie_20250925-1201.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 37,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-25 12:16:49.684334",
+    "timestamp_loading": "2025-09-25 12:16:49.697954"
+  },
+  {
+    "filename": "batch_russland_20250925-1211.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 40,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-25 12:16:49.783299",
+    "timestamp_loading": "2025-09-25 12:16:49.795579"
+  },
+  {
+    "filename": "batch_neuzeit_20250925-1200.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 21,
+    "people_logged": 30,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-25 12:16:49.874682",
+    "timestamp_loading": "2025-09-25 12:16:49.886868"
+  },
+  {
+    "filename": "batch_musik_20250925-1200.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 29,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-25 12:16:49.968591",
+    "timestamp_loading": "2025-09-25 12:16:49.979327"
+  },
+  {
+    "filename": "batch_signierte_20250925-1211.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 22,
+    "people_logged": 33,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-25 12:16:50.063143",
+    "timestamp_loading": "2025-09-25 12:16:50.074646"
+  },
+  {
+    "filename": "batch_philosophie_20250924-1758.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 3,
+    "people_logged": 3,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-25 12:16:50.109119",
+    "timestamp_loading": "2025-09-25 12:16:50.115390"
+  },
+  {
+    "filename": "batch_mittelalter_20250924-1756.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 24,
+    "people_logged": 32,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-25 12:16:50.206557",
+    "timestamp_loading": "2025-09-25 12:16:50.219483"
+  },
+  {
+    "filename": "batch_wien_20250925-1211.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 20,
+    "people_logged": 28,
+    "corrupt_entries_found": 2,
+    "timestamp": "2025-09-25 12:16:50.305558",
+    "timestamp_loading": "2025-09-25 12:16:50.317227"
+  },
+  {
+    "filename": "batch_religion_20250925-1211.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 21,
+    "people_logged": 32,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-25 12:16:50.408061",
+    "timestamp_loading": "2025-09-25 12:16:50.421354"
+  },
+  {
+    "filename": "batch_okkultismus_20250925-1200.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 22,
+    "people_logged": 26,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-25 12:16:50.528245",
+    "timestamp_loading": "2025-09-25 12:16:50.540888"
+  },
+  {
+    "filename": "batch_literatur_20250924-1756.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 32,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-25 12:16:50.636679",
+    "timestamp_loading": "2025-09-25 12:16:50.648356"
+  },
+  {
+    "filename": "batch_reisen_20250925-1201.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 37,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-25 12:16:50.761792",
+    "timestamp_loading": "2025-09-25 12:16:50.774466"
+  },
+  {
+    "filename": "batch_oesterreich_20250925-1200.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 23,
+    "people_logged": 39,
+    "corrupt_entries_found": 1,
+    "timestamp": "2025-09-25 12:16:50.862789",
+    "timestamp_loading": "2025-09-25 12:16:50.874673"
+  },
+  {
+    "filename": "batch_religion_20250925-1201.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 24,
+    "people_logged": 31,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-25 12:16:50.979893",
+    "timestamp_loading": "2025-09-25 12:16:50.992568"
+  },
+  {
+    "filename": "batch_kunstbuecher_20250924-1756.json",
+    "processing_done": true,
+    "loading_done": true,
+    "entry_count": 21,
+    "people_logged": 32,
+    "corrupt_entries_found": 0,
+    "timestamp": "2025-09-25 12:16:51.077159",
+    "timestamp_loading": "2025-09-25 12:16:51.088304"
+  }
+]

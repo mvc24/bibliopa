@@ -1,0 +1,7 @@
+# 04 — people: match, clean, resolve the nopes
+
+- **Input:** `database/people_extracted.json` from stage 05 (names grouped by normalised spelling, 9,060 unique, 15,892 occurrences); `data/from db/people.json` and `people_variants.json` exported from the live database.
+- **Output:** `people_matched.json` / `people_unmatched.json`; cleaned people (`results_clean_*.json`); `nopes_final.json` with new people, matches onto existing people, and leftovers.
+- **Decided:** three steps instead of one. `match_people2people.py`: exact match of each new spelling against the variants already in the database, 5,595 of 9,060 matched. Operation A (`people_clean_prep`, `people_clean_processor clean`): every existing person through the API once, redistributing prefixes, particles and suffixes into the new columns, 7,817 people in 16 batches of 500. Operation B (`people_nopes_prep`, `people_clean_processor nopes`): the 1,223 still-unmatched names, batched by surname with the matching existing people sent as context, 41 batches; the model either points at an existing person or generates a `unified_id`. `people_nopes_reattach.py` re-attaches the book links to the new people.
+- **Logged:** `logs/clean_prep.log`, `logs/nopes_prep.log`, tracking files per operation.
+- **Went wrong:** the first attempt matched only 62%, which is what made the nopes pass necessary. The `people_variants` table was added for this step and dropped again afterwards.

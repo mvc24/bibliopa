@@ -4,6 +4,12 @@ Revision ID: 2b89618ef060
 Revises: a4defab8c92a
 Create Date: 2026-01-20 14:52:16.484409
 
+The table definitions below are the January 2026 schema, as this migration
+created it when it ran. It originally imported them from
+database/table_schemas.py; that module kept changing with the schema, so the
+dictionaries were inlined here in their original form. Later migrations in
+the chain add and change columns on top of this, so `alembic upgrade head`
+replays the schema history on an empty database.
 """
 from typing import Sequence, Union
 
@@ -27,8 +33,6 @@ def upgrade() -> None:
     BOOKS_SCHEMA = {
         "book_id": "SERIAL PRIMARY KEY",
         "composite_id": "TEXT UNIQUE",
-        "is_active": "INTEGER",
-        "is_removed": "BOOLEAN DEFAULT FALSE",
         "title": "TEXT NOT NULL",
         "subtitle": "TEXT",
         "publisher": "TEXT",
@@ -36,6 +40,7 @@ def upgrade() -> None:
         "publication_year": "INTEGER",
         "edition": "TEXT",
         "pages": "INTEGER",
+        "isbn": "TEXT",
         "format_original": "TEXT",
         "format_expanded": "TEXT",
         "condition": "TEXT",
@@ -57,9 +62,7 @@ def upgrade() -> None:
         "unified_id": "TEXT UNIQUE",
         "family_name": "TEXT",
         "given_names": "TEXT",
-        "name_prefix": "TEXT",
         "name_particles": "TEXT",
-        "name_suffix": "TEXT",
         "single_name": "TEXT",
         "is_organisation": "BOOLEAN DEFAULT FALSE",
         "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
@@ -69,8 +72,7 @@ def upgrade() -> None:
     TOPICS_SCHEMA = {
         "topic_id": "SERIAL PRIMARY KEY",
         "topic_name": "TEXT NOT NULL UNIQUE",
-        "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
-        "topic_normalised": "VARCHAR(255)"
+        "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
     }
 
     PRICES_SCHEMA = {
@@ -88,21 +90,19 @@ def upgrade() -> None:
         "volume_number": "INTEGER",
         "volume_title": "TEXT",
         "pages": "INTEGER",
-        "notes": "TEXT"
+        "notes": "TEXT",
+        "UNIQUE": "(book_id, volume_number)"
     }
 
     BOOKS2PEOPLE_SCHEMA = {
-        "b2p_id": "SERIAL PRIMARY KEY",
         "book_id": "INTEGER NOT NULL REFERENCES books(book_id) ON DELETE CASCADE",
-        "composite_id": "TEXT NOT NULL",
+        "composite_id": "TEXT REFERENCES books(composite_id) ON DELETE CASCADE",
         "person_id": "INTEGER NOT NULL REFERENCES people(person_id) ON DELETE CASCADE",
-        "unified_id": "TEXT NOT NULL",
+        "unified_id": "TEXT REFERENCES people(unified_id) ON DELETE CASCADE",
         "display_name": "TEXT",
         "family_name": "TEXT",
         "given_names": "TEXT",
-        "name_prefix": "TEXT",
         "name_particles": "TEXT",
-        "name_suffix": "TEXT",
         "single_name": "TEXT",
         "sort_order": "INTEGER",
         "is_author": "BOOLEAN DEFAULT FALSE",
@@ -110,19 +110,21 @@ def upgrade() -> None:
         "is_contributor": "BOOLEAN DEFAULT FALSE",
         "is_translator": "BOOLEAN DEFAULT FALSE",
         "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
-        "updated_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
+        "updated_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
+        "PRIMARY KEY": "(book_id, person_id)"
     }
 
     BOOK_ADMIN_SCHEMA = {
         "book_id": "INTEGER PRIMARY KEY REFERENCES books(book_id) ON DELETE CASCADE",
         "composite_id": "TEXT REFERENCES books(composite_id) ON DELETE CASCADE",
+        "source_filename": "TEXT NOT NULL",
         "original_entry": "TEXT NOT NULL",
-        "corrected_by_api": "BOOLEAN DEFAULT FALSE",
-        "missing_person": "BOOLEAN DEFAULT FALSE",
-        "multiple_editions": "BOOLEAN DEFAULT FALSE",
-        "api_concerned": "BOOLEAN DEFAULT FALSE",
-        "problematic_multi_volume": "BOOLEAN DEFAULT FALSE",
+        "parsing_confidence": "TEXT",
+        "needs_review": "BOOLEAN DEFAULT FALSE",
         "verification_notes": "TEXT",
+        "topic_changed": "BOOLEAN DEFAULT FALSE",
+        "price_changed": "BOOLEAN DEFAULT FALSE",
+        "batch_id": "TEXT",
         "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
     }
 
@@ -144,20 +146,6 @@ def upgrade() -> None:
         "expires_at": "TIMESTAMP NOT NULL",
         "created_at": "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
     }
-
-    # Variants deleted
-
-    # PEOPLE_VARIANTS_SCHEMA = {
-    #     "variant_id": "serial PRIMARY KEY",
-    #     "person_id": "integer NOT NULL REFERENCES people(person_id)",
-    #     "unified_id": "text NOT NULL",
-    #     "variant_string": "text NOT NULL",
-    #     "variant_normalised": "text NOT NULL",
-    #     "source": "text",
-    #     "created_at": "timestamp DEFAULT CURRENT_TIMESTAMP"
-    # }
-
-
 
     """Drop all existing tables and recreate with new schema."""
 

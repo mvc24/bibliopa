@@ -1,0 +1,386 @@
+{
+  "symbolkunde": {
+    "books": 30,
+    "matched": "93.33%",
+    "not_found": 2,
+    "validated": 28,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "fremdsprachige": {
+    "books": 921,
+    "matched": "91.75%",
+    "not_found": 76,
+    "validated": 807,
+    "validated_with_issues": 18,
+    "failed": 20
+  },
+  "griechenland": {
+    "books": 228,
+    "matched": "95.18%",
+    "not_found": 11,
+    "validated": 217,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "christentum": {
+    "books": 125,
+    "matched": "92.00%",
+    "not_found": 10,
+    "validated": 115,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "antike": {
+    "books": 188,
+    "matched": "95.21%",
+    "not_found": 9,
+    "validated": 174,
+    "validated_with_issues": 0,
+    "failed": 5
+  },
+  "religion": {
+    "books": 85,
+    "matched": "89.41%",
+    "not_found": 9,
+    "validated": 75,
+    "validated_with_issues": 0,
+    "failed": 1
+  },
+  "suchliste": {
+    "books": 58,
+    "matched": "20.69%",
+    "not_found": 46,
+    "validated": 12,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "kinder": {
+    "books": 83,
+    "matched": "78.31%",
+    "not_found": 18,
+    "validated": 65,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "mythologie": {
+    "books": 50,
+    "matched": "90.00%",
+    "not_found": 5,
+    "validated": 45,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "deutschland": {
+    "books": 81,
+    "matched": "88.89%",
+    "not_found": 9,
+    "validated": 70,
+    "validated_with_issues": 1,
+    "failed": 1
+  },
+  "kunstbuecher": {
+    "books": 814,
+    "matched": "80.47%",
+    "not_found": 159,
+    "validated": 641,
+    "validated_with_issues": 0,
+    "failed": 14
+  },
+  "okkultismus": {
+    "books": 158,
+    "matched": "91.14%",
+    "not_found": 14,
+    "validated": 142,
+    "validated_with_issues": 0,
+    "failed": 2
+  },
+  "de-lit-monographien": {
+    "books": 216,
+    "matched": "82.41%",
+    "not_found": 38,
+    "validated": 173,
+    "validated_with_issues": 0,
+    "failed": 5
+  },
+  "maerchen": {
+    "books": 49,
+    "matched": "85.71%",
+    "not_found": 7,
+    "validated": 42,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "erstausgaben3": {
+    "books": 566,
+    "matched": "92.93%",
+    "not_found": 40,
+    "validated": 524,
+    "validated_with_issues": 0,
+    "failed": 2
+  },
+  "insel": {
+    "books": 655,
+    "matched": "88.40%",
+    "not_found": 76,
+    "validated": 568,
+    "validated_with_issues": 0,
+    "failed": 11
+  },
+  "zeitschriften": {
+    "books": 20,
+    "matched": "60.00%",
+    "not_found": 8,
+    "validated": 12,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "ethnologie": {
+    "books": 272,
+    "matched": "96.32%",
+    "not_found": 10,
+    "validated": 254,
+    "validated_with_issues": 3,
+    "failed": 5
+  },
+  "autographen": {
+    "books": 28,
+    "matched": "60.71%",
+    "not_found": 11,
+    "validated": 17,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "signierte": {
+    "books": 199,
+    "matched": "88.94%",
+    "not_found": 22,
+    "validated": 175,
+    "validated_with_issues": 0,
+    "failed": 2
+  },
+  "geschichte": {
+    "books": 41,
+    "matched": "92.68%",
+    "not_found": 3,
+    "validated": 38,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "buch": {
+    "books": 187,
+    "matched": "73.26%",
+    "not_found": 50,
+    "validated": 133,
+    "validated_with_issues": 1,
+    "failed": 3
+  },
+  "renaissance": {
+    "books": 80,
+    "matched": "88.75%",
+    "not_found": 9,
+    "validated": 71,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "mittelalter": {
+    "books": 134,
+    "matched": "96.27%",
+    "not_found": 5,
+    "validated": 129,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "russland": {
+    "books": 392,
+    "matched": "89.54%",
+    "not_found": 41,
+    "validated": 331,
+    "validated_with_issues": 5,
+    "failed": 15
+  },
+  "buddhismus": {
+    "books": 55,
+    "matched": "89.09%",
+    "not_found": 6,
+    "validated": 48,
+    "validated_with_issues": 0,
+    "failed": 1
+  },
+  "wien": {
+    "books": 213,
+    "matched": "86.85%",
+    "not_found": 28,
+    "validated": 183,
+    "validated_with_issues": 0,
+    "failed": 2
+  },
+  "neuzeit": {
+    "books": 87,
+    "matched": "90.80%",
+    "not_found": 8,
+    "validated": 79,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "erstausgaben2": {
+    "books": 626,
+    "matched": "92.17%",
+    "not_found": 49,
+    "validated": 575,
+    "validated_with_issues": 0,
+    "failed": 2
+  },
+  "zeitgeschichte": {
+    "books": 57,
+    "matched": "98.25%",
+    "not_found": 1,
+    "validated": 56,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "esoterik": {
+    "books": 52,
+    "matched": "78.85%",
+    "not_found": 11,
+    "validated": 41,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "sonstiges": {
+    "books": 56,
+    "matched": "76.79%",
+    "not_found": 13,
+    "validated": 42,
+    "validated_with_issues": 1,
+    "failed": 0
+  },
+  "de-lit-texte": {
+    "books": 460,
+    "matched": "95.00%",
+    "not_found": 23,
+    "validated": 428,
+    "validated_with_issues": 0,
+    "failed": 9
+  },
+  "musik": {
+    "books": 245,
+    "matched": "84.49%",
+    "not_found": 38,
+    "validated": 206,
+    "validated_with_issues": 0,
+    "failed": 1
+  },
+  "monographien": {
+    "books": 58,
+    "matched": "74.14%",
+    "not_found": 15,
+    "validated": 43,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "erstausgaben1": {
+    "books": 626,
+    "matched": "93.61%",
+    "not_found": 40,
+    "validated": 584,
+    "validated_with_issues": 0,
+    "failed": 2
+  },
+  "fruehes": {
+    "books": 91,
+    "matched": "96.70%",
+    "not_found": 3,
+    "validated": 88,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "islam": {
+    "books": 58,
+    "matched": "91.38%",
+    "not_found": 5,
+    "validated": 53,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "aegypten": {
+    "books": 52,
+    "matched": "90.38%",
+    "not_found": 5,
+    "validated": 47,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "reisen": {
+    "books": 285,
+    "matched": "81.40%",
+    "not_found": 53,
+    "validated": 229,
+    "validated_with_issues": 1,
+    "failed": 2
+  },
+  "literatur": {
+    "books": 276,
+    "matched": "86.23%",
+    "not_found": 38,
+    "validated": 235,
+    "validated_with_issues": 1,
+    "failed": 2
+  },
+  "briefe": {
+    "books": 333,
+    "matched": "90.39%",
+    "not_found": 32,
+    "validated": 286,
+    "validated_with_issues": 2,
+    "failed": 13
+  },
+  "judentum": {
+    "books": 176,
+    "matched": "88.64%",
+    "not_found": 20,
+    "validated": 156,
+    "validated_with_issues": 0,
+    "failed": 0
+  },
+  "bibliophile": {
+    "books": 205,
+    "matched": "84.39%",
+    "not_found": 32,
+    "validated": 172,
+    "validated_with_issues": 0,
+    "failed": 1
+  },
+  "illustrierte": {
+    "books": 325,
+    "matched": "68.62%",
+    "not_found": 102,
+    "validated": 210,
+    "validated_with_issues": 0,
+    "failed": 13
+  },
+  "philosophie": {
+    "books": 555,
+    "matched": "92.43%",
+    "not_found": 42,
+    "validated": 508,
+    "validated_with_issues": 2,
+    "failed": 3
+  },
+  "oesterreich": {
+    "books": 254,
+    "matched": "88.98%",
+    "not_found": 28,
+    "validated": 225,
+    "validated_with_issues": 0,
+    "failed": 1
+  },
+  "biographie1": {
+    "books": 634,
+    "matched": "75.87%",
+    "not_found": 153,
+    "validated": 478,
+    "validated_with_issues": 0,
+    "failed": 3
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "total_entries_scanned": 17722,
+  "entries_needing_split": 64,
+  "batches_created": 3,
+  "batch_size": 25,
+  "output_directory": "database/in_progress/pass1_batches"
+}

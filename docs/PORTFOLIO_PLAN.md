@@ -51,7 +51,7 @@ get their own fresh session.
 
 HARD STOP: confirm done before anything is pushed publicly.
 
-## Step 1 — Frontend bug fixes (1 session, necessary)
+## DONE! Step 1 — Frontend bug fixes (1 session, necessary)
 
 Files: `frontend/src/lib/queries/books.ts`, `frontend/src/proxy.ts`,
 `frontend/src/lib/auth.ts`, possibly one Alembic migration.
@@ -72,7 +72,7 @@ Verification with the browser tools once she has started the dev server.
 
 HARD STOP: she deploys, we check the live app.
 
-## Step 2 — Tidy the tree, nothing deleted (1 session)
+## DONE! Step 2 — Tidy the tree, nothing deleted (1 session)
 
 Every move is `git mv` into `archive/` unless she says delete.
 
