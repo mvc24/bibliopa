@@ -39,7 +39,7 @@ row (`docs/trace.md`).
   RapidFuzz and a second API pass, validate, load with `executemany`.
 - **Constraints:** one person, no reviewers, learning Python while doing
   it; a 90-year-old end user with low vision and a tremor; an API budget
-  of a few hundred dollars.
+  of a few hundred euros.
 
 ## Why twice
 
@@ -72,8 +72,8 @@ Full stage tables with dates and counts: [`pipeline/README.md`](pipeline/README.
 | Books found missing in August 2026, re-parsed, not yet loaded | 1,008 |
 | Person mentions in the parsed data | 17,722 |
 | People in the database | 8,947 |
-| Parsing cost, both runs | about $200 + prompt-cached rerun |
-| People deduplication, API | about $6, 252 batches, 3h45 |
+| Parsing cost, both runs | about 200 € (iteration 2 not recorded separately) |
+| People deduplication, API | about 6 €, 252 batches, 3h45 |
 
 ## Three decisions and what they cost
 
@@ -105,8 +105,9 @@ original entry text".
 
 Open data work, in order (`todos.md`): load the 1,008 re-parsed books
 after matching their people; merge the 20 `books2people` rows that hold
-the same person twice, then add the unique constraint; fix the Splink
-model (see `docs/entity-resolution.md`).
+the same person twice, then add the unique constraint; run the fixed
+Splink model on the remaining unmatched names (see
+`docs/entity-resolution.md`).
 
 ## Known limitations
 

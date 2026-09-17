@@ -24,7 +24,7 @@ the new text instead of being re-parsed.
 |---|---|---|---|
 | 01 | read both versions, take text from kp and prices from p, batch | 2025-09-08 – 09-12 | 12,573 kp rows, 12,700 p rows, 11,544 prices matched, 1,156 unmatched p rows |
 | 02 | fuzzy-resolve the unmatched p rows against everything | 2025-09-29 | 1,179 discrepancies: 935 resolved (≥95), 52 probable (75–94), 192 unresolved |
-| 03 | parse every batch with the Claude Batch API | 2025-09-11 – 09-25 | 25 entries per batch, `claude-sonnet-4-20250514`, about $200 |
+| 03 | parse every batch with the Claude Batch API | 2025-09-11 – 09-25 | 25 entries per batch, `claude-sonnet-4-20250514`, about 200 € |
 | 04 | match parsed records onto the newer documents | 2025-12-14 – 12-17 | flags `topic_changed`, `price_changed` |
 | 05 | people: split multi-person strings, then deduplicate by surname | 2025-10-06 – 10-09 | 17,722 person records; 64 split in 3 batches; 17,702 into 252 batches over 7,076 surname groups |
 | 06 | validate books against their people rows before loading | 2026-01-15 | 48 files, 11,439 books: 9,830 validated, 35 with role mismatches, 141 failed, 1,433 without people rows |

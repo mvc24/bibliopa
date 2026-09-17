@@ -10,20 +10,21 @@ export default function ProjectPage() {
     <AppShell>
       <div className="stack project-page">
         <div className="stack">
-          <h1 className="project-title">bibliopa – die Bibliographie vom Opa</h1>
+          <h1 className="project-title">
+            bibliopa – die Bibliographie vom Opa
+          </h1>
           <h2 className="project-subtitle">
             bibliopa – bibliography + Opa (German: grandfather)
           </h2>
-          <p>
-            <a
-              className="project-repo-link"
-              href={REPO}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View on GitHub
-            </a>
-          </p>
+
+          <a
+            className="project-repo-link"
+            href={REPO}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View on GitHub
+          </a>
         </div>
 
         <div className="lang-grid">
@@ -40,7 +41,7 @@ export default function ProjectPage() {
               Jahrzehnte gewachsene Büchersammlung meines Großvaters – eines
               pensionierten Bibliothekars – aus knapp 50 Word-Dokumenten in eine
               strukturierte, durchsuchbare Datenbank und Webanwendung zu
-              überführen.
+              bringen.
             </p>
             <p>
               Die Ausgangsdaten sind nicht für eine Datenbank strukturiert: Die
@@ -86,22 +87,25 @@ export default function ProjectPage() {
             </p>
             <p>
               Im zweiten Durchlauf (04/2026–08/2026) korrigierte mein Großvater
-              stattdessen einen einzigen Datenstand und markierte jede
-              geänderte Zeile mit „! “ und jede entfernte mit „AUS! “. Dieser
-              Stand wurde neu extrahiert, mit einem überarbeiteten Prompt neu
-              geparst und auf einen Datenbank-Branch geladen, weil die erste
-              Version bereits in Benutzung war. Die Personendaten wurden auf
-              die bestehende Personentabelle abgeglichen statt neu
-              dedupliziert.
+              stattdessen einen einzigen Datenstand und markierte jede geänderte
+              Zeile mit „! “ und jede entfernte mit „AUS! “. Dieser Stand wurde
+              neu extrahiert, mit einem überarbeiteten Prompt neu geparst und
+              auf einen Datenbank-Branch geladen, weil die erste Version bereits
+              in Benutzung war. Die Personendaten wurden auf die bestehende
+              Personentabelle abgeglichen statt neu dedupliziert.
             </p>
             <p>
               Beide Durchläufe sind im Repository so erhalten, wie sie gelaufen
               sind – mit Code, Zählungen und Logs:{' '}
-              <a href={PIPELINE} target="_blank" rel="noopener noreferrer">
+              <a
+                href={PIPELINE}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 pipeline/
               </a>
-              . Ein einzelnes Buch ist von der Word-Zeile bis zur
-              Datenbankzeile nachverfolgt:{' '}
+              . Ein einzelnes Buch ist von der Word-Zeile bis zur Datenbankzeile
+              nachverfolgt:{' '}
               <a
                 href={`${DOCS}/trace.md`}
                 target="_blank"
@@ -149,7 +153,7 @@ export default function ProjectPage() {
                 </tr>
                 <tr>
                   <td>API-Kosten für das Parsing (beide Durchläufe)</td>
-                  <td>ca. 200 $</td>
+                  <td>ca. 200 €</td>
                 </tr>
               </tbody>
             </table>
@@ -171,10 +175,9 @@ export default function ProjectPage() {
               Drei Monate nach dem zweiten Durchlauf fehlten in der Datenbank
               1.008 Bücher. Die Ursache ließ sich über Mengenvergleiche der IDs
               pro Verarbeitungsstufe eingrenzen: Die Batch-API hatte einzelne
-              Einträge innerhalb erfolgreich abgeschlossener Batches mit
-              Fehlern zurückgegeben, und die Abholung hatte sie ohne Log
-              übersprungen. Die Einträge wurden neu geparst; die Zählkette
-              steht in{' '}
+              Einträge innerhalb erfolgreich abgeschlossener Batches mit Fehlern
+              zurückgegeben, und die Abholung hatte sie ohne Log übersprungen.
+              Die Einträge wurden neu geparst; die Zählkette steht in{' '}
               <a
                 href={`${DOCS}/data-quality.md`}
                 target="_blank"
@@ -204,8 +207,9 @@ export default function ProjectPage() {
               Dabei wurden auch weitere Datenqualitätsprobleme sichtbar, etwa
               Organisationen, die zunächst als Personen erfasst wurden, oder
               mehrere Personen, die in einem Datensatz zusammengefasst waren.
-              Das Splink-Modell ist nicht fertig: Exakte Nachnamen-Treffer
-              tragen ein negatives Gewicht, die Ursache und der Stand sind in{' '}
+              Das erste Splink-Modell war falsch: Exakte Nachnamen-Treffer
+              trugen ein negatives Gewicht, weil die Blocking-Regel die
+              Schätzung verzerrte. Ursache und Korrektur sind in{' '}
               <a
                 href={`${DOCS}/entity-resolution.md`}
                 target="_blank"
@@ -223,14 +227,13 @@ export default function ProjectPage() {
             </p>
             <p>
               <strong>Als Bestandteil der Pipeline:</strong> Jeder
-              Katalogeintrag wurde über die Claude Batch API in ein
-              JSON-Objekt mit rund 30 Feldern überführt. Der Prompt des
-              zweiten Durchlaufs ersetzt einen unbrauchbaren Confidence-Score
-              durch sechs Flags mit Begründungspflicht. Das Modell darf
-              offensichtliche Tippfehler korrigieren, muss das aber
-              kennzeichnen; bei Unsicherheit gilt: markieren statt korrigieren.
-              Preise, Themenzuordnung und die Aufteilung von Namen wurden
-              bewusst aus dem Prompt herausgehalten.
+              Katalogeintrag wurde über die Claude Batch API in ein JSON-Objekt
+              mit rund 30 Feldern umgewandelt. Der Prompt des zweiten Durchlaufs
+              ersetzt einen unbrauchbaren Confidence-Score durch sechs Flags mit
+              Begründungspflicht. Das Modell darf offensichtliche Tippfehler
+              korrigieren, muss das aber kennzeichnen; bei Unsicherheit gilt:
+              markieren statt korrigieren. Preise, Themenzuordnung und die
+              Aufteilung von Namen wurden bewusst aus dem Prompt herausgehalten.
             </p>
             <p>
               <strong>Als Werkzeug:</strong> Ich habe Python an diesem Projekt
@@ -274,8 +277,8 @@ export default function ProjectPage() {
               Die Anwendung wurde ausgeliefert und mehrere Monate lang von
               meinem Großvater selbst benutzt – zum Suchen, Blättern und
               Erfassen neuer Bücher. 2026 hat er sich entschieden, die Sammlung
-              zu verkaufen. Die Anwendung ist jetzt der Katalog, der den
-              Verkauf begleitet; der Fokus hat sich damit von der strukturierten
+              zu verkaufen. Die Anwendung ist jetzt der Katalog, der den Verkauf
+              begleitet; der Fokus hat sich damit von der strukturierten
               Detailanzeige zu „jedes Buch ist sichtbar, mit seinem
               Originaleintrag“ verschoben.
             </p>
@@ -283,19 +286,28 @@ export default function ProjectPage() {
               Offen sind: das Laden der 1.008 neu geparsten Bücher nach dem
               Abgleich ihrer Personen, die Bereinigung von 20 doppelten
               Personenzuordnungen vor dem Setzen eines Unique-Constraints, und
-              das Splink-Modell.
+              der Lauf des korrigierten Splink-Modells auf die noch nicht
+              zugeordneten Namen.
             </p>
 
             <h3 className="section-heading">Dokumentation</h3>
             <ul className="doc-links">
               <li>
-                <a href={REPO} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={REPO}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   README
                 </a>{' '}
                 – Überblick, Entscheidungen, Zahlen
               </li>
               <li>
-                <a href={PIPELINE} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={PIPELINE}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   pipeline/
                 </a>{' '}
                 – beide Durchläufe, Stufe für Stufe, mit Logs
@@ -402,8 +414,8 @@ export default function ProjectPage() {
             <h3 className="section-heading">Two runs</h3>
             <p>
               The migration was done twice. In the first run (09/2025–01/2026),
-              two non-identical versions of the catalogue – one with prices,
-              one without – had to be collated before parsing. 11,544 entries
+              two non-identical versions of the catalogue – one with prices, one
+              without – had to be collated before parsing. 11,544 entries
               matched exactly; 1,156 priced entries did not. A second stage
               located 935 of them by fuzzy matching, but its results were never
               written back. The database went live with those gaps.
@@ -420,7 +432,11 @@ export default function ProjectPage() {
             <p>
               Both runs are kept in the repository as they were run – code,
               counts and logs:{' '}
-              <a href={PIPELINE} target="_blank" rel="noopener noreferrer">
+              <a
+                href={PIPELINE}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 pipeline/
               </a>
               . One book is followed from its Word row to its database row:{' '}
@@ -471,21 +487,23 @@ export default function ProjectPage() {
                 </tr>
                 <tr>
                   <td>API cost for parsing (both runs)</td>
-                  <td>about $200</td>
+                  <td>about 200 €</td>
                 </tr>
               </tbody>
             </table>
 
-            <h3 className="section-heading">Working with evolving source data</h3>
+            <h3 className="section-heading">
+              Working with evolving source data
+            </h3>
             <p>
               A significant challenge has been reconciling multiple versions of
-              the source data while maintaining traceability back to the original
-              records.
+              the source data while maintaining traceability back to the
+              original records.
             </p>
             <p>
               For around 13,000 bibliographic records, I therefore developed
-              meaningful, deterministic IDs. When importing an updated version of
-              the source data, new and previously processed records could be
+              meaningful, deterministic IDs. When importing an updated version
+              of the source data, new and previously processed records could be
               compared and existing work reused wherever possible.
             </p>
             <p>
@@ -522,9 +540,9 @@ export default function ProjectPage() {
             <p>
               This process has also exposed further data-quality problems, such
               as organisations initially treated as people or multiple people
-              combined into a single record. The Splink model is not finished:
-              exact surname matches carry a negative weight; the cause and
-              current state are documented in{' '}
+              combined into a single record. The first Splink model was wrong:
+              exact surname matches carried a negative weight because the
+              blocking rule skewed the estimate. Cause and fix are documented in{' '}
               <a
                 href={`${DOCS}/entity-resolution.md`}
                 target="_blank"
@@ -544,11 +562,11 @@ export default function ProjectPage() {
               <strong>As a component of the pipeline:</strong> every catalogue
               entry was turned into a JSON object with about 30 fields through
               the Claude Batch API. The second run&apos;s prompt replaces an
-              unusable confidence score with six flags, each requiring a
-              written reason. The model may correct obvious typos but must mark
-              that it did; when in doubt, it flags instead of correcting.
-              Prices, topic assignment and name splitting were deliberately
-              kept out of the prompt.
+              unusable confidence score with six flags, each requiring a written
+              reason. The model may correct obvious typos but must mark that it
+              did; when in doubt, it flags instead of correcting. Prices, topic
+              assignment and name splitting were deliberately kept out of the
+              prompt.
             </p>
             <p>
               <strong>As a tool:</strong> I learned Python on this project. For
@@ -590,26 +608,35 @@ export default function ProjectPage() {
               The application was delivered and used by my grandfather himself
               for several months – searching, browsing and adding new books. In
               2026 he decided to sell the collection. The application is now the
-              catalogue that accompanies the sale, and the focus has shifted from
-              structured detail to &ldquo;every book is visible, with its
+              catalogue that accompanies the sale, and the focus has shifted
+              from structured detail to &ldquo;every book is visible, with its
               original entry&rdquo;.
             </p>
             <p>
               Still open: loading the 1,008 re-parsed books once their people
               are matched, merging 20 duplicate person assignments before adding
-              a unique constraint, and the Splink model.
+              a unique constraint, and running the fixed Splink model on the
+              names still unmatched.
             </p>
 
             <h3 className="section-heading">Documentation</h3>
             <ul className="doc-links">
               <li>
-                <a href={REPO} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={REPO}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   README
                 </a>{' '}
                 – overview, decisions, numbers
               </li>
               <li>
-                <a href={PIPELINE} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={PIPELINE}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   pipeline/
                 </a>{' '}
                 – both runs, stage by stage, with logs

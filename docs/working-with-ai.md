@@ -82,16 +82,17 @@ surname. That case is in the prompt as a caution.
   See [`data-quality.md`](data-quality.md).
 - Two rows came back with no title and were rejected by the `NOT NULL`
   constraint at load time.
-- Flags are stored in `book_admin` and shown on the book page to logged-in
-  users, so review can happen in the app.
+- Flags and notes are stored in `book_admin`. Showing them on the book
+  page for logged-in users, as a review queue, was planned and is not
+  built; review currently means querying the table.
 
 ### Cost
 
 | Run | Model | Entries | Cost |
 |---|---|---|---|
-| Iteration 1 parse | `claude-sonnet-4-20250514` | 12,573 | about $200 |
-| Iteration 1 people, two passes | same | 17,722 rows, 255 batches | about $6 |
-| Iteration 2 parse | `claude-sonnet-4-6`, prompt cached | 12,492 | lower; system prompt cached |
+| Iteration 1 parse | `claude-sonnet-4-20250514` | 12,573 | about 200 € |
+| Iteration 1 people, two passes | same | 17,722 rows, 255 batches | about 6 € |
+| Iteration 2 parse | `claude-sonnet-4-6`, prompt cached | 12,492 | not recorded separately; system prompt cached |
 | Iteration 2 people, clean + nopes | same | 7,817 + 1,223 | 57 batches |
 
 Batch API, temperature 0, one request per entry, 25 entries per file.

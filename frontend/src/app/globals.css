@@ -35,7 +35,8 @@
     /* contrast ~8.1:1 vs bg — clearly teal */
     --color-on-primary: #f4eede;
     --color-primary-hov: #173d4f;
-
+    --color-link: #5C1744;
+    --color-link-hov: #9a427b;
     /* Selected state (sidebar, segmented controls) */
     --color-selected: #163a4b;
     --color-on-sel: #f4eede;
@@ -875,7 +876,8 @@ body {
         font-weight: var(--w-bold);
         font-size: var(--text-2xl);
         line-height: var(--lh-tight);
-        margin: 0;
+        max-width: 90%;
+        margin: 0 auto;
     }
 
     .project-subtitle {
@@ -883,25 +885,43 @@ body {
         font-weight: var(--w-normal);
         font-size: var(--text-base);
         color: var(--color-muted);
-        margin: 0;
+        margin: 0 auto;
     }
 
-    .project-repo-link {
-        font-family: var(--font-sans);
-        font-weight: var(--w-semibold);
+    /* All links on the project page: colour + no underline at rest */
+    .project-repo-link,
+    .lang-card a {
+        font-family: var(--font-mono);
         font-size: var(--text-sm);
-        color: var(--color-primary);
+        font-weight: var(--w-light);
+        color: var(--color-link);
         text-decoration: none;
     }
 
-    .project-repo-link:hover {
+    .project-repo-link {
+        font-weight: var(--w-bold);
+        margin: 0 auto;
+    }
+
+    /* One hover rule for every link on the page */
+    .project-repo-link:hover,
+    .lang-card a:hover {
+        color: var(--color-link-hov);
         text-decoration: underline;
+        text-decoration-thickness: 1px;
     }
 
     .lang-grid {
         display: grid;
         grid-template-columns: 1fr;
         gap: var(--sp-4);
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Roomier than the default .panel padding */
+    .lang-card {
+        padding: var(--sp-5);
     }
 
     .lang-card .section-heading {
@@ -923,7 +943,7 @@ body {
     }
 
     .lang-card p {
-        font-size: var(--text-sm);
+        font-size: var(--text-md);
         line-height: var(--lh-snug);
         margin: 0;
     }
@@ -935,7 +955,7 @@ body {
     }
 
     .lang-card .numbers-table {
-        width: 100%;
+        width: 90%;
         border-collapse: collapse;
         font-size: var(--text-sm);
         line-height: var(--lh-snug);
@@ -949,7 +969,7 @@ body {
 
     .lang-card .numbers-table td:last-child {
         text-align: right;
-        font-family: var(--font-mono);
+        /* font-family: var(--font-mono); */
         white-space: nowrap;
         padding-left: var(--sp-3);
     }
@@ -961,9 +981,5 @@ body {
         line-height: var(--lh-snug);
     }
 
-    .lang-card .doc-links a,
-    .lang-card p a {
-        color: var(--color-primary);
-        text-decoration: underline;
-    }
+
 }

@@ -39,7 +39,7 @@ and stalled on abbreviations ("A. Schmidt" against "Anna Schmidt" against
 appears as Dostojewski, Dostojewskij and Dostoevsky. The notebooks under
 `scripts/notebooks/` are that work.
 
-Cost: about $6, 3h45.
+Cost: about 6 €, 3h45.
 
 ## Iteration 2: match onto what exists
 
@@ -76,31 +76,53 @@ probabilistic record-linkage library, with DuckDB as the backend,
 comparing `family_name` and `given_names` with Jaro-Winkler levels and
 blocking on each in turn for the EM training.
 
-The trained model is wrong, and the chart shows where:
+The first trained model was wrong, and the chart shows where:
 
-![m and u probabilities per comparison level](splink-m-u.png)
+![m and u probabilities per comparison level, first training](splink-m-u.png)
 
 The left panel is the m probability: among record pairs that *are* the
 same person, how often does each comparison level fire. For
 `family_name`, "exact match" is near zero and "Jaro-Winkler ≥ 0.7" is
 near 0.8. Read literally, that says two mentions of the same person
 almost never share an exact surname, which is false for this data. The
-consequence is in the match weights: an exact surname match carries a
-large **negative** weight, so the model penalises the strongest evidence
-it has.
+consequence is in the match weights: an exact surname match carried a
+large **negative** weight, so the model penalised the strongest evidence
+it had.
 
-My reading of the cause: the EM pass that estimates the `family_name`
-parameters is blocked on `given_names`, and within a block of people who
-share a first name, exact surname matches are rare. So EM learns that
-exact surname matches are rare among matches, which is a property of the
-block, not of the data. The fix is either to fix the m probability for
-exact surname matches by hand, or to estimate it from a different
-blocking rule. Neither has been done; this is where the work stopped for
-the portfolio.
+The cause is in Splink's own training output: "parameter estimates cannot
+be made for comparisons used in the blocking rules". Expectation
+maximisation runs once per blocking rule and can only estimate the
+comparisons that rule does not block on. So `family_name` was only ever
+estimated in the pass blocked on the first letter of `given_names`. Within
+a block of people who share a first initial, pairs that are the same
+person and also share an exact surname are a small minority of all pairs,
+and EM learned that minority as the m probability. That is a property of
+the block, not of the data.
+
+The fix (commit `36c7f02`, 2026-09-01) takes that level out of EM's
+hands. The exact-match level on `family_name` is built with
+`comparison_level_library` and its m probability is set to 0.9 and
+locked:
+
+```python
+cll.ExactMatchLevel("family_name").configure(
+    tf_adjustment_column="family_name",
+    m_probability=0.9,
+    fix_m_probability=True,
+),
+```
+
+0.9 is a judgement, not an estimate: if two mentions are the same person,
+the surname is written identically about nine times in ten in this data.
+The term-frequency adjustment keeps a match on "Müller" worth less than a
+match on "Dostojewski". The saved `splink_model.json` is the model after
+this change. The prediction step on the unmatched names has not been run
+with it yet.
 
 ## Open
 
-- Splink model, as above.
+- Run the fixed Splink model on the remaining unmatched names and the
+  people of the 1,008 re-parsed books.
 - A few hundred books with no people rows.
 - 20 books where `books2people` holds the same person twice (editor and
   translator as two rows instead of one row with both flags); merge, then
