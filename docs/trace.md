@@ -7,9 +7,10 @@ into the database and the live app.
 Exil.* Topic `erstausgaben`, `book_id` 1171.
 
 It is here because its `composite_id` is different in the two iterations.
-That is not a special case — 9,181 of roughly 10,900 books changed id
-between the runs. It is the reason the second iteration could not simply
-join on the id.
+That is not a special case. 9,950 books can be found in both runs by their
+entry text; 9,181 of those — 92% — came out of the second run with a
+different `composite_id`. It is the reason the second iteration could not
+join the two runs on the id.
 
 ---
 
@@ -18,9 +19,15 @@ join on the id.
 ### Iteration 1 (2025-09)
 
 The first run had two non-identical versions of the catalogue to work
-from: `kp`, authoritative for the text, and `p`, which carried the prices.
-Neither was complete on its own, so the first stage of iteration 1 was
-collating them.
+from. `p` ("Preise") is the older one my grandfather had always kept, with
+his price estimates in it. `kp` ("keine Preise") is the one he made a few
+months before the project started, by going through `p` and removing every
+price — antiquarian dealers dislike being handed a seller's own estimates,
+and he wanted a version he could give them on a stick. While doing that he
+also corrected things he noticed and moved entries between topics, so `kp`
+is the authoritative text — but there was no guarantee that nothing
+relevant had also been changed in `p`. Collating the two is the first
+stage of iteration 1.
 
 The entry in `kp` — one cell in a table, author line then body, no price:
 
@@ -28,7 +35,7 @@ The entry in `kp` — one cell in a table, author line then body, no price:
 
 The same entry in `p`:
 
-![The entry in the Preise document](2-i2_p_zech.png)
+![The entry in the Preise document](2-i1_p_zech.png)
 
 The cell happens to fall across a page break, which is why `ZECH, Paul`
 appears at the foot of one page and the body at the top of the next. That
@@ -104,14 +111,12 @@ the id from the loop's own `topic_normalised` variable, which was still
 the id matches the topic. The ids differ because of a fix, not because the
 data moved.
 
-**The index.** The index is the entry's position in the combined list.
-Removing the `AUS! ` rows above it shifts everything below, and the files
-are read with `Path.iterdir()`, whose order is not guaranteed. A shift of
-457 positions cannot be attributed to either cause alone.
+**The index.** The index is the entry's position in the combined list, so
+every `AUS! ` row removed above this one moves it.
 
-Either way the id is positional, so it cannot identify the same book
-across two runs. Iteration 2 matched on the normalised `original_entry`
-text instead.
+The id is positional. It identifies a row in one run, not a book across
+two, and nothing in it is stable enough to join on. Iteration 2 matched
+the two runs on the normalised `original_entry` text instead.
 
 ---
 
@@ -285,13 +290,7 @@ surname blocking, the cases that needed a human — is `docs/entity-resolution.m
 
 https://bibliopa.vercel.app/books/erstausgaben/1171
 
-As a guest:
-
-![The book as a guest sees it](5-screenshot_zech_guest.png)
-
-Signed in, with the price and the editing actions:
-
-![The book signed in](4-screenshot_zech_admin.png)
+![The book in the app](4-screenshot_zech_admin.png)
 
 **Datensatz original.** The block at the bottom shows the Word entry as it
 stood, unchanged. It is there because my grandfather asked for it: he

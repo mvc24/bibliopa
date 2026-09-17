@@ -142,5 +142,293 @@
         "records_created": 21,
         "matches_found": 21,
         "discrepancies": 0
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "ANTIKE TEXTE",
+        "kp_entries": 214,
+        "p_entries": 219,
+        "records_created": 214,
+        "matches_found": 196,
+        "discrepancies": 23
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "BIBLIOPHILE BÜCHER",
+        "kp_entries": 225,
+        "p_entries": 227,
+        "records_created": 225,
+        "matches_found": 200,
+        "discrepancies": 27
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "BUCH VERLAG ALMANACHE",
+        "kp_entries": 194,
+        "p_entries": 191,
+        "records_created": 194,
+        "matches_found": 176,
+        "discrepancies": 15
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "CHRISTENTUM",
+        "kp_entries": 138,
+        "p_entries": 143,
+        "records_created": 138,
+        "matches_found": 132,
+        "discrepancies": 11
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "DEUTSCHE LITERATUR MONOGRAPHIEN",
+        "kp_entries": 236,
+        "p_entries": 245,
+        "records_created": 236,
+        "matches_found": 232,
+        "discrepancies": 13
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "DEUTSCHLAND",
+        "kp_entries": 107,
+        "p_entries": 110,
+        "records_created": 107,
+        "matches_found": 98,
+        "discrepancies": 12
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "FRÜHES CHRISTENTUM",
+        "kp_entries": 112,
+        "p_entries": 120,
+        "records_created": 112,
+        "matches_found": 107,
+        "discrepancies": 13
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "GRIECHENLAND ROM",
+        "kp_entries": 246,
+        "p_entries": 260,
+        "records_created": 246,
+        "matches_found": 232,
+        "discrepancies": 28
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "JUDENTUM",
+        "kp_entries": 193,
+        "p_entries": 195,
+        "records_created": 193,
+        "matches_found": 185,
+        "discrepancies": 10
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "MITTELALTER",
+        "kp_entries": 150,
+        "p_entries": 158,
+        "records_created": 150,
+        "matches_found": 141,
+        "discrepancies": 17
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "NEUZEIT",
+        "kp_entries": 100,
+        "p_entries": 106,
+        "records_created": 100,
+        "matches_found": 96,
+        "discrepancies": 10
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "OKKULTISMUS, GEHEIMWISSENSCHAFTEN",
+        "kp_entries": 184,
+        "p_entries": 186,
+        "records_created": 184,
+        "matches_found": 178,
+        "discrepancies": 8
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "RELIGION ALLGEMEIN",
+        "kp_entries": 105,
+        "p_entries": 113,
+        "records_created": 105,
+        "matches_found": 101,
+        "discrepancies": 12
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "SIGNIERTE EXEMPLARE",
+        "kp_entries": 241,
+        "p_entries": 241,
+        "records_created": 241,
+        "matches_found": 235,
+        "discrepancies": 6
+    },
+    {
+        "timestamp": "20250917-1348",
+        "topic": "WIEN",
+        "kp_entries": 247,
+        "p_entries": 238,
+        "records_created": 247,
+        "matches_found": 217,
+        "discrepancies": 21
+    },
+    {
+        "timestamp": "20250924-1552",
+        "topic": "BRIEFE TAGEBÜCHER WERKE",
+        "kp_entries": 367,
+        "p_entries": 371,
+        "records_created": 367,
+        "matches_found": 309,
+        "discrepancies": 62
+    },
+    {
+        "timestamp": "20250924-1552",
+        "topic": "DEUTSCHE LITERATUR TEXTE",
+        "kp_entries": 481,
+        "p_entries": 491,
+        "records_created": 481,
+        "matches_found": 464,
+        "discrepancies": 27
+    },
+    {
+        "timestamp": "20250924-1552",
+        "topic": "ETHNOLOGIE PSYCHOLOGIE NATURWISSENSCHAFT",
+        "kp_entries": 310,
+        "p_entries": 313,
+        "records_created": 310,
+        "matches_found": 284,
+        "discrepancies": 29
+    },
+    {
+        "timestamp": "20250924-1552",
+        "topic": "ILLUSTRIERTE BÜCHER",
+        "kp_entries": 339,
+        "p_entries": 340,
+        "records_created": 339,
+        "matches_found": 301,
+        "discrepancies": 39
+    },
+    {
+        "timestamp": "20250924-1552",
+        "topic": "LITERATUR-UND SPRACHWISSENSCHAFT",
+        "kp_entries": 287,
+        "p_entries": 300,
+        "records_created": 287,
+        "matches_found": 278,
+        "discrepancies": 22
+    },
+    {
+        "timestamp": "20250924-1552",
+        "topic": "MUSIK UND THEATER",
+        "kp_entries": 271,
+        "p_entries": 279,
+        "records_created": 271,
+        "matches_found": 251,
+        "discrepancies": 28
+    },
+    {
+        "timestamp": "20250924-1552",
+        "topic": "ÖSTERREICH",
+        "kp_entries": 302,
+        "p_entries": 298,
+        "records_created": 302,
+        "matches_found": 260,
+        "discrepancies": 38
+    },
+    {
+        "timestamp": "20250924-1552",
+        "topic": "REISEN GEOGRAPHIE",
+        "kp_entries": 304,
+        "p_entries": 309,
+        "records_created": 304,
+        "matches_found": 284,
+        "discrepancies": 25
+    },
+    {
+        "timestamp": "20250924-1552",
+        "topic": "RUSSLAND",
+        "kp_entries": 419,
+        "p_entries": 422,
+        "records_created": 419,
+        "matches_found": 401,
+        "discrepancies": 21
+    },
+    {
+        "timestamp": "20250924-1601",
+        "topic": "BIOGRAPHIEN",
+        "kp_entries": 656,
+        "p_entries": 655,
+        "records_created": 656,
+        "matches_found": 624,
+        "discrepancies": 31
+    },
+    {
+        "timestamp": "20250924-1601",
+        "topic": "erstausgaben",
+        "kp_entries": 668,
+        "p_entries": 667,
+        "records_created": 668,
+        "matches_found": 646,
+        "discrepancies": 21
+    },
+    {
+        "timestamp": "20250924-1601",
+        "topic": "erstausgaben",
+        "kp_entries": 676,
+        "p_entries": 680,
+        "records_created": 676,
+        "matches_found": 615,
+        "discrepancies": 65
+    },
+    {
+        "timestamp": "20250924-1601",
+        "topic": "erstausgaben",
+        "kp_entries": 616,
+        "p_entries": 620,
+        "records_created": 616,
+        "matches_found": 590,
+        "discrepancies": 30
+    },
+    {
+        "timestamp": "20250924-1601",
+        "topic": "FREMDSPRACHIGE LITERATUR IN ÜBERSETZUNGEN",
+        "kp_entries": 953,
+        "p_entries": 954,
+        "records_created": 953,
+        "matches_found": 911,
+        "discrepancies": 43
+    },
+    {
+        "timestamp": "20250924-1601",
+        "topic": "INSEL-BÜCHEREI",
+        "kp_entries": 672,
+        "p_entries": 673,
+        "records_created": 672,
+        "matches_found": 447,
+        "discrepancies": 226
+    },
+    {
+        "timestamp": "20250924-1601",
+        "topic": "KUNSTBÜCHER",
+        "kp_entries": 941,
+        "p_entries": 928,
+        "records_created": 941,
+        "matches_found": 826,
+        "discrepancies": 102
+    },
+    {
+        "timestamp": "20250924-1601",
+        "topic": "PHILOSOPHIE",
+        "kp_entries": 603,
+        "p_entries": 613,
+        "records_created": 603,
+        "matches_found": 571,
+        "discrepancies": 42
     }
 ]
