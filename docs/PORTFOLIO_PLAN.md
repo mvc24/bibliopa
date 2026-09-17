@@ -132,7 +132,7 @@ migration/
 
 HARD STOP: she confirms the two-iteration split and the folder names.
 
-## Step 4 — One book, traced end to end (½ session)
+## DONE! Step 4 — One book, traced end to end (½ session)
 
 Pick one real entry. Show, in `docs/trace.md`: the Word row (screenshot or
 text), its raw JSON with price extracted, its `composite_id`, the parsed

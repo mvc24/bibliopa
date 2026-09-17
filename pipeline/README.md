@@ -12,14 +12,17 @@ bibliographic entry per row. The target is the PostgreSQL schema built by
 ## Iteration 1 — September 2025 to January 2026
 
 Two non-identical versions of the catalogue existed: "keine Preise" (kp, the
-newer text) and "Preise" (p, older but with prices). They had to be collated
-before parsing. After parsing was done and paid for, a third, newer set of
-documents arrived, so the parsed records were matched back onto the new text
-instead of being re-parsed.
+newer text) and "Preise" (p, older but with prices). kp was made by going
+through p and stripping every price out, so that the catalogue could be
+shown to antiquarian dealers without a seller's own estimates in it; text
+was corrected and entries moved between topics in the same pass. They had to
+be collated before parsing. After parsing was done and paid for, a third,
+newer set of documents arrived, so the parsed records were matched back onto
+the new text instead of being re-parsed.
 
 | stage | what | when | counts |
 |---|---|---|---|
-| 01 | read both versions, take text from kp and prices from p, batch | 2025-09-08 – 09-12 | first 16 files: 1,016 rows, 956 prices matched, 79 unmatched p rows |
+| 01 | read both versions, take text from kp and prices from p, batch | 2025-09-08 – 09-12 | 12,573 kp rows, 12,700 p rows, 11,544 prices matched, 1,156 unmatched p rows |
 | 02 | fuzzy-resolve the unmatched p rows against everything | 2025-09-29 | 1,179 discrepancies: 935 resolved (≥95), 52 probable (75–94), 192 unresolved |
 | 03 | parse every batch with the Claude Batch API | 2025-09-11 – 09-25 | 25 entries per batch, `claude-sonnet-4-20250514`, about $200 |
 | 04 | match parsed records onto the newer documents | 2025-12-14 – 12-17 | flags `topic_changed`, `price_changed` |
@@ -31,9 +34,19 @@ The result was deployed and used.
 
 ## Iteration 2 — April to August 2026
 
-A single corrected version of all documents, marked up by hand: `! ` at the
-start of an edited row, `AUS! ` at the start of a removed one. The schema was
-also adapted to what the first iteration had shown: `isbn` went (it was never
+Iteration 1 ended with 1,156 entries that were in the priced version and not
+in the authoritative one. Stage 02 located 935 of them but never wrote the
+results back, so from my grandfather's side the catalogue he was being shown
+was incomplete — which was his objection to it. He had also gone on working
+in a document that had prices again, without consolidating the two versions.
+Reconciling them by hand would have been slower than reading one corrected
+document from scratch, so the second iteration disregards the earlier
+discrepancies entirely and starts from a single source.
+
+That source is a single corrected version of all documents, marked up by
+hand: `! ` at the start of an edited row, `AUS! ` at the start of a removed
+one. The schema was also adapted to what the first iteration had shown:
+`isbn` went (it was never
 going to be researched); `is_active` came in as a number, not a boolean, so
 that entries with certain API flags could be held back from display with
 room for finer levels later; and name particles were split into
